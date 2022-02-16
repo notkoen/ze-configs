@@ -2,324 +2,324 @@ s1 <- null;
 s2 <- null;
 
 function Msg2(){
-	s1 = "贴门防守"
-	s2 = "秒后木板会碎掉"
+	s1 = "Defend for "
+	s2 = " seconds until wooden boards break"
 	CountdownTimer(25);
 }
 
 function Msg3(){
-	s1 = ""
-	s2 = "秒后清除木板障碍，准备贴门"
+	s1 = "Fall back when wooden boards break in "
+	s2 = " seconds"
     CountdownTimer(20);
 }
 
 function Msg4(){
-	s1 = ""
-	s2 = "秒后僵尸传送到人类后方"
+	s1 = "Zombies teleport behind humans in "
+	s2 = " seconds"
     CountdownTimer2(12);
 }
 
 function Msg5(){
-	s1 = ""
-	s2 = "后僵尸传送楼梯下方，僵尸有防刷传送保护"
+	s1 = "Zombies teleport below the stairs in "
+	s2 = " stairs"
     CountdownTimer2(15);
 }
 function Msg6(){
-	s1 = "贴门防守楼梯口，"
-	s2 = "秒后箱子障碍会被清除"
+	s1 = "Defend until obstacles clear in "
+	s2 = " seconds"
     CountdownTimer(40);
 }
 
 function Msg7(){
-	s1 = ""
-	s2 = "秒后开启僵尸快速送人头传送通道"
+	s1 = "Zombies teleport to the pathway in "
+	s2 = " seconds"
     CountdownTimer2(10);
 }
 
 function Msg8(){
-	s1 = ""
-	s2 = "秒后铁门打开"
+	s1 = "Metal door opens in "
+	s2 = " seconds"
     CountdownTimer(30);
 }
 
 function Msg9(){
-	s1 = ""
-	s2 = "秒后僵尸传送到人类前方"
+	s1 = "Zombies teleport behind in "
+	s2 = " seconds"
     CountdownTimer2(12);
 }
 
 function Msg10(){
-	s1 = ""
-	s2 = "秒后箱子障碍和铁丝网会碎掉，小心僵尸追尾"
+	s1 = "Metal fence and boxes break in "
+	s2 = " seconds. Watch your backs!"
     CountdownTimer(35);
 }
 
 function Msg11(){
-	s1 = ""
-	s2 = "秒后门口箱子，墙和屋顶小板子一起碎掉"
+	s1 = "Obstacles clear in "
+	s2 = " seconds"
     CountdownTimer(20);
 }
 
 function Msg12(){
-	s1 = ""
-	s2 = "秒后僵尸传送到人类后方"
+	s1 = "Zombies teleport behind in "
+	s2 = " seconds"
     CountdownTimer2(10);
 }
 
 function Msg13(){
-	s1 = ""
-	s2 = "秒铁门升起，往门口楼梯右边扶手跳下去"
+	s1 = "Metal door opens in "
+	s2 = " seconds"
     CountdownTimer(30);
 }
 
 function Msg14(){
-	s1 = ""
-	s2 = "秒后僵尸传送到楼梯旁边"
+	s1 = "Zombies teleport to the stairs in "
+	s2 = " seconds"
     CountdownTimer2(15);
 }
 
 function Msg15(){
-	s1 = "防守"
-	s2 = "秒后，集装箱上方箱子障碍清除"
+	s1 = "Defend for "
+	s2 = " seconds until boxes break"
     CountdownTimer(30);
 }
 
 function Msg16(){
-	s1 = ""
-	s2 = "秒后僵尸传送到人类后方"
+	s1 = "Zombies teleport behind in "
+	s2 = " seconds"
     CountdownTimer2(10);
 }
 
 function Msg17(){
-	s1 = ""
-	s2 = "秒后僵尸传送到黑色岩石中间"
+	s1 = "Zombies teleport between the rocks in "
+	s2 = " seconds"
     CountdownTimer2(15);
 }
 
 function Msg18(){
-	s1 = "防守"
-	s2 = "秒直到铁门升起"
+	s1 = "Defend for "
+	s2 = " seconds until metal door opens"
     CountdownTimer(20);
 }
 
 function Msg18s(){
-	s1 = "回头防守"
-	s2 = "秒到铁门关闭"
+	s1 = "Defend for "
+	s2 = " seconds until metal door closes"
     CountdownTimer(10);
 }
 
 function Msg19(){
-	s1 = ""
-	s2 = "秒后准备人类进电梯，即将进入下一关里世界"
+	s1 = "Prepare to enter the elevator in "
+	s2 = " seconds and move to the next level"
     CountdownTimer(7);
 }
 
 function Msg21(){
-	s1 = ""
-	s2 = "秒后红铁门打开，进门后过蹲口后注意掩护队友"
+	s1 = "Backdoor opens in "
+	s2 = " seconds"
     CountdownTimer(25);
 }
 
 function Msg22(){
-	s1 = "防守蹲口"
-	s2 = "秒后铁网门打开"
+	s1 = "Defend the crouch spot for "
+	s2 = " seconds until metal door opens"
     CountdownTimer(20);
 }
 
 function Msg23(){
-	s1 = ""
-	s2 = "秒后挂机的僵尸会传送到前蹲口上方"
+	s1 = "Zombies teleport above in "
+	s2 = " seconds"
     CountdownTimer2(5);
 }
 
 function Msg24(){
-	s1 = ""
-	s2 = "秒后僵尸传送到墙壁后面"
+	s1 = "Zombies teleport behind the wall in "
+	s2 = " seconds"
     CountdownTimer2(10);
 }
 
 function Msg25(){
-	s1 = "防守"
-	s2 = "秒后铁网门升起"
+	s1 = "Defend for "
+	s2 = " seconds until metal door opens"
     CountdownTimer(45);
 }
 
 function Msg26(){
-	s1 = ""
-	s2 = "秒后僵尸传送到楼梯下，开启侧路"
+	s1 = "Zombies teleport below the stairs in "
+	s2 = " seconds, opening the shortcut"
     CountdownTimer2(10);
 }
 
 function Msg27(){
-	s1 = "防守"
-	s2 = "秒后铁网门升起"
+	s1 = "Defend for "
+	s2 = " seconds until metal door opens"
     CountdownTimer(20);
 }
 
 function Msg28(){
-	s1 = "已开启僵尸侧路，"
-	s2 = "秒后红铁门开启"
+	s1 = "Zombie shortcut open, metal door opens in "
+	s2 = " seconds"
     CountdownTimer(20);
 }
 
 function Msg29(){
-	s1 = ""
-	s2 = "秒后板子路和板子障碍会碎掉，准备爬上楼梯"
+	s1 = "Obstacles clear in "
+	s2 = " seconds. Prepare to head up"
     CountdownTimer(25);
 }
 
 function Msg30(){
-	s1 = ""
-	s2 = "秒后僵尸传送到人类下方血腥小平台，上楼梯打碎板"
+	s1 = "Zombies teleport to the platform below in "
+	s2 = " secons. Break the wall above"
     CountdownTimer2(10);
 }
 
 function Msg31(){
-	s1 = ""
-	s2 = "秒后僵尸传送到楼梯上方，开启侧路，注意空降僵尸"
+	s1 = "Zombies teleport above the stairs in "
+	s2 = " seconds. Beware of shortcut above"
     CountdownTimer2(10);
 }
 
 function Msg32(){
-	s1 = "防守电梯门口，"
-	s2 = "秒后电梯升起"
+	s1 = "Defend for "
+	s2 = " seconds until elevator rises"
     CountdownTimer(20);
 }
 
 function Msg33(){
-	s1 = ""
-	s2 = "秒后木板碎掉,往大坑下面跳"
+	s1 = "Wooden boards break in "
+	s2 = " seconds. Prepare to jump down the hole"
     CountdownTimer(5);
 }
 
 function Msg34(){
-	s1 = ""
-	s2 = "秒后僵尸传送到人类后方"
+	s1 = "Zombies teleport behind in "
+	s2 = " seconds"
     CountdownTimer2(15);
 }
 
 function Msg35(){
-	s1 = ""
-	s2 = "秒后污水深处升起一块平台"
+	s1 = "Platform rises in "
+	s2 = " seconds"
     CountdownTimer(30);
 }
 
 function Msg36(){
-	s1 = "防守"
-	s2 = "秒后铁门开启将僵尸挡在门外面"
+	s1 = "Defend for "
+	s2 = " until metal door opens. Zombies are held back"
     CountdownTimer(15);
 }
 
 function Msg37(){
-	s1 = ""
-	s2 = "秒后僵尸开始追尾"
+	s1 = "Zombies start chasing in "
+	s2 = " seconds"
     CountdownTimer2(4);
 }
 
 function Msg38(){
-	s1 = ""
-	s2 = "秒后僵尸传送到集装箱这边"
+	s1 = "Zombies teleport by the boxes in "
+	s2 = " seconds"
     CountdownTimer2(10);
 }
 
 function Msg39(){
-	s1 = ""
-	s2 = "秒后挡路障碍清除"
+	s1 = "Clearing obstacles in "
+	s2 = " seconds"
     CountdownTimer(30);
 }
 
 function Msg40(){
-	s1 = ""
-	s2 = "秒后挡路障碍清除，准备贴门"
+	s1 = "Clearing obstacles in "
+	s2 = " seconds. Prepare to doorhug"
     CountdownTimer(25);
 }
 
 function Msg41(){
-	s1 = ""
-	s2 = "秒后僵尸传送到斜坡处，小心僵尸追尾"
+	s1 = "Zombies teleport by the ramp in "
+	s2 = " seconds. Watch your back!"
     CountdownTimer2(10);
 }
 
 function Msg42(){
-	s1 = ""
-	s2 = "秒后僵尸传送到铁丝网后面"
+	s1 = "Zombies teleport to the metal fence in "
+	s2 = " seconds"
     CountdownTimer2(15);
 }
 
 function Msg43(){
-	s1 = "防守"
-	s2 = "秒后铁网门开启"
+	s1 = "Defend for "
+	s2 = " seconds until metal door opens"
     CountdownTimer(25);
 }
 function Msg44(){
-	s1 = ""
-	s2 = "秒后僵尸传送到人类后方，小心前面洞口"
+	s1 = "Zombies teleport behind in "
+	s2 = " seconds"
     CountdownTimer(15);
 }
 
 function Msg45(){
-	s1 = "人类越过箱子，"
-	s2 = "秒后僵尸将进一步传送"
+	s1 = "Zombies teleport behind in "
+	s2 = " seconds"
     CountdownTimer2(15);
 }
 
 function Msg46(){
-	s1 = "最后的守点，"
-	s2 = "秒后电梯升起"
+	s1 = "Last defense! Elevator rises in "
+	s2 = " seconds"
     CountdownTimer(30);
 }
 
 function Msg47(){
-	s1 = ""
-	s2 = "秒后第一层僵尸开始传送"
+	s1 = "First  zombie teleport activates in "
+	s2 = " seconds"
     CountdownTimer(30);
 }
 
 function Msg48(){
-	s1 = ""
-	s2 = "秒后第二层僵尸开始传送"
+	s1 = "Second zombie teleport activates in "
+	s2 = " seconds"
     CountdownTimer2(35);
 }
 
 function Msg49(){
-	s1 = ""
-	s2 = "秒后第三层僵尸开始传送"
+	s1 = "Third zombie teleport activates in "
+	s2 = " seconds"
     CountdownTimer3(35);
 }
 
 function Msg50(){
-	s1 = ""
-	s2 = "秒后第四层僵尸开始传送"
+	s1 = "Fourth zombie teleport activates in "
+	s2 = " seconds"
     CountdownTimer(40);
 }
 
 function Msg51(){
-	s1 = ""
-	s2 = "秒后第五层僵尸开始传送"
+	s1 = "Fifth zombie teleport activates in "
+	s2 = " seconds"
     CountdownTimer2(40);
 }
 
 function Msg52(){
-	s1 = "终点传送将在"
-	s2 = "秒后开始传送"
+	s1 = "Final teleport activates in "
+	s2 = " seconds"
     CountdownTimer3(45);
 }
 
 function Msg53(){
-	s1 = "人类想办法生存"
-	s2 = "秒，僵尸之后集体吃核爆"
+	s1 = "Try to survive humans! Nuking zombies in "
+	s2 = " seconds"
     CountdownTimer(93);
 }
 
 function Msg54(){
-	s1 = ""
-	s2 = "秒后僵尸传送到人类下方"
+	s1 = "Zombies teleport below in "
+	s2 = " seconds"
     CountdownTimer2(10);
 }
 
 function Msg55(){
-	s1 = ""
-	s2 = "秒后僵尸传送到人类后方"
+	s1 = "Zombies teleport behind in "
+	s2 = " seconds"
     CountdownTimer2(15);
 }
 
@@ -363,7 +363,7 @@ function MT2(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n 撤退 " + 
+			"\n Retreat " + 
 			"\n"
 			
 		theGameText.__KeyValueFromString("message",Text)
@@ -379,7 +379,7 @@ function MT3(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n 《寂静岭：黑血》" + 
+			"\n 《Silent Hill 1: Black Blood》" + 
 			"\n"
 			
 		theGameText.__KeyValueFromString("message",Text)
@@ -395,7 +395,7 @@ function MT4(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n 地图作者：港村村长" + 
+			"\n Mapper：港村村長" + 
 			"\n"
 			
 		theGameText.__KeyValueFromString("message",Text)
@@ -411,7 +411,7 @@ function MT5(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n 第一关 户外表世界" + 
+			"\n Stage 1: Overworld" + 
 			"\n"
 			
 		theGameText.__KeyValueFromString("message",Text)
@@ -427,9 +427,9 @@ function MT6(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n 提示：建议人类防守楼梯口，集体贴门可能会导致僵尸空降" + 
+			"\n Hint: Overdefend the stairs instead of doorhugging" + 
 			"\n" +
-			"\n                  倒计时剩5秒后再丢雷撤退"+
+			"\n Throw nades and fall back when 5 seconds remain"+
 			"\n"
 			
 		theGameText.__KeyValueFromString("message",Text)
@@ -445,7 +445,7 @@ function MT7(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n 提示：前面防守的玩家，建议倒计时剩16秒后撤退贴门" + 
+			"\n Hint: Overdefenders fall back when 16 seconds remain" + 
 			"\n"
 			
 		theGameText.__KeyValueFromString("message",Text)
@@ -461,7 +461,7 @@ function MT8(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n 提示：待在外面会吃核爆，快进电梯" + 
+			"\n Hint: Get in the elevator or die to the nuke" + 
 			"\n"
 			
 		theGameText.__KeyValueFromString("message",Text)
@@ -477,7 +477,7 @@ function MT9(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n 第二关 地下里世界" + 
+			"\n Stage 2: Underworld" + 
 			"\n"
 			
 		theGameText.__KeyValueFromString("message",Text)
@@ -493,7 +493,7 @@ function MT10(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n 发现隐藏房间（1/4）" + 
+			"\n Found secret room (1/4)" + 
 			"\n"
 			
 		theGameText.__KeyValueFromString("message",Text)
@@ -509,7 +509,7 @@ function MT11(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n 发现隐藏房间（2/4）" + 
+			"\n Found secret room (2/4)" + 
 			"\n"
 			
 		theGameText.__KeyValueFromString("message",Text)
@@ -525,7 +525,7 @@ function MT12(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n 发现隐藏房间（3/4）" + 
+			"\n Found secret room (3/4)" + 
 			"\n"
 			
 		theGameText.__KeyValueFromString("message",Text)
@@ -541,7 +541,7 @@ function MT13(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n 发现彩蛋触发房间（1/1）" + 
+			"\n Discovered easter egg room (1/1)" + 
 			"\n"
 			
 		theGameText.__KeyValueFromString("message",Text)
@@ -557,7 +557,7 @@ function MT14(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n 发现隐藏房间（4/4）" + 
+			"\n Found secret room (4/4)" + 
 			"\n"
 			
 		theGameText.__KeyValueFromString("message",Text)
@@ -573,7 +573,7 @@ function MT15(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n 提示：门开后，建议继续防守直到下个倒计时出现再撤退" + 
+			"\n Hint: Continue to defend even until the next timer" + 
 			"\n"
 			
 		theGameText.__KeyValueFromString("message",Text)
@@ -589,7 +589,7 @@ function MT16(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n 提示：别去碰绿色污水" + 
+			"\n Hint: Do not touch the water" + 
 			"\n"
 			
 		theGameText.__KeyValueFromString("message",Text)
@@ -605,8 +605,8 @@ function MT17(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n            彩蛋按钮已触发" + 
-			"\n   仅限当前回合通关才能进入隐藏关卡" +
+			"\n Triggered easter egg button:" + 
+			"\n Secret stage activated once map is cleared" +
 			"\n"
 			
 		theGameText.__KeyValueFromString("message",Text)
@@ -622,7 +622,7 @@ function MT18(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n （#已开启隐藏关卡#）" + 
+			"\n Activated secret stage" + 
 			"\n"
 			
 		theGameText.__KeyValueFromString("message",Text)
@@ -638,9 +638,9 @@ function MT19(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n 黑血的章节已结束" +
-			"\n 下一章将是《寂静岭2：幻境》里世界的逃离路线" + 
-			"\n 你们并没有真正的逃脱，噩梦才刚刚开始" +
+			"\n Black Blood chapter complete" +
+			"\n Next is《Silent Hill 2: Illusion》" + 
+			"\n This is just the beginning..." +
 			"\n"
 			
 		theGameText.__KeyValueFromString("message",Text)
@@ -656,7 +656,7 @@ function MT20(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n 隐藏关卡：马里奥世界" + 
+			"\n Secret Stage: Mario's World" + 
 			"\n"
 			
 		theGameText.__KeyValueFromString("message",Text)
@@ -672,7 +672,7 @@ function MT21(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n 提示：学滑翔可以去b站搜索csgo滑翔教程" + 
+			"\n Hint: Learn to surf by visiting BiliBili and searching 'How to surf'" + 
 			"\n"
 			
 		theGameText.__KeyValueFromString("message",Text)
@@ -688,7 +688,7 @@ function MT22(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n 触发隐藏防守点" + 
+			"\n Activated hidden defense point" + 
 			"\n"
 			
 		theGameText.__KeyValueFromString("message",Text)
@@ -704,7 +704,7 @@ function MT23(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n 解锁新bgm" + 
+			"\n Unlocked new BGM" + 
 			"\n"
 			
 		theGameText.__KeyValueFromString("message",Text)
@@ -720,7 +720,7 @@ function MT24(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n 手绘作者：港村村长" + 
+			"\n Drawn by: 港村村長" + 
 			"\n"
 			
 		theGameText.__KeyValueFromString("message",Text)
@@ -736,7 +736,7 @@ function MT25(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n             pixiv主页" + 
+			"\n Pixiv HomePage" + 
 			"\n https://www.pixiv.net/users/12413989" + 
 			"\n"
 			
@@ -753,7 +753,7 @@ function MT26(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n 非常感谢Kinlkm对脚本制作，测试，修复等方面的帮助" + 
+			"\n Special thanks to Kinlkm for testing and assistance" + 
 			"\n"
 			
 		theGameText.__KeyValueFromString("message",Text)
