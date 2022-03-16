@@ -45,7 +45,7 @@ function Msg8(){
 
 function Msg10(){
 	s1 = "Boards break in "
-	s2 = " seconds, prepare to enter the dark world"
+	s2 = " seconds \nPrepare to enter the dark world..."
 	CountdownTimer(15);
 }
 
@@ -56,7 +56,7 @@ function Msg11(){
 }
 
 function Msg12(){
-	s1 = "Doorhug and defend! Zombies teleport in "
+	s1 = "Doorhug and defend! \nZombies teleport in "
 	s2 = " seconds"
 	CountdownTimer2(10);
 }
@@ -69,7 +69,7 @@ function Msg12s(){
 
 function Msg13(){
 	s1 = "Zombies teleport to the door in "
-	s2 = " seconds. Run!"
+	s2 = " seconds \nRun!"
 	CountdownTimer2(10);
 }
 
@@ -87,7 +87,7 @@ function Msg15(){
 
 function Msg16(){
 	s1 = "Metal door opens in "
-	s2 = " seconds. Quickly group up!"
+	s2 = " seconds \nQuickly regroup!"
 	CountdownTimer(25);
 }
 
@@ -158,7 +158,7 @@ function Msg26(){
 }
 
 function Msg26s(){
-	s1 = ""Zombies teleport below in 
+	s1 = "Zombies teleport below in "
 	s2 = " seconds"
 	CountdownTimer2(15);
 }
@@ -188,13 +188,13 @@ function Msg30(){
 }
 
 function Msg31(){
-	s1 = "Ritual has been lit! Obstacles clearing in "
+	s1 = "Ritual has been lit! \nObstacles clearing in "
 	s2 = " seconds"
 	CountdownTimer(50);
 }
 
 function Msg32(){
-	s1 = "Defend the doorway! Human teleport to the world in "
+	s1 = "Defend the doorway! \nHuman teleport to the world in "
 	s2 = " seconds"
 	CountdownTimer(20);
 }
@@ -248,19 +248,19 @@ function Msg37s(){
 }
 
 function Msg38(){
-	s1 = "Ritual lit! Zombies teleport to the stairs in "
+	s1 = "Ritual has been lit! \nZombies teleport to the stairs in "
 	s2 = " seconds"
 	CountdownTimer(15);
 }
 
 function Msg38s(){
-	s1 = "Enter the pathway once the boards break in "
+	s1 = "Enter the pathway once the wooden boards \nbreak in "
 	s2 = " seconds"
 	CountdownTimer(30);
 }
 
 function Msg39(){
-	s1 = "Ritual lit! Enter the sewers in "
+	s1 = "Ritual has been lit! \nPrepare to enter the sewers in "
 	s2 = " seconds"
 	CountdownTimer(25);
 }
@@ -495,7 +495,7 @@ function MT4(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n   Medium Difficulty" + 
+			"\n Medium Difficulty" + 
 			"\n"
 			
 		theGameText.__KeyValueFromString("message",Text)
@@ -510,7 +510,7 @@ function MT5(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n   Extreme Difficulty" + 
+			"\n Extreme Difficulty" + 
 			"\n"
 			
 		theGameText.__KeyValueFromString("message",Text)
@@ -525,7 +525,7 @@ function MT6(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n   Normal Difficulty" + 
+			"\n Normal Difficulty" + 
 			"\n"
 			
 		theGameText.__KeyValueFromString("message",Text)
@@ -541,7 +541,7 @@ function MT8(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n    Normal Difficulty" + 
+			"\n Normal Difficulty" + 
 			"\n"
 			
 		theGameText.__KeyValueFromString("message",Text)
@@ -571,7 +571,7 @@ function MT10(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n  Hint: Maze rout is under your feet" + 
+			"\n  Hint: Maze route is under your feet" + 
 			"\n"
 			
 		theGameText.__KeyValueFromString("message",Text)
@@ -602,9 +602,9 @@ function MT13(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n  If one side falls, zombies can get ahead" +
-			"\n  Both sides must defend, and will eventually group up" +
-			"\n"
+			"\n If one side falls, zombies will get ahead..." +
+			"\n Both sides must defend hard and not lose..." +
+			"\n Everyone will eventually regroup later..."
 			
 		theGameText.__KeyValueFromString("message",Text)
 		EntFire(temp1,"Display", "", 0.10,  null)
@@ -618,7 +618,7 @@ function MT14(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n  Only the dark path can break the boards" +
+			"\n  Only the dark path can break the wooden boards" +
 			"\n  Both sides must defend before regrouping" +
 			"\n"
 			
@@ -654,7 +654,6 @@ function MT16(){
 			
 		theGameText.__KeyValueFromString("message",Text)
 		EntFire(temp1,"Display", "", 0.10,  null)
-		
 	}
 }
 
@@ -701,7 +700,6 @@ function MT19(){
 			
 		theGameText.__KeyValueFromString("message",Text)
 		EntFire(temp1,"Display", "", 0.10,  null)
-		
 	}
 }
 
@@ -717,7 +715,6 @@ function MT20(){
 			
 		theGameText.__KeyValueFromString("message",Text)
 		EntFire(temp1,"Display", "", 0.10,  null)
-		
 	}
 }
 
@@ -733,7 +730,6 @@ function MT21(){
 			
 		theGameText.__KeyValueFromString("message",Text)
 		EntFire(temp1,"Display", "", 0.10,  null)
-		
 	}
 }
 
@@ -749,7 +745,6 @@ function MT23(){
 			
 		theGameText.__KeyValueFromString("message",Text)
 		EntFire(temp1,"Display", "", 0.10,  null)
-		
 	}
 }
 
@@ -760,12 +755,11 @@ function MT24(){
 		local temp1 = theGameText.GetName();
 		
 		Text <- "\n" +
-			"\n Stage selection next, starting from week 2" + 
+			"\n Stage selection next: Starts from week 2" + 
 			"\n"
 			
 		theGameText.__KeyValueFromString("message",Text)
 		EntFire(temp1,"Display", "", 0.10,  null)
-		
 	}
 }
 
@@ -781,7 +775,6 @@ function MT25(){
 			
 		theGameText.__KeyValueFromString("message",Text)
 		EntFire(temp1,"Display", "", 0.10,  null)
-		
 	}
 }
 
@@ -797,7 +790,6 @@ function MT26(){
 			
 		theGameText.__KeyValueFromString("message",Text)
 		EntFire(temp1,"Display", "", 0.10,  null)
-		
 	}
 }
 
@@ -813,6 +805,5 @@ function MT27(){
 			
 		theGameText.__KeyValueFromString("message",Text)
 		EntFire(temp1,"Display", "", 0.10,  null)
-		
 	}
 }
