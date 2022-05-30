@@ -1,4 +1,4 @@
-// Map info (by Natsume), Translated by koen (https://steamcommunity.com/id/fungame1224/)
+// Map info by Natsume, Translated by koen (https://steamcommunity.com/id/fungame1224/)
 
 function text01() {
 	// EntFire("map_info_text","SetText","地圖作者:Natsume \n巨人:特洛斯特區攻防戰",0.00,null);
@@ -169,7 +169,7 @@ function text28() {
 }
 
 function text28a() {
-	EntFire("map_info_text", "SetText", "City outer gates will open soon",0.00, null);
+	EntFire("map_info_text", "SetText", "City outer gates will open soon", 0.00, null);
 	EntFire("map_info_text", "Display", "", 0.05, null);
 }
 
@@ -186,7 +186,7 @@ function text29() {
 
 function text30() {
 	// EntFire("map_info_text","SetText","巨人出現十一個小時之後 \n南班",0.00,null);
-	EntFire("map_info_text", "SetText", "A titan appears after 11 hours...")
+	EntFire("map_info_text", "SetText", "A titan appears after 11 hours...", 0.00, null);
 	EntFire("map_info_text", "Display", "", 0.05, null);
 }
 
@@ -240,13 +240,13 @@ function text38() {
 
 function text39() {
 	// EntFire("map_info_text","SetText","教官,我們正在嘗試啟動大炮",0.00,null);
-	EntFire("map_info_text", "SetText", "Instructor, we are trying to activate the cannon!", 0.00, null):
+	EntFire("map_info_text", "SetText", "Instructor, we are trying to activate the cannon!", 0.00, null);
 	EntFire("map_info_text", "Display", "", 0.05, null);
 }
 
 function text40() {
 	// EntFire("map_info_text","SetText","大炮即將發射",0.00,null);
-	EntFire("map_info_text", "SetText", "Cannon is about to fire!", 0.00, null):
+	EntFire("map_info_text", "SetText", "Cannon is about to fire!", 0.00, null);
 	EntFire("map_info_text", "Display", "", 0.05, null);
 }
 
@@ -336,7 +336,7 @@ function text53() {
 
 function text54() {
 	// EntFire("map_info_text","SetText","堅持最後10秒",0.00,null);
-	EntFire("map_info_text", "SetText", "Defend for 10 more seconds!", 0.00, nul);
+	EntFire("map_info_text", "SetText", "Defend for 10 more seconds!", 0.00, null);
 	EntFire("map_info_text", "Display", "", 0.05, null);
 }
 
@@ -378,13 +378,13 @@ function text60() {
 
 function text61() {
 	// EntFire("map_info_text","SetText","最終章  終局之戰",0.00,null);
-	EntFIre("map_info_text", "SetText", "Final Chapter: The Final Battle", 0.00, null);
+	EntFire("map_info_text", "SetText", "Final Chapter: The Final Battle", 0.00, null);
 	EntFire("map_info_text", "Display", "", 0.05, null);
 }
 
 function text62() {
 	// EntFire("map_info_text","SetText","第???次壁外調查...世界真是殘酷而美麗...",0.00,null);
-	EntFire("map_info_text", "SetText", "Investigation number ???... \nThe world is cruel yet beautiful...", 0.00, null):
+	EntFire("map_info_text", "SetText", "Investigation number ???... \nThe world is cruel yet beautiful...", 0.00, null);
 	EntFire("map_info_text", "Display", "", 0.05, null);
 }
 
@@ -462,18 +462,19 @@ function text73() {
 
 function text74() {
 	// EntFire("map_info_text","SetText","它們是獵物,我們才是獵手 \n堅持最後30秒",0.00,null);
-	EntFire("map_info_text", "They are the prey... and we are the predators \n>> SURVIVE FOR 30s <<", 0.00, null);
+	EntFire("map_info_text", "SetText", "They are the prey... and we are the predators \n>> SURVIVE FOR 30s <<", 0.00, null);
 	EntFire("map_info_text", "Display", "", 0.05, null);
 }
 
 function text75() {
 	// EntFire("map_info_text","SetText","花謝凋零終遭人殘,殘瓣之名至今難辨 \n堅持最後20秒",0.00,null);
-	EntFire("map_info_text", "SetText", "Flowers will eventually wither... their petals unrecognizable... \n>> SURVIVE FOR 20s <<", 0.00, null):
+	EntFire("map_info_text", "SetText", "Flowers will eventually wither... their petals unrecognizable... \n>> SURVIVE FOR 20s <<", 0.00, null);
 	EntFire("map_info_text", "Display", "", 0.05, null);
 }
 
 function text76() {
 	// EntFire("map_info_text","SetText","獨桀驁 恥不前 豬玀笑 芻狗喧 家畜安寧牆內 繁榮亦虛偽 \n堅持最後10秒",0.00,null);
+	EntFire("map_info_text", "SetText", "Household animals living peacefully in the cage...\nWhen everything around them is an illusion... \n>> SURVIVE FOR 10s <<", 0.00, null);
 	EntFire("map_info_text", "Display", "", 0.05, null);
 }
 
