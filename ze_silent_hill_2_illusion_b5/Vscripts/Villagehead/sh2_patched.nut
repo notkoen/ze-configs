@@ -480,10 +480,10 @@ function CountdownTimer(amount)
 {
 	local i = amount;
 	local j;
-	for(j = amount; j > 0; j--)
+	for (j = amount; j > 0; j--)
 	{
-		EntFire("Channel 1","SetText",s1 + j.tostring() + s2,i-j);
-		EntFire("Channel 1","Display","",i-j);
+		EntFire("Channel 1", "SetText", s1 + j.tostring() + s2, i - j);
+		EntFire("Channel 1", "Display", "", i - j);
 	}
 }
 
@@ -491,10 +491,10 @@ function CountdownTimer2(amount)
 {
 	local i = amount;
 	local j;
-	for(j = amount; j > 0; j--)
+	for (j = amount; j > 0; j--)
 	{
-		EntFire("Channel 2","SetText",s1 + j.tostring() + s2,i-j);
-		EntFire("Channel 2","Display","",i-j);
+		EntFire("Channel 2", "SetText", s1 + j.tostring() + s2, i - j);
+		EntFire("Channel 2", "Display", "", i - j);
 	}
 }
 
@@ -502,10 +502,10 @@ function CountdownTimer3(amount)
 {
 	local i = amount;
 	local j;
-	for(j = amount; j > 0; j--)
+	for (j = amount; j > 0; j--)
 	{
-		EntFire("Channel 3","SetText",s1 + j.tostring() + s2,i-j);
-		EntFire("Channel 3","Display","",i-j);
+		EntFire("Channel 3", "SetText", s1 + j.tostring() + s2, i - j);
+		EntFire("Channel 3", "Display", "", i - j);
 	}
 }
 
@@ -513,333 +513,333 @@ function CountdownTimer4(amount)
 {
 	local i = amount;
 	local j;
-	for(j = amount; j > 0; j--)
+	for (j = amount; j > 0; j--)
 	{
-		EntFire("channel 3 grey","SetText",s1 + j.tostring() + s2,i-j);
-		EntFire("channel 3 grey","Display","",i-j);
+		EntFire("channel 3 grey", "SetText", s1 + j.tostring() + s2, i - j);
+		EntFire("channel 3 grey", "Display", "", i - j);
 	}
 }
 
 function MT2()
 {
-	theGameText <- Entities.FindByName(null,"channel 4 maptext2")
-	if(theGameText != null)
+	theGameText <- Entities.FindByName(null, "channel 4 maptext2")
+	if (theGameText != null)
 	{
 		local temp1 = theGameText.GetName();
 		Text <- "\n" +
 			"\n Retreat!" +
 			"\n"
-		theGameText.__KeyValueFromString("message",Text)
-		EntFire(temp1,"Display", "", 0.10,  null)
+		theGameText.__KeyValueFromString("message", Text)
+		EntFire(temp1, "Display", "", 0.10, null)
 	}
 }
 
 function MT3()
 {
-	theGameText <- Entities.FindByName(null,"channel 4 maptext")
-	if(theGameText != null)
+	theGameText <- Entities.FindByName(null, "channel 4 maptext")
+	if (theGameText != null)
 	{
 		local temp1 = theGameText.GetName();
 		Text <- "\n" +
-			"\n 《Silent Hill 2：Illusion》" +
+			"\n << Silent Hill 2: Illusion >>" +
 			"\n"
-		theGameText.__KeyValueFromString("message",Text)
-		EntFire(temp1,"Display", "", 0.10,  null)
+		theGameText.__KeyValueFromString("message", Text)
+		EntFire(temp1, "Display", "", 0.10, null)
 	}
 }
 
 function MT4()
 {
-	theGameText <- Entities.FindByName(null,"channel 4 maptext")
-	if(theGameText != null)
+	theGameText <- Entities.FindByName(null, "channel 4 maptext")
+	if (theGameText != null)
 	{
 		local temp1 = theGameText.GetName();
 		Text <- "\n" +
-			"\n Mapper：港村村長" +
+			"\n Mapper: 港村村長" +
 			"\n"
-		theGameText.__KeyValueFromString("message",Text)
-		EntFire(temp1,"Display", "", 0.10,  null)
+		theGameText.__KeyValueFromString("message", Text)
+		EntFire(temp1, "Display", "", 0.10, null)
 	}
 }
 
 function MT5()
 {
-	theGameText <- Entities.FindByName(null,"channel 4 maptext")
-	if(theGameText != null)
+	theGameText <- Entities.FindByName(null, "channel 4 maptext")
+	if (theGameText != null)
 	{
 		local temp1 = theGameText.GetName();
 		Text <- "\n" +
 			"\n Stage 1: Chaos" +
 			"\n"
-		theGameText.__KeyValueFromString("message",Text)
-		EntFire(temp1,"Display", "", 0.10,  null)
+		theGameText.__KeyValueFromString("message", Text)
+		EntFire(temp1, "Display", "", 0.10, null)
 	}
 }
 
 function MT7()
 {
-	theGameText <- Entities.FindByName(null,"channel 4 maptext3")
-	if(theGameText != null)
+	theGameText <- Entities.FindByName(null, "channel 4 maptext3")
+	if (theGameText != null)
 	{
 		local temp1 = theGameText.GetName();
 		Text <- "\n" +
 			"\n Discovered Easter Egg:" +
 			"\n Locked in a small room..."
-		theGameText.__KeyValueFromString("message",Text)
-		EntFire(temp1,"Display", "", 0.10,  null)
+		theGameText.__KeyValueFromString("message", Text)
+		EntFire(temp1, "Display", "", 0.10, null)
 	}
 }
 
 function MT8()
 {
-	theGameText <- Entities.FindByName(null,"channel 4 maptext")
-	if(theGameText != null)
+	theGameText <- Entities.FindByName(null, "channel 4 maptext")
+	if (theGameText != null)
 	{
 		local temp1 = theGameText.GetName();
 		Text <- "\n" +
 			"\n Stage 2: White Room" +
 			"\n"
-		theGameText.__KeyValueFromString("message",Text)
-		EntFire(temp1,"Display", "", 0.10,  null)
+		theGameText.__KeyValueFromString("message", Text)
+		EntFire(temp1, "Display", "", 0.10, null)
 	}
 }
 
 function MT9()
 {
-	theGameText <- Entities.FindByName(null,"channel 4 maptext")
-	if(theGameText != null)
+	theGameText <- Entities.FindByName(null, "channel 4 maptext")
+	if (theGameText != null)
 	{
 		local temp1 = theGameText.GetName();
 		Text <- "\n" +
-			"\n  Hint: Defend all three zombie paths" +
+			"\n Hint: Defend all three zombie paths" +
 			"\n"
-		theGameText.__KeyValueFromString("message",Text)
-		EntFire(temp1,"Display", "", 0.10,  null)
+		theGameText.__KeyValueFromString("message", Text)
+		EntFire(temp1, "Display", "", 0.10, null)
 	}
 }
 
 function MT10()
 {
-	theGameText <- Entities.FindByName(null,"channel 4 maptext")
-	if(theGameText != null)
+	theGameText <- Entities.FindByName(null, "channel 4 maptext")
+	if (theGameText != null)
 	{
 		local temp1 = theGameText.GetName();
 		Text <- "\n" +
 			"\n  Hint: Maze path is under your feet!" +
 			"\n"
-		theGameText.__KeyValueFromString("message",Text)
-		EntFire(temp1,"Display", "", 0.10,  null)
+		theGameText.__KeyValueFromString("message", Text)
+		EntFire(temp1, "Display", "", 0.10, null)
 	}
 }
 
 function MT12()
 {
-	theGameText <- Entities.FindByName(null,"channel 4 maptext")
-	if(theGameText != null)
+	theGameText <- Entities.FindByName(null, "channel 4 maptext")
+	if (theGameText != null)
 	{
 		local temp1 = theGameText.GetName();
 		Text <- "\n" +
 			"\n  Stage 3: White and Black" +
 			"\n"
-		theGameText.__KeyValueFromString("message",Text)
-		EntFire(temp1,"Display", "", 0.10,  null)
+		theGameText.__KeyValueFromString("message", Text)
+		EntFire(temp1, "Display", "", 0.10, null)
 	}
 }
 
 function MT13()
 {
-	theGameText <- Entities.FindByName(null,"channel 4 maptext3")
-	if(theGameText != null)
+	theGameText <- Entities.FindByName(null, "channel 4 maptext3")
+	if (theGameText != null)
 	{
 		local temp1 = theGameText.GetName();
 		Text <- "\n" +
-			"\n If one side loses, zombies can get ahead" +
+			"\n If one side loses, zombies will get ahead" +
 			"\n Both sides must defend until regrouping" +
-		theGameText.__KeyValueFromString("message",Text)
-		EntFire(temp1,"Display", "", 0.10,  null)
+		theGameText.__KeyValueFromString("message", Text)
+		EntFire(temp1, "Display", "", 0.10, null)
 	}
 }
 
 function MT14()
 {
-	theGameText <- Entities.FindByName(null,"channel 4 maptext3")
-	if(theGameText != null)
+	theGameText <- Entities.FindByName(null, "channel 4 maptext3")
+	if (theGameText != null)
 	{
 		local temp1 = theGameText.GetName();
 		Text <- "\n" +
 			"\n Only the dark path can light the ritual" +
-			"\n Both sides must defend until paths open!" +
+			"\n Both sides must defend until all paths open!" +
 			"\n"
-		theGameText.__KeyValueFromString("message",Text)
-		EntFire(temp1,"Display", "", 0.10,  null)
+		theGameText.__KeyValueFromString("message", Text)
+		EntFire(temp1, "Display", "", 0.10, null)
 	}
 }
 
 function MT15()
 {
-	theGameText <- Entities.FindByName(null,"channel 4 maptext")
-	if(theGameText != null)
+	theGameText <- Entities.FindByName(null, "channel 4 maptext")
+	if (theGameText != null)
 	{
 		local temp1 = theGameText.GetName();
 		Text <- "\n" +
 			"\n Triggered Easter Egg (1/1)" +
 			"\n"
-		theGameText.__KeyValueFromString("message",Text)
-		EntFire(temp1,"Display", "", 0.10,  null)
+		theGameText.__KeyValueFromString("message", Text)
+		EntFire(temp1, "Display", "", 0.10, null)
 	}
 }
 
 function MT16()
 {
-	theGameText <- Entities.FindByName(null,"channel 4 maptext")
-	if(theGameText != null)
+	theGameText <- Entities.FindByName(null, "channel 4 maptext")
+	if (theGameText != null)
 	{
 		local temp1 = theGameText.GetName();
 		Text <- "\n" +
-			"\n  Drawn by: 港村村长" +
+			"\n  Drawn by : 港村村长" +
 			"\n"
-		theGameText.__KeyValueFromString("message",Text)
-		EntFire(temp1,"Display", "", 0.10,  null)
+		theGameText.__KeyValueFromString("message", Text)
+		EntFire(temp1, "Display", "", 0.10, null)
 	}
 }
 
 function MT17()
 {
-	theGameText <- Entities.FindByName(null,"channel 4 maptext3")
-	if(theGameText != null)
+	theGameText <- Entities.FindByName(null, "channel 4 maptext3")
+	if (theGameText != null)
 	{
 		local temp1 = theGameText.GetName();
 		Text <- "\n" +
 			"\n Pixiv homepage:" +
 			"\n https://www.pixiv.net/users/12413989" +
 			"\n"
-		theGameText.__KeyValueFromString("message",Text)
-		EntFire(temp1,"Display", "", 0.10,  null)
+		theGameText.__KeyValueFromString("message", Text)
+		EntFire(temp1, "Display", "", 0.10, null)
 	}
 }
 
 function MT18()
 {
-	theGameText <- Entities.FindByName(null,"channel 4 maptext")
-	if(theGameText != null)
+	theGameText <- Entities.FindByName(null, "channel 4 maptext")
+	if (theGameText != null)
 	{
 		local temp1 = theGameText.GetName();
 		Text <- "\n" +
 			"\n Normal Difficulty" +
 			"\n"
-		theGameText.__KeyValueFromString("message",Text)
-		EntFire(temp1,"Display", "", 0.10,  null)
+		theGameText.__KeyValueFromString("message", Text)
+		EntFire(temp1, "Display", "", 0.10, null)
 	}
 }
 
 function MT19()
 {
-	theGameText <- Entities.FindByName(null,"channel 4 maptext")
-	if(theGameText != null)
+	theGameText <- Entities.FindByName(null, "channel 4 maptext")
+	if (theGameText != null)
 	{
 		local temp1 = theGameText.GetName();
 		Text <- "\n" +
 			"\n Hard Difficulty" +
 			"\n"
-		theGameText.__KeyValueFromString("message",Text)
-		EntFire(temp1,"Display", "", 0.10,  null)
+		theGameText.__KeyValueFromString("message", Text)
+		EntFire(temp1, "Display", "", 0.10, null)
 	}
 }
 
 function MT20()
 {
-	theGameText <- Entities.FindByName(null,"channel 4 maptext")
-	if(theGameText != null)
+	theGameText <- Entities.FindByName(null, "channel 4 maptext")
+	if (theGameText != null)
 	{
 		local temp1 = theGameText.GetName();
 		Text <- "\n" +
 			"\n Week 2" +
 			"\n"
-		theGameText.__KeyValueFromString("message",Text)
-		EntFire(temp1,"Display", "", 0.10,  null)
+		theGameText.__KeyValueFromString("message", Text)
+		EntFire(temp1, "Display", "", 0.10, null)
 	}
 }
 
 function MT21()
 {
-	theGameText <- Entities.FindByName(null,"channel 4 maptext")
-	if(theGameText != null)
+	theGameText <- Entities.FindByName(null, "channel 4 maptext")
+	if (theGameText != null)
 	{
 		local temp1 = theGameText.GetName();
 		Text <- "\n" +
 			"\n Unlocked new BGM: Promise" +
 			"\n"
-		theGameText.__KeyValueFromString("message",Text)
-		EntFire(temp1,"Display", "", 0.10,  null)
+		theGameText.__KeyValueFromString("message", Text)
+		EntFire(temp1, "Display", "", 0.10, null)
 	}
 }
 
 function MT23()
 {
-	theGameText <- Entities.FindByName(null,"channel 4 maptext")
-	if(theGameText != null)
+	theGameText <- Entities.FindByName(null, "channel 4 maptext")
+	if (theGameText != null)
 	{
 		local temp1 = theGameText.GetName();
 		Text <- "\n" +
 			"\n Map has been cleared!" +
 			"\n"
-		theGameText.__KeyValueFromString("message",Text)
-		EntFire(temp1,"Display", "", 0.10,  null)
+		theGameText.__KeyValueFromString("message", Text)
+		EntFire(temp1, "Display", "", 0.10, null)
 	}
 }
 
 function MT24()
 {
-	theGameText <- Entities.FindByName(null,"channel 4 maptext")
-	if(theGameText != null)
+	theGameText <- Entities.FindByName(null, "channel 4 maptext")
+	if (theGameText != null)
 	{
 		local temp1 = theGameText.GetName();
 		Text <- "\n" +
 			"\n Stage selection next!" +
 			"\n Starts from Week 2!"
-		theGameText.__KeyValueFromString("message",Text)
-		EntFire(temp1,"Display", "", 0.10,  null)
+		theGameText.__KeyValueFromString("message", Text)
+		EntFire(temp1, "Display", "", 0.10, null)
 	}
 }
 
 function MT25()
 {
-	theGameText <- Entities.FindByName(null,"channel 4 maptext")
-	if(theGameText != null)
+	theGameText <- Entities.FindByName(null, "channel 4 maptext")
+	if (theGameText != null)
 	{
 		local temp1 = theGameText.GetName();
 		Text <- "\n" +
-			"\n Hint: This stage has no zombie protection" +
+			"\n Hint : This stage has no zombie protection" +
 			"\n"
-		theGameText.__KeyValueFromString("message",Text)
-		EntFire(temp1,"Display", "", 0.10,  null)
+		theGameText.__KeyValueFromString("message", Text)
+		EntFire(temp1, "Display", "", 0.10, null)
 	}
 }
 
 function MT26()
 {
-	theGameText <- Entities.FindByName(null,"channel 4 maptext")
-	if(theGameText != null)
+	theGameText <- Entities.FindByName(null, "channel 4 maptext")
+	if (theGameText != null)
 	{
 		local temp1 = theGameText.GetName();
 		Text <- "\n" +
-			"\n Bad Ending: Dead End" +
+			"\n Bad Ending : Dead End" +
 			"\n"
-		theGameText.__KeyValueFromString("message",Text)
-		EntFire(temp1,"Display", "", 0.10,  null)
+		theGameText.__KeyValueFromString("message", Text)
+		EntFire(temp1, "Display", "", 0.10, null)
 	}
 }
 
 function MT27()
 {
-	theGameText <- Entities.FindByName(null,"channel 4 maptext")
-	if(theGameText != null)
+	theGameText <- Entities.FindByName(null, "channel 4 maptext")
+	if (theGameText != null)
 	{
 		local temp1 = theGameText.GetName();
 		Text <- "\n" +
-			"\n True Ending: Escape" +
+			"\n True Ending : Escape" +
 			"\n"
-		theGameText.__KeyValueFromString("message",Text)
-		EntFire(temp1,"Display", "", 0.10,  null)
+		theGameText.__KeyValueFromString("message", Text)
+		EntFire(temp1, "Display", "", 0.10, null)
 	}
 }

@@ -15,6 +15,13 @@ function Msg2()
 	CountdownTimer2(10);
 }
 
+function Msg3()
+{
+	s1 = "Zombie cage opens in "
+	s2 = " seconds"
+	CountdownTimer2(15);
+}
+
 function Msg4()
 {
 	s1 = "Zombie cage opens in "
@@ -36,11 +43,11 @@ function Msg6()
 	CountdownTimer2(5);
 }
 
-function Msg8()
+function Msg7()
 {
 	s1 = "Defend for "
 	s2 = " seconds"
-	CountdownTimer(45);
+	CountdownTimer(20);
 }
 
 function Msg9()
@@ -54,14 +61,7 @@ function Msg10()
 {
 	s1 = "Zombie cage opens in "
 	s2 = " seconds"
-	CountdownTimer2(2);
-}
-
-function Msg11()
-{
-	s1 = "Defend for "
-	s2 = " seconds"
-	CountdownTimer(20);
+	CountdownTimer2(30);
 }
 
 function CountdownTimer(amount)
@@ -103,7 +103,7 @@ function CountdownTimer4(amount)
 	local j;
 	for (j = amount; j > 0; j--)
 	{
-		EntFire("channel 3 grey", "SetText", s1 + j.tostring() + s2, i-j);
+		EntFire("channel 3 grey", "SetText", s1 + j.tostring() + s2, i - j);
 		EntFire("channel 3 grey", "Display", "", i - j);
 	}
 }
@@ -115,10 +115,10 @@ function MT2()
 	{
 		local temp1 = theGameText.GetName();
 		Text <- "\n" +
-			"\n Retreat!" +
+			"\n Retreat" +
 			"\n"
 		theGameText.__KeyValueFromString("message", Text)
-		EntFire(temp1, "Display", "",  0.10, null)
+		EntFire(temp1, "Display", "", 0.10, null)
 	}
 }
 
@@ -129,9 +129,79 @@ function MT3()
 	{
 		local temp1 = theGameText.GetName();
 		Text <- "\n" +
-			"\n << Silent Hill 3: Full Version >>" +
+			"\n << Silent Hill 3: Dawn >>" +
 			"\n"
 		theGameText.__KeyValueFromString("message", Text)
-		EntFire(temp1, "Display", "",  0.10, null)
+		EntFire(temp1, "Display", "", 0.10, null)
+	}
+}
+
+function MT4()
+{
+	theGameText <- Entities.FindByName(null, "channel 4 maptext")
+	if (theGameText != null)
+	{
+		local temp1 = theGameText.GetName();
+		Text <- "\n" +
+			"\n Place the batteries" +
+			"\n"
+		theGameText.__KeyValueFromString("message", Text)
+		EntFire(temp1, "Display", "", 0.10, null)
+	}
+}
+
+function MT5()
+{
+	theGameText <- Entities.FindByName(null, "channel 4 maptext")
+	if (theGameText != null)
+	{
+		local temp1 = theGameText.GetName();
+		Text <- "\n" +
+			"\n Charging..." +
+			"\n"
+		theGameText.__KeyValueFromString("message", Text)
+		EntFire(temp1, "Display", "", 0.10, null)
+	}
+}
+
+function MT6()
+{
+	theGameText <- Entities.FindByName(null, "channel 4 maptext")
+	if (theGameText != null)
+	{
+		local temp1 = theGameText.GetName();
+		Text <- "\n" +
+			"\n Charged 50%" +
+			"\n"
+		theGameText.__KeyValueFromString("message", Text)
+		EntFire(temp1, "Display", "", 0.10, null)
+	}
+}
+
+function MT7()
+{
+	theGameText <- Entities.FindByName(null, "channel 4 maptext")
+	if (theGameText != null)
+	{
+		local temp1 = theGameText.GetName();
+		Text <- "\n" +
+			"\n Charged 100%" +
+			"\n"
+		theGameText.__KeyValueFromString("message", Text)
+		EntFire(temp1, "Display", "", 0.10, null)
+	}
+}
+
+function MT9()
+{
+	theGameText <- Entities.FindByName(null, "channel 4 maptext")
+	if (theGameText != null)
+	{
+		local temp1 = theGameText.GetName();
+		Text <- "\n" +
+			"\n Wait for the surf path to trigger the nuke" +
+			"\n"
+		theGameText.__KeyValueFromString("message", Text)
+		EntFire(temp1, "Display", "", 0.10, null)
 	}
 }
