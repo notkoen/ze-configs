@@ -32,9 +32,9 @@ items <- [
 
 // Item description/guide
 items_pickup <- [
-    "Salamander:\n---------------\n[E] Fireball: Slow zombies temporarily\n[Up E] Giga Flare (CD: 150s): Push zombies up and freeze them\n[Down E] Flash Over (CD: 70s): Cast a fire area to slow zombies\n[RC] Framberge (CD: 10 / 80s): Cast 10 lasers that deal massive damage",
-    "Undine:\n---------------\n[E] Ice Crystals: Slow zombies temporarily\n[Up E] Frozen Field (CD: 200s): Kills all zombies within its area\n[Down E] Freezing Wall (CD: 80s): Spawns a large water wall\n[RC] Heal (CD: 80s): Heals your teammates",
-    "Neikos:\n---------------\n[E] Gravity (CD: 100s): Pulls humans towards you\n[Down E] Fog (CD: 100s): Blocks human vision and slows them\n[RC] Heal (CD: 60s): Heal and speed up zombies near you"
+    "Salamander:\n---------------\n[E] Fireball: Slow & burn zombies\n[Up E] Giga Flare (150s CD): Boost zombies up\n[Down E] Flash Over (70s CD): Cast a fire area to slow zombies\n[RC] Framberge (10 / 80s CD): Cast 10 lasers that deal massive damage",
+    "Undine:\n---------------\n[E] Ice Crystals: Freeze zombies\n[Up E] Frozen Field (200s CD): Ultima\n[Down E] Freezing Wall (80s CD): Spawn large water wall\n[RC] Heal (80s CD): Heal your teammates",
+    "Neikos:\n---------------\n[E] Gravity (100s CD): Pull humans to you\n[Down E] Fog (100s CD): Blocks human vision and slows them\n[RC] Heal (60s CD): Heal and speed up zombies near you"
 ];
 
 // Display item description to the player that picks up the item
@@ -43,7 +43,7 @@ items_pickup <- [
 // (Neikos)     OnPlayerPickup > cd_script > RunScriptCode > DisplayItemDescription(2);
 function DisplayItemDescription(index)
 {
-    // Unlock all item abilities on pickup (Yes I know I can use loop but too lazy :P)
+    // Unlock all item abilities on pickup
     for (local i = 0; i < 3; i++)
     {
         items[index][i] = -1;
@@ -56,8 +56,8 @@ function DisplayItemDescription(index)
 }
 
 // Item usage functions
-// Index is the item, ability is which ability was; See items_cd array for which is which
-// To run this: *output* > cd_script > RunScriptCode > ItemUsec(*item index*, *ability index*) > 0
+// Index is the item index, ability is the ability used index; See items_cd array for infoe
+// To run this: <output> > cd_script > RunScriptCode > ItemUsed(<item index>, <ability index>) > 0
 function ItemUsed(index, ability)
 {
     items[index][ability] = items_cd[index][ability];
