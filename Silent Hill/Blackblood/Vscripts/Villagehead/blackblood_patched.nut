@@ -125,7 +125,8 @@ function Msg18s()
 	CountdownTimer(10);
 }
 
-function Msg19(){
+function Msg19()
+{
 	s1 = "Elevator leaves in "
 	s2 = " seconds \nStage 1 completed when elevator leaves!"
 	CountdownTimer(7);
