@@ -258,7 +258,7 @@ function text41() {
 
 function text42() {
 	// EntFire("map_info_text","SetText","第三章 絕望中的微光",0.00,null);
-	EntFire("map_info_text", "SetText", "Chapter 3: A Gleam of Despair", 0.00, null);
+	EntFire("map_info_text", "SetText", "Chapter 3: A Ray of Hope", 0.00, null);
 	EntFire("map_info_text", "Display", "", 0.05, null);
 }
 
@@ -366,7 +366,7 @@ function text58() {
 
 function text59() {
 	// EntFire("map_info_text","SetText","已進入王都,我們安全了,暫時",0.00,null);
-	EntFire("map_info_text", "SetText", "We have entered the capital and are safe... for now...", 0.00, null);
+	EntFire("map_info_text", "SetText", "We've reached the capital. We're safe... for now", 0.00, null);
 	EntFire("map_info_text", "Display", "", 0.05, null);
 }
 
