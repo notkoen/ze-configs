@@ -38,12 +38,7 @@ function IsWeapon(ent)
 function NextWeapon(wp)
 {
 	wp = wp.NextMovePeer();
-
-	while (wp && !IsWeapon(wp))
-	{
-		wp = wp.NextMovePeer();
-	}
-
+	while (wp && !IsWeapon(wp)) wp = wp.NextMovePeer();
 	return wp;
 }
 
@@ -54,25 +49,17 @@ function SetWeaponAmmo(wp, amt)
 
 function SetAmmoPistols(wp)
 {
-	if (wp.GetClassname() in WeaponClassAmmo)
-	{
-		SetWeaponAmmo(wp, WeaponClassAmmo[wp.GetClassname()]);
-	}
+	if (wp.GetClassname() in WeaponClassAmmo) SetWeaponAmmo(wp, WeaponClassAmmo[wp.GetClassname()]);
 }
 
 function SetAmmoOnPlayer()
 {
 	w <- activator.FirstMoveChild();
 	w = IsWeapon(w) ? w : NextWeapon(w);
-
 	SetAmmoPistols(w);
-
 	while (w)
 	{
 		w = NextWeapon(w);
-		if (w)
-		{
-			SetAmmoPistols(w);
-		}
+		if (w) SetAmmoPistols(w);
 	}
 }
