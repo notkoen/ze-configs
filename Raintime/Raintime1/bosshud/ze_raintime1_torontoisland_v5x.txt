@@ -1,0 +1,54 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "level1_boss_math_counter"
+        "CustomText"        "Elder Dragon"
+    }
+    "1"
+    {
+        "HP_counter"        "misaka_hp_1"
+        "HPbar_counter"     "HPCounterIterator"
+        "HPinit_counter"    "HPCounterBackUp"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "3"
+        "HPbar_mode"        "1"
+        "CustomText"        "Anime Gurl"
+    }
+    "2"
+    {
+        "HP_counter"        "level2_boss_math_counter"
+        "CustomText"        "Sage's Crystal"
+    }
+    "3"
+    {
+        "HP_counter"        "level3_boss1_math_counter"
+        "CustomText"        "Lucifer"
+    }
+    "4"
+    {
+        "HP_counter"        "level3_boss_math_counter"
+        "CustomText"        "Lucifer Demon Form"
+    }
+    "5"
+    {
+        "HP_counter"        "level3_boss2_math_counter"
+        "CustomText"        "First Boss"
+    }
+    "6"
+    {
+        "HP_counter"        "level2_boss_math_counter2"
+        "CustomText"        "Boss"
+    }
+    "7"
+    {
+        "HP_counter"        "level4_boss1_math_counter"
+        "CustomText"        "Boss"
+    }
+    "8"
+    {
+        "HP_counter"        "st5_boss3_hp_counter"
+        "CustomText"        "Fourth Boss"
+    }
+}
