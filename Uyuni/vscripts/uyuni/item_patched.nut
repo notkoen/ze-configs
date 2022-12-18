@@ -81,8 +81,7 @@ function ItemUsed(index)
 
 function ItemCDUpdate(index)
 {
-    if (items[index] >= 0)
-    {
+    if (items[index] >= 0) {
         items[index] -= 1;
         local cmd = "ItemCDUpdate(" + index.tostring() + ")";
         EntFire("item_script", "RunScriptCode", cmd, 1);
@@ -96,20 +95,14 @@ function ItemCDUpdate(index)
 function UpdateDisplayItemText()
 {
     local txt = "";
-    for (local i = 0; i < item_count; i++)
-    {
-        if (items[i] > -2)
-        {
+    for (local i = 0; i < item_count; i++) {
+        if (items[i] > -2) {
             txt += "[" + (items[i] >= 0 ? items[i].tointeger() : "R") + "] " + items_text[i][EndlessMode] + "\n";
         }
     }
-    if (show_item_cd)
-    {
+    if (show_item_cd) {
         EntFire("cd_text", "SetText", txt, 0);
-        if (txt != "")
-        {
-            EntFire("cd_text", "Display", null, 0.05);
-        }
+        if (txt != "") EntFire("cd_text", "Display", null, 0.05);
     }
     EntFire("item_script", "RunScriptCode", "UpdateDisplayItemText()", 0.1);
 }
