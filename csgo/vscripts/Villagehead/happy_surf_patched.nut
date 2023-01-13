@@ -54,9 +54,7 @@ function MT1() {
 	theGameText <- Entities.FindByName(null, "maptext")
 	if (theGameText != null) {
 		local temp1 = theGameText.GetName();
-		Text <- "\n" +
-			"\n Map by Villagehead" +
-			"\n"
+		Text <- "Map by Villagehead"
 		theGameText.__KeyValueFromString("message", Text)
 		EntFire(temp1, "Display", "", 0.10, null)
 	}

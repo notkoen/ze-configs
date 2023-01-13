@@ -1,136 +1,105 @@
 s1 <- null;
 s2 <- null;
 
-function Msg1()
-{
+function Msg1() {
 	s1 = "Defend for "
-	s2 = " seconds"
+	s2 = "s"
 	CountdownTimer(40);
 }
 
-function Msg5()
-{
+function Msg5() {
 	s1 = "Defend for "
-	s2 = " seconds"
+	s2 = "s"
 	CountdownTimer(30);
 }
 
-function Msg8()
-{
+function Msg8() {
 	s1 = "Defend for "
-	s2 = " seconds"
+	s2 = "s"
 	CountdownTimer(45);
 }
 
-function CountdownTimer(amount)
-{
+function CountdownTimer(amount) {
 	local i = amount;
 	local j;
-	for (j = amount; j > 0; j--)
-	{
+	for (j = amount; j > 0; j--) {
 		EntFire("Channel 1", "SetText", s1 + j.tostring() + s2, i - j);
 		EntFire("Channel 1", "Display", "", i - j);
 	}
 }
 
-function CountdownTimer2(amount)
-{
+function CountdownTimer2(amount) {
 	local i = amount;
 	local j;
-	for (j = amount; j > 0; j--)
-	{
+	for (j = amount; j > 0; j--) {
 		EntFire("Channel 2", "SetText", s1 + j.tostring() + s2, i - j);
 		EntFire("Channel 2", "Display", "", i - j);
 	}
 }
 
-function CountdownTimer3(amount)
-{
+function CountdownTimer3(amount) {
 	local i = amount;
 	local j;
-	for (j = amount; j > 0; j--)
-	{
+	for (j = amount; j > 0; j--) {
 		EntFire("Channel 3", "SetText", s1 + j.tostring() + s2, i - j);
 		EntFire("Channel 3", "Display", "", i - j);
 	}
 }
 
-function CountdownTimer4(amount)
-{
+function CountdownTimer4(amount) {
 	local i = amount;
 	local j;
-	for (j = amount; j > 0; j--)
-	{
+	for (j = amount; j > 0; j--) {
 		EntFire("channel 3 grey", "SetText", s1 + j.tostring() + s2, i - j);
 		EntFire("channel 3 grey", "Display", "", i - j);
 	}
 }
 
-function MT2()
-{
+function MT2() {
 	theGameText <- Entities.FindByName(null, "channel 4 maptext2")
-	if (theGameText != null)
-	{
+	if (theGameText != null) {
 		local temp1 = theGameText.GetName();
-		Text <- "\n" +
-			"\n Retreat!" +
-			"\n"
+		Text <- "Fall back!"
 		theGameText.__KeyValueFromString("message", Text)
 		EntFire(temp1, "Display", "", 0.10, null)
 	}
 }
 
-function MT3()
-{
+function MT3() {
 	theGameText <- Entities.FindByName(null, "channel 4 maptext")
-	if (theGameText != null)
-	{
+	if (theGameText != null) {
 		local temp1 = theGameText.GetName();
-		Text <- "\n" +
-			"\n << Silent Hill 3: Flee >>" +
-			"\n"
+        Text <- "《Silent Hill 3: Flee》"
 		theGameText.__KeyValueFromString("message", Text)
 		EntFire(temp1, "Display", "", 0.10, null)
 	}
 }
 
-function MT4()
-{
+function MT4() {
 	theGameText <- Entities.FindByName(null, "channel 4 maptext")
-	if (theGameText != null)
-	{
+	if (theGameText != null) {
 		local temp1 = theGameText.GetName();
-		Text <- "\n" +
-			"\n Medium Difficulty" +
-			"\n"
+		Text <- "Medium Difficulty"
 		theGameText.__KeyValueFromString("message", Text)
 		EntFire(temp1, "Display", "", 0.10, null)
 	}
 }
 
-function MT5()
-{
+function MT5() {
 	theGameText <- Entities.FindByName(null, "channel 4 maptext")
-	if (theGameText != null)
-	{
+	if (theGameText != null) {
 		local temp1 = theGameText.GetName();
-		Text <- "\n" +
-			"\n Extreme Difficulty" +
-			"\n"
+		Text <- "Extreme Difficulty"
 		theGameText.__KeyValueFromString("message", Text)
 		EntFire(temp1, "Display", "", 0.10, null)
 	}
 }
 
-function MT6()
-{
+function MT6() {
 	theGameText <- Entities.FindByName(null, "channel 4 maptext")
-	if (theGameText != null)
-	{
+	if (theGameText != null) {
 		local temp1 = theGameText.GetName();
-		Text <- "\n" +
-			"\n Normal Difficulty" +
-			"\n"
+		Text <- "Normal Difficulty"
 		theGameText.__KeyValueFromString("message", Text)
 		EntFire(temp1, "Display", "", 0.10, null)
 	}
