@@ -1,0 +1,75 @@
+"math_counter"
+{
+    "config"
+    {
+        "MultBoss"          "1"
+    }
+    "0"
+    {
+        "HP_counter"        "Special_Health"
+        "HPbar_counter"     "Special_HealthCount"
+        "HPinit_counter"    "Special_HealthInit"
+        "HPbar_min"         "0"
+        "HPbar_max"         "16"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "Gi Nattak"
+    }
+    "1"
+    {
+        "HP_counter"        "lvl2_Gi_Nattak_Counter"
+        "CustomText"        "Gi Nattak"
+    }
+    "2"
+    {
+        "HP_counter"        "Genesis_Counter"
+        "CustomText"        "Genesis"
+    }
+    "3"
+    {
+        "HP_counter"        "Shinra_Ifrit_Counter"
+        "CustomText"        "Ifrit"
+    }
+    "4"
+    {
+        "HP_counter"        "Shinra_Jenova_Counter"
+        "CustomText"        "Jenova"
+    }
+    "5"
+    {
+        "HP_counter"        "Shinra_Shiva_Counter"
+        "CustomText"        "Shiva"
+    }
+    "6"
+    {
+        "HP_counter"        "Billy_boy_health"
+        "CustomText"        "Genesis"
+    }
+    "7"
+    {
+        "HP_counter"        "demon_sephiroth_boss_health"
+        "HPinit_counter"    "demon_sephiroth_boss_healthBackup"
+        "HPbar_counter"     "demon_sephiroth_boss_count"
+        "HPbar_min"         "0"
+        "HPbar_max"         "16"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "Sephiroth"
+    }
+    "8"
+    {
+        "HP_counter"        "epic_nattak_boss_health"
+        "HPbar_counter"     "epic_nattak_boss_count"
+        "HPinit_counter"    "epic_nattak_boss_healthBackup"
+        "HPbar_min"         "0"
+        "HPbar_max"         "16"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "Gi Nattak"
+    }
+    "9"
+    {
+        "HP_counter"        "zeddy_miniboss_genesis_counter"
+        "CustomText"        "Genesis"
+    }
+}

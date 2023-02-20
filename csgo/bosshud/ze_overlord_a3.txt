@@ -1,0 +1,82 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "lv1_boss1_counter"
+        "CustomText"        "Shalltear Bloodfallen"
+    }
+    "1"
+    {
+        "HP_counter"        "lv1_boss2_counter_small"
+        "HPbar_counter"     "lv1_boss2_counter_big"
+        "HPinit_counter"    "lv1_boss2_jiaxue"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "5"
+        "HPbar_mode"        "1"
+        "CustomText"        "Ainz Ooal Gown"
+    }
+    "2"
+    {
+        "HP_counter"        "lv2_boss1_counter"
+        "CustomText"        "Shalltear Bloodfallen (Vampire)"
+    }
+    "3"
+    {
+        "HP_counter"        "lv2_boss2_counter_small"
+        "HPbar_counter"     "lv2_boss2_counter_big"
+        "HPinit_counter"    "lv2_boss2_jiaxue"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "5"
+        "HPbar_mode"        "1"
+        "CustomText"        "Shalltear Bloodfallen (Armor)"
+    }
+    "4"
+    {
+        "HP_counter"        "lv2_boss3_counter"
+        "CustomText"        "Shalltear Bloodfallen (Laser)"
+    }
+    "5"
+    {
+        "HP_counter"        "lv3_npc1_break"
+        "CustomText"        "Albedo"
+    }
+    "6"
+    {
+        "HP_counter"        "lv3_npc2_break"
+        "CustomText"        "Albedo"
+    }
+    "7"
+    {
+        "HP_counter"        "lv3_npc3_break"
+        "CustomText"        "Albedo"
+    }
+    "8"
+    {
+        "HP_counter"        "lv3_boss_counter_small"
+        "HPbar_counter"     "lv3_boss_counter_big"
+        "HPinit_counter"    "lv3_boss_jiaxue"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "5"
+        "HPbar_mode"        "1"
+        "CustomText"        "Albedo (Armor)"
+    }
+    "9"
+    {
+        "HP_counter"        "lv4_boss_counter_small"
+        "HPbar_counter"     "lv4_boss_counter_big"
+        "HPinit_counter"    "lv4_boss_jiaxue"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "5"
+        "HPbar_mode"        "1"
+        "CustomText"        "Cocytus"
+    }
+    "10"
+    {
+        "HP_counter"        "lv4_boss2_counter"
+        "CustomText"        "Ainz (Laser)"
+    }
+}

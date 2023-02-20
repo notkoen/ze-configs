@@ -1,0 +1,78 @@
+"math_counter"
+{
+    "config"
+    {
+        "MultBoss"          "1"
+    }
+    "0"
+    {
+        "HP_counter"        "guard_hp"
+        "CustomText"        "Statue"
+    }
+    "1"
+    {
+        "HP_counter"        "misaka_hp"
+        "CustomText"        "Misaka"
+    }
+    "2"
+    {
+        "HP_counter"        "misaka_hp_2"
+        "CustomText"        "Misaka (Phase 2)"
+    }
+    "3"
+    {
+        "HP_counter"        "misaka_hp_3"
+        "CustomText"        "Misaka (Phase 3)"
+    }
+    "4"
+    {
+        "HP_counter"        "final_misaka_hp2"
+        "CustomText"        "Misaka"
+    }
+    "5"
+    {
+        "HP_counter"        "final_misaka_hp1"
+        "CustomText"        "Misaka"
+    }
+    "6"
+    {
+        "HP_counter"        "lv3_boss_hp"
+        "CustomText"        "Blue Ball"
+    }
+    "7"
+    {
+        "HP_counter"        "lv3_exboss_hp"
+        "CustomText"        "Blue Ball"
+    }
+    "8"
+    {
+        "HP_counter"        "lv1_boss_hp"
+        "CustomText"        "Misaka"
+    }
+    "9"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "pillar_break"
+        "CustomText"        "Misaka"
+    }
+    "10"
+    {
+        "HP_counter"        "lv3_true_boss_hp"
+        "CustomText"        "True Boss"
+    }
+    "11"
+    {
+        "HP_counter"        "lv3_boss_hp"
+        "CustomText"        "Boss"
+    }
+    "12"
+    {
+        "HP_counter"        "lv3_guard_hp"
+        "CustomText"        "Guard"
+    }
+    "14"
+    {
+        "HP_counter"        "final_misaka_hp"
+        "CustomText"        "Misaka"
+    }
+}

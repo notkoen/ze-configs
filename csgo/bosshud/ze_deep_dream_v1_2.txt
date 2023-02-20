@@ -1,0 +1,87 @@
+"math_counter"
+{
+    "config"
+    {
+        "MultBoss"          "1"
+    }
+    "0"
+    {
+        "HP_counter"        "boss_sub_hp"
+        "HPbar_counter"     "boss_hp"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "Cube"
+    }
+    "1"
+    {
+        "HP_counter"        "st2_boss_sub_hp"
+        "HPbar_counter"     "st2_boss_hp"
+        "HPbar_min"         "0"
+        "HPbar_max"         "9"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "Cube"
+    }
+    "2"
+    {
+        "HP_counter"        "st3_boss_sub_hp2"
+        "HPbar_counter"     "st3_boss_hp2"
+        "HPbar_min"         "0"
+        "HPbar_max"         "4"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "White Crystal"
+    }
+    "3"
+    {
+        "HP_counter"        "st3_boss_sub_hp1"
+        "HPbar_counter"     "st3_boss_hp1"
+        "HPbar_min"         "0"
+        "HPbar_max"         "4"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "Black Crystal"
+    }
+    "4"
+    {
+        "HP_counter"        "st3_end_boss_sub_hp1"
+        "HPbar_counter"     "st3_end_boss_hp1"
+        "HPbar_min"         "0"
+        "HPbar_max"         "3"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "Awakened White Crystal"
+    }
+    "5"
+    {
+        "HP_counter"        "st4_boss_sub_hp1"
+        "HPbar_counter"     "st4_boss_hp_counter1"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "Cube"
+    }
+    "6"
+    {
+        "HP_counter"        "st4_boss2_sub_hp1"
+        "HPbar_counter"     "st4_boss2_hp1"
+        "HPbar_min"         "0"
+        "HPbar_max"         "4"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "Black Crystal"
+    }
+    "7"
+    {
+        "HP_counter"        "st4_boss2_sub_hp2"
+        "HPbar_counter"     "st4_boss2_hp2"
+        "HPbar_min"         "0"
+        "HPbar_max"         "4"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "White Crystal"
+    }
+}

@@ -1,0 +1,15 @@
+"math_counter"
+{
+    "0"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Mode_Mako_BahamutPhybox"
+        "CustomText"        "Bahamut"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Mode_Mako_SaloPhybox"
+        "CustomText"        "Sephiroth"
+    }
+}

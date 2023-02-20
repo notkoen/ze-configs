@@ -1,0 +1,43 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "l2_boss_hp"
+        "HPbar_counter"     "l2_boss_hp_left_counter"
+        "HPbar_min"         "0"
+        "HPbar_max"         "10"
+        "HPbar_default"     "10"
+        "HPbar_mode"        "1"
+        "CustomText"        "Tesla"
+    }
+    "1"
+    {
+        "HP_counter"        "l3_boss_hp"
+        "HPbar_counter"     "l3_boss_hp_left_counter"
+        "HPbar_min"         "0"
+        "HPbar_max"         "10"
+        "HPbar_default"     "10"
+        "HPbar_mode"        "1"
+        "CustomText"        "Tesla"
+    }
+    "2"
+    {
+        "HP_counter"        "l4_boss_hp"
+        "HPbar_counter"     "l2_boss_hp_left_counter"
+        "HPbar_min"         "0"
+        "HPbar_max"         "10"
+        "HPbar_default"     "10"
+        "HPbar_mode"        "1"
+        "CustomText"        "Tesla"
+    }
+    "3"
+    {
+        "HP_counter"        "l4_final_boss_hp"
+        "CustomText"        "Final Tesla"
+    }
+    "4"
+    {
+        "HP_counter"        "l3_final_tesla_hp"
+        "CustomText"        "Final Tesla"
+    }
+}

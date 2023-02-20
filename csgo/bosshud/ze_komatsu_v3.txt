@@ -1,0 +1,48 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "mob_grudge_math_1"
+        "CustomText"        "Electric Anomaly"
+    }
+    "1"
+    {
+        "HP_counter"        "math_boss_hp"
+        "CustomText"        "Death Note"
+    }
+    "2"
+    {
+        "HP_counter"        "boss_hp"
+        "CustomText"        "Boss"
+    }
+    "3"
+    {
+        "HP_counter"        "boss3_health"
+        "CustomText"        "Fire Anomaly"
+    }
+    "4"
+    {
+        "HP_counter"        "boss4_health"
+        "CustomText"        "Boss"
+    }
+    "5"
+    {
+        "HP_counter"        "boss5_health"
+        "CustomText"        "Boss"
+    }
+    "6"
+    {
+        "HP_counter"        "mob_grudge_math1"
+        "CustomText"        "Grudge"
+    }
+    "7"
+    {
+        "HP_counter"        "mob_grudge_math"
+        "CustomText"        "Boss"
+    }
+        "8"
+    {
+        "HP_counter"        "st5_boss3_hp_counter"
+        "CustomText"        "Fourth Boss"
+    }
+}

@@ -1,0 +1,30 @@
+"math_counter"
+{    
+    "config"
+    {
+        "MultHP"            "1"
+        "MultBoss"          "1"
+    }
+    "0"
+    {
+        "HP_counter"        "Boss_HP_Counter"
+        "CustomText"        "Boss"
+    }
+    "1"
+    {
+        "HP_counter"        "Ultima_Weapon_HP_Counter"
+        "CustomText"        "Ultima Weapon"
+    }
+    "2"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Final_Kain_Highwind_Hitbox"
+        "CustomText"        "Kain Highwind"
+    }
+    "3"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Aqua_Breakable"
+        "CustomText"        "Ice Wall"
+    }
+}    

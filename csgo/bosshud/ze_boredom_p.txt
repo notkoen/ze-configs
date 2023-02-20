@@ -1,0 +1,28 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "CacoDemonHP"
+        "CustomText"        "Caco Demon"
+    }
+    "1"
+    {
+        "HP_counter"        "LostSoulHP"
+        "CustomText"        "Lost Soul"
+    }
+    "2"
+    {
+        "HP_counter"        "DemonHP"
+        "CustomText"        "Demon"
+    }
+    "3"
+    {
+        "HP_counter"        "ImpHP"
+        "CustomText"        "Imp"
+    }
+    "4"
+    {
+        "HP_counter"        "PaperCounter"
+        "CustomText"        "Paper"
+    }
+}

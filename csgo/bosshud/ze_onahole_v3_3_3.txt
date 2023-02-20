@@ -1,0 +1,74 @@
+"math_counter"
+{
+    "0"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Onabox"
+        "CustomText"        "Onahole Box"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "boss_health2"
+        "CustomText"        "Pingas"
+    }
+    "2"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Hank_hitbox"
+        "CustomText"        "Cosmo Hank Hill"
+    }
+    "3"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "ex2_boss2_health"
+        "CustomText"        "Gris Kazoo"
+    }
+    "4"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "boss_health2_ex"
+        "CustomText"        "Kazoo Pingas"
+    }
+    "5"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "boss3_hitbox_health"
+        "CustomText"        "Vagene"
+    }
+    "6"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "hank_bahamut_hp"
+        "CustomText"        "Bahamut Hank"
+    }
+    "7"
+    {
+        "HP_counter"        "barry_final_health"
+        "CustomText"        "Sephiroth Berry"
+    }
+    "8"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "cagedoor1"
+        "CustomText"        "Cage Door"
+    }
+    "9"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "cagedoor2"
+        "CustomText"        "Cage Door"
+    }
+    "10"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "cagedoor3"
+        "CustomText"        "Cage Door"
+    }
+    "11"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "earthchan_wall"
+        "CustomText"        "Earth Chan"
+    }
+}

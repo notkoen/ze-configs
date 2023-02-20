@@ -1,0 +1,94 @@
+"math_counter"
+{
+    "config"
+    {
+        "MultBoss"          "1"
+    }
+    "0"
+    {
+        "HP_counter"        "lvl3_boss_hp"
+        "HPinit_counter"    "lvl3_boss_hp_add"
+        "HPbar_counter"     "lvl3_boss_hp_left"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "5"
+        "HPbar_mode"        "1"
+        "CustomText"        "Main Crystal"
+    }
+    "1"
+    {
+        "HP_counter"        "lvl3_boss_blue_hp"
+        "CustomText"        "Blue Crystal"
+    }
+    "2"
+    {
+        "HP_counter"        "lvl3_boss_green_hp"
+        "CustomText"        "Green Crystal"
+    }
+    "3"
+    {
+        "HP_counter"        "ex1_boss_hp"
+        "HPinit_counter"    "ex1_boss_hp_add"
+        "HPbar_counter"     "ex1_boss_hp_left"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "5"
+        "HPbar_mode"        "1"
+        "CustomText"        "Boss"
+    }
+    "4"
+    {
+        "HP_counter"        "ex2_boss_hp"
+        "HPinit_counter"    "ex2_boss_hp_add"
+        "HPbar_counter"     "ex2_boss_hp_left"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "5"
+        "HPbar_mode"        "1"
+        "CustomText"        "Boss"
+    }
+    "5"
+    {
+        "HP_counter"        "lvl3_final_boss_hp"
+        "CustomText"        "Final Boss"
+    }
+    "6"
+    {
+        "HP_counter"        "ex2_final_boss_hp"
+        "CustomText"        "Final Boss"
+    }
+    "7"
+    {
+        "HP_counter"        "ex_misaka_hp"
+        "CustomText"        "Misaka"
+    }
+    "8"
+    {
+        "HP_counter"        "lvl1_ending_boss_hp"
+        "CustomText"        "Boss"
+    }
+    "9"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "start_b1"
+        "CustomText"        "Statue"
+    }
+    "10"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "start_b2"
+        "CustomText"        "Statue"
+    }
+    "11"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "start_b3"
+        "CustomText"        "Statue"
+    }
+    "12"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "start_b4"
+        "CustomText"        "Statue"
+    }
+}

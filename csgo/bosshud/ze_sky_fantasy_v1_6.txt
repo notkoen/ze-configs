@@ -1,0 +1,74 @@
+"math_counter"
+{
+    "config"
+    {
+        "MultBoss"          "1"
+    }
+    "0"
+    {
+        "HP_counter"        "stage5_boss_hp_counter"
+        "HPbar_counter"     "stage5_boss_hp_left_counter"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "5"
+        "HPbar_mode"        "1"
+        "CustomText"        "Demon Abyss"
+    }
+    "1"
+    {
+        "HP_counter"        "stage4_boss_hp_counter"
+        "HPbar_counter"     "stage4_boss_hp_left_counter"
+        "HPinit_counter"    "stage4_boss_hp_add_counter"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "5"
+        "HPbar_mode"        "1"
+        "CustomText"        "Blue Abyss"
+    }
+    "2"
+    {
+        "HP_counter"        "stage3_boss_hp_counter"
+        "HPbar_counter"     "stage3_boss_hp_left_counter"
+        "HPinit_counter"    "stage3_boss_hp_add_counter"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "5"
+        "HPbar_mode"        "1"
+        "CustomText"        "Green Abyss"
+    }
+    "3"
+    {
+        "HP_counter"        "stage4_final_boss_hp"
+        "CustomText"        "Blue Abyss"
+    }
+    "4"
+    {
+        "HP_counter"        "stage1_boss_hp"
+        "CustomText"        "Green Abyss"
+    }
+    "5"
+    {
+        "HP_counter"        "stage5_final_boss_hp"
+        "CustomText"        "Final Abyss"
+    }
+    "6"
+    {
+        "HP_counter"        "stage3_final_boss_hp"
+        "CustomText"        "Green Abyss"
+    }
+    "7"
+    {
+        "HP_counter"        "blueball_3c_counter"
+        "CustomText"        "Blue Abyss"
+    }
+    "8"
+    {
+        "HP_counter"        "pball_green_hp"
+        "CustomText"        "Green Abyss"
+    }
+    "9"
+    {
+        "HP_counter"        "pball_blue_hp"
+        "CustomText"        "Blue Abyss"
+    }
+}

@@ -1,0 +1,23 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "boss-rex-hp"
+        "CustomText"        "Rex"
+    }
+    "1"
+    {
+        "HP_counter"        "winos2-hp"
+        "CustomText"        "Winos"
+    }
+    "2"
+    {
+        "HP_counter"        "boss-agr-hp"
+        "CustomText"        "Agera"
+    }
+    "3"
+    {
+        "HP_counter"        "winos-hp"
+        "CustomText"        "Winos"
+    }
+}

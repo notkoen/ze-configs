@@ -1,0 +1,15 @@
+"math_counter"
+{
+    "0"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "uj_boss"
+        "CustomText"        "Ujel"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "First_Boss"
+        "CustomText"        "Boss"
+    }
+}

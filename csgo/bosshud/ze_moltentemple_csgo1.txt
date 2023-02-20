@@ -1,0 +1,23 @@
+"math_counter"
+{
+    "config"
+    {
+        "HitMarkerOnly"     "1"
+    }
+    "0"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "temple_mboss_hitbox"
+        "CustomText"        "Demon"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "caves_add_hbox"
+    }
+    "2"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "caves_mboss_hitbox"
+    }
+}

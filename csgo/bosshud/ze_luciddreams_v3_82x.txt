@@ -1,0 +1,15 @@
+"math_counter"
+{
+    "0"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "LV1_END_BOSS"
+        "CustomText"        "Sphere"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "LV1_Crystall_trigger_door"
+        "CustomText"        "Crystal"
+    }
+}

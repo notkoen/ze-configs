@@ -1,0 +1,36 @@
+"math_counter"
+{
+    "config"
+    {
+        "BossBeatenShowTopDamage" "0"
+        "MultBoss"          "1"
+        "MultHP"            "1"
+    }
+    "0"
+    {
+        "HP_counter"        "map_boss_counter2"
+        "HPbar_counter"     "map_boss_counter3"
+        "HPinit_counter"    "map_boss_counter1"
+        "HPbar_min"         "0"
+        "HPbar_max"         "6"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "Boss"
+    }
+    "1"
+    {
+        "HP_counter"        "stage4_miniboss_counter2"
+        "HPbar_counter"     "stage4_miniboss_counter3"
+        "HPinit_counter"    "stage4_miniboss_counter1"
+        "HPbar_min"         "0"
+        "HPbar_max"         "6"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "Mini Spider"
+    }
+    "2"
+    {
+        "HP_counter"        "rockattack_count"
+        "CustomText"        "Rock Wall"
+    }
+}

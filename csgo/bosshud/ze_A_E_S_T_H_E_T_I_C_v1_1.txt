@@ -1,0 +1,18 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "Boss_Mini_HP1"
+        "CustomText"        "Gondola Wizard"
+    }
+    "1"
+    {
+        "HP_counter"        "Boss_Mini_HP2"
+        "CustomText"        "Gondola Wizard"
+    }
+    "2"
+    {
+        "HP_counter"        "EyesHP"
+        "CustomText"        "Eyes"
+    }
+}

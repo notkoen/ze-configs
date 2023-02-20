@@ -1,0 +1,63 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "Zalera_Hp_Counter"
+        "HPbar_counter"     "Zalera_Hpbar_Counter"
+        "HPbar_min"         "0"
+        "HPbar_max"         "6"
+        "HPbar_default"     "6"
+        "HPbar_mode"        "1"
+        "CustomText"        "Esper Zalera"
+    }
+    "1"
+    {
+        "HP_counter"        "KingBomb_Hp_Counter"
+        "HPbar_counter"     "KingBomb_Hpbar_Counter"
+        "HPbar_min"         "0"
+        "HPbar_max"         "6"
+        "HPbar_default"     "6"
+        "HPbar_mode"        "1"
+        "CustomText"        "King Bomb"
+    }
+    "2"
+    {
+        "HP_counter"        "Chaos_Hp_Counter"
+        "HPbar_counter"     "Chaos_Hpbar_Counter"
+        "HPbar_min"         "0"
+        "HPbar_max"         "6"
+        "HPbar_default"     "6"
+        "HPbar_mode"        "1"
+        "CustomText"        "Esper Chaos"
+    }
+    "3"
+    {
+        "HP_counter"        "Gabranth_Hp_Counter"
+        "HPbar_counter"     "Gabranth_Hpbar_Counter"
+        "HPbar_min"         "0"
+        "HPbar_max"         "6"
+        "HPbar_default"     "6"
+        "HPbar_mode"        "1"
+        "CustomText"        "Gabranth"
+    }
+    "4"
+    {
+        "HP_counter"        "ChaosJet_Water_Hp_Counter"
+        "CustomText"        "Water Orb"
+    }
+    "5"
+    {
+        "HP_counter"        "ChaosJet_Earth_Hp_Counter"
+        "CustomText"        "Earth Orb"
+    }
+    "6"
+    {
+        "HP_counter"        "ChaosJet_Fire_Hp_Counter"
+        "CustomText"        "Fire Orb"
+    }
+    "7"
+    {
+        "HP_counter"        "ChaosJet_Air_Hp_Counter"
+        "CustomText"        "Wind Orb"
+    }
+}

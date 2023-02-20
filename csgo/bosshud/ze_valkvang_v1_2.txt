@@ -1,0 +1,27 @@
+"math_counter"
+{
+    "config"
+    {
+        "MultBoss"          "1"
+    }
+    "0"
+    {
+        "HP_counter"        "ds_ornstein_hpcounter"
+        "HPbar_counter"     "ds_ornstein_hpmasscounter"
+        "HPbar_min"         "0"
+        "HPbar_max"         "10"
+        "HPbar_default"     "10"
+        "HPbar_mode"        "1"
+        "CustomText"        "Ornstein"
+    }
+    "1"
+    {
+        "HP_counter"        "ds_smough_hpcounter"
+        "HPbar_counter"     "ds_smough_hpmasscounter"
+        "HPbar_min"         "0"
+        "HPbar_max"         "10"
+        "HPbar_default"     "10"
+        "HPbar_mode"        "1"
+        "CustomText"        "Smough"
+    }
+}

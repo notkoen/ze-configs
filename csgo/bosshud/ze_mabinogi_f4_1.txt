@@ -1,0 +1,76 @@
+"math_counter"
+{
+    "config"
+    {
+        "MultBoss"          "1"
+    }
+    "0"
+    {
+        "HP_counter"        "Boss_Flandre"
+        "CustomText"        "Flandre"
+    }
+    "1"
+    {
+        "HP_counter"        "Boss_pepe"
+        "CustomText"        "Pepe"
+    }
+    "2"
+    {
+        "HP_counter"        "Castle_Golem"
+        "CustomText"        "Golem"
+    }
+    "3"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Purple_Orb"
+        "CustomText"        "Purple Orb"
+    }
+    "4"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Red_Orb"
+        "CustomText"        "Red Orb"
+    }
+    "5"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Blue_Orb"
+        "CustomText"        "Blue Orb"
+    }
+    "6"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Green_Orb"
+        "CustomText"        "Green Orb"
+    }
+    "7"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "White_Orb1"
+        "CustomText"        "White Orb 1"
+    }
+    "8"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "White_Orb2"
+        "CustomText"        "White Orb 2"
+    }
+    "9"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "White_Orb3"
+        "CustomText"        "White Orb 3"
+    }
+    "10"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "White_Orb4"
+        "CustomText"        "White Orb 4"
+    }
+    "11"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "White_Orb5"
+        "CustomText"        "White Orb 5"
+    }
+}

@@ -1,0 +1,26 @@
+"math_counter"
+{
+    "config"
+    {
+        "MultBoss"          "1"
+        "MultHP"            "1"
+        "BossBeatenShowTopDamage" "0"
+    }
+    "0"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "boss1_hb"
+        "CustomText"        "Cube"
+    }
+    "1"
+    {
+        "HP_Counter"        "boss_killcount"
+        "CustomText"        "Cubes Left"
+    }
+    "2"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "processed"
+        "CustomText"        "Cube"
+    }
+}

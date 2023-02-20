@@ -1,0 +1,19 @@
+"math_counter"
+{
+    "config"
+    {
+        "HitMarkerOnly"     "1"
+    }
+    "0"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "stage1_boss_break"
+        "CustomText"        "Boss"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "stage2_boss_breakable"
+        "CustomText"        "Boss"
+    }
+}

@@ -1,0 +1,25 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "key"
+        "CustomText"        "Key Chest"
+    }
+    "1"
+    {
+        "HP_counter"        "stage1_bosshp"
+        "CustomText"        "Purple Dot"
+    }
+    
+    "2"
+    {
+        "HP_counter"        "naraka_counter"
+        "CustomText"        "Naraka"
+    }
+    
+    "3"
+    {
+        "HP_counter"        "naraka_counter"
+        "CustomText"        "Naraka"
+    }
+}

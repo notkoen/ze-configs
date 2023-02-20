@@ -1,0 +1,76 @@
+"math_counter"
+{
+    "config"
+    {
+        "MultBoss"          "1"
+        "MultHp"            "1"
+    }
+    "0"
+    {
+        "HP_counter"        "ex2_boss_hp"
+        "HPbar_counter"     "ex2_boss_hp_left"
+        "HPinit_counter"    "ex2_boss_hp_add"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "5"
+        "HPbar_mode"        "1"
+        "CustomText"        "Dr. X"
+    }
+    "1"
+    {
+        "HP_counter"        "ex1_boss_hp"
+        "HPbar_counter"     "ex1_boss_hp_left"
+        "HPinit_counter"    "ex1_boss_hp_add"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "5"
+        "HPbar_mode"        "1"
+        "CustomText"        "EX Tesla"
+    }
+    "2"
+    {
+        "HP_counter"        "lvl2_boss_hp"
+        "HPbar_counter"     "lvl2_boss_hp_left"
+        "HPinit_counter"    "lvl2_boss_hp_add"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "5"
+        "HPbar_mode"        "1"
+        "CustomText"        "Tesla"
+    }
+    "3"
+    {
+        "HP_counter"        "ex2_electricalbox_yellow"
+        "CustomText"        "Yellow Electrical Box"
+    }
+    "4"
+    {
+        "HP_counter"        "ex2_electricalbox_normal"
+        "CustomText"        "White Electrical Box"
+    }
+    "5"
+    {
+        "HP_counter"        "ex2_electricalbox_green"
+        "CustomText"        "Green Electrical Box"
+    }
+    "6"
+    {
+        "HP_counter"        "ex2_electricalbox_red"
+        "CustomText"        "Red Electrical Box"
+    }
+    "7"
+    {
+        "HP_counter"        "ex2_tesla_hitbox"
+        "CustomText"        "Tesla"
+    }
+    "8"
+    {
+        "HP_counter"        "ex1_final_boss_hp"
+        "CustomText"        "Dr. X"
+    }
+    "9"
+    {
+        "HP_counter"        "ex2_ending_boss_hp"
+        "CustomText"        "Dr. X (Laser)"
+    }
+}

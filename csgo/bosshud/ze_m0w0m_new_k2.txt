@@ -1,0 +1,31 @@
+"math_counter"
+{
+    "config"
+    {
+        "MultBoss"                  "1"
+        "MultHP"                    "1"
+        "BossBeatenShowTopDamage"   "0"
+    }
+    "0"
+    {
+        "HP_counter"        "bosshp1"
+        "HPinit_counter"    "bosshp2"
+        "HPbar_counter"     "bosshp3"
+        "HPbar_min"         "0"
+        "HPbar_max"         "10"
+        "HPbar_default"     "10"
+        "HPbar_mode"        "1"
+        "CustomText"        "Boss"
+    }
+    "1"
+    {
+        "HP_counter"        "s36miniboss_crystal_counter1"
+        "HPinit_counter"    "s36miniboss_crystal_counter2"
+        "HPbar_counter"     "s36miniboss_crystal_counter3"
+        "HPbar_min"         "0"
+        "HPbar_max"         "10"
+        "HPbar_default"     "10"
+        "HPbar_mode"        "1"
+        "CustomText"        "Crystal"
+    }
+}

@@ -1,0 +1,54 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "demon_boss_breakable_1"
+        "CustomText"        "Ricardo"
+    }
+    "1"
+    {
+        "HP_counter"        "misaka_hp_1"
+        "HPbar_counter"     "HPCounterIterator"
+        "HPinit_counter"    "HPCounterBackUp"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "3"
+        "HPbar_mode"        "1"
+        "CustomText"        "Anime Gurl"
+    }
+    "2"
+    {
+        "HP_counter"        "demon_boss_breakable_2"
+        "CustomText"        "Ricardo"
+    }
+    "3"
+    {
+        "HP_counter"        "demon_boss_counter"
+        "CustomText"        "Ricardo"
+    }
+    "4"
+    {
+        "HP_counter"        "demon_boss_breakable_math_counter"
+        "CustomText"        "Final Boss"
+    }
+    "5"
+    {
+        "HP_counter"        "demon_boss2_breakable_math_counter"
+        "CustomText"        "First Boss"
+    }
+    "6"
+    {
+        "HP_counter"        "demon_boss_2_math_counter"
+        "CustomText"        "The Final Ricardo"
+    }
+    "7"
+    {
+        "HP_counter"        "st5_boss2_hp_counter"
+        "CustomText"        "Third Boss"
+    }
+    "8"
+    {
+        "HP_counter"        "st5_boss3_hp_counter"
+        "CustomText"        "Fourth Boss"
+    }
+}

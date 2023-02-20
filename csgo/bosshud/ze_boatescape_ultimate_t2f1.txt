@@ -1,0 +1,54 @@
+"math_counter"
+{
+    "config"
+    {
+        "MultBoss"          "1"
+    }
+    "0"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "ZMskin_tk_phy_main"
+        "CustomText"        "Tower Knight"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "ZMskin_tk_phy_stundamage"
+        "CustomText"        "Stun 1"
+    }
+    "2"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "ZMskin_tk_phy_stundamage2"
+        "CustomText"        "Stun 2"
+    }
+    "3"
+    {
+        "HP_counter"        "ZMskin_tk_coun_weak"
+        "CustomText"        "Stun Counter"
+    }
+    "4"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Mode_Mako_BahamutPhybox"
+        "CustomText"        "Bahamut"
+    }
+    "5"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Mode_Mako_SaloPhybox"
+        "CustomText"        "Sephiroth"
+    }
+    "6"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Item_Balrog_Body"
+        "CustomText"        "Balrog"
+    }
+    "7"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "bosss_hp2"
+        "CustomText"        "Socrates"
+    }
+}

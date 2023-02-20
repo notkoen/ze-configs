@@ -1,0 +1,15 @@
+"math_counter"
+{
+    "0"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "lv2_boss_hitbox"
+        "CustomText"        "Titan"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "lv5_boss_hitbox"
+        "CustomText"        "Titan"
+    }
+}

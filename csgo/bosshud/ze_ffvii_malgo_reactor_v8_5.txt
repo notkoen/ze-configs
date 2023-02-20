@@ -1,0 +1,52 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "HPCounter"
+        "HPbar_counter"     "HPCounterIterator"
+        "HPinit_counter"    "HPCounterBackUp"
+        "HPbar_min"         "0"
+        "HPbar_max"         "40"
+        "HPbar_default"     "40"
+        "HPbar_mode"        "1"
+        "CustomText"        "Boss"
+    }
+    "1"
+    {
+        "HP_counter"        "Ifrit_HP"
+        "CustomText"        "Ifrit"
+    }
+    "2"
+    {
+        "HP_counter"        "Rage2_Ifrit_Counter"
+        "CustomText"        "Ifrit"
+    }
+    "3"
+    {
+        "HP_counter"        "Bahamut_HP"
+        "HPbar_counter"     "Bahamut_Counter"
+        "HPinit_counter"    "BahamutHP2CounterBackUp"
+        "HPbar_min"         "0"
+        "HPbar_max"         "40"
+        "HPbar_default"     "40"
+        "HPbar_mode"        "1"
+        "CustomText"        "Bahamut"
+    }
+    "4"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Final_Fulgor_Breakable"
+        "CustomText"        "Final Bahamut"
+    }
+    "5"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Sephiroth_Final_Breakable"
+        "CustomText"        "Sephiroth"
+    }
+    "6"
+    {
+        "HP_counter"        "skin_sephiroth_counter"
+        "CustomText"        "Zombie Sephiroth"
+    }
+}

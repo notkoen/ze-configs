@@ -1,0 +1,94 @@
+"math_counter"
+{
+    "config"
+    {
+        "MultBoss"          "1"
+    }
+    "0"
+    {
+        "HP_counter"        "s1_itachi_Boss_Health"
+        "HPbar_counter"     "s1_itachi_Boss_HealthCount"
+        "HPinit_counter"    "s1_itachi_Boss_HealthBackup"
+        "HPbar_min"         "0"
+        "HPbar_max"         "10"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "Itachi"
+    }
+    "1"
+    {
+        "HP_counter"        "qsdfg_sasuke_Boss_Health"
+        "HPbar_counter"     "qsdfg_sasuke_Boss_HealthCount"
+        "HPinit_counter"    "qsdfg_sasuke_Boss_HealthBackup"
+        "HPbar_min"         "0"
+        "HPbar_max"         "10"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "Sasuke"
+    }
+    "2"
+    {
+        "HP_counter"        "s2_sasuke_final_health"
+        "HPbar_counter"     "s2_sasuke_final_HealthCount"
+        "HPinit_counter"    "s2_sasuke_final_health_backup"
+        "HPbar_min"         "0"
+        "HPbar_max"         "10"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "Sasuke"
+    }
+    "3"
+    {
+        "HP_counter"        "obito_Boss_Health"
+        "HPbar_counter"     "obito_Boss_HealthCount"
+        "HPinit_counter"    "obito_Boss_HealthBackup"
+        "HPbar_min"         "0"
+        "HPbar_max"         "10"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "Obito"
+    }
+    "4"
+    {
+        "HP_counter"        "madara_Boss_Health"
+        "HPbar_counter"     "madara_Boss_HealthCount"
+        "HPinit_counter"    "madara_Boss_HealthBackup"
+        "HPbar_min"         "0"
+        "HPbar_max"         "10"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "Madara"
+    }
+    "5"
+    {
+        "HP_counter"        "654321234_susano_Health"
+        "HPbar_counter"     "654321234_susano_HealthCount"
+        "HPinit_counter"    "654321234_susano_HealthBackup"
+        "HPbar_min"         "0"
+        "HPbar_max"         "10"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "Susano"
+    }
+    "6"
+    {
+        "HP_counter"        "exsdfgh_madara_Health"
+        "HPbar_counter"     "exsdfgh_madara_HealthCount"
+        "HPinit_counter"    "exsdfgh_madara_HealthBackup"
+        "HPbar_min"         "0"
+        "HPbar_max"         "10"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "Madara"
+    }
+    "7"
+    {
+        "HP_counter"        "345876_madara_paradise_counter"
+        "CustomText"        "Meteor"
+    }
+    "8"
+    {
+        "HP_counter"        "6543_madara_appear_counter"
+        "CustomText"        "Madara"
+    }
+}

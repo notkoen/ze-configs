@@ -1,0 +1,52 @@
+"math_counter"
+{
+   "0"
+    {
+        "Hp_counter"        "boss_2_knockback_1_counter"
+        "CustomText"        "Quadralex"
+    }
+    "1"
+    {
+        "Hp_counter"        "boss_2_knockback_2_counter"
+        "CustomText"        "Quadralex"
+    }
+    "2"
+    {
+        "Hp_counter"        "boss_2_knockback_3_counter"
+        "CustomText"        "Quadralex"
+    }
+    "3"
+    {
+        "Hp_counter"        "boss_3_knockback_1_counter"
+        "CustomText"        "Quadralex"
+    }
+    "4"
+    {
+        "Hp_counter"        "boss_quad_encounter_01_relay"
+        "HPbar_counter"     "boss_quad_encounter_01_counter"
+        "CustomText"        "Boss"
+    }
+    "5"
+    {
+        "Hp_counter"        "boss_worm_01_counter_hit_relay"
+        "HPbar_counter"     "boss_worm_01_counter_hit"
+        "CustomText"        "Boss"
+    }
+    "6"
+    {
+        "Hp_counter"        "boss_worm_01_counter"
+        "CustomText"        "Worm"
+    }
+    "7"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "boss_3_energy_1"
+        "CustomText"        "Energy Tube 1"
+    }
+    "8"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "boss_3_energy_2"
+        "CustomText"        "Energy Tube 2"
+    }
+}

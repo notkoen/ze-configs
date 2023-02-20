@@ -1,0 +1,57 @@
+"math_counter"
+{
+    "config"
+    {
+        "MultBoss"          "1"
+    }
+    "0"
+    {
+        "HP_counter"        "boss_misaka"
+        "CustomText"        "Misaka Boss"
+    }
+    "1"
+    {
+        "HP_counter"        "st1_model3_phys"
+        "CustomText"        "Statue"
+    }
+    "2"
+    {
+        "HP_counter"        "st3_boss_phys"
+        "CustomText"        "Green Boss"
+    }
+    "3"
+    {
+        "HP_counter"        "st4_boss_phys"
+        "CustomText"        "Blue Boss"
+    }
+    "4"
+    {
+        "HP_counter"        "st5_boss_hp_counter"
+        "CustomText"        "Final Boss"
+    }
+    "5"
+    {
+        "HP_counter"        "st5_boss_hp1_counter"
+        "CustomText"        "First Boss"
+    }
+    "6"
+    {
+        "HP_counter"        "st5_boss1_hp_counter"
+        "CustomText"        "Second Boss"
+    }
+    "7"
+    {
+        "HP_counter"        "st5_boss2_hp_counter"
+        "CustomText"        "Third Boss"
+    }
+    "8"
+    {
+        "HP_counter"        "st5_boss3_hp_counter"
+        "CustomText"        "Fourth Boss"
+    }
+    "9"
+    {
+        "HP_counter"        "st4_fall_hp"
+        "CustomText"        "Star"
+    }
+}

@@ -1,0 +1,49 @@
+"math_counter"
+{
+    "config"
+    {
+        "MultBoss"          "1"
+    }
+    "0"
+    {
+        "HP_counter"        "Stage1_boss1_hp_per"
+        "HPbar_counter"     "Stage1_boss1_hp_num"
+        "HPinit_counter"    "Stage1_boss1_hp_default"
+        "HPbar_min"         "0"
+        "HPbar_max"         "6"
+        "HPbar_default"     "6"
+        "HPbar_mode"        "1"
+        "CustomText"        "Light"
+    }
+    "1"
+    {
+        "HP_counter"        "Stage1_boss2_hp_per"
+        "HPbar_counter"     "Stage1_boss2_hp_num"
+        "HPinit_counter"    "Stage1_boss2_hp_default"
+        "HPbar_min"         "0"
+        "HPbar_max"         "6"
+        "HPbar_default"     "6"
+        "HPbar_mode"        "1"
+        "CustomText"        "Disco Light"
+    }
+    "2"
+    {
+        "HP_counter"        "stage4_final_boss_hp"
+        "CustomText"        "Blue Abyss"
+    }
+    "3"
+    {
+        "HP_counter"        "Stage2_last_boss_hp"
+        "CustomText"        "Laser Crystal"
+    }
+    "4"
+    {
+        "HP_counter"        "Stage1_boss2_rage_hp"
+        "CustomText"        "Rage Ball"
+    }
+    "5"
+    {
+        "HP_counter"        "Stage1_boss2_heal_hp"
+        "CustomText"        "Heal Ball"
+    }
+}

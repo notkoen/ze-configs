@@ -1,0 +1,107 @@
+"math_counter"
+{
+    "config"
+    {
+        "MultBoss"          "1"
+    }
+    "0"
+    {
+        "HP_counter"        "L1_BlueEyes_HP"
+        "CustomText"        "BlueEye"
+    }
+    "1"
+    {
+        "HP_counter"        "L2_GreenEyes_HP"
+        "CustomText"        "GreenEye"
+    }
+    "2"
+    {
+        "HP_counter"        "L3_RedEyes_HP"
+        "CustomText"        "RedEye"
+    }
+    "3"
+    {
+        "HP_counter"        "L4_BossPhase_1"
+        "CustomText"        "WhiteEye (1/4)"
+    }
+    "4"
+    {
+        "HP_counter"        "L4_BossPhase_2"
+        "CustomText"        "WhiteEye (2/4)"
+    }
+    "5"
+    {
+        "HP_counter"        "L4_BossPhase_3"
+        "CustomText"        "WhiteEye (3/4)"
+    }
+    "6"
+    {
+        "HP_counter"        "L4_BossPhase_4"
+        "CustomText"        "WhiteEye (4/4)"
+    }
+    "7"
+    {
+        "HP_counter"        "L4_WhiteEyes_HP"
+        "CustomText"        "Final WhiteEye"
+    }
+    "8"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "L1_2_Sphere1"
+        "CustomText"        "Sphere"
+    }
+    "9"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "L1_2_Sphere2"
+        "CustomText"        "Sphere"
+    }
+    "10"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "L2_3_Sphere"
+        "CustomText"        "Sphere"
+    }
+    "11"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "L2_2_Sphere2"
+        "CustomText"        "Sphere"
+    }
+    "12"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "L2_2_Sphere1"
+        "CustomText"        "Sphere"
+    }
+    "13"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "L2_5_Sphere"
+        "CustomText"        "Sphere"
+    }
+    "14"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "L3_3_Sphere3"
+        "CustomText"        "Sphere"
+    }
+    "15"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "L3_3_Sphere2"
+        "CustomText"        "Sphere"
+    }
+    "16"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "L3_3_Sphere1"
+        "CustomText"        "Sphere"
+    }
+    "17"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "L3_2_Sphere"
+        "CustomText"        "Sphere"
+    }
+}

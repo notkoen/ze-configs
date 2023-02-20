@@ -1,0 +1,67 @@
+"math_counter"
+{
+    "config"
+    {
+        "MultHp"            "1"
+    }
+    "0"
+    {
+        "HP_counter"        "q1_counter"
+        "CustomText"        "Pillars"
+    }
+    "1"
+    {
+        "HP_counter"        "boss_tentacle_1_healthcounter"
+        "CustomText"        "Tentacle"
+    }
+    "2"
+    {
+        "HP_counter"        "boss_tentacle_2_healthcounter"
+        "CustomText"        "Tentacle"
+    }
+    "3"
+    {
+        "HP_counter"        "boss_tentacle_3_healthcounter"
+        "CustomText"        "Tentacle"
+    }
+    "4"
+    {
+        "HP_counter"        "boss_tentacle_4_healthcounter"
+        "CustomText"        "Tentacle"
+    }
+    "5"
+    {
+        "HP_counter"        "boss_healthcounter"
+        "HPbar_counter"     "boss_death_counter"
+        "HPbar_min"         "0"
+        "HPbar_max"         "2"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "Kraken"
+    }
+    "6"
+    {
+        "HP_counter"        "boss_tentacle_5_healthcounter"
+        "CustomText"        "Tentacle"
+    }
+    "7"
+    {
+        "HP_counter"        "boss_tentacle_6_healthcounter"
+        "CustomText"        "Tentacle"
+    }
+    "8"
+    {
+        "HP_counter"        "q2_counter"
+        "CustomText"        "Fuel Tank"
+    }
+    "9"
+    {
+        "HP_counter"        "q3_counter"
+        "CustomText"        "Wall"
+    }
+    "10"
+    {
+        "HP_counter"        "q4_counter"
+        "CustomText"        "Gate Control"
+    }
+}

@@ -1,0 +1,62 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "Stage2_last_boss_hp"
+        "CustomText"        "Laser Crystal"
+    }
+    "1"
+    {
+        "HP_counter"        "s2_sz_boss_hp"
+        "CustomText"        "Ruby Basilisk"
+    }
+    "2"
+    {
+        "HP_counter"        "s1_sz_hp_counter"
+        "CustomText"        "Final Monster"
+    }
+    "3"
+    {
+        "HP_counter"        "Stage1_boss2_rage_hp"
+        "CustomText"        "Rage"
+    }
+    "4"
+    {
+        "HP_counter"        "Stage1_boss2_heal_hp"
+        "CustomText"        "Heal"
+    }
+    "5"
+    {
+        "HP_counter"        "Stage1_boss2_hp_per"
+        "HPinit_counter"    "Stage1_boss2_hp_default"
+        "HPbar_counter"     "Stage1_boss2_hp_num"
+        "HPbar_min"         "0"
+        "HPbar_max"         "6"
+        "HPbar_default"     "6"
+        "HPbar_mode"        "1"
+        "CustomText"        "Disco Light"
+    }
+    "6"
+    {
+        "HP_counter"        "Stage1_boss1_hp_per"
+        "HPinit_counter"    "Stage1_boss1_hp_default"
+        "HPbar_counter"     "Stage1_boss1_hp_num"
+        "HPbar_min"         "0"
+        "HPbar_max"         "6"
+        "HPbar_default"     "6"
+        "HPbar_mode"        "1"
+        "CustomText"        "God of Death"
+    }
+    "7"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "S1ex"
+        "CustomText"        "Glass Barrier"
+    }
+    "8"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "S1sjtrggier"
+        "CustomText"        "Pink Crystal"
+    }
+}

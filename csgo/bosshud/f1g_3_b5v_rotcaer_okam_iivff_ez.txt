@@ -1,0 +1,32 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "bahamut_vida"
+        "CustomText"        "tumahaB"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "glassT"
+        "CustomText"        "htorihpeS"
+    }
+    "2"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "bahamutend"
+        "CustomText"        "tumahaB"
+    }
+    "3"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "bahamutend1"
+        "CustomText"        "htorihpeS"
+    }
+    "4"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Monstruo_Breakable"
+        "CustomText"        "noiprocS drauG"
+    }
+}

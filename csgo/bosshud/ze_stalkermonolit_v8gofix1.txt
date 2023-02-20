@@ -1,0 +1,95 @@
+"math_counter"
+{
+    "config"
+    {
+        "MultBoss"          "1"
+    }
+    "0"
+    {
+        "HP_counter"        "stage_1_gigant1"
+        "CustomText"        "Pseudogiant"
+    }
+    "1"
+    {
+        "HP_counter"        "stage_1_block1"
+        "CustomText"        "Generator 1"
+    }
+    "2"
+    {
+        "HP_counter"        "stage_1_block2"
+        "CustomText"        "Generator 2"
+    }
+    "3"
+    {
+        "HP_counter"        "stage_1_block3"
+        "CustomText"        "Generator 3"
+    }
+    "4"
+    {
+        "HP_counter"        "stage_1_block4"
+        "CustomText"        "Generator 4"
+    }
+    "5"
+    {
+        "HP_counter"        "stage_1_block5"
+        "CustomText"        "Controller"
+    }
+    "6"
+    {
+        "HP_counter"        "stage_1_countermonolit1"
+        "CustomText"        "Helicopter"
+    }
+    "7"
+    {
+        "HP_counter"        "pirate_counter"
+        "HPbar_counter"     "pirate_hp_iterations"
+        "HPinit_counter"    "pirate_hp_backup"
+        "HPbar_min"         "0"
+        "HPbar_max"         "20"
+        "HPbar_default"     "16"
+        "HPbar_mode"        "1"
+        "CustomText"        "Pseudogiant"
+    }
+    "8"
+    {
+        "HP_counter"        "stage_2_burrercounter"
+        "CustomText"        "Burer"
+    }
+    "9"
+    {
+        "HP_counter"        "stage_2_burrercounter2"
+        "CustomText"        "Burer"
+    }
+    "10"
+    {
+        "HP_counter"        "stage_3_countercontroler1"
+        "CustomText"        "Controller"
+    }
+    "11"
+    {
+        "HP_counter"        "pirate_counter1s"
+        "HPbar_counter"     "pirate_hp_iterations1s"
+        "HPinit_counter"    "pirate_hp_backup1s"
+        "HPbar_min"         "0"
+        "HPbar_max"         "20"
+        "HPbar_default"     "16"
+        "HPbar_mode"        "1"
+        "CustomText"        "Bloodsucker"
+    }
+    "12"
+    {
+        "HP_counter"        "psevdocounter1"
+        "CustomText"        "Pseudogiant"
+    }
+    "13"
+    {
+        "HP_counter"        "pirate_counter1sa"
+        "HPbar_counter"     "pirate_hp_iterations1sa"
+        "HPinit_counter"    "pirate_hp_backup1sa"
+        "HPbar_min"         "0"
+        "HPbar_max"         "20"
+        "HPbar_default"     "16"
+        "HPbar_mode"        "1"
+        "CustomText"        "Boss"
+    }
+}

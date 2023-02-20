@@ -1,0 +1,22 @@
+"math_counter"
+{
+    "config"
+    {
+        "HitMarkerOnly"     "1"
+    }
+    "0"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Nano_Final_Boss_Phys"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Nano_Boss_Physbox"
+    }
+    "2"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Soldier_Boss_Phys"
+    }
+}

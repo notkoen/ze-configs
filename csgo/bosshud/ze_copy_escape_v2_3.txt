@@ -1,0 +1,68 @@
+"math_counter"
+{
+    "config"
+    {
+        "MultBoss"          "1"
+    }
+    "0"
+    {
+        "HP_counter"        "st3_Boss_HP"
+        "CustomText"        "Gabranth"
+    }
+    "1"
+    {
+        "HP_counter"        "st2_Seph_HP"
+        "CustomText"        "Sephiroth"
+    }
+    "2"
+    {
+        "HP_counter"        "st2_Boss_Sub_HP"
+        "HPbar_counter"     "st2_Boss_HP"
+        "HPbar_min"         "0"
+        "HPbar_max"         "15"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "Crystal"
+    }
+    "3"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "st3_Physbox_01"
+        "CustomText"        "Cube"
+    }
+    "4"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "st3_Breakable_03"
+        "CustomText"        "Guard Crystals"
+    }
+    "5"
+    {
+        "HP_counter"        "st3_Counter_02"
+        "CustomText"        "Guard Crystals Broken"
+    }
+    "6"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Main_Cube_Breakable_01"
+        "CustomText"        "Spawn Cube"
+    }
+    "7"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "st1_Cube_01"
+        "CustomText"        "Cube"
+    }
+    "8"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "st1_Breakable_01"
+        "CustomText"        "Cube"
+    }
+    "9"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "st2_Boss_Skill_Down_Wall_Breakable"
+        "CustomText"        "Down Wall"
+    }
+}
