@@ -1,0 +1,69 @@
+"math_counter"
+{
+    "0"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "br_patreon"
+        "CustomText"        "Patreon Board"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "mboss_petal8"
+        "CustomText"        "Petal"
+    }
+    "2"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "mboss_petal4"
+        "CustomText"        "Petal"
+    }
+    "3"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "mboss_petal2"
+        "CustomText"        "Petal"
+    }
+    "4"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "mboss_petal6"
+        "CustomText"        "Petal"
+    }
+    "5"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "mboss_petal1"
+        "CustomText"        "Petal"
+    }
+    "6"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "mboss_petal5"
+        "CustomText"        "Petal"
+    }
+    "7"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "mboss_petal7"
+        "CustomText"        "Petal"
+    }
+    "8"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "mboss_petal3"
+        "CustomText"        "Petal"
+    }
+    "9"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "mboss_pbox"
+        "CustomText"        "Meatball"
+    }
+    "10"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "s3_cannon_br"
+        "CustomText"        "Cannon"
+    }
+}
