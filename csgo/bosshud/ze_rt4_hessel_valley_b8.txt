@@ -1,0 +1,33 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "lv2_boss_hp1"
+        "CustomText"        "Death Knight (1/6)"
+    }
+    "1"
+    {
+        "HP_counter"        "lv2_boss_hp2"
+        "CustomText"        "Death Knight (2/6)"
+    }
+    "2"
+    {
+        "HP_counter"        "lv2_boss_hp3"
+        "CustomText"        "Death Knight (3/6)"
+    }
+    "3"
+    {
+        "HP_counter"        "lv2_boss_hp4"
+        "CustomText"        "Death Knight (4/6)"
+    }
+    "4"
+    {
+        "HP_counter"        "lv2_boss_hp5"
+        "CustomText"        "Death Knight (5/6)"
+    }
+    "5"
+    {
+        "HP_counter"        "lv2_boss_hp6"
+        "CustomText"        "Death Knight (6/6)"
+    }
+}
