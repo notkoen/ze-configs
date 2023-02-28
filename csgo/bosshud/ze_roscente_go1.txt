@@ -3,11 +3,11 @@
     "0"
     {
         "HP_counter"        "s1_boss_roscente_hp_p1"
-        "CustomText"        "Roscente - The Cosmic Wisp"
+        "CustomText"        "Roscente"
     }
     "1"
     {
         "HP_counter"        "s1_boss_roscente_hp_p2"
-        "CustomText"        "Roscente - The Cosmic Wisp"
+        "CustomText"        "Roscente"
     }
 }
