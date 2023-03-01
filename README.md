@@ -1,17 +1,24 @@
 
 # Zombie Escape Configs
 
-Collection of stuff I made for ZE.
+Collection of stuff I have made and modified for ZE.
 
 All vscripts under the `csgo` folder must be uploaded in the exact same folder structure.
 
-Submit an issue if you manage to find any.
-
-Most of the configs I make are for Zeddy or for my ports.
-
-If you need help or a guide, message me on discord (`koen#4977`).
+The configs I make/modified are mainly for Zeddy or for my ports. I'm trying to publish everything publicly as a lot of configs are getting lost either in time or by dead/closed repositories. While I try to avoid posting configs made by other people, I may or may not accidentally push configs made by others. If you want credit, just contact me via the options below.
 
 All entwatch configs are made to work with **DarkerZ's Entwatch-DZ Plugin**. I will not guarantee compatability with other forks of entwatch plugin.
+
+All BossHud configs are made to work with either GFL's or AntiTeal/Strellic's plugins, although the `config` options will vary a bit.
+
+## Contact Me
+
+Feel free to contact me for anything via the methods below:
+
+- [Steam](https://steamcommunity.com/id/notkoen/)
+- Discord: **not koen #4977**
+- QQ: **2432543644**
+- Submit an **issue** in the issues tab in GitHub
 
 ## Config Formatting
 
