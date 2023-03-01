@@ -20,6 +20,8 @@ Feel free to contact me for anything via the methods below:
 - QQ: **2432543644**
 - Submit an **issue** in the issues tab in GitHub
 
+I want to give a special shoutout to both [Memories](https://steamcommunity.com/profiles/76561197995817113) who taught me entwatch and stripper configs originally, and [RynerTheWolf](https://steamcommunity.com/id/2132423) who gave me a lot of support and motivation, as well as advice regarding maps and configs. This repository is a culmination of their teaching and support, as well as several other people who've helped a lot. If you guys read this, thank you for all the help and support you gave me. I appreciate it.
+
 ## Config Formatting
 
 ### BossHud
