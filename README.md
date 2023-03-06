@@ -219,6 +219,23 @@ Mode | Description
 - {purple}
 - {pink}
 
+### Entwatch stripper commands
+
+- `sm_setcooldown [hammerid] [cooldown]`
+- `sm_setmaxuses [hammerid] [uses]`
+- `sm_addmaxuses [hammerid] [uses]`
+- `sm_ewsetmode [hammerid] [mode] [cooldown] [maxuses] [used?]`
+- `sm_ewsetname [hammerid] [name]`
+- `sm_ewsetshortname [hammerid] [shortname]`
+- `entwatch_blockepick [0/1]`
+- `sm_setcooldown2 [hammerid] [cooldown2]`
+- `sm_setmaxuses2 [hammerid] [uses2]`
+- `sm_addmaxuses2 [hammerid] [uses2]`
+- `sm_ewsetmode2 [hammerid] [mode2] [cooldown2] [maxuses2] [used?]`
+- `sm_ewblock [0/1]`
+- `sm_ewlockbutton [hammerid] [0/1]`
+- `sm_ewlockbutton2 [hammerid] [0/1]`
+
 ### Save Level Config
 
 ```text
