@@ -3,31 +3,31 @@
     "0"
     {
         "HP_counter"        "lv2_boss_hp1"
-        "CustomText"        "Shadow Knight (1/6)"
+        "CustomText"        "Death Knight (1/6)"
     }
     "0"
     {
         "HP_counter"        "lv2_boss_hp2"
-        "CustomText"        "Shadow Knight (2/6)"
+        "CustomText"        "Death Knight (2/6)"
     }
     "0"
     {
         "HP_counter"        "lv2_boss_hp3"
-        "CustomText"        "Shadow Knight (3/6)"
+        "CustomText"        "Death Knight (3/6)"
     }
     "0"
     {
         "HP_counter"        "lv2_boss_hp4"
-        "CustomText"        "Shadow Knight (4/6)"
+        "CustomText"        "Death Knight (4/6)"
     }
     "0"
     {
         "HP_counter"        "lv2_boss_hp5"
-        "CustomText"        "Shadow Knight (5/6)"
+        "CustomText"        "Death Knight (5/6)"
     }
     "0"
     {
         "HP_counter"        "lv2_boss_hp6"
-        "CustomText"        "Shadow Knight (6/6)"
+        "CustomText"        "Death Knight (6/6)"
     }
 }
