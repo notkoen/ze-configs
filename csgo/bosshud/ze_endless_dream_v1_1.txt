@@ -3,17 +3,17 @@
     "0"
     {
         "HP_counter"        "st1_boss_counter"
-        "CustomText"        "Boss"
+        "CustomText"        "Blue Crystal"
     }
     "1"
     {
         "HP_counter"        "st3_boss_counter"
-        "CustomText"        "Boss"
+        "CustomText"        "Yellow Crystal"
     }
     "2"
     {
         "HP_counter"        "st3_end_beam_counter"
-        "CustomText"        "End Beam"
+        "CustomText"        "Yellow Crystal (End)"
     }
     "3"
     {
@@ -23,7 +23,7 @@
         "HPbar_min"         "0"
         "HPbar_default"     "8"
         "HPbar_mode"        "1"
-        "CustomText"        "Boss"
+        "CustomText"        "Red Crystal"
     }
     "4"
     {
@@ -33,6 +33,6 @@
         "HPbar_min"         "0"
         "HPbar_default"     "4"
         "HPbar_mode"        "1"
-        "CustomText"        "Boss"
+        "CustomText"        "White Crystal"
     }
 }
