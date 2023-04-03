@@ -66,7 +66,6 @@ I want to give a special shoutout to both [Memories](https://steamcommunity.com/
 {
     "config"
     {
-        "MultBoss"                  ""
         "MultHP"                    ""
         "HitMarkerOnly"             ""
         "BossBeatenShowTopDamage"   ""
