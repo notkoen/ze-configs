@@ -1,7 +1,5 @@
 import os
 
-current_dir = os.getcwd()
-
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 def process_file(file_path):
