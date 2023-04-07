@@ -1,4 +1,4 @@
-// Map info by Natsume, Translated by koen (https://steamcommunity.com/id/fungame1224/)
+// Map info by Natsume, translated by koen (STEAM_1:1:114921174)
 
 function text01() {
 	// EntFire("map_info_text","SetText","地圖作者:Natsume \n巨人:特洛斯特區攻防戰",0.00,null);
