@@ -1,9 +1,5 @@
 "math_counter"
 {
-    "config"
-    {
-        "MultBoss"          "1"
-    }
     "0"
     {
         "HP_counter"        "lvl1_final_cube_hp"
