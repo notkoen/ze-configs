@@ -2,8 +2,6 @@
 {
     "config"
     {
-        "MultBoss"          "1"
-        "MultHP"            "1"
         "BossBeatenShowTopDamage" "0"
     }
     "0"

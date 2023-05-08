@@ -1,9 +1,5 @@
 "math_counter"
 {
-    "config"
-    {
-        "MultHp"            "1"
-    }
     "0"
     {
         "HP_counter"        "q1_counter"

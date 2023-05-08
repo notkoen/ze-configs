@@ -3,8 +3,6 @@
     "config"
     {
         "BossBeatenShowTopDamage" "0"
-        "MultBoss"          "1"
-        "MultHP"            "1"
     }
     "0"
     {

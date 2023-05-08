@@ -1,9 +1,5 @@
 "math_counter"
 {
-    "config"
-    {
-        "MultHP"            "1"
-    }
     "0"
     {
         "HP_counter"        "nrk7_secret_counter"
