@@ -36,7 +36,6 @@ This repository is a culmination of their teaching and support, as well as sever
 {
     "config" // Optional
     {
-        "MultHP"                    "" // Set to 1 if map reuses entity per round (Def. 0)
         "HitMarkerOnly"             "" // Set to 1 if map has HPbar
         "BossBeatenShowTopDamage"   "" // Set to 0 to disable top boss damage stat display (Def. 1)
         "MaxBreakableHP"            "" // set max breakable HP before bossHP ignores it (Def. 900000)
@@ -71,7 +70,6 @@ This repository is a culmination of their teaching and support, as well as sever
 {
     "config"
     {
-        "MultHP"                    ""
         "HitMarkerOnly"             ""
         "BossBeatenShowTopDamage"   ""
         "MaxBreakableHP"            ""
