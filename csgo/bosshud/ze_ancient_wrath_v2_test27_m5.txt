@@ -24,4 +24,19 @@
         "Type"              "breakable"
         "BreakableName"     "boss_quad_encounter_01_hitbox"
     }
+    "4"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "boss_3_energy_1"
+    }
+    "5"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "boss_3_energy_2"
+    }
+    "6"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "boss_3_container"
+    }
 }
