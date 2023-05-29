@@ -1,0 +1,58 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "ch1_zmitem_shield_hpcounter"
+        "CustomText"        "Zombie Shield"
+    }
+    "1"
+    {
+        "HP_counter"        "map_breakablehpcounter2"
+        "CustomText"        "Boss"
+    }
+    "2"
+    {
+        "HP_counter"        "map_breakablehpcounter3"
+        "CustomText"        "Boss"
+    }
+    "3"
+    {
+        "HP_counter"        "map_breakablehpcounter4"
+        "CustomText"        "Boss"
+    }
+    "4"
+    {
+        "HP_counter"        "map_breakablehpcounter5"
+        "CustomText"        "Boss"
+    }
+    "5"
+    {
+        "HP_counter"        "map_breakablehpcounter6"
+        "CustomText"        "Boss"
+    }
+    "6"
+    {
+        "HP_counter"        "map_breakablehpcounter7"
+        "CustomText"        "Boss"
+    }
+    "7"
+    {
+        "HP_counter"        "map_breakablehpcounter8"
+        "CustomText"        "Boss"
+    }
+    "8"
+    {
+        "HP_counter"        "map_breakablehpcounter9"
+        "CustomText"        "Boss"
+    }
+    "9"
+    {
+        "HP_counter"        "map_breakablehpcounter10"
+        "CustomText"        "Boss"
+    }
+    "10"
+    {
+        "HP_counter"        "map_breakablehpcounter1"
+        "CustomText"        "Boss"
+    }
+}
