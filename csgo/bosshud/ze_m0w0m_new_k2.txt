@@ -1,11 +1,5 @@
 "math_counter"
 {
-    "config"
-    {
-        "MultBoss"                  "1"
-        "MultHP"                    "1"
-        "BossBeatenShowTopDamage"   "0"
-    }
     "0"
     {
         "HP_counter"        "bosshp1"
