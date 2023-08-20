@@ -1,0 +1,18 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "hp_crystal"
+        "CustomText"        "Crystal"
+    }
+    "1"
+    {
+        "HP_counter"        "hp_crystal1"
+        "CustomText"        "Crystal"
+    }
+    "2"
+    {
+        "HP_counter"        "hpboss"
+        "CustomText"        "Boss"
+    }
+}
