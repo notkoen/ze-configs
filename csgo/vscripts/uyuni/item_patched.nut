@@ -24,7 +24,7 @@ items <- [-1, -1, -1, -1];
 // Display item information
 function DisplayItemDescription(index)
 {
-	items[index] = -1;
+	items[index] = 0;
 	self.__KeyValuFromString("message", items_pickup[index][EndlessMode]);
 	EntFireByHandle(self, "Display", "", 0.1, activator, null);
 }
