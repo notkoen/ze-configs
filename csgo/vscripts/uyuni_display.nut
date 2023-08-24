@@ -24,8 +24,7 @@ items <- [-1, -1, -1, -1];
 // Display item information
 function DisplayItemDescription(index)
 {
-	items[index] = 0;
-	self.__KeyValuFromString("message", items_pickup[index][EndlessMode]);
+	self.__KeyValueFromString("message", items_pickup[index][EndlessMode]);
 	EntFireByHandle(self, "Display", "", 0.1, activator, null);
 }
 
@@ -70,7 +69,7 @@ function UpdateDisplayItemText()
 		return;
 	}
 
-	local txt <- null;
+	local txt = "";
 	for (local i = 0; i < item_count; i++)
 	{
 		if (items[i] > -1)
@@ -79,15 +78,18 @@ function UpdateDisplayItemText()
 		}
 	}
 
-	self.__KeyValueFromString("message", txt);
-	local iPlayer <- null;
-
-	while ((iPlayer = Entities.FindByClassname(iPlayer, "player")) != null)
+	if (txt != "")
 	{
-		if (iPlayer.GetTeam() == 3 && txt != null)
+		self.__KeyValueFromString("message", txt);
+		iPlayer <- null;
+
+		while ((iPlayer = Entities.FindByClassname(iPlayer, "player")) != null)
 		{
-			EntFireByHandle(self, "Display", "", 0.05, iPlayer, null);
+			if (iPlayer.GetTeam() == 3)
+			{
+				EntFireByHandle(self, "Display", "", 0.05, iPlayer, null);
+			}
 		}
 	}
-	EntFireByHandle(self, "RunScriptCode", "UpdateDisplayItemText()", 0.1);
+	EntFireByHandle(self, "RunScriptCode", "UpdateDisplayItemText()", 0.1, null, null);
 }
