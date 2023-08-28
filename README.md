@@ -16,7 +16,7 @@ All BossHud configs are made to work with either GFL's or AntiTeal/Strellic's pl
 Feel free to contact me for anything via the methods below:
 
 - [Steam](https://steamcommunity.com/id/notkoen/)
-- Discord: **not koen #4977**
+- Discord: **notkoen**
 - QQ: **2432543644**
 - Submit an **issue** in the issues tab in GitHub
 
