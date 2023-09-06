@@ -1,13 +1,5 @@
 self.__KeyValueFromString("targetname", "ancient_config");
 
-::MAPPER_SID <- [
-	"STEAM_1:0:161274095", // NiceShot
-];
-
-::VIP_SID <- [
-	"STEAM_1:1:17775692" // Memories
-];
-
 function OnPostSpawn()
 {
 	FixAmmoGText();
