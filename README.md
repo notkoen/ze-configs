@@ -3,13 +3,16 @@
 
 Collection of stuff I have made and modified for ZE.
 
-All vscripts under the `csgo` folder must be uploaded in the exact same folder structure.
-
 Configs here are stuff I have worked on for both Zeddy and my map ports. I try to publish everything publicly as a lot of configs are getting lost. While I avoid posting configs made by others, I may accidentally push configs made by others. If you want credit or them removed, just contact me via the options below.
 
-All entwatch configs are made to work with **DarkerZ's Entwatch-DZ Plugin**. I will not guarantee compatability with other forks of entwatch plugin.
+> [!WARNING]
+> All vscripts under the `csgo` folder must be uploaded in the exact same folder structure.
 
-All BossHud configs are made to work with either GFL's, ZombieDen's, and AntiTeal/Strellic's plugins, although the `config` options will vary a bit.
+> [!NOTE]
+> All entwatch configs are made to work with **DarkerZ's Entwatch-DZ Plugin**. I will not guarantee compatability with other forks of entwatch plugin.
+
+> [!NOTE]
+> All BossHud configs are made to work with either GFL's, ZombieDen's, and AntiTeal/Strellic's plugins, although the `config` options will vary a bit.
 
 ## Contact Me
 
@@ -22,7 +25,7 @@ Feel free to contact me for anything via the methods below:
 
 ## Special Shoutout
 
-- [Memories](https://steamcommunity.com/profiles/76561197995817113) who taught me entwatch and stripper configs originally
+- [Memories](https://steamcommunity.com/profiles/76561197995817113) who taught me how to make entwatch and stripper configs
 - [RynerTheWolf](https://steamcommunity.com/id/2132423) who gave me a lot of support and motivation, as well as advice regarding maps and configs.
 
 This repository is a culmination of their teaching and support, as well as several other people who've helped a lot. If you guys read this, thank you for all the help and support you gave me. I appreciate it.
@@ -65,42 +68,47 @@ This repository is a culmination of their teaching and support, as well as sever
 }
 ```
 
-```text
-"math_counter"
-{
-    "config"
+<details>
+  <summary>Copy & Paste</summary>
+
+  ```text
+    "math_counter"
     {
-        "HitMarkerOnly"             ""
-        "BossBeatenShowTopDamage"   ""
-        "MaxBreakableHP"            ""
-        "MinBars"                   ""
-        "MaxBars"                   ""
-        "ForceBars"                 ""
+        "config"
+        {
+            "HitMarkerOnly"             ""
+            "BossBeatenShowTopDamage"   ""
+            "MaxBreakableHP"            ""
+            "MinBars"                   ""
+            "MaxBars"                   ""
+            "ForceBars"                 ""
+        }
+        "0"
+        {
+            "HP_counter"        ""
+            "HPinit_counter"    ""
+            "HPbar_counter"     ""
+            "HPbar_max"         ""
+            "HPbar_min"         ""
+            "HPbar_default"     ""
+            "HPbar_mode"        ""
+            "CustomText"        ""
+        }
+        "0"
+        {
+            "HP_counter"        ""
+            "CustomText"        ""
+        }
+        "1"
+        {
+            "Type"              "breakable"
+            "BreakableName"     ""
+            "CustomText"        ""
+        }
     }
-    "0"
-    {
-        "HP_counter"        ""
-        "HPinit_counter"    ""
-        "HPbar_counter"     ""
-        "HPbar_max"         ""
-        "HPbar_min"         ""
-        "HPbar_default"     ""
-        "HPbar_mode"        ""
-        "CustomText"        ""
-    }
-    "0"
-    {
-        "HP_counter"        ""
-        "CustomText"        ""
-    }
-    "1"
-    {
-        "Type"              "breakable"
-        "BreakableName"     ""
-        "CustomText"        ""
-    }
-}
-```
+  ```
+
+</details>
 
 ### Entwatch
 
@@ -137,59 +145,64 @@ This repository is a culmination of their teaching and support, as well as sever
 }
 ```
 
-```text
-"entities"
-{
-    "0"
+<details>
+  <summary>Copy & Paste</summary>
+
+  ```text
+    "entities"
     {
-        "name"              ""
-        "shortname"         ""
-        "color"             ""
-        "buttonclass"       ""
-        "filtername"        ""
-        "blockpickup"       "false"
-        "allowtransfer"     "true"
-        "forcedrop"         "true"
-        "chat"              "true"
-        "hud"               "true"
-        "hammerid"          ""
-        "mode"              ""
-        "maxuses"           ""
-        "cooldown"          ""
-        "trigger"           ""
-        "buttonid"          ""
-        "energyid"          ""
-        "buttonclass2"      ""
-        "mode2"             ""
-        "maxuses2"          ""
-        "cooldown2"         ""
-        "buttonid2"         ""
-        "energyid2"         ""
-        "pt_spawner"        ""
+        "0"
+        {
+            "name"              ""
+            "shortname"         ""
+            "color"             ""
+            "buttonclass"       ""
+            "filtername"        ""
+            "blockpickup"       "false"
+            "allowtransfer"     "true"
+            "forcedrop"         "true"
+            "chat"              "true"
+            "hud"               "true"
+            "hammerid"          ""
+            "mode"              ""
+            "maxuses"           ""
+            "cooldown"          ""
+            "trigger"           ""
+            "buttonid"          ""
+            "energyid"          ""
+            "buttonclass2"      ""
+            "mode2"             ""
+            "maxuses2"          ""
+            "cooldown2"         ""
+            "buttonid2"         ""
+            "energyid2"         ""
+            "pt_spawner"        ""
+        }
+        "0"
+        {
+            "name"              ""
+            "shortname"         ""
+            "color"             ""
+            "buttonclass"       ""
+            "filtername"        ""
+            "blockpickup"       "false"
+            "allowtransfer"     "true"
+            "forcedrop"         "true"
+            "chat"              "true"
+            "hud"               "true"
+            "hammerid"          ""
+            "mode"              ""
+            "maxuses"           ""
+            "cooldown"          ""
+            "trigger"           ""
+            "buttonid"          ""
+            "energyid"          ""
+            "pt_spawner"        ""
+        }
     }
-    "0"
-    {
-        "name"              ""
-        "shortname"         ""
-        "color"             ""
-        "buttonclass"       ""
-        "filtername"        ""
-        "blockpickup"       "false"
-        "allowtransfer"     "true"
-        "forcedrop"         "true"
-        "chat"              "true"
-        "hud"               "true"
-        "hammerid"          ""
-        "mode"              ""
-        "maxuses"           ""
-        "cooldown"          ""
-        "trigger"           ""
-        "buttonid"          ""
-        "energyid"          ""
-        "pt_spawner"        ""
-    }
-}
-```
+  ```
+
+</details>
 
 #### Entwatch Modes
 
@@ -262,6 +275,7 @@ Mode | Description
                 "" ""    //Datamap to check. May use any output datamap.
             }
         }
+    }
     "0"
     {
         "name"                  ""
