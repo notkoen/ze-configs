@@ -5,11 +5,11 @@ Collection of stuff I have made and modified for ZE.
 
 All vscripts under the `csgo` folder must be uploaded in the exact same folder structure.
 
-The configs I make/modified are mainly for Zeddy or for my ports. I'm trying to publish everything publicly as a lot of configs are getting lost either in time or by dead/closed repositories. While I try to avoid posting configs made by other people, I may or may not accidentally push configs made by others. If you want credit, just contact me via the options below.
+Configs here are stuff I have worked on for both Zeddy and my map ports. I try to publish everything publicly as a lot of configs are getting lost. While I avoid posting configs made by others, I may accidentally push configs made by others. If you want credit or them removed, just contact me via the options below.
 
 All entwatch configs are made to work with **DarkerZ's Entwatch-DZ Plugin**. I will not guarantee compatability with other forks of entwatch plugin.
 
-All BossHud configs are made to work with either GFL's or AntiTeal/Strellic's plugins, although the `config` options will vary a bit.
+All BossHud configs are made to work with either GFL's, ZombieDen's, and AntiTeal/Strellic's plugins, although the `config` options will vary a bit.
 
 ## Contact Me
 
