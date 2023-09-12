@@ -1,26 +1,21 @@
-// Translated by koen (https://steamcommunity.com/id/fungame1224/)
+// Translated by koen (STEAM_1:1:114921174)
 
-//劇情
-//overlays_cl
-//overlays_yz
-//overlays_xiaozou
-//overlays_ylz
-//overlays_yy
-
-function lock() {
+function lock()
+{
 	EntFire("command", "Command", "say ** Main door is locked. Take the side door **", 0.0);
 }
 
-function SetText_1() {
+function SetText_1()
+{
 	EntFire("game_text_1", "SetText", "Yuri :", 0.0);
-	EntFire("game_text_2", "SetText", "Emergency! A zombie virus has emerged!", 0.0);
-	EntFire("game_text_3", "SetText", "We must go to the guild for weapons!", 0.0);
-	EntFire("game_text_4", "SetText", "Let's go immediately! Yusa, lead the way.", 0.0);
+	EntFire("game_text_2", "SetText", "A zombie virus has emerged!", 0.0);
+	EntFire("game_text_3", "SetText", "Head to the guild for weapons!", 0.0);
+	EntFire("game_text_4", "SetText", "Yusa, lead the way.", 0.0);
 	EntFire("game_text_*", "Display", "", 0.2);
 
 	EntFire("game_text_1", "SetText", "Yusa :", 8.0);
-	EntFire("game_text_2", "SetText", "Roger. Everyone head towards the gym", 8.0);
-	EntFire("game_text_3", "SetText", "The guild is right underneath it.", 8.0);
+	EntFire("game_text_2", "SetText", "Roger. Everyone head to the gym", 8.0);
+	EntFire("game_text_3", "SetText", "The guild underneath it.", 8.0);
 	EntFire("game_text_4", "SetText", "The main door is locked, so take the side door", 8.0);
 	EntFire("game_text_*", "Display", "", 8.2);
 
@@ -31,7 +26,8 @@ function SetText_1() {
 	EntFire("game_text_*", "Display", "", 16.2);
 }
 
-function overlays_1() {
+function overlays_1()
+{
 	EntFire("tongxun_s", "PlaySound", "", 0.0);
 	EntFire("overlays_ylz_s", "StartOverlays", "", 0.0);
 	EntFire("overlays_ylz_s", "StopOverlays", "", 7.0);
@@ -54,7 +50,8 @@ function overlays_1() {
 	EntFire("tongxun_e", "PlaySound", "", 20.2);
 }
 
-function SetText_3() {
+function SetText_3()
+{
 	EntFire("game_text_1", "SetText", "Kanade :", 2.0);
 	EntFire("game_text_2", "SetText", "<< Sonic Blade >>", 2.0);
 	EntFire("game_text_3", "SetText", "", 2.0);
@@ -68,7 +65,8 @@ function SetText_3() {
 	EntFire("game_text_*", "Display", "", 6.2);
 }
 
-function overlays_3() {
+function overlays_3()
+{
 	EntFire("tongxun_s", "PlaySound", "", 2.0);
 	EntFire("overlays_xiaozou_s", "StartOverlays", "", 2.0);
 	EntFire("overlays_xiaozou_s", "StopOverlays", "", 5.0);
@@ -84,28 +82,30 @@ function overlays_3() {
 	EntFire("tongxun_e", "PlaySound", "", 10.2);
 }
 
-function SetText_4() {
+function SetText_4()
+{
 	EntFire("game_text_1", "SetText", "Yuri :", 0.0);
-	EntFire("game_text_2", "SetText", "Crap, do you remember the shadow earlier?", 0.0);
-	EntFire("game_text_3", "SetText", "Seems like both the virus and shadow can control humans", 0.0);
+	EntFire("game_text_2", "SetText", "Remember the shadow from earlier?", 0.0);
+	EntFire("game_text_3", "SetText", "Seems like the virus & shadow controls humans", 0.0);
 	EntFire("game_text_4", "SetText", "Kanade is being controled!");
 	EntFire("game_text_*", "Display", "", 0.2);
 
 	EntFire("game_text_1", "SetText", "Yui :", 6.0);
-	EntFire("game_text_3", "SetText", "Then what do we do?", 6.0);
+	EntFire("game_text_3", "SetText", "What do we do?", 6.0);
 	EntFire("game_text_3", "SetText", "", 6.0);
 	EntFire("game_text_4", "SetText", "", 6.0);
 	EntFire("game_text_*", "Display", "", 6.2);
 
 	EntFire("game_text_1", "SetText", "Yuri :",11.0);
-	EntFire("game_text_2", "SetText", "I want to save her, but we should focus on our safety", 11.0);
+	EntFire("game_text_2", "SetText", "We should focus on our safety", 11.0);
 	EntFire("game_text_3", "SetText", "She isn't in any life-threatening danger", 11.0);
-	EntFire("game_text_4", "SetText", "Let's head to the guild first, then think of something", 11.0);
+	EntFire("game_text_4", "SetText", "Head to the guild first, then think of something", 11.0);
 	EntFire("game_text_*", "Display", "", 11.2);
 
 }
 
-function overlays_4() {
+function overlays_4()
+{
 	EntFire("tongxun_s", "PlaySound", "", 0.0);
 	EntFire("overlays_ylz_s", "StartOverlays", "", 0.0);
 	EntFire("overlays_ylz_s", "StopOverlays", "", 5.0);
@@ -128,15 +128,17 @@ function overlays_4() {
 	EntFire("tongxun_e", "PlaySound", "", 16.2);
 }
 
-function SetText_5() {
+function SetText_5()
+{
 	EntFire("game_text_1", "SetText", "Yusa :", 0.0);
-	EntFire("game_text_2", "SetText", "Guild entrance is under the stage", 0.0);
+	EntFire("game_text_2", "SetText", "Entrance is under the stage", 0.0);
 	EntFire("game_text_3", "SetText", "The switch is by the computers", 0.0);
 	EntFire("game_text_4", "SetText", "Defend while I open the door", 0.0);
 	EntFire("game_text_*", "Display", "", 0.2);
 }
 
-function overlays_5() {
+function overlays_5()
+{
 	EntFire("tongxun_s", "PlaySound", "", 0.0);
 	EntFire("overlays_yz_s", "StartOverlays", "", 0.0);
 	EntFire("overlays_yz_s", "StopOverlays", "", 5.0);
@@ -145,7 +147,8 @@ function overlays_5() {
 	EntFire("tongxun_e", "PlaySound", "", 5.2);
 }
 
-function SetText_6() {
+function SetText_6()
+{
 	EntFire("game_text_1", "SetText", "Yusa :", 0.0);
 	EntFire("game_text_2", "SetText", "The door opens in 30s", 0.0);
 	EntFire("game_text_3", "SetText", "Defend here", 0.0);
@@ -159,7 +162,8 @@ function SetText_6() {
 	EntFire("game_text_*", "Display", "", 30.2);
 }
 
-function overlays_6() {
+function overlays_6()
+{
 	EntFire("tongxun_s", "PlaySound", "", 0.0);
 	EntFire("overlays_yz_s", "StartOverlays", "", 0.0);
 	EntFire("overlays_yz_s", "StopOverlays", "", 5.0);
@@ -175,9 +179,10 @@ function overlays_6() {
 	EntFire("tongxun_e", "PlaySound", "", 33.2);
 }
 
-function SetText_7() {
+function SetText_7()
+{
 	EntFire("game_text_1", "SetText", "Yui :", 0.0);
-	EntFire("game_text_2", "SetText", "Wait, why are the traps activated?", 0.0);
+	EntFire("game_text_2", "SetText", "Why are the traps activated?", 0.0);
 	EntFire("game_text_3", "SetText", "Are they trying to kill us?", 0.0);
 	EntFire("game_text_4", "SetText", "", 0.0);
 	EntFire("game_text_*", "Display", "", 0.2);
@@ -189,8 +194,8 @@ function SetText_7() {
 	EntFire("game_text_*", "Display", "", 5.2);
 }
 
-
-function overlays_7() {
+function overlays_7()
+{
 	EntFire("tongxun_s", "PlaySound", "", 0.0);
 	EntFire("overlays_yy_s", "StartOverlays", "", 0.0);
 	EntFire("overlays_yy_s", "StopOverlays", "", 4.0);
@@ -206,10 +211,11 @@ function overlays_7() {
 	EntFire("tongxun_e", "PlaySound", "", 10.2);
 }
 
-function SetText_8() {
+function SetText_8()
+{
 	EntFire("game_text_1", "SetText", "Yusa :", 0.0);
 	EntFire("game_text_2", "SetText", "Rock wall breaks in 15s", 0.0);
-	EntFire("game_text_3", "SetText", "There might be a trap after this rock breaks!", 0.0);
+	EntFire("game_text_3", "SetText", "There might be a trap!", 0.0);
 	EntFire("game_text_4", "SetText", "", 0.0);
 	EntFire("game_text_*", "Display", "", 0.2);
 
@@ -220,7 +226,8 @@ function SetText_8() {
 	EntFire("game_text_*", "Display", "", 17.2);
 }
 
-function overlays_8() {
+function overlays_8()
+{
 	EntFire("tongxun_s", "PlaySound", "", 0.0);
 	EntFire("overlays_yz_s", "StartOverlays", "", 0.0);
 	EntFire("overlays_yz_s", "StopOverlays", "", 5.0);
@@ -236,7 +243,8 @@ function overlays_8() {
 	EntFire("tongxun_e", "PlaySound", "", 21.2);
 }
 
-function SetText_9() {
+function SetText_9()
+{
 	EntFire("game_text_1", "SetText", "Yusa :", 0.0);
 	EntFire("game_text_2", "SetText", "C4 explodes in 15s", 0.0);
 	EntFire("game_text_3", "SetText", "Watch out! The rock is a trap!", 0.0);
