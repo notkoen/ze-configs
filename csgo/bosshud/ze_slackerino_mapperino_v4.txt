@@ -9,7 +9,7 @@
         "HPbar_max"         "16"
         "HPbar_default"     "0"
         "HPbar_mode"        "2"
-        "CustomText"        "Famfrit"
+        "CustomText"        "Boss"
     }
     "1"
     {
