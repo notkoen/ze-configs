@@ -73,6 +73,6 @@
     {
         "Type"              "breakable"
         "BreakableName"     "Hashmel_Tower_Break_Right"
-        "CustomText"        "hasmel Tower (Right)"
+        "CustomText"        "Hashmel Tower (Right)"
     }
 }
