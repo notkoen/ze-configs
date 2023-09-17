@@ -63,4 +63,16 @@
         "BreakableName"     "Hashmel_Supernova_Breakable"
         "CustomText"        "Supernova"
     }
+    "11"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Hashmel_Tower_Break_Left"
+        "CustomText"        "Hashmel Tower (Left)"
+    }
+    "12"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Hashmel_Tower_Break_Right"
+        "CustomText"        "hasmel Tower (Right)"
+    }
 }
