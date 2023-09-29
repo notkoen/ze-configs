@@ -57,7 +57,7 @@ hook.Add("InitPostEntityMap", "ZE.IPEM", function()
 	squid_sound = ents.FindByName("awp_sound")[1]
 	squid_sound1 = ents.FindByName("doll_song")[1]
 
-	ToggleFlashlights(false)
+	ToggleFlashlight(false)
 end)
 
 TICKRATE = 0.25
