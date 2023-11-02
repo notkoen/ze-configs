@@ -1,0 +1,27 @@
+"math_counter"
+{
+    "0"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "hard_chocobohealth"
+        "CustomText"        "Chocobo"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "boss_dragonhealth"
+        "CustomText"        "Hell Wyrm"
+    }
+    "2"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "extreme_boss_hp"
+        "CustomText"        "Chaos"
+    }
+    "3"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "chocobo_armor"
+        "CustomText"        "Chocobo"
+    }
+}
