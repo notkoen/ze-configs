@@ -131,35 +131,36 @@ Mode | Description
 {
     "0"
     {
-        "name"          ""
-        "method"        "counter"
-        "trigger"       ""
-        "hurttrigger"   ""
-        "counter"       ""
+        "name"              ""
+        "method"            "counter"
+        "trigger"           ""
+        "hurttrigger"       ""
+        "counter"           ""
     }
     "0"
     {
-        "name"          ""
-        "method"        "hpbar"
-        "trigger"       ""
-        "hurttrigger"   ""
-        "counter"       ""
-        "iterator"      ""
-        "backup"        ""
+        "name"              ""
+        "method"            "hpbar"
+        "trigger"           ""
+        "hurttrigger"       ""
+        "counter"           ""
+        "iterator"          ""
+        "backup"            ""
     }
     "0"
     {
-        "name"          ""
-        "method"        "breakable"
-        "breakable"     ""
+        "name"              ""
+        "method"            "breakable"
+        "breakable"         ""
     }
     // OPTIONAL KEYVALUES
     ""
     {
-        "timeout"       "" //
-        "killtrigger"   "" // Name of trigger to kill boss
-        "multitrigger"  "" // 1/0 - If the boss can spawn multiple times by point_template
-        "namefixup"     "" // Entities that get unique name when spawned by point_template (mainly for NPCs)
+        "timeout"           "" //
+        "killtrigger"       "" // Name of trigger to kill boss
+        "multitrigger"      "" // 1/0 - If the boss can spawn multiple times by point_template
+        "namefixup"         "" // Entities that get unique name when spawned by point_template (mainly for NPCs)
+        "showbeaten"        "" // (Nide only) 1/0 - Disable top boss damage display
     }
 }
 ```
