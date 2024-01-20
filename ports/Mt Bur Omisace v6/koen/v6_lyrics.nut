@@ -22,10 +22,6 @@ lyrics_color <- [
 
 lyrics_sirens <- [
 	{
-		text = "Blaine Stranger - Sirens ft. Voicians"
-		display_time = 0.1
-	},
-	{
 		text = "All I hear is sirens"
 		display_time = 23.0
 	},
@@ -140,10 +136,6 @@ lyrics_sirens <- [
 ];
 
 lyrics_battlecry <- [
-	{
-		message = "Mazard & Philip Strange - Battlecry"
-		display_time = 0.1
-	},
 	{
 		message = "Another one hits the water"
 		display_time = 3.9
