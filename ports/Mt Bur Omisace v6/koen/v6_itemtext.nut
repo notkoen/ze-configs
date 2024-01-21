@@ -1,4 +1,4 @@
-// ze_FFXII_Mt_Bur_Omisace_v6_beta6 item text scripts by koen (STEAM_1:1:114921174)
+// ze_FFXII_Mt_Bur_Omisace_v6_beta6 item text script by koen (STEAM_1:1:114921174)
 // DO NOT JUDGE ME FOR HOW SHIT THESE SCRIPTS ARE (╯°□°)╯︵ ┻━┻
 
 // HEAL TEXT

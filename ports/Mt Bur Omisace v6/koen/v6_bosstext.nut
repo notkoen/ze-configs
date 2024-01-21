@@ -13,7 +13,7 @@ function CheckDisplay()
 		text_ent.__KeyValueFromInt("effect", 0);
 		text_ent.__KeyValueFromInt("channel", 5);
 		text_ent.__KeyValueFromInt("spawnflags", 1);
-		text_ent.__KeyValueFromFloat("x", 0.10);
+		text_ent.__KeyValueFromFloat("x", 0.17);
 		text_ent.__KeyValueFromFloat("y", 0.12);
 		text_ent.__KeyValueFromInt("holdtime", 3);
 		text_ent.__KeyValueFromFloat("fadein", 0.25);
