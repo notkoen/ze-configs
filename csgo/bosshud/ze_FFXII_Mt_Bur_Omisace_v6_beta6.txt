@@ -24,7 +24,7 @@
     "3"
     {
         "HP_counter"        "Bergan_boss1_attack_HP1"
-        "HPinit_counter"    ""
+        "HPinit_counter"    "Bergan_boss1_attack_HP2"
         "HPbar_counter"     "Bergan_boss1_attack_HP3"
         "HPbar_max"         "4"
         "HPbar_min"         "0"
