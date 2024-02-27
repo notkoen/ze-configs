@@ -19,7 +19,7 @@
         "HPbar_max"         "8"
         "HPbar_default"     "8"
         "HPbar_mode"        "1"
-        "CustomText"        "Darth Vader
+        "CustomText"        "Darth Vader"
     }
     "3"
     {
