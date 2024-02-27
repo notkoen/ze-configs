@@ -3,7 +3,7 @@
     "0"
     {
         "HP_counter"        "Boss_heal_tank"
-        "CustomText"        "Tank
+        "CustomText"        "Tank"
     }
     "1"
     {
