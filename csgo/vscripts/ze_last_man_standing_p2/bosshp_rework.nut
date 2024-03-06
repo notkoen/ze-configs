@@ -1,5 +1,5 @@
 // ze_last_man_standing_p2 boss health script by koen (STEAM_1:1:114921174)
-// made for MoeUB with suggestions from 南港的貓
+// Made for MoeUB with suggestions from 南巷的貓
 
 // DO NOT JUDGE ME FOR HOW SHIT THESE SCRIPTS ARE (╯°□°)╯︵ ┻━┻
 // I HAD TO DO SOME VERY VERY STUPID SHIT TO GET THIS TO WORK
