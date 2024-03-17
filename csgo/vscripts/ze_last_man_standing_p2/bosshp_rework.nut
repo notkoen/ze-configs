@@ -19,20 +19,16 @@ BOSS_CASE_ENT <- null; // "boss_hp_case" logic_case ent
 BOSS_HP_COMPARE_VALUE <- 0.0; // Segment health for sprite
 BOSS_HP_SEGMENT_HEALTH <- 0.0 // ???
 
-function StartBoss()
-{
+function StartBoss() {
 	// Mark boss as active
-	if (!BOSS_ACTIVE)
-	{
+	if (!BOSS_ACTIVE) {
 		BOSS_ACTIVE = true;
 	}
 
 	// Set the health based on how many humans are alive
 	local p = null;
-	while (null != (p = Entities.FindByClassname(p, "player")))
-	{
-		if (p.GetTeam() == 3 && p.GetHealth() > 0 && p.IsValid())
-		{
+	while (null != (p = Entities.FindByClassname(p, "player"))) {
+		if (p.GetTeam() == 3 && p.GetHealth() > 0 && p.IsValid()) {
 			BOSS_HEALTH += HP_PER_PERSON;
 		}
 	}
@@ -51,32 +47,27 @@ function StartBoss()
 	EntFireByHandle(self, "RunScriptCode", "CheckHealth()", TICK_RATE, null, null);
 }
 
-function TakeDamage()
-{
+function TakeDamage() {
 	BOSS_HEALTH--;
 	//EntFireByHandle(BOSS_HP_ENT, "Subtract", "1", 0.0, null, null);
 
 	// Check if health is 0 to determine if boss is active
-	if (BOSS_HEALTH <= 0)
-	{
+	if (BOSS_HEALTH <= 0) {
 		EntFire("BossSpriteHP", "HideSprite", "", 0.0, null);
 		BOSS_ACTIVE = false;
 	}
 }
 
-function CheckHealth()
-{
+function CheckHealth() {
 	// If boss is not active, we stop ticking
-	if (!BOSS_ACTIVE)
-	{
+	if (!BOSS_ACTIVE) {
 		return;
 	}
 
 	// Calculate Segments
 	local SEGMENT_HEALTH;
 	SEGMENT_HEALTH = BOSS_SEGMENT_COUNT * BOSS_HP_COMPARE_VALUE;
-	if (BOSS_HEALTH < SEGMENT_HEALTH)
-	{
+	if (BOSS_HEALTH < SEGMENT_HEALTH) {
 		BOSS_SEGMENT_COUNT--;
 		BOSS_DISPLAY_COUNT--;
 		EntFireByHandle(BOSS_CASE_ENT, "InValue", BOSS_DISPLAY_COUNT.tostring(), 0.0, null, null);
