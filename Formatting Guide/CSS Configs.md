@@ -1,7 +1,7 @@
 
 ## Entwatch (Nide)
 
-```
+```text
 "entities"
 {
     "0"
@@ -87,7 +87,7 @@ Mode | Description
 
 ## Entwatch (Unloze)
 
-```
+```text
 "items"
 {
     "0"
@@ -126,7 +126,7 @@ Mode | Description
 
 ## BossHP Config
 
-```
+```text
 "bosses"
 {
     "0"
@@ -162,6 +162,37 @@ Mode | Description
         "multitrigger"      "" // 1/0 - If the boss can spawn multiple times by point_template
         "namefixup"         "" // Entities that get unique name when spawned by point_template (mainly for NPCs)
         "showbeaten"        "" // (Nide only) 1/0 - Disable top boss damage display
+    }
+}
+```
+
+## Admin Room Config
+
+```text
+"AdminRoom"
+{
+    "adminrooms"
+    {
+        "0"
+        {
+            "name"      "Admin Room"
+            "origin"    ""
+        }
+    }
+    "stages"
+    {
+        "0"
+        {
+            "name"      ""
+            "triggers"
+            {
+                "0"     ""
+            }
+            "actions"
+            {
+                "0"     ""
+            }
+        }
     }
 }
 ```
