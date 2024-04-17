@@ -1,0 +1,13 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "St2_Boss_Mindflayer_Counter"
+        "CustomText"        "Mindflayer"
+    }
+    "1"
+    {
+        "HP_counter"        "St1_Boss_Hideous_Counter"
+        "CustomText"        "Hideous"
+    }
+}

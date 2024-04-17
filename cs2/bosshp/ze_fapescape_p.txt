@@ -1,0 +1,48 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "boss_hp"
+        "HPbar_counter"     "boss_hp_iterations"
+        "HPinit_counter"    "boss_hp_backup"
+        "CustomText"        "Rick Astley"
+    }
+    "1"
+    {
+        "HP_counter"        "boss_hp2"
+        "HPbar_counter"     "boss_hp_iterations2"
+        "HPinit_counter"    "boss_hp2_backup"
+        "CustomText"        "UFO"
+    }
+    "2"
+    {
+        "HP_counter"        "boss_hp3"
+        "HPbar_counter"     "boss_hp_iterations3"
+        "HPinit_counter"    "boss_hp3_backup"
+        "CustomText"        "Meatspin"
+    }
+    "3"
+    {
+        "HP_counter"        "boss_hp4"
+        "HPbar_counter"     "mouth_counter"
+        "HPinit_counter"    "boss_hp4_backup"
+        "CustomText"        "Evil Mouth"
+    }
+    "4"
+    {
+        "HP_counter"        "boss_hp5"
+        "HPbar_counter"     "boss_hp_iterations5"
+        "HPinit_counter"    "boss_hp5_backup"
+        "CustomText"        "Evil Robot"
+    }
+    "5"
+    {
+        "HP_counter"        "lastboss_moving"
+        "CustomText"        "The Eye (Moving)"
+    }
+    "6"
+    {
+        "HP_counter"        "lastboss_static"
+        "CustomText"        "The Eye (Static)"
+    }
+}
