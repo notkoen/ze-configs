@@ -4,6 +4,35 @@
 ```
 "entities"
 {
+    // Keyvalue Explanation
+    "0"
+    {
+        "name"              ""      // Item Name (Chat)
+        "shortname"         ""      // Item Name (Hud)
+        "color"             ""      // Item Color (Read below for list of available colors)
+        "buttonclass"       ""      // game_ui or func_button (Leave blank if only cosmetic item)
+        "filtername"        ""      // filter_activator_name given to player on pickup (Leave blank if vscript assigns filtername OR AddContext output)
+        "blockpickup"       "false" // Block weapon pickup
+        "allowtransfer"     "true"  // Allow weapon to be etransfered
+        "forcedrop"         "true"  // Force weapon to drop if player dies/disconnects
+        "chat"              "true"  // Does item show up in the chat
+        "hud"               "true"  // Does item show up in the hud
+        "hammerid"          ""      // Hammer ID of the weapon_* entity
+        "mode"              ""      // Item mode (Read Below)
+        "maxuses"           ""      // Max uses item has (0 for infinite)
+        "cooldown"          ""      // Item cooldown
+        "trigger"           ""      // Hammer ID of entity that strips weapons (trigger_once, if applicable)
+        "buttonid"          ""      // Hammer ID of button/game_ui to be tracked for items with multiple buttons (if applicable)
+        "energyid"          ""      // Hammer ID of math_counter that handles the ammo count of items (if applicable)
+        "buttonclass2"      ""      // game_ui or func_button of second button/game_ui (if applicable)
+        "mode2"             ""      // Mode of button 2 (if applicable)
+        "maxuses2"          ""      // Maxuses of button 2 (if applicable)
+        "cooldown2"         ""      // Cooldown of button 2 (if applicable)
+        "buttonid2"         ""      // Hammer ID of button 2 (if applicable)
+        "energyid2"         ""      // Hammer ID of math_counter for ammo count of button 2 (if applicable)
+        "pt_spawner"        ""      // point_template for spawning the item (if applicable)
+    }
+    // Full
     "0"
     {
         "name"              ""
@@ -31,6 +60,7 @@
         "energyid2"         ""
         "pt_spawner"        ""
     }
+    // No 2nd button
     "0"
     {
         "name"              ""
