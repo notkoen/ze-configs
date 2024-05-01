@@ -21,9 +21,12 @@ I am no longer actively maintaining CSGO configs due to the release of CS2. All 
 > All entwatch configs are made to work with **DarkerZ's Entwatch-DZ Plugin**.
 
 > [!WARNING]
-> All BossHud configs are made to work with either GFL's, ZombieDen's, and AntiTeal/Strellic's plugins, although the `config` options will vary a bit.
+> All BossHP configs are made to work with either GFL's, ZombieDen's, MoeUB's, or AntiTeal/Strellic's plugin. Some `config` options may vary.
 
 ### CSS
+
+> [!TIP]
+> For more detailed information on CSS config formatting, refer to [CSS Configs](https://github.com/notkoen/Zombie-Escape-Configs/blob/main/Formatting%20Guide/CSS%20Configs.md).
 
 > [!NOTE]
 > As the current server manager on [NiDE](https://nide.gg), most of my work is already published on Nide's [ZE-Configs](https://github.com/NiDE-gg/ZE-Configs) repository.
@@ -36,7 +39,7 @@ I am no longer actively maintaining CSGO configs due to the release of CS2. All 
 
 ### CS2
 
-The modding environment on CS2 is still under development. Thus, do not consider anything under the `cs2` folder as up to date. More information will come when know more information.
+The modding environment on CS2 is still under development. Thus, do not consider anything under the `cs2` folder as up to date. More information will come when I know more information.
 
 ## Contact Me
 
