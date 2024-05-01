@@ -123,6 +123,21 @@ Mode | Description
         "maxuses"       "0"     // The maximum amount of uses.
         "cooldown"      "0"     // The cooldown between uses.
     }
+    "0"
+    {
+        "name"          ""
+        "short"         ""
+        "color"         ""
+        "filter"        ""
+        "weaponid"      "0"
+        "buttonid"      "0"
+        "triggerid"     "0"
+        "display"       "0"
+        "slot"          "0"
+        "mode"          "0"
+        "maxuses"       "0"
+        "cooldown"      "0"
+    }
 }
 ```
 
