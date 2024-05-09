@@ -182,7 +182,7 @@ Mode | Description
         "name"              ""
         "method"            "counter"
         "trigger"           ""
-        "hurttrigger"       ""
+
         "counter"           ""
     }
     "0"
@@ -190,7 +190,7 @@ Mode | Description
         "name"              ""
         "method"            "hpbar"
         "trigger"           ""
-        "hurttrigger"       ""
+
         "counter"           ""
         "iterator"          ""
         "backup"            ""
@@ -207,6 +207,7 @@ Mode | Description
     {
         "timeout"           "" //
         "killtrigger"       "" // Name of trigger to kill boss
+        "hurttrigger"       "" // Name of entity and output to count as hitting boss
         "multitrigger"      "" // 1/0 - If the boss can spawn multiple times by point_template
         "namefixup"         "" // Entities that get unique name when spawned by point_template (mainly for NPCs)
         "showbeaten"        "" // (Nide only) 1/0 - Disable top boss damage display
