@@ -31,6 +31,7 @@
         "cooldown2"         ""      // Cooldown of button 2 (if applicable)
         "buttonid2"         ""      // Hammer ID of button 2 (if applicable)
         "energyid2"         ""      // Hammer ID of math_counter for ammo count of button 2 (if applicable)
+        "use_priority"      ""      // Toggle use_priority feature
         "pt_spawner"        ""      // point_template for spawning the item (if applicable)
     }
     // Full
@@ -60,6 +61,7 @@
         "cooldown2"         ""
         "buttonid2"         ""
         "energyid2"         ""
+        "use_priority"      ""
         "pt_spawner"        ""
     }
     // No 2nd button/game_ui
