@@ -53,7 +53,6 @@
         "mode"              ""
         "maxuses"           ""
         "cooldown"          ""
-        "trigger"           ""
         "buttonid"          ""
         "energyid"          ""
         "mode2"             ""
@@ -61,6 +60,7 @@
         "cooldown2"         ""
         "buttonid2"         ""
         "energyid2"         ""
+        "trigger"           ""
         "use_priority"      ""
         "pt_spawner"        ""
     }
