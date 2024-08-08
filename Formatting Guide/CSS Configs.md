@@ -194,8 +194,8 @@ Mode | Description
         "trigger"           ""
 
         "counter"           ""
-        "iterator"          ""
         "backup"            ""
+        "iterator"          ""
     }
     "0"
     {
