@@ -1,7 +1,9 @@
 
+# CS:GO Config Formatting
+
 ## Darkerz Entwatch
 
-```
+```text
 "entities"
 {
     // Keyvalue Explanation
@@ -134,7 +136,7 @@ Mode | Description
 
 ## BossHP
 
-```
+```text
 "math_counter"
 {
     "config"
