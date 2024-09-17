@@ -9,37 +9,31 @@ I try to publish everything publicly as I am not a fan of private configs. While
 
 ### CSGO
 
-I am no longer actively maintaining CSGO configs due to the release of CS2. All configs under the `csgo` folder should be considered final.
+I am no longer maintaining CSGO configs due to the release of CS2. All configs under the `csgo` folder should be considered final.
 
 > [!TIP]
-> For more detailed information on CSGO config formatting, refer to [CSGO Configs](https://github.com/notkoen/Zombie-Escape-Configs/blob/main/Formatting%20Guide/CSGO%20Configs.md).
-
+> For more detailed information on CSGO config formatting, refer to the [CSGO configs guide](https://github.com/notkoen/Zombie-Escape-Configs/blob/main/Formatting%20Guide/CSGO%20Configs.md).
 > [!CAUTION]
 > All vscripts under the `csgo` folder must be uploaded in the exact same folder structure.
-
 > [!WARNING]
 > All entwatch configs are made to work with **DarkerZ's Entwatch-DZ Plugin**.
-
 > [!WARNING]
-> All BossHP configs are made to work with either GFL's, ZombieDen's, MoeUB's, or AntiTeal/Strellic's plugin. Some `config` options may vary.
+> All BossHP configs are made to work with either GFL's plugin. Some `config` options may vary.
 
 ### CSS
 
 > [!TIP]
 > For more detailed information on CSS config formatting, refer to [CSS Configs](https://github.com/notkoen/Zombie-Escape-Configs/blob/main/Formatting%20Guide/CSS%20Configs.md).
-
 > [!NOTE]
 > As the current server manager on [NiDE](https://nide.gg), most of my work is already published on Nide's [ZE-Configs](https://github.com/NiDE-gg/ZE-Configs) repository.
-
 > [!WARNING]
-> Entwatch configs differ between NiDE and Unloze, so I have put all Unloze-specific configs in the `unloze` folder under the `Entwatch` folder. For more information, refer to [CSS Configs](https://github.com/notkoen/Zombie-Escape-Configs/blob/main/Formatting%20Guide/CSS%20Configs.md) for detailed information/explanation.
-
+> Entwatch configs differ between NiDE and Unloze, so I have put all Unloze-specific configs in the `unloze` folder under the `Entwatch` folder. For more information, refer to [CSS configs guide](https://github.com/notkoen/Zombie-Escape-Configs/blob/main/Formatting%20Guide/CSS%20Configs.md) for detailed information/explanation.
 > [!WARNING]
-> Configs on NiDE are **CASE SENSITIVE**. Double check Nide's [FastDL](https://fastdl.nide.gg/css_ze/maps/) for proper capitalization. Unloze makes all map lowercase.
+> All configs made **MUST BE** lowercase as both Nide and Unloze has made it a standard to make all maps lowercase.
 
 ### CS2
 
-The modding environment on CS2 is still under development. Thus, do not consider anything under the `cs2` folder as up to date. More information will come when I know more information.
+The modding environment on CS2 is still under development. Thus, I have no plans on actively contributing configs. Expect changes as plugins begin to be developed and made public.
 
 ## Contact Me
 

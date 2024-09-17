@@ -1,9 +1,0 @@
-"math_counter"
-{
-    "1"
-    {
-        "Type"              "breakable"
-        "BreakableName"     "LV1_END_BOSS"
-        "CustomText"        "Sphere"
-    }
-}
