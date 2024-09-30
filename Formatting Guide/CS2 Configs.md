@@ -39,8 +39,8 @@
 ```json
 [
     {
-        "name": "Item Name",
-        "shortname": "Short Name",
+        "name": "",
+        "shortname": "",
         "hammerid": "",
         "message": true,
         "ui": true,
@@ -59,16 +59,6 @@
                 "ui": true
             }
         ]
-    },
-    {
-        "name": "Item Name",
-        "shortname": "Short Name",
-        "hammerid": "",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "",
-        "triggers": [""],
     },
 ]
 ```
