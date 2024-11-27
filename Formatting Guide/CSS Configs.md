@@ -207,6 +207,19 @@ Mode | Description
 
         "breakable"         ""
     }
+    "0"
+    {
+        "name"              ""
+        "method"            "breakable"
+        "trigger"           ""
+        "showtrigger"       ""
+        "namefixup"         "1"
+        "multitrigger"      "1"
+        "timeout"           "3"
+        "showbeaten"        "0"
+
+        "breakable"         ""
+    }
     // OPTIONAL KEYVALUES
     ""
     {
