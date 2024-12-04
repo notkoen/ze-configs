@@ -13,10 +13,13 @@ I am no longer maintaining CSGO configs due to the release of CS2. All configs u
 
 > [!TIP]
 > For more detailed information on CSGO config formatting, refer to the [CSGO configs guide](https://github.com/notkoen/Zombie-Escape-Configs/blob/main/Formatting%20Guide/CSGO%20Configs.md).
+
 > [!CAUTION]
 > All vscripts under the `csgo` folder must be uploaded in the exact same folder structure.
+
 > [!WARNING]
 > All entwatch configs are made to work with **DarkerZ's Entwatch-DZ Plugin**.
+
 > [!WARNING]
 > All BossHP configs are made to work with either GFL's plugin. Some `config` options may vary.
 
@@ -24,10 +27,13 @@ I am no longer maintaining CSGO configs due to the release of CS2. All configs u
 
 > [!TIP]
 > For more detailed information on CSS config formatting, refer to [CSS Configs](https://github.com/notkoen/Zombie-Escape-Configs/blob/main/Formatting%20Guide/CSS%20Configs.md).
+
 > [!NOTE]
 > As the current server manager on [NiDE](https://nide.gg), most of my work is already published on Nide's [ZE-Configs](https://github.com/NiDE-gg/ZE-Configs) repository.
+
 > [!WARNING]
 > Entwatch configs differ between NiDE and Unloze, so I have put all Unloze-specific configs in the `unloze` folder under the `Entwatch` folder. For more information, refer to [CSS configs guide](https://github.com/notkoen/Zombie-Escape-Configs/blob/main/Formatting%20Guide/CSS%20Configs.md) for detailed information/explanation.
+
 > [!WARNING]
 > All configs made **MUST BE** lowercase as both Nide and Unloze has made it a standard to make all maps lowercase.
 
