@@ -1,0 +1,41 @@
+[
+    {
+        "name": "Outline",
+        "shortname": "Outline",
+        "hammerid": "679",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white"
+    },
+    {
+        "name": "Zombie Slow 1",
+        "shortname": "ZM Slow 1",
+        "hammerid": "11685",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["431"]
+    },
+    {
+        "name": "Zombie Slow 2",
+        "shortname": "ZM Slow 2",
+        "hammerid": "11688",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["907"]
+    },
+    {
+        "name": "Zombie Speed",
+        "shortname": "ZM Speed",
+        "hammerid": "11690",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["909", "429"]
+    }
+]

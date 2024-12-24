@@ -1,9 +1,7 @@
 
 # Zombie Escape Configs
 
-Collection of stuff I have made and modified for ZE.
-
-I try to publish everything publicly as I am not a fan of private configs. While I avoid posting configs made by others, I may accidentally push others' configs. If you want credit or them removed, just contact me via the options below.
+Collection of stuff I have made for zombie escape. I try to publish everything publicly while avoiding configs made by others. However, I may accidentally push others' configs that are private. If you want credit or them removed, just contact me via the options below.
 
 ## Additional Information
 
@@ -39,7 +37,11 @@ I am no longer maintaining CSGO configs due to the release of CS2. All configs u
 
 ### CS2
 
-The modding environment on CS2 is still under development. Thus, I have no plans on actively contributing configs. Expect changes as plugins begin to be developed and made public.
+> [!TIP]
+> For more detailed information on CS2 config formatting, refer to [CS2 Configs](https://github.com/notkoen/Zombie-Escape-Configs/blob/main/Formatting%20Guide/CS2%20Configs.md).
+
+> [!WARNING]
+> All entwatch configs are made to work with the unreleased **CS2Fixes Entwatch System**.
 
 ## Contact Me
 
