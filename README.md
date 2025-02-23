@@ -19,7 +19,7 @@ I am no longer maintaining CSGO configs due to the release of CS2. All configs u
 > All entwatch configs are made to work with **DarkerZ's Entwatch-DZ Plugin**.
 
 > [!WARNING]
-> All BossHP configs are made to work with either GFL's plugin. Some `config` options may vary.
+> All BossHP configs are made to work with GFL's BossHP plugin, although some `config` options may vary.
 
 ### CSS
 
@@ -41,7 +41,9 @@ I am no longer maintaining CSGO configs due to the release of CS2. All configs u
 > For more detailed information on CS2 config formatting, refer to [CS2 Configs](https://github.com/notkoen/Zombie-Escape-Configs/blob/main/Formatting%20Guide/CS2%20Configs.md).
 
 > [!WARNING]
-> All entwatch configs are made to work with the unreleased **CS2Fixes Entwatch System**.
+> All entwatch configs are made to work with  **CS2Fixes Entwatch**.
+
+If there are maps and configs that are not present, please let me know and I can make the configs needed for the map.
 
 ## Contact Me
 
