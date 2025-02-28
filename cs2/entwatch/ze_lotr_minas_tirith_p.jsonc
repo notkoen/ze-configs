@@ -26,11 +26,11 @@
         "message": true,
         "ui": true,
         "transfer": false,
+        "templated": false,
         "color": "green",
         "triggers": ["7783"],
         "handlers": [
             {
-                "type": "game_ui",
                 "hammerid": "357",
                 "event": "OnFalse",
                 "mode": 2,
@@ -48,16 +48,15 @@
         "message": true,
         "ui": true,
         "transfer": false,
+        "templated": false,
         "color": "yellow",
         "triggers": ["7870"],
         "handlers": [
             {
-                "type": "game_ui",
-                "hammerid": "866",
-                "event": "OnEqualTo",
-                "mode": 5,
+                "type": "counterup",
+                "hammerid": "868",
+                "mode": 4,
                 "cooldown": 60,
-                "maxuses": 2,
                 "message": true,
                 "ui": true
             }
@@ -84,7 +83,7 @@
         "triggers": ["7787"],
         "handlers": [
             {
-                "type": "game_ui", // light
+                "name": "Light",
                 "hammerid": "686",
                 "event": "OnEqualTo",
                 "mode": 2,
@@ -94,7 +93,7 @@
                 "ui": true
             },
             {
-                "type": "game_ui", // dawds
+                "name": "Push",
                 "hammerid": "687",
                 "event": "OnEqualTo",
                 "mode": 2,
@@ -116,7 +115,6 @@
         "triggers": ["7789"],
         "handlers": [
             {
-                "type": "game_ui", // defense
                 "hammerid": "713",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -126,7 +124,6 @@
                 "ui": true
             },
             {
-                "type": "game_ui", // nuke
                 "hammerid": "699",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -158,7 +155,6 @@
         "triggers": ["7864"],
         "handlers": [
             {
-                "type": "game_ui",
                 "hammerid": "1115",
                 "event": "OnTrue",
                 "mode": 2,
@@ -209,7 +205,6 @@
         "triggers": ["7799"],
         "handlers": [
             {
-                "type": "game_ui", // slash
                 "hammerid": "720",
                 "event": "OnUser1",
                 "mode": 2,
@@ -219,7 +214,6 @@
                 "ui": true
             },
             {
-                "type": "game_ui", // roar
                 "hammerid": "718",
                 "event": "OnUser1",
                 "mode": 2,

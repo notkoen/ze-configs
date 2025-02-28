@@ -1,26 +1,5 @@
 [
     {
-        "name": "Earthly Star",
-        "shortname": "Star",
-        "hammerid": "7189",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "white",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "7192",
-                "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
         "name": "Darkness",
         "shortname": "Darkness",
         "hammerid": "5443",
@@ -39,6 +18,38 @@
         "transfer": true,
         "color": "white",
         "triggers": ["5440"]
+    },
+    {
+        "name": "Earthly Star",
+        "shortname": "Star",
+        "hammerid": "7189",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "7192"
+            },
+            {
+                "hammerid": "7196",
+                "event": "OnFalse",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "name": "Explosion",
+                "hammerid": "7196",
+                "event": "OnTrue",
+                "mode": 1,
+                "message": true,
+                "ui": false
+            }
+        ]
     },
     {
         "name": "Asylum",
@@ -62,28 +73,6 @@
         ]
     },
     {
-        "name": "Zombie Rescue",
-        "shortname": "ZM Rescue",
-        "hammerid": "5866",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "yellow",
-        "triggers": ["5861"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "5867",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 60,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
         "name": "Holy",
         "shortname": "Holy",
         "hammerid": "6006",
@@ -98,49 +87,6 @@
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 20,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Ichika",
-        "shortname": "Ichika",
-        "hammerid": "5003",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "grey",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "5004",
-                "event": "OnPressed",
-                "mode": 4,
-                "cooldown": 5,
-                "maxuses": 10,
-                "message": false,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Heal",
-        "shortname": "ZM Heal",
-        "hammerid": "3511",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "white",
-        "triggers": ["3512"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "3516",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 40,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -181,7 +127,7 @@
                 "type": "button",
                 "hammerid": "3431",
                 "event": "OnPressed",
-                "mode": 4,
+                "mode": 3,
                 "cooldown": 60,
                 "maxuses": 2,
                 "message": true,
@@ -232,28 +178,6 @@
         ]
     },
     {
-        "name": "Zombie Water",
-        "shortname": "ZM Water",
-        "hammerid": "6327",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "blue",
-        "triggers": ["6442"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "2751",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 60,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
         "name": "Dawn",
         "shortname": "Dawn",
         "hammerid": "2615",
@@ -289,6 +213,96 @@
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ichika",
+        "shortname": "Ichika",
+        "hammerid": "5003",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5004"
+            },
+            {
+                "type": "counterup",
+                "hammerid": "5008",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 5,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Rescue",
+        "shortname": "ZM Rescue",
+        "hammerid": "5866",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "triggers": ["5861"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5867",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Heal",
+        "shortname": "ZM Heal",
+        "hammerid": "3511",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "white",
+        "triggers": ["3512"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3516",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Water",
+        "shortname": "ZM Water",
+        "hammerid": "6327",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "blue",
+        "triggers": ["6442"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2751",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
                 "maxuses": 0,
                 "message": true,
                 "ui": true

@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Apple Cannon",
+        "shortname": "Cannon",
+        "hammerid": "1264",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3059"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "25",
+                "mode": 5,
+                "ui": true
+            }
+        ]
+    }
+]

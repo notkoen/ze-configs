@@ -19,8 +19,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "995",
-                "event": "OnPlayerUse",
+                "hammerid": "995"
+            },
+            {
+                "hammerid": "997",
+                "event": "OnEqualTo",
                 "mode": 2,
                 "cooldown": 55,
                 "maxuses": 0,
@@ -28,16 +31,6 @@
                 "ui": true
             }
         ]
-    },
-    {
-        "name": "Zombie Nazgul",
-        "shortname": "ZM Nazgul",
-        "hammerid": "355",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "darkred",
-        "triggers": ["865"]
     },
     {
         "name": "Radio",
@@ -50,14 +43,18 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1011",
-                "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
+                "hammerid": "1011"
             }
         ]
+    },
+    {
+        "name": "Zombie Nazgul",
+        "shortname": "ZM Nazgul",
+        "hammerid": "355",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["865"]
     }
 ]

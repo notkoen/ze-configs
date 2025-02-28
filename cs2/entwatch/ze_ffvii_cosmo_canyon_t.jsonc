@@ -1,26 +1,5 @@
 [
     {
-        "name": "Phoenix Down",
-        "shortname": "Phoenix",
-        "hammerid": "3883",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "red",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "3776",
-                "event": "OnPressed",
-                "mode": 3,
-                "cooldown": 0,
-                "maxuses": 1,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
         "name": "Sleep Materia",
         "shortname": "Sleep",
         "hammerid": "7519",
@@ -75,7 +54,7 @@
                 "type": "button",
                 "hammerid": "20815",
                 "event": "OnPressed",
-                "mode": 4,
+                "mode": 3,
                 "cooldown": 15,
                 "maxuses": 1,
                 "message": true,
@@ -96,7 +75,7 @@
                 "type": "button",
                 "hammerid": "20811",
                 "event": "OnPressed",
-                "mode": 5,
+                "mode": 4,
                 "cooldown": 60,
                 "maxuses": 2,
                 "message": true,
@@ -147,28 +126,6 @@
         ]
     },
     {
-        "name": "Zombie Poison",
-        "shortname": "ZM Poison",
-        "hammerid": "7616",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "green",
-        "triggers": ["7617"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "7719",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 70,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
         "name": "Heal Materia",
         "shortname": "Heal",
         "hammerid": "1995",
@@ -204,6 +161,70 @@
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Fire Materia",
+        "shortname": "Fire",
+        "hammerid": "2552",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "20813",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Phoenix Down",
+        "shortname": "Phoenix",
+        "hammerid": "3883",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3776",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Poison",
+        "shortname": "ZM Poison",
+        "hammerid": "7616",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "green",
+        "triggers": ["7617"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "7719",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 70,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -270,27 +291,6 @@
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 70,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Fire Materia",
-        "shortname": "Fire",
-        "hammerid": "2552",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "red",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "20813",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 60,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
