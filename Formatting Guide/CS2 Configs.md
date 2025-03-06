@@ -44,6 +44,7 @@
 
 ```json
 [
+    // Full Config
     {
         "name": "",
         "shortname": "",
@@ -70,6 +71,7 @@
             }
         ]
     },
+    // Regular button
     {
         "name": "",
         "shortname": "",
@@ -84,6 +86,32 @@
                 "type": "button",
                 "hammerid": "",
                 "event": "OnPressed",
+                "mode": 0,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    // Button and filter separate (most reliable)
+    {
+        "name": "",
+        "shortname": "",
+        "hammerid": "",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "",
+        "triggers": [""],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": ""
+            },
+            {
+                "hammerid": "",
+                "event": "OnPass",
                 "mode": 0,
                 "cooldown": 0,
                 "maxuses": 0,
