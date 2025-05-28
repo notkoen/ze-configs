@@ -1,6 +1,7 @@
 // Credits to ficool2 for this vscript
 destinations <- []
 destinations_current <- []
+Inputaddoutput <- InputAddOutput
 
 function PickRandomShuffle(arr, orig_arr)
 {
@@ -18,13 +19,12 @@ function InputAddOutput()
     return true
 }
 
-Inputaddoutput <- InputAddOutput
-
 function UpdateTarget()
 {
-    local destination = Entities.FindByName(null, NetProps.GetPropString(self, "m_target"))
     destinations.clear()
-    if (destination)
+    destinations_current.clear()
+    local destination_name = NetProps.GetPropString(self, "m_target")
+    for (local destination; destination = Entities.FindByName(destination, destination_name);)
         destinations.append(destination)
 }
 
@@ -39,5 +39,5 @@ function OnPostSpawn()
 function OnStartTouch()
 {
     local destination = PickRandomShuffle(destinations_current, destinations)
-    activator.Teleport(true, destination.GetOrigin(), true, destination.GetAbsAngles(), true, destination.GetAbsVelocity())
+    activator.Teleport(true, destination.GetOrigin(), true, destination.GetAbsAngles(), true, activator.GetAbsVelocity())
 }
