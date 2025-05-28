@@ -23,11 +23,11 @@ I am no longer maintaining CSGO configs due to the release of CS2. All configs u
 
 ### CSS
 
+> [!NOTE]
+> All configs I've made for CS:S are published publicly under Nide's [ZE-Configs](https://github.com/NiDE-gg/ZE-Configs) repository.
+
 > [!TIP]
 > For more detailed information on CSS config formatting, refer to [CSS Configs](https://github.com/notkoen/Zombie-Escape-Configs/blob/main/Formatting%20Guide/CSS%20Configs.md).
-
-> [!NOTE]
-> As the current server manager on [NiDE](https://nide.gg), most of my work is already published on Nide's [ZE-Configs](https://github.com/NiDE-gg/ZE-Configs) repository.
 
 > [!WARNING]
 > Entwatch configs differ between NiDE and Unloze, so I have put all Unloze-specific configs in the `unloze` folder under the `Entwatch` folder. For more information, refer to [CSS configs guide](https://github.com/notkoen/Zombie-Escape-Configs/blob/main/Formatting%20Guide/CSS%20Configs.md) for detailed information/explanation.
