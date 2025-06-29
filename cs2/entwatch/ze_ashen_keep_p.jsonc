@@ -1,32 +1,8 @@
 [
     {
-        "name": "Electro",
-        "shortname": "Electro",
-        "hammerid": "413",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "yellow",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "414"
-            },
-            {
-                "hammerid": "421",
-                "event": "OnTrigger",
-                "mode": 2,
-                "cooldown": 55,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Fire",
-        "shortname": "Fire",
-        "hammerid": "423",
+        "name": "Burning Orb",
+        "shortname": "Burning",
+        "hammerid": "8569",
         "message": true,
         "ui": true,
         "transfer": true,
@@ -34,13 +10,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "424"
+                "hammerid": "334"
             },
             {
-                "hammerid": "427",
+                "hammerid": "340",
                 "event": "OnTrigger",
                 "mode": 2,
-                "cooldown": 50,
+                "cooldown": 20,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -48,9 +24,33 @@
         ]
     },
     {
-        "name": "Heal",
-        "shortname": "Heal",
-        "hammerid": "437",
+        "name": "Glacial Orb",
+        "shortname": "Glacial",
+        "hammerid": "8570",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "349"
+            },
+            {
+                "hammerid": "355",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Lightning Orb",
+        "shortname": "Lightning",
+        "hammerid": "8571",
         "message": true,
         "ui": true,
         "transfer": true,
@@ -58,13 +58,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "438"
+                "hammerid": "364"
             },
             {
-                "hammerid": "440",
+                "hammerid": "370",
                 "event": "OnTrigger",
                 "mode": 2,
-                "cooldown": 50,
+                "cooldown": 20,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -72,9 +72,9 @@
         ]
     },
     {
-        "name": "Wind",
-        "shortname": "Wind",
-        "hammerid": "446",
+        "name": "Gust Orb",
+        "shortname": "Gust",
+        "hammerid": "8574",
         "message": true,
         "ui": true,
         "transfer": true,
@@ -82,13 +82,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "447"
+                "hammerid": "533"
             },
             {
-                "hammerid": "444",
+                "hammerid": "538",
                 "event": "OnTrigger",
                 "mode": 2,
-                "cooldown": 50,
+                "cooldown": 20,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -96,27 +96,60 @@
         ]
     },
     {
-        "name": "Bio",
-        "shortname": "Bio",
-        "hammerid": "468",
+        "name": "Divine Orb",
+        "shortname": "Divine",
+        "hammerid": "8572",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "darkblue",
+        "color": "white",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "465"
+                "hammerid": "379"
             },
             {
-                "hammerid": "469",
+                "hammerid": "504",
                 "event": "OnTrigger",
                 "mode": 2,
-                "cooldown": 50,
+                "cooldown": 60,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
             }
         ]
+    },
+    {
+        "name": "Abyssal Orb",
+        "shortname": "Abyssal",
+        "hammerid": "8573",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "518"
+            },
+            {
+                "hammerid": "524",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Celestial Embrace",
+        "shortname": "Celestial",
+        "hammerid": "8580",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white"
     }
 ]

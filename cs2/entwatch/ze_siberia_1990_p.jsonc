@@ -1,32 +1,8 @@
 [
     {
-        "name": "Sponge Builder",
-        "shortname": "Sponge",
-        "hammerid": "1589",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "yellow",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "1590"
-            },
-            {
-                "hammerid": "1594",
-                "event": "OnPass",
-                "mode": 2,
-                "cooldown": 52,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Mouse Trap",
-        "shortname": "Trap",
-        "hammerid": "1793",
+        "name": "Proximity Mine",
+        "shortname": "Mine",
+        "hammerid": "184",
         "message": true,
         "ui": true,
         "transfer": true,
@@ -34,13 +10,31 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1794"
-            },
-            {
-                "hammerid": "1799",
-                "event": "OnPass",
+                "hammerid": "185",
+                "event": "OnPressed",
                 "mode": 2,
-                "cooldown": 42,
+                "cooldown": 24,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Push Gun",
+        "shortname": "Push",
+        "hammerid": "188",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "default",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "194",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 45,
                 "maxuses": 0,
                 "message": true,
                 "ui": true

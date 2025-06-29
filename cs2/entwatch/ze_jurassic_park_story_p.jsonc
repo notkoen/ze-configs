@@ -1,8 +1,8 @@
 [
     {
-        "name": "Sponge Builder",
-        "shortname": "Sponge",
-        "hammerid": "1589",
+        "name": "Flamethrower",
+        "shortname": "Flamethrower",
+        "hammerid": "29927",
         "message": true,
         "ui": true,
         "transfer": true,
@@ -10,13 +10,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1590"
+                "hammerid": "29924"
             },
             {
-                "hammerid": "1594",
-                "event": "OnPass",
+                "hammerid": "29923",
+                "event": "OnTrigger",
                 "mode": 2,
-                "cooldown": 52,
+                "cooldown": 60,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -24,23 +24,23 @@
         ]
     },
     {
-        "name": "Mouse Trap",
-        "shortname": "Trap",
-        "hammerid": "1793",
+        "name": "Taser",
+        "shortname": "Taser",
+        "hammerid": "29940",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "orange",
+        "color": "blue",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1794"
+                "hammerid": "29942"
             },
             {
-                "hammerid": "1799",
-                "event": "OnPass",
+                "hammerid": "29939",
+                "event": "OnTrigger",
                 "mode": 2,
-                "cooldown": 42,
+                "cooldown": 60,
                 "maxuses": 0,
                 "message": true,
                 "ui": true

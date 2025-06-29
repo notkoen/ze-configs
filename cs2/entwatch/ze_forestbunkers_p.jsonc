@@ -1,80 +1,80 @@
 [
     {
-        "name": "Slow Ball",
-        "shortname": "Slow",
-        "hammerid": "4187",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "yellow",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "16914"
-            },
-            {
-                "hammerid": "4193",
-                "event": "OnPass",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": false,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Cone",
-        "shortname": "Cone",
-        "hammerid": "4185",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "pink",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "16906"
-            },
-            {
-                "hammerid": "4143",
-                "event": "OnPass",
-                "mode": 2,
-                "cooldown": 70,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Heal",
+        "name": "Health Pack",
         "shortname": "Heal",
-        "hammerid": "4169",
+        "hammerid": "11403",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "pink",
+        "color": "white",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "16910"
+                "hammerid": "11430"
             },
             {
-                "hammerid": "4170",
+                "hammerid": "11433",
                 "event": "OnPass",
-                "mode": 2,
-                "cooldown": 80,
-                "maxuses": 0,
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
                 "message": true,
                 "ui": true
             }
         ]
     },
     {
-        "name": "Beam",
-        "shortname": "Beam",
-        "hammerid": "4162",
+        "name": "Repellent",
+        "shortname": "Repellent",
+        "hammerid": "11358",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "gray",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "11361"
+            },
+            {
+                "hammerid": "11369",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 10,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Death Ray",
+        "shortname": "Ray",
+        "hammerid": "11371",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "11386"
+            },
+            {
+                "hammerid": "11399",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 2,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Freeze Ray",
+        "shortname": "Freeze",
+        "hammerid": "11441",
         "message": true,
         "ui": true,
         "transfer": true,
@@ -82,13 +82,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "16902"
+                "hammerid": "11452"
             },
             {
-                "hammerid": "4155",
+                "hammerid": "11457",
                 "event": "OnPass",
                 "mode": 2,
-                "cooldown": 70,
+                "cooldown": 90,
                 "maxuses": 0,
                 "message": true,
                 "ui": true

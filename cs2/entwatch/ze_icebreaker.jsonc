@@ -1,8 +1,8 @@
 [
     {
-        "name": "Flamethrower",
-        "shortname": "Flamethrower",
-        "hammerid": "1168",
+        "name": "Rocket Launcher",
+        "shortname": "Rocket",
+        "hammerid": "1562",
         "message": true,
         "ui": true,
         "transfer": true,
@@ -10,31 +10,10 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1169"
+                "hammerid": "1556"
             },
             {
-                "type": "counterup",
-                "hammerid": "1177",
-                "mode": 5,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Turret 1",
-        "shortname": "Turret 1",
-        "hammerid": "1110",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "grey",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "1111"
-            },
-            {
-                "hammerid": "6117",
+                "hammerid": "1569",
                 "event": "OnPass",
                 "mode": 3,
                 "cooldown": 0,
@@ -45,20 +24,20 @@
         ]
     },
     {
-        "name": "Turret 2",
-        "shortname": "Turret 2",
-        "hammerid": "1132",
+        "name": "Rocket Launcher",
+        "shortname": "Rocket",
+        "hammerid": "1581",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "grey",
+        "color": "red",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1133"
+                "hammerid": "1575"
             },
             {
-                "hammerid": "6118",
+                "hammerid": "1588",
                 "event": "OnPass",
                 "mode": 3,
                 "cooldown": 0,
@@ -69,21 +48,27 @@
         ]
     },
     {
-        "name": "Red Core",
-        "shortname": "Red Core",
-        "hammerid": "635",
+        "name": "Rocket Launcher",
+        "shortname": "Rocket",
+        "hammerid": "1600",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "red"
-    },
-    {
-        "name": "Green Core",
-        "shortname": "Green Core",
-        "hammerid": "636",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "green"
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1594"
+            },
+            {
+                "hammerid": "1607",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
     }
 ]

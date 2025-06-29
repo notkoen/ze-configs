@@ -1,19 +1,19 @@
 [
     {
-        "name": "Heal",
-        "shortname": "Heal",
-        "hammerid": "3305",
+        "name": "Push",
+        "shortname": "Push",
+        "hammerid": "650",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "pink",
+        "color": "green",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "3290"
+                "hammerid": "56"
             },
             {
-                "hammerid": "3277",
+                "hammerid": "3276",
                 "event": "OnPass",
                 "mode": 2,
                 "cooldown": 60,

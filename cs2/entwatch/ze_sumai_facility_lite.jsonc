@@ -1,54 +1,80 @@
 [
     {
-        "name": "Ammo",
+        "name": "Medic Bag",
+        "shortname": "Heal",
+        "hammerid": "77883",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "77885"
+            },
+            {
+                "hammerid": "77887",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 150,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Bear Trap",
+        "shortname": "Trap",
+        "hammerid": "68540",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "68542"
+            },
+            {
+                "hammerid": "68580",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Claymore",
+        "shortname": "Claymore",
+        "hammerid": "68625",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "68627"
+            },
+            {
+                "hammerid": "68630",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 45,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ammo Crate",
         "shortname": "Ammo",
-        "hammerid": "5594",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "orange",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "5595"
-            },
-            {
-                "hammerid": "5597",
-                "event": "OnPass",
-                "mode": 2,
-                "cooldown": 60,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Fire",
-        "shortname": "Fire",
-        "hammerid": "5038",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "red",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "5039"
-            },
-            {
-                "type": "counterdown",
-                "hammerid": "5037",
-                "mode": 5,
-                "offset": [0, -1980],
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Mines",
-        "shortname": "Mines",
-        "hammerid": "5019",
+        "hammerid": "77412",
         "message": true,
         "ui": true,
         "transfer": true,
@@ -56,61 +82,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "5020"
+                "hammerid": "77413"
             },
             {
-                "hammerid": "5022",
+                "hammerid": "77882",
                 "event": "OnPass",
                 "mode": 3,
-                "cooldown": 10,
-                "maxuses": 8,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Stopper",
-        "shortname": "Stopper",
-        "hammerid": "4988",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "red",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "4989"
-            },
-            {
-                "hammerid": "4991",
-                "event": "OnPass",
-                "mode": 2,
-                "cooldown": 60,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Cannon Ultimate",
-        "shortname": "Ultimate",
-        "hammerid": "4970",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "green",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "4968"
-            },
-            {
-                "hammerid": "4971",
-                "event": "OnPass",
-                "mode": 3,
-                "cooldown": 0,
+                "cooldown": 20,
                 "maxuses": 1,
                 "message": true,
                 "ui": true
@@ -118,23 +96,24 @@
         ]
     },
     {
-        "name": "Electro",
-        "shortname": "Electro",
-        "hammerid": "4739",
+        "name": "Zombie Breach Charge",
+        "shortname": "ZM Breach",
+        "hammerid": "68590",
         "message": true,
         "ui": true,
-        "transfer": true,
-        "color": "blue",
+        "transfer": false,
+        "color": "red",
+        "triggers": ["68593"],
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "4740"
+                "hammerid": "68604"
             },
             {
-                "hammerid": "4742",
+                "hammerid": "68600",
                 "event": "OnPass",
                 "mode": 2,
-                "cooldown": 50,
+                "cooldown": 30,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -142,23 +121,24 @@
         ]
     },
     {
-        "name": "Heal",
-        "shortname": "Heal",
-        "hammerid": "4733",
+        "name": "Zombie Poison Grenade",
+        "shortname": "ZM Poison",
+        "hammerid": "77832",
         "message": true,
         "ui": true,
-        "transfer": true,
-        "color": "white",
+        "transfer": false,
+        "color": "red",
+        "triggers": ["77830"],
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "4734"
+                "hammerid": "77834"
             },
             {
-                "hammerid": "4736",
+                "hammerid": "77829",
                 "event": "OnPass",
                 "mode": 2,
-                "cooldown": 60,
+                "cooldown": 45,
                 "maxuses": 0,
                 "message": true,
                 "ui": true

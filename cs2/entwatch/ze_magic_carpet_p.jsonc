@@ -1,22 +1,22 @@
 [
     {
-        "name": "Heal",
-        "shortname": "Heal",
-        "hammerid": "3305",
+        "name": "Shield",
+        "shortname": "Shield",
+        "hammerid": "111",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "pink",
+        "color": "yellow",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "3290"
+                "hammerid": "151"
             },
             {
-                "hammerid": "3277",
+                "hammerid": "153",
                 "event": "OnPass",
                 "mode": 2,
-                "cooldown": 60,
+                "cooldown": 20,
                 "maxuses": 0,
                 "message": true,
                 "ui": true

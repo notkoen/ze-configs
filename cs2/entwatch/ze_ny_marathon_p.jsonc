@@ -1,46 +1,22 @@
 [
     {
-        "name": "Gravity",
-        "shortname": "Gravity",
-        "hammerid": "2845",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "yellow",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "2848"
-            },
-            {
-                "hammerid": "4575",
-                "event": "OnPass",
-                "mode": 2,
-                "cooldown": 60,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
         "name": "Heal",
         "shortname": "Heal",
-        "hammerid": "3169",
+        "hammerid": "560",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "red",
+        "color": "white",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "2857"
+                "hammerid": "558"
             },
             {
-                "hammerid": "2860",
+                "hammerid": "563",
                 "event": "OnPass",
                 "mode": 2,
-                "cooldown": 80,
+                "cooldown": 31,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -48,9 +24,9 @@
         ]
     },
     {
-        "name": "Push",
+        "name": "Push Gun",
         "shortname": "Push",
-        "hammerid": "4310",
+        "hammerid": "590",
         "message": true,
         "ui": true,
         "transfer": true,
@@ -58,13 +34,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "2511"
+                "hammerid": "591"
             },
             {
-                "hammerid": "6018",
+                "hammerid": "589",
                 "event": "OnPass",
                 "mode": 2,
-                "cooldown": 50,
+                "cooldown": 41,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -72,9 +48,33 @@
         ]
     },
     {
-        "name": "Shield",
-        "shortname": "Shield",
-        "hammerid": "3792",
+        "name": "Grenade Spawner",
+        "shortname": "Grenades",
+        "hammerid": "570",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "573"
+            },
+            {
+                "hammerid": "572",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 8,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Laser Gun",
+        "shortname": "Laser",
+        "hammerid": "857",
         "message": true,
         "ui": true,
         "transfer": true,
@@ -82,13 +82,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "2690"
+                "hammerid": "859"
             },
             {
-                "hammerid": "4352",
+                "hammerid": "858",
                 "event": "OnPass",
                 "mode": 2,
-                "cooldown": 80,
+                "cooldown": 40,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -96,24 +96,23 @@
         ]
     },
     {
-        "name": "Zombie Cube",
-        "shortname": "ZM Cube",
-        "hammerid": "2941",
+        "name": "Speed",
+        "shortname": "Speed",
+        "hammerid": "459",
         "message": true,
         "ui": true,
-        "transfer": false,
-        "color": "yellow",
-        "triggers": ["2008"],
+        "transfer": true,
+        "color": "green",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "3697"
+                "hammerid": "460"
             },
             {
-                "hammerid": "3293",
+                "hammerid": "462",
                 "event": "OnPass",
-                "mode": 2,
-                "cooldown": 60,
+                "mode": 1,
+                "cooldown": 0,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -121,49 +120,33 @@
         ]
     },
     {
-        "name": "Zombie Heal",
-        "shortname": "ZM Heal",
-        "hammerid": "4570",
+        "name": "Monkey Skin",
+        "shortname": "Monkey",
+        "hammerid": "720",
         "message": true,
         "ui": true,
-        "transfer": false,
-        "color": "red",
-        "triggers": ["3268"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "4356"
-            },
-            {
-                "hammerid": "1982",
-                "event": "OnPass",
-                "mode": 2,
-                "cooldown": 50,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
+        "transfer": true,
+        "color": "orange"
     },
     {
-        "name": "Zombie Reverse",
-        "shortname": "ZM Reverse",
-        "hammerid": "2029",
+        "name": "Zombie Gravity",
+        "shortname": "ZM Gravity",
+        "hammerid": "595",
         "message": true,
         "ui": true,
         "transfer": false,
         "color": "purple",
-        "triggers": ["999"],
+        "triggers": ["3912"],
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "4353"
+                "hammerid": "596"
             },
             {
-                "hammerid": "2033",
+                "hammerid": "594",
                 "event": "OnPass",
                 "mode": 2,
-                "cooldown": 80,
+                "cooldown": 41,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -171,24 +154,24 @@
         ]
     },
     {
-        "name": "Zombie Water",
-        "shortname": "ZM Water",
-        "hammerid": "2958",
+        "name": "Zombie Teleporter",
+        "shortname": "ZM Teleport",
+        "hammerid": "467",
         "message": true,
         "ui": true,
         "transfer": false,
-        "color": "darkblue",
-        "triggers": ["2735"],
+        "color": "red",
+        "triggers": ["3914"],
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "2728"
+                "hammerid": "468"
             },
             {
-                "hammerid": "2727",
+                "hammerid": "470",
                 "event": "OnPass",
-                "mode": 2,
-                "cooldown": 70,
+                "mode": 1,
+                "cooldown": 0,
                 "maxuses": 0,
                 "message": true,
                 "ui": true

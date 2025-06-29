@@ -1,22 +1,40 @@
 [
     {
-        "name": "Electro",
-        "shortname": "Electro",
-        "hammerid": "413",
+        "name": "Toaster",
+        "shortname": "Toaster",
+        "hammerid": "624",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "yellow",
+        "color": "orange",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "414"
-            },
+                "hammerid": "622",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Peanut Butter",
+        "shortname": "Peanut Butter",
+        "hammerid": "642",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
             {
-                "hammerid": "421",
-                "event": "OnTrigger",
+                "type": "button",
+                "hammerid": "640",
+                "event": "OnPressed",
                 "mode": 2,
-                "cooldown": 55,
+                "cooldown": 5,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -24,33 +42,9 @@
         ]
     },
     {
-        "name": "Fire",
-        "shortname": "Fire",
-        "hammerid": "423",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "red",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "424"
-            },
-            {
-                "hammerid": "427",
-                "event": "OnTrigger",
-                "mode": 2,
-                "cooldown": 50,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Heal",
-        "shortname": "Heal",
-        "hammerid": "437",
+        "name": "Sour Milk",
+        "shortname": "Milk",
+        "hammerid": "650",
         "message": true,
         "ui": true,
         "transfer": true,
@@ -58,13 +52,10 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "438"
-            },
-            {
-                "hammerid": "440",
-                "event": "OnTrigger",
+                "hammerid": "648",
+                "event": "OnPressed",
                 "mode": 2,
-                "cooldown": 50,
+                "cooldown": 6,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -72,23 +63,20 @@
         ]
     },
     {
-        "name": "Wind",
-        "shortname": "Wind",
-        "hammerid": "446",
+        "name": "Jalapeno",
+        "shortname": "Jalapeno",
+        "hammerid": "658",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "green",
+        "color": "red",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "447"
-            },
-            {
-                "hammerid": "444",
-                "event": "OnTrigger",
+                "hammerid": "656",
+                "event": "OnPressed",
                 "mode": 2,
-                "cooldown": 50,
+                "cooldown": 11,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -96,23 +84,20 @@
         ]
     },
     {
-        "name": "Bio",
-        "shortname": "Bio",
-        "hammerid": "468",
+        "name": "Metal Ass",
+        "shortname": "Metal Ass",
+        "hammerid": "671",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "darkblue",
+        "color": "grey",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "465"
-            },
-            {
-                "hammerid": "469",
-                "event": "OnTrigger",
+                "hammerid": "669",
+                "event": "OnPressed",
                 "mode": 2,
-                "cooldown": 50,
+                "cooldown": 10,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
