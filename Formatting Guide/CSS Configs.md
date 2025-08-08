@@ -1,7 +1,7 @@
 
 # CSS Config Formatting
 
-## Entwatch (Nide)
+## entwatch (Nide)
 
 ```text
 "entities"
@@ -122,7 +122,7 @@ Mode | Description
 - `sm_ewlockbutton [hammerid] [0/1]`
 - `sm_ewlockbutton2 [hammerid] [0/1]`
 
-## Entwatch (Unloze)
+## entwatch (Unloze)
 
 ```text
 "items"
@@ -176,6 +176,99 @@ Mode | Description
 }
 ```
 
+## entWatch 4.x (Unreleased)
+
+> [!WARNING]
+> This version of entWatch is still under development. Thus, config options are not final.
+
+```text
+"items"
+{
+    "configversion"         "1"         // Int: Current version of configuration format. (Used for compatability check)
+
+    "0"
+    {
+        "name"              ""          // String: The 'full' name of the item. (Used in the chat messages)
+        "short"             ""          // String: The 'short' name of the item. (Used in the interface)
+        "color"             "FFFFFF"    // String: The HEX color code for the item. (Without #)
+        "filter"            ""          // String: The targetname the player recieves for map based filtering. (Leave empty if not applicable)
+        "hammerid"          ""          // Int: The HammerID of the weapon.
+        "cantransfer"       "1"         // Bool: Can this item be transfered to other players?
+        "showmessages"      "1"         // Bool: Should messages be displayed for this item?
+        "showinterface"     "1"         // Bool: Should this item show up on the interface?
+
+        "buttons"
+        {
+            "0"
+            {
+                "output"            ""          // String: The output to hook for activation. (Only used on type 2)
+                "hammerid"          ""          // Int: The HammerID of the button/entity/counter used for activation.
+                "type"              "1"         // Int: The type of button. (1 = +use activation, 2 = output activation, 3 = counter up, 4 = counter down)
+                "mode"              "0"         // Int: The mode of activation. (1 = cooldown, 2 = limited uses, 3 = cooldown after multiple uses, 4 = cooldown after multiple uses, 5 = counter value)
+                "maxuses"           "0"         // Int: The maximum amount of uses.
+                "cooldown"          "0"         // Float: The cooldown between uses.
+                "itemcooldown"      "0"         // Float: The duration the item should not be able to get activated after use.
+                "showactivate"      "1"         // Bool: Should messages be displayed for this activation?
+                "showcooldown"      "1"         // Bool: Should the cooldown of this activation show in the interface?
+            }
+        }
+
+        "triggers"
+        {
+            "0"
+            {
+                "hammerid"          "0"         // Int: The HammerID of the trigger.
+                "type"              "1"         // Int: The type of trigger. (1 = strip trigger)
+            }
+        }
+    }
+}
+```
+
+```text
+"items"
+{
+    "configversion"         "1"
+
+    "0"
+    {
+        "name"              ""
+        "short"             ""
+        "color"             "FFFFFF"
+        "filter"            ""
+        "hammerid"          ""
+        "cantransfer"       "1"
+        "showmessages"      "1"
+        "showinterface"     "1"
+
+        "buttons"
+        {
+            "0"
+            {
+                "output"            ""
+                "hammerid"          ""
+                "type"              "1"
+                "mode"              "0"
+                "maxuses"           "0"
+                "cooldown"          "0"
+                "itemcooldown"      "0"
+                "showactivate"      "1"
+                "showcooldown"      "1"
+            }
+        }
+
+        "triggers"
+        {
+            "0"
+            {
+                "hammerid"          ""
+                "type"              "1"
+            }
+        }
+    }
+}
+```
+
 ## BossHP Config
 
 ```text
@@ -223,12 +316,12 @@ Mode | Description
     // OPTIONAL KEYVALUES
     ""
     {
-        "timeout"           "" //
-        "killtrigger"       "" // Name of trigger to kill boss
-        "hurttrigger"       "" // Name of entity and output to count as hitting boss
-        "multitrigger"      "" // 1/0 - If the boss can spawn multiple times by point_template
-        "namefixup"         "" // Entities that get unique name when spawned by point_template (mainly for NPCs)
-        "showbeaten"        "" // (Nide only) 1/0 - Disable top boss damage display
+        "timeout"           "" // Float: Time before hiding the health of the boss
+        "killtrigger"       "" // String: Specify event that kills the boss ("entity:output")
+        "hurttrigger"       "" // String: Specify event that counts as hitting boss ("entity:output")
+        "multitrigger"      "" // Int: Whether boss can be triggered multiple times from "trigger" (1 = True, 0 = False)
+        "namefixup"         "" // Int: Whether boss has namefixup if spawned from a template (1 = True, 0 = False)
+        "showbeaten"        "" // Int: Whether top boss damage is displayed upon boss death (1 = True, 0 = False)
     }
 }
 ```
