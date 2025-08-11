@@ -201,6 +201,7 @@ Mode | Description
         {
             "0"
             {
+                "name"              ""          // String: The name of the button/ability to display in chat
                 "output"            ""          // String: The output to hook for activation. (Only used on type 2)
                 "hammerid"          ""          // Int: The HammerID of the button/entity/counter used for activation.
                 "type"              "1"         // Int: The type of button. (1 = +use activation, 2 = output activation, 3 = counter up, 4 = counter down)
@@ -245,6 +246,7 @@ Mode | Description
         {
             "0"
             {
+                "name"              ""
                 "output"            ""
                 "hammerid"          ""
                 "type"              "1"
@@ -263,6 +265,40 @@ Mode | Description
             {
                 "hammerid"          ""
                 "type"              "1"
+            }
+        }
+    }
+
+    // Basic human item
+    "0"
+    {
+        "name"              ""
+        "short"             ""
+        "color"             "FFFFFF"
+        "filter"            ""
+        "hammerid"          ""
+        "cantransfer"       "1"
+        "showmessages"      "1"
+        "showinterface"     "1"
+
+        "buttons"
+        {
+            "0"
+            {
+                "hammerid"          ""
+                "type"              "1"
+            }
+            "1"
+            {
+                "output"            ""
+                "hammerid"          ""
+                "type"              "1"
+                "mode"              "0"
+                "maxuses"           "0"
+                "cooldown"          "0"
+                "itemcooldown"      "0"
+                "showactivate"      "1"
+                "showcooldown"      "1"
             }
         }
     }
