@@ -205,7 +205,7 @@ Mode | Description
                 "output"            ""          // String: The output to hook for activation. (Only used on type 2)
                 "hammerid"          ""          // Int: The HammerID of the button/entity/counter used for activation.
                 "type"              "1"         // Int: The type of button. (1 = +use activation, 2 = output activation, 3 = counter up, 4 = counter down)
-                "mode"              "0"         // Int: The mode of activation. (1 = cooldown, 2 = limited uses, 3 = cooldown after multiple uses, 4 = cooldown after multiple uses, 5 = counter value)
+                "mode"              "0"         // Int: The mode of activation. (1 = cooldown, 2 = limited uses, 3 = cooldown after multiple uses, 4 = counter value)
                 "maxuses"           "0"         // Int: The maximum amount of uses.
                 "cooldown"          "0"         // Float: The cooldown between uses.
                 "itemcooldown"      "0"         // Float: The duration the item should not be able to get activated after use.
