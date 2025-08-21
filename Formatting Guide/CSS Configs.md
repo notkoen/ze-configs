@@ -289,7 +289,7 @@ Mode | Description
             {
                 "output"            ""
                 "hammerid"          ""
-                "type"              "1"
+                "type"              "2"
                 "mode"              "0"
                 "maxuses"           "0"
                 "cooldown"          "0"
