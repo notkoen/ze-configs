@@ -191,7 +191,6 @@ Mode | Description
         "name"              ""          // String: The 'full' name of the item. (Used in the chat messages)
         "short"             ""          // String: The 'short' name of the item. (Used in the interface)
         "color"             "FFFFFF"    // String: The HEX color code for the item. (Without #)
-        "filter"            ""          // String: The targetname the player recieves for map based filtering. (Leave empty if not applicable)
         "hammerid"          ""          // Int: The HammerID of the weapon.
         "cantransfer"       "1"         // Bool: Can this item be transfered to other players?
         "showmessages"      "1"         // Bool: Should messages be displayed for this item?
@@ -236,7 +235,6 @@ Mode | Description
         "name"              ""
         "short"             ""
         "color"             "FFFFFF"
-        "filter"            ""
         "hammerid"          ""
         "cantransfer"       "1"
         "showmessages"      "1"
@@ -275,7 +273,6 @@ Mode | Description
         "name"              ""
         "short"             ""
         "color"             "FFFFFF"
-        "filter"            ""
         "hammerid"          ""
         "cantransfer"       "1"
         "showmessages"      "1"
@@ -299,6 +296,48 @@ Mode | Description
                 "itemcooldown"      "0"
                 "showactivate"      "1"
                 "showcooldown"      "1"
+            }
+        }
+    }
+
+    // Basic zombie item
+    "0"
+    {
+        "name"              ""
+        "short"             ""
+        "color"             "FFFFFF"
+        "hammerid"          ""
+        "cantransfer"       "1"
+        "showmessages"      "1"
+        "showinterface"     "1"
+
+        "buttons"
+        {
+            "0"
+            {
+                "hammerid"          ""
+                "type"              "1"
+            }
+            "1"
+            {
+                "output"            ""
+                "hammerid"          ""
+                "type"              "1"
+                "mode"              "0"
+                "maxuses"           "0"
+                "cooldown"          "0"
+                "itemcooldown"      "0"
+                "showactivate"      "1"
+                "showcooldown"      "1"
+            }
+        }
+
+        "triggers"
+        {
+            "0"
+            {
+                "hammerid"          ""
+                "type"              "1"
             }
         }
     }
