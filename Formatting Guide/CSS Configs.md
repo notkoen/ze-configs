@@ -1,7 +1,7 @@
 
 # CSS Config Formatting
 
-## entwatch (Nide)
+## DarkerZ Entwatch (Nide)
 
 ```text
 "entities"
@@ -122,7 +122,7 @@ Mode | Description
 - `sm_ewlockbutton [hammerid] [0/1]`
 - `sm_ewlockbutton2 [hammerid] [0/1]`
 
-## entwatch (Unloze)
+## entWatch 4.0 (Unloze)
 
 ```text
 "items"
@@ -176,7 +176,7 @@ Mode | Description
 }
 ```
 
-## entWatch 4.x (Unreleased)
+## entWatch 4.1 (Unreleased)
 
 > [!WARNING]
 > This version of entWatch is still under development. Thus, config options are not final.
@@ -192,7 +192,6 @@ Mode | Description
         "short"             ""          // String: The 'short' name of the item. (Used in the interface)
         "color"             "FFFFFF"    // String: The HEX color code for the item. (Without #)
         "hammerid"          ""          // Int: The HammerID of the weapon.
-        "cantransfer"       "1"         // Bool: Can this item be transfered to other players?
         "showmessages"      "1"         // Bool: Should messages be displayed for this item?
         "showinterface"     "1"         // Bool: Should this item show up on the interface?
 
@@ -203,8 +202,16 @@ Mode | Description
                 "name"              ""          // String: The name of the button/ability to display in chat
                 "output"            ""          // String: The output to hook for activation. (Only used on type 2)
                 "hammerid"          ""          // Int: The HammerID of the button/entity/counter used for activation.
-                "type"              "1"         // Int: The type of button. (1 = +use activation, 2 = output activation, 3 = counter up, 4 = counter down)
-                "mode"              "0"         // Int: The mode of activation. (1 = cooldown, 2 = limited uses, 3 = cooldown after multiple uses, 4 = counter value)
+                "type"              "1"         // Int: The type of button:
+                                                        1 = +use activation
+                                                        2 = output activation
+                                                        3 = counter up
+                                                        4 = counter down
+                "mode"              "0"         // Int: The mode of activation.
+                                                        1 = cooldown
+                                                        2 = limited uses
+                                                        3 = cooldown after multiple uses
+                                                        4 = counter value
                 "maxuses"           "0"         // Int: The maximum amount of uses.
                 "cooldown"          "0"         // Float: The cooldown between uses.
                 "itemcooldown"      "0"         // Float: The duration the item should not be able to get activated after use.
@@ -236,7 +243,6 @@ Mode | Description
         "short"             ""
         "color"             "FFFFFF"
         "hammerid"          ""
-        "cantransfer"       "1"
         "showmessages"      "1"
         "showinterface"     "1"
 
@@ -274,7 +280,6 @@ Mode | Description
         "short"             ""
         "color"             "FFFFFF"
         "hammerid"          ""
-        "cantransfer"       "1"
         "showmessages"      "1"
         "showinterface"     "1"
 
@@ -307,7 +312,6 @@ Mode | Description
         "short"             ""
         "color"             "FFFFFF"
         "hammerid"          ""
-        "cantransfer"       "1"
         "showmessages"      "1"
         "showinterface"     "1"
 
