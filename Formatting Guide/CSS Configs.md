@@ -273,7 +273,7 @@ Mode | Description
         }
     }
 
-    // Basic human item
+    // Human item
     "0"
     {
         "name"              ""
@@ -289,12 +289,6 @@ Mode | Description
             {
                 "hammerid"          ""
                 "type"              "1"
-            }
-            "1"
-            {
-                "output"            ""
-                "hammerid"          ""
-                "type"              "2"
                 "mode"              "0"
                 "maxuses"           "0"
                 "cooldown"          "0"
@@ -305,7 +299,7 @@ Mode | Description
         }
     }
 
-    // Basic zombie item
+    // Zombie item
     "0"
     {
         "name"              ""
@@ -321,12 +315,6 @@ Mode | Description
             {
                 "hammerid"          ""
                 "type"              "1"
-            }
-            "1"
-            {
-                "output"            ""
-                "hammerid"          ""
-                "type"              "2"
                 "mode"              "0"
                 "maxuses"           "0"
                 "cooldown"          "0"
