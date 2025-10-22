@@ -1,0 +1,45 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "Special_Health"
+        "HPbar_counter"     "Special_HealthCount"
+        "HPinit_counter"    "Special_HealthInit"
+        "HPbar_min"         "0"
+        "HPbar_max"         "16"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "Boss"
+    }
+    "1"
+    {
+        "HP_counter"        "lvl2_Gi_Nattak_Counter"
+        "CustomText"        "Boss"
+    }
+    "2"
+    {
+        "HP_counter"        "Genesis_Counter"
+        "CustomText"        "Genesis"
+    }
+    "3"
+    {
+        "HP_counter"        "Shinra_Ifrit_Counter"
+        "CustomText"        "Ifrit"
+    }
+    "4"
+    {
+        "HP_counter"        "Shinra_Jenova_Counter"
+        "CustomText"        "Jenova"
+    }
+    "5"
+    {
+        "HP_counter"        "Shinra_Shiva_Counter"
+        "CustomText"        "Shiva"
+    }
+    "6"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Ultimate_Seph_Event_Physbox"
+        "CustomText"        "Sephiroth"
+    }
+}
