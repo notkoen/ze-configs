@@ -1,4 +1,3 @@
-
 # Zombie Escape Configs
 
 A collection of zombie escape configs that I've made or worked on. I open-source everything while avoiding configs made by others. However, I may accidentally push others' configs. If you want credit or files removed, please contact me via the options below.
@@ -42,5 +41,3 @@ Given the active development state of CS2, do not assume all configs are final. 
 
 > [!WARNING]
 > All entwatch configs are made to work with  **CS2Fixes Entwatch**.
-
-
