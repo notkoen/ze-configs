@@ -1,22 +1,22 @@
 [
     {
-        "name": "Flamethrower",
-        "shortname": "Flamethrower",
-        "hammerid": "27661",
+        "name": "Fire",
+        "shortname": "Fire",
+        "hammerid": "7636",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "yellow",
+        "color": "red",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "27658"
+                "hammerid": "7633"
             },
             {
-                "hammerid": "27657",
-                "event": "OnTrigger",
+                "hammerid": "7637",
+                "event": "OnPass",
                 "mode": 2,
-                "cooldown": 60,
+                "cooldown": 70,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -24,9 +24,9 @@
         ]
     },
     {
-        "name": "Taser",
-        "shortname": "Taser",
-        "hammerid": "27641",
+        "name": "Water",
+        "shortname": "Water",
+        "hammerid": "7642",
         "message": true,
         "ui": true,
         "transfer": true,
@@ -34,13 +34,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "27643"
+                "hammerid": "7644"
             },
             {
-                "hammerid": "27640",
-                "event": "OnTrigger",
+                "hammerid": "7646",
+                "event": "OnPass",
                 "mode": 2,
-                "cooldown": 60,
+                "cooldown": 70,
                 "maxuses": 0,
                 "message": true,
                 "ui": true

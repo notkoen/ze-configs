@@ -1,80 +1,8 @@
 [
     {
-        "name": "Ice",
-        "shortname": "Ice",
-        "hammerid": "1649",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "blue",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "4355"
-            },
-            {
-                "hammerid": "1605",
-                "event": "OnTrigger",
-                "mode": 2,
-                "cooldown": 65,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Earth",
-        "shortname": "Earth",
-        "hammerid": "1638",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "orange",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "4353"
-            },
-            {
-                "hammerid": "1641",
-                "event": "OnPass",
-                "mode": 2,
-                "cooldown": 75,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Fire",
-        "shortname": "Fire",
-        "hammerid": "1633",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "red",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "4357"
-            },
-            {
-                "hammerid": "1635",
-                "event": "OnPass",
-                "mode": 2,
-                "cooldown": 50,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Wind",
-        "shortname": "Wind",
-        "hammerid": "1628",
+        "name": "Push",
+        "shortname": "Push",
+        "hammerid": "8839",
         "message": true,
         "ui": true,
         "transfer": true,
@@ -82,13 +10,37 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "4359"
+                "hammerid": "8841"
             },
             {
-                "hammerid": "1630",
-                "event": "OnPass",
+                "hammerid": "8849",
+                "event": "OnTrigger",
                 "mode": 2,
-                "cooldown": 65,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Wall",
+        "shortname": "Wall",
+        "hammerid": "8827",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8825"
+            },
+            {
+                "hammerid": "8851",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 60,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -98,21 +50,21 @@
     {
         "name": "Heal",
         "shortname": "Heal",
-        "hammerid": "1623",
+        "hammerid": "12026",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "green",
+        "color": "white",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "4351"
+                "hammerid": "12028"
             },
             {
-                "hammerid": "1626",
-                "event": "OnPass",
+                "hammerid": "12032",
+                "event": "OnTrigger",
                 "mode": 2,
-                "cooldown": 50,
+                "cooldown": 30,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -120,23 +72,24 @@
         ]
     },
     {
-        "name": "Poison",
-        "shortname": "Poison",
-        "hammerid": "1617",
+        "name": "Zombie Gravity",
+        "shortname": "ZM Gravity",
+        "hammerid": "8878",
         "message": true,
         "ui": true,
-        "transfer": true,
-        "color": "green",
+        "transfer": false,
+        "color": "purple",
+        "triggers": ["8879"],
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "4349"
+                "hammerid": "8883"
             },
             {
-                "hammerid": "1620",
-                "event": "OnPass",
+                "hammerid": "8887",
+                "event": "OnTrigger",
                 "mode": 2,
-                "cooldown": 50,
+                "cooldown": 90,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -144,12 +97,53 @@
         ]
     },
     {
-        "name": "Crystal",
-        "shortname": "Crystal",
-        "hammerid": "632",
+        "name": "Zombie Speed",
+        "shortname": "ZM Speed",
+        "hammerid": "8863",
         "message": true,
         "ui": true,
-        "transfer": true,
-        "color": "grey"
+        "transfer": false,
+        "color": "red",
+        "triggers": ["8869"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8865"
+            },
+            {
+                "hammerid": "8873",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 90,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Ball",
+        "shortname": "ZM Ball",
+        "hammerid": "12000",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["12001"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "11997"
+            },
+            {
+                "hammerid": "12012",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 15,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     }
 ]

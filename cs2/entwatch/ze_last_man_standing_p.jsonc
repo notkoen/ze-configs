@@ -10,18 +10,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "13730",
-                "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": false,
-                "ui": true
+                "hammerid": "13730"
             },
             {
-                "type": "counter",
+                "type": "counterdown",
                 "hammerid": "13745",
-                "mode": 6,
+                "mode": 5,
+                "message": false,
                 "ui": true
             }
         ]
@@ -443,7 +438,16 @@
         "ui": true,
         "transfer": true,
         "color": "red",
-        "triggers": ["337"]
+        "triggers": ["337"],
+        "handlers": [
+            {
+                "type": "counterdown",
+                "hammerid": "329",
+                "mode": 5,
+                "message": false,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Zombie Tank",
@@ -461,7 +465,7 @@
                 "mode": 1,
                 "cooldown": 0,
                 "maxuses": 0,
-                "message": true,
+                "message": false,
                 "ui": true
             }
         ]

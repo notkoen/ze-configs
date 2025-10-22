@@ -1,56 +1,56 @@
 [
     {
-        "name": "Health Pack",
-        "shortname": "Heal",
-        "hammerid": "9108",
+        "name": "Wall",
+        "shortname": "Wall",
+        "hammerid": "51696",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "white",
+        "color": "yellow",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "9135"
+                "hammerid": "61391"
             },
             {
-                "hammerid": "9138",
+                "hammerid": "51705",
                 "event": "OnPass",
-                "mode": 3,
-                "cooldown": 0,
-                "maxuses": 1,
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
                 "message": true,
                 "ui": true
             }
         ]
     },
     {
-        "name": "Repellent",
-        "shortname": "Repellent",
-        "hammerid": "9095",
+        "name": "Fire Barrel",
+        "shortname": "Fire",
+        "hammerid": "51720",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "gray",
+        "color": "orange",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "9098"
+                "hammerid": "61395"
             },
             {
-                "hammerid": "9106",
+                "hammerid": "51722",
                 "event": "OnPass",
-                "mode": 3,
-                "cooldown": 10,
-                "maxuses": 1,
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
                 "message": true,
                 "ui": true
             }
         ]
     },
     {
-        "name": "Death Ray",
-        "shortname": "Ray",
-        "hammerid": "9170",
+        "name": "Protection Circle",
+        "shortname": "Push",
+        "hammerid": "51744",
         "message": true,
         "ui": true,
         "transfer": true,
@@ -58,37 +58,37 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "9185"
+                "hammerid": "61399"
             },
             {
-                "hammerid": "9198",
+                "hammerid": "51749",
                 "event": "OnPass",
-                "mode": 3,
-                "cooldown": 2,
-                "maxuses": 1,
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
                 "message": true,
                 "ui": true
             }
         ]
     },
     {
-        "name": "Freeze Ray",
-        "shortname": "Freeze",
-        "hammerid": "9146",
+        "name": "Airstrike",
+        "shortname": "Airstrike",
+        "hammerid": "72013",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "blue",
+        "color": "red",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "9157"
+                "hammerid": "72017"
             },
             {
-                "hammerid": "9162",
+                "hammerid": "72025",
                 "event": "OnPass",
                 "mode": 2,
-                "cooldown": 90,
+                "cooldown": 100,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
