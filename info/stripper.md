@@ -8,6 +8,7 @@ Stripper:Source by Bailopan is an useful tool for fixing and modifying maps with
 - [Stripper Plugin](https://github.com/srcdslab/sm-plugin-stripper) - Sourcemod plugin version of Stripper:Source
 - [bspsrc](https://github.com/ata4/bspsrc) - Useful tool for decompiling and extracting maps
 - [VIDE](https://www.tophattwaffle.com/downloads/vide/) - Valve Integrated Development Environment that includes several useful tools, especially entity lump editor, to assist with writing strippers
+- [Lumper](https://github.com/momentum-mod/lumper) - A more updated version of VIDE 
 - [stripplier](https://github.com/Source2ZE/Stripplier) - Python tool for applying stripper changes to a VMF
 
 ## General Information
