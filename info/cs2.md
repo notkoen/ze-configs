@@ -3,7 +3,7 @@
 
 ## CS2Fixes Entwatch
 
-```json
+```jsonc
 [
     {
         "name": "Item Name",            // Name of item that appears in chat
@@ -42,7 +42,7 @@
 
 ### Clean Template
 
-```json
+```jsonc
 [
     // Full Config
     {
