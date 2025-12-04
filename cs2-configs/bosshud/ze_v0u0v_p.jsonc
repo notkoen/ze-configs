@@ -34,59 +34,53 @@
         "backup":           "bosshp2",
         "iterator":         "bosshp3"
     },
+    // GFL does not display NPC health
     {
-        "name":             "Soldier",
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup": true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc1_body"
     },
     {
-        "name":             "Soldier",
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup": true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc2_body"
     },
     {
-        "name":             "Soldier",
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup": true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc3_body"
     },
     {
-        "name":             "Soldier",
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup": true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc4_body"
     },
     {
-        "name":             "Soldier",
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup": true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc5_body"
     },
     {
-        "name":             "Soldier",
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup": true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc6_body"
     },
     {
-        "name":             "Soldier",
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup": true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc7_body"
     }

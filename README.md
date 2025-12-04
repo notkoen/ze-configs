@@ -40,4 +40,4 @@ I am no longer maintaining CS:GO configs due to the release of CS2. All configs 
 Given the active development state of CS2, do not assume all configs are final. I will do my best to keep them updated.
 
 > [!WARNING]
-> All entwatch configs are made to work with  **CS2Fixes Entwatch**.
+> All bosshp and entwatch configs are made to work with  **CS2Fixes**.
