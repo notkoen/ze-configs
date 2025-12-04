@@ -1,39 +1,35 @@
 [
     {
-        "name":             "Deadcore",
         "reverseiterator":  true,
         "counter":          "radiation_hpcounter",
         "iterator":         "radiation_hpmasscounter"
     },
+    // GFL does not display NPC health
     {
-        "name":             "Red Cube",
-        "minorhud":         true,
+        "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "enemy1_core1"
     },
     {
-        "name":             "Green Cube",
-        "minorhud":         true,
+        "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "enemy2_core1"
     },
     {
-        "name":             "Blue Cube",
-        "minorhud":         true,
+        "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "enemy3_core1"
     },
     {
-        "name":             "Crystal",
-        "minorhud":         true,
+        "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "enemy4_core1"
     }
