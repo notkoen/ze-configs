@@ -1,0 +1,10 @@
+[
+    {
+        "name":             "Shield",
+        "counter":          "math_boss_s2"
+    },
+    {
+        "name":             "Cook",
+        "counter":          "math_boss_s3"
+    }
+]
