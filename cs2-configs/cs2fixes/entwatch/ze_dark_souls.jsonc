@@ -1,0 +1,452 @@
+[
+    {
+        "name": "Logan Blocker",
+        "hammerid": "-1",
+        "triggers": ["202227"]
+    },
+    {
+        "name": "Estus Flask",
+        "shortname": "Estus",
+        "hammerid": "140894",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "143847"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "142482",
+                "mode": 3,
+                "cooldown": 4.5,
+                "ui": true,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Dark Orb",
+        "shortname": "Dark Orb",
+        "hammerid": "140892",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "143839"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "142478",
+                "mode": 3,
+                "cooldown": 2.5,
+                "ui": true,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Dark Storm",
+        "shortname": "Dark Storm",
+        "hammerid": "140885",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "143823"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "142470",
+                "mode": 3,
+                "cooldown": 10,
+                "ui": true,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Chaos Storm",
+        "shortname": "Chaos Storm",
+        "hammerid": "140886",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "143825"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "142471",
+                "mode": 3,
+                "cooldown": 10,
+                "ui": true,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Fireball",
+        "shortname": "Fireball",
+        "hammerid": "140890",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "143833"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "142475",
+                "mode": 3,
+                "cooldown": 2.5,
+                "ui": true,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Hidden Body",
+        "shortname": "Hidden Body",
+        "hammerid": "140884",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "143821"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "142469",
+                "mode": 3,
+                "cooldown": 7.5,
+                "ui": true,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Great Heavy Soul Arrow",
+        "shortname": "Soul Arrow",
+        "hammerid": "140891",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "143837"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "142477",
+                "mode": 3,
+                "cooldown": 2.5,
+                "ui": true,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "White Dragon Breath",
+        "shortname": "Dragon Breath",
+        "hammerid": "140889",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "143831"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "142474",
+                "mode": 3,
+                "cooldown": 7,
+                "ui": true,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Spook",
+        "shortname": "Spook",
+        "hammerid": "140895",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "143849"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "142483",
+                "mode": 3,
+                "cooldown": 7,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Soothing Sunlight",
+        "shortname": "Sunlight",
+        "hammerid": "140893",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "143845"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "142481",
+                "mode": 3,
+                "cooldown": 7,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Blessed Weapon",
+        "shortname": "Blessed Weapon",
+        "hammerid": "140883",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "143815"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "142466",
+                "mode": 3,
+                "cooldown": 10,
+                "ui": true,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Lightning Spear",
+        "shortname": "Lightning Spear",
+        "hammerid": "140888",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "143829"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "142473",
+                "mode": 3,
+                "cooldown": 2.5,
+                "ui": true,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Wrath of the Gods",
+        "shortname": "Wrath",
+        "hammerid": "140887",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "143827"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "142472",
+                "mode": 3,
+                "cooldown": 1.5,
+                "ui": true,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Blood Shield",
+        "shortname": "Blood Shield",
+        "hammerid": "144780",
+        "message": true,
+        "ui": false,
+        "transfer": true,
+        "color": "red2"
+    },
+    {
+        "name": "Grass Crest Shield",
+        "shortname": "Grass Shield",
+        "hammerid": "144791",
+        "message": true,
+        "ui": false,
+        "transfer": true,
+        "color": "olive"
+    },
+    {
+        "name": "Sunlight Shield",
+        "shortname": "Sun Shield",
+        "hammerid": "145147",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white"
+    },
+    {
+        "name": "Skull Lantern",
+        "shortname": "Lantern",
+        "hammerid": "140896",
+        "message": true,
+        "ui": false,
+        "transfer": true,
+        "color": "white"
+    },
+    {
+        "name": "Zombie Black Flame",
+        "shortname": "ZM Flame",
+        "hammerid": "140882",
+        "message": true,
+        "ui": true,
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "143843"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "142480",
+                "mode": 3,
+                "cooldown": 2.5,
+                "ui": true,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Rapport",
+        "shortname": "ZM Rapport",
+        "hammerid": "140880",
+        "message": true,
+        "ui": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "143835"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "142476",
+                "mode": 3,
+                "cooldown": 2.5,
+                "ui": true,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Power Within",
+        "shortname": "ZM Power Within",
+        "hammerid": "140878",
+        "message": true,
+        "ui": true,
+        "color": "darkred",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "143817"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "142467",
+                "mode": 3,
+                "cooldown": 8,
+                "ui": true,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Poison Mist",
+        "shortname": "ZM Poison",
+        "hammerid": "140881",
+        "message": true,
+        "ui": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "143841"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "142479",
+                "mode": 3,
+                "cooldown": 20,
+                "ui": true,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Toxic Mist",
+        "shortname": "ZM Mist",
+        "hammerid": "140879",
+        "message": true,
+        "ui": true,
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "143819"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "142468",
+                "mode": 3,
+                "cooldown": 15,
+                "ui": true,
+                "message": true
+            }
+        ]
+    }
+]
