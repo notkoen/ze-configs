@@ -1,0 +1,42 @@
+{
+	// Add stripper credit
+	"modifY": {
+		"match": {
+			"classname": "logic_auto",
+			"hammeruniqueid": "441"
+		},
+		"insert": {
+			"io": [
+				{
+					"outputname": "OnMapSpawn",
+					"targetname": "[PR#]Cmd",
+					"inputname": "Command",
+					"overrideparam": "say >> Additional fixes by koen <<",
+					"delay": 5,
+					"timestofire": -1
+				}
+			]
+		}
+	},
+	// Fix incorrect door direction
+	"modify": [
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"spawnflags": "65536"
+			},
+			"replace": {
+				"spawnflags": "16"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"spawnflags": "65538"
+			},
+			"replace": {
+				"spawnflags": "18"
+			}
+		}
+	]
+}
