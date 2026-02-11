@@ -1,6 +1,6 @@
 {
 	// Add stripper credit
-	"modifY": {
+	"modify": {
 		"match": {
 			"classname": "logic_auto"
 		},

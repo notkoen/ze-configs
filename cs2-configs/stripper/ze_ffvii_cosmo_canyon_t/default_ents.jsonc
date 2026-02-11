@@ -1,4 +1,21 @@
 {
+	// Add stripper credit
+	"modify": {
+		"match": {
+			"classname": "logic_auto"
+		},
+		"insert": {
+			"io": [
+				{
+					"outputname": "OnMapSpawn",
+					"targetname": "[PR#]cmd",
+					"inputname": "Command",
+					"overrideparam": "say >> Additional fixes by koen <<",
+					"delay": 5
+				}
+			]
+		}
+	},
 	// Fix cosmo doors rotating wrong direction
 	"modify": {
 		"match": {
@@ -13,7 +30,7 @@
 	"modify": {
 		"match": {
 			"classname": "prop_dynamic",
-			"targetname": "[PR#]Genesis_Model"
+			"rendermode": "2"
 		},
 		"replace": {
 			"rendermode": "0"
