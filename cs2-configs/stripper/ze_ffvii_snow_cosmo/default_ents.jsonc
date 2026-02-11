@@ -1,4 +1,21 @@
 {
+	// Add stripper credit
+	"modify": {
+		"match": {
+			"classname": "logic_auto"
+		},
+		"insert": {
+			"io": [
+				{
+					"outputname": "OnMapSpawn",
+					"targetname": "[PR#]cmd",
+					"inputname": "Command",
+					"overrideparam": "say >> Additional fixes by koen <<",
+					"delay": 5
+				}
+			]
+		}
+	},
 	// Fix cosmo doors rotating wrong direction
 	"modify": {
 		"match": {
@@ -10,33 +27,13 @@
 		}
 	},
 	// Fix incorrect rendermode
-	"modify": [
-		{
-			"match": {
-				"classname": "prop_dynamic",
-				"targetname": "[PR#]Jenova_Model"
-			},
-			"replace": {
-				"rendermode": "0"
-			}
+	"modify": {
+		"match": {
+			"classname": "prop_dynamic",
+			"targetname": "[PR#]Jenova_Model"
 		},
-		{
-			"match": {
-				"classname": "prop_dynamic",
-				"targetname": "[PR#]Shinra_Ifrit"
-			},
-			"replace": {
-				"rendermode": "0"
-			}
-		},
-		{
-			"match": {
-				"classname": "prop_dynamic",
-				"targetname": "[PR#]Shinra_Shiva"
-			},
-			"replace": {
-				"rendermode": "0"
-			}
+		"replace": {
+			"rendermode": "0"
 		}
-	]
+	}
 }
