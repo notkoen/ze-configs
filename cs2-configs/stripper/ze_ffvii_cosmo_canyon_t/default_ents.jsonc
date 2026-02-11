@@ -1,27 +1,21 @@
 {
 	// Fix cosmo doors rotating wrong direction
-	"modify":
-	{
-		"match":
-		{
+	"modify": {
+		"match": {
 			"classname": "func_door_rotating",
 			"targetname": "[PR#]Cosmo_Gates"
 		},
-		"replace":
-		{
+		"replace": {
 			"spawnflags": "16"
 		}
 	},
-	// Fix invisible genesis model
-	"modify":
-	{
-		"match":
-		{
+	// Fix incorrect rendermode
+	"modify": {
+		"match": {
 			"classname": "prop_dynamic",
-			"targetname": "[PR#]Genesis_Model",
+			"targetname": "[PR#]Genesis_Model"
 		},
-		"replace":
-		{
+		"replace": {
 			"rendermode": "0"
 		}
 	}
