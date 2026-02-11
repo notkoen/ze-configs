@@ -1,0 +1,12 @@
+{
+	// Fix incorrect rendermode
+	"modify": {
+		"match": {
+			"classname": "prop_dynamic",
+			"targetname": "[PR#]Item_Esper_mateus_model"
+		},
+		"replace": {
+			"rendermode": "0"
+		}
+	}
+}

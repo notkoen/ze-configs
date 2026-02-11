@@ -1,0 +1,69 @@
+{
+	// Add stripper credit
+	"modifY": {
+		"match": {
+			"classname": "logic_auto"
+		},
+		"delete": {
+			"io": [
+				{
+					"overrideparam": "say **Map Status: No Stripper!**"
+				}
+			]
+		},
+		"insert": {
+			"io": [
+				{
+					"outputname": "OnMapSpawn",
+					"targetname": "[PR#]cmd",
+					"inputname": "Command",
+					"overrideparam": "say >> Additional fixes by koen <<",
+					"delay": 5,
+					"timestofire": -1
+				}
+			]
+		}
+	},
+	// Fix incorrect rendermode
+	"modify": [
+		{
+			"match": {
+				"classname": "prop_dynamic",
+				"targetname": "[PR#]Weapon_Sword_of_Kings_Model"
+			},
+			"replace": {
+				"rendermode": "0"
+			}
+		},
+		{
+			"match": {
+				"classname": "prop_dynamic",
+				"targetname": "[PR#]Stage3_Mateus_model"
+			},
+			"replace": {
+				"rendermode": "0"
+			}
+		}
+	],
+	// Fix incorrect door direction
+	"modify": [
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"spawnflags": "0"
+			},
+			"replace": {
+				"spawnflags": "16"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"spawnflags": "2"
+			},
+			"replace": {
+				"spawnflags": "18"
+			}
+		}
+	]
+}
