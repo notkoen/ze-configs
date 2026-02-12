@@ -2,8 +2,7 @@
 	// Fix incorrect door direction
 	"modify": {
 		"match": {
-			"classname": "func_door_rotating",
-			"spawnflags": "0"
+			"classname": "func_door_rotating"
 		},
 		"replace": {
 			"spawnflags": "16"
