@@ -1,0 +1,19 @@
+{
+	// Fix health shots not healing past 100
+	"modify": {
+		"match": {
+			"classname": "trigger_hurt",
+			"targetname": "[PR#]Force_Heal"
+		},
+		"insert": {
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "!activator",
+					"intputname": "KeyValue",
+					"overrideparam": "max_health 300"
+				}
+			]
+		}
+	}
+}
