@@ -1,0 +1,161 @@
+{
+	// Add stripper credit
+	"modify": {
+		"match": {
+			"classname": "logic_auto",
+			"hammeruniqueid": "1494"
+		},
+		"insert": {
+			"io": [
+				{
+					"outputname": "OnMapSpawn",
+					"targetname": "[PR#]cmd",
+					"inputname": "Command",
+					"overrideparam": "say >> Additional fixes by koen <<",
+					"delay": 5
+				}
+			]
+		}
+	},
+	// Fix incorect rendermode
+	"modify": [
+		{
+			"match": {
+				"classname": "prop_dynamic",
+				"targetname": "[PR#]Bergan2_Model"
+			},
+			"replace": {
+				"rendermode": "0"
+			}
+		},
+		{
+			"match": {
+				"classname": "prop_dynamic",
+				"targetname": "[PR#]golem_model"
+			},
+			"replace": {
+				"rendermode": "0"
+			}
+		},
+		{
+			"match": {
+				"classname": "prop_dynamic",
+				"targetname": "[PR#]Tri_face_boss"
+			},
+			"replace": {
+				"rendermode": "0"
+			}
+		},
+		{
+			"match": {
+				"classname": "prop_dynamic",
+				"targetname": "[PR#]dragon_boss"
+			},
+			"replace": {
+				"rendermode": "0"
+			}
+		},
+		{
+			"match": {
+				"classname": "prop_dynamic",
+				"targetname": "[PR#]Stage1_Sephiroth_Model"
+			},
+			"replace": {
+				"rendermode": "0"
+			}
+		},
+		{
+			"match": {
+				"classname": "prop_dynamic",
+				"targetname": "[PR#]aeris_model2"
+			},
+			"replace": {
+				"rendermode": "0"
+			}
+		}
+	],
+	// Fix incorrect door direction
+	"modify": [
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "[PR#]Spwan_bridge_door"
+			},
+			"replace": {
+				"spawnflags": "5164"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "[PR#]Stage2_bridge_door"
+			},
+			"replace": {
+				"spawnflags": "1104"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "/door_(3|[7-8]|7_1|10)/"
+			},
+			"replace": {
+				"spawnflags": "4144"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "[PR#]Door_12"
+			},
+			"replace": {
+				"spawnflags": "48"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "[PR#]Extreme3_door_001"
+			},
+			"replace": {
+				"spawnflags": "48"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"hammeruniqueid": "1384"
+			},
+			"replace": {
+				"spawnflags": "48"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"hammeruniqueid": "1386"
+			},
+			"replace": {
+				"spawnflags": "4144"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "[PR#]Stage2_door_003"
+			},
+			"replace": {
+				"spawnflags": "48"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "[PR#]Spawn_adminRoomDoors"
+			},
+			"replace": {
+				"spawnflags": "2064"
+			}
+		}
+	]
+}
