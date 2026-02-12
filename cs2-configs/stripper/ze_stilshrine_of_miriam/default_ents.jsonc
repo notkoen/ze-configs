@@ -18,8 +18,7 @@
 					"targetname": "[PR#]cmd",
 					"inputname": "Command",
 					"overrideparam": "say >> Additional fixes by koen <<",
-					"delay": 5,
-					"timestofire": -1
+					"delay": 5
 				}
 			]
 		}
@@ -50,7 +49,7 @@
 		{
 			"match": {
 				"classname": "func_door_rotating",
-				"spawnflags": "0"
+				"targetname": "[PR#]Stage4_boss_room_doors"
 			},
 			"replace": {
 				"spawnflags": "16"
@@ -59,7 +58,34 @@
 		{
 			"match": {
 				"classname": "func_door_rotating",
-				"spawnflags": "2"
+				"targetname": "/Stage3_Doors_00(1|[3-4])/"
+			},
+			"replace": {
+				"spawnflags": "16"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "[PR#]Doors_001"
+			},
+			"replace": {
+				"spawnflags": "16"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "/Temple_Door_00([2-5]|7)/"
+			},
+			"replace": {
+				"spawnflags": "16"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "[PR#]Temple_Door_001"
 			},
 			"replace": {
 				"spawnflags": "18"
