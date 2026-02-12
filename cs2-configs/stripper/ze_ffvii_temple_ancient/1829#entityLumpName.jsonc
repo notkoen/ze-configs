@@ -1,0 +1,12 @@
+{
+	// Fix incorect rendermode
+	"modify": {
+		"match": {
+			"classname": "prop_dynamic",
+			"targetname": "[PR#]ifrit_model"
+		},
+		"replace": {
+			"rendermode": "0"
+		}
+	}
+}

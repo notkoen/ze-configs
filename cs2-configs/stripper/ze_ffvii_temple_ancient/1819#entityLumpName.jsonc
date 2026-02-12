@@ -1,0 +1,12 @@
+{
+	// Fix incorect rendermode
+	"modify": {
+		"match": {
+			"classname": "prop_dynamic",
+			"targetname": "[PR#]Sephi_Laser_Model"
+		},
+		"replace": {
+			"rendermode": "0"
+		}
+	}
+}
