@@ -1,6 +1,6 @@
 {
 	// Add stripper credit
-	"modifY": {
+	"modify": {
 		"match": {
 			"classname": "logic_auto"
 		},
@@ -11,8 +11,7 @@
 					"targetname": "[PR#]consola",
 					"inputname": "Command",
 					"overrideparam": "say >> Additional fixes by koen <<",
-					"delay": 5,
-					"timestofire": -1
+					"delay": 5
 				}
 			]
 		}
@@ -22,7 +21,16 @@
 		{
 			"match": {
 				"classname": "func_door_rotating",
-				"spawnflags": "0"
+				"targetname": "/doors_village[1-4]_1/"
+			},
+			"replace": {
+				"spawnflags": "18"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "/doors_village[1-4]_2/"
 			},
 			"replace": {
 				"spawnflags": "16"
@@ -31,10 +39,181 @@
 		{
 			"match": {
 				"classname": "func_door_rotating",
-				"spawnflags": "2"
+				"hammeruniqueid": "7257"
 			},
 			"replace": {
 				"spawnflags": "18"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "[PR#]trapdoor"
+			},
+			"replace": {
+				"spawnflags": "4240"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "/4_5_lvldoor/"
+			},
+			"replace": {
+				"spawnflags": "16"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "[PR#]barbossa_door"
+			},
+			"replace": {
+				"spawnflags": "16"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "[PR#]lvl4_door_zombie_jail"
+			},
+			"replace": {
+				"spawnflags": "16"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "[PR#]doors_lvl3_1"
+			},
+			"replace": {
+				"spawnflags": "18"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "[PR#]doors_lvl3_2"
+			},
+			"replace": {
+				"spawnflags": "16"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "[PR#]doors_after_village2_1"
+			},
+			"replace": {
+				"spawnflags": "18"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "[PR#]doors_after_village2_2"
+			},
+			"replace": {
+				"spawnflags": "16"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "[PR#]door_house4"
+			},
+			"replace": {
+				"spawnflags": "16"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "/lvl[3-4]_ship_door/"
+			},
+			"replace": {
+				"spawnflags": "16"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "/lvl5_ship_door_(2|3)/"
+			},
+			"replace": {
+				"spawnflags": "16"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "/lvl2_ship_door(2|22|3)/"
+			},
+			"replace": {
+				"spawnflags": "16"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "[PR#]doors_after_village1_2"
+			},
+			"replace": {
+				"spawnflags": "16"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "[PR#]doors_after_village1_1"
+			},
+			"replace": {
+				"spawnflags": "18"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "[PR#]doors_lvl6_1"
+			},
+			"replace": {
+				"spawnflags": "18"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "[PR#]doors_lvl6_2"
+			},
+			"replace": {
+				"spawnflags": "16"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "[PR#]lvl6_ship_door3"
+			},
+			"replace": {
+				"spawnflags": "16"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "[PR#]doors_shortcut_lvl6_2"
+			},
+			"replace": {
+				"spawnflags": "18"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "[PR#]doors_shortcut_lvl6"
+			},
+			"replace": {
+				"spawnflags": "16"
 			}
 		}
 	]

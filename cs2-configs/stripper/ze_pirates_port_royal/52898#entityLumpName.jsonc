@@ -4,7 +4,7 @@
 		{
 			"match": {
 				"classname": "func_door_rotating",
-				"spawnflags": "0"
+				"targetname": "/doors_(after_village1|village(2|3|4))_2_lvl6/"
 			},
 			"replace": {
 				"spawnflags": "16"
@@ -13,7 +13,7 @@
 		{
 			"match": {
 				"classname": "func_door_rotating",
-				"spawnflags": "2"
+				"targetname": "/doors_(after_village1|village(2|3|4))_1_lvl6/"
 			},
 			"replace": {
 				"spawnflags": "18"
