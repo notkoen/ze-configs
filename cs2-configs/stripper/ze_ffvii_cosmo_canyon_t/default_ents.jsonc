@@ -19,8 +19,7 @@
 	// Fix cosmo doors rotating wrong direction
 	"modify": {
 		"match": {
-			"classname": "func_door_rotating",
-			"targetname": "[PR#]Cosmo_Gates"
+			"classname": "func_door_rotating"
 		},
 		"replace": {
 			"spawnflags": "16"
