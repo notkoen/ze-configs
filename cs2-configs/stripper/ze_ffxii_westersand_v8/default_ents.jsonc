@@ -1,0 +1,31 @@
+{
+	// Add stripper credit
+	"modify": {
+		"match": {
+			"classname": "logic_auto"
+		},
+		"insert": {
+			"io": [
+				{
+					"outputname": "OnMapSpawn",
+					"targetname": "[PR#]Cmd",
+					"inputname": "Command",
+					"overrideparam": "say >> Additional fixes by koen <<",
+					"delay": 7
+				}
+			]
+		}
+	},
+	// Fix incorrect door direction
+	"modify": [
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "[PR#]Desert_Tombdoor"
+			},
+			"replace": {
+				"spawnflags": "48"
+			}
+		}
+	]
+}
