@@ -229,3 +229,66 @@ Find entity classnames that are either `math_counter`, `func_breakable`, or `fun
     }
 ]
 ```
+
+## EXG Entwatch Config
+
+```jsonc
+[
+    {
+        "Name": "",                     // Name of item that appears in chat
+        "ShortName": "",                // Name of item that appears in HUD
+        "HammerId": "",                 // Hammerid of the weapon entity
+        "ButtonClass": "",              // Classname of handler: "func_button", "logic_relay"
+        "ButtonHammerId": "",           // Hammerid or targetname of handler
+        "ButtonInput": "",              // Outputname of handler
+        "ShowHud": true,                // Whether to show this item on the HUD
+        "Cooldown": 0,                  // Cooldown duration in seconds
+        "MaxUses": 0                    // Maxuses in one round
+    },
+]
+```
+
+### Clean Template
+
+```jsonc
+[
+    {
+        "Name": "",
+        "ShortName": "",
+        "HammerId": "",
+        "ButtonClass": "",
+        "ButtonHammerId": "",
+        "ButtonInput": "",
+        "ShowHud": true,
+        "Cooldown": 0,
+        "MaxUses": 0
+    },
+]
+```
+
+## EXG BossHUD Config
+
+```jsonc
+{
+    "MathCounterConfigs": [             // Math counter based bosses
+        {
+            "DisplayName": "",          // Name of boss that appears in hud
+            "HpCounter": ""             // Targetname of counter
+        },
+        {
+            "DisplayName": "",          // Name of boss that appears in hud
+            "HpCounter": "",            // Targetname of main counter
+            "HpBarCounter": "",         // Targetname of iterator counter
+            "HpBarCounterAdd0": true,   // (unknown, leave it at default)
+            "HpBarAdd": true,           // Whether iterator is reverse (OnHitMax output)
+            "HpBarMin": 0,              // Iterator min value (leave empty defaults to min)
+            "HpBarMax": 0               // Iterator max value (leave empty defaults to max)
+        }
+    ],
+    "BreakableConfigs": [               // Breakable bosses
+        {
+            "DisplayName": "",          // Name of boss that appears in hud
+            "EntityName": ""            // Targetname of breakable
+        }
+    ]
+}
