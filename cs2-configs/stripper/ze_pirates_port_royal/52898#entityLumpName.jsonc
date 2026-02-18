@@ -1,6 +1,6 @@
 {
-	// Fix incorrect door direction
 	"modify": [
+		// Fix incorrect door direction
 		{
 			"match": {
 				"classname": "func_door_rotating",

@@ -1,30 +1,30 @@
 {
-	// Add stripper credit
-	"modify": {
-		"match": {
-			"classname": "logic_auto"
-		},
-		"delete": {
-			"io": [
-				{
-					"overrideparam": "say **Map Status: No Stripper!**"
-				}
-			]
-		},
-		"insert": {
-			"io": [
-				{
-					"outputname": "OnMapSpawn",
-					"targetname": "[PR#]cmd",
-					"inputname": "Command",
-					"overrideparam": "say >> Additional fixes by koen <<",
-					"delay": 5
-				}
-			]
-		}
-	},
-	// Fix incorrect rendermode
 	"modify": [
+		// Add stripper credit
+		{
+			"match": {
+				"classname": "logic_auto"
+			},
+			"delete": {
+				"io": [
+					{
+						"overrideparam": "say **Map Status: No Stripper!**"
+					}
+				]
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnMapSpawn",
+						"targetname": "[PR#]cmd",
+						"inputname": "Command",
+						"overrideparam": "say >> Additional fixes by koen <<",
+						"delay": 5
+					}
+				]
+			}
+		},
+		// Fix incorrect rendermode
 		{
 			"match": {
 				"classname": "prop_dynamic",
@@ -42,10 +42,8 @@
 			"replace": {
 				"rendermode": "0"
 			}
-		}
-	],
-	// Fix incorrect door direction
-	"modify": [
+		},
+		// Fix incorrect door direction
 		{
 			"match": {
 				"classname": "func_door_rotating",
