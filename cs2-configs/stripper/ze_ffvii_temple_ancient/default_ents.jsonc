@@ -1,24 +1,24 @@
 {
-	// Add stripper credit
-	"modify": {
-		"match": {
-			"classname": "logic_auto",
-			"hammeruniqueid": "1494"
-		},
-		"insert": {
-			"io": [
-				{
-					"outputname": "OnMapSpawn",
-					"targetname": "[PR#]cmd",
-					"inputname": "Command",
-					"overrideparam": "say >> Additional fixes by koen <<",
-					"delay": 5
-				}
-			]
-		}
-	},
-	// Fix incorect rendermode
 	"modify": [
+		// Add stripper credit
+		{
+			"match": {
+				"classname": "logic_auto",
+				"hammeruniqueid": "1494"
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnMapSpawn",
+						"targetname": "[PR#]cmd",
+						"inputname": "Command",
+						"overrideparam": "say >> Additional fixes by koen <<",
+						"delay": 5
+					}
+				]
+			}
+		},
+		// Fix incorect rendermode
 		{
 			"match": {
 				"classname": "prop_dynamic",
@@ -72,10 +72,8 @@
 			"replace": {
 				"rendermode": "0"
 			}
-		}
-	],
-	// Fix incorrect door direction
-	"modify": [
+		},
+		// Fix incorrect door direction
 		{
 			"match": {
 				"classname": "func_door_rotating",

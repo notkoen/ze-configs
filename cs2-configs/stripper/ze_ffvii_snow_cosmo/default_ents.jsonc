@@ -1,39 +1,41 @@
 {
-	// Add stripper credit
-	"modify": {
-		"match": {
-			"classname": "logic_auto"
+	"modify": [
+		// Add stripper credit
+		{
+			"match": {
+				"classname": "logic_auto"
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnMapSpawn",
+						"targetname": "[PR#]cmd",
+						"inputname": "Command",
+						"overrideparam": "say >> Additional fixes by koen <<",
+						"delay": 5
+					}
+				]
+			}
 		},
-		"insert": {
-			"io": [
-				{
-					"outputname": "OnMapSpawn",
-					"targetname": "[PR#]cmd",
-					"inputname": "Command",
-					"overrideparam": "say >> Additional fixes by koen <<",
-					"delay": 5
-				}
-			]
-		}
-	},
-	// Fix cosmo doors rotating wrong direction
-	"modify": {
-		"match": {
-			"classname": "func_door_rotating",
-			"targetname": "[PR#]Cosmo_Gates"
+		// Fix cosmo doors rotating wrong direction
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "[PR#]Cosmo_Gates"
+			},
+			"replace": {
+				"spawnflags": "16"
+			}
 		},
-		"replace": {
-			"spawnflags": "16"
+		// Fix incorrect rendermode
+		{
+			"match": {
+				"classname": "prop_dynamic",
+				"targetname": "[PR#]Jenova_Model"
+			},
+			"replace": {
+				"rendermode": "0"
+			}
 		}
-	},
-	// Fix incorrect rendermode
-	"modify": {
-		"match": {
-			"classname": "prop_dynamic",
-			"targetname": "[PR#]Jenova_Model"
-		},
-		"replace": {
-			"rendermode": "0"
-		}
-	}
+	]
 }

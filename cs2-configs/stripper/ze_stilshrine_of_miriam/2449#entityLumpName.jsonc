@@ -1,12 +1,14 @@
 {
-	// Fix incorrect rendermode
-	"modify": {
-		"match": {
-			"classname": "prop_dynamic",
-			"targetname": "[PR#]Stage-1_Ending_Gabranth_Model"
-		},
-		"replace": {
-			"rendermode": "0"
+	"modify": [
+		// Fix incorrect rendermode
+		{
+			"match": {
+				"classname": "prop_dynamic",
+				"targetname": "[PR#]Stage-1_Ending_Gabranth_Model"
+			},
+			"replace": {
+				"rendermode": "0"
+			}
 		}
-	}
+	]
 }

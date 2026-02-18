@@ -1,12 +1,14 @@
 {
-	// Fix incorrect door direction
-	"modify": {
-		"match": {
-			"classname": "func_door_rotating",
-			"targetname": "/Tomb_Door/"
-		},
-		"replace": {
-			"spawnflags": "48"
+	"modify": [
+		// Fix incorrect door direction
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "/Tomb_Door/"
+			},
+			"replace": {
+				"spawnflags": "48"
+			}
 		}
-	}
+	]
 }

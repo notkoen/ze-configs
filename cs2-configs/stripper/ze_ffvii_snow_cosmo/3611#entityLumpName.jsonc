@@ -1,6 +1,6 @@
 {
-	// Fix incorrect rendermode
 	"modify": [
+		// Fix incorrect rendermode
 		{
 			"match": {
 				"classname": "prop_dynamic",

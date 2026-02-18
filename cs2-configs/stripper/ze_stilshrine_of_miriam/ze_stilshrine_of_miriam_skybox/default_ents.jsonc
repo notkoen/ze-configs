@@ -1,12 +1,14 @@
 {
-	// Fix incorrect rendermode
-	"modify": {
-		"match": {
-			"classname": "prop_dynamic",
-			"targetname": "[PR#]Empire_ship2_model"
-		},
-		"replace": {
-			"rendermode": "0"
+	"modify": [
+		// Fix incorrect rendermode
+		{
+			"match": {
+				"classname": "prop_dynamic",
+				"targetname": "[PR#]Empire_ship2_model"
+			},
+			"replace": {
+				"rendermode": "0"
+			}
 		}
-	}
+	]
 }

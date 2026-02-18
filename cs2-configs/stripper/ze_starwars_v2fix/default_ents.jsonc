@@ -1,28 +1,30 @@
 {
-	// Add stripper credit
-	"modify": {
-		"match": {
-			"classname": "logic_auto"
+	"modify": [
+		// Add stripper credit
+		{
+			"match": {
+				"classname": "logic_auto"
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnMapSpawn",
+						"targetname": "[PR#]CONSOLE",
+						"inputname": "Command",
+						"overrideparam": "say >> Additional fixes by koen <<",
+						"delay": 5
+					}
+				]
+			}
 		},
-		"insert": {
-			"io": [
-				{
-					"outputname": "OnMapSpawn",
-					"targetname": "[PR#]CONSOLE",
-					"inputname": "Command",
-					"overrideparam": "say >> Additional fixes by koen <<",
-					"delay": 5
-				}
-			]
+		// Fix incorrect door direction
+		{
+			"match": {
+				"classname": "func_door_rotating"
+			},
+			"replace": {
+				"spawnflags": "48"
+			}
 		}
-	},
-	// Fix incorrect door direction
-	"modify": {
-		"match": {
-			"classname": "func_door_rotating"
-		},
-		"replace": {
-			"spawnflags": "48"
-		}
-	}
+	]
 }
