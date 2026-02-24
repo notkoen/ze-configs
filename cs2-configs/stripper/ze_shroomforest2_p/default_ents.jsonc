@@ -1,0 +1,22 @@
+{
+	"modify": [
+		// Add stripper credit
+		{
+			"match": {
+				"classname": "point_servercommand",
+				"targetname": "[PR#]Server"
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnUser1",
+						"targetname": "!self",
+						"inputname": "Command",
+						"overrideparam": "say >> Additional fixes by koen <<",
+						"delay": 5
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"modify": [
+		// Add stripper credit
+		{
+			"match": {
+				"classname": "point_servercommand",
+				"targetname": "[PR#]Server"
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnUser1",
+						"targetname": "!self",
+						"inputname": "Command",
+						"overrideparam": "say >> Additional fixes by koen <<",
+						"delay": 5
+					}
+				]
+			}
+		},
+		// Fix incorrect door direction
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"hammeruniqueid": "292"
+			},
+			"replace": {
+				"spawnflags": "18"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"hammeruniqueid": "298"
+			},
+			"replace": {
+				"spawnflags": "16"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"hammeruniqueid": "304"
+			},
+			"replace": {
+				"spawnflags": "18"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"hammeruniqueid": "319"
+			},
+			"replace": {
+				"spawnflags": "16"
+			}
+		}
+	]
+}

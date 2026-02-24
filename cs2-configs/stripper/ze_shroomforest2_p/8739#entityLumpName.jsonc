@@ -1,0 +1,41 @@
+{
+	"modify": [
+		// Fix incorrect door direction
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"hammeruniqueid": "5416"
+			},
+			"replace": {
+				"spawnflags": "16"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"hammeruniqueid": "5423"
+			},
+			"replace": {
+				"spawnflags": "18"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"hammeruniqueid": "5567"
+			},
+			"replace": {
+				"spawnflags": "18"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"hammeruniqueid": "5604"
+			},
+			"replace": {
+				"spawnflags": "16"
+			}
+		}
+	]
+}
