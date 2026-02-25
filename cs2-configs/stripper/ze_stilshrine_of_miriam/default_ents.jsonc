@@ -18,7 +18,7 @@
 						"outputname": "OnMapSpawn",
 						"targetname": "[PR#]cmd",
 						"inputname": "Command",
-						"overrideparam": "say >> Additional fixes by koen <<",
+						"overrideparam": "say >> Door/rendermode fix and increased Bergan HP by koen <<",
 						"delay": 5
 					}
 				]
