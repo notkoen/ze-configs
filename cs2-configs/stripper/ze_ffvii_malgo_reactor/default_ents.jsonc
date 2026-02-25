@@ -1,0 +1,22 @@
+{
+	"modify": [
+		// Add stripper credit
+		{
+			"match": {
+				"classname": "logic_auto",
+				"hammeruniqueid": "512"
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnMapSpawn",
+						"targetname": "[PR#]cmd",
+						"inputname": "Command",
+						"overrideparam": "say >> Ultima fix by koen <<",
+						"delay": 5
+					}
+				]
+			}
+		}
+	]
+}
