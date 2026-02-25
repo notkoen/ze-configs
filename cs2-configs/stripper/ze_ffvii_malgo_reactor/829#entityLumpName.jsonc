@@ -1,0 +1,14 @@
+{
+	// Fix ultima not killing zombies
+	"modify": [
+		{
+			"match": {
+				"classname": "trigger_hurt",
+				"targetname": "[PR#]item_mimic_trigger_ultima"
+			},
+			"replace": {
+				"damage": "999999"
+			}
+		}
+	]
+}
