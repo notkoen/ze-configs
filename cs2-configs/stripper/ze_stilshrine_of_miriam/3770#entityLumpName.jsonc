@@ -1,0 +1,16 @@
+{
+	// Increase stage 4 end bergan health
+	"modify": [
+		{
+			"match": {
+				"classname": "trigger_hurt",
+				"targetname": "[PR#]Stage4_Ending_Bergan_HP_Add"
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "80"
+				}
+			}
+		}
+	]
+}
