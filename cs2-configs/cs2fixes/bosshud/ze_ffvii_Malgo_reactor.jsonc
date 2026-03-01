@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Bahamut",
+        "counter": "HPCounter",
+        "backup": "HPCounterBackUp",
+        "iterator": "HPCounterIterator"
+    },
+    {
+        "name": "Ifrit",
+        "counter": "Ifrit_Counter"
+    },
+    {
+        "name": "Sephiroth",
+        "counter": "skin_sephiroth_counter"
+    },
+    {
+        "name": "Ifrit",
+        "counter": "Rage2_Ifrit_Counter"
+    },
+    {
+        "name": "Bahamut",
+        "breakable": "Final_Fulgor_Breakable"
+    },
+    {
+        "name": "Genesis",
+        "breakable": "Csomo_Genesis_Final_Breakable"
+    },
+    {
+        "name": "Sephiroth",
+        "breakable": "Sephiroth_Final_Breakable"
+    }
+]
