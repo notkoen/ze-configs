@@ -1,0 +1,323 @@
+[
+    {
+        "name": "Gravity Materia",
+        "shortname": "Gravity",
+        "hammerid": "1422",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1420"
+            },
+            {
+                "hammerid": "1425",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Earth Materia",
+        "shortname": "Earth",
+        "hammerid": "1414",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1412"
+            },
+            {
+                "hammerid": "1417",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 0,
+                "maxuses": 75,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Electro Materia",
+        "shortname": "Electro",
+        "hammerid": "1405",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1403"
+            },
+            {
+                "type": "counterup",
+                "hammerid": "1411",
+                "mode": 4,
+                "cooldown": 75,
+                "ui": true,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Fire Materia",
+        "shortname": "Fire",
+        "hammerid": "1395",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1393"
+            },
+            {
+                "hammerid": "1399",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Aqua Materia",
+        "shortname": "Aqua",
+        "hammerid": "1384",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "darkblue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1382"
+            },
+            {
+                "hammerid": "1388",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ice Materia",
+        "shortname": "Ice",
+        "hammerid": "149",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1345"
+            },
+            {
+                "hammerid": "1350",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Heal Materia",
+        "shortname": "Heal",
+        "hammerid": "1334",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1332"
+            },
+            {
+                "hammerid": "1338",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Wind Materia",
+        "shortname": "Wind",
+        "hammerid": "1314",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1312"
+            },
+            {
+                "hammerid": "1330",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Barrier Materia",
+        "shortname": "Barrier",
+        "hammerid": "1292",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1290"
+            },
+            {
+                "hammerid": "1295",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Bio Materia",
+        "shortname": "Bio",
+        "hammerid": "1284",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1282"
+            },
+            {
+                "hammerid": "1287",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Mimic Materia",
+        "shortname": "Mimic",
+        "hammerid": "828",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "pink",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "834"
+            },
+            {
+                "hammerid": "766",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ultima Materia",
+        "shortname": "Ultima",
+        "hammerid": "1300",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1298"
+            },
+            {
+                "hammerid": "1302",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 20,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Cosmo Ultima",
+        "shortname": "Ultima",
+        "hammerid": "566",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "500"
+            },
+            {
+                "hammerid": "482",
+                "event": "OnTrigger",
+                "mode": 3,
+                "cooldown": 15,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Sephiroth",
+        "shortname": "ZM Sephiroth",
+        "hammerid": "1854",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["1865"]
+    },
+]
