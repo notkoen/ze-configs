@@ -1,0 +1,17 @@
+{
+    "MathCounterConfigs": [
+        {
+            "DisplayName": "方块",
+            "HpCounter": "bs2_counter"
+        },
+        {
+            "DisplayName": "方块",
+            "HpCounter": "bx_health",
+            "HpBarCounter": "bx_segment",
+            "HpBarCounterAdd0": true,
+            "HpBarAdd": false,
+            "HpBarMin": 0,
+            "HpBarMax": 0
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+	"modify": [
+		// Add stripper credit
+		{
+			"match": {
+				"classname": "logic_auto"
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnMapSpawn",
+						"targetname": "[PR#]cmd",
+						"inputname": "Command",
+						"overrideparam": "say >> Visible angle props fix by koen <<",
+						"delay": 5
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,13 @@
+[
+    {
+        "Name": "奶",
+        "ShortName": "奶",
+        "HammerId": "3305",
+        "ButtonClass": "func_button",
+        "ButtonHammerId": "3290",
+        "ButtonInput": "OnPressed",
+        "ShowHud": true,
+        "Cooldown": 60,
+        "MaxUses": 0
+    }
+]
