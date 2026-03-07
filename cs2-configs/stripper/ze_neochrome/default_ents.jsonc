@@ -1,0 +1,31 @@
+{
+	"modify": [
+		// Add stripper credit
+		{
+			"match": {
+				"classname": "logic_auto"
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnMapSpawn",
+						"targetname": "[PR#]server",
+						"inputname": "Command",
+						"overrideparam": "say >> Door fix and visible angle prop fix by koen <<",
+						"delay": 5
+					}
+				]
+			}
+		},
+		// Fix incorrect door direction
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "/nut_door/"
+			},
+			"replace": {
+				"spawnflags": "4112"
+			}
+		}
+	]
+}
