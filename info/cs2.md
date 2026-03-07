@@ -292,3 +292,32 @@ Find entity classnames that are either `math_counter`, `func_breakable`, or `fun
         }
     ]
 }
+```
+
+### Clean Template
+
+```jsonc
+{
+    "MathCounterConfigs": [
+        {
+            "DisplayName": "",
+            "HpCounter": ""
+        },
+        {
+            "DisplayName": "",
+            "HpCounter": "",
+            "HpBarCounter": "",
+            "HpBarCounterAdd0": true,
+            "HpBarAdd": true,
+            "HpBarMin": 0,
+            "HpBarMax": 0
+        }
+    ],
+    "BreakableConfigs": [               // Breakable bosses
+        {
+            "DisplayName": "",          // Name of boss that appears in hud
+            "EntityName": ""            // Targetname of breakable
+        }
+    ]
+}
+```
