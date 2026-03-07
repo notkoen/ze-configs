@@ -1,0 +1,38 @@
+{
+	"modify": [
+		// Add stripper credit
+		{
+			"match": {
+				"classname": "logic_auto"
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnMapSpawn",
+						"targetname": "[PR#]cmd",
+						"inputname": "Command",
+						"overrideparam": "say >> Visible angle prop and respawn toggle fix by koen <<",
+						"delay": 5
+					}
+				]
+			}
+		},
+		// Fix respawn toggle firing multiple times
+		{
+			"match": {
+				"targetname": "[PR#]once_end_win",
+				"io": [
+					{
+						"targetname": "[PR#]zr_toggle_respawn",
+						"inputname": "trigger"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"inputname": "Disable"
+				}
+			}
+		}
+	]
+}
