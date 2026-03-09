@@ -1,0 +1,14 @@
+{
+	"modify": [
+		// Fix visible angle props
+		{
+			"match": {
+				"classname": "prop_dynamic",
+				"targetname": "[PR#]l7_ball_end_angle&0000"
+			},
+			"replace": {
+				"rendermode": "2"
+			}
+		}
+	]
+}

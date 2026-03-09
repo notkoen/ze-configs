@@ -1,0 +1,14 @@
+{
+	"modify": [
+		// Fix visible angle props
+		{
+			"match": {
+				"classname": "prop_dynamic",
+				"targetname": "[PR#]zombie_energyball_Angle&0000"
+			},
+			"replace": {
+				"rendermode": "2"
+			}
+		}
+	]
+}
