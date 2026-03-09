@@ -1,0 +1,24 @@
+{
+    "BreakableConfigs": [
+        {
+            "DisplayName": "方塊",
+            "EntityName": "pkey_boss_health"
+        },
+        {
+            "DisplayName": "LzYoRHa",
+            "EntityName": "c_lz_break"
+        },
+        {
+            "DisplayName": "koen",
+            "EntityName": "c_ko_break"
+        },
+        {
+            "DisplayName": "thegibbon",
+            "EntityName": "c_th_break"
+        },
+        {
+            "DisplayName": "Rheaneas",
+            "EntityName": "c_rh_break"
+        }
+    ]
+}
