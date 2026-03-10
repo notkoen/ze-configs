@@ -1,0 +1,93 @@
+{
+	"modify": [
+		// Add stripper credit
+		{
+			"match": {
+				"classname": "logic_auto"
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnMapSpawn",
+						"targetname": "[PR#]servercommand",
+						"inputname": "Command",
+						"overrideparam": "say ** Chat spam fix, broken cc removal, and boss hp buff by koen **",
+						"delay": 5
+					}
+				]
+			}
+		},
+		// Fix chat spam
+		{
+			"match": {
+				"classname": "trigger_once"
+			},
+			"replace": {
+				"io": [
+					{
+						"outputname": "OnTrigger"
+					}
+				]
+			}
+		},
+		// Buff boss health
+		// EXG has nospread and increased weapon damage so boss needs a buff
+		{
+			"match": {
+				"classname": "trigger_multiple",
+				"hammeruniqueid": "/(2220|2221)/"
+			},
+			"delete": {
+				"io": [
+					{
+						"overrideparam": "350"
+					}
+				]
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnStartTouch",
+						"targetname": "[PR#]LV1_END_BOSS",
+						"inputname": "AddHealth",
+						"overrideparam": "500",
+						"delay": 0,
+						"timestofire": -1
+					}
+				]
+			}
+		},
+		{
+			"match": {
+				"classname": "func_breakable",
+				"targetname": "[PR#]LV1_END_BOSS"
+			},
+			"replace": {
+				"health": "800"
+			}
+		},
+		// Remove broken color correction
+		{
+			"match": {
+				"io": [
+					{
+						"targetname": "/ccgameplay/"
+					}
+				]
+			},
+			"delete": {
+				"io": [
+					{
+						"targetname": "/ccgameplay/"
+					}
+				]
+			}
+		}
+	],
+	"filter": [
+		// Remove broken color correction
+		{
+			"classname": "post_processing_volume"
+		}
+	]
+}
