@@ -11,7 +11,7 @@
 						"outputname": "OnMapSpawn",
 						"targetname": "[PR#]cmd",
 						"inputname": "Command",
-						"overrideparam": "say >> Additional fixes by koen <<",
+						"overrideparam": "say ** door/rendermode fix by koen **",
 						"delay": 5
 					}
 				]
@@ -20,8 +20,7 @@
 		// Fix cosmo doors rotating wrong direction
 		{
 			"match": {
-				"classname": "func_door_rotating",
-				"targetname": "[PR#]Cosmo_Gates"
+				"classname": "func_door_rotating"
 			},
 			"replace": {
 				"spawnflags": "16"
