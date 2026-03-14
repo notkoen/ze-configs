@@ -1,0 +1,40 @@
+{
+	"modify": [
+		// Buff boss health
+		// EXG has nospread and increased weapon damage so boss needs a buff
+		{
+			"match": {
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]tr_dragonaddhp"
+			},
+			"delete": {
+				"io": [
+					{
+						"inputname": "AddHealth"
+					}
+				]
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnStartTouch",
+						"inputname": "AddHealth",
+						"targetname": "[PR#]pbox_dragon",
+						"overrideparam": "1500",
+						"delay": 0.1,
+						"timestofire": -1
+					}
+				]
+			}
+		},
+		// Fix error models being rendered
+		{
+			"match": {
+				"classname": "momentary_rot_button"
+			},
+			"replace": {
+				"rendermode": "2"
+			}
+		}
+	]
+}
