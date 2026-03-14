@@ -319,5 +319,5 @@
         "transfer": false,
         "color": "darkred",
         "triggers": ["1865"]
-    },
+    }
 ]

@@ -1,0 +1,30 @@
+{
+	"modify": [
+		// Rework boss health to use counter instead
+		{
+			"match": {
+				"classname": "trigger_hurt",
+				"targetname": "[PR#]2Genesis_Laser_Hurt&0000"
+			},
+			"delete": {
+				"io": [
+					{
+						"outputname": "OnStartTouch"
+					}
+				]
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnStartTouch",
+						"targetname": "[PR#]Final_Genesis_Counter",
+						"inputname": "Subtract",
+						"overrideparam": "30",
+						"delay": 0,
+						"timestofire": -1
+					}
+				]
+			}
+		}
+	]
+}

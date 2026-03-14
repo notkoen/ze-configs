@@ -1,0 +1,37 @@
+{
+    "MathCounterConfigs": [
+        {
+            "DisplayName": "Ifrit",
+            "HpCounter": "ifrit_1_counter"
+        },
+        {
+            "DisplayName": "Sephiroth",
+            "HpCounter": "seph_hp_counter"
+        },
+        {
+            "DisplayName": "Ifrit",
+            "HpCounter": "ifrit_2_counter"
+        },
+        {
+            "DisplayName": "Genesis",
+            "HpCounter": "Final_Genesis_Counter"
+        },
+        {
+            "DisplayName": "Sephiroth",
+            "HpCounter": "Final_Sephiroth_Counter"
+        },
+        {
+            "DisplayName": "Bahamut",
+            "HpCounter": "HPCounter",
+            "HpBarCounter": "HPCounterIterator",
+            "HpBarCounterAdd0": true,
+            "HpBarAdd": false
+        }
+    ],
+    "BreakableConfigs": [
+        {
+            "DisplayName": "Bahamut",
+            "EntityName": "Final_Fulgor_Breakable"
+        }
+    ]
+}

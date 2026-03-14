@@ -7,15 +7,15 @@
     },
     {
         "name": "Ifrit",
-        "counter": "Ifrit_Counter"
+        "counter": "ifrit_1_counter"
     },
     {
         "name": "Sephiroth",
-        "counter": "skin_sephiroth_counter"
+        "counter": "seph_hp_counter"
     },
     {
         "name": "Ifrit",
-        "counter": "Rage2_Ifrit_Counter"
+        "counter": "ifrit_2_counter"
     },
     {
         "name": "Bahamut",
@@ -23,10 +23,10 @@
     },
     {
         "name": "Genesis",
-        "breakable": "Csomo_Genesis_Final_Breakable"
+        "counter": "Final_Genesis_Counter"
     },
     {
         "name": "Sephiroth",
-        "breakable": "Sephiroth_Final_Breakable"
+        "counter": "Final_Sephiroth_Counter"
     }
 ]

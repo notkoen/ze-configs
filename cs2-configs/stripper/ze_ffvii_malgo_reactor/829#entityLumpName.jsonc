@@ -1,14 +1,25 @@
 {
-	// Fix ultima not killing zombies
-	"modify": [
+	"filter": [
+		// Remove broken hurt trigger
 		{
-			"match": {
-				"classname": "trigger_hurt",
-				"targetname": "[PR#]item_mimic_trigger_ultima"
-			},
-			"replace": {
-				"damage": "999999"
-			}
+			"hammeruniqueid": "813"
+		}
+	],
+	"add": [
+		// Fix ultima by re-adding hurt trigger
+		{
+			"targetname": "item_mimic_trigger_ultima",
+			"classname": "trigger_hurt",
+			"origin": "-16 0 4",
+			"parentname": "item_mimic_wpn",
+			"startdisabled": "1",
+			"spawnflags": "1",
+			"filtername": "zombie",
+			"damagetype": "262144",
+			"damagecap": "20",
+			"damage": "999999",
+			"nodmgforce": "1",
+			"model": "maps/ze_ffvii_malgo_reactor/entities/item_ultima_hurt_410.vmdl"
 		}
 	]
 }

@@ -1,0 +1,73 @@
+{
+	"modify": [
+		// Rework boss health to use counter instead
+		{
+			"match": {
+				"classname": "func_breakable",
+				"targetname": "[PR#]Final_Fulgor_Breakable"
+			},
+			"delete": {
+				"io": [
+					{
+						"outputname": "OnBreak",
+						"targetname": "[PR#]Sephiroth_Final_Breakable",
+						"inputname": "SetHealth",
+						"overrideparam": "250",
+						"delay": 0,
+						"timestofire": -1
+					},
+					{
+						"outputname": "OnBreak",
+						"targetname": "[PR#]Csomo_Genesis_Final_Breakable",
+						"inputname": "SetHealth",
+						"overrideparam": "250",
+						"delay": 0,
+						"timestofire": -1
+					}
+				]
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnBreak",
+						"targetname": "[PR#]Final_Sephiroth_Counter",
+						"inputname": "Enable",
+						"overrideparam": "",
+						"delay": 0,
+						"timestofire": -1
+					},
+					{
+						"outputname": "OnBreak",
+						"targetname": "[PR#]Final_Genesis_Counter",
+						"inputname": "Enable",
+						"overrideparam": "",
+						"delay": 0,
+						"timestofire": -1
+					}
+				]
+			}
+		}
+	],
+	"add": [
+		// Rework boss health to use counter instead
+		{
+			"classname": "math_counter",
+			"targetname": "[PR#]Final_Sephiroth_Counter",
+			"origin": "3316.000000 11664.000000 -90.000000",
+			"startdisabled": "1",
+			"max": "9999",
+			"min": "0",
+			"startvalue": "5",
+			"io": [
+				{
+					"outputname": "OnHitMin",
+					"targetname": "[PR#]Sephiroth_Final_Breakable",
+					"inputname": "Break",
+					"overrideparam": "",
+					"delay": 0,
+					"timestofire": -1
+				}
+			]
+		}
+	]
+}

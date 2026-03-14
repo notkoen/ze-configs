@@ -1,0 +1,23 @@
+{
+	"modify": [
+		// Rework boss health to use counter instead
+		{
+			"match": {
+				"classname": "func_breakable",
+				"targetname": "[PR#]Sephiroth_Final_Breakable"
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnHealthChanged",
+						"targetname": "[PR#]Final_Sephiroth_Counter",
+						"inputname": "Subtract",
+						"overrideparam": "1",
+						"delay": 0,
+						"timestofire": -1
+					}
+				]
+			}
+		}
+	]
+}
