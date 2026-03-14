@@ -1,0 +1,46 @@
+{
+    "MathCounterConfigs": [
+        {
+            "DisplayName": "方塊",
+            "HpCounter": "SETH_S2_BOSS_COUN_HIT",
+            "HpBarCounter": "SETH_S2_BOSS_COUN_BAR",
+            "HpBarCounterAdd0": true,
+            "HpBarAdd": false
+        },
+        {
+            "DisplayName": "Boss",
+            "HpCounter": "SETH_S3_BOSS_COUN_HIT",
+            "HpBarCounter": "SETH_S3_BOSS_COUN_HIT",
+            "HpBarCounterAdd0": true,
+            "HpBarAdd": false
+        },
+        {
+            "DisplayName": "Boss",
+            "HpCounter": "SETH_S4_M1BOSS_COUN_HIT",
+            "HpBarCounter": "SETH_S4_M1BOSS_COUN_BAR",
+            "HpBarCounterAdd0": true,
+            "HpBarAdd": false
+        },
+        {
+            "DisplayName": "Boss",
+            "HpCounter": "SETH_S4_M2BOSS_COUN_HIT",
+            "HpBarCounter": "SETH_S4_M2BOSS_COUN_BAR",
+            "HpBarCounterAdd0": true,
+            "HpBarAdd": false
+        },
+        {
+            "DisplayName": "方塊",
+            "HpCounter": "SETH_S4_M3BOSS_COUN_HIT",
+            "HpBarCounter": "SETH_S4_M3BOSS_COUN_BAR",
+            "HpBarCounterAdd0": true,
+            "HpBarAdd": false
+        },
+        {
+            "DisplayName": "方塊",
+            "HpCounter": "SETH_S4_M4BOSS_COUN_HIT",
+            "HpBarCounter": "SETH_S4_M4BOSS_COUN_BAR",
+            "HpBarCounterAdd0": true,
+            "HpBarAdd": false
+        }
+    ]
+}
