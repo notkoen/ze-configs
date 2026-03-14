@@ -1,0 +1,57 @@
+[
+    {
+        "Name": "梦境宝珠 (Dream Orb)",
+        "ShortName": "梦境宝珠",
+        "HammerId": "8330",
+        "ButtonClass": "func_button",
+        "ButtonHammerId": "8328",
+        "ButtonInput": "OnPressed",
+        "ShowHud": true,
+        "Cooldown": 5,
+        "MaxUses": 0
+    },
+    {
+        "Name": "黑暗裂隙 (Dark Rift)",
+        "ShortName": "黑暗裂隙",
+        "HammerId": "8344",
+        "ButtonClass": "func_button",
+        "ButtonHammerId": "8342",
+        "ButtonInput": "OnPressed",
+        "ShowHud": true,
+        "Cooldown": 600,
+        "MaxUses": 0
+    },
+    {
+        "Name": "派瑞克西圣物 (Pyrexae Artifact)",
+        "ShortName": "派瑞克西圣物",
+        "HammerId": "8355",
+        "ButtonClass": "func_button",
+        "ButtonHammerId": "8353",
+        "ButtonInput": "OnPressed",
+        "ShowHud": true,
+        "Cooldown": 90,
+        "MaxUses": 0
+    },
+    {
+        "Name": "恶意深渊 (Pit of Malice)",
+        "ShortName": "恶意深渊",
+        "HammerId": "8396",
+        "ButtonClass": "func_button",
+        "ButtonHammerId": "8394",
+        "ButtonInput": "OnPressed",
+        "ShowHud": true,
+        "Cooldown": 60,
+        "MaxUses": 0
+    },
+    {
+        "Name": "全体静默 (Global Silence)",
+        "ShortName": "全体静默",
+        "HammerId": "8408",
+        "ButtonClass": "func_button",
+        "ButtonHammerId": "8406",
+        "ButtonInput": "OnPressed",
+        "ShowHud": true,
+        "Cooldown": 300,
+        "MaxUses": 0
+    }
+]

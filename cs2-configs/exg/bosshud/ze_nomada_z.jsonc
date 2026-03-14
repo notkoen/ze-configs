@@ -1,0 +1,15 @@
+{
+    "MathCounterConfigs": [
+        {
+            "DisplayName": "Face",
+            "HpCounter": "Lvl3_Boss_HP"
+        },
+        {
+            "DisplayName": "Ruler",
+            "HpCounter": "Lvl2_Boss_HP",
+            "HpBarCounter": "Lvl2_Boss_HP_Counter",
+            "HpBarCounterAdd0": true,
+            "HpBarAdd": true
+        }
+    ]
+}
