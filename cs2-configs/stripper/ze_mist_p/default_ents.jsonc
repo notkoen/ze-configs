@@ -11,7 +11,7 @@
 						"outputname": "OnMapSpawn",
 						"targetname": "[PR#]server",
 						"inputname": "Command",
-						"overrideparam": "say ** Boss hp buff and error model fix by koen **",
+						"overrideparam": "say *** Boss hp buff and error model fix by koen ***",
 						"delay": 5
 					}
 				]

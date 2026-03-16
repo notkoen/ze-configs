@@ -18,9 +18,9 @@
 				"io": [
 					{
 						"outputname": "OnStartTouch",
-						"inputname": "AddHealth",
 						"targetname": "[PR#]pbox_dragon",
-						"overrideparam": "1500",
+						"inputname": "AddHealth",
+						"overrideparam": "1300",
 						"delay": 0.1,
 						"timestofire": -1
 					}
