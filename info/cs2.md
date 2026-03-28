@@ -18,7 +18,7 @@
         "handlers": [
             {
                 "name": "Handler",          // extra name to show in chat when used e.g. XXX has used Item Name (Handler)
-                "type": "button",           // "button", 
+                "type": "button",           // "button",
                                             // "counterdown" - counter stops OnHitMin
                                             // "counterup" - counter stops OnHitMax
                                             // (anything else is ignored)
@@ -28,13 +28,13 @@
                                             //  0/1 = None
                                             //  2 = Cooldown,           3 = MaxUses (cooldown between each)
                                             //  4 = CooldownAfterUses,  5 = CounterValue
-                "offset": [5,-9],           // ADDS the specified offset to counter values, 
+                "offset": [5,-9],           // ADDS the specified offset to counter values,
                                             // First number is counter value, Second is counter max
                 "cooldown": 60,             // Cooldown duration if mode = 2,3,4
                 "maxuses": 0,               // Maxuses if mode = 3,4
                 "message": true,            // Whether to show when this is used in chat
                 "ui": true,                 // Whether to track this handler on the HUD
-                "templated": true           // Whether the entity of this handler is templated with the item weapon, 
+                "templated": true           // Whether the entity of this handler is templated with the item weapon,
             }                               //  (this will attempt to auto detect if not specified)
         ]
     }
