@@ -20,7 +20,7 @@
 						"outputname": "OnStartTouch",
 						"targetname": "[PR#]pbox_dragon",
 						"inputname": "AddHealth",
-						"overrideparam": "1300",
+						"overrideparam": "1800",
 						"delay": 0.1,
 						"timestofire": -1
 					}
