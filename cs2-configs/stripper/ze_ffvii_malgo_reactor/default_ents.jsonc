@@ -12,110 +12,25 @@
 						"outputname": "OnMapSpawn",
 						"targetname": "[PR#]cmd",
 						"inputname": "Command",
-						"overrideparam": "say >> Ultima fix by IntimateLover <<",
-						"delay": 5
-					},
-					{
-						"outputname": "OnMapSpawn",
-						"targetname": "[PR#]cmd",
-						"inputname": "Command",
-						"overrideparam": "say *** Boss HP rework by koen ***",
+						"overrideparam": "say *** Ultima and boss cast bar fix by koen ***",
 						"delay": 5
 					}
 				]
 			}
 		},
-		// Rework boss health to use counter instead
-		// Increase bridge bahamut health due to EXG having nospread and increased weapon damage
+		// Re-enable bahamut cast bar on RMZS
 		{
 			"match": {
-				"classname": "trigger_multiple",
-				"targetname": "[PR#]Sephiroth_Final_HP_Counter"
+				"classname": "logic_relay",
+				"targetname": "[PR#]RMZS_relay"
 			},
 			"delete": {
 				"io": [
 					{
-						"outputname": "OnStartTouch"
-					}
-				]
-			},
-			"insert": {
-				"io": [
-					{
-						"outputname": "OnStartTouch",
-						"targetname": "[PR#]Final_Fulgor_Breakable",
-						"inputname": "AddHealth",
-						"overrideparam": "500",
-						"delay": 0,
-						"timestofire": -1
-					},
-					{
-						"outputname": "OnStartTouch",
-						"targetname": "[PR#]Final_Sephiroth_Counter",
-						"inputname": "Add",
-						"overrideparam": "35",
-						"delay": 0,
-						"timestofire": -1
-					},
-					{
-						"outputname": "OnStartTouch",
-						"targetname": "[PR#]Final_Genesis_Counter",
-						"inputname": "Add",
-						"overrideparam": "75",
-						"delay": 0,
-						"timestofire": -1
+						"targetname": "[PR#]BossSpriteTurn"
 					}
 				]
 			}
-		},
-		{
-			"match": {
-				"classname": "func_breakable",
-				"targetname": "[PR#]Csomo_Genesis_Final_Breakable"
-			},
-			"insert": {
-				"io": [
-					{
-						"outputname": "OnHealthChanged",
-						"targetname": "[PR#]Final_Genesis_Counter",
-						"inputname": "Subtract",
-						"overrideparam": "1",
-						"delay": 0,
-						"timestofire": -1
-					}
-				]
-			}
-		},
-		{
-			"match": {
-				"classname": "point_template",
-				"targetname": "[PR#]Sephiroth_Final_Template"
-			},
-			"insert": {
-				"template02": "[PR#]Final_Sephiroth_Counter"
-			}
-		}
-	],
-	"add": [
-		// Rework boss health to use counter instead
-		{
-			"classname": "math_counter",
-			"targetname": "[PR#]Final_Genesis_Counter",
-			"origin": "3300.000000 11664.000000 -90.000000",
-			"startdisabled": "1",
-			"max": "9999",
-			"min": "0",
-			"startvalue": "5",
-			"io": [
-				{
-					"outputname": "OnHitMin",
-					"targetname": "[PR#]Csomo_Genesis_Final_Breakable",
-					"inputname": "Break",
-					"overrideparam": "",
-					"delay": 0,
-					"timestofire": -1
-				}
-			]
 		}
 	]
 }

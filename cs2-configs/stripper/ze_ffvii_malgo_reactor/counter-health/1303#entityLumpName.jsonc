@@ -1,0 +1,25 @@
+{
+	"filter": [
+		// Remove broken hurt trigger
+		{
+			"hammeruniqueid": "815"
+		}
+	],
+	"add": [
+		// Fix ultima by re-adding hurt trigger
+		{
+			"targetname": "item_ultima_trigger",
+			"classname": "trigger_hurt",
+			"origin": "-16 0 4",
+			"parentname": "item_ultima_wpn",
+			"startdisabled": "1",
+			"spawnflags": "1",
+			"filtername": "zombie",
+			"damagetype": "262144",
+			"damagecap": "20",
+			"damage": "999999",
+			"nodmgforce": "1",
+			"model": "maps/ze_ffvii_malgo_reactor/entities/item_ultima_hurt_410.vmdl"
+		}
+	]
+}
