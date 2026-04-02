@@ -1,0 +1,43 @@
+{
+	"modify": [
+		// Buff zombie item health
+		{
+			"match": {
+				"classname": "weapon_knife",
+				"targetname": "[PR#]Weapon_zm_zargabaath"
+			},
+			"delete": {
+				"io": [
+					{
+						"outputname": "OnPlayerPickup",
+						"targetname": "!activator",
+						"inputname": "KeyValue",
+						"overrideparam": "health 80000",
+						"delay": 0,
+						"timestofire": 1
+					}
+				]
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnPlayerPickup",
+						"targetname": "!activator",
+						"inputname": "KeyValue",
+						"overrideparam": "health 250000",
+						"delay": 0,
+						"timestofire": 1
+					},
+					{
+						"outputname": "OnPlayerPickup",
+						"targetname": "!activator",
+						"inputname": "KeyValue",
+						"overrideparam": "max_health 250000",
+						"delay": 0,
+						"timestofire": 1
+					}
+				]
+			}
+		}
+	]
+}

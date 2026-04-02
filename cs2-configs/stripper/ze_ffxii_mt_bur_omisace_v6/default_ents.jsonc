@@ -1,0 +1,22 @@
+{
+	"modify": [
+		// Add stripper credit
+		{
+			"match": {
+				"classname": "logic_auto"
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnMapSpawn",
+						"targetname": "[PR#]cmd",
+						"inputname": "Command",
+						"overrideparam": "say *** Zombie item HP buff by koen ***",
+						"delay": 5,
+						"timestofire": 1
+					}
+				]
+			}
+		}
+	]
+}
