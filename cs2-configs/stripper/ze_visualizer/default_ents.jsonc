@@ -11,7 +11,7 @@
 						"outputname": "OnMapSpawn",
 						"targetname": "[PR#]cmd",
 						"inputname": "Command",
-						"overrideparam": "say >> Visible angle prop fix by koen <<",
+						"overrideparam": "say *** Visible angle prop and boss hp scaling bug fix by koen ***",
 						"delay": 5
 					}
 				]
