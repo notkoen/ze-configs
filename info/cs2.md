@@ -1,7 +1,44 @@
 
 # CS2 Config Formatting
 
-## CS2Fixes Entwatch
+> [!CAUTION]
+> Config options vary from server to server due to different plugins. I will separate configs for each server and include information on differences. Do keep this in mind when you want to look at configs I have made.
+
+**Table of Contents:**
+1. [CS2Fixes](https://github.com/notkoen/ze-configs/blob/main/info/cs2.md#cs2fixes)
+    - [EntWatch](https://github.com/notkoen/ze-configs/blob/main/info/cs2.md#entwatch)
+    - [BossHUD](https://github.com/notkoen/ze-configs/blob/main/info/cs2.md#bosshud)
+    - [AdminRoom](https://github.com/notkoen/ze-configs/blob/main/info/cs2.md#adminroom)
+2. [ExG](https://github.com/notkoen/ze-configs/blob/main/info/cs2.md#exg)
+    - [EntWatch](https://github.com/notkoen/ze-configs/blob/main/info/cs2.md#entwatch-1)
+    - [BossHUD](https://github.com/notkoen/ze-configs/blob/main/info/cs2.md#bosshud-1)
+3. [FyS](https://github.com/notkoen/ze-configs/blob/main/info/cs2.md#fys)
+    - [BossHUD](https://github.com/notkoen/ze-configs/blob/main/info/cs2.md#bosshud-2)
+
+## CS2Fixes
+
+### EntWatch
+
+This version of EntWatch is publicly available [here](https://github.com/Source2ZE/CS2Fixes).
+
+Find entity classnames that start with `weapon_` as a starting point for creating EntWatch configs. For each item you're going to want a new block in the root array. The format is available below. EntWatch also supports filtering triggering from restricted players without a weapon.
+
+List of Available Colors:
+- white, default
+- darkred
+- team
+- green
+- lightgreen
+- olive
+- red
+- gray, grey
+- yellow
+- silver
+- blue
+- darkblue
+- purple, pink
+- red2
+- orange, gold
 
 ```jsonc
 [
@@ -28,9 +65,9 @@
                                             //  0/1 = None
                                             //  2 = Cooldown,           3 = MaxUses (cooldown between each)
                                             //  4 = CooldownAfterUses,  5 = CounterValue
-                "offset": [5,-9],           // ADDS the specified offset to counter values,
+                "offset": [0,0],            // ADDS the specified offset to counter values,
                                             // First number is counter value, Second is counter max
-                "cooldown": 60,             // Cooldown duration if mode = 2,3,4
+                "cooldown": 0,              // Cooldown duration if mode = 2,3,4
                 "maxuses": 0,               // Maxuses if mode = 3,4
                 "message": true,            // Whether to show when this is used in chat
                 "ui": true,                 // Whether to track this handler on the HUD
@@ -38,9 +75,11 @@
             }                               //  (this will attempt to auto detect if not specified)
         ]
     }
-]```
+]
+```
 
-### Clean Template
+<details>
+    <summary>Clean Template</summary>
 
 ```jsonc
 [
@@ -122,28 +161,14 @@
     },
 ]
 ```
+</details>
 
-### Available Colors
+### BossHUD
 
-- white, default
-- darkred
-- team
-- green
-- lightgreen
-- olive
-- red
-- gray, grey
-- yellow
-- silver
-- blue
-- darkblue
-- purple, pink
-- red2
-- orange, gold
+> [!CAUTION]
+> CS2Fixes BossHUD is still in active development and thus not yet released publicly, so config formatting **SHOULD NOT** be considered final.
 
-## CS2Fixes BossHUD (Unreleased)
-
-Find entity classnames that are either `math_counter`, `func_breakable`, or `func_physbox` as a starting point for creating these. For each boss and NPC, you're going to want a new block in the root array. The format is available below. You can specify entities with either its targetname of its hammerid by starting the string with `#` (e.g. "#123456").
+Find entity classnames that are either `math_counter`, `func_breakable`, or `func_physbox` as a starting point for creating BossHUD configs. For each boss and NPC, you're going to want a new block in the root array. The format is available below. You can specify entities with either its targetname or its hammerid by starting the string with `#` (e.g. "#123456").
 
 ```jsonc
 [
@@ -194,19 +219,19 @@ Find entity classnames that are either `math_counter`, `func_breakable`, or `fun
         "maxhp":            0.0     // OPTIONAL - (float) If the boss has more than this HP, it will not start showing on the HUD (0.0 = no limit)
     },
 
-    // Breakable boss example
+    // Breakable type boss
     {
         "name":             "",
         "breakable":        ""
     },
 
-    // Counter example
+    // Counter type boss
     {
         "name":             "",
         "counter":          ""
     },
 
-    // Counter, backup, and iterator example
+    // Counter, backup, and iterator type boss
     {
         "name":             "",
         "counter":          "",
@@ -214,14 +239,14 @@ Find entity classnames that are either `math_counter`, `func_breakable`, or `fun
         "iterator":         ""
     },
 
-    // Counter and iterator example
+    // Counter and iterator type boss
     {
         "name":             "",
         "counter":          "",
         "iterator":         ""
     },
 
-    // Breakable and iterator example
+    // Breakable and iterator type boss
     {
         "name":             "",
         "breakable":        "",
@@ -230,7 +255,79 @@ Find entity classnames that are either `math_counter`, `func_breakable`, or `fun
 ]
 ```
 
-## EXG Entwatch Config
+<details>
+    <summary>Clean Template</summary>
+
+```jsonc
+[
+    // Full config
+    {
+        "name":             "",
+        "breakable":        "",
+        "counter":          "",
+        "iterator":         "",
+        "backup":           "",
+        "trigger": { "ent": "", "output": "", "delay": 0.0 },
+        "showtrigger": { "ent": "", "output": "", "delay": 0.0 },
+        "killtrigger": { "ent": "", "output": "", "delay": 0.0 },
+        "hurttrigger": { "ent": "", "output": "" },
+        "reversecounter":   false,
+        "reverseiterator":  false,
+        "hitmarkeronly":    false,
+        "minorhud":         false,
+        "multitrigger":     false,
+        "templated":        false,
+        "showbeaten":       true,
+        "timeout":          0.0,
+        "offset":           0.0,
+        "offsetiterator":   0.0,
+        "maxhp":            0.0
+    },
+
+    // Breakable type boss
+    {
+        "name":             "",
+        "breakable":        ""
+    },
+
+    // Counter type boss
+    {
+        "name":             "",
+        "counter":          ""
+    },
+
+    // Counter, backup, and iterator type boss
+    {
+        "name":             "",
+        "counter":          "",
+        "backup":           "",
+        "iterator":         ""
+    },
+
+    // Counter and iterator type boss
+    {
+        "name":             "",
+        "counter":          "",
+        "iterator":         ""
+    },
+
+    // Breakable and iterator type boss
+    {
+        "name":             "",
+        "breakable":        "",
+        "iterator":         ""
+    }
+]
+```
+</details>
+
+### AdminRoom
+
+The AdminRoom feature is exclusive to GFL's version of CS2Fixes. All admin room coordindates are stored in one single [file](https://github.com/notkoen/ze-configs/blob/main/cs2-configs/adminroom.jsonc). Coordinates are stored with map names as the key, and coordinates as an array.
+
+## EXG
+
+### EntWatch
 
 ```jsonc
 [
@@ -248,7 +345,8 @@ Find entity classnames that are either `math_counter`, `func_breakable`, or `fun
 ]
 ```
 
-### Clean Template
+<details>
+    <summary>Clean Template</summary>
 
 ```jsonc
 [
@@ -265,8 +363,9 @@ Find entity classnames that are either `math_counter`, `func_breakable`, or `fun
     },
 ]
 ```
+</details>
 
-## EXG BossHUD Config
+### BossHUD
 
 ```jsonc
 {
@@ -294,7 +393,8 @@ Find entity classnames that are either `math_counter`, `func_breakable`, or `fun
 }
 ```
 
-### Clean Template
+<details>
+    <summary>Clean Template</summary>
 
 ```jsonc
 {
@@ -321,3 +421,105 @@ Find entity classnames that are either `math_counter`, `func_breakable`, or `fun
     ]
 }
 ```
+</details>
+
+## FyS
+
+> [!TIP]
+> FyS has a public config [repository](https://github.com/fyscs/cs2) although not all configs are made public (e.g. EntWatch).
+
+### BossHUD
+
+> [!WARNING]
+> FyS config formatting requires indentation of two spaces.
+
+```jsonc
+{
+  "Proxy": true,            // (bool) Whether boss health is scripted
+  "Counters": [
+    {
+      "iterator": "",       // (string) Targetname of boss COUNTER
+      "backup": "",         // (string) Targetname of boss BACKUP counter
+      "counter": "",        // (string) Targetname of boss ITERATOR
+      "stages": 0.0,        // (int) Number of times boss is re-triggered (similar to multitrigger)
+      "mass": 0.0,          // (int) Health per player for counter and iterator system
+      "hitbox": "",         // (string) Targetname of boss hitbox
+      "display": "",        // (string) Name of boss that appears on hud
+      "increase": false,    // (bool) If boss COUNTER has OnHitMax outputs
+      "reverse": false,     // (bool) If boss ITERATOR has OnHitMax outputs
+    }
+  ],
+  "Breakables": [
+    {
+      "target": "",         // (string) Targetname of boss breakable
+      "count": "",          // (string) Targetname of boss iterator counter
+      "display": ""         // (string) Name of boss that appear on hud
+    }
+  ],
+  "Monsters": [
+    {
+      "identity": "",       // (string) Hammerid of counter or breakable
+      "display": ""         // (string) Name of boss that appears on hud
+    }
+  ]
+}
+```
+
+<details>
+    <summary>Clean Template</summary>
+
+```jsonc
+{
+  "Proxy": true,
+  "Counters": [
+    // Full config
+    {
+      "iterator": "",
+      "backup": "",
+      "counter": "",
+      "stages": 0.0,
+      "mass": 0.0,
+      "hitbox": "",
+      "display": "",
+      "increase": false,
+      "reverse": false,
+    },
+    // Counter type boss
+    {
+      "iterator": "",
+      "hitbox": "",
+      "display": "",
+    },
+    // Counter, iterator, and backup type boss
+    {
+      "iterator": "",
+      "backup": "",
+      "counter": "",
+      "hitbox": "",
+      "display": "",
+    },
+    // Counter and iterator type boss
+    {
+      "iterator": "",
+      "counter": "",
+      "mass": 0.0,
+      "hitbox": "",
+      "display": "",
+    }
+  ],
+  "Breakables": [
+    {
+      "target": "",
+      "count": "",
+      "display": ""
+    }
+  ],
+  "Monsters": [
+    {
+      "identity": "",
+      "display": ""
+    }
+  ]
+}
+```
+</details>
