@@ -11,7 +11,7 @@
 						"outputname": "OnMapSpawn",
 						"targetname": "[PR#]CONSOLE",
 						"inputname": "Command",
-						"overrideparam": "say >> Additional fixes by koen <<",
+						"overrideparam": "say *** 双开门及血针无法恢复超过100血由koen修复 ***",
 						"delay": 5
 					}
 				]

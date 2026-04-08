@@ -11,7 +11,7 @@
 					{
 						"outputname": "OnStartTouch",
 						"targetname": "!activator",
-						"intputname": "KeyValue",
+						"inputname": "KeyValue",
 						"overrideparam": "max_health 300"
 					}
 				]
