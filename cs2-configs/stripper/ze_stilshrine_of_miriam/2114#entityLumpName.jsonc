@@ -1,0 +1,22 @@
+{
+	"modify": [
+		// Kill boss physbox after death
+		{
+			"match": {
+				"classname": "math_counter",
+				"targetname": "[PR#]Stage4_Boss_Bergan_HP_End"
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnHitMin",
+						"targetname": "[PR#]Stage4_Boss_Bergan_Phys",
+						"inputname": "Kill",
+						"overrideparam": "",
+						"delay": 0.1
+					}
+				]
+			}
+		}
+	]
+}

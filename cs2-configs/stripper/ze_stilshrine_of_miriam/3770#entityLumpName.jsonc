@@ -6,10 +6,29 @@
 				"classname": "trigger_hurt",
 				"targetname": "[PR#]Stage4_Ending_Bergan_HP_Add"
 			},
-			"replace": {
-				"io": {
-					"overrideparam": "80"
-				}
+			"delete": {
+				"io": [
+					{
+						"outputname": "OnStartTouch",
+						"targetname": "[PR#]Stage4_Ending_Bergan_HP",
+						"inputname": "Add",
+						"overrideparam": "50",
+						"delay": 0,
+						"timestofire": -1
+					}
+				]
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnStartTouch",
+						"targetname": "[PR#]Stage4_Ending_Bergan_HP",
+						"inputname": "Add",
+						"overrideparam": "80",
+						"delay": 0,
+						"timestofire": -1
+					}
+				]
 			}
 		}
 	]
