@@ -173,84 +173,84 @@ Find entity classnames that are either `math_counter`, `func_breakable`, or `fun
 ```jsonc
 [
     {
-        "name":             "",     // OPTIONAL - (string) Name of boss that appears in hud
-        "breakable":        "",     // Targetname/Hammerid of breakable
-        "counter":          "",     // Targetname/Hammerid of counter
-        "iterator":         "",     // OPTIONAL - Targetname/Hammerid of hp iterator (segments)
-        "backup":           "",     // OPTIONAL - Targetname/Hammerid of hp backup
+        "name": "",                 // OPTIONAL - (string) Name of boss that appears in hud
+        "breakable": "",            // Targetname/Hammerid of breakable
+        "counter": "",              // Targetname/Hammerid of counter
+        "iterator": "",             // OPTIONAL - Targetname/Hammerid of hp iterator (segments)
+        "backup": "",               // OPTIONAL - Targetname/Hammerid of hp backup
 
         "trigger":                  // OPTIONAL - Specifies the event that triggers the boss
         {
-            "ent":          "",     // (string) Targetname/Hammerid of entity
-            "output":       "",     // (string) Output of entity
-            "delay":        0.0     // OPTIONAL - (float) Delay after output that starts boss
+            "ent": "",              // (string) Targetname/Hammerid of entity
+            "output": "",           // (string) Output of entity
+            "delay": 0.0            // OPTIONAL - (float) Delay after output that starts boss
         },
 
         "showtrigger":              // OPTIONAL - Specifies event that starts displaying boss health
         {
-            "ent":          "",     // (string) Targetname/Hammerid of entity
-            "output":       "",     // (string) Output of entity
-            "delay":        0.0     // OPTIONAL - (float) Delay after event that shows boss health
+            "ent": "",              // (string) Targetname/Hammerid of entity
+            "output": "",           // (string) Output of entity
+            "delay": 0.0            // OPTIONAL - (float) Delay after event that shows boss health
         },
 
         "killtrigger":              // OPTIONAL - Specifies event that force kills the boss
         {
-            "ent":          "",     // (string) Targetname/Hammerid of entity
-            "output":       "",     // (string) Output of entity
-            "delay":        0.0     // OPTIONAL - (float) Delay after event that force kills boss
+            "ent": "",              // (string) Targetname/Hammerid of entity
+            "output": "",           // (string) Output of entity
+            "delay": 0.0            // OPTIONAL - (float) Delay after event that force kills boss
         },
 
         "hurttrigger":              // OPTIONAL - Specifies event that is considered as damaging the boss
         {
-            "ent":          "",     // (string) Targetname/hammerid of entity
-            "output":       ""      // (string) Output of entity
+            "ent": "",              // (string) Targetname/hammerid of entity
+            "output": ""            // (string) Output of entity
         },
 
-        "reversecounter":   false,  // OPTIONAL - (bool) Whether counter should be reversed
-        "reverseiterator":  false,  // OPTIONAL - (bool) Whether iterator should be reversed
-        "hitmarkeronly":    false,  // OPTIONAL - (bool) Whether only hitmarkers should be shown when hitting boss
-        "minorhud":         false,  // OPTIONAL - (bool) Whether boss should should be displayed as no-bar hud variant
-        "multitrigger":     false,  // OPTIONAL - (bool) Whether boss can be triggered multiple times (multiple instances)
-        "templated":        false,  // OPTIONAL - (bool) Whether boss is templated and has name fixup
-        "showbeaten":       true,   // OPTIONAL - (bool) Whether top boss damage should be displayed after boss death
-        "timeout":          0.0,    // OPTIONAL - (float) Specify time before boss health is hidden after taking no damage
-        "offset":           0.0,    // OPTIONAL - (float) Specify amount of health to ADD to displayed health (negative to subtract)
-        "offsetiterator":   0.0,    // OPTIONAL - (float) Specify amount of iterator segments to ADD to displayed health (negative to subtract)
-        "maxhp":            0.0     // OPTIONAL - (float) If the boss has more than this HP, it will not start showing on the HUD (0.0 = no limit)
+        "reversecounter": false,    // OPTIONAL - (bool) Whether counter should be reversed
+        "reverseiterator": false,   // OPTIONAL - (bool) Whether iterator should be reversed
+        "hitmarkeronly": false,     // OPTIONAL - (bool) Whether only hitmarkers should be shown when hitting boss
+        "minorhud": false,          // OPTIONAL - (bool) Whether boss should should be displayed as no-bar hud variant
+        "multitrigger": false,      // OPTIONAL - (bool) Whether boss can be triggered multiple times (multiple instances)
+        "templated": false,         // OPTIONAL - (bool) Whether boss is templated and has name fixup
+        "showbeaten": true,         // OPTIONAL - (bool) Whether top boss damage should be displayed after boss death
+        "timeout": 0.0,             // OPTIONAL - (float) Specify time before boss health is hidden after taking no damage
+        "offset": 0.0,              // OPTIONAL - (float) Specify amount of health to ADD to displayed health (negative to subtract)
+        "offsetiterator": 0.0,      // OPTIONAL - (float) Specify amount of iterator segments to ADD to displayed health (negative to subtract)
+        "maxhp": 0.0                // OPTIONAL - (float) If the boss has more than this HP, it will not start showing on the HUD (0.0 = no limit)
     },
 
     // Breakable type boss
     {
-        "name":             "",
-        "breakable":        ""
+        "name": "",
+        "breakable": ""
     },
 
     // Counter type boss
     {
-        "name":             "",
-        "counter":          ""
+        "name": "",
+        "counter": ""
     },
 
     // Counter, backup, and iterator type boss
     {
-        "name":             "",
-        "counter":          "",
-        "backup":           "",
-        "iterator":         ""
+        "name": "",
+        "counter": "",
+        "backup": "",
+        "iterator": ""
     },
 
     // Counter and iterator type boss
     {
-        "name":             "",
-        "counter":          "",
-        "iterator":         ""
+        "name": "",
+        "counter": "",
+        "iterator": ""
     },
 
     // Breakable and iterator type boss
     {
-        "name":             "",
-        "breakable":        "",
-        "iterator":         ""
+        "name": "",
+        "breakable": "",
+        "iterator": ""
     }
 ]
 ```
@@ -262,60 +262,60 @@ Find entity classnames that are either `math_counter`, `func_breakable`, or `fun
 [
     // Full config
     {
-        "name":             "",
-        "breakable":        "",
-        "counter":          "",
-        "iterator":         "",
-        "backup":           "",
+        "name": "",
+        "breakable": "",
+        "counter": "",
+        "iterator": "",
+        "backup": "",
         "trigger": { "ent": "", "output": "", "delay": 0.0 },
         "showtrigger": { "ent": "", "output": "", "delay": 0.0 },
         "killtrigger": { "ent": "", "output": "", "delay": 0.0 },
         "hurttrigger": { "ent": "", "output": "" },
-        "reversecounter":   false,
-        "reverseiterator":  false,
-        "hitmarkeronly":    false,
-        "minorhud":         false,
-        "multitrigger":     false,
-        "templated":        false,
-        "showbeaten":       true,
-        "timeout":          0.0,
-        "offset":           0.0,
-        "offsetiterator":   0.0,
-        "maxhp":            0.0
+        "reversecounter": false,
+        "reverseiterator": false,
+        "hitmarkeronly": false,
+        "minorhud": false,
+        "multitrigger": false,
+        "templated": false,
+        "showbeaten": true,
+        "timeout": 0.0,
+        "offset": 0.0,
+        "offsetiterator": 0.0,
+        "maxhp": 0.0
     },
 
     // Breakable type boss
     {
-        "name":             "",
-        "breakable":        ""
+        "name": "",
+        "breakable": ""
     },
 
     // Counter type boss
     {
-        "name":             "",
-        "counter":          ""
+        "name": "",
+        "counter": ""
     },
 
     // Counter, backup, and iterator type boss
     {
-        "name":             "",
-        "counter":          "",
-        "backup":           "",
-        "iterator":         ""
+        "name": "",
+        "counter": "",
+        "backup": "",
+        "iterator": ""
     },
 
     // Counter and iterator type boss
     {
-        "name":             "",
-        "counter":          "",
-        "iterator":         ""
+        "name": "",
+        "counter": "",
+        "iterator": ""
     },
 
     // Breakable and iterator type boss
     {
-        "name":             "",
-        "breakable":        "",
-        "iterator":         ""
+        "name": "",
+        "breakable": "",
+        "iterator": ""
     }
 ]
 ```
