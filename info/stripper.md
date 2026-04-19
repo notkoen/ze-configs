@@ -1,4 +1,5 @@
-# Writing Stripper Configs
+
+# Stripper Configs
 
 Stripper:Source by Bailopan is an useful tool for fixing and modifying maps without having to recompile. Given its usefulness, this guide will serve as an introduction to the tool, and will cover various topis such as the limits of strippers, bad/good use cases, and other tips and tricks to help with writing strippers.
 
@@ -11,37 +12,28 @@ Stripper:Source by Bailopan is an useful tool for fixing and modifying maps with
 - [Lumper](https://github.com/momentum-mod/lumper) - A more updated version of VIDE 
 - [stripplier](https://github.com/Source2ZE/Stripplier) - Python tool for applying stripper changes to a VMF
 
-## General Information
-
-As stated earlier, strippers can allow mappers to edit maps without having to recompile. However, this tool is also limited to making changes that do not require recompiling. Some features of strippers include:
-
-- Modifying the input/output (I/O) of entities
-- Adding entities into a map
-- Removing entities from a map
-- Modifying the keyvalues of existing entities
+## Configuration
 
 ### Comments
 
-Comments in strippers is done by using the semicolon (`;`) symbol. While Stripper:Source does support the usage of `//` as comments, it is common practice to use `;` instead. Writing comments is useful for documenting changes so others can be informed of what was changed.
+Comments in strippers are done by using the semicolon (`;`) symbol. While Stripper:Source does support the usage of `//` as comments, it is common practice to use `;` instead. Writing comments is useful for documenting changes so others can be informed of what was changed.
 
 ```text
-;this is an example of a comment
+; This is an example of a comment
 ```
 
 ```text
-;Multiline comments can be done by
-;starting several lines with semicolons
+; Multiline comments can be done by
+; starting several lines with semicolons
 ```
 
 ### Regex
 
-Both stripper plugin
-
-## Blocks
+Stripper support the usage of regex expressions for keyvalues. These are denoted using
 
 ### Add
 
-The `add:` block is used for adding entities into a map. Entities that require compilation in order to work (such as lights) cannnot be added. Otherwise, anything can be added into a map. When adding entities to a map, be sure to add all required keyvalues in order for the entity to work, although `origin:` may or may not be required. If the origin of an entity is omitted, it will default to spawning at `0, 0, 0`. Entity outputs can be included in the `add:` block, and does not require the use of `connections` unlike hammer VMFs.
+The `add:` block is used for adding entities into a map. Entities that require compilation in order to work (such as lights) cannnot be added. Otherwise, anything can be added into a map. When adding entities to a map, be sure to add all required keyvalues in order for the entity to work. Entity outputs can be included in the `add:` block, and does not require the use of `connections` unlike hammer VMFs.
 
 > [!WARNING]
 > While the base Stripper:Source plugin does support the use of `connections` block like VMFs, the Sourcepawn implementation of Stripper **DOES NOT**. It is better practice to not use `connections` block, both for cleanliness and compatability reasons.
@@ -88,7 +80,7 @@ add:
 
 ### Filter
 
-As the name implies, this block removes entities from a map. Similar to the `add:` block, it is also limited to entities that do not require recompiling. When filtering entities on a map, you can filter things based different keyvalues such as `targetname`, `classname`, and `origin`. When filtering entities, you must be wary of what you are trying to filter as depending on what you in the block, it can end up removing more entities that you have intended.
+This block removes entities from a map. Similar to the `add:` block, it is also limited to entities that do not require recompiling. When filtering entities on a map, you can filter things based different keyvalues such as `targetname`, `classname`, and `origin`. When filtering entities, you must be wary of what you are trying to filter as depending on what you in the block, it can end up removing more entities that you have intended.
 
 Let's imagine you're trying to remove a `trigger_teleport` entity that is located at `100, 200, 300` and has the targetname of `teleport1`.
 

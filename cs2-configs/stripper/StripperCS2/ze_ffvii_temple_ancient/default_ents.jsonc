@@ -12,7 +12,7 @@
 						"outputname": "OnMapSpawn",
 						"targetname": "[PR#]cmd",
 						"inputname": "Command",
-						"overrideparam": "say >> Door/rendermode issues fixed by koen <<",
+						"overrideparam": "say *** 双开门及隐形模型由koen修复 ***",
 						"delay": 5
 					}
 				]

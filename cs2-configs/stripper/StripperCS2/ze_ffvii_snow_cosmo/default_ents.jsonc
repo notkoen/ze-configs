@@ -11,7 +11,7 @@
 						"outputname": "OnMapSpawn",
 						"targetname": "[PR#]cmd",
 						"inputname": "Command",
-						"overrideparam": "say >> Additional fixes by koen <<",
+						"overrideparam": "say *** 双开门及隐形模型由koen修复 ***",
 						"delay": 5
 					}
 				]
@@ -30,7 +30,7 @@
 		{
 			"match": {
 				"classname": "prop_dynamic",
-				"rendermode": "2"
+				"targetname": "[PR#]Jenova_Model"
 			},
 			"replace": {
 				"rendermode": "0"

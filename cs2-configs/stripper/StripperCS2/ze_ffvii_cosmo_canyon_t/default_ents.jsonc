@@ -11,7 +11,7 @@
 						"outputname": "OnMapSpawn",
 						"targetname": "[PR#]cmd",
 						"inputname": "Command",
-						"overrideparam": "say ** door/rendermode fix by koen **",
+						"overrideparam": "say *** 双开门及隐形模型由koen修复 ***",
 						"delay": 5
 					}
 				]
@@ -35,6 +35,24 @@
 			"replace": {
 				"rendermode": "0"
 			}
-		}
+		},
+		{
+			"match": {
+				"classname": "prop_dynamic",
+				"targetname": "[PR#]Genesis_Model"
+			},
+			"replace": {
+				"rendermode": "0"
+			}
+		},
+		{
+			"match": {
+				"classname": "prop_dynamic",
+				"targetname": "[PR#]Shinra_Ifrit"
+			},
+			"replace": {
+				"rendermode": "0"
+			}
+		},
 	]
 }
