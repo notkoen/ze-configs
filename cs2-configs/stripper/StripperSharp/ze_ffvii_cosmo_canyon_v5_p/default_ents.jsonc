@@ -1,0 +1,114 @@
+/*
+	/!\ WARNING! THIS CHANGE WILL NOT WORK WITHOUT HAVING PATCHED MAP SCRIPTS
+	/!\ IN YOUR SERVER. UPLOAD THE UPDATED SCRIPT TO YOUR SERVER!!!
+*/
+
+{
+	"modify": [
+		// Add stripper credit
+		{
+			"match": {
+				"classname": "logic_auto"
+			},
+			"insert": {
+				"connections": [
+					{
+						"output": "OnMapSpawn",
+						"target": "[PR#]cmd",
+						"input": "Command",
+						"param": "say *** 把僵尸C4神器改回普通刀系统由koen做改变 ***",
+						"delay": 5
+					}
+				]
+			}
+		},
+		// Reset player context
+		{
+			"match": {
+				"classname": "trigger_multiple",
+				"hammeruniqueid": "53086"
+			},
+			"insert": {
+				"connections": [
+					{
+						"output": "OnStartTouch",
+						"target": "!activator",
+						"input": "ClearContext",
+						"param": "",
+						"delay": 0,
+						"limit": -1
+					}
+				]
+			}
+		},
+		// Add replaced script
+		{
+			"match": {
+				"classname": "point_script"
+			},
+			"insert": {
+				"cs_script": "scripts/cosmo_patch.vjs"
+			}
+		},
+		// Update strip trigger filter
+		{
+			"match": {
+				"classname": "filter_multi",
+				"targetname": "[PR#]Filter_Z_Items_Pickup"
+			},
+			"insert": {
+				"filter02": "[PR#]Pickup_Filter"
+			}
+		},
+		// Add strip triggers to zombie item templates
+		{
+			"match": {
+				"classname": "point_template",
+				"targetname": "[PR#]Weapon_Z_Poison_Temp"
+			},
+			"insert": {
+				"template08": "[PR#]ZombiePoisonStripTrigger"
+			}
+		},
+		{
+			"match": {
+				"classname": "point_template",
+				"targetname": "[PR#]Weapon_Z_Fire_Temp"
+			},
+			"insert": {
+				"template08": "[PR#]ZombieFireStripTrigger"
+			}
+		},
+		{
+			"match": {
+				"classname": "point_template",
+				"targetname": "[PR#]Weapon_Z_Ice_Temp"
+			},
+			"insert": {
+				"template08": "[PR#]ZombieIceStripTrigger"
+			}
+		},
+		{
+			"match": {
+				"classname": "point_template",
+				"targetname": "[PR#]Item_Z_Confuse_itemtemp"
+			},
+			"insert": {
+				"template10": "[PR#]ZombieConfuseStripTrigger"
+			}
+		}
+	],
+	"add": [
+		// Add filter for strip trigger
+		{
+			"classname": "filter_activator_context",
+			"targetname": "[PR#]Pickup_Filter",
+			"origin": "-11480.000000 1220.000000 -120.000000",
+			"angles": "0.000000 0.000000 0.000000",
+			"scales": "1.000000 1.000000 1.000000",
+			"clientsideentity": "0",
+			"responsecontext": "zitem_pickup",
+			"negated": "1"
+		}
+	]
+}

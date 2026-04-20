@@ -1,0 +1,60 @@
+{
+	"modify": [
+		// Change c4 item to knife item and add filter
+		{
+			"match": {
+				"classname": "weapon_c4"
+			},
+			"replace": {
+				"classname": "weapon_knife"
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnPlayerPickup",
+						"targetname": "!activator",
+						"inputname": "AddContext",
+						"overrideparam": "zitem_pickup:1",
+						"delay": 0,
+						"timestofire": 1
+					}
+				]
+			}
+		}
+	],
+	"add": [
+		// Add strip trigger to the knife
+		{
+			"classname": "trigger_multiple",
+			"targetname": "[PR#]ZombieConfuseStripTrigger",
+			"origin": "-5.000000 0.000000 5.275024",
+			"angles": "-0.000000 0.000000 0.000000",
+			"scales": "1.000000 1.000000 1.000000",
+			"spawnflags": "4097",
+			"filtername": "[PR#]Filter_Z_Items_Pickup",
+			"model": "maps/ze_ffvii_cosmo_canyon_v5_p/entities/cactuszm_z_stripknife_53121.vmdl",
+			"startdisabled": "False",
+			"wait": "1",
+			"uselocaloffset": "False",
+			"_template_lump_ent_index": "9",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "[PR#]script_cosmo",
+					"inputname": "RunScriptInput",
+					"overrideparam": "StripKnife",
+					"delay": 0,
+					"timestofire": 1
+				},
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "!self",
+					"inputname": "Kill",
+					"overrideparam": "",
+					"delay": 0,
+					"timestofire": 1
+				}
+			]
+		}
+	]
+}
