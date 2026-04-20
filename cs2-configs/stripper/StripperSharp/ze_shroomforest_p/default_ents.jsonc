@@ -1,0 +1,59 @@
+{
+	"modify": [
+		// Add stripper credit
+		{
+			"match": {
+				"classname": "point_servercommand",
+				"targetname": "[PR#]Server"
+			},
+			"insert": {
+				"connections": [
+					{
+						"output": "OnUser1",
+						"target": "!self",
+						"input": "Command",
+						"param": "say *** 双开门由 koen 修复 ***",
+						"delay": 5
+					}
+				]
+			}
+		},
+		// Fix incorrect door direction
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"hammeruniqueid": "292"
+			},
+			"insert": {
+				"spawnflags": "18"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"hammeruniqueid": "298"
+			},
+			"insert": {
+				"spawnflags": "16"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"hammeruniqueid": "304"
+			},
+			"insert": {
+				"spawnflags": "18"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"hammeruniqueid": "319"
+			},
+			"insert": {
+				"spawnflags": "16"
+			}
+		}
+	]
+}

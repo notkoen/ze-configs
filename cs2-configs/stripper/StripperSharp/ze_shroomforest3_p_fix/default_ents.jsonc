@@ -1,0 +1,167 @@
+{
+	"modify": [
+		// Add stripper credit
+		{
+			"match": {
+				"classname": "point_servercommand",
+				"targetname": "[PR#]Server"
+			},
+			"insert": {
+				"connections": [
+					{
+						"outputname": "OnUser1",
+						"targetname": "!self",
+						"inputname": "Command",
+						"overrideparam": "say *** 双开门由 koen 修复 ***",
+						"delay": 5
+					}
+				]
+			}
+		},
+		// Fix incorrect door direction
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"hammeruniqueid": "699"
+			},
+			"insert": {
+				"spawnflags": "16"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"hammeruniqueid": "1021"
+			},
+			"insert": {
+				"spawnflags": "16"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"hammeruniqueid": "1097"
+			},
+			"insert": {
+				"spawnflags": "16"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"hammeruniqueid": "1108"
+			},
+			"insert": {
+				"spawnflags": "16"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"hammeruniqueid": "1118"
+			},
+			"insert": {
+				"spawnflags": "16"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"hammeruniqueid": "2107"
+			},
+			"insert": {
+				"spawnflags": "16"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"hammeruniqueid": "2142"
+			},
+			"insert": {
+				"spawnflags": "16"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"hammeruniqueid": "2154"
+			},
+			"insert": {
+				"spawnflags": "16"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"hammeruniqueid": "1023"
+			},
+			"insert": {
+				"spawnflags": "18"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"hammeruniqueid": "1025"
+			},
+			"insert": {
+				"spawnflags": "18"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"hammeruniqueid": "1099"
+			},
+			"insert": {
+				"spawnflags": "18"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"hammeruniqueid": "1106"
+			},
+			"insert": {
+				"spawnflags": "18"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"hammeruniqueid": "1110"
+			},
+			"insert": {
+				"spawnflags": "18"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"hammeruniqueid": "2113"
+			},
+			"insert": {
+				"spawnflags": "18"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"hammeruniqueid": "2148"
+			},
+			"insert": {
+				"spawnflags": "18"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"hammeruniqueid": "2160"
+			},
+			"insert": {
+				"spawnflags": "18"
+			}
+		}
+	]
+}
