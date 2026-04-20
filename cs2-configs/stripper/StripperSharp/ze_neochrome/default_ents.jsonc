@@ -6,12 +6,12 @@
 				"classname": "logic_auto"
 			},
 			"insert": {
-				"io": [
+				"connections": [
 					{
-						"outputname": "OnMapSpawn",
-						"targetname": "[PR#]server",
-						"inputname": "Command",
-						"overrideparam": "say ***双开门及未隐形弹幕模型由 koen 修复 ***",
+						"output": "OnMapSpawn",
+						"target": "[PR#]server",
+						"input": "Command",
+						"param": "say *** 双开门及未隐形弹幕模型由 koen 修复 ***",
 						"delay": 5
 					}
 				]
@@ -23,7 +23,7 @@
 				"classname": "func_door_rotating",
 				"targetname": "[PR#]nut_door11_1"
 			},
-			"replace": {
+			"insert": {
 				"spawnflags": "4112"
 			}
 		},
@@ -32,7 +32,7 @@
 				"classname": "func_door_rotating",
 				"targetname": "[PR#]nut_door12_1"
 			},
-			"replace": {
+			"insert": {
 				"spawnflags": "4112"
 			}
 		},
@@ -41,7 +41,7 @@
 				"classname": "func_door_rotating",
 				"targetname": "[PR#]nut_door12_2"
 			},
-			"replace": {
+			"insert": {
 				"spawnflags": "4112"
 			}
 		},
@@ -50,7 +50,7 @@
 				"classname": "func_door_rotating",
 				"targetname": "[PR#]nut_door11_2"
 			},
-			"replace": {
+			"insert": {
 				"spawnflags": "4112"
 			}
 		}
