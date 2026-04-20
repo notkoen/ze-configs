@@ -16,7 +16,7 @@
 						"outputname": "OnMapSpawn",
 						"targetname": "[PR#]cmd",
 						"inputname": "Command",
-						"overrideparam": "say *** 把僵尸C4神器改回普通刀系统由koen做改变 ***",
+						"overrideparam": "say *** Converted C4 items back to knives by koen ***",
 						"delay": 5
 					}
 				]
