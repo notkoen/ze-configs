@@ -1,0 +1,31 @@
+{
+	"modify": [
+		// Add stripper credit
+		{
+			"match": {
+				"classname": "logic_auto"
+			},
+			"insert": {
+				"connections": [
+					{
+						"output": "OnMapSpawn",
+						"target": "[PR#]CONSOLE",
+						"input": "Command",
+						"param": "say *** 双开门由 koen 修复 ***",
+						"delay": 5,
+						"limit": 1
+					}
+				]
+			}
+		},
+		// Fix incorrect door direction
+		{
+			"match": {
+				"classname": "func_door_rotating"
+			},
+			"insert": {
+				"spawnflags": "48"
+			}
+		}
+	]
+}
