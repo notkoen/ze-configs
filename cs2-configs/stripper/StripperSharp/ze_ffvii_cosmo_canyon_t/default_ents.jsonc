@@ -6,12 +6,12 @@
 				"classname": "logic_auto"
 			},
 			"insert": {
-				"io": [
+				"connections": [
 					{
-						"outputname": "OnMapSpawn",
-						"targetname": "[PR#]cmd",
-						"inputname": "Command",
-						"overrideparam": "say *** 双开门及隐形模型由 koen 修复 ***",
+						"output": "OnMapSpawn",
+						"target": "[PR#]cmd",
+						"input": "Command",
+						"param": "say *** 双开门及隐形模型由 koen 修复 ***",
 						"delay": 5
 					}
 				]
@@ -22,7 +22,7 @@
 			"match": {
 				"classname": "func_door_rotating"
 			},
-			"replace": {
+			"insert": {
 				"spawnflags": "16"
 			}
 		},
@@ -32,7 +32,7 @@
 				"classname": "prop_dynamic",
 				"targetname": "[PR#]Jenova_Model"
 			},
-			"replace": {
+			"insert": {
 				"rendermode": "0"
 			}
 		},
@@ -41,7 +41,7 @@
 				"classname": "prop_dynamic",
 				"targetname": "[PR#]Genesis_Model"
 			},
-			"replace": {
+			"insert": {
 				"rendermode": "0"
 			}
 		},
@@ -50,7 +50,7 @@
 				"classname": "prop_dynamic",
 				"targetname": "[PR#]Shinra_Ifrit"
 			},
-			"replace": {
+			"insert": {
 				"rendermode": "0"
 			}
 		}
