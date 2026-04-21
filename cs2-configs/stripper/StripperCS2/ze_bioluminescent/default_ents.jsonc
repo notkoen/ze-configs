@@ -11,7 +11,7 @@
 						"outputname": "OnMapSpawn",
 						"targetname": "[PR#]cmd",
 						"inputname": "Command",
-						"overrideparam": "say >> Visible angle props fix by koen <<",
+						"overrideparam": "say *** 未隐形弹幕模型由 koen 修复 ***",
 						"delay": 5
 					}
 				]
