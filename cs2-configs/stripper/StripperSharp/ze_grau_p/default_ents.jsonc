@@ -1,0 +1,21 @@
+{
+	"modify": [
+		// Add stripper credit
+		{
+			"match": {
+				"classname": "logic_auto"
+			},
+			"insert": {
+				"connections": [
+					{
+						"output": "OnMapSpawn",
+						"target": "[PR#]sc",
+						"input": "Command",
+						"param": "say *** Boss激光方向由 koen 修复 ***",
+						"delay": 5
+					}
+				]
+			}
+		}
+	]
+}
