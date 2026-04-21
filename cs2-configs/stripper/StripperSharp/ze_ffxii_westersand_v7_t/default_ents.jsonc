@@ -7,12 +7,12 @@
 				"hammeruniqueid": "441"
 			},
 			"insert": {
-				"io": [
+				"connections": [
 					{
-						"outputname": "OnMapSpawn",
-						"targetname": "[PR#]Cmd",
-						"inputname": "Command",
-						"overrideparam": "say *** 双开门由 koen 修复 ***",
+						"output": "OnMapSpawn",
+						"target": "[PR#]Cmd",
+						"input": "Command",
+						"param": "say *** 双开门由 koen 修复 ***",
 						"delay": 5
 					}
 				]
@@ -24,7 +24,7 @@
 				"classname": "func_door_rotating",
 				"targetname": "[PR#]Airship_Door1"
 			},
-			"replace": {
+			"insert": {
 				"spawnflags": "16"
 			}
 		},
@@ -33,7 +33,7 @@
 				"classname": "func_door_rotating",
 				"targetname": "[PR#]Airship_Door2"
 			},
-			"replace": {
+			"insert": {
 				"spawnflags": "16"
 			}
 		},
@@ -42,7 +42,7 @@
 				"classname": "func_door_rotating",
 				"targetname": "[PR#]Airship_Jail1"
 			},
-			"replace": {
+			"insert": {
 				"spawnflags": "18"
 			}
 		},
@@ -51,7 +51,7 @@
 				"classname": "func_door_rotating",
 				"targetname": "[PR#]Airship_Jail2"
 			},
-			"replace": {
+			"insert": {
 				"spawnflags": "18"
 			}
 		}
