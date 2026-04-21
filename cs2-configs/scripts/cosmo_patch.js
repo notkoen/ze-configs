@@ -1,4 +1,4 @@
-import { Instance, BaseModelEntity, CSGearSlot as CSGearSlot$1, CSInputs } from 'cs_script/point_script';
+import { Instance, CSGearSlot as CSGearSlot$1, CSInputs } from 'cs_script/point_script';
 
 class MathUtils {
     static clamp(value, min, max) {
@@ -972,30 +972,30 @@ Instance.OnScriptInput("SpawnTP", (data) => {
     EntFire("steamid_filter", "TestActivator", "", 1, activator);
 });
 let vip_players = [];
-Instance.OnScriptInput("GiveSkin", (data) => {
-    const activator = data.activator;
-    if (activator.GetTeamNumber() !== Team.CT) {
-        return;
-    }
-    if (activator instanceof BaseModelEntity) {
-        if (!vip_players.includes(activator)) {
-            activator.default_skin = activator.GetModelName();
-            vip_players.push(activator);
-        }
-        activator.SetModel("models/tifa/tifa.vmdl");
-    }
-});
-Instance.OnScriptInput("RemoveSkin", (data) => {
-    const activator = data.activator;
-    for (const p of vip_players) {
-        if (activator === p) {
-            if (activator instanceof BaseModelEntity) {
-                activator.SetModel(p.default_skin);
-            }
-            return;
-        }
-    }
-});
+// Instance.OnScriptInput("GiveSkin", (data) => {
+//     const activator = data.activator as CSPlayerPawn;
+//     if (activator.GetTeamNumber() !== Team.CT) {
+//         return;
+//     }
+//     if (activator instanceof BaseModelEntity) {
+//         if (!vip_players.includes(activator)) {
+//             activator.default_skin = activator.GetModelName();
+//             vip_players.push(activator);
+//         }
+//         activator.SetModel("models/tifa/tifa.vmdl");
+//     }
+// })
+// Instance.OnScriptInput("RemoveSkin", (data) => {
+//     const activator = data.activator as CSPlayerPawn;
+//     for (const p of vip_players) {
+//         if (activator === p) {
+//             if (activator instanceof BaseModelEntity) {
+//                 activator.SetModel(p.default_skin);
+//             }
+//             return;
+//         }
+//     }
+// })
 // ITEM HANDLING \\
 const item_tickrate = 0.02;
 let human_items = [];
@@ -1134,7 +1134,7 @@ let item_origin_temp;
 const sleep_wind_origin = [
     new Origin(new Vec3(-1596, -964, 1089), new Euler(0, 270, 0)),
     new Origin(new Vec3(-1992, -2848, 1490), new Euler(0, 0, 0)),
-    new Origin(new Vec3(2020, -2718, 88), new Euler(0, 0, 0)),
+    new Origin(new Vec3(2020, -2718, 120), new Euler(0, 0, 0)),
     new Origin(new Vec3(-4794, -4080, 1880), new Euler(0, 0, 0)),
     new Origin(new Vec3(-5188, -1476, 1992), new Euler(0, 270, 0)),
     new Origin(new Vec3(-6768, -1680, 1651), new Euler(0, 0, 0)),
@@ -1187,11 +1187,11 @@ Instance.OnScriptInput("SpawnSleepWind", () => {
 });
 Instance.OnScriptInput("SpawnZMPoison", () => {
     const t = Instance.FindEntityByName("Weapon_Z_Poison_Temp");
-    t.ForceSpawn(new Vec3(-2118, -734, 1232));
+    t.ForceSpawn(new Vec3(-2118, -734, 1250));
 });
 const zm_fire_ice_origin = [
-    new Vec3(6192, -1727, 232),
-    new Vec3(6128, -3336, 228),
+    new Vec3(6192, -1727, 250),
+    new Vec3(6128, -3336, 246),
 ];
 let zm_fire_ice_origin_temp = [...zm_fire_ice_origin];
 Instance.OnScriptInput("SpawnZMFire", () => {
@@ -1213,8 +1213,8 @@ Instance.OnScriptInput("SpawnZMIce", () => {
     t.ForceSpawn(origin);
 });
 const zm_confuse_origin = [
-    new Vec3(3272, -3390, 124),
-    new Vec3(-2280, -2132, 1685)
+    new Vec3(3272, -3390, 142),
+    new Vec3(-2280, -2132, 1715)
 ];
 Instance.OnScriptInput("SpawnZMConfuse", () => {
     const t = Instance.FindEntityByName("Item_Z_Confuse_itemtemp");
