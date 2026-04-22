@@ -1,0 +1,14 @@
+{
+	"modify": [
+		// Offset item position after AG2 update
+		{
+			"match": {
+				"classname": "prop_dynamic",
+				"targetname": "[PR#]Chocobo_Human"
+			},
+			"insert": {
+				"origin": "4.000000 0.000000 -64.000000"
+			}
+		}
+	]
+}

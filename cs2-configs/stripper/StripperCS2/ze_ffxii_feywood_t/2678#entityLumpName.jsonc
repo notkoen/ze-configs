@@ -1,0 +1,32 @@
+{
+	"modify": [
+		// Offset item position after AG2 update
+		{
+			"match": {
+				"classname": "info_particle_system",
+				"targetname": "[PR#]Weapon_Z_Darkaga_Effect"
+			},
+			"replace": {
+				"origin": "23.000000 0.000000 0.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "info_particle_system",
+				"targetname": "[PR#]Item_Z_Darkaga_Effect"
+			},
+			"replace": {
+				"origin": "-11.000000 0.000000 -30.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_button",
+				"targetname": "[PR#]Item_Z_Darkaga_Button"
+			},
+			"replace": {
+				"origin": "19.000000 0.000000 16.000000"
+			}
+		}
+	]
+}

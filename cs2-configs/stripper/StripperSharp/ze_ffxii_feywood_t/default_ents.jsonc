@@ -6,12 +6,12 @@
 				"classname": "logic_auto"
 			},
 			"insert": {
-				"io": [
+				"connections": [
 					{
-						"outputname": "OnMapSpawn",
-						"targetname": "[PR#]cmd",
-						"inputname": "Command",
-						"overrideparam": "say *** 双开门及神器高度由 koen 修复 ***",
+						"output": "OnMapSpawn",
+						"target": "[PR#]cmd",
+						"input": "Command",
+						"param": "say *** 双开门及神器高度由 koen 修复 ***",
 						"delay": 7
 					}
 				]
@@ -23,7 +23,7 @@
 				"classname": "func_door_rotating",
 				"targetname": "[PR#]Chuchulainn_Gate"
 			},
-			"replace": {
+			"insert": {
 				"spawnflags": "16"
 			}
 		},
@@ -32,7 +32,7 @@
 				"classname": "func_door_rotating",
 				"targetname": "[PR#]lvl4_End_Door_2"
 			},
-			"replace": {
+			"insert": {
 				"spawnflags": "1168"
 			}
 		},
@@ -41,7 +41,7 @@
 				"classname": "func_door_rotating",
 				"targetname": "[PR#]lvl4_End_Door"
 			},
-			"replace": {
+			"insert": {
 				"spawnflags": "1168"
 			}
 		}

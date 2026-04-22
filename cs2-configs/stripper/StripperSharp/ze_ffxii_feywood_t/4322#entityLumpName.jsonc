@@ -1,0 +1,77 @@
+{
+	"modify": [
+		// Offset item position after AG2 update
+		{
+			"match": {
+				"classname": "info_particle_system",
+				"targetname": "[PR#]Weapon_Berserk_Effect"
+			},
+			"insert": {
+				"origin": "32.000000 -2.000000 -8.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "info_particle_system",
+				"targetname": "[PR#]Weapon_Berserk_Add_Speed"
+			},
+			"insert": {
+				"origin": "32.000000 0.000000 -8.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_button",
+				"targetname": "[PR#]Item_Berserk_Button"
+			},
+			"insert": {
+				"origin": "24.000000 -2.000000 20.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "env_entity_maker",
+				"targetname": "[PR#]Item_Berserk_Spawner_Ammo"
+			},
+			"insert": {
+				"origin": "18.000000 0.000000 -32.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "info_particle_system",
+				"targetname": "[PR#]Weapon_Berserk_Add_Ammo"
+			},
+			"insert": {
+				"origin": "32.000000 -2.000000 -8.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "env_entity_maker",
+				"targetname": "[PR#]Item_Berserk_Spawner_Speed"
+			},
+			"insert": {
+				"origin": "18.000000 0.000000 -32.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_button",
+				"targetname": "[PR#]Item_Berserk_Switch"
+			},
+			"insert": {
+				"origin": "0.000000 -2.000000 44.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]Item_Berserk_Check"
+			},
+			"insert": {
+				"origin": "0.000000 -2.000000 0.000000"
+			}
+		}
+	]
+}

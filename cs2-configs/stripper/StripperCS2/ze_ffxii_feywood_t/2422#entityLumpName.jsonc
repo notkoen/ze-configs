@@ -1,0 +1,50 @@
+{
+	"modify": [
+		// Offset item position after AG2 update
+		{
+			"match": {
+				"classname": "info_particle_system",
+				"targetname": "[PR#]Weapon_Fire_Effect"
+			},
+			"replace": {
+				"origin": "32.000000 -2.000000 -8.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_button",
+				"targetname": "[PR#]Item_Fire_Button"
+			},
+			"replace": {
+				"origin": "24.000000 -2.000000 16.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "env_entity_maker",
+				"targetname": "[PR#]Item_Fire_Spawner_lvl1"
+			},
+			"replace": {
+				"origin": "18.000000 1.000000 -36.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "env_entity_maker",
+				"targetname": "[PR#]Item_Fire_Spawner_lvl2"
+			},
+			"replace": {
+				"origin": "18.000000 1.000000 -36.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "env_entity_maker",
+				"targetname": "[PR#]Item_Fire_Spawner_lvl3"
+			},
+			"replace": {
+				"origin": "18.000000 0.000000 -36.000000"
+			}
+		}
+	]
+}

@@ -1,0 +1,50 @@
+{
+	"modify": [
+		// Offset item position after AG2 update
+		{
+			"match": {
+				"classname": "info_particle_system",
+				"targetname": "[PR#]Weapon_Z_Fire_Effect"
+			},
+			"insert": {
+				"origin": "28.000000 -1.000000 -12.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_button",
+				"targetname": "[PR#]Item_Z_Fire_Button"
+			},
+			"insert": {
+				"origin": "19.000000 -1.000000 16.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "info_particle_system",
+				"targetname": "[PR#]Item_Z_Fire_Effect_lvl1"
+			},
+			"insert": {
+				"origin": "-5.000000 0.000000 -32.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "info_particle_system",
+				"targetname": "[PR#]Item_Z_Fire_Effect_lvl2"
+			},
+			"insert": {
+				"origin": "-5.000000 0.000000 -32.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "info_particle_system",
+				"targetname": "[PR#]Item_Z_Fire_Effect_lvl3"
+			},
+			"insert": {
+				"origin": "-5.000000 0.000000 -32.000000"
+			}
+		}
+	]
+}
