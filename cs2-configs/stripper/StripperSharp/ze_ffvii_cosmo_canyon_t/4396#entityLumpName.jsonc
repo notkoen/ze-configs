@@ -1,0 +1,32 @@
+{
+	"modify": [
+		// Offset item position after AG2 update
+		{
+			"match": {
+				"classname": "weapon_elite",
+				"targetname": "[PR#]Weapon_Electro"
+			},
+			"insert": {
+				"origin": "0.000000 0.000000 34.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "env_entity_maker",
+				"targetname": "[PR#]Item_Electro_Spawner"
+			},
+			"insert": {
+				"origin": "18.000000 0.000000 0.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_button",
+				"targetname": "[PR#]Item_Electro_Button"
+			},
+			"insert": {
+				"origin": "24.000000 0.000000 40.000000"
+			}
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"modify": [
+		// Offset item position after AG2 update
+		{
+			"match": {
+				"classname": "weapon_knife",
+				"targetname": "[PR#]Weapon_Z_Poison"
+			},
+			"replace": {
+				"origin": "0.000000 0.000000 33.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]Weapon_Z_Poison_Pickup"
+			},
+			"replace": {
+				"origin": "5.000000 0.000000 36.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_button",
+				"targetname": "[PR#]Item_Z_Poison_Button"
+			},
+			"replace": {
+				"origin": "19.000000 0.000000 40.000000"
+			}
+		}
+	]
+}

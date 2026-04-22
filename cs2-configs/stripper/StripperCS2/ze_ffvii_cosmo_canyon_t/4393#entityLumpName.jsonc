@@ -1,0 +1,32 @@
+{
+	"modify": [
+		// Offset item position after AG2 update
+		{
+			"match": {
+				"classname": "weapon_knife",
+				"targetname": "[PR#]Item_Z_Confuse_knife"
+			},
+			"replace": {
+				"origin": "-1.000000 0.000000 41.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]Item_Z_Confuse_Stripper"
+			},
+			"replace": {
+				"origin": "6.000000 0.000000 43.500000"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_button",
+				"targetname": "[PR#]Item_Z_Confuse_button"
+			},
+			"replace": {
+				"origin": "23.000000 0.000000 47.000000"
+			}
+		}
+	]
+}

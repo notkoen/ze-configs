@@ -1,0 +1,23 @@
+{
+	"modify": [
+		// Offset item position after AG2 update
+		{
+			"match": {
+				"classname": "weapon_elite",
+				"targetname": "[PR#]Weapon_Potion"
+			},
+			"replace": {
+				"origin": "0.000000 0.000000 36.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_button",
+				"targetname": "[PR#]Potion_Button"
+			},
+			"replace": {
+				"origin": "0.000000 -24.000000 40.000000"
+			}
+		}
+	]
+}

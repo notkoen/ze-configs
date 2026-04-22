@@ -1,0 +1,41 @@
+{
+	"modify": [
+		// Offset item position after AG2 update
+		{
+			"match": {
+				"classname": "weapon_knife",
+				"targetname": "[PR#]Weapon_Z_Ice"
+			},
+			"replace": {
+				"origin": "0.000000 0.000000 33.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]Weapon_Z_Ice_Pickup"
+			},
+			"replace": {
+				"origin": "5.000000 0.000000 36.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_button",
+				"targetname": "[PR#]Item_Z_Ice_Button"
+			},
+			"replace": {
+				"origin": "19.000000 0.000000 40.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "info_particle_system",
+				"targetname": "[PR#]Weapon_Z_Ice_Effect"
+			},
+			"replace": {
+				"origin": "21.000000 0.000000 24.000000"
+			}
+		}
+	]
+}

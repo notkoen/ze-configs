@@ -1,0 +1,32 @@
+{
+	"modify": [
+		// Offset item position after AG2 update
+		{
+			"match": {
+				"classname": "weapon_elite",
+				"targetname": "[PR#]Weapon_Wind"
+			},
+			"replace": {
+				"origin": "0.000000 0.000000 34.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "info_particle_system",
+				"targetname": "[PR#]Item_Wind_Effect"
+			},
+			"replace": {
+				"origin": "2.000000 0.000000 0.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_button",
+				"targetname": "[PR#]Item_Wind_Button"
+			},
+			"replace": {
+				"origin": "24.000000 0.000000 40.000000"
+			}
+		}
+	]
+}

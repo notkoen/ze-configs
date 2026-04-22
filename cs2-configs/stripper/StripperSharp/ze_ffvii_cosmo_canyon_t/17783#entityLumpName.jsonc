@@ -1,0 +1,23 @@
+{
+	"modify": [
+		// Offset item position after AG2 update
+		{
+			"match": {
+				"classname": "weapon_knife",
+				"targetname": "[PR#]CactusZM_Z_Knife"
+			},
+			"insert": {
+				"origin": "0.000000 0.000000 36.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]CactusZM_Z_Pickup"
+			},
+			"insert": {
+				"origin": "0.010010 -4.989990 36.000000"
+			}
+		}
+	]
+}
