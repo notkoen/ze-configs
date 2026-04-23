@@ -323,7 +323,7 @@ Find entity classnames that are either `math_counter`, `func_breakable`, or `fun
 
 ### AdminRoom
 
-The AdminRoom feature is exclusive to GFL's version of CS2Fixes. All admin room coordindates are stored in one single [file](https://github.com/notkoen/ze-configs/blob/main/cs2-configs/adminroom.jsonc). Coordinates are stored with map names as the key, and coordinates as an array.
+The AdminRoom feature is exclusive to GFL's version of CS2Fixes. All admin room coordindates are stored in one single [file](https://github.com/notkoen/ze-configs/blob/main/cs2-configs/cs2fixes/adminroom.jsonc). Coordinates are stored with map names as the key, and coordinates as an array.
 
 ## EXG
 
