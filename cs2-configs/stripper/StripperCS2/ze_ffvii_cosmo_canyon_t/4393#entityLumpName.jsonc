@@ -31,18 +31,12 @@
 		// Fix weapon strip
 		{
 			"match": {
-				"classname": "trigger_multiple",
 				"targetname": "[PR#]Item_Z_Confuse_Stripper"
 			},
 			"delete": {
 				"io": [
 					{
-						"outputname": "OnTrigger",
-						"targetname": "[PR#]Strip_Knife",
-						"inputname": "Trigger",
-						"overrideparam": "",
-						"delay": 0,
-						"timestofire": -1
+						"targetname": "[PR#]Strip_Knife"
 					}
 				]
 			},

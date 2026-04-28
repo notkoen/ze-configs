@@ -22,18 +22,12 @@
 		// Fix weapon strip
 		{
 			"match": {
-				"classname": "trigger_multiple",
 				"targetname": "[PR#]CactusZM_Z_Pickup"
 			},
 			"delete": {
 				"io": [
 					{
-						"outputname": "OnTrigger",
-						"targetname": "[PR#]Strip_Knife",
-						"inputname": "Trigger",
-						"overrideparam": "",
-						"delay": 0,
-						"timestofire": -1
+						"targetname": "[PR#]Strip_Knife"
 					}
 				]
 			},
