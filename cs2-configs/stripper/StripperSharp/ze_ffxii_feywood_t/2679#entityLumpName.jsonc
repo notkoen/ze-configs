@@ -45,6 +45,39 @@
 			"insert": {
 				"origin": "-5.000000 0.000000 -32.000000"
 			}
+		},
+		// Fix weapon strip
+		{
+			"match": {
+				"targetname": "[PR#]Weapon_Z_Warp_Pickup"
+			},
+			"delete": {
+				"connections": [
+					{
+						"target": "[PR#]Strip_Knife"
+					}
+				]
+			},
+			"insert": {
+				"connections": [
+					{
+						"output": "OnTrigger",
+						"target": "[PR#]Map_Stripper",
+						"input": "Use",
+						"param": "",
+						"delay": 0,
+						"limit": -1
+					},
+					{
+						"output": "OnTrigger",
+						"target": "!self",
+						"input": "Kill",
+						"param": "",
+						"delay": 0.05,
+						"limit": -1
+					}
+				]
+			}
 		}
 	]
 }
