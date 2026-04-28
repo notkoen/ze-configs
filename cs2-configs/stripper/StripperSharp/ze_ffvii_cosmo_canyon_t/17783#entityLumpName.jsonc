@@ -3,20 +3,54 @@
 		// Offset item position after AG2 update
 		{
 			"match": {
-				"classname": "weapon_knife",
-				"targetname": "[PR#]CactusZM_Z_Knife"
+				"classname": "prop_dynamic",
+				"targetname": "[PR#]CactusZM_Z"
 			},
 			"insert": {
-				"origin": "0.000000 0.000000 36.000000"
+				"origin": "0.000000 26.000000 -40.000000"
 			}
 		},
 		{
 			"match": {
 				"classname": "trigger_multiple",
-				"targetname": "[PR#]CactusZM_Z_Pickup"
+				"targetname": "[PR#]CactusZM_Z_Speed_Gain"
 			},
 			"insert": {
-				"origin": "0.010010 -4.989990 36.000000"
+				"origin": "0.000000 -4.000000 -8.000000"
+			}
+		},
+		// Fix weapon strip
+		{
+			"match": {
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]CactusZM_Z_Pickup"
+			},
+			"delete": {
+				"connections": [
+					{
+						"target": "[PR#]Strip_Knife"
+					}
+				]
+			},
+			"insert": {
+				"connections": [
+					{
+						"output": "OnTrigger",
+						"target": "[PR#]Map_Stripper",
+						"input": "Use",
+						"param": "",
+						"delay": 0,
+						"limit": -1
+					},
+					{
+						"output": "OnTrigger",
+						"target": "!self",
+						"input": "Kill",
+						"param": "",
+						"delay": 0.05,
+						"limit": -1
+					}
+				]
 			}
 		}
 	]

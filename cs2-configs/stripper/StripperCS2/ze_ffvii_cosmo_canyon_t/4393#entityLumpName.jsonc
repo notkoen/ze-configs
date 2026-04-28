@@ -3,29 +3,68 @@
 		// Offset item position after AG2 update
 		{
 			"match": {
-				"classname": "weapon_knife",
-				"targetname": "[PR#]Item_Z_Confuse_knife"
+				"classname": "func_button",
+				"targetname": "[PR#]Item_Z_Confuse_button"
 			},
 			"replace": {
-				"origin": "-1.000000 0.000000 41.000000"
+				"origin": "23.000000 0.000000 24.000000"
 			}
 		},
+		{
+			"match": {
+				"classname": "info_particle_system",
+				"targetname": "[PR#]Item_Z_Confuse_eff"
+			},
+			"replace": {
+				"origin": "23.000000 0.000000 4.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "info_particle_system",
+				"targetname": "[PR#]Item_Z_Confuse_particle"
+			},
+			"replace": {
+				"origin": "0.000000 0.000000 -32.000000"
+			}
+		},
+		// Fix weapon strip
 		{
 			"match": {
 				"classname": "trigger_multiple",
 				"targetname": "[PR#]Item_Z_Confuse_Stripper"
 			},
-			"replace": {
-				"origin": "6.000000 0.000000 43.500000"
-			}
-		},
-		{
-			"match": {
-				"classname": "func_button",
-				"targetname": "[PR#]Item_Z_Confuse_button"
+			"delete": {
+				"io": [
+					{
+						"outputname": "OnTrigger",
+						"targetname": "[PR#]Strip_Knife",
+						"inputname": "Trigger",
+						"overrideparam": "",
+						"delay": 0,
+						"timestofire": -1
+					}
+				]
 			},
-			"replace": {
-				"origin": "23.000000 0.000000 47.000000"
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnTrigger",
+						"targetname": "[PR#]Map_Stripper",
+						"inputname": "Use",
+						"overrideparam": "",
+						"delay": 0,
+						"timestofire": -1
+					},
+					{
+						"outputname": "OnTrigger",
+						"targetname": "!self",
+						"inputname": "Kill",
+						"overrideparam": "",
+						"delay": 0.05,
+						"timestofire": -1
+					}
+				]
 			}
 		}
 	]

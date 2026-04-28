@@ -3,20 +3,11 @@
 		// Offset item position after AG2 update
 		{
 			"match": {
-				"classname": "weapon_knife",
-				"targetname": "[PR#]Weapon_Z_Ice"
+				"classname": "info_particle_system",
+				"targetname": "[PR#]Weapon_Z_Ice_Effect"
 			},
 			"insert": {
-				"origin": "0.000000 0.000000 33.000000"
-			}
-		},
-		{
-			"match": {
-				"classname": "trigger_multiple",
-				"targetname": "[PR#]Weapon_Z_Ice_Pickup"
-			},
-			"insert": {
-				"origin": "5.000000 0.000000 36.000000"
+				"origin": "32.000000 0.000000 -8.000000"
 			}
 		},
 		{
@@ -25,16 +16,59 @@
 				"targetname": "[PR#]Item_Z_Ice_Button"
 			},
 			"insert": {
-				"origin": "19.000000 0.000000 40.000000"
+				"origin": "19.000000 0.000000 16.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "trigger_hurt",
+				"targetname": "[PR#]Item_Z_Ice_Trigger"
+			},
+			"insert": {
+				"origin": "-11.000000 0.000000 0.000000"
 			}
 		},
 		{
 			"match": {
 				"classname": "info_particle_system",
-				"targetname": "[PR#]Weapon_Z_Ice_Effect"
+				"targetname": "[PR#]Item_Z_Ice_Effect"
 			},
 			"insert": {
-				"origin": "21.000000 0.000000 24.000000"
+				"origin": "0.000000 0.000000 -32.000000"
+			}
+		},
+		// Fix weapon strip
+		{
+			"match": {
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]Weapon_Z_Ice_Pickup"
+			},
+			"delete": {
+				"connections": [
+					{
+						"target": "[PR#]Strip_Knife"
+					}
+				]
+			},
+			"insert": {
+				"connections": [
+					{
+						"output": "OnTrigger",
+						"target": "[PR#]Map_Stripper",
+						"input": "Use",
+						"param": "",
+						"delay": 0,
+						"limit": -1
+					},
+					{
+						"output": "OnTrigger",
+						"target": "!self",
+						"input": "Kill",
+						"param": "",
+						"delay": 0.05,
+						"limit": -1
+					}
+				]
 			}
 		}
 	]
