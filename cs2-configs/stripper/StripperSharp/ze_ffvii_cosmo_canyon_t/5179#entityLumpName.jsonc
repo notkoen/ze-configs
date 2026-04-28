@@ -3,11 +3,20 @@
 		// Offset item position after AG2 update
 		{
 			"match": {
-				"classname": "weapon_elite",
-				"targetname": "[PR#]Weapon_Wind"
+				"classname": "func_button",
+				"targetname": "[PR#]Item_Wind_Button"
 			},
 			"insert": {
-				"origin": "0.000000 0.000000 34.000000"
+				"origin": "24.000000 0.000000 16.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "info_particle_system",
+				"targetname": "[PR#]Weapon_Wind_Effect"
+			},
+			"insert": {
+				"origin": "33.000000 0.000000 0.000000"
 			}
 		},
 		{
@@ -16,16 +25,7 @@
 				"targetname": "[PR#]Item_Wind_Effect"
 			},
 			"insert": {
-				"origin": "2.000000 0.000000 0.000000"
-			}
-		},
-		{
-			"match": {
-				"classname": "func_button",
-				"targetname": "[PR#]Item_Wind_Button"
-			},
-			"insert": {
-				"origin": "24.000000 0.000000 40.000000"
+				"origin": "2.000000 0.000000 -48.000000"
 			}
 		}
 	]

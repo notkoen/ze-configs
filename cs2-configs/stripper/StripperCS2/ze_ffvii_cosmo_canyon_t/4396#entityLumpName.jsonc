@@ -3,11 +3,20 @@
 		// Offset item position after AG2 update
 		{
 			"match": {
-				"classname": "weapon_elite",
-				"targetname": "[PR#]Weapon_Electro"
+				"classname": "func_button",
+				"targetname": "[PR#]Item_Electro_Button"
 			},
 			"replace": {
-				"origin": "0.000000 0.000000 34.000000"
+				"origin": "24.000000 0.000000 16.000000"
+			}
+		},
+		{
+			"match": {
+				"classname": "info_particle_system",
+				"targetname": "[PR#]Weapon_Electro_Effect"
+			},
+			"replace": {
+				"origin": "33.000000 0.000000 0.000000"
 			}
 		},
 		{
@@ -16,16 +25,16 @@
 				"targetname": "[PR#]Item_Electro_Spawner"
 			},
 			"replace": {
-				"origin": "18.000000 0.000000 0.000000"
+				"origin": "18.000000 0.000000 -16.000000"
 			}
 		},
 		{
 			"match": {
-				"classname": "func_button",
-				"targetname": "[PR#]Item_Electro_Button"
+				"classname": "info_particle_system",
+				"targetname": "[PR#]Beam_Electro"
 			},
 			"replace": {
-				"origin": "24.000000 0.000000 40.000000"
+				"origin": "33.000000 0.000000 0.000000"
 			}
 		}
 	]
