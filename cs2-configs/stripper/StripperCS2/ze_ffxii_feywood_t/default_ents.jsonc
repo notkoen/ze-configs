@@ -11,7 +11,7 @@
 						"outputname": "OnMapSpawn",
 						"targetname": "[PR#]cmd",
 						"inputname": "Command",
-						"overrideparam": "say *** 双开门及神器高度由 koen 修复 ***",
+						"overrideparam": "say *** Door direction, item height, and strip trigger fixed by koen ***",
 						"delay": 7
 					}
 				]
@@ -44,6 +44,36 @@
 			"replace": {
 				"spawnflags": "1168"
 			}
+		},
+		// Fix weapon strip
+		{
+			"match": {
+				"targetname": "[PR#]Map_Stripper"
+			},
+			"replace": {
+				"classname": "game_player_equip"
+			},
+			"insert": {
+				"spawnflags": "3"
+			}
+		}
+	],
+	"filter": [
+		// Remove old strip entities
+		{
+			"targetname": "[PR#]Knife_Stripper_Maker"
+		},
+		{
+			"targetname": "[PR#]Knife_Stripper_Template"
+		},
+		{
+			"targetname": "[PR#]Knife_Strip"
+		},
+		{
+			"targetname": "[PR#]Strip_Knife"
+		},
+		{
+			"targetname": "[PR#]Knife_Stripper_Teleport"
 		}
 	]
 }

@@ -27,6 +27,39 @@
 			"insert": {
 				"origin": "-5.000000 0.000000 -40.000000"
 			}
+		},
+		// Fix weapon strip
+		{
+			"match": {
+				"targetname": "[PR#]Weapon_Z_Heal_Pickup"
+			},
+			"delete": {
+				"connections": [
+					{
+						"target": "[PR#]Strip_Knife"
+					}
+				]
+			},
+			"insert": {
+				"connections": [
+					{
+						"output": "OnTrigger",
+						"targetname": "[PR#]Map_Stripper",
+						"input": "Use",
+						"param": "",
+						"delay": 0,
+						"limit": -1
+					},
+					{
+						"output": "OnTrigger",
+						"targetname": "!self",
+						"input": "Kill",
+						"param": "",
+						"delay": 0.05,
+						"limit": -1
+					}
+				]
+			}
 		}
 	]
 }
