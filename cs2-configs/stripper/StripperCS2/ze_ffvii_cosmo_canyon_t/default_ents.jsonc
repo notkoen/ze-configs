@@ -71,19 +71,18 @@
 	"filter": [
 		// Remove old strip entities
 		{
-			"classname": "point_entity_finder",
+			"targetname": "[PR#]Knife_Stripper_Maker"
+		},
+		{
 			"targetname": "[PR#]Knife_Strip"
 		},
 		{
-			"classname": "logic_relay",
 			"targetname": "[PR#]Strip_Knife"
 		},
 		{
-			"classname": "point_template",
 			"targetname": "[PR#]Knife_Stripper_Template"
 		},
 		{
-			"classname": "point_teleport",
 			"targetname": "[PR#]Knife_Stripper_Teleport"
 		}
 	]
