@@ -1,0 +1,46 @@
+{
+	"modify": [
+		// Fix weapon strip
+		{
+			"match": {
+				"targetname": "[PR#]Knife_Blind_Stripper"
+			},
+			"delete": {
+				"connections": [
+					{
+						"target": "[PR#]Strip_Knife"
+					}
+				]
+			},
+			"insert": {
+				"connections": [
+					{
+						"output": "OnTrigger",
+						"target": "[PR#]Map_Stripper",
+						"input": "Use",
+						"param": "",
+						"delay": 0,
+						"limit": 1
+					}
+				]
+			}
+		},
+		// Offset weapon height after AG2 update
+		{
+			"match": {
+				"targetname": "[PR#]Knife_Blind_Particle_1"
+			},
+			"insert": {
+				"origin": "-16.000000 0.000000 0.000000"
+			}
+		},
+		{
+			"match": {
+				"targetname": "[PR#]Knife_Blind_Particle_2"
+			},
+			"insert": {
+				"origin": "-16.000000 0.000000 -16.000000"
+			}
+		}
+	]
+}

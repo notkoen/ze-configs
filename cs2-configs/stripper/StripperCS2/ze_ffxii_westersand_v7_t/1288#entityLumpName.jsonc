@@ -1,0 +1,50 @@
+{
+	"modify": [
+		// Fix weapon strip
+		{
+			"match": {
+				"targetname": "[PR#]Knife_Invis_Stripper"
+			},
+			"delete": {
+				"io": [
+					{
+						"targetname": "[PR#]Strip_Knife"
+					}
+				]
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnTrigger",
+						"targetname": "[PR#]Map_Stripper",
+						"inputname": "Use",
+						"overrideparam": "",
+						"delay": 0,
+						"timestofire": 1
+					}
+				]
+			}
+		},
+		// Offset weapon height after AG2 update
+		{
+			"match": {
+				"targetname": "[PR#]Knife_Invis_Particle_1"
+			},
+			"replace": {
+				"origin": "-16.000000 0.000000 0.000000"
+			}
+		}
+	],
+	"filter": [
+		// Remove old strip entities
+		{
+			"targetname": "[PR#]Knife_Invis_Finder"
+		},
+		{
+			"targetname": "[PR#]Knife_Invis_Finder_Filter"
+		},
+		{
+			"targetname": "[PR#]Knife_Invis_Knife_Filter"
+		}
+	]
+}
