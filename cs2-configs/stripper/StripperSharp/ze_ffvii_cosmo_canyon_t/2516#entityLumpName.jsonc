@@ -3,7 +3,6 @@
 		// Fix incorrect rendermode
 		{
 			"match": {
-				"classname": "prop_dynamic",
 				"targetname": "[PR#]Baha_Model"
 			},
 			"insert": {

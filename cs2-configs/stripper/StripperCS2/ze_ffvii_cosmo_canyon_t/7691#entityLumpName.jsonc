@@ -3,7 +3,6 @@
 		// Offset item position after AG2 update
 		{
 			"match": {
-				"classname": "info_particle_system",
 				"targetname": "[PR#]Weapon_Z_Poison_Effect"
 			},
 			"replace": {
@@ -12,7 +11,6 @@
 		},
 		{
 			"match": {
-				"classname": "func_button",
 				"targetname": "[PR#]Item_Z_Poison_Button"
 			},
 			"replace": {
@@ -21,7 +19,6 @@
 		},
 		{
 			"match": {
-				"classname": "trigger_hurt",
 				"targetname": "[PR#]Item_Z_Poison_Trigger"
 			},
 			"replace": {
@@ -30,7 +27,6 @@
 		},
 		{
 			"match": {
-				"classname": "info_particle_system",
 				"targetname": "[PR#]Item_Z_Poison_Effect"
 			},
 			"replace": {
@@ -56,8 +52,8 @@
 						"targetname": "[PR#]Map_Stripper",
 						"inputname": "Use",
 						"overrideparam": "",
-						"delay": 0,
-						"timestofire": -1
+						"delay": 0.0,
+						"timestofire": 1
 					},
 					{
 						"outputname": "OnTrigger",
@@ -65,7 +61,7 @@
 						"inputname": "Kill",
 						"overrideparam": "",
 						"delay": 0.05,
-						"timestofire": -1
+						"timestofire": 1
 					}
 				]
 			}

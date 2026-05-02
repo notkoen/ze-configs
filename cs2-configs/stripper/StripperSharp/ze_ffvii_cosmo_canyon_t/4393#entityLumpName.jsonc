@@ -3,7 +3,6 @@
 		// Offset item position after AG2 update
 		{
 			"match": {
-				"classname": "func_button",
 				"targetname": "[PR#]Item_Z_Confuse_button"
 			},
 			"insert": {
@@ -12,7 +11,6 @@
 		},
 		{
 			"match": {
-				"classname": "info_particle_system",
 				"targetname": "[PR#]Item_Z_Confuse_eff"
 			},
 			"insert": {
@@ -21,7 +19,6 @@
 		},
 		{
 			"match": {
-				"classname": "info_particle_system",
 				"targetname": "[PR#]Item_Z_Confuse_particle"
 			},
 			"insert": {
@@ -31,7 +28,6 @@
 		// Fix weapon strip
 		{
 			"match": {
-				"classname": "trigger_multiple",
 				"targetname": "[PR#]Item_Z_Confuse_Stripper"
 			},
 			"delete": {
@@ -48,8 +44,8 @@
 						"target": "[PR#]Map_Stripper",
 						"input": "Use",
 						"param": "",
-						"delay": 0,
-						"limit": -1
+						"delay": 0.0,
+						"limit": 1
 					},
 					{
 						"output": "OnTrigger",
@@ -57,7 +53,7 @@
 						"input": "Kill",
 						"param": "",
 						"delay": 0.05,
-						"limit": -1
+						"limit": 1
 					}
 				]
 			}

@@ -3,7 +3,6 @@
 		// Offset item position after AG2 update
 		{
 			"match": {
-				"classname": "info_particle_system",
 				"targetname": "[PR#]Weapon_Z_Fire_Effect"
 			},
 			"insert": {
@@ -12,7 +11,6 @@
 		},
 		{
 			"match": {
-				"classname": "func_button",
 				"targetname": "[PR#]Item_Z_Fire_Button"
 			},
 			"insert": {
@@ -21,7 +19,6 @@
 		},
 		{
 			"match": {
-				"classname": "trigger_hurt",
 				"targetname": "[PR#]Item_Z_Fire_Trigger"
 			},
 			"insert": {
@@ -30,7 +27,6 @@
 		},
 		{
 			"match": {
-				"classname": "info_particle_system",
 				"targetname": "[PR#]Item_Z_Fire_Effect"
 			},
 			"insert": {
@@ -40,18 +36,12 @@
 		// Fix weapon strip
 		{
 			"match": {
-				"classname": "trigger_multiple",
 				"targetname": "[PR#]Weapon_Z_Fire_Pickup"
 			},
 			"delete": {
 				"connections": [
 					{
-						"output": "OnTrigger",
-						"target": "[PR#]Strip_Knife",
-						"input": "Trigger",
-						"param": "",
-						"delay": 0,
-						"limit": -1
+						"target": "[PR#]Strip_Knife"
 					}
 				]
 			},
@@ -62,8 +52,8 @@
 						"target": "[PR#]Map_Stripper",
 						"input": "Use",
 						"param": "",
-						"delay": 0,
-						"limit": -1
+						"delay": 0.0,
+						"limit": 1
 					},
 					{
 						"output": "OnTrigger",
@@ -71,7 +61,7 @@
 						"input": "Kill",
 						"param": "",
 						"delay": 0.05,
-						"limit": -1
+						"limit": 1
 					}
 				]
 			}
