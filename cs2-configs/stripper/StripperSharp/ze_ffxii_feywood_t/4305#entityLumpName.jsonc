@@ -3,7 +3,6 @@
 		// Offset item position after AG2 update
 		{
 			"match": {
-				"classname": "prop_dynamic",
 				"targetname": "[PR#]Chocobo_Z"
 			},
 			"insert": {
@@ -29,7 +28,7 @@
 						"target": "[PR#]Map_Stripper",
 						"input": "Use",
 						"param": "",
-						"delay": 0,
+						"delay": 0.0,
 						"limit": -1
 					},
 					{

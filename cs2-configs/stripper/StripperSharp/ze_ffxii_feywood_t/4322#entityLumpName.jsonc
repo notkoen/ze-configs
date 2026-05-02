@@ -3,7 +3,6 @@
 		// Offset item position after AG2 update
 		{
 			"match": {
-				"classname": "info_particle_system",
 				"targetname": "[PR#]Weapon_Berserk_Effect"
 			},
 			"insert": {
@@ -12,7 +11,6 @@
 		},
 		{
 			"match": {
-				"classname": "info_particle_system",
 				"targetname": "[PR#]Weapon_Berserk_Add_Speed"
 			},
 			"insert": {
@@ -21,7 +19,6 @@
 		},
 		{
 			"match": {
-				"classname": "func_button",
 				"targetname": "[PR#]Item_Berserk_Button"
 			},
 			"insert": {
@@ -30,7 +27,6 @@
 		},
 		{
 			"match": {
-				"classname": "env_entity_maker",
 				"targetname": "[PR#]Item_Berserk_Spawner_Ammo"
 			},
 			"insert": {
@@ -39,7 +35,6 @@
 		},
 		{
 			"match": {
-				"classname": "info_particle_system",
 				"targetname": "[PR#]Weapon_Berserk_Add_Ammo"
 			},
 			"insert": {
@@ -48,7 +43,6 @@
 		},
 		{
 			"match": {
-				"classname": "env_entity_maker",
 				"targetname": "[PR#]Item_Berserk_Spawner_Speed"
 			},
 			"insert": {
@@ -57,7 +51,6 @@
 		},
 		{
 			"match": {
-				"classname": "func_button",
 				"targetname": "[PR#]Item_Berserk_Switch"
 			},
 			"insert": {
@@ -66,7 +59,6 @@
 		},
 		{
 			"match": {
-				"classname": "trigger_multiple",
 				"targetname": "[PR#]Item_Berserk_Check"
 			},
 			"insert": {

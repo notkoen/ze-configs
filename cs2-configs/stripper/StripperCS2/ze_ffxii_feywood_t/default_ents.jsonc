@@ -12,7 +12,8 @@
 						"targetname": "[PR#]cmd",
 						"inputname": "Command",
 						"overrideparam": "say *** Door direction, item height, and strip trigger fixed by koen ***",
-						"delay": 7
+						"delay": 7.0,
+						"timestofire": 1
 					}
 				]
 			}
@@ -20,7 +21,6 @@
 		// Fix incorrect door direction
 		{
 			"match": {
-				"classname": "func_door_rotating",
 				"targetname": "[PR#]Chuchulainn_Gate"
 			},
 			"replace": {
@@ -29,7 +29,6 @@
 		},
 		{
 			"match": {
-				"classname": "func_door_rotating",
 				"targetname": "[PR#]lvl4_End_Door_2"
 			},
 			"replace": {
@@ -38,7 +37,6 @@
 		},
 		{
 			"match": {
-				"classname": "func_door_rotating",
 				"targetname": "[PR#]lvl4_End_Door"
 			},
 			"replace": {
