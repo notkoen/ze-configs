@@ -11,8 +11,9 @@
 						"output": "OnMapSpawn",
 						"target": "[PR#]cmd",
 						"input": "Command",
-						"param": "say *** Door fix, invis model, item height, and knife strip fixed by koen ***",
-						"delay": 5
+						"param": "say *** Door direction, invis model, item height, and knife strip fixed by koen ***",
+						"delay": 5.0,
+						"limit": 1
 					}
 				]
 			}
@@ -29,7 +30,6 @@
 		// Fix incorrect rendermode
 		{
 			"match": {
-				"classname": "prop_dynamic",
 				"targetname": "[PR#]Jenova_Model"
 			},
 			"insert": {
@@ -38,7 +38,6 @@
 		},
 		{
 			"match": {
-				"classname": "prop_dynamic",
 				"targetname": "[PR#]Genesis_Model"
 			},
 			"insert": {
@@ -47,7 +46,6 @@
 		},
 		{
 			"match": {
-				"classname": "prop_dynamic",
 				"targetname": "[PR#]Shinra_Ifrit"
 			},
 			"insert": {
@@ -57,7 +55,6 @@
 		// Fix weapon strip
 		{
 			"match": {
-				"classname": "player_weaponstrip",
 				"targetname": "[PR#]Map_Stripper"
 			},
 			"insert": {
@@ -69,19 +66,18 @@
 	"remove": [
 		// Remove old strip entities
 		{
-			"classname": "point_entity_finder",
+			"targetname": "[PR#]Knife_Stripper_Maker"
+		},
+		{
 			"targetname": "[PR#]Knife_Strip"
 		},
 		{
-			"classname": "logic_relay",
 			"targetname": "[PR#]Strip_Knife"
 		},
 		{
-			"classname": "point_template",
 			"targetname": "[PR#]Knife_Stripper_Template"
 		},
 		{
-			"classname": "point_teleport",
 			"targetname": "[PR#]Knife_Stripper_Teleport"
 		}
 	]

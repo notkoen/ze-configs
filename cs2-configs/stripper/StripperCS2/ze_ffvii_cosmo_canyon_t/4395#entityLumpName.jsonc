@@ -3,7 +3,6 @@
 		// Offset item position after AG2 update
 		{
 			"match": {
-				"classname": "func_button",
 				"targetname": "[PR#]Item_Fire_Button"
 			},
 			"replace": {
@@ -12,7 +11,6 @@
 		},
 		{
 			"match": {
-				"classname": "info_particle_system",
 				"targetname": "[PR#]Weapon_Fire_Effect"
 			},
 			"replace": {
@@ -21,7 +19,6 @@
 		},
 		{
 			"match": {
-				"classname": "info_particle_system",
 				"targetname": "[PR#]Item_Fire_Effect"
 			},
 			"replace": {
@@ -30,7 +27,6 @@
 		},
 		{
 			"match": {
-				"classname": "trigger_hurt",
 				"targetname": "[PR#]Item_Fire_Trigger"
 			},
 			"replace": {
@@ -39,7 +35,6 @@
 		},
 		{
 			"match": {
-				"classname": "info_particle_system",
 				"targetname": "[PR#]Beam_Fire"
 			},
 			"replace": {

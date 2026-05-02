@@ -39,8 +39,8 @@
 						"target": "[PR#]Map_Stripper",
 						"input": "Use",
 						"param": "",
-						"delay": 0,
-						"limit": -1
+						"delay": 0.0,
+						"limit": 1
 					},
 					{
 						"output": "OnTrigger",
@@ -48,7 +48,7 @@
 						"input": "Kill",
 						"param": "",
 						"delay": 0.05,
-						"limit": -1
+						"limit": 1
 					}
 				]
 			}

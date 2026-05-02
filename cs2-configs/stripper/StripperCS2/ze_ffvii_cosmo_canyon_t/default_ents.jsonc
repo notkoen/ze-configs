@@ -11,8 +11,9 @@
 						"outputname": "OnMapSpawn",
 						"targetname": "[PR#]cmd",
 						"inputname": "Command",
-						"overrideparam": "say *** Door fix, invis model, item height, and knife strip fixed by koen ***",
-						"delay": 5
+						"overrideparam": "say *** Door direction, invis model, item height, and knife strip fixed by koen ***",
+						"delay": 5.0,
+						"timestofire": 1
 					}
 				]
 			}
@@ -29,7 +30,6 @@
 		// Fix incorrect rendermode
 		{
 			"match": {
-				"classname": "prop_dynamic",
 				"targetname": "[PR#]Jenova_Model"
 			},
 			"replace": {
@@ -38,7 +38,6 @@
 		},
 		{
 			"match": {
-				"classname": "prop_dynamic",
 				"targetname": "[PR#]Genesis_Model"
 			},
 			"replace": {
@@ -47,7 +46,6 @@
 		},
 		{
 			"match": {
-				"classname": "prop_dynamic",
 				"targetname": "[PR#]Shinra_Ifrit"
 			},
 			"replace": {
@@ -57,7 +55,6 @@
 		// Fix weapon strip
 		{
 			"match": {
-				"classname": "player_weaponstrip",
 				"targetname": "[PR#]Map_Stripper"
 			},
 			"replace": {
