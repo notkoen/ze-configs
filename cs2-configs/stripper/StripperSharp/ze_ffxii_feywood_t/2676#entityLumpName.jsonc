@@ -41,7 +41,7 @@
 				"connections": [
 					{
 						"output": "OnTrigger",
-						"targetname": "[PR#]Map_Stripper",
+						"target": "[PR#]Map_Stripper",
 						"input": "Use",
 						"param": "",
 						"delay": 0.0,
@@ -49,7 +49,7 @@
 					},
 					{
 						"output": "OnTrigger",
-						"targetname": "!self",
+						"target": "!self",
 						"input": "Kill",
 						"param": "",
 						"delay": 0.05,
