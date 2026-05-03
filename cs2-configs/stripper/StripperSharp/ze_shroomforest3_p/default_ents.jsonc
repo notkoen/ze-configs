@@ -9,10 +9,10 @@
 			"insert": {
 				"connections": [
 					{
-						"outputname": "OnUser1",
-						"targetname": "!self",
-						"inputname": "Command",
-						"overrideparam": "say *** 双开门由 koen 修复 ***",
+						"output": "OnUser1",
+						"target": "!self",
+						"input": "Command",
+						"param": "say *** 双开门由 koen 修复 ***",
 						"delay": 5
 					}
 				]
