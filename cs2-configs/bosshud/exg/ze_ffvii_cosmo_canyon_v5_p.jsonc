@@ -1,0 +1,32 @@
+{
+    "MathCounterConfigs": [
+        {
+            "DisplayName": "Boss",
+            "HpCounter": "lvl2_Gi_Nattak_Counter"
+        },
+        {
+            "DisplayName": "Genesis",
+            "HpCounter": "Genesis_Counter"
+        },
+        {
+            "DisplayName": "Ifrit",
+            "HpCounter": "Shinra_Ifrit_Counter"
+        },
+        {
+            "DisplayName": "Jenova",
+            "HpCounter": "Shinra_Jenova_Counter"
+        },
+        {
+            "DisplayName": "Shiva",
+            "HpCounter": "Shinra_Shiva_Counter"
+        },
+        {
+            "DisplayName": "Gi Nattak",
+            "HpCounter": "gi_nattak_health"
+        },
+        {
+            "DisplayName": "Genesis",
+            "HpCounter": "genesis_health"
+        }
+    ]
+}
