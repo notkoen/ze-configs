@@ -1,0 +1,17 @@
+{
+	"json.schemaDownload.enable": true,
+	"json.schemas": [
+		{
+			"fileMatch": [
+				"/cs2-configs/stripper/StripperSharp/**/*.jsonc"
+			],
+			"url": "/.schemas/StripperSharp.schemas.json"
+		},
+		{
+			"fileMatch": [
+				"/cs2-configs/stripper/StripperCS2/**/*.jsonc"
+			],
+			"url": "/.schemas/StripperCS2.schemas.json"
+		}
+	]
+}

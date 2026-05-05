@@ -1,0 +1,196 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "definitions": {
+    "addData": {
+      "properties": {
+        "classname": {
+          "minLength": 6,
+          "type": "string"
+        },
+        "connections": {
+          "items": {
+            "$ref": "#/definitions/connections"
+          },
+          "type": "array"
+        },
+        "hammerUniqueId": {
+          "minLength": 1,
+          "pattern": "^[0-9:]+$",
+          "type": "string"
+        },
+        "targetname": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": ["classname"],
+      "type": "object"
+    },
+    "connections": {
+      "additionalProperties": false,
+      "properties": {
+        "delay": {
+          "maximum": 9999999,
+          "minimum": 0,
+          "type": "number"
+        },
+        "input": {
+          "type": "string"
+        },
+        "limit": {
+          "maximum": 9999999,
+          "minimum": -1,
+          "type": "number"
+        },
+        "output": {
+          "minLength": 3,
+          "type": "string"
+        },
+        "param": {
+          "type": "string"
+        },
+        "target": {
+          "type": "string"
+        }
+      },
+      "required": ["delay", "input", "limit", "output", "param", "target"],
+      "type": "object"
+    },
+    "modifyData": {
+      "additionalProperties": false,
+      "properties": {
+        "delete": {
+          "properties": {
+            "classname": {
+              "minLength": 6,
+              "type": "string"
+            },
+            "connections": {
+              "items": {
+                "$ref": "#/definitions/connections"
+              },
+              "type": "array"
+            },
+            "hammerUniqueId": {
+              "minLength": 1,
+              "pattern": "^[0-9:]+$",
+              "type": "string"
+            },
+            "targetname": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "type": "object"
+        },
+        "insert": {
+          "properties": {
+            "classname": {
+              "minLength": 6,
+              "type": "string"
+            },
+            "connections": {
+              "items": {
+                "$ref": "#/definitions/connections"
+              },
+              "type": "array"
+            },
+            "hammerUniqueId": {
+              "minLength": 1,
+              "pattern": "^[0-9:]+$",
+              "type": "string"
+            },
+            "targetname": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "type": "object"
+        },
+        "match": {
+          "anyOf": [
+            {
+              "required": ["classname"]
+            },
+            {
+              "required": ["targetname"]
+            },
+            {
+              "required": ["hammerUniqueId"]
+            }
+          ],
+          "properties": {
+            "classname": {
+              "minLength": 6,
+              "type": "string"
+            },
+            "connections": {
+              "items": {
+                "$ref": "#/definitions/connections"
+              },
+              "type": "array"
+            },
+            "hammerUniqueId": {
+              "minLength": 1,
+              "pattern": "^[0-9:]+$",
+              "type": "string"
+            },
+            "targetname": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "type": "object"
+        }
+      },
+      "type": "object"
+    },
+    "removeData": {
+      "properties": {
+        "classname": {
+          "minLength": 6,
+          "type": "string"
+        },
+        "connections": {
+          "items": {
+            "$ref": "#/definitions/connections"
+          },
+          "type": "array"
+        },
+        "hammerUniqueId": {
+          "minLength": 1,
+          "pattern": "^[0-9:]+$",
+          "type": "string"
+        },
+        "targetname": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "type": "object"
+    }
+  },
+  "properties": {
+    "add": {
+      "items": {
+        "$ref": "#/definitions/addData"
+      },
+      "type": "array"
+    },
+    "modify": {
+      "items": {
+        "$ref": "#/definitions/modifyData"
+      },
+      "type": "array"
+    },
+    "remove": {
+      "items": {
+        "$ref": "#/definitions/removeData"
+      },
+      "type": "array"
+    }
+  },
+  "title": "StripperSharp Validator",
+  "type": "object"
+}

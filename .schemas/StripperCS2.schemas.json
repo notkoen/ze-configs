@@ -1,0 +1,219 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "definitions": {
+    "addData": {
+      "properties": {
+        "classname": {
+          "minLength": 6,
+          "type": "string"
+        },
+        "io": {
+          "items": {
+            "$ref": "#/definitions/io"
+          },
+          "type": "array"
+        },
+        "hammerUniqueId": {
+          "minLength": 1,
+          "pattern": "^[0-9:]+$",
+          "type": "string"
+        },
+        "targetname": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": ["classname"],
+      "type": "object"
+    },
+    "io": {
+      "additionalProperties": false,
+      "properties": {
+        "delay": {
+          "maximum": 9999999,
+          "minimum": 0,
+          "type": "number"
+        },
+        "inputname": {
+          "type": "string"
+        },
+        "timestofire": {
+          "maximum": 9999999,
+          "minimum": -1,
+          "type": "number"
+        },
+        "outputname": {
+          "minLength": 3,
+          "type": "string"
+        },
+        "overrideparam": {
+          "type": "string"
+        },
+        "targetname": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "modifyData": {
+      "additionalProperties": false,
+      "properties": {
+        "delete": {
+          "properties": {
+            "classname": {
+              "minLength": 6,
+              "type": "string"
+            },
+            "io": {
+              "items": {
+                "$ref": "#/definitions/io"
+              },
+              "type": "array"
+            },
+            "hammerUniqueId": {
+              "minLength": 1,
+              "pattern": "^[0-9:]+$",
+              "type": "string"
+            },
+            "targetname": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "type": "object"
+        },
+        "insert": {
+          "properties": {
+            "classname": {
+              "minLength": 6,
+              "type": "string"
+            },
+            "io": {
+              "items": {
+                "$ref": "#/definitions/io"
+              },
+              "type": "array"
+            },
+            "hammerUniqueId": {
+              "minLength": 1,
+              "pattern": "^[0-9:]+$",
+              "type": "string"
+            },
+            "targetname": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "type": "object"
+        },
+        "replace": {
+          "properties": {
+            "classname": {
+              "minLength": 6,
+              "type": "string"
+            },
+            "io": {
+              "items": {
+                "$ref": "#/definitions/io"
+              },
+              "type": "array"
+            },
+            "hammerUniqueId": {
+              "minLength": 1,
+              "pattern": "^[0-9:]+$",
+              "type": "string"
+            },
+            "targetname": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "type": "object"
+        },
+        "match": {
+          "anyOf": [
+            {
+              "required": ["classname"]
+            },
+            {
+              "required": ["targetname"]
+            },
+            {
+              "required": ["hammerUniqueId"]
+            }
+          ],
+          "properties": {
+            "classname": {
+              "minLength": 6,
+              "type": "string"
+            },
+            "io": {
+              "items": {
+                "$ref": "#/definitions/io"
+              },
+              "type": "array"
+            },
+            "hammerUniqueId": {
+              "minLength": 1,
+              "pattern": "^[0-9:]+$",
+              "type": "string"
+            },
+            "targetname": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "type": "object"
+        }
+      },
+      "type": "object"
+    },
+    "removeData": {
+      "properties": {
+        "classname": {
+          "minLength": 6,
+          "type": "string"
+        },
+        "io": {
+          "items": {
+            "$ref": "#/definitions/io"
+          },
+          "type": "array"
+        },
+        "hammerUniqueId": {
+          "minLength": 1,
+          "pattern": "^[0-9:]+$",
+          "type": "string"
+        },
+        "targetname": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "type": "object"
+    }
+  },
+  "properties": {
+    "add": {
+      "items": {
+        "$ref": "#/definitions/addData"
+      },
+      "type": "array"
+    },
+    "modify": {
+      "items": {
+        "$ref": "#/definitions/modifyData"
+      },
+      "type": "array"
+    },
+    "filter": {
+      "items": {
+        "$ref": "#/definitions/removeData"
+      },
+      "type": "array"
+    }
+  },
+  "title": "StripperCS2 Validator",
+  "type": "object"
+}
