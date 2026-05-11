@@ -14,6 +14,8 @@
     - [BossHUD](https://github.com/notkoen/ze-configs/blob/main/info/cs2.md#bosshud-1)
 3. [FyS](https://github.com/notkoen/ze-configs/blob/main/info/cs2.md#fys)
     - [BossHUD](https://github.com/notkoen/ze-configs/blob/main/info/cs2.md#bosshud-2)
+4. [DarkerZ](https://github.com/notkoen/ze-configs/blob/main/info/cs2.md#darkerz)
+    - [EntWatchSharp/MS-EntWatch](https://github.com/notkoen/ze-configs/blob/main/info/cs2.md#entwatch-2)
 
 ## CS2Fixes
 
@@ -23,7 +25,7 @@ This version of EntWatch is publicly available [here](https://github.com/Source2
 
 Find entity classnames that start with `weapon_` as a starting point for creating EntWatch configs. For each item you're going to want a new block in the root array. The format is available below. EntWatch also supports filtering triggering from restricted players without a weapon.
 
-List of Available Colors:
+List of available colors:
 - white, default
 - darkred
 - team
@@ -425,13 +427,12 @@ The AdminRoom feature is exclusive to GFL's version of CS2Fixes. All admin room 
 
 ## FyS
 
-> [!TIP]
-> FyS has a public config [repository](https://github.com/fyscs/cs2) although not all configs are made public (e.g. EntWatch).
-
-### BossHUD
+FyS has a public config [repository](https://github.com/fyscs/cs2) although not all configs are made public (e.g. EntWatch).
 
 > [!WARNING]
 > FyS config formatting requires indentation of two spaces.
+
+### BossHUD
 
 ```jsonc
 {
@@ -523,3 +524,149 @@ The AdminRoom feature is exclusive to GFL's version of CS2Fixes. All admin room 
 }
 ```
 </details>
+
+## DarkerZ
+
+### EntWatch
+
+This version of EntWatch is publicly available [here](https://github.com/darkerz7/MS-EntWatch) (ModSharp version) or [here](https://github.com/darkerz7/EntWatchSharp) (CounterStrikeSharp version). The same config can be used for both plugins.
+
+Find entity classnames that start with `weapon_` as a starting point for creating EntWatch configs. For each item you're going to want a new block in the root array. The format is available below.
+
+List of available colors:
+- {default}
+- {darkred}
+- {purple}
+- {green}
+- {lightgreen}
+- {lime}
+- {red}
+- {grey}
+- {team}
+- {red2}
+- {olive}
+- {a}
+- {lightblue}
+- {blue}
+- {d}
+- {pink}
+- {darkorange}
+- {orange}
+- {darkblue}
+- {gold}
+- {white}
+- {yellow}
+- {magenta}
+- {silver}
+- {bluegrey}
+- {lightred}
+- {cyan}
+- {gray}
+- {lightyellow}
+
+```jsonc
+[
+    {
+        "Name": "",                         // String, Name of item that appears in chat
+        "ShortName": "",                    // String, Name of item that appears on the HUD
+        "Color": "",                        // String, Color of the item for chat messages (see list of colors)
+        "HammerID": "",                     // String, HammerID of the weapon entity
+        "GlowColor": [0,0,0,0],             // Array[4], Color of the item for weapon glow
+        "BlockPickup": false,               // Bool, Whether to allow this item to be picked up
+        "AllowTransfer": false,             // Bool, Whether to allow this item to be transferred
+        "ForceDrop": false,                 // Bool, Whether to drop this item on player death/disconnect
+        "Chat": false,                      // Bool, Whether to show pickup/drop messages in chat
+        "Hud": false,                       // Bool, Whether to show this item on the HUD
+        "TriggerID": "",                    // String, HammerID of trigger associated with the item such as strip trigger
+        "UsePriority": false,               // Bool, enabled by default. Whether to enable auto button press on +use detection
+        "SpawnerID": "",                    // String, HammerID of item template
+        "AbilityList": [                    // Array of abilities
+            {
+                "Name": "",                 // String, Custom ability name, can be omitted
+                "ButtonID": "",             // String, HammerID of button or game_ui entity
+                "ButtonClass": "",          // String, Button class
+                                            // "func_button" - button activation
+                                            // "game_ui::PressedAttack" - game_ui PressedAttack activation
+                                            // "game_ui::PressedAttack2" - game_ui PressedAttack2 activation
+                "Filter": "",               // String, Item activation filter
+                                            // Targetname - filter_activator_name
+                                            // $attribute - filter_activator_attribute_int
+                                            // context:value - filter_activator_context
+                "Chat_Uses": false,         // Bool, Whether to show item use messages if chat is disabled
+                "Mode": 0,                  // Integer, Mode for item.
+                                            //  0 = No button            1 = Spammable items,
+                                            //  2 = Cooldown             3 = MaxUses (no cooldown)
+                                            //  4 = MaxUses (cooldown)   5 = CooldownAfterUses
+                                            //  6 = OnHitMin counter     7 = OnHitMax counter
+                                            //  8 = ButtonHealth
+                "MaxUses": 0,               // Integer, Maxuses if mode = 3,4,5
+                "CoolDown": 0,              // Integer, Cooldown duration if mode = 2,4,5
+                "Ignore": false,            // Bool, Whether to show item cooldown on HUD
+                "LockItem": false,          // Bool, Whether to block item activation
+                "MathID": "",               // String, Counter HammerID if mode = 6,7
+                "MathNameFix": false,       // Bool, Whether to account for name fixup for counter
+                "MathFindSpawned": false,   // Bool, Whether to look for counter after weapon spawn
+                                            //  (For counters not in item template and item spawns later)
+                "MathDontShowMax": false,   // Bool, Whether to show counter max value
+                "MathZero": false           // Bool, Whether to allow button press when counter value is zero
+            }
+        ]
+    }
+]
+```
+
+<details>
+    <summary>Clean Template</summary>
+
+```jsonc
+[
+    {
+        "Name": "",
+        "ShortName": "",
+        "Color": "",
+        "HammerID": "",
+        "GlowColor": [0,0,0,0],
+        "BlockPickup": false,
+        "AllowTransfer": false,
+        "ForceDrop": false,
+        "Chat": false,
+        "Hud": false,
+        "TriggerID": "",
+        "UsePriority": false,
+        "SpawnerID": "",
+        "AbilityList": [
+            {
+                "Name": "",
+                "ButtonID": "",
+                "ButtonClass": "",
+                "Filter": "",
+                "Chat_Uses": false,
+                "Mode": 0,
+                "MaxUses": 0,
+                "CoolDown": 0,
+                "Ignore": false,
+                "LockItem": false,
+                "MathID": "",
+                "MathNameFix": false,
+                "MathFindSpawned": false,
+                "MathDontShowMax": false,
+                "MathZero": false
+            }
+        ]
+    }
+]
+```
+</details>
+
+DarkerZ's version of EntWatch has additional commands that can be used to modify items midround. The `[hammerid]` parameter refers to the item HammerID. Parameters in `<>` are required, and parameters in `[]` are optional.
+
+- `ew_setcooldown <int hammerid> <int buttonid> <int cooldown> [override]`: Sets cooldown duration of a button (`[override]` - whether to override cooldown if button is on cooldown)
+- `ew_setmaxuses <int hammerid> <int buttonid> <int maxuses> [bool override]`: Sets max uses of a button (`[override]` - whether to override max uses if button was used)
+- `ew_setuses <int hammerid> <int buttonid> <int value> [bool override]`: Sets current uses of a button (`[override]` - whether to override uses)
+- `ew_addmaxuses <int hammerid> <int buttonid> [bool override]`: Adds uses to max use count of a button (`[override]` - whether to add max uses even if button use count reached max)
+- `ew_setmode [int hammerid] [buttonid] [mode] [cooldown] [maxuses] <override>`: Change the mode of a button (`[override]` - whether to override button mode if already used)
+- `ew_lockbutton <int hammerid> <int buttonid> <bool value>`: Lock/unlock a button
+- `ew_setabilityname <int hammerid> <int buttonid> <string name>`: Sets the name of a button
+- `ew_setname <int hammerid> <string name>`: Sets the name of an item that appears in chat
+- `ew_setshortname <int hammerid> <string name>`: Sets the name of an item that appears on the HUD
+- `ew_block <int hammerid> <bool value>`: Sets whether an item can be picked up or not
