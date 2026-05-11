@@ -23,9 +23,9 @@ Find entity classnames that start with `weapon_` as a starting point for creatin
     {
         "name"              ""          // Name of item that appears in chat
         "shortname"         ""          // Name of item that appears on the HUD
-        "color"             ""          // Color of the item for chat messages (based on multicolors)
-        "buttonclass"       ""          // Item activation method: "game_ui" or "func_button" (leave blank if neither)
-        "filtername"        ""          // Targetname given to player on pickup (Leave blank if vscript assigns filtername OR AddContext output)
+        "color"             ""          // Color of item for chat messages
+        "buttonclass"       ""          // Item activation method: "game_ui", "func_button", or none
+        "filtername"        ""          // Targetname given to player (Leave blank if vscript filter OR context)
         "blockpickup"       "false"     // Whether to block weapon pickup
         "allowtransfer"     "true"      // Whther to allow this item to be transferred
         "forcedrop"         "true"      // Whether to drop item if player dies or disconnects
@@ -33,22 +33,22 @@ Find entity classnames that start with `weapon_` as a starting point for creatin
         "chat_uses"         "true"      // Whether to print item uses in chat (bypasses both mode 1 and chat false)
         "hud"               "true"      // Whether to display item on the HUD
         "hammerid"          ""          // Hammer ID of the weapon entity
-        "mode"              ""          // Item mode
+        "mode"              ""          // Mode of first activation
                                         // 0 = No button            1 = Spammable items
                                         // 2 = Cooldown             3 = MaxUses (no cooldown)
                                         // 4 = MaxUses (cooldown)   5 = CooldownAfterUses
                                         // 6 = OnHitMin Counter     7 = OnHitMax Counter
-        "maxuses"           ""          // Item max uses if mode 3/4/5
-        "cooldown"          ""          // Item cooldown duration if mode 2/4/5
-        "trigger"           ""          // Hammer ID of trigger to block restricted players
-        "buttonid"          ""          // Hammer ID of button/game_ui to be tracked
-        "energyid"          ""          // Hammer ID of math_counter to be tracked
-        "buttonclass2"      ""          // Item activation method of second button/game_ui (leave blank if neither)
-        "mode2"             ""          // Item mode of second activation
-        "maxuses2"          ""          // Item max uses of second activation
-        "cooldown2"         ""          // Item cooldown duration of second activation
-        "buttonid2"         ""          // Hammer ID of second button/game_ui to be tracked
-        "energyid2"         ""          // Hammer ID of second math_counter to be trackied
+        "maxuses"           ""          // Max uses if mode = 3,4,5
+        "cooldown"          ""          // Cooldown duration if mode = 2,4,5
+        "trigger"           ""          // HammerID of trigger associated with item
+        "buttonid"          ""          // HammerID of button/game_ui
+        "energyid"          ""          // HammerID of counter
+        "buttonclass2"      ""          // Activation method of second button/game_ui
+        "mode2"             ""          // Mode of second activation
+        "maxuses2"          ""          // Max uses of second activation
+        "cooldown2"         ""          // Cooldown duration of second activation
+        "buttonid2"         ""          // HammerID of second button/game_ui
+        "energyid2"         ""          // HammerID of second counter
         "use_priority"      ""          // Whether to enable use_priority on item
         "pt_spawner"        ""          // Targetname of item point_template
     }
