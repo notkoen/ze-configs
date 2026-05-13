@@ -8,7 +8,12 @@
 			"delete": {
 				"io": [
 					{
-						"overrideparam": "say **Map Status: No Stripper!**"
+						"outputname": "OnMapSpawn",
+						"targetname": "[PR#]cmd",
+						"inputname": "Command",
+						"overrideparam": "say **Map Status: No Stripper!**",
+						"delay": 0,
+						"timestofire": -1
 					}
 				]
 			},
@@ -18,152 +23,9 @@
 						"outputname": "OnMapSpawn",
 						"targetname": "[PR#]cmd",
 						"inputname": "Command",
-						"overrideparam": "say *** 双开门，隐形模型，跟没清掉的boss实体由koen修复 ***",
-						"delay": 5
-					},
-					{
-						"outputname": "OnMapSpawn",
-						"targetname": "[PR#]cmd",
-						"inputname": "Command",
-						"overrideparam": "say *** Bergan血量增加由koen做改变 ***",
-						"delay": 7
-					}
-				]
-			}
-		},
-		// Fix invisible models due to incorrect rendermodes
-		{
-			"match": {
-				"classname": "prop_dynamic",
-				"targetname": "[PR#]Weapon_Sword_of_Kings_Model"
-			},
-			"replace": {
-				"rendermode": "0"
-			}
-		},
-		{
-			"match": {
-				"classname": "prop_dynamic",
-				"targetname": "[PR#]Stage3_Mateus_model"
-			},
-			"replace": {
-				"rendermode": "0"
-			}
-		},
-		// Fix incorrect door direction
-		{
-			"match": {
-				"classname": "func_door_rotating",
-				"targetname": "[PR#]Stage4_boss_room_doors"
-			},
-			"replace": {
-				"spawnflags": "16"
-			}
-		},
-		{
-			"match": {
-				"classname": "func_door_rotating",
-				"targetname": "[PR#]Stage3_Doors_004"
-			},
-			"replace": {
-				"spawnflags": "16"
-			}
-		},
-		{
-			"match": {
-				"classname": "func_door_rotating",
-				"targetname": "[PR#]Stage3_Doors_003"
-			},
-			"replace": {
-				"spawnflags": "16"
-			}
-		},
-		{
-			"match": {
-				"classname": "func_door_rotating",
-				"targetname": "[PR#]Doors_001"
-			},
-			"replace": {
-				"spawnflags": "16"
-			}
-		},
-		{
-			"match": {
-				"classname": "func_door_rotating",
-				"targetname": "[PR#]Stage3_Doors_001"
-			},
-			"replace": {
-				"spawnflags": "16"
-			}
-		},
-		{
-			"match": {
-				"classname": "func_door_rotating",
-				"targetname": "[PR#]Temple_Door_007"
-			},
-			"replace": {
-				"spawnflags": "16"
-			}
-		},
-		{
-			"match": {
-				"classname": "func_door_rotating",
-				"targetname": "[PR#]Temple_Door_005"
-			},
-			"replace": {
-				"spawnflags": "16"
-			}
-		},
-		{
-			"match": {
-				"classname": "func_door_rotating",
-				"targetname": "[PR#]Temple_Door_004"
-			},
-			"replace": {
-				"spawnflags": "16"
-			}
-		},
-		{
-			"match": {
-				"classname": "func_door_rotating",
-				"targetname": "[PR#]Temple_Door_003"
-			},
-			"replace": {
-				"spawnflags": "16"
-			}
-		},
-		{
-			"match": {
-				"classname": "func_door_rotating",
-				"targetname": "[PR#]Temple_Door_002"
-			},
-			"replace": {
-				"spawnflags": "16"
-			}
-		},
-		{
-			"match": {
-				"classname": "func_door_rotating",
-				"targetname": "[PR#]Temple_Door_001"
-			},
-			"replace": {
-				"spawnflags": "18"
-			}
-		},
-		// Kill boss physbox after death
-		{
-			"match": {
-				"classname": "math_counter",
-				"targetname": "[PR#]Stage-1_Gabranth_HP_End"
-			},
-			"insert": {
-				"io": [
-					{
-						"outputname": "OnHitMin",
-						"targetname": "[PR#]Guard_Boss_Physbox",
-						"inputname": "Kill",
-						"overrideparam": "",
-						"delay": 0.1
+						"overrideparam": "say *** Bergan 血量增加由 koen 做改变 ***",
+						"delay": 7,
+						"timestofire": 1
 					}
 				]
 			}
