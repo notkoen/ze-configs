@@ -3,7 +3,6 @@
 	"modify": [
 		{
 			"match": {
-				"classname": "trigger_hurt",
 				"targetname": "[PR#]Stage4_Ending_Bergan_HP_Add"
 			},
 			"delete": {
