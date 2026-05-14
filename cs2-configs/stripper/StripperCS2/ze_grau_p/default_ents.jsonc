@@ -11,8 +11,9 @@
 						"outputname": "OnMapSpawn",
 						"targetname": "[PR#]sc",
 						"inputname": "Command",
-						"overrideparam": "say *** Boss激光方向由koen修复 ***",
-						"delay": 5
+						"overrideparam": "say *** Boss 激光方向由 koen 修复 ***",
+						"delay": 5,
+						"timestofire": 1
 					}
 				]
 			}
