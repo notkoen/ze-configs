@@ -11,8 +11,9 @@
 						"output": "OnMapSpawn",
 						"target": "[PR#]cmd",
 						"input": "Command",
-						"param": "say *** 未隐形弹幕模型由 koen 修复 ***",
-						"delay": 5
+						"param": "say *** 未隐形弹幕模型及神器高度由 koen 修复 ***",
+						"delay": 5,
+						"limit": 1
 					}
 				]
 			}

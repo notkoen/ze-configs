@@ -11,8 +11,9 @@
 						"outputname": "OnMapSpawn",
 						"targetname": "[PR#]cmd",
 						"inputname": "Command",
-						"overrideparam": "say *** 未隐形弹幕模型由 koen 修复 ***",
-						"delay": 5
+						"overrideparam": "say *** 未隐形弹幕模型及神器高度由 koen 修复 ***",
+						"delay": 5,
+						"timestofire": 1
 					}
 				]
 			}
