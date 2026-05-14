@@ -3,7 +3,6 @@
 		// Rework boss health to use counter instead
 		{
 			"match": {
-				"classname": "func_breakable",
 				"targetname": "[PR#]Sephiroth_Final_Breakable"
 			},
 			"insert": {
