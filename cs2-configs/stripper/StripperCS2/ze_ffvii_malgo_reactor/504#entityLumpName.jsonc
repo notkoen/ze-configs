@@ -3,20 +3,24 @@
 		// Rework boss health to use counter instead
 		{
 			"match": {
-				"classname": "trigger_hurt",
-				"targetname": "[PR#]s_laser_3_dmg1&0000"
+				"targetname": "[PR#]s_laser_1_dmg1&0000"
 			},
 			"delete": {
 				"io": [
 					{
-						"outputname": "OnHurtPlayer"
+						"outputname": "OnHurtPlayer",
+						"targetname": "[PR#]Sephiroth_Final_Breakable",
+						"inputname": "RemoveHealth",
+						"overrideparam": "60",
+						"delay": 0,
+						"timestofire": -1
 					}
 				]
 			},
 			"insert": {
 				"io": [
 					{
-						"outputname": "OnHurtPlayer",
+						"outputname": "OnStartTouch",
 						"targetname": "[PR#]Final_Sephiroth_Counter",
 						"inputname": "Subtract",
 						"overrideparam": "24",
