@@ -3,7 +3,6 @@
 		// Fix boss attack direction
 		{
 			"match": {
-				"classname": "func_door_rotating",
 				"targetname": "[PR#]st3_boss_a4_1side1_drot1"
 			},
 			"insert": {
