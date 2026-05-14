@@ -8,7 +8,12 @@
 			"delete": {
 				"connections": [
 					{
-						"target": "[PR#]Strip_Knife"
+						"output": "OnStartTouch",
+						"target": "[PR#]Strip_Knife",
+						"input": "Trigger",
+						"param": "",
+						"delay": 0,
+						"limit": -1
 					}
 				]
 			},

@@ -33,7 +33,12 @@
 			"delete": {
 				"io": [
 					{
-						"targetname": "[PR#]Strip_Knife"
+						"outputname": "OnStartTouch",
+						"targetname": "[PR#]Strip_Knife",
+						"inputname": "Trigger",
+						"overrideparam": "",
+						"delay": 0,
+						"timestofire": -1
 					}
 				]
 			},
