@@ -49,7 +49,12 @@
 			"delete": {
 				"connections": [
 					{
-						"target": "[PR#]Strip_Knife"
+						"output": "OnTrigger",
+						"target": "[PR#]Strip_Knife",
+						"input": "Trigger",
+						"param": "",
+						"delay": 0,
+						"limit": -1
 					}
 				]
 			},

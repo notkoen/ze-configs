@@ -25,7 +25,12 @@
 			"delete": {
 				"io": [
 					{
-						"targetname": "[PR#]Strip_Knife"
+						"outputname": "OnTrigger",
+						"targetname": "[PR#]Strip_Knife",
+						"inputname": "Trigger",
+						"overrideparam": "",
+						"delay": 0,
+						"timestofire": -1
 					}
 				]
 			},
