@@ -1,0 +1,29 @@
+{
+    "modify": [
+        // Offset item height after AG2 update
+        {
+            "match": {
+                "targetname": "[PR#]heal_button"
+            },
+            "replace": {
+                "origin": "50.000000 1.500000 0.000000"
+            }
+        },
+        {
+            "match": {
+                "targetname": "[PR#]heal_particle"
+            },
+            "replace": {
+                "origin": "42.000000 1.500000 -52.000000"
+            }
+        },
+        {
+            "match": {
+                "targetname": "[PR#]heal_eff"
+            },
+            "replace": {
+                "origin": "56.000000 -2.000000 -24.000000"
+            }
+        }
+    ]
+}

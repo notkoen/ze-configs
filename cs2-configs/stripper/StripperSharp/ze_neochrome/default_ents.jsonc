@@ -1,58 +1,55 @@
 {
-	"modify": [
-		// Add stripper credit
-		{
-			"match": {
-				"classname": "logic_auto"
-			},
-			"insert": {
-				"connections": [
-					{
-						"output": "OnMapSpawn",
-						"target": "[PR#]server",
-						"input": "Command",
-						"param": "say *** 双开门及未隐形弹幕模型由 koen 修复 ***",
-						"delay": 5
-					}
-				]
-			}
-		},
-		// Fix incorrect door direction
-		{
-			"match": {
-				"classname": "func_door_rotating",
-				"targetname": "[PR#]nut_door11_1"
-			},
-			"insert": {
-				"spawnflags": "4112"
-			}
-		},
-		{
-			"match": {
-				"classname": "func_door_rotating",
-				"targetname": "[PR#]nut_door12_1"
-			},
-			"insert": {
-				"spawnflags": "4112"
-			}
-		},
-		{
-			"match": {
-				"classname": "func_door_rotating",
-				"targetname": "[PR#]nut_door12_2"
-			},
-			"insert": {
-				"spawnflags": "4112"
-			}
-		},
-		{
-			"match": {
-				"classname": "func_door_rotating",
-				"targetname": "[PR#]nut_door11_2"
-			},
-			"insert": {
-				"spawnflags": "4112"
-			}
-		}
-	]
+    "modify": [
+        // Add stripper credit
+        {
+            "match": {
+                "classname": "logic_auto"
+            },
+            "insert": {
+                "connections": [
+                    {
+                        "output": "OnMapSpawn",
+                        "target": "[PR#]server",
+                        "input": "Command",
+                        "param": "say *** 双开门，未隐形弹幕模型，及神器高度由 koen 修复 ***",
+                        "delay": 5,
+                        "limit": 1
+                    }
+                ]
+            }
+        },
+        // Fix incorrect door direction
+        {
+            "match": {
+                "targetname": "[PR#]nut_door11_1"
+            },
+            "insert": {
+                "spawnflags": "4112"
+            }
+        },
+        {
+            "match": {
+                "targetname": "[PR#]nut_door12_1"
+            },
+            "insert": {
+                "spawnflags": "4112"
+            }
+        },
+        {
+            "match": {
+                "targetname": "[PR#]nut_door12_2"
+            },
+            "insert": {
+                "spawnflags": "4112"
+            }
+        },
+        {
+            "match": {
+                "targetname": "[PR#]nut_door11_2"
+            },
+            "insert": {
+                "spawnflags": "4112"
+            }
+        }
+    ]
 }
