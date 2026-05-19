@@ -1,45 +1,45 @@
 {
-	"modify": [
-		// Offset item position after AG2 update
-		{
-			"match": {
-				"targetname": "[PR#]Item_Fire_Button"
-			},
-			"insert": {
-				"origin": "24.000000 0.000000 16.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Weapon_Fire_Effect"
-			},
-			"insert": {
-				"origin": "33.000000 0.000000 0.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Item_Fire_Effect"
-			},
-			"insert": {
-				"origin": "18.000000 0.000000 -32.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Item_Fire_Trigger"
-			},
-			"insert": {
-				"origin": "18.000000 0.000000 144.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Beam_Fire"
-			},
-			"insert": {
-				"origin": "33.000000 0.000000 0.000000"
-			}
-		}
-	]
+  "modify": [
+    // Offset item position after AG2 update
+    {
+      "match": {
+        "targetname": "[PR#]Item_Fire_Button"
+      },
+      "insert": {
+        "origin": "24.000000 0.000000 16.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Weapon_Fire_Effect"
+      },
+      "insert": {
+        "origin": "33.000000 0.000000 0.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Item_Fire_Effect"
+      },
+      "insert": {
+        "origin": "18.000000 0.000000 -32.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Item_Fire_Trigger"
+      },
+      "insert": {
+        "origin": "18.000000 0.000000 144.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Beam_Fire"
+      },
+      "insert": {
+        "origin": "33.000000 0.000000 0.000000"
+      }
+    }
+  ]
 }

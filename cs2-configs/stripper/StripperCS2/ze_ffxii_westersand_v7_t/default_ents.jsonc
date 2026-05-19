@@ -1,269 +1,269 @@
 {
-	"modify": [
-		// Add stripper credit
-		{
-			"match": {
-				"classname": "logic_auto",
-				"hammeruniqueid": "441"
-			},
-			"insert": {
-				"io": [
-					{
-						"outputname": "OnMapSpawn",
-						"targetname": "[PR#]Cmd",
-						"inputname": "Command",
-						"overrideparam": "say *** 双开门，神器高度，及无法捡僵尸神器由 koen 修复 ***",
-						"delay": 5.0,
-						"timestofire": 1
-					}
-				]
-			}
-		},
-		// Fix incorrect door direction
-		{
-			"match": {
-				"targetname": "[PR#]Airship_Door1"
-			},
-			"replace": {
-				"spawnflags": "16"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Airship_Door2"
-			},
-			"replace": {
-				"spawnflags": "16"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Airship_Jail1"
-			},
-			"replace": {
-				"spawnflags": "18"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Airship_Jail2"
-			},
-			"replace": {
-				"spawnflags": "18"
-			}
-		},
-		// Fix weapon strip
-		{
-			"match": {
-				"targetname": "[PR#]Cloak_Balthier_Stripper"
-			},
-			"delete": {
-				"io": [
-					{
-						"outputname": "OnStartTouch"
-					}
-				]
-			},
-			"insert": {
-				"io": [
-					{
-						"outputname": "OnTrigger",
-						"targetname": "[PR#]Map_Stripper",
-						"inputname": "Use",
-						"overrideparam": "",
-						"delay": 0.0,
-						"timestofire": 1
-					}
-				]
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Cloak_Vaan_Stripper"
-			},
-			"delete": {
-				"io": [
-					{
-						"outputname": "OnStartTouch"
-					}
-				]
-			},
-			"insert": {
-				"io": [
-					{
-						"outputname": "OnTrigger",
-						"targetname": "[PR#]Map_Stripper",
-						"inputname": "Use",
-						"overrideparam": "",
-						"delay": 0.0,
-						"timestofire": 1
-					}
-				]
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Cloak_Ashe_Stripper"
-			},
-			"delete": {
-				"io": [
-					{
-						"outputname": "OnStartTouch"
-					}
-				]
-			},
-			"insert": {
-				"io": [
-					{
-						"outputname": "OnTrigger",
-						"targetname": "[PR#]Map_Stripper",
-						"inputname": "Use",
-						"overrideparam": "",
-						"delay": 0.0,
-						"timestofire": 1
-					}
-				]
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Cloak_Basch_Stripper"
-			},
-			"delete": {
-				"io": [
-					{
-						"outputname": "OnStartTouch"
-					}
-				]
-			},
-			"insert": {
-				"io": [
-					{
-						"outputname": "OnTrigger",
-						"targetname": "[PR#]Map_Stripper",
-						"inputname": "Use",
-						"overrideparam": "",
-						"delay": 0.0,
-						"timestofire": 1
-					}
-				]
-			}
-		},
-		// Remove broken strip entities
-		{
-			"match": {
-				"targetname": "[PR#]Knife_Choc_Temp"
-			},
-			"delete": {
-				"template07": "[PR#]Knife_Choc_Finder_Filter",
-				"template06": "[PR#]Knife_Choc_Finder",
-				"template05": "[PR#]Knife_Choc_Knife_Filter"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Temp_Lure"
-			},
-			"delete": {
-				"template12": "[PR#]Knife_Lure_Knife_Filter",
-				"template11": "[PR#]Knife_Lure_Finder_Filter",
-				"template10": "[PR#]Knife_Lure_Finder"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Temp_Invis"
-			},
-			"delete": {
-				"template12": "[PR#]Knife_Invis_Knife_Filter",
-				"template11": "[PR#]Knife_Invis_Finder_Filter",
-				"template10": "[PR#]Knife_Invis_Finder"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Temp_Warp"
-			},
-			"delete": {
-				"template13": "[PR#]Knife_Warp_Knife_Filter",
-				"template12": "[PR#]Knife_Warp_Finder_Filter",
-				"template11": "[PR#]Knife_Warp_Finder"
-			}
-		}
-	],
-	"filter": [
-		// Remove broken strip entities
-		{
-			"targetname": "[PR#]Knife_Stripper_Maker"
-		},
-		{
-			"targetname": "[PR#]Knife_Stripper_Template"
-		},
-		{
-			"targetname": "[PR#]Strip_Knife"
-		},
-		{
-			"targetname": "[PR#]Knife_Strip"
-		},
-		{
-			"targetname": "[PR#]Knife_Stripper_Teleport"
-		},
-		{
-			"targetname": "[PR#]Cloak_Balthier_Finder"
-		},
-		{
-			"targetname": "[PR#]Cloak_Balthier_Finder_Filter"
-		},
-		{
-			"targetname": "[PR#]Cloak_Balthier_Knife_Filter"
-		},
-		{
-			"targetname": "[PR#]Cloak_Vaan_Finder"
-		},
-		{
-			"targetname": "[PR#]Cloak_Vaan_Finder_Filter"
-		},
-		{
-			"targetname": "[PR#]Cloak_Vaan_Knife_Filter"
-		},
-		{
-			"targetname": "[PR#]Cloak_Ashe_Finder"
-		},
-		{
-			"targetname": "[PR#]Cloak_Ashe_Finder_Filter"
-		},
-		{
-			"targetname": "[PR#]Cloak_Ashe_Knife_Filter"
-		},
-		{
-			"targetname": "[PR#]Cloak_Basch_Finder"
-		},
-		{
-			"targetname": "[PR#]Cloak_Basch_Finder_Filter"
-		},
-		{
-			"targetname": "[PR#]Cloak_Basch_Knife_Filter"
-		},
-		// Apparently these arent in the blind template lol
-		{
-			"targetname": "[PR#]Knife_Blind_Finder_Filter"
-		},
-		{
-			"targetname": "[PR#]Knife_Blind_Knife_Filter"
-		},
-		{
-			"targetname": "[PR#]Knife_Blind_Finder"
-		}
-	],
-	"add": [
-		// Add weapon strip
-		{
-			"classname": "game_player_equip",
-			"targetname": "[PR#]Map_Stripper",
-			"origin": "8230.000000 -743.000000 264.000000",
-			"angles": "0.000000 0.000000 0.000000",
-			"scales": "1.000000 1.000000 1.000000",
-			"spawnflags": "3"
-		}
-	]
+  "modify": [
+    // Add stripper credit
+    {
+      "match": {
+        "classname": "logic_auto",
+        "hammeruniqueid": "441"
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnMapSpawn",
+            "targetname": "[PR#]Cmd",
+            "inputname": "Command",
+            "overrideparam": "say *** 双开门，神器高度，及无法捡僵尸神器由 koen 修复 ***",
+            "delay": 5.0,
+            "timestofire": 1
+          }
+        ]
+      }
+    },
+    // Fix incorrect door direction
+    {
+      "match": {
+        "targetname": "[PR#]Airship_Door1"
+      },
+      "replace": {
+        "spawnflags": "16"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Airship_Door2"
+      },
+      "replace": {
+        "spawnflags": "16"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Airship_Jail1"
+      },
+      "replace": {
+        "spawnflags": "18"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Airship_Jail2"
+      },
+      "replace": {
+        "spawnflags": "18"
+      }
+    },
+    // Fix weapon strip
+    {
+      "match": {
+        "targetname": "[PR#]Cloak_Balthier_Stripper"
+      },
+      "delete": {
+        "io": [
+          {
+            "outputname": "OnStartTouch"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]Map_Stripper",
+            "inputname": "Use",
+            "overrideparam": "",
+            "delay": 0.0,
+            "timestofire": 1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Cloak_Vaan_Stripper"
+      },
+      "delete": {
+        "io": [
+          {
+            "outputname": "OnStartTouch"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]Map_Stripper",
+            "inputname": "Use",
+            "overrideparam": "",
+            "delay": 0.0,
+            "timestofire": 1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Cloak_Ashe_Stripper"
+      },
+      "delete": {
+        "io": [
+          {
+            "outputname": "OnStartTouch"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]Map_Stripper",
+            "inputname": "Use",
+            "overrideparam": "",
+            "delay": 0.0,
+            "timestofire": 1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Cloak_Basch_Stripper"
+      },
+      "delete": {
+        "io": [
+          {
+            "outputname": "OnStartTouch"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]Map_Stripper",
+            "inputname": "Use",
+            "overrideparam": "",
+            "delay": 0.0,
+            "timestofire": 1
+          }
+        ]
+      }
+    },
+    // Remove broken strip entities
+    {
+      "match": {
+        "targetname": "[PR#]Knife_Choc_Temp"
+      },
+      "delete": {
+        "template07": "[PR#]Knife_Choc_Finder_Filter",
+        "template06": "[PR#]Knife_Choc_Finder",
+        "template05": "[PR#]Knife_Choc_Knife_Filter"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Temp_Lure"
+      },
+      "delete": {
+        "template12": "[PR#]Knife_Lure_Knife_Filter",
+        "template11": "[PR#]Knife_Lure_Finder_Filter",
+        "template10": "[PR#]Knife_Lure_Finder"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Temp_Invis"
+      },
+      "delete": {
+        "template12": "[PR#]Knife_Invis_Knife_Filter",
+        "template11": "[PR#]Knife_Invis_Finder_Filter",
+        "template10": "[PR#]Knife_Invis_Finder"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Temp_Warp"
+      },
+      "delete": {
+        "template13": "[PR#]Knife_Warp_Knife_Filter",
+        "template12": "[PR#]Knife_Warp_Finder_Filter",
+        "template11": "[PR#]Knife_Warp_Finder"
+      }
+    }
+  ],
+  "filter": [
+    // Remove broken strip entities
+    {
+      "targetname": "[PR#]Knife_Stripper_Maker"
+    },
+    {
+      "targetname": "[PR#]Knife_Stripper_Template"
+    },
+    {
+      "targetname": "[PR#]Strip_Knife"
+    },
+    {
+      "targetname": "[PR#]Knife_Strip"
+    },
+    {
+      "targetname": "[PR#]Knife_Stripper_Teleport"
+    },
+    {
+      "targetname": "[PR#]Cloak_Balthier_Finder"
+    },
+    {
+      "targetname": "[PR#]Cloak_Balthier_Finder_Filter"
+    },
+    {
+      "targetname": "[PR#]Cloak_Balthier_Knife_Filter"
+    },
+    {
+      "targetname": "[PR#]Cloak_Vaan_Finder"
+    },
+    {
+      "targetname": "[PR#]Cloak_Vaan_Finder_Filter"
+    },
+    {
+      "targetname": "[PR#]Cloak_Vaan_Knife_Filter"
+    },
+    {
+      "targetname": "[PR#]Cloak_Ashe_Finder"
+    },
+    {
+      "targetname": "[PR#]Cloak_Ashe_Finder_Filter"
+    },
+    {
+      "targetname": "[PR#]Cloak_Ashe_Knife_Filter"
+    },
+    {
+      "targetname": "[PR#]Cloak_Basch_Finder"
+    },
+    {
+      "targetname": "[PR#]Cloak_Basch_Finder_Filter"
+    },
+    {
+      "targetname": "[PR#]Cloak_Basch_Knife_Filter"
+    },
+    // Apparently these arent in the blind template lol
+    {
+      "targetname": "[PR#]Knife_Blind_Finder_Filter"
+    },
+    {
+      "targetname": "[PR#]Knife_Blind_Knife_Filter"
+    },
+    {
+      "targetname": "[PR#]Knife_Blind_Finder"
+    }
+  ],
+  "add": [
+    // Add weapon strip
+    {
+      "classname": "game_player_equip",
+      "targetname": "[PR#]Map_Stripper",
+      "origin": "8230.000000 -743.000000 264.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "spawnflags": "3"
+    }
+  ]
 }

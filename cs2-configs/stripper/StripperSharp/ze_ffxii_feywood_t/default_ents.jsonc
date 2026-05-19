@@ -1,75 +1,75 @@
 {
-	"modify": [
-		// Add stripper credits
-		{
-			"match": {
-				"classname": "logic_auto"
-			},
-			"insert": {
-				"connections": [
-					{
-						"output": "OnMapSpawn",
-						"target": "[PR#]cmd",
-						"input": "Command",
-						"param": "say *** Door direction, item height, and strip trigger fixed by koen ***",
-						"delay": 7.0,
-						"limit": 1
-					}
-				]
-			}
-		},
-		// Fix incorrect door direction
-		{
-			"match": {
-				"targetname": "[PR#]Chuchulainn_Gate"
-			},
-			"insert": {
-				"spawnflags": "16"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]lvl4_End_Door_2"
-			},
-			"insert": {
-				"spawnflags": "1168"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]lvl4_End_Door"
-			},
-			"insert": {
-				"spawnflags": "1168"
-			}
-		},
-		// Fix weapon strip
-		{
-			"match": {
-				"targetname": "[PR#]Map_Stripper"
-			},
-			"insert": {
-				"classname": "game_player_equip",
-				"spawnflags": "3"
-			}
-		}
-	],
-	"remove": [
-		// Remove old strip entities
-		{
-			"targetname": "[PR#]Knife_Stripper_Maker"
-		},
-		{
-			"targetname": "[PR#]Knife_Stripper_Template"
-		},
-		{
-			"targetname": "[PR#]Knife_Strip"
-		},
-		{
-			"targetname": "[PR#]Strip_Knife"
-		},
-		{
-			"targetname": "[PR#]Knife_Stripper_Teleport"
-		}
-	]
+  "modify": [
+    // Add stripper credits
+    {
+      "match": {
+        "classname": "logic_auto"
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnMapSpawn",
+            "target": "[PR#]cmd",
+            "input": "Command",
+            "param": "say *** Door direction, item height, and strip trigger fixed by koen ***",
+            "delay": 7.0,
+            "limit": 1
+          }
+        ]
+      }
+    },
+    // Fix incorrect door direction
+    {
+      "match": {
+        "targetname": "[PR#]Chuchulainn_Gate"
+      },
+      "insert": {
+        "spawnflags": "16"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]lvl4_End_Door_2"
+      },
+      "insert": {
+        "spawnflags": "1168"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]lvl4_End_Door"
+      },
+      "insert": {
+        "spawnflags": "1168"
+      }
+    },
+    // Fix weapon strip
+    {
+      "match": {
+        "targetname": "[PR#]Map_Stripper"
+      },
+      "insert": {
+        "classname": "game_player_equip",
+        "spawnflags": "3"
+      }
+    }
+  ],
+  "remove": [
+    // Remove old strip entities
+    {
+      "targetname": "[PR#]Knife_Stripper_Maker"
+    },
+    {
+      "targetname": "[PR#]Knife_Stripper_Template"
+    },
+    {
+      "targetname": "[PR#]Knife_Strip"
+    },
+    {
+      "targetname": "[PR#]Strip_Knife"
+    },
+    {
+      "targetname": "[PR#]Knife_Stripper_Teleport"
+    }
+  ]
 }

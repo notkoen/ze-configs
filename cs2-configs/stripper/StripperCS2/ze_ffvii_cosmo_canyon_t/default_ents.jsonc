@@ -1,86 +1,86 @@
 {
-	"modify": [
-		// Add stripper credit
-		{
-			"match": {
-				"classname": "logic_auto"
-			},
-			"insert": {
-				"io": [
-					{
-						"outputname": "OnMapSpawn",
-						"targetname": "[PR#]cmd",
-						"inputname": "Command",
-						"overrideparam": "say *** Door direction, invis model, item height, and knife strip fixed by koen ***",
-						"delay": 5.0,
-						"timestofire": 1
-					}
-				]
-			}
-		},
-		// Fix cosmo doors rotating wrong direction
-		{
-			"match": {
-				"classname": "func_door_rotating"
-			},
-			"replace": {
-				"spawnflags": "16"
-			}
-		},
-		// Fix incorrect rendermode
-		{
-			"match": {
-				"targetname": "[PR#]Jenova_Model"
-			},
-			"replace": {
-				"rendermode": "0"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Genesis_Model"
-			},
-			"replace": {
-				"rendermode": "0"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Shinra_Ifrit"
-			},
-			"replace": {
-				"rendermode": "0"
-			}
-		},
-		// Fix weapon strip
-		{
-			"match": {
-				"targetname": "[PR#]Map_Stripper"
-			},
-			"replace": {
-				"classname": "game_player_equip"
-			},
-			"insert": {
-				"spawnflags": "3"
-			}
-		}
-	],
-	"filter": [
-		// Remove old strip entities
-		{
-			"targetname": "[PR#]Knife_Stripper_Maker"
-		},
-		{
-			"targetname": "[PR#]Knife_Strip"
-		},
-		{
-			"targetname": "[PR#]Strip_Knife"
-		},
-		{
-			"targetname": "[PR#]Knife_Stripper_Template"
-		},
-		{
-			"targetname": "[PR#]Knife_Stripper_Teleport"
-		}
-	]
+  "modify": [
+    // Add stripper credit
+    {
+      "match": {
+        "classname": "logic_auto"
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnMapSpawn",
+            "targetname": "[PR#]cmd",
+            "inputname": "Command",
+            "overrideparam": "say *** Door direction, invis model, item height, and knife strip fixed by koen ***",
+            "delay": 5.0,
+            "timestofire": 1
+          }
+        ]
+      }
+    },
+    // Fix cosmo doors rotating wrong direction
+    {
+      "match": {
+        "classname": "func_door_rotating"
+      },
+      "replace": {
+        "spawnflags": "16"
+      }
+    },
+    // Fix incorrect rendermode
+    {
+      "match": {
+        "targetname": "[PR#]Jenova_Model"
+      },
+      "replace": {
+        "rendermode": "0"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Genesis_Model"
+      },
+      "replace": {
+        "rendermode": "0"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Shinra_Ifrit"
+      },
+      "replace": {
+        "rendermode": "0"
+      }
+    },
+    // Fix weapon strip
+    {
+      "match": {
+        "targetname": "[PR#]Map_Stripper"
+      },
+      "replace": {
+        "classname": "game_player_equip"
+      },
+      "insert": {
+        "spawnflags": "3"
+      }
+    }
+  ],
+  "filter": [
+    // Remove old strip entities
+    {
+      "targetname": "[PR#]Knife_Stripper_Maker"
+    },
+    {
+      "targetname": "[PR#]Knife_Strip"
+    },
+    {
+      "targetname": "[PR#]Strip_Knife"
+    },
+    {
+      "targetname": "[PR#]Knife_Stripper_Template"
+    },
+    {
+      "targetname": "[PR#]Knife_Stripper_Teleport"
+    }
+  ]
 }
