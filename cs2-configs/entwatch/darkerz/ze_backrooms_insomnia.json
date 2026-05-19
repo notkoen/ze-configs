@@ -1,0 +1,758 @@
+[
+  {
+    "Name": "Broken Flashlight",
+    "ShortName": "B-Flashlight",
+    "Color": "{grey}",
+    "HammerID": "18528",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": false,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Tactical Flashlight",
+    "ShortName": "Flashlight",
+    "Color": "{white}",
+    "HammerID": "18506",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": false,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Firesalt Bag",
+    "ShortName": "Fire Bag",
+    "Color": "{orange}",
+    "HammerID": "18751",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "18754",
+        "ButtonClass": "func_button",
+        "Filter": "BGFiresalt:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Firesalt",
+    "ShortName": "Fire Handful",
+    "Color": "{orange}",
+    "HammerID": "18764",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "18767",
+        "ButtonClass": "func_button",
+        "Filter": "Firesalt:1",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Glowstick Bag",
+    "ShortName": "Glowstick Bag",
+    "Color": "{green}",
+    "HammerID": "18791",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": false,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "18793",
+        "ButtonClass": "func_button",
+        "Filter": "STGlowStick:1",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 5,
+        "CoolDown": 10
+      }
+    ]
+  },
+  {
+    "Name": "Glowstick",
+    "ShortName": "Glowstick",
+    "Color": "{green}",
+    "HammerID": "18826",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": false,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "18828",
+        "ButtonClass": "func_button",
+        "Filter": "Glowstick:1",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Light Burster",
+    "ShortName": "Burster",
+    "Color": "{yellow}",
+    "HammerID": "18871",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "18874",
+        "ButtonClass": "func_button",
+        "Filter": "Flasher:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Almond Water Bucket",
+    "ShortName": "Almond Bucket",
+    "Color": "{white}",
+    "HammerID": "18885",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "18887",
+        "ButtonClass": "func_button",
+        "Filter": "BGAlmondWater:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Almond Water",
+    "ShortName": "Almond",
+    "Color": "{pink}",
+    "HammerID": "18901",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "18903",
+        "ButtonClass": "func_button",
+        "Filter": "AlmondWater:1",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Man-made Lighting",
+    "ShortName": "Man Lighting",
+    "Color": "{blue}",
+    "HammerID": "18962",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "18963",
+        "ButtonClass": "func_button",
+        "Filter": "MMLighting:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Lighting",
+    "ShortName": "Lighting",
+    "Color": "{blue}",
+    "HammerID": "18991",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "18992",
+        "ButtonClass": "func_button",
+        "Filter": "Lighting:1",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Black Lighting",
+    "ShortName": "Black Lighting",
+    "Color": "{grey}",
+    "HammerID": "19007",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "19005",
+        "ButtonClass": "func_button",
+        "Filter": "BlackLighting:1",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Moth Jelly",
+    "ShortName": "Moth",
+    "Color": "{green}",
+    "HammerID": "19259",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "19256",
+        "ButtonClass": "func_button",
+        "Filter": "MothJelly:1",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 4,
+        "CoolDown": 5
+      }
+    ]
+  },
+  {
+    "Name": "Royal Ration",
+    "ShortName": "Ration",
+    "Color": "{white}",
+    "HammerID": "19278",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "19281",
+        "ButtonClass": "func_button",
+        "Filter": "RoyalRations:1",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Spirit Detector",
+    "ShortName": "Spirit",
+    "Color": "{grey}",
+    "HammerID": "19299",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "19296",
+        "ButtonClass": "func_button",
+        "Filter": "Ghoster:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30
+      }
+    ]
+  },
+  {
+    "Name": "Water Gun",
+    "ShortName": "Water",
+    "Color": "{blue}",
+    "HammerID": "25532",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "",
+        "ButtonClass": "",
+        "Filter": "Watergun:1",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Liquid Pain",
+    "ShortName": "Pain",
+    "Color": "{purple}",
+    "HammerID": "25856",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "25857",
+        "ButtonClass": "func_button",
+        "Filter": "LPain:1",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Scanner MK1",
+    "ShortName": "Scanner",
+    "Color": "{green}",
+    "HammerID": "25870",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "25871",
+        "ButtonClass": "func_button",
+        "Filter": "SCMK1:1",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Collection DLDCZ",
+    "ShortName": "DLDCZ",
+    "Color": "{grey}",
+    "HammerID": "19395",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": false,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Collection DPFWQ",
+    "ShortName": "DPFWQ",
+    "Color": "{grey}",
+    "HammerID": "19404",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": false,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Collection ZLFWQ",
+    "ShortName": "ZLFWQ",
+    "Color": "{grey}",
+    "HammerID": "19419",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": false,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Smiler",
+    "ShortName": "ZM Smiler",
+    "Color": "{grey}",
+    "HammerID": "19105",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Bacteria",
+    "ShortName": "ZM Bacteria",
+    "Color": "{grey}",
+    "HammerID": "19045",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Skin Stealer",
+    "ShortName": "ZM Stealer",
+    "Color": "{orange}",
+    "HammerID": "19068",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Clump",
+    "ShortName": "ZM Clump",
+    "Color": "{orange}",
+    "HammerID": "19165",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Moth",
+    "ShortName": "ZM Moth",
+    "Color": "{grey}",
+    "HammerID": "19219",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Partygoer",
+    "ShortName": "Partygoer",
+    "Color": "{grey}",
+    "HammerID": "19127",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  }
+]

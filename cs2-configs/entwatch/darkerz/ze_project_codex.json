@@ -1,0 +1,114 @@
+[
+  {
+    "Name": "Blue (Slow)",
+    "ShortName": "Blue",
+    "Color": "{darkblue}",
+    "HammerID": "1864",
+    "GlowColor": [0, 0, 255, 255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "hm_item_b_button",
+        "ButtonID": "6100",
+        "ButtonClass": "func_physbox",
+        "Filter": "player_human_snow",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90
+      }
+    ]
+  },
+  {
+    "Name": "Red (Push)",
+    "ShortName": "Red",
+    "Color": "{darkred}",
+    "HammerID": "1929",
+    "GlowColor": [255, 0, 0, 255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "hm_item_r_button",
+        "ButtonID": "6102",
+        "ButtonClass": "func_physbox",
+        "Filter": "player_human_push",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90
+      }
+    ]
+  },
+  {
+    "Name": "Yellow (Heal)",
+    "ShortName": "Yellow",
+    "Color": "{yellow}",
+    "HammerID": "2063",
+    "GlowColor": [255, 255, 0, 255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "hm_item_y_button",
+        "ButtonID": "6104",
+        "ButtonClass": "func_physbox",
+        "Filter": "player_human_health",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90
+      }
+    ]
+  },
+  {
+    "Name": "Purple (Gravity)",
+    "ShortName": "Purple",
+    "Color": "{pink}",
+    "HammerID": "2350",
+    "GlowColor": [128, 0, 128, 255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "hm_item_p_button",
+        "ButtonID": "6098",
+        "ButtonClass": "func_physbox",
+        "Filter": "player_human_gravity",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90
+      }
+    ]
+  }
+]

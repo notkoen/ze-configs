@@ -1,0 +1,299 @@
+[
+  {
+    "Name": "Holy",
+    "ShortName": "Holy",
+    "Color": "{default}",
+    "HammerID": "2074",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "holy_button",
+        "ButtonID": "2080",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Copy",
+    "ShortName": "Copy",
+    "Color": "{default}",
+    "HammerID": "2090",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "copy_button",
+        "ButtonID": "2094",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50
+      }
+    ]
+  },
+  {
+    "Name": "Wind",
+    "ShortName": "Wind",
+    "Color": "{default}",
+    "HammerID": "2163",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "wind_button",
+        "ButtonID": "2159",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Wall",
+    "ShortName": "Wall",
+    "Color": "{default}",
+    "HammerID": "2168",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "wall_button",
+        "ButtonID": "2169",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Water",
+    "ShortName": "Water",
+    "Color": "{default}",
+    "HammerID": "2181",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "water_button",
+        "ButtonID": "2182",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Fire",
+    "ShortName": "Fire",
+    "Color": "{default}",
+    "HammerID": "2196",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "fire_button",
+        "ButtonID": "2197",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{default}",
+    "HammerID": "2211",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "heal_button",
+        "ButtonID": "2212",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "ZM Gravity",
+    "ShortName": "ZM Gravity",
+    "Color": "{default}",
+    "HammerID": "6409",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "zmgravity_button",
+        "ButtonID": "6405",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "ZM Nuke",
+    "ShortName": "ZM Nuke",
+    "Color": "{default}",
+    "HammerID": "6435",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "zmnuke_button",
+        "ButtonID": "6432",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "ZM Heal",
+    "ShortName": "ZM Heal",
+    "Color": "{default}",
+    "HammerID": "6439",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "zmheal_button",
+        "ButtonID": "6440",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 35
+      }
+    ]
+  },
+  {
+    "Name": "ZM Wall",
+    "ShortName": "ZM Wall",
+    "Color": "{default}",
+    "HammerID": "7743",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "zmwall_button",
+        "ButtonID": "7749",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65
+      }
+    ]
+  }
+]

@@ -1,0 +1,338 @@
+[
+  {
+    "Name": "Torch",
+    "ShortName": "Torch",
+    "Color": "{orange}",
+    "HammerID": "3504",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Railcannon",
+    "ShortName": "RailCannon",
+    "Color": "{purple}",
+    "HammerID": "913",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "railcannon_button",
+        "ButtonID": "909",
+        "ButtonClass": "func_button",
+        "Filter": "railcannon_user:1",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Railcannon",
+    "ShortName": "RailCannon",
+    "Color": "{purple}",
+    "HammerID": "913",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "railcannon_button",
+        "ButtonID": "909",
+        "ButtonClass": "func_button",
+        "Filter": "railcannon_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30
+      }
+    ]
+  },
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{white}",
+    "HammerID": "1588",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "heal_button",
+        "ButtonID": "1586",
+        "ButtonClass": "func_button",
+        "Filter": "heal_user:1",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Shotgun",
+    "ShortName": "Shotgun",
+    "Color": "{gray}",
+    "HammerID": "7164",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "shotgun_button",
+        "ButtonID": "7161",
+        "ButtonClass": "func_button",
+        "Filter": "shotgun_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 10
+      }
+    ]
+  },
+  {
+    "Name": "Piercer",
+    "ShortName": "Piercer",
+    "Color": "{green}",
+    "HammerID": "13548",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "piercer_button",
+        "ButtonID": "13545",
+        "ButtonClass": "func_button",
+        "Filter": "piercer_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 10
+      }
+    ]
+  },
+  {
+    "Name": "Rocket Launcher",
+    "ShortName": "Launcher",
+    "Color": "{red}",
+    "HammerID": "19461",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "hm_rocket_launcher_button",
+        "ButtonID": "19455",
+        "ButtonClass": "func_button",
+        "Filter": "hm_rocket_launcher_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 10
+      }
+    ]
+  },
+  {
+    "Name": "Rocket Launcher",
+    "ShortName": "Launcher",
+    "Color": "{red}",
+    "HammerID": "19461",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "hm_rocket_launcher_button",
+        "ButtonID": "19455",
+        "ButtonClass": "func_button",
+        "Filter": "hm_rocket_launcher_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 10
+      }
+    ]
+  },
+  {
+    "Name": "Coin",
+    "ShortName": "Coin",
+    "Color": "{yellow}",
+    "HammerID": "258",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "coin_item_button",
+        "ButtonID": "261",
+        "ButtonClass": "func_button",
+        "Filter": "coin_user:1",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 10
+      }
+    ]
+  },
+  {
+    "Name": "Filth",
+    "ShortName": "Filth",
+    "Color": "{white}",
+    "HammerID": "10147",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Mindflayer",
+    "ShortName": "Mindflayer",
+    "Color": "{white}",
+    "HammerID": "19650",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Cleaner",
+    "ShortName": "Cleaner",
+    "Color": "{white}",
+    "HammerID": "21618",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  }
+]

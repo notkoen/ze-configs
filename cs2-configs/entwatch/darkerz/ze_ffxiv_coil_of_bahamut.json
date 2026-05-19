@@ -1,0 +1,320 @@
+[
+  {
+    "Name": "White Mage",
+    "ShortName": "White Mage",
+    "Color": "{default}",
+    "HammerID": "1134",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "heal_button",
+        "ButtonID": "1138",
+        "ButtonClass": "func_button",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Astrology",
+    "ShortName": "Astrology",
+    "Color": "{default}",
+    "HammerID": "1117",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "heal2_button",
+        "ButtonID": "1120",
+        "ButtonClass": "func_button",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70
+      }
+    ]
+  },
+  {
+    "Name": "Mage Ballad",
+    "ShortName": "Ballad",
+    "Color": "{default}",
+    "HammerID": "1062",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Mage_Ballad_button",
+        "ButtonID": "1066",
+        "ButtonClass": "func_button",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Scholar",
+    "ShortName": "Scholar",
+    "Color": "{default}",
+    "HammerID": "3005",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "heal3_Button",
+        "ButtonID": "2999",
+        "ButtonClass": "func_button",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Electro",
+    "ShortName": "Electro",
+    "Color": "{default}",
+    "HammerID": "1288",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "electric_button",
+        "ButtonID": "1292",
+        "ButtonClass": "func_button",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65
+      }
+    ]
+  },
+  {
+    "Name": "Paladin",
+    "ShortName": "Paladin",
+    "Color": "{default}",
+    "HammerID": "1868",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "paladin_button",
+        "ButtonID": "1855",
+        "ButtonClass": "func_button",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 25
+      },
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "game_ui::PressedAttack2",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 180
+      }
+    ]
+  },
+  {
+    "Name": "[ZM]Fire",
+    "ShortName": "[ZM]Fire",
+    "Color": "{default}",
+    "HammerID": "1307",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Zombies_fire_button",
+        "ButtonID": "1310",
+        "ButtonClass": "func_button",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "[ZM]Wind",
+    "ShortName": "[ZM]Wind",
+    "Color": "{default}",
+    "HammerID": "1319",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Zombies_wind_button",
+        "ButtonID": "1285",
+        "ButtonClass": "func_button",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70
+      }
+    ]
+  },
+  {
+    "Name": "[ZM]Electric",
+    "ShortName": "[ZM]Electric",
+    "Color": "{default}",
+    "HammerID": "1299",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Zombies_electric_button",
+        "ButtonID": "1303",
+        "ButtonClass": "func_button",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "[ZM]Earth",
+    "ShortName": "[ZM]Earth",
+    "Color": "{default}",
+    "HammerID": "2959",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Zombies_earth_button",
+        "ButtonID": "2960",
+        "ButtonClass": "func_button",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70
+      }
+    ]
+  },
+  {
+    "Name": "[ZM]Ice",
+    "ShortName": "[ZM]Ice",
+    "Color": "{default}",
+    "HammerID": "3401",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Zombies_ice_button",
+        "ButtonID": "3394",
+        "ButtonClass": "func_button",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70
+      }
+    ]
+  }
+]

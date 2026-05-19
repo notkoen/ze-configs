@@ -1,0 +1,422 @@
+[
+  {
+    "Name": "ZM Speed",
+    "ShortName": "ZM Speed",
+    "Color": "{default}",
+    "HammerID": "1955",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1957",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "speed_button",
+        "ButtonID": "1959",
+        "ButtonClass": "func_button",
+        "Filter": "zm_speed",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 35
+      }
+    ]
+  },
+  {
+    "Name": "Push",
+    "ShortName": "Push",
+    "Color": "{default}",
+    "HammerID": "1975",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "push_buttona",
+        "ButtonID": "1970",
+        "ButtonClass": "func_button",
+        "Filter": "player_hxf",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Flame",
+    "ShortName": "Flame",
+    "Color": "{default}",
+    "HammerID": "2035",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "push_button",
+        "ButtonID": "2029",
+        "ButtonClass": "",
+        "Filter": "player_push",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Electro",
+    "ShortName": "Electro",
+    "Color": "{default}",
+    "HammerID": "2065",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "lightning_button",
+        "ButtonID": "2062",
+        "ButtonClass": "func_button",
+        "Filter": "Lightning_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{default}",
+    "HammerID": "2075",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_health_button",
+        "ButtonID": "2072",
+        "ButtonClass": "func_button",
+        "Filter": "Health_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Wind",
+    "ShortName": "Wind",
+    "Color": "{default}",
+    "HammerID": "2085",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_wind_button",
+        "ButtonID": "2080",
+        "ButtonClass": "func_button",
+        "Filter": "Wind_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Wall",
+    "ShortName": "Wall",
+    "Color": "{default}",
+    "HammerID": "2096",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_wall_button",
+        "ButtonID": "2088",
+        "ButtonClass": "func_button",
+        "Filter": "Wall_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "ZM Heal",
+    "ShortName": "ZM Heal",
+    "Color": "{default}",
+    "HammerID": "2110",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "2108",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "weapon_knife",
+        "ButtonID": "2101",
+        "ButtonClass": "func_button",
+        "Filter": "zom_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "ZM Gravity",
+    "ShortName": "ZM Gravity",
+    "Color": "{default}",
+    "HammerID": "2136",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "2137",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Zombie_Gravity_Buttond",
+        "ButtonID": "2141",
+        "ButtonClass": "func_button",
+        "Filter": "z_gravity_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "ZM Poison",
+    "ShortName": "ZM Poison",
+    "Color": "{default}",
+    "HammerID": "2145",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "2143",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Zombie_Position_Buttond",
+        "ButtonID": "2148",
+        "ButtonClass": "func_button",
+        "Filter": "z_posi_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70
+      }
+    ]
+  },
+  {
+    "Name": "ZM Blade",
+    "ShortName": "ZM Blade",
+    "Color": "{default}",
+    "HammerID": "2170",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "2168",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Zombie_Blade_Buttond",
+        "ButtonID": "2165",
+        "ButtonClass": "func_button",
+        "Filter": "laser_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20
+      }
+    ]
+  },
+  {
+    "Name": "Book 1",
+    "ShortName": "Book 1",
+    "Color": "{default}",
+    "HammerID": "2595",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Book 2",
+    "ShortName": "Book 2",
+    "Color": "{default}",
+    "HammerID": "2608",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "White Knight",
+    "ShortName": "White Knight",
+    "Color": "{default}",
+    "HammerID": "1813",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1801",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "gaoda_button",
+        "ButtonID": "1782",
+        "ButtonClass": "func_button",
+        "Filter": "wk_user2:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 100
+      }
+    ]
+  },
+  {
+    "Name": "Fu Hua",
+    "ShortName": "Fu Hua",
+    "Color": "{default}",
+    "HammerID": "1898",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "fuhua_gravity_button",
+        "ButtonID": "1830",
+        "ButtonClass": "func_button",
+        "Filter": "wk_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 100
+      }
+    ]
+  }
+]

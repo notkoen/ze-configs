@@ -1,0 +1,114 @@
+[
+  {
+    "Name": "Train",
+    "ShortName": "Train",
+    "Color": "{default}",
+    "HammerID": "1260",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_Train_Button",
+        "ButtonID": "2245",
+        "ButtonClass": "func_button",
+        "Filter": "player_train",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30
+      }
+    ]
+  },
+  {
+    "Name": "heal",
+    "ShortName": "heal",
+    "Color": "{default}",
+    "HammerID": "1981",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_heal_button",
+        "ButtonID": "1984",
+        "ButtonClass": "func_button",
+        "Filter": "player_heal",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Cirno",
+    "ShortName": "Cirno",
+    "Color": "{default}",
+    "HammerID": "2190",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "cirno:1",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Emiya",
+    "ShortName": "Emiya",
+    "Color": "{default}",
+    "HammerID": "3640",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "player_emiya",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  }
+]

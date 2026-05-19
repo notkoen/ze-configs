@@ -1,0 +1,254 @@
+[
+  {
+    "Name": "ZM Cannon 3",
+    "ShortName": "ZM Cannon 3",
+    "Color": "{default}",
+    "HammerID": "2780",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "2782",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "z3_button",
+        "ButtonID": "2749",
+        "ButtonClass": "func_button",
+        "Filter": "z3.cannon_item_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40
+      }
+    ]
+  },
+  {
+    "Name": "ZM Cannon 2",
+    "ShortName": "ZM Cannon 2",
+    "Color": "{default}",
+    "HammerID": "2837",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "8652",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "z2_button",
+        "ButtonID": "2838",
+        "ButtonClass": "func_button",
+        "Filter": "z2.cannon_item_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40
+      }
+    ]
+  },
+  {
+    "Name": "ZM Cannon 1",
+    "ShortName": "ZM Cannon 1",
+    "Color": "{default}",
+    "HammerID": "2922",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "8650",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "z1_button",
+        "ButtonID": "2904",
+        "ButtonClass": "func_button",
+        "Filter": "z1.cannon_item_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40
+      }
+    ]
+  },
+  {
+    "Name": "Plazma",
+    "ShortName": "Plazma",
+    "Color": "{default}",
+    "HammerID": "4461",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "p_button",
+        "ButtonID": "4462",
+        "ButtonClass": "func_button",
+        "Filter": "P.Plazma_item_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120
+      }
+    ]
+  },
+  {
+    "Name": "Yellow Cannon",
+    "ShortName": "Yellow Cannon",
+    "Color": "{default}",
+    "HammerID": "4494",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "c3_button",
+        "ButtonID": "4495",
+        "ButtonClass": "func_button",
+        "Filter": "y.cannon_item_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30
+      }
+    ]
+  },
+  {
+    "Name": "Xoly",
+    "ShortName": "Xoly",
+    "Color": "{default}",
+    "HammerID": "4749",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "xoly_button",
+        "ButtonID": "4742",
+        "ButtonClass": "func_button",
+        "Filter": "xoly_item_user:1",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 20
+      }
+    ]
+  },
+  {
+    "Name": "Blue Cannon",
+    "ShortName": "Blue Cannon",
+    "Color": "{default}",
+    "HammerID": "4846",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "c2_button",
+        "ButtonID": "4847",
+        "ButtonClass": "func_button",
+        "Filter": "B.cannon_item_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Green Cannon",
+    "ShortName": "Green Cannon",
+    "Color": "{default}",
+    "HammerID": "4967",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "c1_button",
+        "ButtonID": "4964",
+        "ButtonClass": "func_button",
+        "Filter": "G.cannon_item_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20
+      }
+    ]
+  },
+  {
+    "Name": "ZM Speeder",
+    "ShortName": "ZM Speeder",
+    "Color": "{default}",
+    "HammerID": "2686",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "8654",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "zs_button",
+        "ButtonID": "2681",
+        "ButtonClass": "func_button",
+        "Filter": "zs.speeder_item_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "Name": "Mapper",
+    "ShortName": "Mapper",
+    "Color": "{default}",
+    "HammerID": "3304",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Slow Arc",
+    "ShortName": "Slow",
+    "Color": "{default}",
+    "HammerID": "346",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "slow_arc_arc_button",
+        "ButtonID": "348",
+        "ButtonClass": "func_button",
+        "Filter": "player_slow_arc_arc",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 2
+      }
+    ]
+  },
+  {
+    "Name": "ZM Freeze",
+    "ShortName": "ZM Freeze",
+    "Color": "{default}",
+    "HammerID": "363",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "341",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "z_freezer_button",
+        "ButtonID": "364",
+        "ButtonClass": "func_button",
+        "Filter": "player_z_freezer",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50
+      }
+    ]
+  },
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{default}",
+    "HammerID": "373",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "heal_button",
+        "ButtonID": "375",
+        "ButtonClass": "func_button",
+        "Filter": "player_heal",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 140
+      }
+    ]
+  },
+  {
+    "Name": "ZM Gravity",
+    "ShortName": "ZM Gravity",
+    "Color": "{default}",
+    "HammerID": "383",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "378",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "zgravity_button",
+        "ButtonID": "380",
+        "ButtonClass": "func_button",
+        "Filter": "player_zgravity",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70
+      }
+    ]
+  },
+  {
+    "Name": "ZM Dragon",
+    "ShortName": "ZM Dragon",
+    "Color": "{default}",
+    "HammerID": "410",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "339",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "z_dragon_button",
+        "ButtonID": "401",
+        "ButtonClass": "func_button",
+        "Filter": "player_z_dragon",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 85
+      }
+    ]
+  },
+  {
+    "Name": "Frost Arc",
+    "ShortName": "Frost",
+    "Color": "{default}",
+    "HammerID": "420",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "arc_button",
+        "ButtonID": "417",
+        "ButtonClass": "func_button",
+        "Filter": "player_arc_freeze",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50
+      }
+    ]
+  },
+  {
+    "Name": "Fire Arc",
+    "ShortName": "Fire",
+    "Color": "{default}",
+    "HammerID": "440",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "fire_arc_button",
+        "ButtonID": "443",
+        "ButtonClass": "func_button",
+        "Filter": "player_fire_arc",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 25
+      }
+    ]
+  },
+  {
+    "Name": "Electro Arc",
+    "ShortName": "Electrod",
+    "Color": "{default}",
+    "HammerID": "461",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "electric_arc_button",
+        "ButtonID": "464",
+        "ButtonClass": "func_button",
+        "Filter": "player_electric_arc",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 25
+      }
+    ]
+  }
+]

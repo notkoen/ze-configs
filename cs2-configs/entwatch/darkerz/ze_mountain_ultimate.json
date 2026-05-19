@@ -1,0 +1,652 @@
+[
+  {
+    "Name": "Hakurei Reimu",
+    "ShortName": "Reimu",
+    "Color": "{red}",
+    "HammerID": "33792",
+    "GlowColor": [255, 0, 0, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Gohei",
+        "ButtonID": "33796",
+        "ButtonClass": "func_button",
+        "Filter": "Humanitem_Reimu",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Kirisame Marisa",
+    "ShortName": "Marisa",
+    "Color": "{yellow}",
+    "HammerID": "33887",
+    "GlowColor": [255, 255, 0, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Hakkero",
+        "ButtonID": "33884",
+        "ButtonClass": "func_button",
+        "Filter": "Humanitem_Marisa",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Izayoi Sakuya",
+    "ShortName": "Sakuya",
+    "Color": "{lightblue}",
+    "HammerID": "33965",
+    "GlowColor": [173, 216, 230, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Time Stop",
+        "ButtonID": "33959",
+        "ButtonClass": "func_button",
+        "Filter": "Humanitem_Sakuya",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 150
+      }
+    ]
+  },
+  {
+    "Name": "Kochiya Sanae",
+    "ShortName": "Sanae",
+    "Color": "{green}",
+    "HammerID": "34042",
+    "GlowColor": [0, 255, 0, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Wind",
+        "ButtonID": "34044",
+        "ButtonClass": "func_button",
+        "Filter": "Humanitem_Sanae",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Konpaku Youmu",
+    "ShortName": "Youmu",
+    "Color": "{grey}",
+    "HammerID": "34106",
+    "GlowColor": [128, 128, 128, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Sword",
+        "ButtonID": "34108",
+        "ButtonClass": "func_button",
+        "Filter": "Humanitem_Youmu",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Flandre Scarlet",
+    "ShortName": "Flandre",
+    "Color": "{darkred}",
+    "HammerID": "34188",
+    "GlowColor": [139, 0, 0, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Laevateinn",
+        "ButtonID": "34182",
+        "ButtonClass": "func_button",
+        "Filter": "Humanitem_Flandre",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Cirno",
+    "ShortName": "Cirno",
+    "Color": "{blue}",
+    "HammerID": "34241",
+    "GlowColor": [0, 0, 255, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Ice",
+        "ButtonID": "34238",
+        "ButtonClass": "func_button",
+        "Filter": "Humanitem_Cirno",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Reiuji Utsuho",
+    "ShortName": "Utsuho",
+    "Color": "{orange}",
+    "HammerID": "34293",
+    "GlowColor": [255, 165, 0, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Nuclear",
+        "ButtonID": "34295",
+        "ButtonClass": "func_button",
+        "Filter": "Humanitem_Utsuho",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Komeiji Koishi",
+    "ShortName": "Koishi",
+    "Color": "{purple}",
+    "HammerID": "34360",
+    "GlowColor": [128, 0, 128, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Mind",
+        "ButtonID": "34362",
+        "ButtonClass": "func_button",
+        "Filter": "Humanitem_Koishi",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Remilia Scarlet",
+    "ShortName": "Remilia",
+    "Color": "{darkred}",
+    "HammerID": "34415",
+    "GlowColor": [139, 0, 0, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Spear",
+        "ButtonID": "34417",
+        "ButtonClass": "func_button",
+        "Filter": "Humanitem_Remilia",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Holy Grail",
+    "ShortName": "Grail",
+    "Color": "{blue}",
+    "HammerID": "35608",
+    "GlowColor": [0, 191, 255, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Rail Gun",
+        "ButtonID": "0",
+        "ButtonClass": "game_ui",
+        "Filter": "Humanitem_Rail",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Baggy Gun",
+    "ShortName": "Baggy",
+    "Color": "{blue}",
+    "HammerID": "36590",
+    "GlowColor": [0, 255, 255, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Elite",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "Humanitem_Baggy",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Zombie TNT",
+    "ShortName": "ZM TNT",
+    "Color": "{red}",
+    "HammerID": "1624",
+    "GlowColor": [255, 0, 0, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Explosive",
+        "ButtonID": "1618",
+        "ButtonClass": "func_button",
+        "Filter": "ZombieSkin_Tnt",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20
+      }
+    ]
+  },
+  {
+    "Name": "Overkill Revolver",
+    "ShortName": "ZM Ukp",
+    "Color": "{red}",
+    "HammerID": "34456",
+    "GlowColor": [255, 0, 0, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Revolver",
+        "ButtonID": "34458",
+        "ButtonClass": "func_button",
+        "Filter": "Zombieitem_Ukp",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 5
+      }
+    ]
+  },
+  {
+    "Name": "Itachi Uchiha",
+    "ShortName": "ZM Itachi",
+    "Color": "{red}",
+    "HammerID": "34524",
+    "GlowColor": [255, 0, 0, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Genjutsu",
+        "ButtonID": "34518",
+        "ButtonClass": "func_button",
+        "Filter": "Zombieitem_Itachi",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Mom Knife",
+    "ShortName": "ZM Mom",
+    "Color": "{orange}",
+    "HammerID": "34554",
+    "GlowColor": [255, 140, 0, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Passive Speed",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "Zombieitem_MomKnife",
+        "Chat_Uses": false,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Squash",
+    "ShortName": "ZM Squash",
+    "Color": "{orange}",
+    "HammerID": "34615",
+    "GlowColor": [255, 140, 0, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Passive",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "Zombieitem_Squash",
+        "Chat_Uses": false,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Charger",
+    "ShortName": "ZM Charger",
+    "Color": "{orange}",
+    "HammerID": "34637",
+    "GlowColor": [255, 140, 0, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Passive",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "Zombieitem_Charger",
+        "Chat_Uses": false,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Mochi",
+    "ShortName": "ZM Mochi",
+    "Color": "{orange}",
+    "HammerID": "34673",
+    "GlowColor": [255, 140, 0, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Passive",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "Zombieitem_Mochi",
+        "Chat_Uses": false,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Bob",
+    "ShortName": "ZM Bob",
+    "Color": "{orange}",
+    "HammerID": "34705",
+    "GlowColor": [255, 140, 0, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Passive",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "Zombieitem_Bob",
+        "Chat_Uses": false,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Magneto",
+    "ShortName": "ZM Magneto",
+    "Color": "{orange}",
+    "HammerID": "34734",
+    "GlowColor": [255, 140, 0, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Passive Pull",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "Zombieitem_Magneto",
+        "Chat_Uses": false,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Kamikaze",
+    "ShortName": "ZM Kamikaze",
+    "Color": "{orange}",
+    "HammerID": "34769",
+    "GlowColor": [255, 140, 0, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Passive",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "Zombieitem_Kamikaze",
+        "Chat_Uses": false,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Devilring",
+    "ShortName": "ZM Devilring",
+    "Color": "{orange}",
+    "HammerID": "34792",
+    "GlowColor": [255, 140, 0, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Passive Hurt",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "Zombieitem_Devilring",
+        "Chat_Uses": false,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Bed",
+    "ShortName": "ZM Bed",
+    "Color": "{orange}",
+    "HammerID": "34809",
+    "GlowColor": [255, 140, 0, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Passive",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "Zombieitem_Bed",
+        "Chat_Uses": false,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Bloodbath",
+    "ShortName": "ZM Bloodbath",
+    "Color": "{orange}",
+    "HammerID": "34836",
+    "GlowColor": [255, 140, 0, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Passive",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "Zombieitem_Bloodbath",
+        "Chat_Uses": false,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  }
+]

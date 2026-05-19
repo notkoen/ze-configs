@@ -1,0 +1,176 @@
+[
+  {
+    "Name": "Gravity",
+    "ShortName": "Gravity",
+    "Color": "{pink}",
+    "HammerID": "19275",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Gravity_Button",
+        "ButtonID": "19276",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Gravity",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80
+      }
+    ]
+  },
+  {
+    "Name": "Wind",
+    "ShortName": "Wind",
+    "Color": "{green}",
+    "HammerID": "19261",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Wind_Button",
+        "ButtonID": "19262",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Wind",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80
+      }
+    ]
+  },
+  {
+    "Name": "Danmaku",
+    "ShortName": "Danmaku",
+    "Color": "{default}",
+    "HammerID": "19373",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Danmu_Button",
+        "ButtonID": "19377",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Danmu",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 10
+      }
+    ]
+  },
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{default}",
+    "HammerID": "19230",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Heal_Button",
+        "ButtonID": "19242",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Heal",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 3,
+        "CoolDown": 4,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": 19231,
+        "MathNameFix": false,
+        "MathFindSpawned": false,
+        "MathDontShowMax": false
+      }
+    ]
+  },
+  {
+    "Name": "Laser Gun",
+    "ShortName": "Laser Gun",
+    "Color": "{darkred}",
+    "HammerID": "19314",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Laser_Gun_Button",
+        "ButtonID": "19318",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Laser_Gun",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 25
+      }
+    ]
+  },
+  {
+    "Name": "Speed",
+    "ShortName": "Speed",
+    "Color": "{darkblue}",
+    "HammerID": "19289",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Speed_Button",
+        "ButtonID": "19296",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Speed",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90
+      }
+    ]
+  }
+]

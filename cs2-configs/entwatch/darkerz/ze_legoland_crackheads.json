@@ -1,0 +1,98 @@
+[
+  {
+    "Name": "CoolrGun",
+    "ShortName": "CoolrGun",
+    "Color": "{default}",
+    "HammerID": "853",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "CoolrButt",
+        "ButtonID": "867",
+        "ButtonClass": "func_button",
+        "Filter": "we1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75
+      }
+    ]
+  },
+  {
+    "Name": "cadegun2",
+    "ShortName": "cadegun2",
+    "Color": "{default}",
+    "HammerID": "715",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "cadegunbutton2",
+        "ButtonID": "718",
+        "ButtonClass": "func_button",
+        "Filter": "we3",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "720",
+        "MathNameFix": false,
+        "MathFindSpawned": true,
+        "MathDontShowMax": true
+      }
+    ]
+  },
+  {
+    "Name": "cadegun",
+    "ShortName": "cadegun",
+    "Color": "{default}",
+    "HammerID": "580",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "cadegunbutton",
+        "ButtonID": "576",
+        "ButtonClass": "func_button",
+        "Filter": "we2",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "573",
+        "MathNameFix": false,
+        "MathFindSpawned": true,
+        "MathDontShowMax": true
+      }
+    ]
+  }
+]

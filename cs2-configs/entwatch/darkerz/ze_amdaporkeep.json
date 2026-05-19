@@ -1,0 +1,486 @@
+[
+  {
+    "Name": "Astrologian",
+    "ShortName": "Astrologian",
+    "Color": "{orange}",
+    "HammerID": "1327",
+    "GlowColor": [0, 255, 0, 1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Draw",
+        "ButtonID": "1320",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Astrologer",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75
+      },
+      {
+        "Name": "Play",
+        "ButtonID": "1323",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Astrologer",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40
+      }
+    ]
+  },
+  {
+    "Name": "Dark Knight",
+    "ShortName": "Dark Knight",
+    "Color": "{darkblue}",
+    "HammerID": "1343",
+    "GlowColor": [0, 0, 139, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Unleash",
+        "ButtonID": "1341",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Dark_Knight",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 15
+      },
+      {
+        "Name": "Salted Earth",
+        "ButtonID": "1338",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Dark_Knight",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "1335",
+        "MathNameFix": false,
+        "MathFindSpawned": false,
+        "MathDontShowMax": true
+      }
+    ]
+  },
+  {
+    "Name": "Black Mage",
+    "ShortName": "Black Mage",
+    "Color": "{purple}",
+    "HammerID": "1310",
+    "GlowColor": [128, 0, 0, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Ley Lines",
+        "ButtonID": "1305",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Black_Mage",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120
+      },
+      {
+        "Name": "Fire",
+        "ButtonID": "1308",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Black_Mage",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Ninja",
+    "ShortName": "Ninja",
+    "Color": "{blue}",
+    "HammerID": "1283",
+    "GlowColor": [139, 0, 0, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Ninjutsu",
+        "ButtonID": "1281",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Ninja",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70
+      },
+      {
+        "Name": "Switch",
+        "ButtonID": "1278",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Ninja",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 5
+      }
+    ]
+  },
+  {
+    "Name": "Warrior of Light",
+    "ShortName": "Warrior",
+    "Color": "{white}",
+    "HammerID": "1718",
+    "GlowColor": [255, 255, 255, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Ultimate",
+        "ButtonID": "1686",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Elidibus",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 2,
+        "CoolDown": 20
+      },
+      {
+        "Name": "Switch",
+        "ButtonID": "1699",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Elidibus",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 5
+      }
+    ]
+  },
+  {
+    "Name": "Red Mage",
+    "ShortName": "Red Mage",
+    "Color": "{darkred}",
+    "HammerID": "5458",
+    "GlowColor": [220, 20, 60, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Magic",
+        "ButtonID": "4388",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Red_Mage",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30
+      }
+    ]
+  },
+  {
+    "Name": "Samurai",
+    "ShortName": "Samurai",
+    "Color": "{pink}",
+    "HammerID": "4435",
+    "GlowColor": [220, 20, 60, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Iaijutsu",
+        "ButtonID": "4441",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Samurai",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "4552",
+        "MathNameFix": false,
+        "MathFindSpawned": false,
+        "MathDontShowMax": true
+      },
+      {
+        "Name": "Ultimate",
+        "ButtonID": "4439",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Samurai",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "4553",
+        "MathNameFix": false,
+        "MathFindSpawned": false,
+        "MathDontShowMax": true
+      }
+    ]
+  },
+  {
+    "Name": "Scholar",
+    "ShortName": "Scholar",
+    "Color": "{lime}",
+    "HammerID": "4459",
+    "GlowColor": [220, 20, 60, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Aetherflow",
+        "ButtonID": "4465",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Scholar",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70
+      },
+      {
+        "Name": "Shield",
+        "ButtonID": "4463",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Scholar",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 105
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Storm",
+    "ShortName": "ZM Storm",
+    "Color": "{grey}",
+    "HammerID": "1701",
+    "GlowColor": [128, 128, 128, 1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1827",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Storm",
+        "ButtonID": "1675",
+        "ButtonClass": "func_button",
+        "Filter": "ZM_Player_Storm",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Warp",
+    "ShortName": "ZM Warp",
+    "Color": "{grey}",
+    "HammerID": "1739",
+    "GlowColor": [128, 128, 128, 1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1721",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Warp",
+        "ButtonID": "1737",
+        "ButtonClass": "func_button",
+        "Filter": "ZM_Player_Warp",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Heal",
+    "ShortName": "ZM Heal",
+    "Color": "{grey}",
+    "HammerID": "1376",
+    "GlowColor": [139, 0, 0, 1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1748",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Heal",
+        "ButtonID": "1724",
+        "ButtonClass": "func_button",
+        "Filter": "ZM_Player_Heal",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Ahriman",
+    "ShortName": "ZM Ahriman",
+    "Color": "{grey}",
+    "HammerID": "1837",
+    "GlowColor": [139, 0, 0, 1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1838",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Attack",
+        "ButtonID": "1834",
+        "ButtonClass": "logic_relay",
+        "Filter": "ZM_Player_Ahriman",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 10
+      },
+      {
+        "Name": "Fly",
+        "ButtonID": "1835",
+        "ButtonClass": "logic_relay",
+        "Filter": "ZM_Player_Ahriman",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 25
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Diabolos Hollow",
+    "ShortName": "ZM Diabolos",
+    "Color": "{grey}",
+    "HammerID": "5407",
+    "GlowColor": [139, 0, 0, 1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "5411",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Magic",
+        "ButtonID": "5405",
+        "ButtonClass": "func_button",
+        "Filter": "ZM_Player_Diabolos_Hollow",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Cloud of Darkness",
+    "ShortName": "ZM Darkness",
+    "Color": "{grey}",
+    "HammerID": "5617",
+    "GlowColor": [139, 0, 0, 1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "5620",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Magic",
+        "ButtonID": "5615",
+        "ButtonClass": "func_button",
+        "Filter": "ZM_Player_C_O_D",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Flying Sprites",
+    "ShortName": "ZM Sprite",
+    "Color": "{grey}",
+    "HammerID": "5657",
+    "GlowColor": [128, 128, 128, 1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "5660",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Magic",
+        "ButtonID": "5655",
+        "ButtonClass": "func_button",
+        "Filter": "ZM_Player_Flying_Sprites",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 55
+      }
+    ]
+  }
+]

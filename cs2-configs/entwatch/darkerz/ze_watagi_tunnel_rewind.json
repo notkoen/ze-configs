@@ -1,0 +1,98 @@
+[
+	{
+		"Name": "HEAL",
+		"ShortName": "HEAL",
+		"Color": "{white}",
+		"HammerID": "27574",
+		"GlowColor": [255,255,255,255],
+		"BlockPickup": false,
+		"AllowTransfer": true,
+		"ForceDrop": true,
+		"Chat": true,
+		"Hud": true,
+		"TriggerID": "0",
+		"UsePriority": true,
+		"AbilityList": [
+			{
+				"Name": "",	
+				"ButtonID": "27576",
+				"ButtonClass": "func_physbox",
+				"Filter": "FILTER_ITEM_LIFE_WATER:1",	
+				"Mode": 2,
+				"CoolDown": 40
+			}
+		]
+	},
+	{
+		"Name": "ZM Damage",
+		"ShortName": "ZM DMG",
+		"Color": "{red}",
+		"HammerID": "27623",
+		"GlowColor": [255,255,255,255],
+		"BlockPickup": false,
+		"AllowTransfer": true,
+		"ForceDrop": true,
+		"Chat": true,
+		"Hud": true,
+		"TriggerID": "0",
+		"UsePriority": true,
+		"AbilityList": [
+			{
+				"Name": "",	
+				"ButtonID": "",
+				"ButtonClass": "",
+				"Filter": "FILTER_ITEM_Z_CHAOS_ROLLING",	
+				"Mode": 1,
+				"CoolDown": 0
+			}
+		]
+	},
+	{
+		"Name": "THUNDERBIRD",
+		"ShortName": "THUNDERBIRD",
+		"Color": "{yellow}",
+		"HammerID": "30890",
+		"GlowColor": [255,255,255,255],
+		"BlockPickup": false,
+		"AllowTransfer": true,
+		"ForceDrop": true,
+		"Chat": true,
+		"Hud": true,
+		"TriggerID": "0",
+		"UsePriority": true,
+		"AbilityList": [
+			{
+				"Name": "",	
+				"ButtonID": "30885",
+				"ButtonClass": "func_physbox",
+				"Filter": "FILTER_ITEM_THUNDERBIRD:1",	
+				"Mode": 2,
+				"CoolDown": 50
+			}
+		]
+	},
+	{
+		"Name": "CHALLENGE",
+		"ShortName": "CHALLENGE",
+		"Color": "{blue}",
+		"HammerID": "27574",
+		"GlowColor": [255,255,255,255],
+		"BlockPickup": false,
+		"AllowTransfer": true,
+		"ForceDrop": true,
+		"Chat": true,
+		"Hud": true,
+		"TriggerID": "0",
+		"UsePriority": true,
+		"AbilityList": [
+			{
+				"Name": "",	
+				"ButtonID": "",
+				"ButtonClass": "",
+				"Filter": "FILTER_ITEM_CHALLENGE",	
+				"Mode": 0,
+				"CoolDown": 0
+			}
+		]
+	}
+]

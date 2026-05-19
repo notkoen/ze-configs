@@ -1,0 +1,170 @@
+[
+  {
+    "Name": "ZM Spider",
+    "ShortName": "ZM Spider",
+    "Color": "{default}",
+    "HammerID": "20309",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "20295",
+    "UsePriority": false,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "$spider_attr",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Ent",
+    "ShortName": "Ent",
+    "Color": "{default}",
+    "HammerID": "20501",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3483",
+    "UsePriority": false,
+    "AbilityList": [
+      {
+        "Name": "turret_button",
+        "ButtonID": "20525",
+        "ButtonClass": "func_button",
+        "Filter": "$ent_attr",
+        "Chat_Uses": false,
+        "Mode": 4,
+        "MaxUses": 4,
+        "CoolDown": 20
+      }
+    ]
+  },
+  {
+    "Name": "Barricade",
+    "ShortName": "Barricade",
+    "Color": "{default}",
+    "HammerID": "20532",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "stage_1_barricade_1_16",
+        "ButtonID": "20529",
+        "ButtonClass": "func_button",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Gandalf",
+    "ShortName": "Gandalf",
+    "Color": "{default}",
+    "HammerID": "20790",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3600",
+    "UsePriority": false,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{default}",
+    "HammerID": "20877",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Heal_button",
+        "ButtonID": "20875",
+        "ButtonClass": "func_button",
+        "Filter": "$heal_owner",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Torch",
+    "ShortName": "Torch",
+    "Color": "{default}",
+    "HammerID": "2643",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": false,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  }
+]

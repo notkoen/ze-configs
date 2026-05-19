@@ -1,0 +1,198 @@
+[
+  {
+    "Name": "Shotgun",
+    "ShortName": "Shotgun",
+    "Color": "{default}",
+    "HammerID": "666",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "spasbutton",
+        "ButtonID": "671",
+        "ButtonClass": "func_button",
+        "Filter": "shotgunname",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "First-Aid Spray**",
+    "ShortName": "First-Aid",
+    "Color": "{default}",
+    "HammerID": "598",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "firstaid_button",
+        "ButtonID": "936",
+        "ButtonClass": "func_button",
+        "Filter": "guy_medkit",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 5
+      }
+    ]
+  },
+  {
+    "Name": "Flamethrower",
+    "ShortName": "Flamethrower",
+    "Color": "{red}",
+    "HammerID": "404",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "flame_button",
+        "ButtonID": "399",
+        "ButtonClass": "func_button",
+        "Filter": "flamethrower",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Kar98k",
+    "ShortName": "Kar98k",
+    "Color": "{default}",
+    "HammerID": "40266",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "kar_button",
+        "ButtonID": "40269",
+        "ButtonClass": "func_button",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Rocket Launcher",
+    "ShortName": "Rocket",
+    "Color": "{orange}",
+    "HammerID": "237",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "rocketbtn",
+        "ButtonID": "1228",
+        "ButtonClass": "func_button",
+        "Filter": "misil_owner",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 6
+      }
+    ]
+  },
+  {
+    "Name": "Saw",
+    "ShortName": "Saw",
+    "Color": "{default}",
+    "HammerID": "40793",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "saw_button",
+        "ButtonID": "40808",
+        "ButtonClass": "func_button",
+        "Filter": "sawname",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Survival Knife",
+    "ShortName": "Knife",
+    "Color": "{default}",
+    "HammerID": "662",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_Knife_Button",
+        "ButtonID": "658",
+        "ButtonClass": "func_button",
+        "Filter": "Knife_Owner",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  }
+]

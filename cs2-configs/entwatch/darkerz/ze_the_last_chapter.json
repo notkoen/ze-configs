@@ -1,0 +1,254 @@
+[
+  {
+    "Name": "Electric",
+    "ShortName": "Electric",
+    "Color": "{default}",
+    "HammerID": "285",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "nrk_item_electric_button",
+        "ButtonID": "281",
+        "ButtonClass": "func_button",
+        "Filter": "naraka_electric:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90
+      }
+    ]
+  },
+  {
+    "Name": "Blizzard",
+    "ShortName": "Blizzard",
+    "Color": "{default}",
+    "HammerID": "294",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "nrk_item_blizzard_button",
+        "ButtonID": "289",
+        "ButtonClass": "func_button",
+        "Filter": "naraka_blizzard:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120
+      }
+    ]
+  },
+  {
+    "Name": "Fire",
+    "ShortName": "Fire",
+    "Color": "{default}",
+    "HammerID": "303",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "nrk_item_fire_button",
+        "ButtonID": "301",
+        "ButtonClass": "func_button",
+        "Filter": "naraka_fire:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90
+      }
+    ]
+  },
+  {
+    "Name": "[ZM] Poison",
+    "ShortName": "[ZM] Poison",
+    "Color": "{default}",
+    "HammerID": "311",
+    "GlowColor": [255,0,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "nrk_item_poison_button",
+        "ButtonID": "309",
+        "ButtonClass": "func_button",
+        "Filter": "naraka_poison:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90
+      }
+    ]
+  },
+  {
+    "Name": "[ZM] Curse",
+    "ShortName": "[ZM] Curse",
+    "Color": "{default}",
+    "HammerID": "323",
+    "GlowColor": [255,0,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "nrk_item_curse_button",
+        "ButtonID": "319",
+        "ButtonClass": "func_button",
+        "Filter": "naraka_curse:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120
+      }
+    ]
+  },
+  {
+    "Name": "Teleport",
+    "ShortName": "Teleport",
+    "Color": "{default}",
+    "HammerID": "331",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "nrk_item_teleport_button",
+        "ButtonID": "326",
+        "ButtonClass": "func_button",
+        "Filter": "naraka_teleport:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 150
+      }
+    ]
+  },
+  {
+    "Name": "[ZM] Firewall",
+    "ShortName": "[ZM] Firewall",
+    "Color": "{default}",
+    "HammerID": "343",
+    "GlowColor": [255,0,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "nrk_item_firewall_button",
+        "ButtonID": "353",
+        "ButtonClass": "func_button",
+        "Filter": "naraka_firewall:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120
+      }
+    ]
+  },
+  {
+    "Name": "Ammo",
+    "ShortName": "Ammo",
+    "Color": "{default}",
+    "HammerID": "4702",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "nrk_item_ammo_button",
+        "ButtonID": "4704",
+        "ButtonClass": "func_button",
+        "Filter": "naraka_ammo:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{default}",
+    "HammerID": "4774",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "nrk_item_medic_button",
+        "ButtonID": "4770",
+        "ButtonClass": "func_button",
+        "Filter": "naraka_heal:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90
+      }
+    ]
+  }
+]

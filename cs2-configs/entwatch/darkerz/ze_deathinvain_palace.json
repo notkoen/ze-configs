@@ -1,0 +1,450 @@
+[
+  {
+    "Name": "Cure",
+    "ShortName": "Cure",
+    "Color": "{white}",
+    "HammerID": "1691",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "cure_button",
+        "ButtonID": "1692",
+        "ButtonClass": "func_button",
+        "Filter": "cureuser",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Frost",
+    "ShortName": "Frost",
+    "Color": "{cyan}",
+    "HammerID": "1681",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "frost_button",
+        "ButtonID": "1682",
+        "ButtonClass": "func_button",
+        "Filter": "frostuser",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65
+      }
+    ]
+  },
+  {
+    "Name": "Thunder",
+    "ShortName": "Thunder",
+    "Color": "{purple}",
+    "HammerID": "1662",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "thunder_button",
+        "ButtonID": "1665",
+        "ButtonClass": "func_button",
+        "Filter": "thunderuser",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Hurricane",
+    "ShortName": "Hurricane",
+    "Color": "{green}",
+    "HammerID": "1641",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "hurricane_button",
+        "ButtonID": "1643",
+        "ButtonClass": "func_button",
+        "Filter": "hurricaneuser",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65
+      }
+    ]
+  },
+  {
+    "Name": "Disaster",
+    "ShortName": "Disaster",
+    "Color": "{red}",
+    "HammerID": "1620",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "disaster_button",
+        "ButtonID": "1623",
+        "ButtonClass": "func_button",
+        "Filter": "disastereuser",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Lure Scroll",
+    "ShortName": "Lure",
+    "Color": "{purple}",
+    "HammerID": "1609",
+    "GlowColor": [147, 112, 219, 255],
+    "FilterID": 0,
+    "FilterValue": "lureuser",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "lure_button",
+        "ButtonID": "1611",
+        "ButtonClass": "func_button",
+        "Filter": "lureuser",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65
+      }
+    ]
+  },
+  {
+    "Name": "AVA",
+    "ShortName": "AVA",
+    "Color": "{white}",
+    "HammerID": "1599",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "ava_button",
+        "ButtonID": "1596",
+        "ButtonClass": "func_button",
+        "Filter": "avauser",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Saint Diana's Shelter",
+    "ShortName": "Diana",
+    "Color": "{white}",
+    "HammerID": "1707",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "diana_button",
+        "ButtonID": "1702",
+        "ButtonClass": "func_button",
+        "Filter": "dianauser",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65
+      }
+    ]
+  },
+  {
+    "Name": "The Lament of Otto",
+    "ShortName": "Otto",
+    "Color": "{white}",
+    "HammerID": "2321",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "otto_button",
+        "ButtonID": "2319",
+        "ButtonClass": "func_button",
+        "Filter": "otto",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 30
+      }
+    ]
+  },
+  {
+    "Name": "Stone Tablet Fragments",
+    "ShortName": "Fragments",
+    "Color": "{white}",
+    "HammerID": "2347",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "",
+        "ButtonClass": "",
+        "Filter": "fragment",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "ZM Shield",
+    "ShortName": "ZMShield",
+    "Color": "{white}",
+    "HammerID": "1234",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "zshield_button",
+        "ButtonID": "1228",
+        "ButtonClass": "func_button",
+        "Filter": "shieldzm",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65
+      }
+    ]
+  },
+  {
+    "Name": "ZM Ice",
+    "ShortName": "ZMIce",
+    "Color": "{cyan}",
+    "HammerID": "1500",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "zice_button",
+        "ButtonID": "1502",
+        "ButtonClass": "func_button",
+        "Filter": "icezm",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 45
+      }
+    ]
+  },
+  {
+    "Name": "ZM Gravity",
+    "ShortName": "ZMGravity",
+    "Color": "{purple}",
+    "HammerID": "1512",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "zgravity_button",
+        "ButtonID": "1514",
+        "ButtonClass": "func_button",
+        "Filter": "gravzm",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65
+      }
+    ]
+  },
+  {
+    "Name": "ZM Fire",
+    "ShortName": "ZMFire",
+    "Color": "{orange}",
+    "HammerID": "1522",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "zfire_button",
+        "ButtonID": "1524",
+        "ButtonClass": "func_button",
+        "Filter": "firezm",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 45
+      }
+    ]
+  },
+  {
+    "Name": "ZM Warp",
+    "ShortName": "ZMWarp",
+    "Color": "{purple}",
+    "HammerID": "1550",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "zwarp_button",
+        "ButtonID": "1542",
+        "ButtonClass": "func_button",
+        "Filter": "warpzm",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65
+      }
+    ]
+  },
+  {
+    "Name": "ZM Heal",
+    "ShortName": "ZMHeal",
+    "Color": "{white}",
+    "HammerID": "1556",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "zheal_button",
+        "ButtonID": "1561",
+        "ButtonClass": "func_button",
+        "Filter": "healzm",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  }
+]

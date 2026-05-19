@@ -1,0 +1,116 @@
+[
+  {
+    "Name": "Cone",
+    "ShortName": "Cone",
+    "Color": "{orange}",
+    "HammerID": "4185",
+    "GlowColor": [255,165,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "human_cone_button",
+        "ButtonID": "16906", 
+        "ButtonClass": "func_button",
+        "Filter": "player_human_cone",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70
+      }
+    ]
+  },
+  {
+    "Name": "Beam",
+    "ShortName": "Beam",
+    "Color": "{darkblue}",
+    "HammerID": "4162",
+    "GlowColor": [0,0,255,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "human_beam_button",
+        "ButtonID": "16902",
+        "ButtonClass": "func_button",
+        "Filter": "player_human_beam",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70
+      }
+    ]
+  },
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{default}",
+    "HammerID": "4169",
+    "GlowColor": [255,255,255,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "human_heal_button",
+        "ButtonID": "16910",
+        "ButtonClass": "func_button",
+        "Filter": "player_human_heal",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80
+      }
+    ]
+  },
+  {
+    "Name": "Slow Ball",
+    "ShortName": "Slow",
+    "Color": "{green}",
+    "HammerID": "4187",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "human_slowball_button",
+        "ButtonID": "16914",
+        "ButtonClass": "func_button",
+        "Filter": "player_human_slowball",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false
+      }
+    ]
+  }
+]

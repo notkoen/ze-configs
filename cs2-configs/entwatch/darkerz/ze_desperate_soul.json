@@ -1,0 +1,438 @@
+[
+  {
+    "Name": "Planet",
+    "ShortName": "Planet",
+    "Color": "{default}",
+    "HammerID": "4857",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_Planet_Button",
+        "ButtonID": "2450",
+        "ButtonClass": "func_button",
+        "Filter": "player_planet",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30
+      }
+    ]
+  },
+  {
+    "Name": "Fire",
+    "ShortName": "Fire",
+    "Color": "{default}",
+    "HammerID": "2615",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_Fire_Button",
+        "ButtonID": "2618",
+        "ButtonClass": "func_button",
+        "Filter": "player_fire",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "ZM Water",
+    "ShortName": "ZM Water",
+    "Color": "{default}",
+    "HammerID": "6327",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "6442",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_ZWater_Button",
+        "ButtonID": "-1",
+        "ButtonClass": "func_button",
+        "Filter": "player_zwater",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "4820",
+        "MathNameFix": false,
+        "MathFindSpawned": false,
+        "MathDontShowMax": true
+      },
+      {
+        "Name": "Item_ZWater_Button",
+        "ButtonID": "2751",
+        "ButtonClass": "func_button",
+        "Filter": "player_zwater",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Wisp",
+    "ShortName": "Wisp",
+    "Color": "{default}",
+    "HammerID": "3120",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_Wisp_Button",
+        "ButtonID": "8198",
+        "ButtonClass": "func_button",
+        "Filter": "player_wisp",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Toxin",
+    "ShortName": "Toxin",
+    "Color": "{default}",
+    "HammerID": "3421",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_Toxin_Button",
+        "ButtonID": "3417",
+        "ButtonClass": "func_button",
+        "Filter": "player_toxin",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Fate (2x damage)",
+    "ShortName": "Fate",
+    "Color": "{default}",
+    "HammerID": "3426",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_Fate_Button",
+        "ButtonID": "3431",
+        "ButtonClass": "func_button",
+        "Filter": "player_fate",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{default}",
+    "HammerID": "3441",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_Heal_Button",
+        "ButtonID": "3445",
+        "ButtonClass": "func_button",
+        "Filter": "player_heal",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "ZM Heal",
+    "ShortName": "ZM Heal",
+    "Color": "{default}",
+    "HammerID": "3511",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3512",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_ZHeal_Button",
+        "ButtonID": "3516",
+        "ButtonClass": "func_button",
+        "Filter": "player_zheal",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40
+      }
+    ]
+  },
+  {
+    "Name": "Ichika",
+    "ShortName": "Ichika",
+    "Color": "{default}",
+    "HammerID": "5003",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_Ichika_Button",
+        "ButtonID": "5004",
+        "ButtonClass": "func_button",
+        "Filter": "player_ichika",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 10,
+        "CoolDown": 5
+      }
+    ]
+  },
+  {
+    "Name": "Holy",
+    "ShortName": "Holy",
+    "Color": "{default}",
+    "HammerID": "6006",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_Holy_Button",
+        "ButtonID": "2930",
+        "ButtonClass": "func_button",
+        "Filter": "player_holy",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20
+      }
+    ]
+  },
+  {
+    "Name": "ZM Rescue",
+    "ShortName": "ZM Rescue",
+    "Color": "{default}",
+    "HammerID": "5866",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "5861",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_ZRescue_Button",
+        "ButtonID": "5867",
+        "ButtonClass": "func_button",
+        "Filter": "player_zrescue",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Asylum",
+    "ShortName": "Asylum",
+    "Color": "{default}",
+    "HammerID": "5904",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_Asylum_Button",
+        "ButtonID": "5907",
+        "ButtonClass": "func_button",
+        "Filter": "player_asylum",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90
+      }
+    ]
+  },
+  {
+    "Name": "Light",
+    "ShortName": "Light",
+    "Color": "{default}",
+    "HammerID": "5439",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "5440",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "light:1",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Dark",
+    "ShortName": "Dark",
+    "Color": "{default}",
+    "HammerID": "5443",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "5444",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "Dark:1",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Star",
+    "ShortName": "Star",
+    "Color": "{default}",
+    "HammerID": "7189",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_Star_Button",
+        "ButtonID": "7192",
+        "ButtonClass": "func_button",
+        "Filter": "player_star",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  }
+]

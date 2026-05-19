@@ -1,0 +1,626 @@
+[
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{default}",
+    "HammerID": "75594",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "itemheal_button",
+        "ButtonID": "75592",
+        "ButtonClass": "func_button",
+        "Filter": "player_heal:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65
+      }
+    ]
+  },
+  {
+    "Name": "m0w0m",
+    "ShortName": "m0w0m",
+    "Color": "{default}",
+    "HammerID": "73412",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Ammo",
+    "ShortName": "Ammo",
+    "Color": "{yellow}",
+    "HammerID": "82707",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "ammo_button",
+        "ButtonID": "82708",
+        "ButtonClass": "func_button",
+        "Filter": "player_ammo:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65
+      }
+    ]
+  },
+  {
+    "Name": "Beam Rifle",
+    "ShortName": "Beam Rifle",
+    "Color": "{default}",
+    "HammerID": "83054",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "itembeamrifle_button",
+        "ButtonID": "75889",
+        "ButtonClass": "func_button",
+        "Filter": "player_beamrifle:1",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Beam",
+    "ShortName": "Beam",
+    "Color": "{default}",
+    "HammerID": "75619",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "itembeam_button",
+        "ButtonID": "75613",
+        "ButtonClass": "func_button",
+        "Filter": "player_beam:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65
+      }
+    ]
+  },
+  {
+    "Name": "Blast",
+    "ShortName": "Blast",
+    "Color": "{default}",
+    "HammerID": "76013",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "itemblast_button",
+        "ButtonID": "76017",
+        "ButtonClass": "func_button",
+        "Filter": "player_itemblast:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90
+      }
+    ]
+  },
+  {
+    "Name": "C4",
+    "ShortName": "C4",
+    "Color": "{default}",
+    "HammerID": "75910",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "itemc4_button",
+        "ButtonID": "75913",
+        "ButtonClass": "func_button",
+        "Filter": "player_itemc4:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90
+      }
+    ]
+  },
+  {
+    "Name": "Electro",
+    "ShortName": "Electro",
+    "Color": "{darkblue}",
+    "HammerID": "75793",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "itemelec_button",
+        "ButtonID": "75790",
+        "ButtonClass": "func_button",
+        "Filter": "player_itemelec:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Fire",
+    "ShortName": "Fire",
+    "Color": "{darkred}",
+    "HammerID": "75777",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "itemfire_button",
+        "ButtonID": "75773",
+        "ButtonClass": "func_button",
+        "Filter": "player_itemfire:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Flamethrower",
+    "ShortName": "Flamethrower",
+    "Color": "{red}",
+    "HammerID": "75838",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "itemflamethrower_button",
+        "ButtonID": "75836",
+        "ButtonClass": "func_button",
+        "Filter": "player_flamethrower:1",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Gatling",
+    "ShortName": "Gatling",
+    "Color": "{orange}",
+    "HammerID": "75876",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "itemgatling_button",
+        "ButtonID": "75877",
+        "ButtonClass": "func_button",
+        "Filter": "player_gatling:1",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Gravity",
+    "ShortName": "Gravity",
+    "Color": "{pink}",
+    "HammerID": "75804",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "itemgravity_button",
+        "ButtonID": "75805",
+        "ButtonClass": "func_button",
+        "Filter": "player_itemgravity:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75
+      }
+    ]
+  },
+  {
+    "Name": "Ice",
+    "ShortName": "Ice",
+    "Color": "{darkblue}",
+    "HammerID": "75784",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "itemice_button",
+        "ButtonID": "75780",
+        "ButtonClass": "func_button",
+        "Filter": "player_itemice:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50
+      }
+    ]
+  },
+  {
+    "Name": "Launcher",
+    "ShortName": "Launcher",
+    "Color": "{default}",
+    "HammerID": "75833",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "itemlauncher_button",
+        "ButtonID": "75828",
+        "ButtonClass": "func_button",
+        "Filter": "player_launcher:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 15
+      }
+    ]
+  },
+  {
+    "Name": "Maxwell",
+    "ShortName": "Maxwell",
+    "Color": "{default}",
+    "HammerID": "76021",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "itemmaxwell_button",
+        "ButtonID": "76024",
+        "ButtonClass": "func_button",
+        "Filter": "player_itemmaxwell:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90
+      }
+    ]
+  },
+  {
+    "Name": "Napalm",
+    "ShortName": "Napalm",
+    "Color": "{default}",
+    "HammerID": "75905",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "itemnapalm_button",
+        "ButtonID": "75903",
+        "ButtonClass": "func_button",
+        "Filter": "player_napalm:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Poison",
+    "ShortName": "Poison",
+    "Color": "{green}",
+    "HammerID": "75800",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "itempoison_button",
+        "ButtonID": "75797",
+        "ButtonClass": "func_button",
+        "Filter": "player_itempoison:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65
+      }
+    ]
+  },
+  {
+    "Name": "Push",
+    "ShortName": "Push",
+    "Color": "{green}",
+    "HammerID": "75621",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "itempush_button",
+        "ButtonID": "75622",
+        "ButtonClass": "func_button",
+        "Filter": "player_push:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Slugger",
+    "ShortName": "Slugger",
+    "Color": "{default}",
+    "HammerID": "83061",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "itemslugger_button",
+        "ButtonID": "83059",
+        "ButtonClass": "func_button",
+        "Filter": "player_slugger:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30
+      }
+    ]
+  },
+  {
+    "Name": "Venom",
+    "ShortName": "Venom",
+    "Color": "{default}",
+    "HammerID": "75645",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "itemvenom_button",
+        "ButtonID": "75643",
+        "ButtonClass": "func_button",
+        "Filter": "player_venom:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70
+      }
+    ]
+  },
+  {
+    "Name": "Water",
+    "ShortName": "Water",
+    "Color": "{blue}",
+    "HammerID": "75827",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "itemwater_button",
+        "ButtonID": "75821",
+        "ButtonClass": "func_button",
+        "Filter": "player_itemwater:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50
+      }
+    ]
+  },
+  {
+    "Name": "Wind",
+    "ShortName": "Wind",
+    "Color": "{green}",
+    "HammerID": "75819",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "itemwind_button",
+        "ButtonID": "75813",
+        "ButtonClass": "func_button",
+        "Filter": "player_itemwind:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Gravity",
+    "ShortName": "ZM Gravity",
+    "Color": "{pink}",
+    "HammerID": "75925",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "itemzgravity_button",
+        "ButtonID": "75926",
+        "ButtonClass": "func_button",
+        "Filter": "player_zgravity:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Heal",
+    "ShortName": "ZM Heal",
+    "Color": "{default}",
+    "HammerID": "75936",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "itemzheal_button",
+        "ButtonID": "75931",
+        "ButtonClass": "func_button",
+        "Filter": "player_zheal:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 8
+      }
+    ]
+  }
+]

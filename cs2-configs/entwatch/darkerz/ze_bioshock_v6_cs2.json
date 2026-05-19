@@ -1,0 +1,282 @@
+[
+  {
+    "Name": "electro",
+    "ShortName": "electro",
+    "Color": "{default}",
+    "HammerID": "19212",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "plasmid_button_electro",
+        "ButtonID": "18285",
+        "ButtonClass": "func_button",
+        "Filter": "electrouser",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 11
+      }
+    ]
+  },
+  {
+    "Name": "incinerate",
+    "ShortName": "incinerate",
+    "Color": "{default}",
+    "HammerID": "19211",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "plasmid_button_incinerate",
+        "ButtonID": "18283",
+        "ButtonClass": "func_button",
+        "Filter": "incinerateuser",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 8,
+        "CoolDown": 11
+      }
+    ]
+  },
+  {
+    "Name": "cyclone",
+    "ShortName": "cyclone",
+    "Color": "{default}",
+    "HammerID": "19210",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "plasmid_button_cyclone",
+        "ButtonID": "18281",
+        "ButtonClass": "func_button",
+        "Filter": "cycloneuser",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 6,
+        "CoolDown": 10
+      }
+    ]
+  },
+  {
+    "Name": "insect",
+    "ShortName": "insect",
+    "Color": "{default}",
+    "HammerID": "19209",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "plasmid_button_insect",
+        "ButtonID": "18220",
+        "ButtonClass": "func_button",
+        "Filter": "insectuser",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 5,
+        "CoolDown": 10
+      }
+    ]
+  },
+  {
+    "Name": "tonic flashflare",
+    "ShortName": "tonic flashflare",
+    "Color": "{default}",
+    "HammerID": "19216",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "tonic static",
+    "ShortName": "tonic static",
+    "Color": "{default}",
+    "HammerID": "19215",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "little sister",
+    "ShortName": "little sister",
+    "Color": "{default}",
+    "HammerID": "19214",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "little_sister",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "big daddy",
+    "ShortName": "big daddy",
+    "Color": "{default}",
+    "HammerID": "19213",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "big_daddy",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "gravity",
+    "ShortName": "gravity",
+    "Color": "{default}",
+    "HammerID": "19208",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "plasmid_button_gravity",
+        "ButtonID": "4171",
+        "ButtonClass": "func_button",
+        "Filter": "gravityuser",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 5,
+        "CoolDown": 18
+      }
+    ]
+  },
+  {
+    "Name": "frost",
+    "ShortName": "frost",
+    "Color": "{default}",
+    "HammerID": "19207",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "plasmid_button_frost",
+        "ButtonID": "4183",
+        "ButtonClass": "func_button",
+        "Filter": "frostuser",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 5,
+        "CoolDown": 13
+      }
+    ]
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "Name": "Global Silence",
+    "ShortName": "Silence",
+    "Color": "{purple}",
+    "HammerID": "1312",
+    "GlowColor": [180,0,255,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Global Silence",
+        "ButtonID": "1313",
+        "ButtonClass": "func_physbox",
+        "Filter": "global_silence_own",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 300
+      }
+    ]
+  },
+  {
+    "Name": "Ice Path",
+    "ShortName": "Ice",
+    "Color": "{lightblue}",
+    "HammerID": "1330",
+    "GlowColor": [0,200,255,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Ice Path",
+        "ButtonID": "1328",
+        "ButtonClass": "func_physbox",
+        "Filter": "ice_path_own",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90
+      }
+    ]
+  },
+  {
+    "Name": "Pit Of Malice",
+    "ShortName": "POM",
+    "Color": "{red}",
+    "HammerID": "1383",
+    "GlowColor": [255,50,50,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Pit Of Malice",
+        "ButtonID": "1380",
+        "ButtonClass": "func_physbox",
+        "Filter": "item_pom_own",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Dream Orb",
+    "ShortName": "Dream",
+    "Color": "{pink}",
+    "HammerID": "1384",
+    "GlowColor": [255,120,200,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Dream Orb",
+        "ButtonID": "1387",
+        "ButtonClass": "func_physbox",
+        "Filter": "dream_orb_own",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 5
+      }
+    ]
+  },
+  {
+    "Name": "Dark Rift",
+    "ShortName": "Rift",
+    "Color": "{darkred}",
+    "HammerID": "1405",
+    "GlowColor": [120,0,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Dark Rift",
+        "ButtonID": "1406",
+        "ButtonClass": "func_physbox",
+        "Filter": "dark_rift_own",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 600
+      }
+    ]
+  }
+]

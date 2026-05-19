@@ -1,0 +1,460 @@
+[
+  {
+    "Name": "Knight",
+    "ShortName": "Knight",
+    "Color": "{yellow}",
+    "HammerID": "2120",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "2121",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Human_Knight:1",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Oath",
+    "ShortName": "Oath",
+    "Color": "{yellow}",
+    "HammerID": "12320",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "12317",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Human_Oath:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80
+      },
+      {
+        "Name": "",
+        "ButtonID": "12328",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Human_Oath:1",
+        "Chat_Uses": false,
+        "Ignore": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 10
+      }
+    ]
+  },
+  {
+    "Name": "Damage Potion",
+    "ShortName": "Damage",
+    "Color": "{red}",
+    "HammerID": "2137",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "2135",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Human_Damage:1",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 6
+      }
+    ]
+  },
+  {
+    "Name": "Thunder",
+    "ShortName": "Thunder",
+    "Color": "{purple}",
+    "HammerID": "12342",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "12339",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Human_Thunder:1",
+        "Chat_Uses": true,
+        "Mode": 1
+      }
+    ]
+  },
+  {
+    "Name": "Bahamut",
+    "ShortName": "Bahamut",
+    "Color": "{darkred}",
+    "HammerID": "12285",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "1361",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Human_Bahamut:1",
+        "Chat_Uses": true,
+        "Mode": 1
+      },
+      {
+        "Name": "",
+        "ButtonID": "1372",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Human_Bahamut:1",
+        "Chat_Uses": false,
+        "Ignore": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 10
+      }
+    ]
+  },
+  {
+    "Name": "Poison Potion",
+    "ShortName": "Poison",
+    "Color": "{green}",
+    "HammerID": "2132",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "2133",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Human_Poisonr:1",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 4
+      }
+    ]
+  },
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{white}",
+    "HammerID": "12376",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "12378",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Human_Heal:1",
+        "Chat_Uses": true,
+        "Mode": 1
+      }
+    ]
+  },
+  {
+    "Name": "Blizzard",
+    "ShortName": "Blizzard",
+    "Color": "{blue}",
+    "HammerID": "12353",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "12355",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Human_Blizzard:1",
+        "Chat_Uses": true,
+        "Mode": 1
+      }
+    ]
+  },
+  {
+    "Name": "Lalafell",
+    "ShortName": "Lalafell",
+    "Color": "{yellow}",
+    "HammerID": "12304",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Chat_Uses": false,
+        "Mode": 1
+      }
+    ]
+  },
+  {
+    "Name": "ZM Alteci",
+    "ShortName": "ZM Alteci",
+    "Color": "{grey}",
+    "HammerID": "12509",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Chat_Uses": false,
+        "Mode": 1
+      }
+    ]
+  },
+  {
+    "Name": "ZM Vyraal",
+    "ShortName": "ZM Vyraal",
+    "Color": "{grey}",
+    "HammerID": "12584",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Chat_Uses": true,
+        "Mode": 1
+      }
+    ]
+  },
+  {
+    "Name": "ZM Ice",
+    "ShortName": "ZM Ice",
+    "Color": "{blue}",
+    "HammerID": "12387",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Chat_Uses": false,
+        "Mode": 1
+      }
+    ]
+  },
+  {
+    "Name": "ZM Malefic",
+    "ShortName": "ZM Malefic",
+    "Color": "{darkred}",
+    "HammerID": "12404",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Chat_Uses": false,
+        "Mode": 1
+      }
+    ]
+  },
+  {
+    "Name": "ZM Heal",
+    "ShortName": "ZM Heal",
+    "Color": "{white}",
+    "HammerID": "12419",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Chat_Uses": false,
+        "Mode": 1
+      }
+    ]
+  },
+  {
+    "Name": "ZM Gravity",
+    "ShortName": "ZM Gravity",
+    "Color": "{pink}",
+    "HammerID": "12419",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Chat_Uses": false,
+        "Mode": 1
+      }
+    ]
+  },
+  {
+    "Name": "ZM Seymour",
+    "ShortName": "ZM Seymour",
+    "Color": "{purple}",
+    "HammerID": "12464",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": false,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Chat_Uses": false,
+        "Mode": 1
+      }
+    ]
+  },
+  {
+    "Name": "ZM Bahamut",
+    "ShortName": "ZM Bahamut",
+    "Color": "{darkred}",
+    "HammerID": "12488",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Chat_Uses": false,
+        "Mode": 1
+      }
+    ]
+  },
+  {
+    "Name": "ZM Garuda",
+    "ShortName": "ZM Garuda",
+    "Color": "{grey}",
+    "HammerID": "12532",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Chat_Uses": false,
+        "Mode": 1
+      }
+    ]
+  }
+]

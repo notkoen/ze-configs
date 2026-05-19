@@ -1,0 +1,86 @@
+[
+  {
+    "Name": "Fairy",
+    "ShortName": "Fairy",
+    "Color": "{white}",
+    "HammerID": "32",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "2465",
+        "ButtonClass": "func_button",
+        "Filter": "Fairy_User:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Lens of Truth",
+    "ShortName": "Lens",
+    "Color": "{purple}",
+    "HammerID": "646",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "648",
+        "ButtonClass": "func_button",
+        "Filter": "LOT_User:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 35
+      }
+    ]
+  },
+  {
+    "Name": "Din's Fire",
+    "ShortName": "Fire",
+    "Color": "{darkred}",
+    "HammerID": "749",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "30",
+        "ButtonClass": "func_button",
+        "Filter": "DinsFireUser:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 45
+      }
+    ]
+  }
+]

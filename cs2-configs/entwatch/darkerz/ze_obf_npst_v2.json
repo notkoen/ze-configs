@@ -1,0 +1,92 @@
+[
+  {
+    "Name": "Heal/奶",
+    "ShortName": "Heal",
+    "Color": "{default}",
+    "HammerID": "31769",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_Heal_Button",
+        "ButtonID": "31778",
+        "ButtonClass": "func_button",
+        "Filter": "Heal",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 3,
+        "CoolDown": 3
+      }
+    ]
+  },
+  {
+    "Name": "Bagette/法棍",
+    "ShortName": "Bagette",
+    "Color": "{default}",
+    "HammerID": "31727",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "bagette",
+        "Chat_Uses": false,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "ZM Titan",
+    "ShortName": "ZM Titan",
+    "Color": "{default}",
+    "HammerID": "31380",
+    "GlowColor": [255,0,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "31372",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "Garg",
+        "Chat_Uses": false,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "31400",
+        "MathNameFix": false,
+        "MathFindSpawned": true,
+        "MathDontShowMax": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "Name": "Bike",
+    "ShortName": "Bike",
+    "Color": "{default}",
+    "HammerID": "126",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "buttonBike",
+        "ButtonID": "124",
+        "ButtonClass": "func_button",
+        "Filter": "bikeguy:1",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "LaserBeam",
+    "ShortName": "LaserBeam",
+    "Color": "{default}",
+    "HammerID": "91",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "buttonGun",
+        "ButtonID": "92",
+        "ButtonClass": "func_button",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120
+      }
+    ]
+  }
+]

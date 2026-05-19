@@ -1,0 +1,338 @@
+[
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{default}",
+    "HammerID": "1509",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "heal_button",
+        "ButtonID": "1476",
+        "ButtonClass": "func_button",
+        "Filter": "heal_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 59
+      }
+    ]
+  },
+  {
+    "Name": "Ice",
+    "ShortName": "Ice",
+    "Color": "{default}",
+    "HammerID": "6912",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "weapon_elite",
+        "ButtonID": "6913",
+        "ButtonClass": "func_button",
+        "Filter": "ice_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 49
+      }
+    ]
+  },
+  {
+    "Name": "ZM FireBall",
+    "ShortName": "ZM FireBall",
+    "Color": "{default}",
+    "HammerID": "11453",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "11451",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "fire ball1_button",
+        "ButtonID": "11454",
+        "ButtonClass": "func_button",
+        "Filter": "fire_ball1_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30
+      }
+    ]
+  },
+  {
+    "Name": "ZM FireBall2",
+    "ShortName": "ZM FireBall2",
+    "Color": "{default}",
+    "HammerID": "11471",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "11469",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "fire ball2_button",
+        "ButtonID": "11472",
+        "ButtonClass": "func_button",
+        "Filter": "fire_ball2_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 29
+      }
+    ]
+  },
+  {
+    "Name": "ZM Speed",
+    "ShortName": "ZM Speed",
+    "Color": "{default}",
+    "HammerID": "11535",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "11533",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "speed_button",
+        "ButtonID": "11539",
+        "ButtonClass": "func_button",
+        "Filter": "speed_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30
+      }
+    ]
+  },
+  {
+    "Name": "ZM Low Gravity",
+    "ShortName": "ZM Low Gravity",
+    "Color": "{default}",
+    "HammerID": "11542",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "11543",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "low gravity_button",
+        "ButtonID": "11547",
+        "ButtonClass": "func_button",
+        "Filter": "low_g_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30
+      }
+    ]
+  },
+  {
+    "Name": "Wind",
+    "ShortName": "Wind",
+    "Color": "{default}",
+    "HammerID": "11653",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "wind_button",
+        "ButtonID": "11661",
+        "ButtonClass": "func_button",
+        "Filter": "wind_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 49
+      }
+    ]
+  },
+  {
+    "Name": "Fire",
+    "ShortName": "Fire",
+    "Color": "{default}",
+    "HammerID": "11696",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "flame_button",
+        "ButtonID": "11693",
+        "ButtonClass": "func_button",
+        "Filter": "flame_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 69
+      }
+    ]
+  },
+  {
+    "Name": "Shield",
+    "ShortName": "Shield",
+    "Color": "{default}",
+    "HammerID": "12107",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "shield_button",
+        "ButtonID": "12108",
+        "ButtonClass": "func_button",
+        "Filter": "shield_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 59
+      }
+    ]
+  },
+  {
+    "Name": "ZM Eclipse",
+    "ShortName": "ZM Eclipse",
+    "Color": "{default}",
+    "HammerID": "12148",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "12149",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "eclipse_button",
+        "ButtonID": "12153",
+        "ButtonClass": "func_button",
+        "Filter": "eclipse_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 599
+      }
+    ]
+  },
+  {
+    "Name": "SmallHeal",
+    "ShortName": "SmallHeal",
+    "Color": "{default}",
+    "HammerID": "12170",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "mini heal1_button",
+        "ButtonID": "12173",
+        "ButtonClass": "func_button",
+        "Filter": "mini_heal1_user",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "SmallHeal2",
+    "ShortName": "SmallHeal2",
+    "Color": "{default}",
+    "HammerID": "12309",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "mini heal2_button",
+        "ButtonID": "12311",
+        "ButtonClass": "func_button",
+        "Filter": "mini_heal2_user",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0
+      }
+    ]
+  }
+]

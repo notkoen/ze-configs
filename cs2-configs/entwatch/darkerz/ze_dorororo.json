@@ -1,0 +1,142 @@
+[
+  {
+    "Name": "Purple Potion",
+    "ShortName": "Purple",
+    "Color": "{purple}",
+    "HammerID": "18152",
+    "GlowColor": [128, 0, 128, 1],
+    "FilterID": 0,
+    "FilterValue": "Purple_Filter",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Insight",
+        "ButtonID": "18418",
+        "ButtonClass": "func_button",
+        "Filter": "Purple_Filter",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Blue Potion",
+    "ShortName": "Blue",
+    "Color": "{blue}",
+    "HammerID": "18124",
+    "GlowColor": [0, 0, 255, 1],
+    "FilterID": 0,
+    "FilterValue": "Blue_Filter",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Recovery",
+        "ButtonID": "18414",
+        "ButtonClass": "func_button",
+        "Filter": "Blue_Filter",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 10
+      }
+    ]
+  },
+  {
+    "Name": "Yellow Potion",
+    "ShortName": "Yellow",
+    "Color": "{yellow}",
+    "HammerID": "21036",
+    "GlowColor": [255, 255, 0, 1],
+    "FilterID": 0,
+    "FilterValue": "Yellow_Filter",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Burn",
+        "ButtonID": "18412",
+        "ButtonClass": "func_button",
+        "Filter": "Yellow_Filter",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90
+      }
+    ]
+  },
+  {
+    "Name": "Zombie No Doro",
+    "ShortName": "ZM NoDoro",
+    "Color": "{red}",
+    "HammerID": "18392",
+    "GlowColor": [255, 0, 0, 1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "21075",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Catch",
+        "ButtonID": "",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": false,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Village Chief's Key",
+    "ShortName": "Key",
+    "Color": "{orange}",
+    "HammerID": "22555",
+    "GlowColor": [255, 165, 0, 1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": false,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  }
+]

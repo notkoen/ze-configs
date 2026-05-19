@@ -1,0 +1,170 @@
+[
+  {
+    "Name": "Ice Nova",
+    "ShortName": "Ice Nova",
+    "Color": "{default}",
+    "HammerID": "1037",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_frost_button",
+        "ButtonID": "1038",
+        "ButtonClass": "func_button",
+        "Filter": "item_frost:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 10
+      }
+    ]
+  },
+  {
+    "Name": "Acid Flame",
+    "ShortName": "Acid Flame",
+    "Color": "{default}",
+    "HammerID": "1044",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_flame_button",
+        "ButtonID": "1045",
+        "ButtonClass": "func_button",
+        "Filter": "item_flame:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 10
+      }
+    ]
+  },
+  {
+    "Name": "Spirit Burst",
+    "ShortName": "Spirit Burst",
+    "Color": "{default}",
+    "HammerID": "1051",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_force_button",
+        "ButtonID": "1052",
+        "ButtonClass": "func_button",
+        "Filter": "item_force:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 10
+      }
+    ]
+  },
+  {
+    "Name": "Toxic Haze",
+    "ShortName": "Toxic Haze",
+    "Color": "{default}",
+    "HammerID": "1079",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_toxic_button",
+        "ButtonID": "1081",
+        "ButtonClass": "func_button",
+        "Filter": "item_toxic:1",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Static Field",
+    "ShortName": "Static Field",
+    "Color": "{default}",
+    "HammerID": "1065",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_electro_button",
+        "ButtonID": "1063",
+        "ButtonClass": "func_button",
+        "Filter": "item_electro:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 10
+      }
+    ]
+  },
+  {
+    "Name": "Cleansing Aura",
+    "ShortName": "Cleansing Aura",
+    "Color": "{default}",
+    "HammerID": "1072",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_heal_button",
+        "ButtonID": "1073",
+        "ButtonClass": "func_button",
+        "Filter": "item_heal:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "Name": "Escapism",
+    "ShortName": "Escapism",
+    "Color": "{orange}",
+    "HammerID": "817",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "escapism_bt",
+        "ButtonID": "808",
+        "ButtonClass": "func_button",
+        "Filter": "player_escapism",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90
+      }
+    ]
+  },
+  {
+    "Name": "Fact",
+    "ShortName": "Fact",
+    "Color": "{blue}",
+    "HammerID": "854",
+    "GlowColor": [255,255,255,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "855",
+        "ButtonClass": "func_button",
+        "Filter": "player_fact:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80
+      }
+    ]
+  },
+  {
+    "Name": "Rejection",
+    "ShortName": "Rejection",
+    "Color": "{orange}",
+    "HammerID": "909",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "rejection_bt",
+        "ButtonID": "907",
+        "ButtonClass": "func_button",
+        "Filter": "player_rejection",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80
+      }
+    ]
+  },
+  {
+    "Name": "ZM_Grav",
+    "ShortName": "ZM_Grav",
+    "Color": "{orange}",
+    "HammerID": "876",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "z_grav_bt",
+        "ButtonID": "877",
+        "ButtonClass": "func_button",
+        "Filter": "player_z_grav",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50
+      }
+    ]
+  },
+  {
+    "Name": "ZM_Heal",
+    "ShortName": "ZM_Heal",
+    "Color": "{orange}",
+    "HammerID": "894",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "z_heal_bt",
+        "ButtonID": "895",
+        "ButtonClass": "func_button",
+        "Filter": "player_z_heal",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50
+      }
+    ]
+  },
+  {
+    "Name": "ZM_Ice",
+    "ShortName": "ZM_Ice",
+    "Color": "{orange}",
+    "HammerID": "654",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "z_ice_bt",
+        "ButtonID": "665",
+        "ButtonClass": "func_button",
+        "Filter": "player_z_ice",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50
+      }
+    ]
+  }
+]

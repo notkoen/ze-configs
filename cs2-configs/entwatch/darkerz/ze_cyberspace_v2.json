@@ -1,0 +1,142 @@
+[
+  {
+    "Name": "Divide",
+    "ShortName": "Divide",
+    "Color": "{default}",
+    "HammerID": "2224",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_divide_trigger",
+        "ButtonID": "2222",
+        "ButtonClass": "func_button",
+        "Filter": "Item_h_divide",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 45
+      }
+    ]
+  },
+  {
+    "Name": "Subtract",
+    "ShortName": "Subtract",
+    "Color": "{default}",
+    "HammerID": "2301",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_subtract_trigger",
+        "ButtonID": "2421",
+        "ButtonClass": "func_button",
+        "Filter": "Item_h_subtract",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65
+      }
+    ]
+  },
+  {
+    "Name": "Add",
+    "ShortName": "Add",
+    "Color": "{default}",
+    "HammerID": "2211",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_add_trigger",
+        "ButtonID": "2207",
+        "ButtonClass": "func_button",
+        "Filter": "Item_h_add",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "ZM Fraction",
+    "ShortName": "ZM Fraction",
+    "Color": "{default}",
+    "HammerID": "2291",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3062",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_zm_fraction_trigger",
+        "ButtonID": "2285",
+        "ButtonClass": "func_button",
+        "Filter": "Item_zm_fraction",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "ZM Multiple",
+    "ShortName": "ZM Multiple",
+    "Color": "{default}",
+    "HammerID": "2274",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3061",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_zm_multiple_trigger",
+        "ButtonID": "2267",
+        "ButtonClass": "func_button",
+        "Filter": "Item_zm_multiple",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75
+      }
+    ]
+  }
+]

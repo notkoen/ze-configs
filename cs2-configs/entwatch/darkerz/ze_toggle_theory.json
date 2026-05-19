@@ -1,0 +1,142 @@
+[
+  {
+    "Name": "Ciallo",
+    "ShortName": "Ciallo",
+    "Color": "{blue}",
+    "HammerID": "19996",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_ciallo_but",
+        "ButtonID": "19997",
+        "ButtonClass": "func_button",
+        "Filter": "filter_ciallo:1",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 10,
+        "CoolDown": 1
+      }
+    ]
+  },
+  {
+    "Name": "Drone",
+    "ShortName": "Drone",
+    "Color": "{red}",
+    "HammerID": "2518",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_drone_but",
+        "ButtonID": "2522",
+        "ButtonClass": "func_button",
+        "Filter": "filter_drone:1",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Hoverbomb",
+    "ShortName": "Hoverbomb",
+    "Color": "{orange}",
+    "HammerID": "2517",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_hoverbomb_but",
+        "ButtonID": "2514",
+        "ButtonClass": "func_button",
+        "Filter": "filter_hoverbomb:1",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Colorswitch",
+    "ShortName": "Colorswitch",
+    "Color": "{purple}",
+    "HammerID": "25656",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_colorswitch_but",
+        "ButtonID": "25659",
+        "ButtonClass": "func_button",
+        "Filter": "filter_colorswitch:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 10
+      }
+    ]
+  },
+  {
+    "Name": "Flipswitch",
+    "ShortName": "Flipswitch",
+    "Color": "{cyan}",
+    "HammerID": "13510",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_flipswitch1_but",
+        "ButtonID": "25659",
+        "ButtonClass": "func_button",
+        "Filter": "filter_flipswitch:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 10
+      }
+    ]
+  }
+]

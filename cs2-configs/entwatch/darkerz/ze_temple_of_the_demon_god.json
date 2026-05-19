@@ -1,0 +1,314 @@
+[
+  {
+    "Name": "Sanctuary",
+    "ShortName": "Sanctuary",
+    "Color": "{default}",
+    "HammerID": "781",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "nrk_item_holybook_button",
+        "ButtonID": "785",
+        "ButtonClass": "func_button",
+        "Filter": "naraka_holy",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90
+      }
+    ]
+  },
+  {
+    "Name": "Holy Light",
+    "ShortName": "Holy Light",
+    "Color": "{default}",
+    "HammerID": "60",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "nrk_item_holy_button",
+        "ButtonID": "56",
+        "ButtonClass": "func_button",
+        "Filter": "naraka_holylight",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20
+      }
+    ]
+  },
+  {
+    "Name": "Imposition Manus",
+    "ShortName": "Imposition Manus",
+    "Color": "{default}",
+    "HammerID": "130",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "nrk_item_impositio_manus_button",
+        "ButtonID": "127",
+        "ButtonClass": "func_button",
+        "Filter": "naraka_impositio_manus",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120
+      }
+    ]
+  },
+  {
+    "Name": "Lex divina",
+    "ShortName": "Lex divina",
+    "Color": "{default}",
+    "HammerID": "111",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "nrk_item_lex_divina_button",
+        "ButtonID": "103",
+        "ButtonClass": "func_button",
+        "Filter": "naraka_lex_divina",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 150
+      }
+    ]
+  },
+  {
+    "Name": "Magnus Exorcism",
+    "ShortName": "Magnus Exorcism",
+    "Color": "{default}",
+    "HammerID": "353",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "nrk_item_sanctuary_button",
+        "ButtonID": "344",
+        "ButtonClass": "func_button",
+        "Filter": "naraka_sanctuary",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 300
+      }
+    ]
+  },
+  {
+    "Name": "Holy Book",
+    "ShortName": "Holy Book",
+    "Color": "{default}",
+    "HammerID": "6651",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "func_physbox",
+        "Filter": "",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Naraka Book",
+    "ShortName": "Naraka Book",
+    "Color": "{default}",
+    "HammerID": "6645",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "func_physbox",
+        "Filter": "",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Death Breath",
+    "ShortName": "ZM Death Breath",
+    "Color": "{default}",
+    "HammerID": "121",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "nrk_item_death_breath_button",
+        "ButtonID": "115",
+        "ButtonClass": "func_button",
+        "Filter": "naraka_death_breath",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Firewall",
+    "ShortName": "ZM Firewall",
+    "Color": "{default}",
+    "HammerID": "305",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "nrk_item_firewall_button",
+        "ButtonID": "297",
+        "ButtonClass": "func_button",
+        "Filter": "naraka_firewall",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Hell Judgement",
+    "ShortName": "ZM Hell Judgement",
+    "Color": "{default}",
+    "HammerID": "93",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "nrk_item_hell_judgement_button",
+        "ButtonID": "94",
+        "ButtonClass": "func_button",
+        "Filter": "naraka_hell_judgement",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 210
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Firelaser",
+    "ShortName": "ZM Firelaser",
+    "Color": "{default}",
+    "HammerID": "272",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "nrk_item_pillars_button",
+        "ButtonID": "266",
+        "ButtonClass": "func_button",
+        "Filter": "naraka_firepillars",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Slave Spawner",
+    "ShortName": "ZM Slave",
+    "Color": "{default}",
+    "HammerID": "281",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "nrk_item_slave_button",
+        "ButtonID": "288",
+        "ButtonClass": "func_button",
+        "Filter": "naraka_slave",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120
+      }
+    ]
+  }
+]

@@ -1,0 +1,306 @@
+[
+  {
+    "Name": "Electro",
+    "ShortName": "Electro",
+    "Color": "{yellow}",
+    "HammerID": "8318",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_electro_button",
+        "ButtonID": "8327",
+        "ButtonClass": "func_button",
+        "Filter": "electro_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": 8388,
+        "MathNameFix": false,
+        "MathFindSpawned": false,
+        "MathDontShowMax": false
+      }
+    ]
+  },
+  {
+    "Name": "Heal",
+    "ShortName": "heal",
+    "Color": "{default}",
+    "HammerID": "744",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_heal_button",
+        "ButtonID": "741",
+        "ButtonClass": "func_button",
+        "Filter": "heal_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70
+      }
+    ]
+  },
+  {
+    "Name": "Water",
+    "ShortName": "Water",
+    "Color": "{darkblue}",
+    "HammerID": "731",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_water_button",
+        "ButtonID": "729",
+        "ButtonClass": "func_button",
+        "Filter": "water_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70
+      }
+    ]
+  },
+  {
+    "Name": "Wind",
+    "ShortName": "Wind",
+    "Color": "{green}",
+    "HammerID": "720",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_wind_button",
+        "ButtonID": "718",
+        "ButtonClass": "func_button",
+        "Filter": "wind_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Blade",
+    "ShortName": "Blade",
+    "Color": "{default}",
+    "HammerID": "8189",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_blade_button",
+        "ButtonID": "8183",
+        "ButtonClass": "func_button",
+        "Filter": "blade_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Shield",
+    "ShortName": "ZM Shield",
+    "Color": "{default}",
+    "HammerID": "8174",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_shield_button",
+        "ButtonID": 8168,
+        "ButtonClass": "func_button",
+        "Filter": "shield_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65
+      },
+      {
+        "Name": "item_shield_button2",
+        "ButtonID": 8170,
+        "ButtonClass": "func_button",
+        "Filter": "shield_user",
+        "Chat_Uses": false,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Gravity",
+    "ShortName": "ZM Gravity",
+    "Color": "{pink}",
+    "HammerID": "8839",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_zmgravity_button",
+        "ButtonID": "8859",
+        "ButtonClass": "func_button",
+        "Filter": "zmgravity_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Skin",
+    "ShortName": "ZM Skin",
+    "Color": "{default}",
+    "HammerID": "8093",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "0",
+        "MathNameFix": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Speed",
+    "ShortName": "ZM Speed",
+    "Color": "{default}",
+    "HammerID": "8863",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_zmspeed_button",
+        "ButtonID": "8866",
+        "ButtonClass": "func_button",
+        "Filter": "zmspeed_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50
+      }
+    ]
+  },
+  {
+    "Name": "Misaka",
+    "ShortName": "Misaka",
+    "Color": "{default}",
+    "HammerID": "672",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "0",
+        "MathNameFix": false
+      }
+    ]
+  }
+]

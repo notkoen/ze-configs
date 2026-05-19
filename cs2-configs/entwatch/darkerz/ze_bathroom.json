@@ -1,0 +1,58 @@
+[
+  {
+    "Name": "Sponge builder",
+    "ShortName": "Sponge",
+    "Color": "{default}",
+    "HammerID": "1589",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "tlacitko_houba",
+        "ButtonID": "1590",
+        "ButtonClass": "func_button",
+        "Filter": "zbran_houba_filtr",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 52
+      }
+    ]
+  },
+  {
+    "Name": "Mouse trap",
+    "ShortName": "Trap",
+    "Color": "{default}",
+    "HammerID": "1793",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "tlacitko_pasticka",
+        "ButtonID": "1794",
+        "ButtonClass": "func_button",
+        "Filter": "zbran_pasticka_filtr",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 42
+      }
+    ]
+  }
+]

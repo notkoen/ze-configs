@@ -1,0 +1,596 @@
+[
+  {
+    "Name": "Alice",
+    "ShortName": "Alice",
+    "Color": "{red}",
+    "HammerID": "10948",
+    "GlowColor": [255,0,0,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "alice_e_button",
+        "ButtonID": "10938",
+        "ButtonClass": "func_button",
+        "Filter": "alice_int",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Asuna",
+    "ShortName": "Asuna",
+    "Color": "{blue}",
+    "HammerID": "11982",
+    "GlowColor": [0,0,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "0",
+        "MathNameFix": false
+      }
+    ]
+  },
+  {
+    "Name": "Feilin",
+    "ShortName": "Feilin",
+    "Color": "{lightblue}",
+    "HammerID": "11149",
+    "GlowColor": [173,216,230,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "feilin_button",
+        "ButtonID": "11153",
+        "ButtonClass": "func_button",
+        "Filter": "feilin_int",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50
+      },
+      {
+        "Name": "feilin_topbutton",
+        "ButtonID": "11160",
+        "ButtonClass": "func_button",
+        "Filter": "feilin_int",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90
+      }
+    ]
+  },
+  {
+    "Name": "Hason",
+    "ShortName": "Hason",
+    "Color": "{olive}",
+    "HammerID": "12992",
+    "GlowColor": [128,128,0,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "hason_tope",
+        "ButtonID": "13018",
+        "ButtonClass": "func_button",
+        "Filter": "hason_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120
+      }
+    ]
+  },
+  {
+    "Name": "Hltx",
+    "ShortName": "Hltx",
+    "Color": "{darkblue}",
+    "HammerID": "10822",
+    "GlowColor": [173,216,230,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "0",
+        "MathNameFix": false
+      }
+    ]
+  },
+  {
+    "Name": "Dark Magician Girl",
+    "ShortName": "HMD",
+    "Color": "{pink}",
+    "HammerID": "10849",
+    "GlowColor": [255,105,180,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "hmd_e_button",
+        "ButtonID": "10834",
+        "ButtonClass": "func_button",
+        "Filter": "hmd_int",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90
+      }
+    ]
+  },
+  {
+    "Name": "Iliya",
+    "ShortName": "Iliya",
+    "Color": "{yellow}",
+    "HammerID": "10671",
+    "GlowColor": [255,255,0,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "0",
+        "MathNameFix": false
+      }
+    ]
+  },
+  {
+    "Name": "Kaila",
+    "ShortName": "Kaila",
+    "Color": "{default}",
+    "HammerID": "10592",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "kaila_e_button",
+        "ButtonID": "10580",
+        "ButtonClass": "func_button",
+        "Filter": "kaila_int",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120
+      }
+    ]
+  },
+  {
+    "Name": "Kirito",
+    "ShortName": "Kirito",
+    "Color": "{green}",
+    "HammerID": "11951",
+    "GlowColor": [0,255,0,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "kirito_e_button",
+        "ButtonID": "11964",
+        "ButtonClass": "func_button",
+        "Filter": "kirito_int",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80
+      },
+      {
+        "Name": "kirito_tope_button",
+        "ButtonID": "11966",
+        "ButtonClass": "func_button",
+        "Filter": "kirito_int",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80
+      }
+    ]
+  },
+  {
+    "Name": "Knight",
+    "ShortName": "Knight",
+    "Color": "{red}",
+    "HammerID": "10981",
+    "GlowColor": [255,0,0,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "knight_e_button",
+        "ButtonID": "10969",
+        "ButtonClass": "func_button",
+        "Filter": "knight_int",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120
+      }
+    ]
+  },
+  {
+    "Name": "Linglu",
+    "ShortName": "Linglu",
+    "Color": "{blue}",
+    "HammerID": "10822",
+    "GlowColor": [0,191,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "linglu_e_button",
+        "ButtonID": "10797",
+        "ButtonClass": "func_button",
+        "Filter": "ll_int",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 2
+      },
+      {
+        "Name": "linglu_top_button",
+        "ButtonID": "10810",
+        "ButtonClass": "func_button",
+        "Filter": "ll_int",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 10
+      }
+    ]
+  },
+  {
+    "Name": "Lxy",
+    "ShortName": "Lxy",
+    "Color": "{darkblue}",
+    "HammerID": "11009",
+    "GlowColor": [0,191,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "0",
+        "MathNameFix": false
+      }
+    ]
+  },
+  {
+    "Name": "Qianxiao",
+    "ShortName": "Qianxiao",
+    "Color": "{darkblue}",
+    "HammerID": "11096",
+    "GlowColor": [0,191,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "qianxiao_e_button",
+        "ButtonID": "11398",
+        "ButtonClass": "func_button",
+        "Filter": "qx_int",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120
+      },
+      {
+        "Name": "[PR#]qianxiao_tope_button",
+        "ButtonID": "11813",
+        "ButtonClass": "func_button",
+        "Filter": "qx_int",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120
+      }
+    ]
+  },
+  {
+    "Name": "Sxmry",
+    "ShortName": "Sxmry",
+    "Color": "{darkblue}",
+    "HammerID": "11081",
+    "GlowColor": [0,191,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "0",
+        "MathNameFix": false
+      }
+    ]
+  },
+  {
+    "Name": "Xiaosi",
+    "ShortName": "Xiaosi",
+    "Color": "{darkblue}",
+    "HammerID": "12734",
+    "GlowColor": [0,191,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "xiaosi_button",
+        "ButtonID": "12868",
+        "ButtonClass": "func_button",
+        "Filter": "xiaosi_int",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120
+      }
+    ]
+  },
+  {
+    "Name": "Zombie black",
+    "ShortName": "ZM black",
+    "Color": "{darkblue}",
+    "HammerID": "11378",
+    "GlowColor": [0,191,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "zmblack_but",
+        "ButtonID": "11374",
+        "ButtonClass": "func_button",
+        "Filter": "zmblack_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      },
+      {
+        "Name": "zmblack_topbut",
+        "ButtonID": "11372",
+        "ButtonClass": "func_button",
+        "Filter": "zmblack_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Heal",
+    "ShortName": "ZM Heal",
+    "Color": "{darkblue}",
+    "HammerID": "11329",
+    "GlowColor": [0,191,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "zmheal_topbut",
+        "ButtonID": "11347",
+        "ButtonClass": "func_button",
+        "Filter": "zmheal_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50
+      },
+      {
+        "Name": "zm_health_but",
+        "ButtonID": "11349",
+        "ButtonClass": "func_button",
+        "Filter": "zmheal_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Shield",
+    "ShortName": "ZM Shield",
+    "Color": "{darkblue}",
+    "HammerID": "11353",
+    "GlowColor": [0,191,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "zmshield_but",
+        "ButtonID": "11354",
+        "ButtonClass": "func_button",
+        "Filter": "zmshield_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80
+      },
+      {
+        "Name": "zmshield_buttop",
+        "ButtonID": "12574",
+        "ButtonClass": "func_button",
+        "Filter": "zmshield_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70
+      }
+    ]
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "Name": "ZM PlagueDoctor",
+    "ShortName": "ZM PlagueDoctor",
+    "Color": "{default}",
+    "HammerID": "1321",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1319",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "PlagueDoctor_button",
+        "ButtonID": "5164",
+        "ButtonClass": "func_button",
+        "Filter": "player_doctor",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "ZM ShyGuy",
+    "ShortName": "ZM ShyGuy",
+    "Color": "{default}",
+    "HammerID": "1329",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1327",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "ShyGuy_button",
+        "ButtonID": "5166",
+        "ButtonClass": "func_button",
+        "Filter": "player_shyguy",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 100
+      }
+    ]
+  },
+  {
+    "Name": "ZM OldMan",
+    "ShortName": "ZM OldMan",
+    "Color": "{default}",
+    "HammerID": "1436",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1434",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "OldMan_button",
+        "ButtonID": "5288",
+        "ButtonClass": "func_button",
+        "Filter": "player_old",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30
+      }
+    ]
+  },
+  {
+    "Name": "SCP500",
+    "ShortName": "SCP500",
+    "Color": "{default}",
+    "HammerID": "5105",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "scp500_button",
+        "ButtonID": "5162",
+        "ButtonClass": "func_button",
+        "Filter": "player_scp500",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "SCP714",
+    "ShortName": "SCP714",
+    "Color": "{default}",
+    "HammerID": "5131",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "scp714_button",
+        "ButtonID": "5136",
+        "ButtonClass": "func_button",
+        "Filter": "player_scp714",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80
+      }
+    ]
+  }
+]

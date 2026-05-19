@@ -1,0 +1,450 @@
+[
+  {
+    "Name": "Black Mage (BLM)",
+    "ShortName": "BLM",
+    "Color": "{default}",
+    "HammerID": "15754",
+    "GlowColor": [0,255,0,1],
+    "FilterID": "15761",
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "15761",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "BLM_FrontE / Lines",
+        "ButtonID": "15759",
+        "ButtonClass": "func_button",
+        "Filter": "15761",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 5
+      }
+    ]
+  },
+  {
+    "Name": "Summoner (SMN)",
+    "ShortName": "Summoner",
+    "Color": "{default}",
+    "HammerID": "15788",
+    "GlowColor": [0,255,0,1],
+    "FilterID": "15789",
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "24963",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "SMN_Use",
+        "ButtonID": "15790",
+        "ButtonClass": "func_button",
+        "Filter": "15789",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 45
+      }
+    ]
+  },
+  {
+    "Name": "Ice Element (ICE)",
+    "ShortName": "ICE",
+    "Color": "{default}",
+    "HammerID": "15839",
+    "GlowColor": [0,255,0,1],
+    "FilterID": "15838",
+    "FilterValue": "Player_ice",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "15840",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "ICE_Wall",
+        "ButtonID": "15840",
+        "ButtonClass": "func_button",
+        "Filter": "15838",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70
+      }
+    ]
+  },
+  {
+    "Name": "Blackhole",
+    "ShortName": "Blackhole",
+    "Color": "{default}",
+    "HammerID": "15866",
+    "GlowColor": [0,255,0,1],
+    "FilterID": "15865",
+    "FilterValue": "Player_Blackhole",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "15863",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Blackhole_Use",
+        "ButtonID": "15863",
+        "ButtonClass": "func_button",
+        "Filter": "15865",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70
+      }
+    ]
+  },
+  {
+    "Name": "Sage (SGE)",
+    "ShortName": "Sage",
+    "Color": "{default}",
+    "HammerID": "15874",
+    "GlowColor": [0,255,0,1],
+    "FilterID": "15893",
+    "FilterValue": "Player_SGE",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "15885",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "SGE_Heal/FrontE",
+        "ButtonID": "15885",
+        "ButtonClass": "func_button",
+        "Filter": "15893",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 3,
+        "CoolDown": 1
+      }
+    ]
+  },
+  {
+    "Name": "Fire Element",
+    "ShortName": "Fire",
+    "Color": "{default}",
+    "HammerID": "24577",
+    "GlowColor": [0,255,0,1],
+    "FilterID": "24579",
+    "FilterValue": "Player_fire",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "24580",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Fire_Burst",
+        "ButtonID": "24580",
+        "ButtonClass": "func_button",
+        "Filter": "24579",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70
+      }
+    ]
+  },
+  {
+    "Name": "Electricity Element",
+    "ShortName": "Electricity",
+    "Color": "{default}",
+    "HammerID": "24669",
+    "GlowColor": [0,255,0,1],
+    "FilterID": "24668",
+    "FilterValue": "Player_Electricity",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "24670",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Electricity_AOE",
+        "ButtonID": "24670",
+        "ButtonClass": "func_button",
+        "Filter": "24668",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70
+      }
+    ]
+  },
+  {
+    "Name": "Wind Element",
+    "ShortName": "Wind",
+    "Color": "{default}",
+    "HammerID": "24683",
+    "GlowColor": [0,255,0,1],
+    "FilterID": "24684",
+    "FilterValue": "Player_Wind",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "24679",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Wind_Block/Toggle",
+        "ButtonID": "24679",
+        "ButtonClass": "func_button",
+        "Filter": "24684",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70
+      }
+    ]
+  },
+  {
+    "Name": "Paladin (PLD)",
+    "ShortName": "PLD",
+    "Color": "{default}",
+    "HammerID": "25107",
+    "GlowColor": [0,255,0,1],
+    "FilterID": "25111",
+    "FilterValue": "Player_PLD",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "25112",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "PLD_Sequence",
+        "ButtonID": "25105",
+        "ButtonClass": "func_button",
+        "Filter": "25111",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20
+      }
+    ]
+  },
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{default}",
+    "HammerID": "24713",
+    "GlowColor": [0,255,0,1],
+    "FilterID": "24714",
+    "FilterValue": "Player_Heal",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "24709",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Heal_Use",
+        "ButtonID": "24709",
+        "ButtonClass": "func_button",
+        "Filter": "24714",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 150
+      }
+    ]
+  },
+  {
+    "Name": "[ZM]Gravity",
+    "ShortName": "[ZM]Gravity",
+    "Color": "{default}",
+    "HammerID": "24853",
+    "GlowColor": [0,255,0,1],
+    "FilterID": "24885",
+    "FilterValue": "ZM_Player_Gravity",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "24894",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "ZM_Gravity_Use",
+        "ButtonID": "24882",
+        "ButtonClass": "func_button",
+        "Filter": "24885",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 45
+      }
+    ]
+  },
+  {
+    "Name": "[ZM]Heal",
+    "ShortName": "[ZM]Heal",
+    "Color": "{default}",
+    "HammerID": "24910",
+    "GlowColor": [0,255,0,1],
+    "FilterID": "24917",
+    "FilterValue": "ZM_Player_Heal",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "24918",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "ZM_Heal_Use",
+        "ButtonID": "24914",
+        "ButtonClass": "func_button",
+        "Filter": "24917",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 45
+      }
+    ]
+  },
+  {
+    "Name": "[ZM]Shield",
+    "ShortName": "[ZM]Shield",
+    "Color": "{default}",
+    "HammerID": "24952",
+    "GlowColor": [0,255,0,1],
+    "FilterID": "24954",
+    "FilterValue": "ZM_Player_shield",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "24953",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "ZM_Shield_Use",
+        "ButtonID": "24947",
+        "ButtonClass": "func_button",
+        "Filter": "24954",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 45
+      }
+    ]
+  },
+  {
+    "Name": "[ZM]Silent",
+    "ShortName": "[ZM]Silent",
+    "Color": "{default}",
+    "HammerID": "24970",
+    "GlowColor": [0,255,0,1],
+    "FilterID": "24971",
+    "FilterValue": "ZM_Player_silent",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "24972",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "ZM_Silent_Use",
+        "ButtonID": "24965",
+        "ButtonClass": "func_button",
+        "Filter": "24971",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 45
+      }
+    ]
+  },
+  {
+    "Name": "[ZM]Ice",
+    "ShortName": "[ZM]Ice",
+    "Color": "{default}",
+    "HammerID": "25064",
+    "GlowColor": [0,255,0,1],
+    "FilterID": "25070",
+    "FilterValue": "ZM_Player_Ice",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "25072",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "ZM_Ice_Use",
+        "ButtonID": "25067",
+        "ButtonClass": "func_button",
+        "Filter": "25070",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 45
+      }
+    ]
+  },
+  {
+    "Name": "[ZM]Viod",
+    "ShortName": "[ZM]Viod",
+    "Color": "{default}",
+    "HammerID": "28807",
+    "GlowColor": [0,255,0,1],
+    "FilterID": "28811",
+    "FilterValue": "ZM_Player_Viod",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "28808",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "ZM_Viod_Use",
+        "ButtonID": "28802",
+        "ButtonClass": "func_button",
+        "Filter": "28811",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 45
+      }
+    ]
+  }
+]

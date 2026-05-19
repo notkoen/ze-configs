@@ -1,0 +1,706 @@
+[
+  {
+    "Name": "ZM Life Tap",
+    "ShortName": "ZM LifeTap",
+    "Color": "{default}",
+    "HammerID": "1895",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "2893",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "life_tap_button",
+        "ButtonID": "1711",
+        "ButtonClass": "func_button",
+        "Filter": "zitem_life_tap_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70
+      }
+    ]
+  },
+  {
+    "Name": "Elo's Curse",
+    "ShortName": "Curse",
+    "Color": "{default}",
+    "HammerID": "2518",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "elos_curse_button",
+        "ButtonID": "-1",
+        "ButtonClass": "func_button",
+        "Filter": "hitem_elos_curse_user:1",
+        "Chat_Uses": false,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "2523",
+        "MathNameFix": false,
+        "MathFindSpawned": false,
+        "MathDontShowMax": true
+      },
+      {
+        "Name": "elos_curse_button",
+        "ButtonID": "2520",
+        "ButtonClass": "func_button",
+        "Filter": "hitem_elos_curse_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20
+      }
+    ]
+  },
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{default}",
+    "HammerID": "3399",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "heal_button",
+        "ButtonID": "3604",
+        "ButtonClass": "func_button",
+        "Filter": "hitem_heal_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Blizzard",
+    "ShortName": "Blizzard",
+    "Color": "{default}",
+    "HammerID": "3488",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "blizzard_button",
+        "ButtonID": "3489",
+        "ButtonClass": "func_button",
+        "Filter": "hitem_blizzard_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 140
+      }
+    ]
+  },
+  {
+    "Name": "Frost Path",
+    "ShortName": "Frost",
+    "Color": "{default}",
+    "HammerID": "3480",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "frost_path_button",
+        "ButtonID": "3527",
+        "ButtonClass": "func_button",
+        "Filter": "hitem_frost_path_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30
+      }
+    ]
+  },
+  {
+    "Name": "Shield",
+    "ShortName": "Shield",
+    "Color": "{default}",
+    "HammerID": "3508",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "shield_button",
+        "ButtonID": "3510",
+        "ButtonClass": "func_button",
+        "Filter": "hitem_shield_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120
+      }
+    ]
+  },
+  {
+    "Name": "Ice Wind",
+    "ShortName": "Wind",
+    "Color": "{default}",
+    "HammerID": "3413",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "ice_wind_button",
+        "ButtonID": "3414",
+        "ButtonClass": "func_button",
+        "Filter": "hitem_wind_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "ZM Circle of Winter",
+    "ShortName": "ZM Winter",
+    "Color": "{default}",
+    "HammerID": "2889",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3057",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Circle_of_Winter_button",
+        "ButtonID": "3059",
+        "ButtonClass": "func_button",
+        "Filter": "zitem_Circle_of_Winter_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70
+      }
+    ]
+  },
+  {
+    "Name": "ZM Flycutter",
+    "ShortName": "ZM Flycutter",
+    "Color": "{default}",
+    "HammerID": "3400",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3431",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_flycutter_button",
+        "ButtonID": "3438",
+        "ButtonClass": "func_button",
+        "Filter": "zitem_flycutter_user:1",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Devilian",
+    "ShortName": "Devil",
+    "Color": "{default}",
+    "HammerID": "3547",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3541",
+    "UsePriority": false,
+    "AbilityList": [
+      {
+        "Name": "devilian_button",
+        "ButtonID": "3538",
+        "ButtonClass": "func_button",
+        "Filter": "hitem_devilian_user:1",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Gravity Bow",
+    "ShortName": "Bow",
+    "Color": "{default}",
+    "HammerID": "4207",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "hitem_zhongli_user:1",
+        "Chat_Uses": false,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Ice Cube",
+    "ShortName": "Cube",
+    "Color": "{default}",
+    "HammerID": "3616",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "ice_barrier_button",
+        "ButtonID": "3202",
+        "ButtonClass": "func_button",
+        "Filter": "hitem_ice_barrier_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 10
+      }
+    ]
+  },
+  {
+    "Name": "Elf",
+    "ShortName": "Elf",
+    "Color": "{default}",
+    "HammerID": "2120",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1493",
+    "UsePriority": false,
+    "AbilityList": [
+      {
+        "Name": "elves_button",
+        "ButtonID": "1501",
+        "ButtonClass": "func_button",
+        "Filter": "elves_user:1",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "ZM Monster Grzzly",
+    "ShortName": "ZM Grzzly",
+    "Color": "{default}",
+    "HammerID": "2999",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": false,
+    "AbilityList": [
+      {
+        "Name": "grzzly_Thunder_bolt_1_button",
+        "ButtonID": "2992",
+        "ButtonClass": "func_button",
+        "Filter": "zitem_grzzly_user:1",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      },
+      {
+        "Name": "grzzly_uit_button",
+        "ButtonID": "3015",
+        "ButtonClass": "func_button",
+        "Filter": "zitem_grzzly_user:1",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Saint",
+    "ShortName": "Saint",
+    "Color": "{default}",
+    "HammerID": "16038",
+    "GlowColor": [255,255,255,255],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": false,
+    "AbilityList": [
+      {
+        "Name": "fashi_button1",
+        "ButtonID": "16045",
+        "ButtonClass": "func_button",
+        "Filter": "fashi_user:1",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "ZM Secret Elderly",
+    "ShortName": "ZM Elder",
+    "Color": "{default}",
+    "HammerID": "16072",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": false,
+    "AbilityList": [
+      {
+        "Name": "laozhe_button1",
+        "ButtonID": "16080",
+        "ButtonClass": "func_button",
+        "Filter": "laozhe_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Heiyan Blackrock",
+    "ShortName": "Heiyan",
+    "Color": "{default}",
+    "HammerID": "16128",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": false,
+    "AbilityList": [
+      {
+        "Name": "heiyan_luanshe_button",
+        "ButtonID": "16160",
+        "ButtonClass": "func_button",
+        "Filter": "heiyan:1",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      },
+      {
+        "Name": "heiyan_atk2_button",
+        "ButtonID": "16179",
+        "ButtonClass": "func_button",
+        "Filter": "heiyan:1",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "FrostPath2",
+    "ShortName": "Frost2",
+    "Color": "{default}",
+    "HammerID": "16316",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "frost_path_button2",
+        "ButtonID": "16324",
+        "ButtonClass": "func_button",
+        "Filter": "hitem_frost_path_user2:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30
+      }
+    ]
+  },
+  {
+    "Name": "Young Mage",
+    "ShortName": "Young Mage",
+    "Color": "{default}",
+    "HammerID": "16301",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": false,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": false,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "luoli_user:1",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Lantern",
+    "ShortName": "Lantern",
+    "Color": "{default}",
+    "HammerID": "17043",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Sword Mage Luyin",
+    "ShortName": "Luyin",
+    "Color": "{default}",
+    "HammerID": "17343",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": false,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "jianshi_user:1",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Torch",
+    "ShortName": "Torch",
+    "Color": "{default}",
+    "HammerID": "17591",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Torch2",
+    "ShortName": "Torch2",
+    "Color": "{default}",
+    "HammerID": "17600",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Sword Mage Ruijie",
+    "ShortName": "Ruijie",
+    "Color": "{default}",
+    "HammerID": "17724",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "17790",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "jianshi2_skill_button",
+        "ButtonID": "17783",
+        "ButtonClass": "func_button",
+        "Filter": "jianshi2_user:1",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 2,
+        "CoolDown": 2
+      }
+    ]
+  }
+]

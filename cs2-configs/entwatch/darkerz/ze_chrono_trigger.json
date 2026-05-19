@@ -1,0 +1,30 @@
+[
+  {
+    "Name": "Water",
+    "ShortName": "Water",
+    "Color": "{blue}",
+    "HammerID": "3937",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "water_buutton",
+        "ButtonID": "3935",
+        "ButtonClass": "func_physbox",
+        "Filter": "water_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  }
+]

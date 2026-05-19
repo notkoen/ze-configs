@@ -1,0 +1,142 @@
+[
+  {
+    "Name": "WoodenPlank",
+    "ShortName": "WoodenPlank",
+    "Color": "{default}",
+    "HammerID": "969",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_barricade_rot_button",
+        "ButtonID": "6047",
+        "ButtonClass": "momentary_rot_button",
+        "Filter": "player_barricade:1",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "ZM Tank",
+    "ShortName": "ZM Tank",
+    "Color": "{default}",
+    "HammerID": "28409",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "28412",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_bosstank_button_attack_smash",
+        "ButtonID": "28399",
+        "ButtonClass": "func_button",
+        "Filter": "player_tank:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 7
+      }
+    ]
+  },
+  {
+    "Name": "PushGun",
+    "ShortName": "PushGun",
+    "Color": "{default}",
+    "HammerID": "770",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_pushgun_button",
+        "ButtonID": "6039",
+        "ButtonClass": "func_button",
+        "Filter": "player_pushgun:1",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "IceGun",
+    "ShortName": "IceGun",
+    "Color": "{default}",
+    "HammerID": "430",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_weapon_icegun_button",
+        "ButtonID": "5977",
+        "ButtonClass": "func_button",
+        "Filter": "player_icegun:1",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Ultima",
+    "ShortName": "Ultima",
+    "Color": "{default}",
+    "HammerID": "28444",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_beamcannon_rot_button",
+        "ButtonID": "28452",
+        "ButtonClass": "momentary_rot_button",
+        "Filter": "player_beamcannon:1",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  }
+]

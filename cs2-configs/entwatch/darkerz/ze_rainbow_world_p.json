@@ -1,0 +1,163 @@
+[
+  {
+    "Name": "Minigun",
+    "ShortName": "Minigun",
+    "Color": "{default}",
+    "HammerID": "3803",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Minigun",
+        "ButtonID": "3798",
+        "ButtonClass": "func_button",
+        "Filter": "[PR#]minigun_filter_2",
+        "Chat_Uses": false,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+
+  {
+    "Name": "Shotgun",
+    "ShortName": "Shotgun",
+    "Color": "{default}",
+    "HammerID": "3816",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Shotgun",
+        "ButtonID": "3817",
+        "ButtonClass": "func_button",
+        "Filter": "[PR#]shotgun_filter_2",
+        "Chat_Uses": false,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+
+  {
+    "Name": "Flamethrower",
+    "ShortName": "Flamethrower",
+    "Color": "{darkred}",
+    "HammerID": "3823",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Flame",
+        "ButtonID": "3835",
+        "ButtonClass": "func_button",
+        "Filter": "[PR#]lanceflamme_filter_2",
+        "Chat_Uses": false,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+
+  {
+    "Name": "Heal / Unlimited Ammo",
+    "ShortName": "Heal",
+    "Color": "{pink}",
+    "HammerID": "4680",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Heal",
+        "ButtonID": "7619",
+        "ButtonClass": "func_button",
+        "Filter": "[PR#]heal_filter_2",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+
+  {
+    "Name": "Holy Grenade",
+    "ShortName": "Holy",
+    "Color": "{default}",
+    "HammerID": "4698",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Holy",
+        "ButtonID": "4693",
+        "ButtonClass": "func_button",
+        "Filter": "[PR#]holy_filter",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 1,
+        "CoolDown": 0
+      }
+    ]
+  },
+
+  {
+    "Name": "Freezer",
+    "ShortName": "Freeze",
+    "Color": "{darkblue}",
+    "HammerID": "4757",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Freeze",
+        "ButtonID": "4758",
+        "ButtonClass": "func_button",
+        "Filter": "[PR#]freezer_filter_2",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40
+      }
+    ]
+  }
+]

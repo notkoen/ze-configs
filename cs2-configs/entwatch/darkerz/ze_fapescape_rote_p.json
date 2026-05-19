@@ -1,0 +1,351 @@
+[
+  {
+    "Name": "Cyka",
+    "ShortName": "Cyka",
+    "Color": "{default}",
+    "HammerID": "330",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_cyka3",
+        "ButtonID": "332",
+        "ButtonClass": "func_physbox",
+        "Filter": "cyka:1",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 8,
+        "CoolDown": 10
+      }
+    ]
+  },
+  {
+    "Name": "EyeTech Cannon",
+    "ShortName": "Cannon",
+    "Color": "{default}",
+    "HammerID": "3742",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_cannon2",
+        "ButtonID": "3743",
+        "ButtonClass": "func_physbox",
+        "Filter": "cannon:1",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Lego Maker",
+    "ShortName": "Wall",
+    "Color": "{default}",
+    "HammerID": "3657",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_blockade2",
+        "ButtonID": "3652",
+        "ButtonClass": "func_physbox",
+        "Filter": "blockade:1",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 10,
+        "CoolDown": 2
+      }
+    ]
+  },
+  {
+    "Name": "EyeTech Launcher",
+    "ShortName": "Launcher",
+    "Color": "{default}",
+    "HammerID": "3710",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_launcher2",
+        "ButtonID": "3711",
+        "ButtonClass": "func_physbox",
+        "Filter": "launcher:1",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 10,
+        "CoolDown": 2
+      }
+    ]
+  },
+  {
+    "Name": "Flamethrower",
+    "ShortName": "Flame",
+    "Color": "{default}",
+    "HammerID": "3686",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_flame2",
+        "ButtonID": "3687",
+        "ButtonClass": "func_physbox",
+        "Filter": "flamethrower:1",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 8,
+        "CoolDown": 10
+      }
+    ]
+  },
+  {
+    "Name": "Push Gun",
+    "ShortName": "Push",
+    "Color": "{default}",
+    "HammerID": "3664",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_push2",
+        "ButtonID": "3665",
+        "ButtonClass": "func_physbox",
+        "Filter": "push:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 35
+      }
+    ]
+  },
+  {
+    "Name": "Electro Gun",
+    "ShortName": "Electro",
+    "Color": "{default}",
+    "HammerID": "3673",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_electric5",
+        "ButtonID": "3679",
+        "ButtonClass": "func_physbox",
+        "Filter": "electric:1",
+        "Chat_Uses": false,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "3685",
+        "MathNameFix": false,
+        "MathFindSpawned": false,
+        "MathDontShowMax": true
+      }
+    ]
+  },
+  {
+    "Name": "Ammo Box",
+    "ShortName": "Ammo",
+    "Color": "{default}",
+    "HammerID": "3699",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_ammo2",
+        "ButtonID": "3700",
+        "ButtonClass": "func_physbox",
+        "Filter": "ammowep:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{default}",
+    "HammerID": "3640",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_heal2",
+        "ButtonID": "3635",
+        "ButtonClass": "func_physbox",
+        "Filter": "heal:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 2,
+        "CoolDown": 20,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "522",
+        "MathNameFix": false,
+        "MathFindSpawned": true,
+        "MathDontShowMax": false,
+        "MathZero": true
+      }
+    ]
+  },
+  {
+    "Name": "Pipe Bombs",
+    "ShortName": "Bomb",
+    "Color": "{default}",
+    "HammerID": "3717",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_pipe2",
+        "ButtonID": "3718",
+        "ButtonClass": "func_physbox",
+        "Filter": "pipe:1",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 5,
+        "CoolDown": 1
+      }
+    ]
+  },
+  {
+    "Name": "Banana",
+    "ShortName": "Banana",
+    "Color": "{default}",
+    "HammerID": "4377",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "banana_button",
+        "ButtonID": "4378",
+        "ButtonClass": "func_physbox",
+        "Filter": "banana:1",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 15,
+        "CoolDown": 5
+      }
+    ]
+  },
+  {
+    "Name": "Steam",
+    "ShortName": "Steam",
+    "Color": "{default}",
+    "HammerID": "4386",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_steam3",
+        "ButtonID": "4387",
+        "ButtonClass": "func_physbox",
+        "Filter": "steam:1",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 8,
+        "CoolDown": 10
+      }
+    ]
+  }
+]

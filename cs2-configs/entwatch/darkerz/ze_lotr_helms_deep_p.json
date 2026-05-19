@@ -1,0 +1,30 @@
+[
+  {
+    "Name": "radio",
+    "ShortName": "radio",
+    "Color": "{default}",
+    "HammerID": "413",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "957",
+        "ButtonClass": "func_physbox",
+        "Filter": "radioguy:1",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  }
+]
