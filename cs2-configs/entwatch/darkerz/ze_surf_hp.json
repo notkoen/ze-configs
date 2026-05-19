@@ -1,0 +1,114 @@
+[
+  {
+    "Name": "ZM CrossBow",
+    "ShortName": "ZM CrossBow",
+    "Color": "{default}",
+    "HammerID": "102",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "121",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "crossbow_button",
+        "ButtonID": "100",
+        "ButtonClass": "func_button",
+        "Filter": "crossbow",
+        "Chat_Uses": true,
+        "Mode": 5,
+        "MaxUses": 3,
+        "CoolDown": 30
+      }
+    ]
+  },
+  {
+    "Name": "Shotgun",
+    "ShortName": "Shotgun",
+    "Color": "{default}",
+    "HammerID": "93",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "shotgun_button",
+        "ButtonID": "91",
+        "ButtonClass": "func_button",
+        "Filter": "shotgun",
+        "Chat_Uses": true,
+        "Mode": 5,
+        "MaxUses": 2,
+        "CoolDown": 45
+      }
+    ]
+  },
+  {
+    "Name": "SmallHeal",
+    "ShortName": "SmallHeal",
+    "Color": "{default}",
+    "HammerID": "150",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "BigHeal",
+    "ShortName": "BigHeal",
+    "Color": "{default}",
+    "HammerID": "66",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  }
+]

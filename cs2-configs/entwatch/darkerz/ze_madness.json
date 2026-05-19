@@ -1,0 +1,137 @@
+[
+  {
+    "Name": "ZM Louluo",
+    "ShortName": "ZM Louluo",
+    "Color": "{default}",
+    "HammerID": "19820",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "19818",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "louluo_01_phy",
+        "ButtonID": "19816",
+        "ButtonClass": "func_physbox",
+        "Filter": "louluo_01",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": true
+      }
+    ]
+  },
+  {
+    "Name": "ZM Louluo2",
+    "ShortName": "ZM Louluo2",
+    "Color": "{default}",
+    "HammerID": "20095",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "20093",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "louluo_02_phy",
+        "ButtonID": "20089",
+        "ButtonClass": "func_physbox",
+        "Filter": "louluo_02",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": true
+      }
+    ]
+  },
+  {
+    "Name": "ZM Louluo3",
+    "ShortName": "ZM Louluo3",
+    "Color": "{default}",
+    "HammerID": "20199",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "20197",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "louluo_03_phy",
+        "ButtonID": "20194",
+        "ButtonClass": "func_physbox",
+        "Filter": "louluo_03",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": true
+      }
+    ]
+  },
+  {
+    "Name": "ZM Louluo4",
+    "ShortName": "ZM Louluo4",
+    "Color": "{default}",
+    "HammerID": "20251",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "20249",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "louluo_04_phy",
+        "ButtonID": "20246",
+        "ButtonClass": "func_physbox",
+        "Filter": "louluo_04",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": true
+      }
+    ]
+  },
+  {
+    "Name": "ZM Louluo5",
+    "ShortName": "ZM Louluo5",
+    "Color": "{default}",
+    "HammerID": "20293",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "20290",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "louluo_05_phy",
+        "ButtonID": "20268",
+        "ButtonClass": "func_physbox",
+        "Filter": "louluo_05",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": true
+      }
+    ]
+  }
+]

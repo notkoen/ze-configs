@@ -1,0 +1,394 @@
+[
+  {
+    "Name": "Star Drift",
+    "ShortName": "Star Drift",
+    "Color": "{default}",
+    "HammerID": "4685",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "xcpl_button",
+        "ButtonID": "4686",
+        "ButtonClass": "func_button",
+        "Filter": "xcpl:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30
+      }
+    ]
+  },
+  {
+    "Name": "Shield Wall",
+    "ShortName": "Shield Wall",
+    "Color": "{default}",
+    "HammerID": "4659",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "dq_button",
+        "ButtonID": "4660",
+        "ButtonClass": "func_button",
+        "Filter": "dq:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80
+      }
+    ]
+  },
+  {
+    "Name": "Divine Toll",
+    "ShortName": "Divine Toll",
+    "Color": "{default}",
+    "HammerID": "4787",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "healbutton",
+        "ButtonID": "4791",
+        "ButtonClass": "func_button",
+        "Filter": "gun_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "ZM Fire",
+    "ShortName": "ZM Fire",
+    "Color": "{default}",
+    "HammerID": "4571",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "4800",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "fire_buttton",
+        "ButtonID": "4572",
+        "ButtonClass": "func_button",
+        "Filter": "fire:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30
+      }
+    ]
+  },
+  {
+    "Name": "ZM Speed",
+    "ShortName": "ZM Speed",
+    "Color": "{default}",
+    "HammerID": "4612",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "4613",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "speed_button",
+        "ButtonID": "4616",
+        "ButtonClass": "func_button",
+        "Filter": "speed:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80
+      }
+    ]
+  },
+  {
+    "Name": "ZM Frostwyrm's Fury",
+    "ShortName": "ZM Rage",
+    "Color": "{default}",
+    "HammerID": "4770",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "4768",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "rage_button",
+        "ButtonID": "4772",
+        "ButtonClass": "func_button",
+        "Filter": "rage:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80
+      }
+    ]
+  },
+  {
+    "Name": "Sailor's Spear",
+    "ShortName": "Sailor's Spear",
+    "Color": "{default}",
+    "HammerID": "4630",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "sszm_button",
+        "ButtonID": "4631",
+        "ButtonClass": "func_button",
+        "Filter": "sszm:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Bravity",
+    "ShortName": "Bravity",
+    "Color": "{default}",
+    "HammerID": "5165",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_Button",
+        "ButtonID": "5166",
+        "ButtonClass": "func_button",
+        "Filter": "yingyong:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Ascendance",
+    "ShortName": "Ascendance",
+    "Color": "{default}",
+    "HammerID": "5192",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "stbutton",
+        "ButtonID": "5196",
+        "ButtonClass": "func_button",
+        "Filter": "st_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30
+      }
+    ]
+  },
+  {
+    "Name": "ZM Malefic Rapture",
+    "ShortName": "ZM Malefic Rapture",
+    "Color": "{default}",
+    "HammerID": "4720",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "4721",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "znkh_button",
+        "ButtonID": "4725",
+        "ButtonClass": "func_button",
+        "Filter": "znkh:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40
+      }
+    ]
+  },
+  {
+    "Name": "ZM Death and Decay",
+    "ShortName": "ZM Death and Decay",
+    "Color": "{default}",
+    "HammerID": "4590",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "4591",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "kwdl_button",
+        "ButtonID": "4596",
+        "ButtonClass": "func_button",
+        "Filter": "kwdl:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Frost Breath",
+    "ShortName": "Frost Breath",
+    "Color": "{default}",
+    "HammerID": "4702",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "hbtx_button",
+        "ButtonID": "4700",
+        "ButtonClass": "func_button",
+        "Filter": "hbtx:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 15
+      }
+    ]
+  },
+  {
+    "Name": "Dedication",
+    "ShortName": "Dedication",
+    "Color": "{default}",
+    "HammerID": "4620",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "fx_button",
+        "ButtonID": "4621",
+        "ButtonClass": "func_button",
+        "Filter": "fx:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30
+      }
+    ]
+  },
+  {
+    "Name": "ZM swzw",
+    "ShortName": "ZM swzw",
+    "Color": "{default}",
+    "HammerID": "4605",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "4603",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "swzw_button",
+        "ButtonID": "4606",
+        "ButtonClass": "func_button",
+        "Filter": "swzw:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40
+      }
+    ]
+  }
+]

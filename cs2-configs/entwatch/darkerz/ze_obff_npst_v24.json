@@ -1,0 +1,720 @@
+[
+  {
+    "Name": "Bagette",
+    "ShortName": "Bagette",
+    "Color": "{default}",
+    "HammerID": "31727",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "",
+        "ButtonClass": "",
+        "Filter": "bagette",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Samurai2",
+    "ShortName": "Samurai2",
+    "Color": "{pink}",
+    "HammerID": "34501",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Iaijutsu",
+        "ButtonID": "34520",
+        "ButtonClass": "func_button",
+        "Filter": "Player2_Samurai",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "34509",
+        "MathNameFix": false,
+        "MathFindSpawned": false,
+        "MathDontShowMax": true
+      },
+      {
+        "Name": "Ultimate",
+        "ButtonID": "34518",
+        "ButtonClass": "func_button",
+        "Filter": "Player2_Samurai",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "34510",
+        "MathNameFix": false,
+        "MathFindSpawned": false,
+        "MathDontShowMax": true
+      }
+    ]
+  },
+  {
+    "Name": "Heal Materia",
+    "ShortName": "Heal",
+    "Color": "{default}",
+    "HammerID": "35105",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "35099",
+        "ButtonClass": "func_button",
+        "Filter": "Bossheal",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120
+      }
+    ]
+  },
+  {
+    "Name": "Copy",
+    "ShortName": "Copy",
+    "Color": "{default}",
+    "HammerID": "32436",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "32439",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Copy",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120
+      }
+    ]
+  },
+  {
+    "Name": "Dark Knight",
+    "ShortName": "Dark Knight",
+    "Color": "{darkblue}",
+    "HammerID": "32104",
+    "GlowColor": [0, 0, 139, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Unleash",
+        "ButtonID": "32129",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Dark_Knight",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 15
+      },
+      {
+        "Name": "Salted Earth",
+        "ButtonID": "32127",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Dark_Knight",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "32114",
+        "MathNameFix": false,
+        "MathFindSpawned": false,
+        "MathDontShowMax": true
+      }
+    ]
+  },
+  {
+    "Name": "Ninja",
+    "ShortName": "Ninja",
+    "Color": "{blue}",
+    "HammerID": "32370",
+    "GlowColor": [139, 0, 0, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Ninjutsu",
+        "ButtonID": "32391",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Ninja",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120
+      },
+      {
+        "Name": "Switch",
+        "ButtonID": "32386",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Ninja",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 5
+      }
+    ]
+  },
+  {
+    "Name": "Samurai",
+    "ShortName": "Samurai",
+    "Color": "{pink}",
+    "HammerID": "32309",
+    "GlowColor": [220, 20, 60, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Iaijutsu",
+        "ButtonID": "32364",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Samurai",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "32345",
+        "MathNameFix": false,
+        "MathFindSpawned": false,
+        "MathDontShowMax": true
+      },
+      {
+        "Name": "Ultimate",
+        "ButtonID": "32362",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Samurai",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "32346",
+        "MathNameFix": false,
+        "MathFindSpawned": false,
+        "MathDontShowMax": true
+      }
+    ]
+  },
+  {
+    "Name": "Scholar",
+    "ShortName": "Scholar",
+    "Color": "{lime}",
+    "HammerID": "32151",
+    "GlowColor": [220, 20, 60, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Aetherflow",
+        "ButtonID": "32164",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Scholar",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120
+      },
+      {
+        "Name": "Shield",
+        "ButtonID": "32162",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Scholar",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120
+      }
+    ]
+  },
+  {
+    "Name": "Heal Materia",
+    "ShortName": "Heal",
+    "Color": "{default}",
+    "HammerID": "34648",
+    "GlowColor": [255,255,255,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "34641",
+        "ButtonClass": "func_button",
+        "Filter": "portador_heal",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "34651",
+        "MathNameFix": false,
+        "MathFindSpawned": false,
+        "MathDontShowMax": true
+      }
+    ]
+  },
+  {
+    "Name": "Fire Materia",
+    "ShortName": "Fire",
+    "Color": "{red}",
+    "HammerID": "32008",
+    "GlowColor": [255,255,255,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "32011",
+        "ButtonClass": "func_button",
+        "Filter": "portador_fire",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "34295",
+        "MathNameFix": false,
+        "MathFindSpawned": false,
+        "MathDontShowMax": true
+      }
+    ]
+  },
+  {
+    "Name": "Gravity Materia",
+    "ShortName": "Gravity",
+    "Color": "{purple}",
+    "HammerID": "32022",
+    "GlowColor": [255,255,255,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "32020",
+        "ButtonClass": "func_button",
+        "Filter": "portador_gravedad",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "34296",
+        "MathNameFix": false,
+        "MathFindSpawned": false,
+        "MathDontShowMax": true
+      }
+    ]
+  },
+  {
+    "Name": "Ice Materia",
+    "ShortName": "Ice",
+    "Color": "{darkblue}",
+    "HammerID": "32206",
+    "GlowColor": [255,255,255,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "32211",
+        "ButtonClass": "func_button",
+        "Filter": "portador_ice",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "34299",
+        "MathNameFix": false,
+        "MathFindSpawned": false,
+        "MathDontShowMax": true
+      }
+    ]
+  },
+  {
+    "Name": "Elctro Materia",
+    "ShortName": "Electro",
+    "Color": "{yellow}",
+    "HammerID": "31956",
+    "GlowColor": [255,255,255,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "31954",
+        "ButtonClass": "func_button",
+        "Filter": "portador_electro",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Earth Materia",
+    "ShortName": "Earth",
+    "Color": "{orange}",
+    "HammerID": "31994",
+    "GlowColor": [255,255,255,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "31996",
+        "ButtonClass": "func_button",
+        "Filter": "portador_earth",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "34294",
+        "MathNameFix": false,
+        "MathFindSpawned": false,
+        "MathDontShowMax": true
+      }
+    ]
+  },
+  {
+    "Name": "Wind Materia",
+    "ShortName": "Wind",
+    "Color": "{lime}",
+    "HammerID": "32296",
+    "GlowColor": [255,255,255,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "32299",
+        "ButtonClass": "func_button",
+        "Filter": "portador_viento",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "34301",
+        "MathNameFix": false,
+        "MathFindSpawned": false,
+        "MathDontShowMax": true
+      }
+    ]
+  },
+  {
+    "Name": "Water Staff",
+    "ShortName": "Water",
+    "Color": "{darkblue}",
+    "HammerID": "32191",
+    "GlowColor": [255,255,255,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "32197",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Staff_Water",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "34298",
+        "MathNameFix": false,
+        "MathFindSpawned": false,
+        "MathDontShowMax": true
+      }
+    ]
+  },
+  {
+    "Name": "Garg",
+    "ShortName": "Garg",
+    "Color": "{default}",
+    "HammerID": "31380",
+    "GlowColor": [255,255,255,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "",
+        "ButtonClass": "",
+        "Filter": "Garg",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Charge Rifle",
+    "ShortName": "ZM Charge Rifle",
+    "Color": "{default}",
+    "HammerID": "34412",
+    "GlowColor": [255,255,255,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "",
+        "ButtonClass": "",
+        "Filter": "Filter_Tar_CR",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Invis",
+    "ShortName": "ZM Invis",
+    "Color": "{darkred}",
+    "HammerID": "32094",
+    "GlowColor": [255,255,255,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "32091",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Knife_Invis",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Shield",
+    "ShortName": "ZM Shield",
+    "Color": "{yellow}",
+    "HammerID": "32061",
+    "GlowColor": [255,255,255,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "32063",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Knife_Shield",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Heal",
+    "ShortName": "ZM Heal",
+    "Color": "{default}",
+    "HammerID": "32516",
+    "GlowColor": [255,255,255,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "32520",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Knife_Zmheal",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Sleep",
+    "ShortName": "ZM Sleep",
+    "Color": "{pink}",
+    "HammerID": "32219",
+    "GlowColor": [255,255,255,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "32227",
+        "ButtonClass": "func_button",
+        "Filter": "ZM_Player_Sleep",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Smoker",
+    "ShortName": "ZM Smoker",
+    "Color": "{pink}",
+    "HammerID": "32500",
+    "GlowColor": [255,255,255,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "32504",
+        "ButtonClass": "func_button",
+        "Filter": "ZM_Player_Smoker",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80
+      }
+    ]
+  }
+]

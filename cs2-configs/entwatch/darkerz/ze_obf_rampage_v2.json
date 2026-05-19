@@ -1,0 +1,30 @@
+[
+  {
+    "Name": "Health Battery",
+    "ShortName": "Health",
+    "Color": "{blue}",
+    "HammerID": 28337,
+    "GlowColor": [0, 174, 255, 1.0],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": 0,
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Use Battery",
+        "ButtonID": 0,
+        "ButtonClass": "filter_activator_name",
+        "Filter": "Healther",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 2,
+        "CoolDown": 10,
+        "Ignore": false,
+        "LockItem": false
+      }
+    ]
+  }
+]

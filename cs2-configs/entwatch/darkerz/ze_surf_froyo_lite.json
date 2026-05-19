@@ -1,0 +1,254 @@
+[
+  {
+    "Name": "Halo",
+    "ShortName": "Halo",
+    "Color": "{default}",
+    "HammerID": "534",
+    "GlowColor": [255,165,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_halo_button",
+        "ButtonID": "530", 
+        "ButtonClass": "func_button",
+        "Filter": "halo_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 56
+      }
+    ]
+  },
+  {
+    "Name": "Lightwall",
+    "ShortName": "Lightwall",
+    "Color": "{orange}",
+    "HammerID": "459",
+    "GlowColor": [255,165,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_lightwall_button",
+        "ButtonID": "460", 
+        "ButtonClass": "func_button",
+        "Filter": "lightwall_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 38
+      }
+    ]
+  },
+  {
+    "Name": "Roar",
+    "ShortName": "Roar",
+    "Color": "{darkblue}",
+    "HammerID": "515",
+    "GlowColor": [255,165,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_roar_button",
+        "ButtonID": "511", 
+        "ButtonClass": "func_button",
+        "Filter": "roar_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 25
+      }
+    ]
+  },
+  {
+    "Name": "Snowstorm",
+    "ShortName": "Snowstorm",
+    "Color": "{blue}",
+    "HammerID": "458",
+    "GlowColor": [255,165,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_snowstorm_button",
+        "ButtonID": "546", 
+        "ButtonClass": "func_button",
+        "Filter": "snowstorm_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 48
+      }
+    ]
+  },
+  {
+    "Name": "Unknown",
+    "ShortName": "Unknown",
+    "Color": "{red}",
+    "HammerID": "358",
+    "GlowColor": [255,165,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_unknown_button",
+        "ButtonID": "354", 
+        "ButtonClass": "func_button",
+        "Filter": "unknown_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Wave",
+    "ShortName": "Wave",
+    "Color": "{yellow}",
+    "HammerID": "548",
+    "GlowColor": [255,165,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_wave_button",
+        "ButtonID": "554", 
+        "ButtonClass": "func_button",
+        "Filter": "wave_user:1",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Fear",
+    "ShortName": "Fear",
+    "Color": "{green}",
+    "HammerID": "482",
+    "GlowColor": [255,165,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_fear_button",
+        "ButtonID": "487", 
+        "ButtonClass": "func_button",
+        "Filter": "fear_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 63
+      }
+    ]
+  },
+  {
+    "Name": "Health",
+    "ShortName": "Health",
+    "Color": "{darkred}",
+    "HammerID": "495",
+    "GlowColor": [255,165,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_health_button",
+        "ButtonID": "501", 
+        "ButtonClass": "func_button",
+        "Filter": "health_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 56
+      }
+    ]
+  },
+  {
+    "Name": "Shock",
+    "ShortName": "Shock",
+    "Color": "{default}",
+    "HammerID": "6333",
+    "GlowColor": [255,165,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "6352", 
+        "ButtonClass": "func_button",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  }
+]

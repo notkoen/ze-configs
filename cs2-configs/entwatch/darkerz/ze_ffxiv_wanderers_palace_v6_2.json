@@ -1,0 +1,470 @@
+[
+  {
+    "Name": "[ZM]Flare",
+    "ShortName": "[ZM]Flare",
+    "Color": "{default}",
+    "HammerID": "1174",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1175",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Knife_Flare_Button",
+        "ButtonID": "1170",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Zombie_Flare",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50
+      }
+    ]
+  },
+  {
+    "Name": "[ZM]Malefic",
+    "ShortName": "[ZM]Malefic",
+    "Color": "{default}",
+    "HammerID": "1177",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1546",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Knife_Malefic_Button",
+        "ButtonID": "1891",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Zombie_Malefic",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "[ZM]Inner Release",
+    "ShortName": "[ZM]Inner Release",
+    "Color": "{default}",
+    "HammerID": "1178",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "829",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "Player_Zombie_Inner_Release",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "[ZM]Dark Flood",
+    "ShortName": "[ZM]Dark Flood",
+    "Color": "{default}",
+    "HammerID": "1165",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1166",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Knife_Flood_Button",
+        "ButtonID": "1163",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Zombie_Flood",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 9
+      }
+    ]
+  },
+  {
+    "Name": "[ZM]Shield",
+    "ShortName": "[ZM]Shield",
+    "Color": "{default}",
+    "HammerID": "1180",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1910",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Knife_Shield_Button",
+        "ButtonID": "1539",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Zombie_Shield",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65
+      }
+    ]
+  },
+  {
+    "Name": "[ZM]Goobbue Gorilla",
+    "ShortName": "[ZM]Goobbue",
+    "Color": "{default}",
+    "HammerID": "1158",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1159",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "Player_Zombie_Goobbue",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "[ZM]Heal",
+    "ShortName": "[ZM]Heal",
+    "Color": "{default}",
+    "HammerID": "1179",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1902",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Knife_Heal_Button",
+        "ButtonID": "1563",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Zombie_Heal",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65
+      }
+    ]
+  },
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{default}",
+    "HammerID": "1146",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_Heal_Button",
+        "ButtonID": "1895",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Human_Heal",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 55
+      }
+    ]
+  },
+  {
+    "Name": "Bahamut",
+    "ShortName": "Bahamut",
+    "Color": "{default}",
+    "HammerID": "1148",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_Bahamut_Button",
+        "ButtonID": "1885",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Human_Bahamut",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 12
+      }
+    ]
+  },
+  {
+    "Name": "Heart of Light",
+    "ShortName": "Light",
+    "Color": "{default}",
+    "HammerID": "1150",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_Light_Button",
+        "ButtonID": "1893",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Human_Light",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90
+      }
+    ]
+  },
+  {
+    "Name": "Ice III",
+    "ShortName": "Ice III",
+    "Color": "{default}",
+    "HammerID": "1156",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_Blizzard_Button",
+        "ButtonID": "1154",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Human_Blizzard",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Gravity",
+    "ShortName": "Gravity",
+    "Color": "{default}",
+    "HammerID": "1152",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_Gravity_Button",
+        "ButtonID": "1881",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Human_Gravity",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Thunder IV",
+    "ShortName": "Thunder IV",
+    "Color": "{default}",
+    "HammerID": "1216",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_Thunder_Button",
+        "ButtonID": "1214",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Human_Thunder",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40
+      }
+    ]
+  },
+  {
+    "Name": "Ricochet",
+    "ShortName": "Ricochet",
+    "Color": "{default}",
+    "HammerID": "1272",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_Ricochet_Button",
+        "ButtonID": "1269",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Human_Ricochet",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 5
+      }
+    ]
+  },
+  {
+    "Name": "Arrow",
+    "ShortName": "Arrow",
+    "Color": "{default}",
+    "HammerID": "1279",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_Arrow_Button",
+        "ButtonID": "1275",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Human_Arrow",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20
+      }
+    ]
+  },
+  {
+    "Name": "Lines",
+    "ShortName": "Lines",
+    "Color": "{default}",
+    "HammerID": "1283",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_Lines_Button",
+        "ButtonID": "1281",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Human_Lines",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90
+      }
+    ]
+  },
+  {
+    "Name": "Dream Breaker",
+    "ShortName": "Breaker",
+    "Color": "{default}",
+    "HammerID": "1785",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Dream_Breaker_Button",
+        "ButtonID": "1783",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Human_Breaker",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 15
+      }
+    ]
+  },
+  {
+    "Name": "Dream Weaver",
+    "ShortName": "Weaver",
+    "Color": "{default}",
+    "HammerID": "1802",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1800",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "Player_Zombie_Weaver",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  }
+]

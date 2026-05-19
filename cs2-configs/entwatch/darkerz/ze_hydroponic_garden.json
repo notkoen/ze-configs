@@ -1,0 +1,198 @@
+[
+  {
+    "Name": "ZM Star",
+    "ShortName": "ZM Star",
+    "Color": "{default}",
+    "HammerID": "1937",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1934",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "zombie_stars_button",
+        "ButtonID": "1999",
+        "ButtonClass": "func_button",
+        "Filter": "player_zombie_stars",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 45
+      }
+    ]
+  },
+  {
+    "Name": "ZM Heal",
+    "ShortName": "ZM Heal",
+    "Color": "{default}",
+    "HammerID": "1968",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "2033",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "zombie_heal_button",
+        "ButtonID": "2031",
+        "ButtonClass": "func_button",
+        "Filter": "player_zombie_heal",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50
+      }
+    ]
+  },
+  {
+    "Name": "ZM Beam",
+    "ShortName": "ZM Beam",
+    "Color": "{default}",
+    "HammerID": "1982",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1983",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "zombie_beam_button",
+        "ButtonID": "1969",
+        "ButtonClass": "func_button",
+        "Filter": "player_zombie_beam",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50
+      }
+    ]
+  },
+  {
+    "Name": "ZM Gravity",
+    "ShortName": "ZM Gravity",
+    "Color": "{default}",
+    "HammerID": "1992",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1986",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "zombie_gravity_button",
+        "ButtonID": "1988",
+        "ButtonClass": "func_button",
+        "Filter": "player_zombie_gravity",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90
+      }
+    ]
+  },
+  {
+    "Name": "Beam",
+    "ShortName": "Beam",
+    "Color": "{default}",
+    "HammerID": "2136",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "human_beam_button",
+        "ButtonID": "2134",
+        "ButtonClass": "func_button",
+        "Filter": "player_human_beam",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Cube",
+    "ShortName": "Cube",
+    "Color": "{default}",
+    "HammerID": "2104",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "human_cube_button",
+        "ButtonID": "2114",
+        "ButtonClass": "func_button",
+        "Filter": "player_human_cube",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Shield",
+    "ShortName": "Shield",
+    "Color": "{default}",
+    "HammerID": "2124",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "human_shield_button",
+        "ButtonID": "2118",
+        "ButtonClass": "func_button",
+        "Filter": "player_human_shield",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  }
+]

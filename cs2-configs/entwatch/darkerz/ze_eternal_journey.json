@@ -1,0 +1,310 @@
+[
+  {
+    "Name": "Fire",
+    "ShortName": "Fire",
+    "Color": "{red}",
+    "HammerID": "2246",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "fire_button",
+        "ButtonID": "2250",
+        "ButtonClass": "func_button",
+        "Filter": "fire_player",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Freeze",
+    "ShortName": "Freeze",
+    "Color": "{lightblue}",
+    "HammerID": "3588",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "freeze_button",
+        "ButtonID": "3583",
+        "ButtonClass": "func_button",
+        "Filter": "freeze_player",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65
+      }
+    ]
+  },
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{default}",
+    "HammerID": "3591",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "heal_button",
+        "ButtonID": "3593",
+        "ButtonClass": "func_button",
+        "Filter": "heal_player",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Tornado",
+    "ShortName": "Tornado",
+    "Color": "{lime}",
+    "HammerID": "3608",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "tornado_button",
+        "ButtonID": "3602",
+        "ButtonClass": "func_button",
+        "Filter": "tornado_player",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65
+      }
+    ]
+  },
+  {
+    "Name": "Earth",
+    "ShortName": "Earth",
+    "Color": "{orange}",
+    "HammerID": "3617",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "earth_button",
+        "ButtonID": "3613",
+        "ButtonClass": "func_button",
+        "Filter": "earth_player",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Ultimate",
+    "ShortName": "Ultimate",
+    "Color": "{darkred}",
+    "HammerID": "3984",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "ultimate_button",
+        "ButtonID": "3978",
+        "ButtonClass": "func_button",
+        "Filter": "ultimate_player",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "ZM Fire",
+    "ShortName": "ZM Fire",
+    "Color": "{darkred}",
+    "HammerID": "3641",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3642",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "zmfire_button",
+        "ButtonID": "3636",
+        "ButtonClass": "func_button",
+        "Filter": "zmfire_player",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "ZM Gravity",
+    "ShortName": "ZM Gravity",
+    "Color": "{megenta}",
+    "HammerID": "3660",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3658",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "zmgravity_button",
+        "ButtonID": "3655",
+        "ButtonClass": "func_button",
+        "Filter": "zmgravity_player",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "ZM Freeze",
+    "ShortName": "ZM Freeze",
+    "Color": "{darkblue}",
+    "HammerID": "3689",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3687",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "zmfreeze_button",
+        "ButtonID": "3682",
+        "ButtonClass": "func_button",
+        "Filter": "zmfreeze_player",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "ZM Skin 1",
+    "ShortName": "ZM Skin 1",
+    "Color": "{default}",
+    "HammerID": "3693",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3691",
+    "UsePriority": false,
+    "AbilityList": [
+      {
+        "Name": "zmskin1_button",
+        "ButtonID": "5396",
+        "ButtonClass": "func_physbox",
+        "Filter": "zmskin1_player",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40
+      }
+    ]
+  },
+  {
+    "Name": "ZM Skin 2",
+    "ShortName": "ZM Skin 2",
+    "Color": "{default}",
+    "HammerID": "3723",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3750",
+    "UsePriority": false,
+    "AbilityList": [
+      {
+        "Name": "zmskin2_button",
+        "ButtonID": "5412",
+        "ButtonClass": "func_button",
+        "Filter": "zmskin2_player",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50
+      }
+    ]
+  }
+]

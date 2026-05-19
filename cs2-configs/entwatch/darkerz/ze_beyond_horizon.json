@@ -1,0 +1,52 @@
+[
+  {
+    "Name": "Wind",
+    "ShortName": "Wind",
+    "Color": "{green}",
+    "HammerID": "5762",
+    "GlowColor": [100, 200, 255, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Wind",
+        "ButtonID": "5764",
+        "ButtonClass": "func_button",
+        "Filter": "item_wind_filter",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Thunder",
+    "ShortName": "Thunder",
+    "Color": "{yellow}",
+    "HammerID": "5816",
+    "GlowColor": [255, 255, 100, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Thunder",
+        "ButtonID": "5813",
+        "ButtonClass": "func_button",
+        "Filter": "item_thunder_filter",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  }
+]

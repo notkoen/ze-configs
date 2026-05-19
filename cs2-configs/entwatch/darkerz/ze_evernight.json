@@ -1,0 +1,292 @@
+[
+  {
+  "Name": "Shadow Staff",
+  "ShortName": "Shadow",
+  "Color": "{default}",
+  "HammerID": "6376",
+  "GlowColor": [100,100,100,255],
+  "FilterID": 0,
+  "FilterValue": "",
+  "BlockPickup": false,
+  "AllowTransfer": true,
+  "ForceDrop": true,
+  "Chat": true,
+  "Hud": true,
+  "TriggerID": "0",
+  "UsePriority": true,
+  "AbilityList":
+    [
+      {
+      "Name": "Item_Shadow_Button",
+      "ButtonID": "6377",
+      "ButtonClass": "func_button",
+      "Filter": "Filter_Shadow_User",
+      "Chat_Uses": true,
+      "Mode": 2,
+      "MaxUses": 0,
+      "CoolDown": 60
+      }
+    ]
+  },
+  {
+  "Name": "Light Staff",
+  "ShortName": "Light",
+  "Color": "{default}",
+  "HammerID": "6386",
+  "GlowColor": [255,255,255,255],
+  "FilterID": 0,
+  "FilterValue": "",
+  "BlockPickup": false,
+  "AllowTransfer": true,
+  "ForceDrop": true,
+  "Chat": true,
+  "Hud": true,
+  "TriggerID": "0",
+  "UsePriority": true,
+  "AbilityList":
+    [
+      {
+      "Name": "Item_Light_Button",
+      "ButtonID": "6387",
+      "ButtonClass": "func_button",
+      "Filter": "Filter_Light_User",
+      "Chat_Uses": true,
+      "Mode": 2,
+      "MaxUses": 0,
+      "CoolDown": 60
+      }
+    ]
+  },
+  {
+  "Name": "Thunder Staff",
+  "ShortName": "Thunder",
+  "Color": "{default}",
+  "HammerID": "6414",
+  "GlowColor": [145,0,160,255],
+  "FilterID": 0,
+  "FilterValue": "",
+  "BlockPickup": false,
+  "AllowTransfer": true,
+  "ForceDrop": true,
+  "Chat": true,
+  "Hud": true,
+  "TriggerID": "0",
+  "UsePriority": true,
+  "AbilityList":
+    [
+      {
+      "Name": "Item_Thunder_Button",
+      "ButtonID": "6415",
+      "ButtonClass": "func_button",
+      "Filter": "Filter_Thunder_User",
+      "Chat_Uses": true,
+      "Mode": 2,
+      "MaxUses": 0,
+      "CoolDown": 60
+      }
+    ]
+  },
+  {
+  "Name": "Wind Staff",
+  "ShortName": "Wind",
+  "Color": "{default}",
+  "HammerID": "6398",
+  "GlowColor": [60,179,113,255],
+  "FilterID": 0,
+  "FilterValue": "",
+  "BlockPickup": false,
+  "AllowTransfer": true,
+  "ForceDrop": true,
+  "Chat": true,
+  "Hud": true,
+  "TriggerID": "0",
+  "UsePriority": true,
+  "AbilityList":
+    [
+      {
+      "Name": "Item_Wind_Button",
+      "ButtonID": "6401",
+      "ButtonClass": "func_button",
+      "Filter": "Filter_Wind_User",
+      "Chat_Uses": true,
+      "Mode": 2,
+      "MaxUses": 0,
+      "CoolDown": 60
+      }
+    ]
+  },
+  {
+  "Name": "Ice Staff",
+  "ShortName": "Ice",
+  "Color": "{default}",
+  "HammerID": "6406",
+  "GlowColor": [0,100,255,255],
+  "FilterID": 0,
+  "FilterValue": "",
+  "BlockPickup": false,
+  "AllowTransfer": true,
+  "ForceDrop": true,
+  "Chat": true,
+  "Hud": true,
+  "TriggerID": "0",
+  "UsePriority": true,
+  "AbilityList":
+    [
+      {
+      "Name": "Item_Ice_Button",
+      "ButtonID": "6407",
+      "ButtonClass": "func_button",
+      "Filter": "Filter_Ice_User",
+      "Chat_Uses": true,
+      "Mode": 2,
+      "MaxUses": 0,
+      "CoolDown": 60
+      }
+    ]
+  },
+  {
+  "Name": "Fire Staff",
+  "ShortName": "Fire",
+  "Color": "{default}",
+  "HammerID": "6424",
+  "GlowColor": [255,25,0,255],
+  "FilterID": 0,
+  "FilterValue": "",
+  "BlockPickup": false,
+  "AllowTransfer": true,
+  "ForceDrop": true,
+  "Chat": true,
+  "Hud": true,
+  "TriggerID": "0",
+  "UsePriority": true,
+  "AbilityList":
+    [
+      {
+      "Name": "Item_Fire_Button",
+      "ButtonID": "6422",
+      "ButtonClass": "func_button",
+      "Filter": "Filter_Fire_User",
+      "Chat_Uses": true,
+      "Mode": 2,
+      "MaxUses": 0,
+      "CoolDown": 60
+      }
+    ]
+  },
+  {
+  "Name": "[ZM]Thunder",
+  "ShortName": "[ZM]Thunder",
+  "Color": "{default}",
+  "HammerID": "5709",
+  "GlowColor": [145,0,160,255],
+  "FilterID": 0,
+  "FilterValue": "",
+  "BlockPickup": false,
+  "AllowTransfer": false,
+  "ForceDrop": true,
+  "Chat": true,
+  "Hud": true,
+  "TriggerID": "0",
+  "UsePriority": true,
+  "AbilityList":
+    [
+      {
+      "Name": "Item_ZThunder_Button",
+      "ButtonID": "5710",
+      "ButtonClass": "func_button",
+      "Filter": "Filter_ZThunder_User",
+      "Chat_Uses": true,
+      "Mode": 2,
+      "MaxUses": 0,
+      "CoolDown": 75
+      }
+    ]
+  },
+  {
+  "Name": "[ZM]Wind",
+  "ShortName": "[ZM]Wind",
+  "Color": "{default}",
+  "HammerID": "6302",
+  "GlowColor": [60,179,113,255],
+  "FilterID": 0,
+  "FilterValue": "",
+  "BlockPickup": false,
+  "AllowTransfer": false,
+  "ForceDrop": true,
+  "Chat": true,
+  "Hud": true,
+  "TriggerID": "0",
+  "UsePriority": true,
+  "AbilityList":
+    [
+      {
+      "Name": "Item_ZWind_Button",
+      "ButtonID": "6304",
+      "ButtonClass": "func_button",
+      "Filter": "Filter_ZWind_User",
+      "Chat_Uses": true,
+      "Mode": 2,
+      "MaxUses": 0,
+      "CoolDown": 75
+      }
+    ]
+  },
+  {
+  "Name": "[ZM]Ice",
+  "ShortName": "[ZM]Ice",
+  "Color": "{default}",
+  "HammerID": "6359",
+  "GlowColor": [0,100,255,255],
+  "FilterID": 0,
+  "FilterValue": "",
+  "BlockPickup": false,
+  "AllowTransfer": false,
+  "ForceDrop": true,
+  "Chat": true,
+  "Hud": true,
+  "TriggerID": "0",
+  "UsePriority": true,
+  "AbilityList":
+    [
+      {
+      "Name": "Item_ZIce_Button",
+      "ButtonID": "6360",
+      "ButtonClass": "func_button",
+      "Filter": "Filter_ZIce_User",
+      "Chat_Uses": true,
+      "Mode": 2,
+      "MaxUses": 0,
+      "CoolDown": 75
+      }
+    ]
+  },
+  {
+  "Name": "[ZM]Fire",
+  "ShortName": "[ZM]Fire",
+  "Color": "{default}",
+  "HammerID": "6342",
+  "GlowColor": [0,100,255,255],
+  "FilterID": 0,
+  "FilterValue": "",
+  "BlockPickup": false,
+  "AllowTransfer": false,
+  "ForceDrop": true,
+  "Chat": true,
+  "Hud": true,
+  "TriggerID": "0",
+  "UsePriority": true,
+  "AbilityList":
+    [
+      {
+      "Name": "Item_ZFire_Button",
+      "ButtonID": "6344",
+      "ButtonClass": "func_button",
+      "Filter": "Filter_ZFire_User",
+      "Chat_Uses": true,
+      "Mode": 2,
+      "MaxUses": 0,
+      "CoolDown": 75
+      }
+    ]
+  }
+]

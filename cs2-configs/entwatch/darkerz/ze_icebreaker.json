@@ -1,0 +1,310 @@
+[
+  {
+    "Name": "RPG",
+    "ShortName": "RPG",
+    "Color": "{default}",
+    "HammerID": "1562",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "ct_1button_knife",
+        "ButtonID": "1556",
+        "ButtonClass": "func_button",
+        "Filter": "shooter_ct",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "RPG2",
+    "ShortName": "RPG2",
+    "Color": "{default}",
+    "HammerID": "1581",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "1_ct_1button_knife",
+        "ButtonID": "1575",
+        "ButtonClass": "func_button",
+        "Filter": "shooter_ct1",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "RPG3",
+    "ShortName": "RPG3",
+    "Color": "{default}",
+    "HammerID": "1600",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "2_ct_1button_knife",
+        "ButtonID": "1594",
+        "ButtonClass": "func_button",
+        "Filter": "shooter_ct2",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "ZM Shooter",
+    "ShortName": "ZM Shooter",
+    "Color": "{default}",
+    "HammerID": "17700",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "17701",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "2shooter1_button_knife",
+        "ButtonID": "17718",
+        "ButtonClass": "func_button",
+        "Filter": "shooter2:1",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "ZM Shooter2",
+    "ShortName": "ZM Shooter2",
+    "Color": "{default}",
+    "HammerID": "17721",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "17722",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "3shooter1_button_knife",
+        "ButtonID": "17739",
+        "ButtonClass": "func_button",
+        "Filter": "shooter3:1",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "ZM Shooter3",
+    "ShortName": "ZM Shooter3",
+    "Color": "{default}",
+    "HammerID": "17742",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "17743",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "4shooter1_button_knife",
+        "ButtonID": "17760",
+        "ButtonClass": "func_button",
+        "Filter": "shooter4:1",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "ZM Shooter4",
+    "ShortName": "ZM Shooter4",
+    "Color": "{default}",
+    "HammerID": "17787",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "17788",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "aoth2shooter1_button_knife",
+        "ButtonID": "17805",
+        "ButtonClass": "func_button",
+        "Filter": "shooter5:1",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "ZM Shooter5",
+    "ShortName": "ZM Shooter5",
+    "Color": "{default}",
+    "HammerID": "17766",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "17767",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "654shooter1_button_knife",
+        "ButtonID": "17784",
+        "ButtonClass": "func_button",
+        "Filter": "shooter6:1",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Light",
+    "ShortName": "Light",
+    "Color": "{default}",
+    "HammerID": "977",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Light2",
+    "ShortName": "Light2",
+    "Color": "{default}",
+    "HammerID": "979",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Light3",
+    "ShortName": "Light3",
+    "Color": "{default}",
+    "HammerID": "982",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  }
+]

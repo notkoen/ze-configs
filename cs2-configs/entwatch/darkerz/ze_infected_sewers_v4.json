@@ -1,0 +1,86 @@
+[
+  {
+    "Name": "Minigun",
+    "ShortName": "Minigun",
+    "Color": "{gray}",
+    "HammerID": "604",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "minigun_btn",
+        "ButtonID": "4374",
+        "ButtonClass": "func_physbox",
+        "Filter": "minigun_filter:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40
+      }
+    ]
+  },
+  {
+    "Name": "Pusher",
+    "ShortName": "Pusher",
+    "Color": "{blue}",
+    "HammerID": "301",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "pushergun_button",
+        "ButtonID": "4357",
+        "ButtonClass": "func_physbox",
+        "Filter": "pusher:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90
+      }
+    ]
+  },
+  {
+    "Name": "Flamethrower",
+    "ShortName": "Flame",
+    "Color": "{red}",
+    "HammerID": "267",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "flame_bot",
+        "ButtonID": "4361",
+        "ButtonClass": "func_physbox",
+        "Filter": "flame_filter:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40
+      }
+    ]
+  }
+]

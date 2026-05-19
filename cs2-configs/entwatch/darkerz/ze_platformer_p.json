@@ -1,0 +1,322 @@
+[
+  {
+    "Name": "PushGun",
+    "ShortName": "PushGun",
+    "Color": "{default}",
+    "HammerID": "3438",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_pushgun_button",
+        "ButtonID": "3436",
+        "ButtonClass": "func_button",
+        "Filter": "item_pushgun:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40
+      }
+    ]
+  },
+  {
+    "Name": "Jetpack",
+    "ShortName": "Jetpack",
+    "Color": "{default}",
+    "HammerID": "3453",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_jetpack_button",
+        "ButtonID": "3456",
+        "ButtonClass": "momentary_rot_button",
+        "Filter": "",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Wall",
+    "ShortName": "Wall",
+    "Color": "{default}",
+    "HammerID": "3490",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_builder_button",
+        "ButtonID": "3504",
+        "ButtonClass": "func_button",
+        "Filter": "item_builder:1",
+        "Chat_Uses": false,
+        "Mode": 3,
+        "MaxUses": 10,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false
+      }
+    ]
+  },
+  {
+    "Name": "FireWall",
+    "ShortName": "FireWall",
+    "Color": "{default}",
+    "HammerID": "3507",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_firewall_button",
+        "ButtonID": "3509",
+        "ButtonClass": "func_button",
+        "Filter": "item_firewall:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 15
+      }
+    ]
+  },
+  {
+    "Name": "CoinGun",
+    "ShortName": "CoinGun",
+    "Color": "{default}",
+    "HammerID": "3558",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_coingun_button",
+        "ButtonID": "3549",
+        "ButtonClass": "func_button",
+        "Filter": "item_coingun:1",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Trampoline",
+    "ShortName": "Trampoline",
+    "Color": "{default}",
+    "HammerID": "3578",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_trampoline_button",
+        "ButtonID": "3580",
+        "ButtonClass": "func_button",
+        "Filter": "item_trampoline:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20
+      }
+    ]
+  },
+  {
+    "Name": "Flamethrower",
+    "ShortName": "Flamethrower",
+    "Color": "{default}",
+    "HammerID": "3601",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_flamethrower_button",
+        "ButtonID": "3595",
+        "ButtonClass": "func_button",
+        "Filter": "item_flamethrower:1",
+        "Chat_Uses": false,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "3600",
+        "MathNameFix": true,
+        "MathFindSpawned": false,
+        "MathDontShowMax": true
+      }
+    ]
+  },
+  {
+    "Name": "ZM Ladder",
+    "ShortName": "ZM Ladder",
+    "Color": "{default}",
+    "HammerID": "3625",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3629",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_ladder_button",
+        "ButtonID": "3616",
+        "ButtonClass": "func_button",
+        "Filter": "item_ladder:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20
+      }
+    ]
+  },
+  {
+    "Name": "ZM Wall",
+    "ShortName": "ZM Wall",
+    "Color": "{default}",
+    "HammerID": "3637",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "3652",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_builder_zm_button",
+        "ButtonID": "3639",
+        "ButtonClass": "func_button",
+        "Filter": "item_builder_zm:1",
+        "Chat_Uses": false,
+        "Mode": 3,
+        "MaxUses": 13,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false
+      }
+    ]
+  },
+  {
+    "Name": "ZM Mine",
+    "ShortName": "ZM Mine",
+    "Color": "{default}",
+    "HammerID": "3672",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "3676",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_mine_button",
+        "ButtonID": "3660",
+        "ButtonClass": "func_button",
+        "Filter": "item_mine:1",
+        "Chat_Uses": false,
+        "Mode": 3,
+        "MaxUses": 5,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false
+      }
+    ]
+  },
+  {
+    "Name": "ZM Rocket",
+    "ShortName": "ZM Rocket",
+    "Color": "{default}",
+    "HammerID": "3688",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "3705",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_rocket_button",
+        "ButtonID": "3695",
+        "ButtonClass": "func_button",
+        "Filter": "item_rocket:1",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 5
+      }
+    ]
+  }
+]

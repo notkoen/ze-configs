@@ -1,0 +1,132 @@
+[
+  {
+    "Name": "Dik",
+    "ShortName": "Dik",
+    "Color": "{default}",
+    "HammerID": "3774",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Dick_button",
+        "ButtonID": "3776",
+        "ButtonClass": "func_button",
+        "Filter": "f_Dick",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Bomb",
+    "ShortName": "Bomb",
+    "Color": "{default}",
+    "HammerID": "5197",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Bomb_take_button",
+        "ButtonID": "5195",
+        "ButtonClass": "func_button",
+        "Filter": "f_bomba",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "ZM Fireball",
+    "ShortName": "ZM Fireball",
+    "Color": "{default}",
+    "HammerID": "3819",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3816",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Fireball_button",
+        "ButtonID": "3821",
+        "ButtonClass": "func_button",
+        "Filter": "player_Fireball",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30
+      }
+    ]
+  },
+  {
+    "Name": "Camera",
+    "ShortName": "Camera",
+    "Color": "{default}",
+    "HammerID": "3859",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Handycum_button",
+        "ButtonID": "3860",
+        "ButtonClass": "func_button",
+        "Filter": "f_Handycum_human",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{default}",
+    "HammerID": "4420",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "heal_button",
+        "ButtonID": "4425",
+        "ButtonClass": "func_button",
+        "Filter": "f_heal_human",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0
+      }
+    ]
+  }
+]

@@ -1,0 +1,312 @@
+[
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{red}",
+    "HammerID": "19424",
+    "GlowColor": [255,0,0,255],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "firstaid_button",
+        "ButtonID": "19410",
+        "ButtonClass": "func_physbox",
+        "Filter": "guy_medkit",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Grenade Launcher",
+    "ShortName": "Launcher",
+    "Color": "{darkred}",
+    "HammerID": "19443",
+    "GlowColor": [170,0,0,255],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "w_nade_button",
+        "ButtonID": "19444",
+        "ButtonClass": "func_physbox",
+        "Filter": "guy_nade",
+        "Chat_Uses": false,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "19441",
+        "MathNameFix": true,
+        "MathFindSpawned": false,
+        "MathDontShowMax": true
+      }
+    ]
+  },
+  {
+    "Name": "Claymore Mines",
+    "ShortName": "Claymore",
+    "Color": "{darkred}",
+    "HammerID": "19465",
+    "GlowColor": [170,0,0,255],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "w_claymore_button_1",
+        "ButtonID": "19462",
+        "ButtonClass": "func_physbox",
+        "Filter": "guy_claymore",
+        "Chat_Uses": false,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "19466",
+        "MathNameFix": true,
+        "MathFindSpawned": false,
+        "MathDontShowMax": true
+      }
+    ]
+  },
+  {
+    "Name": "Ammo Dispenser",
+    "ShortName": "Ammo",
+    "Color": "{olive}",
+    "HammerID": "19734",
+    "GlowColor": [128,128,0,255],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "w_ammo_button_1",
+        "ButtonID": "19511",
+        "ButtonClass": "func_physbox",
+        "Filter": "guy_ammo",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Minigun",
+    "ShortName": "Minigun",
+    "Color": "{grey}",
+    "HammerID": "19531",
+    "GlowColor": [128,128,128,255],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "w_minigun_button_1",
+        "ButtonID": "19529",
+        "ButtonClass": "func_physbox",
+        "Filter": "guy_minigun",
+        "Chat_Uses": false,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "19523",
+        "MathNameFix": true,
+        "MathFindSpawned": false,
+        "MathDontShowMax": false
+      }
+    ]
+  },
+  {
+    "Name": "Alien Sample",
+    "ShortName": "Alien Sample",
+    "Color": "{blue}",
+    "HammerID": "19535",
+    "GlowColor": [0,0,255,255],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "w_acid_button_1",
+        "ButtonID": "19420",
+        "ButtonClass": "func_physbox",
+        "Filter": "guy_acid",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 15
+      }
+    ]
+  },
+  {
+    "Name": "Flamethrower",
+    "ShortName": "Flamethrower",
+    "Color": "{orange}",
+    "HammerID": "19553",
+    "GlowColor": [255,165,0,255],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "w_flame_button_1",
+        "ButtonID": "19550",
+        "ButtonClass": "func_physbox",
+        "Filter": "guy_flamethrower",
+        "Chat_Uses": false,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "19549",
+        "MathNameFix": true,
+        "MathFindSpawned": false,
+        "MathDontShowMax": true
+      }
+    ]
+  },
+  {
+    "Name": "Alien Device",
+    "ShortName": "Alien Device",
+    "Color": "{darkred}",
+    "HammerID": "19560",
+    "GlowColor": [170,0,0,255],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "w_alien_button",
+        "ButtonID": "19558",
+        "ButtonClass": "func_physbox",
+        "Filter": "guy_aliendevice",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Push Gun",
+    "ShortName": "Push Gun",
+    "Color": "{green}",
+    "HammerID": "19569",
+    "GlowColor": [0,255,0,255],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "w_pushgun_button",
+        "ButtonID": "19573",
+        "ButtonClass": "func_physbox",
+        "Filter": "guy_pushgun",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 15
+      }
+    ]
+  },
+  {
+    "Name": "Impulsor",
+    "ShortName": "Impulsor",
+    "Color": "{purple}",
+    "HammerID": "19605",
+    "GlowColor": [128,0,128,255],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Gauss Rifle",
+    "ShortName": "Gauss Rifle",
+    "Color": "{blue}",
+    "HammerID": "19515",
+    "GlowColor": [0,0,255,255],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "w_gauss_button_1",
+        "ButtonID": "19622",
+        "ButtonClass": "func_physbox",
+        "Filter": "guy_gauss",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 100
+      }
+    ]
+  }
+]

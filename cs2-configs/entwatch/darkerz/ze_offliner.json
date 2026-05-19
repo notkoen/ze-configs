@@ -1,0 +1,30 @@
+[
+  {
+    "Name": "Shockwave",
+    "ShortName": "Shockwave",
+    "Color": "{default}",
+    "HammerID": "3979",
+    "GlowColor": [250,2,246,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "shockwave_item_button",
+        "ButtonID": "3970",
+        "ButtonClass": "func_button",
+        "Filter": "item_shockwave:1",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 15
+      }
+    ]
+  }
+]

@@ -1,0 +1,336 @@
+[
+  {
+    "Name": "ZM Speed",
+    "ShortName": "ZM Speed",
+    "Color": "{default}",
+    "HammerID": "1684",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "2397",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "template_zitemorange_button",
+        "ButtonID": "4142",
+        "ButtonClass": "func_button",
+        "Filter": "player_zm_orange",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50
+      }
+    ]
+  },
+  {
+    "Name": "Shield",
+    "ShortName": "Shield",
+    "Color": "{default}",
+    "HammerID": "2779",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "template_itemgreen_button",
+        "ButtonID": "2581",
+        "ButtonClass": "func_button",
+        "Filter": "player_green",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70
+      }
+    ]
+  },
+  {
+    "Name": "FireBall",
+    "ShortName": "FireBall",
+    "Color": "{default}",
+    "HammerID": "2470",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "template_itemred_button",
+        "ButtonID": "1994",
+        "ButtonClass": "func_button",
+        "Filter": "player_red",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 2
+      }
+    ]
+  },
+  {
+    "Name": "ZM Gravity",
+    "ShortName": "ZM Gravity",
+    "Color": "{default}",
+    "HammerID": "2794",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "2807",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "template_zitempurple_button",
+        "ButtonID": "2409",
+        "ButtonClass": "func_button",
+        "Filter": "player_zm_purple",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "ZM Beam",
+    "ShortName": "ZM Beam",
+    "Color": "{default}",
+    "HammerID": "1511",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "2471",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "template_zitemgreen_button",
+        "ButtonID": "1876",
+        "ButtonClass": "func_button",
+        "Filter": "player_zm_green",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65
+      }
+    ]
+  },
+  {
+    "Name": "Wall",
+    "ShortName": "Wall",
+    "Color": "{default}",
+    "HammerID": "4141",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "template_itemorange_button",
+        "ButtonID": "4323",
+        "ButtonClass": "func_button",
+        "Filter": "player_orange",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65
+      }
+    ]
+  },
+  {
+    "Name": "ZM FireBall",
+    "ShortName": "ZM FireBall",
+    "Color": "{default}",
+    "HammerID": "4154",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "4157",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "template_zitemred_button",
+        "ButtonID": "4146",
+        "ButtonClass": "func_button",
+        "Filter": "player_zm_red",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 7
+      }
+    ]
+  },
+  {
+    "Name": "PortalGun",
+    "ShortName": "PortalGun",
+    "Color": "{default}",
+    "HammerID": "1695",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "template_itemblue_button",
+        "ButtonID": "3725",
+        "ButtonClass": "func_button",
+        "Filter": "player_blue",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70
+      }
+    ]
+  },
+  {
+    "Name": "ZM FreezeBall",
+    "ShortName": "ZM FreezeBall",
+    "Color": "{default}",
+    "HammerID": "1854",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "2378",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "template_zitemblue_button",
+        "ButtonID": "3566",
+        "ButtonClass": "func_button",
+        "Filter": "player_zm_blue",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40
+      }
+    ]
+  },
+  {
+    "Name": "Ultima",
+    "ShortName": "Ultima",
+    "Color": "{default}",
+    "HammerID": "7688",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "template_itemenidnu_ult_button",
+        "ButtonID": "-1",
+        "ButtonClass": "func_button",
+        "Filter": "player_enidnu",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "8062",
+        "MathNameFix": false,
+        "MathFindSpawned": true,
+        "MathDontShowMax": true
+      },
+      {
+        "Name": "template_itemenidnu_ult_button",
+        "ButtonID": "7813",
+        "ButtonClass": "func_button",
+        "Filter": "player_enidnu",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 10
+      },
+      {
+        "Name": "template_itemenidnu_button",
+        "ButtonID": "7691",
+        "ButtonClass": "func_button",
+        "Filter": "player_enidnu",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 10
+      }
+    ]
+  },
+  {
+    "Name": "Kiki",
+    "ShortName": "Kiki",
+    "Color": "{lightblue}",
+    "HammerID": "26555",
+    "GlowColor": [84,100,243,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": false,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  }
+]

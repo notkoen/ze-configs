@@ -1,0 +1,288 @@
+[
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{red}",
+    "HammerID": "8755",
+    "GlowColor": [255, 0, 0, 1],
+    "Filter": "item_health_filter",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "Name": "Heal",
+        "ButtonID": "8752",
+        "ButtonClass": "func_button",
+        "Filter": "item_health_filter",
+        "Mode": 2,
+        "CoolDown": 45
+      }
+    ]
+  },
+  {
+    "Name": "Shockwave",
+    "ShortName": "Shockwave",
+    "Color": "{blue}",
+    "HammerID": "8781",
+    "GlowColor": [0, 0, 255, 1],
+    "Filter": "item_shockwave_filter",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "Name": "Shockwave",
+        "ButtonID": "8778",
+        "ButtonClass": "func_button",
+        "Filter": "item_shockwave_filter",
+        "Mode": 2,
+        "CoolDown": 45
+      }
+    ]
+  },
+  {
+    "Name": "Spray",
+    "ShortName": "Spray",
+    "Color": "{default}",
+    "HammerID": "8801",
+    "GlowColor": [255, 255, 255, 1],
+    "Filter": "item_spray_filter",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "8811",
+        "Mode": 2,
+        "CoolDown": 45
+      }
+    ]
+  },
+  {
+    "Name": "Water",
+    "ShortName": "Water",
+    "Color": "{blue}",
+    "HammerID": "8827",
+    "GlowColor": [0, 0, 255, 1],
+    "Filter": "item_water_filter",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "8838",
+        "Mode": 2,
+        "CoolDown": 45
+      }
+    ]
+  },
+  {
+    "Name": "HE Grenade",
+    "ShortName": "HE",
+    "Color": "{orange}",
+    "HammerID": "14470",
+    "GlowColor": [255, 165, 0, 1],
+    "Filter": "item_he_filter",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "14472",
+        "Mode": 2,
+        "CoolDown": 15
+      }
+    ]
+  },
+  {
+    "Name": "Healthshot",
+    "ShortName": "Healthshot",
+    "Color": "{red}",
+    "HammerID": "14520",
+    "GlowColor": [255, 0, 0, 1],
+    "Filter": "item_healthshot_filter",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "14515",
+        "Mode": 2,
+        "CoolDown": 90
+      }
+    ]
+  },
+  {
+    "Name": "Mobile Fountain",
+    "ShortName": "Fountain",
+    "Color": "{blue}",
+    "HammerID": "14735",
+    "GlowColor": [0, 191, 255, 1],
+    "Filter": "item_sp_container_filter",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "14738",
+        "Mode": 2,
+        "CoolDown": 30
+      }
+    ]
+  },
+  {
+    "Name": "Thunderball",
+    "ShortName": "Thunder",
+    "Color": "{purple}",
+    "HammerID": "16014",
+    "GlowColor": [128, 0, 128, 1],
+    "Filter": "item_thunderball_filter",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "16011",
+        "Mode": 2,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Skywrath",
+    "ShortName": "Skywrath",
+    "Color": "{gold}",
+    "HammerID": "15293",
+    "GlowColor": [255, 215, 0, 1],
+    "Filter": "item_skywrath_filter",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "15286",
+        "Mode": 3,
+        "MaxUses": 1
+      }
+    ]
+  },
+  {
+    "Name": "Vampire (Suck)",
+    "ShortName": "Suck",
+    "Color": "{darkred}",
+    "HammerID": "15067",
+    "GlowColor": [139, 0, 0, 1],
+    "Filter": "item_suck_filter",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "15060",
+        "Mode": 2,
+        "CoolDown": 30
+      }
+    ]
+  },
+  {
+    "Name": "ZM Cure",
+    "ShortName": "ZM Cure",
+    "Color": "{red}",
+    "HammerID": "8966",
+    "GlowColor": [255, 0, 0, 1],
+    "Filter": "item_cure_filter",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "8963",
+        "Mode": 2,
+        "CoolDown": 45
+      }
+    ]
+  },
+  {
+    "Name": "ZM Wind",
+    "ShortName": "ZM Wind",
+    "Color": "{green}",
+    "HammerID": "8977",
+    "GlowColor": [0, 255, 0, 1],
+    "Filter": "item_wind_filter",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "8989",
+        "Mode": 2,
+        "CoolDown": 100
+      }
+    ]
+  },
+  {
+    "Name": "ZM Blackhole",
+    "ShortName": "ZM Hole",
+    "Color": "{purple}",
+    "HammerID": "15050",
+    "GlowColor": [0, 0, 0, 1],
+    "Filter": "item_blackhole_filter",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "15044",
+        "Mode": 2,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "ZM Speed",
+    "ShortName": "ZM Speed",
+    "Color": "{orange}",
+    "HammerID": "15095",
+    "GlowColor": [255, 140, 0, 1],
+    "Filter": "item_speed_filter",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "15102",
+        "Mode": 2,
+        "CoolDown": 25
+      }
+    ]
+  }
+]

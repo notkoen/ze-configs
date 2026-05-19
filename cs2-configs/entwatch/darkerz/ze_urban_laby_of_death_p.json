@@ -1,0 +1,378 @@
+[
+  {
+    "Name": "FreezeRing",
+    "ShortName": "FreezeRing",
+    "Color": "{default}",
+    "HammerID": "9031",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "FreezeRing_Button",
+        "ButtonID": "9039",
+        "ButtonClass": "func_button",
+        "Filter": "FreezeRingGuy",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 68
+      }
+    ]
+  },
+  {
+    "Name": "Landmine",
+    "ShortName": "Landmine",
+    "Color": "{default}",
+    "HammerID": "9049",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Landmine_Button",
+        "ButtonID": "9069",
+        "ButtonClass": "func_button",
+        "Filter": "LandmineGuy",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "9054",
+        "MathNameFix": true,
+        "MathFindSpawned": false,
+        "MathDontShowMax": true
+      }
+    ]
+  },
+  {
+    "Name": "Flamethrower",
+    "ShortName": "Flamethrower",
+    "Color": "{default}",
+    "HammerID": "9087",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": false,
+    "AbilityList": [
+      {
+        "Name": "buttonFlamethrower",
+        "ButtonID": "9085",
+        "ButtonClass": "func_button",
+        "Filter": "FlamethrowerGuy",
+        "Chat_Uses": false,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "9083",
+        "MathNameFix": true,
+        "MathFindSpawned": false,
+        "MathDontShowMax": true
+      }
+    ]
+  },
+  {
+    "Name": "Ammo",
+    "ShortName": "Ammo",
+    "Color": "{default}",
+    "HammerID": "9099",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "ammo_button",
+        "ButtonID": "9100",
+        "ButtonClass": "func_physbox",
+        "Filter": "kuulid",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 72
+      }
+    ]
+  },
+  {
+    "Name": "Speed",
+    "ShortName": "Speed",
+    "Color": "{default}",
+    "HammerID": "9126",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "buttonSprint",
+        "ButtonID": "9122",
+        "ButtonClass": "func_button",
+        "Filter": "humanguy_sprint",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 100
+      }
+    ]
+  },
+  {
+    "Name": "GodMode",
+    "ShortName": "GodMode",
+    "Color": "{default}",
+    "HammerID": "9131",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "buttonGodMode",
+        "ButtonID": "9135",
+        "ButtonClass": "func_button",
+        "Filter": "humanguy_god",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80
+      }
+    ]
+  },
+  {
+    "Name": "PushGun",
+    "ShortName": "PushGun",
+    "Color": "{default}",
+    "HammerID": "9144",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "buttonPushgun",
+        "ButtonID": "9148",
+        "ButtonClass": "func_button",
+        "Filter": "PushgunGuy",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 21
+      }
+    ]
+  },
+  {
+    "Name": "ZM Stopper",
+    "ShortName": "ZM Stopper",
+    "Color": "{default}",
+    "HammerID": "9159",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "9157",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "ZombieStopper_Button",
+        "ButtonID": "9160",
+        "ButtonClass": "func_button",
+        "Filter": "zombieguy_stopper",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "ZM Sucker",
+    "ShortName": "ZM Sucker",
+    "Color": "{default}",
+    "HammerID": "9174",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "9172",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "ZombieSucker_Button",
+        "ButtonID": "9170",
+        "ButtonClass": "func_button",
+        "Filter": "zombieguy_sucker",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70
+      }
+    ]
+  },
+  {
+    "Name": "ZM Speed",
+    "ShortName": "ZM Speed",
+    "Color": "{default}",
+    "HammerID": "9186",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "9184",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "ZombieRage_Button",
+        "ButtonID": "9180",
+        "ButtonClass": "func_button",
+        "Filter": "zombieguy_rage",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 66
+      }
+    ]
+  },
+  {
+    "Name": "ZM Heal",
+    "ShortName": "ZM Heal",
+    "Color": "{default}",
+    "HammerID": "9201",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "9199",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "ZombieHeal_Button",
+        "ButtonID": "9195",
+        "ButtonClass": "func_button",
+        "Filter": "zombieguy_heal",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 68
+      }
+    ]
+  },
+  {
+    "Name": "C4",
+    "ShortName": "C4",
+    "Color": "{default}",
+    "HammerID": "1904",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "JetPack",
+    "ShortName": "JetPack",
+    "Color": "{default}",
+    "HammerID": "8075",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "jetpackguy",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  }
+]

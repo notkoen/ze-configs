@@ -1,0 +1,106 @@
+[
+  {
+    "Name": "heal",
+    "ShortName": "heal",
+    "Color": "{default}",
+    "HammerID": 840,
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": 0,
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_heal_button1",
+        "ButtonID": 842,
+        "ButtonClass": "func_physbox",
+        "Filter": "heal1_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65
+      }
+    ]
+  },
+  {
+    "Name": "Slow 1",
+    "ShortName": "Slow 1",
+    "Color": "{default}",
+    "HammerID": 696,
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": 0,
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_slow_button1",
+        "ButtonID": 76,
+        "ButtonClass": "func_physbox",
+        "Filter": "slow1_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50
+      }
+    ]
+  },
+  {
+    "Name": "Slow 2",
+    "ShortName": "Slow 2",
+    "Color": "{default}",
+    "HammerID": 641,
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": 0,
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_slow_button2",
+        "ButtonID": 639,
+        "ButtonClass": "func_physbox",
+        "Filter": "slow2_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50
+      }
+    ]
+  },
+  {
+    "Name": "Slow 3",
+    "ShortName": "Slow 3",
+    "Color": "{default}",
+    "HammerID": 699,
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": 0,
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_slow_button3",
+        "ButtonID": 608,
+        "ButtonClass": "func_physbox",
+        "Filter": "slow3_user:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50
+      }
+    ]
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "Name": "Snow",
+    "ShortName": "Snow",
+    "Color": "{default}",
+    "HammerID": "221",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_button_snow",
+        "ButtonID": "223",
+        "ButtonClass": "func_button",
+        "Filter": "snow_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50
+      }
+    ]
+  },
+  {
+    "Name": "Sonic",
+    "ShortName": "Sonic",
+    "Color": "{default}",
+    "HammerID": "4132",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "sonic_button",
+        "ButtonID": "234",
+        "ButtonClass": "func_button",
+        "Filter": "sonic_user",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Speed",
+    "ShortName": "Zombie Speed",
+    "Color": "{default}",
+    "HammerID": "594",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "speed_button",
+        "ButtonID": "234",
+        "ButtonClass": "func_button",
+        "Filter": "zombie_speed",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50
+      }
+    ]
+  }
+]

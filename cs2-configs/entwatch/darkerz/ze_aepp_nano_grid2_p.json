@@ -1,0 +1,178 @@
+[
+  {
+    "Name": "StarArrow",
+    "ShortName": "StarArrow",
+    "Color": "{default}",
+    "HammerID": "187",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "StarArrow_Button",
+        "ButtonID": "1376",
+        "ButtonClass": "func_button",
+        "Filter": "SA_Act",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "IceArrow",
+    "ShortName": "IceArrow",
+    "Color": "{default}",
+    "HammerID": "202",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "IceArrow_Button",
+        "ButtonID": "1374",
+        "ButtonClass": "func_button",
+        "Filter": "IA_Act",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "FireArrow",
+    "ShortName": "FireArrow",
+    "Color": "{default}",
+    "HammerID": "54",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "FireArrow_Button",
+        "ButtonID": "1362",
+        "ButtonClass": "func_button",
+        "Filter": "FA_Act",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "DoubleJump",
+    "ShortName": "DoubleJump",
+    "Color": "{default}",
+    "HammerID": "570",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "98",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "DoubleJump_Button",
+        "ButtonID": "572",
+        "ButtonClass": "func_button",
+        "Filter": "DJ_Act",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "DashHoop2",
+    "ShortName": "DashHoop2",
+    "Color": "{default}",
+    "HammerID": "21",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1459",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "23",
+        "MathNameFix": false
+      }
+    ]
+  },
+  {
+    "Name": "DashHoop1",
+    "ShortName": "DashHoop1",
+    "Color": "{default}",
+    "HammerID": "27",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1457",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "Dash1",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "29",
+        "MathNameFix": false
+      }
+    ]
+  }
+]

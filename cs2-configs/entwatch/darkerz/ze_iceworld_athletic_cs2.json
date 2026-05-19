@@ -1,0 +1,366 @@
+[
+  {
+    "Name": "Wind",
+    "ShortName": "Wind",
+    "Color": "{default}",
+    "HammerID": "1102",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_wind_button",
+        "ButtonID": "1106",
+        "ButtonClass": "func_button",
+        "Filter": "winduser:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50
+      }
+    ]
+  },
+  {
+    "Name": "ZM Shackles",
+    "ShortName": "ZM Shackles",
+    "Color": "{default}",
+    "HammerID": "2658",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "2659",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Shackles_Button",
+        "ButtonID": "2654",
+        "ButtonClass": "func_button",
+        "Filter": "Player_ZM_Shackles:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 10
+      }
+    ]
+  },
+  {
+    "Name": "ZM Shackles2",
+    "ShortName": "ZM Shackles2",
+    "Color": "{default}",
+    "HammerID": "2702",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "2703",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Shackles_Button2",
+        "ButtonID": "2708",
+        "ButtonClass": "func_button",
+        "Filter": "Player_ZM_Shackles:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 10
+      }
+    ]
+  },
+  {
+    "Name": "ZM Ichika/Blind",
+    "ShortName": "ZM Ichika/Blind",
+    "Color": "{default}",
+    "HammerID": "1121",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1123",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_zm1_button",
+        "ButtonID": "885",
+        "ButtonClass": "func_button",
+        "Filter": "zmyihua:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 45
+      }
+    ]
+  },
+  {
+    "Name": "ZM Nino/Heal",
+    "ShortName": "ZM Nino/Heal",
+    "Color": "{default}",
+    "HammerID": "894",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "892",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_zm2_button",
+        "ButtonID": "888",
+        "ButtonClass": "func_button",
+        "Filter": "zmernai:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30
+      }
+    ]
+  },
+  {
+    "Name": "ZM Miku/Low Gravity",
+    "ShortName": "ZM Miku/Low Gravity",
+    "Color": "{default}",
+    "HammerID": "861",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "859",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_zm3_button",
+        "ButtonID": "856",
+        "ButtonClass": "func_button",
+        "Filter": "zmsanjiu:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 35
+      }
+    ]
+  },
+  {
+    "Name": "ZM Yotsuba/Speed",
+    "ShortName": "ZM Yotsuba/Speed",
+    "Color": "{default}",
+    "HammerID": "871",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "869",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_zm4_button",
+        "ButtonID": "866",
+        "ButtonClass": "func_button",
+        "Filter": "zmsiye:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 35
+      }
+    ]
+  },
+  {
+    "Name": "ZM Itsuki/Mimic",
+    "ShortName": "ZM Itsuki/Mimic",
+    "Color": "{default}",
+    "HammerID": "879",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "877",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_zm5_button",
+        "ButtonID": "874",
+        "ButtonClass": "func_button",
+        "Filter": "zmwuyue:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30
+      }
+    ]
+  },
+  {
+    "Name": "Ichika/Double Jump",
+    "ShortName": "Ichika/Double Jump",
+    "Color": "{default}",
+    "HammerID": "787",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": false,
+    "Hud": true,
+    "TriggerID": "794",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_hm1_button",
+        "ButtonID": "788",
+        "ButtonClass": "func_button",
+        "Filter": "hmyihua:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 5
+      }
+    ]
+  },
+  {
+    "Name": "Nino/Ammo",
+    "ShortName": "Nino/Ammo",
+    "Color": "{default}",
+    "HammerID": "2479",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "801",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Item_Button",
+        "ButtonID": "2480",
+        "ButtonClass": "func_button",
+        "Filter": "hmernai:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20
+      }
+    ]
+  },
+  {
+    "Name": "Miku/Low Gravity",
+    "ShortName": "Miku/Low Gravity",
+    "Color": "{default}",
+    "HammerID": "821",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "819",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_hm4_button",
+        "ButtonID": "825",
+        "ButtonClass": "func_button",
+        "Filter": "hmsanjiu:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30
+      }
+    ]
+  },
+  {
+    "Name": "Yotsuba/Speed",
+    "ShortName": "Yotsuba/Speed",
+    "Color": "{default}",
+    "HammerID": "833",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "831",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_hm4_button",
+        "ButtonID": "825",
+        "ButtonClass": "func_button",
+        "Filter": "hmsiye:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30
+      }
+    ]
+  },
+  {
+    "Name": "Itsuki/Mimic",
+    "ShortName": "Itsuki/Mimic",
+    "Color": "{default}",
+    "HammerID": "770",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "768",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_hm5_button",
+        "ButtonID": "771",
+        "ButtonClass": "func_button",
+        "Filter": "hmwuyue:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20
+      }
+    ]
+  }
+]

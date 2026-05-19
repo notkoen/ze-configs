@@ -1,0 +1,418 @@
+[
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{pink}",
+    "HammerID": "3814",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "item_heal_button",
+        "ButtonID": "3815",
+        "ButtonClass": "func_button",
+        "Filter": "heal",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 4,
+        "CoolDown": 2
+      }
+    ]
+  },
+  {
+    "Name": "Ice",
+    "ShortName": "Ice",
+    "Color": "{pink}",
+    "HammerID": "18350",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "hielo_f_button&0000",
+        "ButtonID": "18353",
+        "ButtonClass": "func_button",
+        "Filter": "portador_ice",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120
+      }
+    ]
+  },
+  {
+    "Name": "Electro",
+    "ShortName": "Electro",
+    "Color": "{pink}",
+    "HammerID": "18410",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "rayo_bot&0000",
+        "ButtonID": "18408",
+        "ButtonClass": "func_button",
+        "Filter": "portador_electro",
+        "Chat_Uses": true,
+        "Mode": 5,
+        "MaxUses": 3,
+        "CoolDown": 120
+      }
+    ]
+  },
+  {
+    "Name": "Wind",
+    "ShortName": "Wind",
+    "Color": "{pink}",
+    "HammerID": "18373",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "magia_viento_button&0000",
+        "ButtonID": "18376",
+        "ButtonClass": "func_button",
+        "Filter": "portador_viento",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120
+      }
+    ]
+  },
+  {
+    "Name": "Earth",
+    "ShortName": "Earth",
+    "Color": "{pink}",
+    "HammerID": "18393",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "magia_tierra_button&0000",
+        "ButtonID": "18395",
+        "ButtonClass": "func_button",
+        "Filter": "portador_earth",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120
+      }
+    ]
+  },
+  {
+    "Name": "Fire",
+    "ShortName": "Fire",
+    "Color": "{pink}",
+    "HammerID": "18382",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "1b&0000",
+        "ButtonID": "18385",
+        "ButtonClass": "func_button",
+        "Filter": "portador_fire",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120
+      }
+    ]
+  },
+  {
+    "Name": "Ultima",
+    "ShortName": "Ultima",
+    "Color": "{pink}",
+    "HammerID": "18482",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "boton_ultima&0000",
+        "ButtonID": "18483",
+        "ButtonClass": "func_button",
+        "Filter": "portador_ultima",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 20
+      }
+    ]
+  },
+  {
+    "Name": "Gravity",
+    "ShortName": "Gravity",
+    "Color": "{pink}",
+    "HammerID": "18446",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "magia_gravedad_button&0000",
+        "ButtonID": "18444",
+        "ButtonClass": "func_button",
+        "Filter": "portador_gravedad",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120
+      }
+    ]
+  },
+  {
+    "Name": "[ZM]Gravity",
+    "ShortName": "[ZM]Gravity",
+    "Color": "{pink}",
+    "HammerID": "18324",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "18331",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Knife_Lure_Button",
+        "ButtonID": "18328",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Knife_Lure",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80
+      }
+    ]
+  },
+  {
+    "Name": "[ZM]Invisible",
+    "ShortName": "[ZM]Invisible",
+    "Color": "{pink}",
+    "HammerID": "18283",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "18284",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Knife_Invis_Button",
+        "ButtonID": "18280",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Knife_Invis",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80
+      }
+    ]
+  },
+  {
+    "Name": "[ZM]Blind",
+    "ShortName": "[ZM]Blind",
+    "Color": "{pink}",
+    "HammerID": "18337",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "18344",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Knife_Blind_Button",
+        "ButtonID": "18338",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Knife_Blind",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80
+      }
+    ]
+  },
+  {
+    "Name": "[ZM]Frost",
+    "ShortName": "[ZM]Frost",
+    "Color": "{pink}",
+    "HammerID": "18984",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "18990",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Knife_Frost_Button",
+        "ButtonID": "18987",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Knife_Frost",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80
+      }
+    ]
+  },
+  {
+    "Name": "[ZM]Warp",
+    "ShortName": "[ZM]Warp",
+    "Color": "{pink}",
+    "HammerID": "18293",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "18302",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Knife_Warp_Button",
+        "ButtonID": "18294",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Knife_Warp",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80
+      }
+    ]
+  },
+  {
+    "Name": "[ZM]Shield",
+    "ShortName": "[ZM]Shield",
+    "Color": "{pink}",
+    "HammerID": "18945",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "18947",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Knife_Shield_Button",
+        "ButtonID": "18947",
+        "ButtonClass": "func_button",
+        "Filter": "Player_Knife_Shield",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80
+      }
+    ]
+  },
+  {
+    "Name": "Drone",
+    "ShortName": "Drone",
+    "Color": "{pink}",
+    "HammerID": "18014",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "0",
+        "ButtonClass": "",
+        "Filter": "drone",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "RPG",
+    "ShortName": "RPG",
+    "Color": "{default}",
+    "HammerID": "3717",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "rocket_button",
+        "ButtonID": "3711",
+        "ButtonClass": "func_button",
+        "Filter": "rocket",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 2,
+        "CoolDown": 110
+      }
+    ]
+  }
+]

@@ -1,0 +1,281 @@
+[
+  {
+    "Name": "Blue Blessing (Slow)",
+    "ShortName": "Slow",
+    "Color": "{blue}",
+    "HammerID": "6985",
+    "GlowColor": [0,120,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "slow_button",
+        "ButtonID": "6979",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+
+  {
+    "Name": "Green Blessing (Wind)",
+    "ShortName": "Wind",
+    "Color": "{lightgreen}",
+    "HammerID": "6920",
+    "GlowColor": [0,255,0,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "wind_button",
+        "ButtonID": "3154",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 55
+      }
+    ]
+  },
+
+  {
+    "Name": "Yellow Blessing (Wall)",
+    "ShortName": "Wall",
+    "Color": "{yellow}",
+    "HammerID": "6997",
+    "GlowColor": [255,255,0,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "wall_button",
+        "ButtonID": "6993",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65
+      }
+    ]
+  },
+
+  {
+    "Name": "Red Blessing (Ultimate)",
+    "ShortName": "Ultimate",
+    "Color": "{red}",
+    "HammerID": "6948",
+    "GlowColor": [255,0,0,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "ultimate_button",
+        "ButtonID": "6949",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 10
+      }
+    ]
+  },
+
+  {
+    "Name": "White Blessing (Heal+Ammo)",
+    "ShortName": "Heal+Ammo",
+    "Color": "{default}",
+    "HammerID": "3259",
+    "GlowColor": [255,255,255,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "heal_ammo_button",
+        "ButtonID": "3225",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50
+      }
+    ]
+  },
+
+  {
+    "Name": "Blue Soul (ZM Speed)",
+    "ShortName": "ZM Speed",
+    "Color": "{darkblue}",
+    "HammerID": "7029",
+    "GlowColor": [0,0,200,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3231",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "zm_speed_button",
+        "ButtonID": "3235",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80
+      }
+    ]
+  },
+
+  {
+    "Name": "Green Soul (ZM Protect)",
+    "ShortName": "ZM Protect",
+    "Color": "{green}",
+    "HammerID": "3380",
+    "GlowColor": [0,200,0,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3381",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "zm_protect_button",
+        "ButtonID": "3377",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70
+      }
+    ]
+  },
+
+  {
+    "Name": "Yellow Soul (ZM Bullet)",
+    "ShortName": "ZM Bullet",
+    "Color": "{orange}",
+    "HammerID": "3512",
+    "GlowColor": [255,165,0,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3399",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "zm_bullet_button",
+        "ButtonID": "3413",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20
+      }
+    ]
+  },
+
+  {
+    "Name": "Red Soul (ZM Pillar)",
+    "ShortName": "ZM Pillar",
+    "Color": "{darkred}",
+    "HammerID": "3418",
+    "GlowColor": [150,0,0,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3419",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "zm_pillar_button",
+        "ButtonID": "3441",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 45
+      }
+    ]
+  },
+
+  {
+    "Name": "White Soul (ZM Immune)",
+    "ShortName": "ZM Immune",
+    "Color": "{grey}",
+    "HammerID": "3185",
+    "GlowColor": [180,180,180,255],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3186",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "zm_immune_button",
+        "ButtonID": "3177",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120
+      }
+    ]
+  }
+]

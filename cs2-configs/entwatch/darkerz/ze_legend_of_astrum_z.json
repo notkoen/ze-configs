@@ -1,0 +1,106 @@
+[
+  {
+    "Name": "Yuuki",
+    "ShortName": "Yuuki",
+    "Color": "{default}",
+    "HammerID": "6928",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "yuuki_button",
+        "ButtonID": "6933",
+        "ButtonClass": "func_button",
+        "Filter": "$Player_yuuki",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
+      }
+    ]
+  },
+  {
+    "Name": "Kyaru",
+    "ShortName": "Kyaru",
+    "Color": "{default}",
+    "HammerID": "6955",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "kyaru_button",
+        "ButtonID": "6959",
+        "ButtonClass": "func_button",
+        "Filter": "$Player_kyaru",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30
+      }
+    ]
+  },
+  {
+    "Name": "Pecorine",
+    "ShortName": "Pecorine",
+    "Color": "{default}",
+    "HammerID": "6972",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "pecorine_button",
+        "ButtonID": "6973",
+        "ButtonClass": "func_button",
+        "Filter": "$Player_pecorine",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 25
+      }
+    ]
+  },
+  {
+    "Name": "Kokkoro",
+    "ShortName": "Kokkoro",
+    "Color": "{default}",
+    "HammerID": "7005",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "kokkoro_button",
+        "ButtonID": "6998",
+        "ButtonClass": "func_button",
+        "Filter": "$Player_kokkoro",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30
+      }
+    ]
+  }
+]

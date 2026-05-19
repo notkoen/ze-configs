@@ -1,0 +1,86 @@
+[
+  {
+    "Name": "FreezeTrap",
+    "ShortName": "FreezeTrap",
+    "Color": "{default}",
+    "HammerID": "27266",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "activatefires1freez",
+        "ButtonID": "27262",
+        "ButtonClass": "func_button",
+        "Filter": "$freezzm1",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 3,
+        "CoolDown": 15
+      }
+    ]
+  },
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{default}",
+    "HammerID": "27287",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "urchen_activate",
+        "ButtonID": "27282",
+        "ButtonClass": "func_button",
+        "Filter": "$urchen_owner",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65
+      }
+    ]
+  },
+  {
+    "Name": "FlameThrower",
+    "ShortName": "FlameThrower",
+    "Color": "{default}",
+    "HammerID": "27291",
+    "GlowColor": [0,255,0,1],
+    "FilterID": 0,
+    "FilterValue": "",
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "0",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "activatefires1",
+        "ButtonID": "27296",
+        "ButtonClass": "func_button",
+        "Filter": "$ognemet1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20
+      }
+    ]
+  }
+]

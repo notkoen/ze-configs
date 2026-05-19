@@ -1,0 +1,77 @@
+[
+  {
+    "Name": "Shaurma Heal",
+    "ShortName": "Heal",
+    "Color": "{green}",
+    "HammerID": "5748",
+    "GlowColor": [0, 255, 0, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Heal Button",
+        "ButtonID": "5751",
+        "ButtonClass": "func_button",
+        "Filter": "Heal_player:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50
+      }
+    ]
+  },
+  {
+    "Name": "Flamethrower",
+    "ShortName": "Flame",
+    "Color": "{red}",
+    "HammerID": "5705",
+    "GlowColor": [255, 100, 0, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "",
+        "ButtonID": "",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": false,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0
+      }
+    ]
+  },
+  {
+    "Name": "Vanya Rifle",
+    "ShortName": "Rifle",
+    "Color": "{lightblue}",
+    "HammerID": "5728",
+    "GlowColor": [100, 200, 255, 1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "Name": "Rifle Fire",
+        "ButtonID": "5726",
+        "ButtonClass": "func_button",
+        "Filter": "rifle_player:1",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 35
+      }
+    ]
+  }
+]
