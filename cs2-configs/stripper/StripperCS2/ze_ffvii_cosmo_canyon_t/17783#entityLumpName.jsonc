@@ -1,59 +1,59 @@
 {
-	"modify": [
-		// Offset item position after AG2 update
-		{
-			"match": {
-				"targetname": "[PR#]CactusZM_Z"
-			},
-			"replace": {
-				"origin": "0.000000 26.000000 -40.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]CactusZM_Z_Speed_Gain"
-			},
-			"replace": {
-				"origin": "0.000000 -4.000000 -8.000000"
-			}
-		},
-		// Fix weapon strip
-		{
-			"match": {
-				"targetname": "[PR#]CactusZM_Z_Pickup"
-			},
-			"delete": {
-				"io": [
-					{
-						"outputname": "OnTrigger",
-						"targetname": "[PR#]Strip_Knife",
-						"inputname": "Trigger",
-						"overrideparam": "",
-						"delay": 0,
-						"timestofire": -1
-					}
-				]
-			},
-			"insert": {
-				"io": [
-					{
-						"outputname": "OnTrigger",
-						"targetname": "[PR#]Map_Stripper",
-						"inputname": "Use",
-						"overrideparam": "",
-						"delay": 0.0,
-						"timestofire": 1
-					},
-					{
-						"outputname": "OnTrigger",
-						"targetname": "!self",
-						"inputname": "Kill",
-						"overrideparam": "",
-						"delay": 0.05,
-						"timestofire": 1
-					}
-				]
-			}
-		}
-	]
+  "modify": [
+    // Offset item position after AG2 update
+    {
+      "match": {
+        "targetname": "[PR#]CactusZM_Z"
+      },
+      "replace": {
+        "origin": "0.000000 26.000000 -40.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]CactusZM_Z_Speed_Gain"
+      },
+      "replace": {
+        "origin": "0.000000 -4.000000 -8.000000"
+      }
+    },
+    // Fix weapon strip
+    {
+      "match": {
+        "targetname": "[PR#]CactusZM_Z_Pickup"
+      },
+      "delete": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]Strip_Knife",
+            "inputname": "Trigger",
+            "overrideparam": "",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]Map_Stripper",
+            "inputname": "Use",
+            "overrideparam": "",
+            "delay": 0.0,
+            "timestofire": 1
+          },
+          {
+            "outputname": "OnTrigger",
+            "targetname": "!self",
+            "inputname": "Kill",
+            "overrideparam": "",
+            "delay": 0.05,
+            "timestofire": 1
+          }
+        ]
+      }
+    }
+  ]
 }

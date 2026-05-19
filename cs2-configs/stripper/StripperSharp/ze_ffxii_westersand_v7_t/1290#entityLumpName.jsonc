@@ -1,63 +1,63 @@
 {
-	"modify": [
-		// Fix weapon strip
-		{
-			"match": {
-				"targetname": "[PR#]Knife_Lure_Stripper"
-			},
-			"delete": {
-				"connections": [
-					{
-						"output": "OnStartTouch",
-						"target": "[PR#]Strip_Knife",
-						"input": "Trigger",
-						"param": "",
-						"delay": 0,
-						"limit": -1
-					}
-				]
-			},
-			"insert": {
-				"connections": [
-					{
-						"output": "OnTrigger",
-						"target": "[PR#]Map_Stripper",
-						"input": "Use",
-						"param": "",
-						"delay": 0.0,
-						"limit": 1
-					}
-				]
-			}
-		},
-		// Offset weapon height after AG2 update
-		{
-			"match": {
-				"targetname": "[PR#]Knife_Lure_Particle_1"
-			},
-			"insert": {
-				"origin": "-16.000000 0.000000 0.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Knife_Lure_Particle_2"
-			},
-			"insert": {
-				"origin": "-48.000000 0.000000 -16.000000"
-			}
-		}
-	],
-	"remove": [
-		// Remove old strip entities
-		{
-			"targetname": "[PR#]Knife_Lure_Finder"
-		},
-		{
-			"targetname": "[PR#]Knife_Lure_Finder_Filter"
-		},
-		{
-			"targetname": "[PR#]Knife_Lure_Knife_Filter"
-		}
-	]
+  "modify": [
+    // Fix weapon strip
+    {
+      "match": {
+        "targetname": "[PR#]Knife_Lure_Stripper"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnStartTouch",
+            "target": "[PR#]Strip_Knife",
+            "input": "Trigger",
+            "param": "",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]Map_Stripper",
+            "input": "Use",
+            "param": "",
+            "delay": 0.0,
+            "limit": 1
+          }
+        ]
+      }
+    },
+    // Offset weapon height after AG2 update
+    {
+      "match": {
+        "targetname": "[PR#]Knife_Lure_Particle_1"
+      },
+      "insert": {
+        "origin": "-16.000000 0.000000 0.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Knife_Lure_Particle_2"
+      },
+      "insert": {
+        "origin": "-48.000000 0.000000 -16.000000"
+      }
+    }
+  ],
+  "remove": [
+    // Remove old strip entities
+    {
+      "targetname": "[PR#]Knife_Lure_Finder"
+    },
+    {
+      "targetname": "[PR#]Knife_Lure_Finder_Filter"
+    },
+    {
+      "targetname": "[PR#]Knife_Lure_Knife_Filter"
+    }
+  ]
 }

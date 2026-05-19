@@ -1,83 +1,83 @@
 {
-	"modify": [
-		// Offset item position after AG2 update
-		{
-			"match": {
-				"targetname": "[PR#]Weapon_Z_Fire_Effect"
-			},
-			"insert": {
-				"origin": "28.000000 -1.000000 -12.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Item_Z_Fire_Button"
-			},
-			"insert": {
-				"origin": "19.000000 -1.000000 16.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Item_Z_Fire_Effect_lvl1"
-			},
-			"insert": {
-				"origin": "-5.000000 0.000000 -32.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Item_Z_Fire_Effect_lvl2"
-			},
-			"insert": {
-				"origin": "-5.000000 0.000000 -32.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Item_Z_Fire_Effect_lvl3"
-			},
-			"insert": {
-				"origin": "-5.000000 0.000000 -32.000000"
-			}
-		},
-		// Fix weapon strip
-		{
-			"match": {
-				"targetname": "[PR#]Weapon_Z_Fire_Pickup"
-			},
-			"delete": {
-				"connections": [
-					{
-						"output": "OnTrigger",
-						"target": "[PR#]Strip_Knife",
-						"input": "Trigger",
-						"param": "",
-						"delay": 0,
-						"limit": -1
-					}
-				]
-			},
-			"insert": {
-				"connections": [
-					{
-						"output": "OnTrigger",
-						"target": "[PR#]Map_Stripper",
-						"input": "Use",
-						"param": "",
-						"delay": 0.0,
-						"limit": -1
-					},
-					{
-						"output": "OnTrigger",
-						"target": "!self",
-						"input": "Kill",
-						"param": "",
-						"delay": 0.05,
-						"limit": -1
-					}
-				]
-			}
-		}
-	]
+  "modify": [
+    // Offset item position after AG2 update
+    {
+      "match": {
+        "targetname": "[PR#]Weapon_Z_Fire_Effect"
+      },
+      "insert": {
+        "origin": "28.000000 -1.000000 -12.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Item_Z_Fire_Button"
+      },
+      "insert": {
+        "origin": "19.000000 -1.000000 16.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Item_Z_Fire_Effect_lvl1"
+      },
+      "insert": {
+        "origin": "-5.000000 0.000000 -32.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Item_Z_Fire_Effect_lvl2"
+      },
+      "insert": {
+        "origin": "-5.000000 0.000000 -32.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Item_Z_Fire_Effect_lvl3"
+      },
+      "insert": {
+        "origin": "-5.000000 0.000000 -32.000000"
+      }
+    },
+    // Fix weapon strip
+    {
+      "match": {
+        "targetname": "[PR#]Weapon_Z_Fire_Pickup"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]Strip_Knife",
+            "input": "Trigger",
+            "param": "",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]Map_Stripper",
+            "input": "Use",
+            "param": "",
+            "delay": 0.0,
+            "limit": -1
+          },
+          {
+            "output": "OnTrigger",
+            "target": "!self",
+            "input": "Kill",
+            "param": "",
+            "delay": 0.05,
+            "limit": -1
+          }
+        ]
+      }
+    }
+  ]
 }

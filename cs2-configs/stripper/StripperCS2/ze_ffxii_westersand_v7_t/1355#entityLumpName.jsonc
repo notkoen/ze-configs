@@ -1,46 +1,46 @@
 {
-	"modify": [
-		// Fix weapon strip
-		{
-			"match": {
-				"targetname": "[PR#]Knife_Choc_Stripper&0000"
-			},
-			"delete": {
-				"io": [
-					{
-						"outputname": "OnStartTouch",
-						"targetname": "[PR#]Strip_Knife",
-						"inputname": "Trigger",
-						"overrideparam": "",
-						"delay": 0,
-						"timestofire": -1
-					}
-				]
-			},
-			"insert": {
-				"io": [
-					{
-						"outputname": "OnTrigger",
-						"targetname": "[PR#]Map_Stripper",
-						"inputname": "Use",
-						"overrideparam": "",
-						"delay": 0.0,
-						"timestofire": 1
-					}
-				]
-			}
-		}
-	],
-	"filter": [
-		// Remove old strip entities
-		{
-			"targetname": "[PR#]Knife_Choc_Knife_Filter&0000"
-		},
-		{
-			"targetname": "[PR#]Knife_Choc_Finder&0000"
-		},
-		{
-			"targetname": "[PR#]Knife_Choc_Finder_Filter&0000"
-		}
-	]
+  "modify": [
+    // Fix weapon strip
+    {
+      "match": {
+        "targetname": "[PR#]Knife_Choc_Stripper&0000"
+      },
+      "delete": {
+        "io": [
+          {
+            "outputname": "OnStartTouch",
+            "targetname": "[PR#]Strip_Knife",
+            "inputname": "Trigger",
+            "overrideparam": "",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]Map_Stripper",
+            "inputname": "Use",
+            "overrideparam": "",
+            "delay": 0.0,
+            "timestofire": 1
+          }
+        ]
+      }
+    }
+  ],
+  "filter": [
+    // Remove old strip entities
+    {
+      "targetname": "[PR#]Knife_Choc_Knife_Filter&0000"
+    },
+    {
+      "targetname": "[PR#]Knife_Choc_Finder&0000"
+    },
+    {
+      "targetname": "[PR#]Knife_Choc_Finder_Filter&0000"
+    }
+  ]
 }

@@ -1,13 +1,13 @@
 {
-	"modify": [
-		// Fix boss attack direction
-		{
-			"match": {
-				"targetname": "[PR#]st3_boss_a4_1side1_drot2"
-			},
-			"insert": {
-				"spawnflags": "4126"
-			}
-		}
-	]
+  "modify": [
+    // Fix boss attack direction
+    {
+      "match": {
+        "targetname": "[PR#]st3_boss_a4_1side1_drot2"
+      },
+      "insert": {
+        "spawnflags": "4126"
+      }
+    }
+  ]
 }
