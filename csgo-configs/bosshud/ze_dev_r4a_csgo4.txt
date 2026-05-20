@@ -1,0 +1,25 @@
+"math_counter"
+{
+    "config"
+    {
+        "HitMarkerOnly"     "1"
+    }
+    "0"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "l2Boss"
+        "CustomText"        "Cube"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "l3boss"
+        "CustomText"        "Cube"
+    }
+    "3"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "laserL3"
+        "CustomText"        "Laser Cube"
+    }
+}

@@ -1,0 +1,13 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "stage2_final_hp"
+        "CustomText"        "Boss"
+    }
+    "1"
+    {
+        "HP_counter"        "yuanshi_hp"
+        "CustomText"        "YuanShi"
+    }
+}

@@ -1,0 +1,15 @@
+"math_counter"
+{
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "coredownpart"
+        "CustomText"        "Core (Bottom)"
+    }
+    "2"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "coreuppart"
+        "CustomText"        "Core (Top)"
+    }
+}

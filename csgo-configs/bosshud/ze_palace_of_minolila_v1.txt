@@ -1,0 +1,67 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "2boss_hp"
+        "HPbar_counter"     "2boss_hp_left"
+        "HPinit_counter"    "2boss_hp_add"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "5"
+        "HPbar_mode"        "1"
+        "CustomText"        "Energy Core"
+    }
+    "1"
+    {
+        "HP_counter"        "ex1_boss_hp"
+        "CustomText"        "Dr. X"
+    }
+    "2"
+    {
+        "HP_counter"        "ex1_final_boss_hp"
+        "CustomText"        "Dr. X"
+    }
+    "3"
+    {
+        "HP_counter"        "ex2_boss_hp"
+        "HPbar_counter"     "2boss_hp_left"
+        "HPinit_counter"    "ex2_boss_hp_add"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "5"
+        "HPbar_mode"        "1"
+        "CustomText"        "Minolila"
+    }
+    "4"
+    {
+        "HP_counter"        "ex2_boss_black_hp"
+        "CustomText"        "Black Cube"
+    }
+    "5"
+    {
+        "HP_counter"        "ex2_final_boss_hp"
+        "CustomText"        "Minolila Final"
+    }
+    "6"
+    {
+        "HP_counter"        "3_boss_hp"
+        "HPbar_counter"     "3_boss_hp_left"
+        "HPinit_counter"    "3_boss_hp_add"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "5"
+        "HPbar_mode"        "1"
+        "CustomText"        "Tesla"
+    }
+    "7"
+    {
+        "HP_counter"        "3_final_boss_hp"
+        "CustomText"        "Dr. X"
+    }
+    "8"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "2_elevator_bottom"
+        "CustomText"        "Elevator Bottom"
+    }
+}

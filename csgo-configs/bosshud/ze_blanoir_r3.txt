@@ -1,0 +1,18 @@
+"math_counter"
+{
+    0"
+    {
+        "HP_counter"        "s2_boss_hp"
+        "CustomText"        "Boss"
+    }
+    "1"
+    {
+        "HP_counter"        "s1_boss_hp_counter"
+        "CustomText"        "Boss"
+    }
+    "2"
+    {
+        "HP_counter"        "s0_boss_hp_counter"
+        "CustomText"        "Boss"
+    }
+}

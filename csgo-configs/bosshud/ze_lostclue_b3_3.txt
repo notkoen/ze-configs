@@ -1,0 +1,13 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "math_boss_hp"
+        "CustomText"        "Boss"
+    }
+    "1"
+    {
+        "HP_counter"        "Box_Counter"
+        "CustomText"        "Wall"
+    }
+}

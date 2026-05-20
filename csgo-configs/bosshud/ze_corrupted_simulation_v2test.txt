@@ -1,0 +1,20 @@
+"math_counter"
+{
+    "0"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "cube1_hp"
+        "CustomText"        "Cube"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "cube_hp"
+        "CustomText"        "Cube"
+    }
+    "2"
+    {
+        "HP_counter"        "core_counter"
+        "CustomText"        "Core"
+    }
+}

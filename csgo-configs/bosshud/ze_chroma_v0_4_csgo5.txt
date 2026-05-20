@@ -1,0 +1,13 @@
+"math_counter"
+{
+    "config"
+    {
+        "HitMarkerOnly"         "1"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "pbox_boss"
+        "CustomText"        "Boss"
+    }
+}

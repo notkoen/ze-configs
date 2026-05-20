@@ -1,0 +1,29 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter" "st1_boss_counter"
+        "CustomText" "Anomaly"
+    }
+    "1"
+    {
+        "HP_counter" "st1_boss_counter_sub"
+        "CustomText" "Segments"
+    }
+    "2"
+    {
+        "Type" "breakable"
+        "BreakableName"	"st2_break_03"
+        "CustomText" "Crystal"
+    }
+    "3"
+    {
+        "HP_counter" "st2_boss_counter"
+        "CustomText" "Anomaly"
+    }
+    "4"
+    {
+        "HP_counter" "st2_boss_counter_sub"
+        "CustomText" "Segments"
+    }
+}

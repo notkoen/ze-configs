@@ -1,0 +1,19 @@
+"math_counter"
+{
+    "config"
+    {
+        "HitMarkerOnly"     "1"
+    }
+    "0"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "boss_spiderhp"
+        "CustomText"        "Spider"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Noctali_Boss_Break"
+        "CustomText"        "Boss"
+    }
+}

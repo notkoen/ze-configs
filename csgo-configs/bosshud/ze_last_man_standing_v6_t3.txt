@@ -1,0 +1,20 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "boss_hp"
+        "CustomText"        "Alex Mercer"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Zombie_Item_Alma_Body_Health"
+        "CustomText"        "Alma"
+    }
+    "2"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Zombie_Item_Predator_Health"
+        "CustomText"        "Predator"
+    }
+}

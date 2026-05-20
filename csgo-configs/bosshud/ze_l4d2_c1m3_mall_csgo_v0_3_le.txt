@@ -1,0 +1,8 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "tree_2_hp_math_counter"
+        "CustomText"        "Tree"
+    }
+}

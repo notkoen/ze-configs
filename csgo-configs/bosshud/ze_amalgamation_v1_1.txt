@@ -1,0 +1,35 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "level_1_mb_hp_counter"
+        "CustomText"        "Crystal"
+    }
+    "1"
+    {
+        "HP_counter"        "boss_hp_p1"
+        "CustomText"        "Crashdab - Phase 1"
+    }
+    "2"
+    {
+        "HP_counter"        "boss_hp_p2"
+        "CustomText"        "Crashdab - Phase 2"
+    }
+    "3"
+    {
+        "HP_counter"        "final_boss_hp_counter"
+        "CustomText"        "Cube"
+    }
+    "4"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "mini_b_break_2"
+        "CustomText"        "Wooden Beam"
+    }
+    "5"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "mini_b_break_1"
+        "CustomText"        "Wooden Beam"
+    }
+}

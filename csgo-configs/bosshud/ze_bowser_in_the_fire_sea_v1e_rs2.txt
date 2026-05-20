@@ -1,0 +1,8 @@
+"math_counter"
+{
+    "0"
+    {
+        "Hp_Counter"        "boss_hp_counter"
+        "CustomText"        "Bowser"
+    }
+}

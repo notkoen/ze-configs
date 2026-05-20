@@ -1,0 +1,20 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "Boss_hp"
+        "HPinit_counter"    "Boss_hp_add"
+        "HPbar_counter"     "boss_hp_case_counter"
+        "HPbar_min"         "0"
+        "HPbar_max"         "3"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "Sphere"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "the crave"
+        "CustomText"        "Crave"
+    }
+}

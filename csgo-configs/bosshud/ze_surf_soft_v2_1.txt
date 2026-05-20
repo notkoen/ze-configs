@@ -1,0 +1,18 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "Glass breakable HP"
+        "CustomText"        "Glass Wall"
+    }
+    "1"
+    {
+        "HP_counter"        "Boss crystal phase_1 HP"
+        "CustomText"        "Crystal"
+    }
+    "2"
+    {
+        "HP_counter"        "Boss crystal phase_2 HP"
+        "CustomText"        "Crystal (Lasers)"
+    }
+}

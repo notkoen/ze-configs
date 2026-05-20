@@ -1,0 +1,38 @@
+"math_counter"
+{
+    "config"
+    {
+        "MultBoss"          "1"
+        "HitMarkerOnly"     "1"
+    }
+    "0"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Snake_Move_Physbox"
+        "CustomText"        "Snake"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Serphibrido_Move_Physbox"
+        "CustomText"        "Boss"
+    }
+    "2"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Medusa_Move_Physbox"
+        "CustomText"        "Medusa"
+    }
+    "3"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Room5_Phys_1"
+        "CustomText"        "Light Ball"
+    }
+    "4"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Room5_Phys_2"
+        "CustomText"        "Light Ball"
+    }
+}

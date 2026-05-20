@@ -1,0 +1,37 @@
+"math_counter"
+{
+    "config"
+    {
+        "MultBoss" "1"
+    }
+    "0"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "drake_hp"
+        "CustomText"        "Fire Drake"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "bosshelth"
+        "CustomText"        "Magma Drake?"
+    }
+    "2"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "boss"
+        "CustomText"        "Magma Drake!"
+    }
+    "3"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "boss_armhp_L"
+        "CustomText"        "Left Arm"
+    }
+    "4"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "boss_armhp_R"
+        "CustomText"        "Right Arm"
+    }
+}

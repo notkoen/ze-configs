@@ -1,0 +1,23 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "boss_hp_counter"
+        "CustomText"        "Boss"
+    }
+    "1"
+    {
+        "HP_counter"        "boss_hp_counter2"
+        "CustomText"        "Boss"
+    }
+    "2"
+    {
+        "HP_counter"        "boss_hp_counter3"
+        "CustomText"        "Boss"
+    }
+    "3"
+    {
+        "HP_counter"        "lvl3_boss_health02"
+        "CustomText"        "Big Bad Bear"
+    }
+}

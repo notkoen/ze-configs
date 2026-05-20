@@ -1,0 +1,38 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "mob_grudge_math_1"
+        "CustomText"        "Poltergeist"
+    }
+    "1"
+    {
+        "HP_counter"        "boss_hp"
+        "CustomText"        "Blood Sucker"
+    }
+    "2"
+    {
+        "HP_counter"        "boss3_health"
+        "CustomText"        "Fire Anomaly"
+    }
+    "3"
+    {
+        "HP_counter"        "mob_grudge_math1"
+        "CustomText"        "Brain Controller"
+    }
+    "4"
+    {
+        "HP_counter"        "mob_grudge_math"
+        "CustomText"        "Brain Controller"
+    }
+    "5"
+    {
+        "HP_counter"        "boss4_hp"
+        "CustomText"        "Blue Anomaly"
+    }
+    "6"
+    {
+        "HP_counter"        "boss5_hp"
+        "CustomText"        "Orange Anomaly"
+    }
+}

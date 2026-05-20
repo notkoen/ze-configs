@@ -1,0 +1,31 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "krokodyl_counter"
+        "HPbar_counter"     "krokodyl_hp_iterations"
+        "HPinit_counter"    "krokodyl_hp_backup"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "5"
+        "HPbar_mode"        "1"
+        "CustomText"        "Rubber Duck"
+    }
+    "1"
+    {
+        "HP_counter"        "kostka_hp"
+        "HPbar_counter"     "kostka_hp_iterations"
+        "HPinit_counter"    "kostka_hp_backup"
+        "HPbar_min"         "0"
+        "HPbar_max"         "8"
+        "HPbar_default"     "8"
+        "HPbar_mode"        "1"
+        "CustomText"        "Sponge"
+    }
+    "2"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "drzak"
+        "CustomText"        "Support"
+    }
+}

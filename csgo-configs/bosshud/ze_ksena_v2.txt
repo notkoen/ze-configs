@@ -1,0 +1,19 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "Rocks"
+        "CustomText"        "Wall"
+    }
+    "1"
+    {
+        "HP_counter"        "Troll_health"
+        "HPbar_counter"     "Troll_hpbar_counter"
+        "HPinit_counter"    "Troll_hp_init"
+        "HPbar_min"         "0"
+        "HPbar_max"         "0"
+        "HPbar_default"     "9"
+        "HPbar_mode"        "2"
+        "CustomText"        "Snowman"
+    }
+}

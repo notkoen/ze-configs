@@ -1,0 +1,25 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "level1_boss_math_counter"
+        "CustomText"        "Boss"
+    }
+    "1"
+    {
+        "HP_counter"        "level2_counter2"
+        "CustomText"        "Boss"
+    }
+    "2"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "level3_long"
+        "CustomText"        "Boss"
+    }
+    "3"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "qsqsqs"
+        "CustomText"        "Boss"
+    }
+}
