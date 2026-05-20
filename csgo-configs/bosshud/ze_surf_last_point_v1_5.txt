@@ -1,8 +1,0 @@
-"math_counter"
-{
-    "0"
-    {
-        "HP_counter"        "Battle_Machine_HP"
-        "CustomText"        "Battle Machine"
-    }
-}
