@@ -1,0 +1,25 @@
+"math_counter"
+{
+    "0"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Crystal_03_bre"
+        "CustomText"        "Crystal (Right)"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Crystal_04_bre"
+        "CustomText"        "Crystal (Left)"
+    }
+    "2"
+    {
+        "HP_counter"        "boss_counter"
+        "CustomText"        "Boss"
+    }
+    "3"
+    {
+        "HP_counter"        "boss2_counter"
+        "CustomText"        "Secret Boss"
+    }
+}

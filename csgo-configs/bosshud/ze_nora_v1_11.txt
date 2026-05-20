@@ -1,0 +1,21 @@
+"math_counter"
+{
+    "0"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "20B_Boss_Hp_1"
+        "CustomText"        "Cube (3/3)"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "20B_Boss_Hp_2"
+        "CustomText"        "Cube (2/3)"
+    }
+    "2"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "20B_Boss_Hp_3"
+        "CustomText"        "Cube (1/3)"
+    }
+}

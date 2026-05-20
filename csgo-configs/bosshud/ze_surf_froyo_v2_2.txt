@@ -1,0 +1,28 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "boss_star_hitcounter1"
+        "CustomText"        "Star (1/5)"
+    }
+    "1"
+    {
+        "HP_counter"        "boss_star_hitcounter2"
+        "CustomText"        "Star (2/5)"
+    }
+    "2"
+    {
+        "HP_counter"        "boss_star_hitcounter3"
+        "CustomText"        "Star (3/5)
+    }
+    "3"
+    {
+        "HP_counter"        "boss_star_hitcounter4"
+        "CustomText"        "Star (4/5)"
+    }
+    "4"
+    {
+        "HP_counter"        "boss_star_hitcounter5"
+        "CustomText"        "Star (5/5)
+    }
+}

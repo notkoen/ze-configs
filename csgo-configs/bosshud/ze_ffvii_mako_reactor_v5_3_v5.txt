@@ -1,0 +1,32 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "bahamut_vida"
+        "CustomText"        "Bahamut"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "glassT"
+        "CustomText"        "Sephiroth"
+    }
+    "2"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "bahamutend"
+        "CustomText"        "Bahamut"
+    }
+    "3"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "bahamutend1"
+        "CustomText"        "Sephiroth"
+    }
+    "4"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Monstruo_Breakable"
+        "CustomText"        "Guard Scorpion"
+    }
+}

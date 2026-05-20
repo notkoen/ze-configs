@@ -1,0 +1,18 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "Bergan_Attack_Beam_Right_HP"
+        "CustomText"        "Right Beam"
+    }
+    "1"
+    {
+        "HP_counter"        "Bergan_Attack_Beam_Left_HP"
+        "CustomText"        "Left Beam"
+    }
+    "2"
+    {
+        "HP_counter"        "Boss_HP_Counter"
+        "CustomText"        "Boss"
+    }
+}

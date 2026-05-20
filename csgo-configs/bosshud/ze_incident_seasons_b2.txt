@@ -1,0 +1,23 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "lvl1_boss_hp"
+        "HPbar_counter"     "lvl1_boss_phase_counter"
+        "HPbar_max"         "6"
+        "HPbar_min"         "0"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "Sonia"
+    }
+    "1"
+    {
+        "HP_counter"        "lvl3_boss_hp"
+        "HPbar_counter"     "lvl3_boss_hp_phase"
+        "HPbar_max"         "8"
+        "HPbar_min"         "0"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "Sonia"
+    }
+}

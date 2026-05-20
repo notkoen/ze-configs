@@ -1,0 +1,19 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "counter1"
+        "HPinit_counter"    "counter2"
+        "HPbar_counter"     "counter3"
+        "HPbar_max"         "16"
+        "HPbar_min"         "0"
+        "HPbar_default"     "16"
+        "HPbar_mode"        "1"
+        "CustomText"        "Boss"
+    }
+    "1"
+    {
+        "HP_counter"        "Lasers_boss_counter"
+        "CustomText"        "Boss"
+    }
+}

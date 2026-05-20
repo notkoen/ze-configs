@@ -1,0 +1,61 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "Boss_1_HP_Math1"
+        "CustomText"        "Fire Element Code"
+    }
+    "1"
+    {
+        "HP_counter"        "Boss_2_HP_Math1"
+        "CustomText"        "Spike Element Code"
+    }
+    "2"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Boss_3_Attacks_AbsoluteZero_breakable"
+        "CustomText"        "Ice Element Code"
+    }
+    "3"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Selentia_Castle_Crystal_4_break"
+        "CustomText"        "Crystal"
+    }
+    "4"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Selentia_Castle_Crystal_3_break"
+        "CustomText"        "Crystal"
+    }
+    "5"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Selentia_Castle_Crystal_2_break"
+        "CustomText"        "Crystal"
+    }
+    "6"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Selentia_Castle_Crystal_1_break"
+        "CustomText"        "Crystal"
+    }
+    "7"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "AngelFalse_Castle_Crystal_3_break"
+        "CustomText"        "Crystal"
+    }
+    "8"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "AngelFalse_Castle_Crystal_2_break"
+        "CustomText"        "Crystal"
+    }
+    "9"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "AngelFalse_Castle_Crystal_1_break"
+        "CustomText"        "Crystal"
+    }
+}

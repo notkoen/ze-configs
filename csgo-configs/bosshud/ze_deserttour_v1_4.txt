@@ -1,0 +1,18 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "Guardian_Boss_HpCounter"
+        "CustomText"        "Guardian"
+    }
+    "1"
+    {
+        "HP_counter"        "FireBall_Boss_Hp_Counter"
+        "CustomText"        "Fire Ball"
+    }
+    "2"
+    {
+        "HP_counter"        "FireCore_Boss_HpCounter"
+        "CustomText"        "Fire Core"
+    }
+}

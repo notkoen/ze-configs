@@ -1,0 +1,45 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "level1_boss_health"
+        "HPinit_counter"    "level1_boss_health_backup"
+        "HPbar_counter"     "level1_boss_health_counter"
+        "HPbar_min"         "0"
+        "HPbar_max"         "10"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "Tank"
+    }
+    "1"
+    {
+        "HP_counter"        "level2_boss_health"
+        "HPinit_counter"    "level2_boss_health_backup"
+        "HPbar_counter"     "level2_boss_health_counter"
+        "HPbar_min"         "0"
+        "HPbar_max"         "10"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+    }
+    "2"
+    {
+        "HP_counter"        "level3_boss_health"
+        "HPinit_counter"    "level3_boss_health_backup"
+        "HPbar_counter"     "level3_boss_health_counter"
+        "HPbar_min"         "0"
+        "HPbar_max"         "10"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "Putin"
+    }
+    "3"
+    {
+        "HP_counter"        "level3_boss_vodka_counter"
+        "CustomText"        "Vodka Boss"
+    }
+    "4"
+    {
+        "HP_counter"        "level3_end_putin_health"
+        "CustomText"        "End Putin"
+    }
+}

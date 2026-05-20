@@ -1,0 +1,15 @@
+"math_counter"
+{
+    "0"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "gargantua_hbox"
+        "CustomText"        "Gargantua"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Nihilanth_HitBox_Main"
+        "CustomText"        "Nihilanth"
+    }
+}

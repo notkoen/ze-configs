@@ -1,0 +1,39 @@
+"math_counter"
+{
+    "0"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Boss_Skull_Tank"
+        "CustomText"        "Skull Tank"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Mochi_King"
+        "CustomText"        "Mochi King"
+    }
+    "2"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Boss_Kirby_Hitbox"
+        "CustomText"        "Kirby"
+    }
+    "3"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "pl_Monk_Mochi"
+        "CustomText"        "Monk Mochi"
+    }
+    "4"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "pl_Skull_Mochi"
+        "CustomText"        "Skull Mochi"
+    }
+    "5"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Mochi_witch"
+        "CustomText"        "Mochi Witch"
+    }
+}

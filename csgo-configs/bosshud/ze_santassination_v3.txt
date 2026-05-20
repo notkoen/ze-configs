@@ -1,0 +1,21 @@
+"math_counter"
+{
+    "0"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "bosss_hp"
+        "CustomText"        "Santa"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "bosss_hp1"
+        "CustomText"        "Fat Santa"
+    }
+    "2"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "bosss_hp2"
+        "CustomText"        "Socrates"
+    }
+}

@@ -1,0 +1,32 @@
+"math_counter"
+{
+    "config"
+    {
+	"MultHP"	    "1"
+    }
+    "0"
+    {
+        "HP_counter"        "boss_hp_counter"
+        "CustomText"        "Boss"
+    }
+    "1"
+    {
+        "HP_counter"        "yojimbo_body"
+        "CustomText"        "Yojimbo"
+    }
+    "2"
+    {
+        "HP_counter"        "stage_savage_final_rock_body"
+        "CustomText"        "Orange Rocks"
+    }
+    "3"
+    {
+        "HP_counter"        "stage_ultimate_yojimbo_body"
+        "CustomText"        "Yojimbo"
+    }
+    "4"
+    {
+	"HP_counter"        "zombie_parasitic_infect_body"
+        "CustomText"        "Parasite"
+    }
+}

@@ -1,0 +1,23 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "break_boss_lvl1"
+        "CustomText"        "Professor"
+    }
+    "1"
+    {
+        "HP_counter"        "counter_boss_level3_mob"
+        "CustomText"        "MOB"
+    }
+    "2"
+    {
+        "HP_counter"        "counter_boss_level3_balrog"
+        "CustomText"        "BALROG"
+    }
+    "3"
+    {
+        "HP_counter"        "counter_boss_level3_spider"
+        "CustomText"        "SPIDER"
+    }
+}

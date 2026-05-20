@@ -1,0 +1,57 @@
+"math_counter"
+{
+    "0"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Mode_13_Guard_Box"
+        "CustomText"        "Guard"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Mode_12_Sephiroth_Box"
+        "CustomText"        "Sephiroth"
+    }
+    "2"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Mode_9_Sephiroth_Box"
+        "CustomText"        "Sephiroth"
+    }
+    "3"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Mode_8_Chaos_Box"
+        "CustomText"        "Chaos"
+    }
+    "4"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Mode_7_Zodiark_Box"
+        "CustomText"        "Zodiark"
+    }
+    "5"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Mode_5_Genesis_Box"
+        "CustomText"        "Genesis"
+    }
+    "6"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Mode_2_Sephiroth_Box"
+        "CustomText"        "Sephiroth"
+    }
+    "7"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Mode_1_Bahamut_Box"
+        "CustomText"        "Bahamut"
+    }
+    "8"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Item_Cirno_Box"
+        "CustomText"        "Cirno"
+    }
+}

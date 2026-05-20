@@ -1,0 +1,13 @@
+"math_counter"
+{
+    "config"
+    {
+        "HitMarkerOnly"     "1"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "stagea2_boss_hitbox"
+        "CustomText"        "Boss"
+    }
+}

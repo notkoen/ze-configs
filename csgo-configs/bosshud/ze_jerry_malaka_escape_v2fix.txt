@@ -1,0 +1,47 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "boss2_math_couter"
+        "CustomText"        "Jerry"
+    }
+    "1"
+    {
+        "HP_counter"        "boss1_counter1"
+        "CustomText"        "Jerry Banana"
+    }
+    "3"
+    {
+        "HP_counter"        "Shinra_Shiva_Counter"
+        "CustomText"        "Shiva"
+    }
+    "4"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "trigger1_breakable"
+        "CustomText"        "Yellow Ball"
+    }
+    "5"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "jerrys_eyes"
+        "CustomText"        "Jerry"
+    }
+    "6"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "trigger2_breakable1"
+        "CustomText"        "Yellow Ball"
+    }
+    "7"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "trigger2_breakable2"
+        "CustomText"        "Yellow Ball"
+    }
+    "8"
+    {
+        "HP_counter"        "smexy_counter"
+        "CustomText"        "Ricardos Milos"
+    }
+}

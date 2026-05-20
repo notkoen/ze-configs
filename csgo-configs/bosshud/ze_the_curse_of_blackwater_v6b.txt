@@ -1,0 +1,26 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "Counter_heal"
+        "CustomText"        "Sofya"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "pincher_ct"
+        "CustomText"        "Pincher"
+    }
+    "2"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "decayed_ct"
+        "CustomText"        "Decayed Boss"
+    }
+    "3"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "creepygirl_ct"
+        "CustomText"        "Creepy Girl"
+    }
+}

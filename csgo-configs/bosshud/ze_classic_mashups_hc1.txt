@@ -1,0 +1,48 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "s1_bullet_bill_counter"
+        "CustomText"        "Bullet Bill"
+    }
+    "1"
+    {
+        "HP_counter"        "s1_cursedspongebob_counter"
+        "CustomText"        "Cursed Spongebob"
+    }
+    "2"
+    {
+        "HP_counter"        "s3_boss_shadow_counter"
+        "CustomText"        "Shadow"
+    }
+    "3"
+    {
+        "HP_counter"        "s1_sonic_counter"
+        "CustomText"        "Sonic"
+    }
+    "4"
+    {
+        "HP_counter"        "s5_small_alien_counter"
+        "CustomText"        "Small Alien"
+    }
+    "5"
+    {
+        "HP_counter"        "s5_last_alien_counter"
+        "CustomText"        "Alien"
+    }
+    "6"
+    {
+        "HP_counter"        "math_counter_hornet"
+        "CustomText"        "Hornet"
+    }
+    "7"
+    {
+        "HP_counter"        "s4_cursedspongebob_counter"
+        "CustomText"        "Cursed Spongebob"
+    }
+    "8"
+    {
+        "HP_counter"        "s3_shrekshouse_hp_counter"
+        "CustomText"        "Shrek's House"
+    }
+}

@@ -1,0 +1,46 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "nrk3_hellguardian_counter"
+        "HPinit_counter"    "nrk3_hellguardian_backup"
+        "HPbar_counter"     "nrk3_hellguardian_iterations"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "5"
+        "HPbar_mode"        "1"
+        "CustomText"        "Hell Guardian"
+    }
+    "1"
+    {
+        "HP_counter"        "nrk3_boss_counter"
+        "HPinit_counter"    "nrk3_boss_backup"
+        "HPbar_counter"     "nrk3_boss_iterations"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "5"
+        "HPbar_mode"        "1"
+        "CustomText"        "Underworld Guardian"
+    }
+    "2"
+    {
+        "HP_counter"        "nrk2_counter"
+        "HPinit_counter"    "nrk2_hp_backup"
+        "HPbar_counter"     "nrk2_hp_iterations"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "5"
+        "HPbar_mode"        "1"
+    }
+    "3"
+    {
+        "HP_counter"        "nrk1_counter"
+        "HPinit_counter"    "nrk1_hp_backup"
+        "HPbar_counter"     "nrk1_hp_iterations"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "5"
+        "HPbar_mode"        "1"
+        "CustomText"        "Troll"
+    }
+}

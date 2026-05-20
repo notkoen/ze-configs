@@ -1,0 +1,18 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "lv4_boss_hpcounter"
+        "HPbar_counter"     "lv4_boss_hpmaxcounter"
+        "HPbar_min"         "0"
+        "HPbar_max"         "10"
+        "HPbar_default"     "10"
+        "HPbar_mode"        "1"
+        "CustomText"        "Boss"
+    }
+    "1"
+    {
+        "HP_counter"        "lv2_boss_hpcounter"
+        "CustomText"        "Boss"
+    }
+}

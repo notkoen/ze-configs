@@ -1,0 +1,30 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "boss_hp"
+        "HPbar_counter"     "boss_hp_iterations"
+        "HPinit_counter"    "boss_hp_backup"
+        "HPbar_min"         "0"
+        "HPbar_max"         "10"
+        "HPbar_default"     "10"
+        "HPbar_mode"        "1"
+        "CustomText"        "Ghast"
+    }
+    "1"
+    {
+        "HP_counter"        "boss2_hp"
+        "HPbar_counter"     "boss2_hp_iterations"
+        "HPinit_counter"    "boss2_hp_backup"
+        "HPbar_min"         "0"
+        "HPbar_max"         "10"
+        "HPbar_default"     "10"
+        "HPbar_mode"        "1"
+        "CustomText"        "Ender Dragon"
+    }
+    "2"
+    {
+        "HP_counter"        "stronghold_final_boss_hp"
+        "CustomText"        "Herobrine"
+    }
+}

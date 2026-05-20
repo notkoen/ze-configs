@@ -1,0 +1,19 @@
+"math_counters"
+{
+    "0"
+    {
+        "HP_counter"        "secret_boss_counter"
+        "CustomText"        "Secret Hexahedron"
+    }
+    "1"
+    {
+        "HP_counter"        "boss_counter"
+        "CustomText"        "Hexahedron"
+    }
+    "2"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "crystal_02"
+        "CustomText"        "Crystal"
+    }
+}

@@ -1,0 +1,23 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "Gi_Nattak_Counter"
+        "CustomText"        "Gi Nattak"
+    }
+    "1"
+    {
+        "HP_counter"        "lvl2_Gi_Nattak_Counter"
+        "CustomText"        "Gi Nattak"
+    }
+    "2"
+    {
+        "HP_counter"        "Ifrit_Counter"
+        "CustomText"        "Ifrit"
+    }
+    "3"
+    {
+        "HP_counter"        "Genesis_Counter"
+        "CustomText"        "Genesis"
+    }
+}

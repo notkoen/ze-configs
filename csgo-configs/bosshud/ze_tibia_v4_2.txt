@@ -1,0 +1,43 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "destiny_mirelurk_hunter_Health"
+        "CustomText"        "Hunter"
+    }
+    "1"
+    {
+        "HP_counter"        "destiny_Moohtant Wallbreaker_Health"
+        "CustomText"        "Knight"
+    }
+    "2"
+    {
+        "HP_counter"        "destiny_z_mage_health"
+        "CustomText"        "Mage"
+    }
+    "3"
+    {
+        "HP_counter"        "OutOfEarth_Desert_Elemental_Health"
+        "CustomText"        "Desert Elemental"
+    }
+    "4"
+    {
+        "HP_counter"        "LVL6_Electro_elemental_counter"
+        "CustomText"        "Electro Elemental"
+    }
+    "5"
+    {
+        "HP_counter"        "Cave3CopperS_Dragon_Boss_counter"
+        "CustomText"        "Dragon"
+    }
+    "6"
+    {
+        "HP_counter"        "Minotaur_Mage_HP"
+        "CustomText"        "Minotaur"
+    }
+    "7"
+    {
+        "HP_counter"        "Ghoul_HP"
+        "CustomText"        "Ghoul"
+    }
+}

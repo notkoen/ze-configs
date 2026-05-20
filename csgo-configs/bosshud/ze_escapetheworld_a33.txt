@@ -1,0 +1,37 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "stg2_boss_counter"
+        "CustomText"        "Crystal"
+    }
+    "1"
+    {
+        "HP_counter"        "boss_the_world"
+        "CustomText"        "The World"
+    }
+    "2"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Break1"
+        "CustomText"        "Crystal"
+    }
+    "3"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "stg3_white_cube"
+        "CustomText"        "White Cube"
+    }
+    "4"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "stg3_cube_black"
+        "CustomText"        "Black Cube"
+    }
+    "5"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "stg3_stair_break"
+        "CustomText"        "Black Cube"
+    }
+}

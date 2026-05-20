@@ -1,0 +1,13 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "counter_bosshp"
+        "HPbar_counter"     "boss_hpcounter"
+        "HPbar_min"         "0"
+        "HPbar_max"         "10"
+        "HPbar_default"     "5"
+        "HPbar_mode"        "1"
+        "CustomText"        "Rock Monster"
+    }
+}

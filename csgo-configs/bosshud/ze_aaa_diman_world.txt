@@ -1,0 +1,27 @@
+"math_counter"
+{
+    "0"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "boos_main_breack"
+        "CustomText"        "Boss"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "breac_boss_laser"
+        "CustomText"        "Boss (Laser)"
+    }
+    "2"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Diman_Bro228"
+        "CustomText"        "Diman Bro"
+    }
+    "3"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "[BR] Diman"
+        "CustomText"        "Diman"
+    }
+}

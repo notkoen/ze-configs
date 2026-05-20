@@ -1,0 +1,26 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "boss_hp"
+        "CustomText"        "Santa"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Tree 1 Breakable"
+        "CustomText"        "Tree"
+    }
+    "2"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Rock Breakable"
+        "CustomText"        "Rock"
+    }
+    "3"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Wall Breakable 1"
+        "CustomText"        "Wall"
+    }
+}

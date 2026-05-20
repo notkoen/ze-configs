@@ -1,0 +1,126 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "formortiis_hp"
+        "CustomText"        "Formortiis"
+    }
+    "1"
+    {
+        "HP_counter"        "level3_boss_hp_1"
+        "CustomText"        "Boss"
+    }
+    "2"
+    {
+        "HP_counter"        "level3_mini_boss_hp"
+        "CustomText"        "Mini Boss"
+    }
+    "3"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "level1_defense_crystal_break_1"
+        "CustomText"        "Crystal"
+    }
+    "4"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "level1_defense_crystal_break_2"
+        "CustomText"        "Crystal"
+    }
+    "5"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "level2_defense_2_crystal2"
+        "CustomText"        "Crystal"
+    }
+    "6"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "level2_defense_2_crystal3"
+        "CustomText"        "Crystal"
+    }
+    "7"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "level2_defense_2_crystal1"
+        "CustomText"        "Crystal"
+    }
+    "8"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "level2_defense_4_crystal2"
+        "CustomText"        "Crystal"
+    }
+    "9"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "level2_defense_4_crystal1"
+        "CustomText"        "Crystal"
+    }
+    "10"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "level2_defense_4_crystal5"
+        "CustomText"        "Crystal"
+    }
+    "11"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "level2_defense_4_crystal3"
+        "CustomText"        "Crystal"
+    }
+    "12"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "level2_defense_1_crystal1"
+        "CustomText"        "Crystal"
+    }
+    "13"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "level2_defense_1_crystal2"
+        "CustomText"        "Crystal"
+    }
+    "14"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "level2_defense_1_crystal3"
+        "CustomText"        "Crystal"
+    }
+    "15"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "level1_defense_1_breakable"
+        "CustomText"        "Statue"
+    }
+    "16"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "level3_boss_crystal_atk_5"
+        "CustomText"        "Blind Crystal"
+    }
+    "17"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "level3_boss_crystal_atk_4"
+        "CustomText"        "Pull Crystal"
+    }
+    "18"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "level3_boss_crystal_atk_3"
+        "CustomText"        "Spear Crystal"
+    }
+    "19"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "level3_boss_crystal_atk_2"
+        "CustomText"        "Green Crystal"
+    }
+    "20"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "level3_boss_crystal_atk_1"
+        "CustomText"        "Blue Tesla Crystal"
+    }
+}

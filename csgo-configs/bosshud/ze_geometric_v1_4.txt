@@ -1,0 +1,30 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "boss_hp_counter"
+        "HPbar_counter"     "boss_hp_left_counter"
+        "HPinit_counter"    "boss_hp_add_counter"
+        "HPbar_min"         "0"
+        "HPbar_max"         "10"
+        "HPbar_default"     "10"
+        "HPbar_mode"        "1"
+        "CustomText"        "Boss"
+    }
+    "1"
+    {
+        "HP_counter"        "boss_final_hp"
+        "CustomText"        "Final Boss"
+    }
+    "2"
+    {
+        "HP_counter"        "boss_hp_counter"
+        "HPbar_counter"     "rtv_hp_left_counter"
+        "HPinit_counter"    "boss_hp_add_counter"
+        "HPbar_min"         "0"
+        "HPbar_max"         "10"
+        "HPbar_default"     "10"
+        "HPbar_mode"        "1"
+        "CustomText"        "Boss"
+    }
+}

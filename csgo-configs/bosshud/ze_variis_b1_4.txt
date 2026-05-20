@@ -1,0 +1,18 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "BHealth"
+        "CustomText"        "Boss"
+    }
+    "1"
+    {
+        "HP_counter"        "personBmathcounter"
+        "CustomText"        "Person B"
+    }
+    "2"
+    {
+        "HP_counter"        "personAmathcounter"
+        "CustomText"        "Person A"
+    }
+}

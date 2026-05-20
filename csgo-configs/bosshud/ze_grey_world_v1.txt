@@ -1,0 +1,86 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "lvl1_final_cube_hp"
+        "CustomText"        "Final Cube"
+    }
+    "1"
+    {
+        "HP_counter"        "lvl2_top_cube_hp"
+        "CustomText"        "Cube"
+    }
+    "2"
+    {
+        "HP_counter"        "lvl2_boss_hp"
+        "HPbar_counter"     "lvl2_boss_hp_left"
+        "HPinit_counter"    "lvl2_boss_hp_add"
+        "HPbar_min"         "0"
+        "HPbar_max"         "10"
+        "HPbar_default"     "10"
+        "HPbar_mode"        "1"
+        "CustomText"        "Cube"
+    }
+    "3"
+    {
+        "HP_counter"        "lvl3_door7_hp2"
+        "CustomText"        "North Cube"
+    }
+    "4"
+    {
+        "HP_counter"        "lvl3_door7_hp1"
+        "CustomText"        "South Cube"
+    }
+    "5"
+    {
+        "HP_counter"        "lvl3_mid_cube_hp"
+        "HPbar_counter"     "lvl3_mid_cube_counter"
+        "HPbar_min"         "0"
+        "HPbar_max"         "3"
+        "HPbar_default"     "3"
+        "HPbar_mode"        "1"
+        "CustomText"        "Cubes"
+    }
+    "6"
+    {
+        "HP_counter"        "lvl3_boss_hp"
+        "HPbar_counter"     "lvl3_boss_hp_left"
+        "HPinit_counter"    "lvl3_boss_hp_add"
+        "HPbar_min"         "0"
+        "HPbar_max"         "8"
+        "HPbar_default"     "8"
+        "HPbar_mode"        "1"
+        "CustomText"        "Cube"
+    }
+    "7"
+    {
+        "HP_counter"        "lvl4_cube1_hp"
+        "CustomText"        "1st Cube"
+    }
+    "8"
+    {
+        "HP_counter"        "lvl4_cube2_hp"
+        "CustomText"        "2nd Cube"
+    }
+    "9"
+    {
+        "HP_counter"        "lvl4_cube3_hp"
+        "CustomText"        "3rd Cube"
+    }
+    "10"
+    {
+        "HP_counter"        "lvl4_boss_hp"
+        "HPbar_counter"     "lvl4_boss_hp_left"
+        "HPinit_counter"    "lvl4_boss_hp_add"
+        "HPbar_min"         "0"
+        "HPbar_max"         "8"
+        "HPbar_default"     "8"
+        "HPbar_mode"        "1"
+        "CustomText"        "Cube"
+    }
+    "11"
+    {
+        "HP_counter"        "lvl4_final_boss_hp"
+        "CustomText"        "The Final Boss"
+    }
+}

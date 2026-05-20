@@ -1,0 +1,23 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "boss_phase1_counter"
+        "CustomText"        "Ball (1/4)"
+    }
+    "1"
+    {
+        "HP_counter"        "boss_phase2_counter"
+        "CustomText"        "Ball (2/4)"
+    }
+    "2"
+    {
+        "HP_counter"        "boss_phase3_counter"
+        "CustomText"        "Ball (3/4)"
+    }
+    "3"
+    {
+        "HP_counter"        "boss_phase4_counter"
+        "CustomText"        "Ball (4/4)"
+    }
+}

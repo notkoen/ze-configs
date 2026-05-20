@@ -1,0 +1,38 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "S1_Boss_hp_counter"
+        "CustomText"        "Boss"
+    }
+    "1"
+    {
+        "HP_counter"        "S2_Boss_hp_counter"
+        "CustomText"        "Boss"
+    }
+    "2"
+    {
+        "HP_counter"        "S3_Boss_hp"
+        "CustomText"        "Boss"
+    }
+    "3"
+    {
+        "HP_counter"        "winos_hp"
+        "CustomText"        "Winos"
+    }
+    "4"
+    {
+        "HP_counter"        "ED_p1_hp"
+        "CustomText"        "Boss"
+    }
+    "5"
+    {
+        "HP_counter"        "ED_p2_hp"
+        "CustomText"        "Boss"
+    }
+    "6"
+    {
+        "HP_counter"        "ED_p1_hp"
+        "CustomText"        "Boss"
+    }
+}

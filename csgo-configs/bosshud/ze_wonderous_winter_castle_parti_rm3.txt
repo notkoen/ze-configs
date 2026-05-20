@@ -1,0 +1,38 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "boss1_math_counter"
+        "CustomText"        "Ice Dragon"
+    }
+    "1"
+    {
+        "HP_counter"        "boss2_counter"
+        "CustomText"        "Balrog"
+    }
+    "2"
+    {
+        "HP_counter"        "balrog_lasers_counter"
+        "CustomText"        "Balrog (Lasers)"
+    }
+    "3"
+    {
+        "HP_counter"        "boss3_counter"
+        "CustomText"        "Wyvern"
+    }
+    "4"
+    {
+        "HP_counter"        "stage3_last_baha_hp"
+        "CustomText"        "Bahamut"
+    }
+    "5"
+    {
+        "HP_counter"        "boss3_attack4_guard_breakable"
+        "CustomText"        "Earth Shield"
+    }
+    "6"
+    {
+        "HP_counter"        "level2_breakable"
+        "CustomText"        "Statue"
+    }
+}

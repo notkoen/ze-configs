@@ -1,0 +1,19 @@
+"math_counter"
+{
+    "config"
+    {
+        "HitMarkerOnly"     "1"
+    }
+    "0"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "green_phys"
+        "CustomText"        "Green Ball"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "ukauka_phys"
+        "CustomText"        "Uka Uka"
+    }
+}

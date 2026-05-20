@@ -1,0 +1,14 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "white_counter"
+        "HPinit_counter"    "white_hp_backup"
+        "HPbar_counter"     "white_hp_iterations"
+        "HPbar_min"         "0"
+        "HPbar_max"         "6"
+        "HPbar_default"     "6"
+        "HPbar_mode"        "1"
+        "CustomText"        "White"
+    }
+}

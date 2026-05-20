@@ -1,0 +1,23 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "boss_counter"
+        "HPbar_counter"     "boss_counter_xueguan"
+        "HPbar_min"         "0"
+        "HPbar_max"         "7"
+        "HPbar_default"     "7"
+        "HPbar_mode"        "1"
+        "CustomText"        "Cube"
+    }
+    "1"
+    {
+        "HP_counter"        "boss_counter2"
+        "HPbar_counter"     "boss_counter2_xueguan"
+        "HPbar_min"         "0"
+        "HPbar_max"         "12"
+        "HPbar_default"     "12"
+        "HPbar_mode"        "1"
+        "CustomText"        "Cube (Resurrected)"
+    }
+}

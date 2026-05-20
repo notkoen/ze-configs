@@ -1,0 +1,32 @@
+"math_counter"
+{
+    "config"
+    {
+        "HitMarkerOnly"     "1"
+    }
+    "0"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "EndNattak_Shield_Hbox"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Cactus_Hbox"
+    }
+    "2"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Ginattack_Shield_Hbox"
+    }
+    "3"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "EndNattak_Phys"
+    }
+    "4"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Gi_Nattak_Phys"
+    }
+}

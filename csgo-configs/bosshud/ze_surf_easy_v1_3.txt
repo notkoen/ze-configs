@@ -1,0 +1,14 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "rion_counter"
+        "HPbar_counter"     "rion_hp_iterations"
+        "HPinit_counter"    "rion_hp_backup"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "5"
+        "HPbar_mode"        "1"
+        "CustomText"        "Rion"
+    }
+}

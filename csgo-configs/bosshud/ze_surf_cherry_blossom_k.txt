@@ -1,0 +1,21 @@
+"math_counter"
+{
+    "0"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "noobtele1"
+        "CustomText"        "Emergency Glass 1"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "noobtele2"
+        "CustomText"        "Emergency Glass 2"
+    }
+    "2"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "noobtele3"
+        "CustomText"        "Emergency Glass 3"
+    }
+}

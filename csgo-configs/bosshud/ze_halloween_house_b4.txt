@@ -1,0 +1,15 @@
+"math_counter"
+{
+    "0"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "CounterBreakable"
+        "CustomText"        "Gas Meter"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "Rat_Breakable"
+        "CustomText"        "Ms. Whiskas"
+    }
+}

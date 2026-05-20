@@ -1,0 +1,18 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "lv1_Genesis_Counter"
+        "CustomText"        "Genesis"
+    }
+    "1"
+    {
+        "HP_counter"        "lv3_Stage_4_End_Guard_Counter"
+        "CustomText"        "End Guard"
+    }
+    "2"
+    {
+        "HP_counter"        "lv2_boss_coun"
+        "CustomText"        "Chaos Unlimited"
+    }
+}

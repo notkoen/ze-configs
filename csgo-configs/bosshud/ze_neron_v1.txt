@@ -1,0 +1,28 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "st3_boss_hp_counter"
+        "HPbar_counter"     "st3_boss_hp_bar"
+        "HPbar_max"         "20"
+        "HPbar_min"         "0"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "Boss"
+    }
+    "1"
+    {
+        "HP_counter"        "brand_boss_hp_counter"
+        "HPbar_counter"     "brand_boss_hp_bar"
+        "HPbar_max"         "100"
+        "HPbar_min"         "0"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "Boss"
+    }
+    "2"
+    {
+        "HP_counter"        "st4_miniboss_math"
+        "CustomText"        "Miniboss"
+    }
+}

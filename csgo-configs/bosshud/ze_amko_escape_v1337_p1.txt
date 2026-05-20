@@ -1,0 +1,18 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "Bossreturn_HP_Counter"
+        "CustomText"        "Amko"
+    }
+    "1"
+    {
+        "HP_counter"        "Boss_HP"
+        "CustomText"        "Amko"
+    }
+    "2"
+    {
+        "HP_counter"        "Boss_HP_Ragemode"
+        "CustomText"        "Amko (Enraged)"
+    }
+}

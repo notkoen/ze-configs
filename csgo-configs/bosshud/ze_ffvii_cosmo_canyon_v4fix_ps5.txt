@@ -1,0 +1,29 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "lvl2_Gi_Nattak_Counter"
+        "CustomText"        "Gi Nattak"
+    }
+    "1"
+    {
+        "HP_counter"        "Genesis_Counter"
+        "CustomText"        "Genesis"
+    }
+    "2"
+    {
+        "HP_counter"        "Chocobo_End_Counter"
+        "CustomText"        "Chocobo"
+    }
+    "3"
+    {
+        "HP_counter"        "Special_Health"
+        "HPinit_counter"    "Special_HealthInit"
+        "HPbar_counter"     "Special_HealthCount"
+        "HPbar_min"         "0"
+        "HPbar_max"         "16"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "2"
+        "CustomText"        "Gi Nattak"
+    }
+}

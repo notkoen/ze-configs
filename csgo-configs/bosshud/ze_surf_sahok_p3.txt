@@ -1,0 +1,14 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "Boss_Health"
+        "CustomText"        "Guardian"
+    }
+    "1"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "physbox"
+        "CustomText"        "Red Guardian"
+    }
+}

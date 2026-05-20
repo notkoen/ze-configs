@@ -1,0 +1,40 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "fboss_math_1"
+        "CustomText"        "Predator"
+    }
+    "1"
+    {
+        "HP_counter"        "fboss_math_2"
+        "CustomText"        "Predator"
+    }
+    "2"
+    {
+        "HP_counter"        "mathBahamutHits"
+        "CustomText"        "Bahamut"
+    }
+    "3"
+    {
+        "HP_counter"        "papercrap_BossExtHitP"
+        "CustomText"        "Paper Boss"
+    }
+    "4"
+    {
+        "HP_counter"        "mboss_math_health"
+        "CustomText"        "Medusa"
+    }
+    "5"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "boss_health"
+        "CustomText"        "Boss"
+    }
+    "6"
+    {
+        "Type"              "breakable"
+        "BreakableName"     "papercrap_ExtBoss"
+        "CustomText"        "Defensive Robot"
+    }
+}

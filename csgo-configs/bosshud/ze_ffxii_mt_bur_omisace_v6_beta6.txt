@@ -1,0 +1,67 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "Tyrant_boss_HP1"
+        "HPinit_counter"    "Tyrant_boss_HP2"
+        "HPbar_counter"     "Tyrant_boss_HP3"
+        "HPbar_max"         "4"
+        "HPbar_min"         "0"
+        "HPbar_default"     "4"
+        "HPbar_mode"        "1"
+        "CustomText"        "Tyrant"
+    }
+    "1"
+    {
+        "HP_counter"        "Shield_boss_laser_HP"
+        "CustomText"        "Ensanguined Shield"
+    }
+    "2"
+    {
+        "HP_counter"        "Ending_boss1_laser_counter"
+        "CustomText"        "Judge Bergan"
+    }
+    "3"
+    {
+        "HP_counter"        "Bergan_boss1_attack_HP1"
+        "HPinit_counter"    "Bergan_boss1_attack_HP2"
+        "HPbar_counter"     "Bergan_boss1_attack_HP3"
+        "HPbar_max"         "4"
+        "HPbar_min"         "0"
+        "HPbar_default"     "4"
+        "HPbar_mode"        "1"
+        "CustomText"        "Judge Bergan"
+    }
+    "4"
+    {
+        "HP_counter"        "sanctuary_keeper_boss_HP1"
+        "HPinit_counter"    "sanctuary_keeper_boss_HP2"
+        "HPbar_counter"     "sanctuary_keeper_boss_HP3"
+        "HPbar_max"         "4"
+        "HPbar_min"         "0"
+        "HPbar_default"     "4"
+        "HPbar_mode"        "1"
+        "CustomText"        "Sanctuary Keeper"
+    }
+    "5"
+    {
+        "HP_counter"        "Venat_mini_boss_HP"
+        "CustomText"        "Venat"
+    }
+    "6"
+    {
+        "HP_counter"        "Bergan_boss2_attack_HP1"
+        "HPinit_counter"    "Bergan_boss2_attack_HP2"
+        "HPbar_counter"     "Bergan_boss2_attack_HP3"
+        "HPbar_max"         "4"
+        "HPbar_min"         "0"
+        "HPbar_default"     "4"
+        "HPbar_mode"        "1"
+        "CustomText"        "Judge Bergan"
+    }
+    "7"
+    {
+        "HP_counter"        "Mojie_miniboss_counter"
+        "CustomText"        "Esper Adrammelech"
+    }
+}

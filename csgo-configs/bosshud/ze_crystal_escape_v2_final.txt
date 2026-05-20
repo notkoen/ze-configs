@@ -1,0 +1,18 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "lvl2_ice_boss_hp"
+        "CustomText"        "Ice Crystal"
+    }
+    "1"
+    {
+        "HP_counter"        "lv1_fire_boss_hp"
+        "CustomText"        "Fire Crystal"
+    }
+    "2"
+    {
+        "HP_counter"        "lv2_ice_boss_hp"
+        "CustomText"        "Ice Crystal"
+    }
+}

@@ -1,0 +1,57 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "delo_counter"
+        "HPbar_counter"     "boss_hp_iterations"
+        "HPinit_counter"    "boss_hp_backup"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "5"
+        "HPbar_mode"        "1"
+        "CustomText"        "Cannon"
+    }
+    "1"
+    {
+        "HP_counter"        "pirate_counter"
+        "HPbar_counter"     "pirate_hp_iterations"
+        "HPinit_counter"    "pirate_hp_backup"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "5"
+        "HPbar_mode"        "1"
+        "CustomText"        "Snow Maiden"
+    }
+    "2"
+    {
+        "HP_counter"        "barbossa_counter"
+        "HPbar_counter"     "barbossa_hp_iterations"
+        "Hpinit_counter"    "barbossa_hp_backup"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "5"
+        "HPbar_mode"        "1"
+        "CustomText"        "Bad Santa"
+    }
+    "3"
+    {
+        "HP_counter"        "kraken_counter"
+        "HPbar_counter"     "kraken_hp_iterations"
+        "HPinit_counter"    "kraken_hp_backup"
+        "HPbar_min"         "0"
+        "HPbar_max"         "8"
+        "HPbar_default"     "8"
+        "HPbar_mode"        "1"
+        "CustomText"        "True Santa"
+    }
+    "4"
+    {
+        "HP_counter"        "final_barbossa_counter2"
+        "CustomText"        "Bad Santa"
+    }
+    "5"
+    {
+        "HP_counter"        "final_barbossa_counter"
+        "CustomText"        "Bad Santa"
+    }
+}
