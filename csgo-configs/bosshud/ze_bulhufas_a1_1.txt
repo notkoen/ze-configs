@@ -1,8 +1,0 @@
-"match_Counter"
-{
-    "0"
-    {
-        "HP_counter"        "boss_hp"
-        "CustomText"        "Boss"
-    }
-}

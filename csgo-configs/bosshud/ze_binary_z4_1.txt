@@ -1,5 +1,0 @@
-"math_counter"
-{
-    "HP_counter"        "Leven"
-    "CustomText"        "Tree"
-}
