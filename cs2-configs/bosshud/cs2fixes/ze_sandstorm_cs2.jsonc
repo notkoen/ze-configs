@@ -1,33 +1,33 @@
 [
     // Boss health is handled by map scripts, so this config is for hitmarkers
     {
-        "hitmarkeronly":    true,
-        "showbeaten":       false,
-        "maxhp":            999999.0,
-        "breakable":        "sss5_l_laser_hitbox"
+        "hitmarkeronly": true,
+        "showbeaten": false,
+        "maxhp": 999999.0,
+        "breakable": "sss5_l_laser_hitbox"
     },
     {
-        "hitmarkeronly":    true,
-        "showbeaten":       false,
-        "maxhp":            999999.0,
-        "breakable":        "garg_hitbox"
+        "hitmarkeronly": true,
+        "showbeaten": false,
+        "maxhp": 999999.0,
+        "breakable": "garg_hitbox"
     },
     {
-        "hitmarkeronly":    true,
-        "showbeaten":       false,
-        "maxhp":            999999.0,
-        "breakable":        "mutant_hitbox1"
+        "hitmarkeronly": true,
+        "showbeaten": false,
+        "maxhp": 999999.0,
+        "breakable": "mutant_hitbox1"
     },
     {
-        "hitmarkeronly":    true,
-        "showbeaten":       false,
-        "maxhp":            999999.0,
-        "breakable":        "grg_hitbox"
+        "hitmarkeronly": true,
+        "showbeaten": false,
+        "maxhp": 999999.0,
+        "breakable": "grg_hitbox"
     },
     {
-        "hitmarkeronly":    true,
-        "showbeaten":       false,
-        "maxhp":            999999.0,
-        "breakable":        "mutant_hitbox"
+        "hitmarkeronly": true,
+        "showbeaten": false,
+        "maxhp": 999999.0,
+        "breakable": "mutant_hitbox"
     }
 ]

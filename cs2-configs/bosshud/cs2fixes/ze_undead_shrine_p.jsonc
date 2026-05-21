@@ -1,9 +1,9 @@
 [
     {
-        "name":             "Dragon",
-        "counter":          "dragon_hp"
+        "name": "Dragon",
+        "counter": "dragon_hp"
     },
     {
-        "counter":          "boss_hp"
+        "counter": "boss_hp"
     }
 ]

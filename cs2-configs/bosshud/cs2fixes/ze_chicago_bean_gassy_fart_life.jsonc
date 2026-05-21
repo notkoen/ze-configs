@@ -1,9 +1,9 @@
 [
     {
-        "name":             "Mr. Roth",
-        "breakable":        "seph_hp"
+        "name": "Mr. Roth",
+        "breakable": "seph_hp"
     },
     {
-        "breakable":        "bosss_hp"
+        "breakable": "bosss_hp"
     }
 ]

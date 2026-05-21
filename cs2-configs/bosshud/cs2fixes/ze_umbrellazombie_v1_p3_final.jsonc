@@ -1,6 +1,6 @@
 [
     {
-        "name":             "Machine",
-        "breakable":        "boss_heal"
+        "name": "Machine",
+        "breakable": "boss_heal"
     }
 ]

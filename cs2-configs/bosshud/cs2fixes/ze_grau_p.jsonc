@@ -1,7 +1,7 @@
 [
     {
-        "name":             "Smoke Ball",
-        "counter":          "counter_st3_boss_vida",
-        "iterator":         "counter_st3_boss_vida_bar"
+        "name": "Smoke Ball",
+        "counter": "counter_st3_boss_vida",
+        "iterator": "counter_st3_boss_vida_bar"
     }
 ]

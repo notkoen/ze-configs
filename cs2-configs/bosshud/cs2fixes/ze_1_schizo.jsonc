@@ -1,10 +1,10 @@
 [
     {
-        "name":             "Sorcerer",
-        "breakable":        "boss_heal"
+        "name": "Sorcerer",
+        "breakable": "boss_heal"
     },
     {
-        "name":             "Cube",
-        "breakable":        "boss_lvl3_heal"
+        "name": "Cube",
+        "breakable": "boss_lvl3_heal"
     }
 ]
