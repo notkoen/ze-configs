@@ -1,69 +1,69 @@
 {
-	"modify": [
-		// Offset item position after AG2 update
-		{
-			"match": {
-				"targetname": "[PR#]Weapon_Berserk_Effect"
-			},
-			"replace": {
-				"origin": "32.000000 -2.000000 -8.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Weapon_Berserk_Add_Speed"
-			},
-			"replace": {
-				"origin": "32.000000 0.000000 -8.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Item_Berserk_Button"
-			},
-			"replace": {
-				"origin": "24.000000 -2.000000 20.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Item_Berserk_Spawner_Ammo"
-			},
-			"replace": {
-				"origin": "18.000000 0.000000 -32.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Weapon_Berserk_Add_Ammo"
-			},
-			"replace": {
-				"origin": "32.000000 -2.000000 -8.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Item_Berserk_Spawner_Speed"
-			},
-			"replace": {
-				"origin": "18.000000 0.000000 -32.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Item_Berserk_Switch"
-			},
-			"replace": {
-				"origin": "0.000000 -2.000000 44.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Item_Berserk_Check"
-			},
-			"replace": {
-				"origin": "0.000000 -2.000000 0.000000"
-			}
-		}
-	]
+  "modify": [
+    // Offset item position after AG2 update
+    {
+      "match": {
+        "targetname": "[PR#]Weapon_Berserk_Effect"
+      },
+      "replace": {
+        "origin": "32.000000 -2.000000 -8.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Weapon_Berserk_Add_Speed"
+      },
+      "replace": {
+        "origin": "32.000000 0.000000 -8.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Item_Berserk_Button"
+      },
+      "replace": {
+        "origin": "24.000000 -2.000000 20.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Item_Berserk_Spawner_Ammo"
+      },
+      "replace": {
+        "origin": "18.000000 0.000000 -32.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Weapon_Berserk_Add_Ammo"
+      },
+      "replace": {
+        "origin": "32.000000 -2.000000 -8.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Item_Berserk_Spawner_Speed"
+      },
+      "replace": {
+        "origin": "18.000000 0.000000 -32.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Item_Berserk_Switch"
+      },
+      "replace": {
+        "origin": "0.000000 -2.000000 44.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Item_Berserk_Check"
+      },
+      "replace": {
+        "origin": "0.000000 -2.000000 0.000000"
+      }
+    }
+  ]
 }

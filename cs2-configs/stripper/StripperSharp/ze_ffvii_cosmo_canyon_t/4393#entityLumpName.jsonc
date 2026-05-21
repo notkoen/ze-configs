@@ -1,67 +1,67 @@
 {
-	"modify": [
-		// Offset item position after AG2 update
-		{
-			"match": {
-				"targetname": "[PR#]Item_Z_Confuse_button"
-			},
-			"insert": {
-				"origin": "23.000000 0.000000 24.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Item_Z_Confuse_eff"
-			},
-			"insert": {
-				"origin": "23.000000 0.000000 4.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Item_Z_Confuse_particle"
-			},
-			"insert": {
-				"origin": "0.000000 0.000000 -32.000000"
-			}
-		},
-		// Fix weapon strip
-		{
-			"match": {
-				"targetname": "[PR#]Item_Z_Confuse_Stripper"
-			},
-			"delete": {
-				"connections": [
-					{
-						"output": "OnStartTouch",
-						"target": "[PR#]Strip_Knife",
-						"input": "Trigger",
-						"param": "",
-						"delay": 0,
-						"limit": -1
-					}
-				]
-			},
-			"insert": {
-				"connections": [
-					{
-						"output": "OnTrigger",
-						"target": "[PR#]Map_Stripper",
-						"input": "Use",
-						"param": "",
-						"delay": 0.0,
-						"limit": 1
-					},
-					{
-						"output": "OnTrigger",
-						"target": "!self",
-						"input": "Kill",
-						"param": "",
-						"delay": 0.05,
-						"limit": 1
-					}
-				]
-			}
-		}
-	]
+  "modify": [
+    // Offset item position after AG2 update
+    {
+      "match": {
+        "targetname": "[PR#]Item_Z_Confuse_button"
+      },
+      "insert": {
+        "origin": "23.000000 0.000000 24.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Item_Z_Confuse_eff"
+      },
+      "insert": {
+        "origin": "23.000000 0.000000 4.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Item_Z_Confuse_particle"
+      },
+      "insert": {
+        "origin": "0.000000 0.000000 -32.000000"
+      }
+    },
+    // Fix weapon strip
+    {
+      "match": {
+        "targetname": "[PR#]Item_Z_Confuse_Stripper"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnStartTouch",
+            "target": "[PR#]Strip_Knife",
+            "input": "Trigger",
+            "param": "",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]Map_Stripper",
+            "input": "Use",
+            "param": "",
+            "delay": 0.0,
+            "limit": 1
+          },
+          {
+            "output": "OnTrigger",
+            "target": "!self",
+            "input": "Kill",
+            "param": "",
+            "delay": 0.05,
+            "limit": 1
+          }
+        ]
+      }
+    }
+  ]
 }

@@ -1,34 +1,34 @@
 {
-	"modify": [
-		// Rework boss health to use counter instead
-		{
-			"match": {
-				"targetname": "[PR#]3Genesis_Laser_Hurt&0000"
-			},
-			"delete": {
-				"io": [
-					{
-						"outputname": "OnStartTouch",
-						"targetname": "[PR#]Csomo_Genesis_Final_Breakable",
-						"inputname": "RemoveHealth",
-						"overrideparam": "80",
-						"delay": 0,
-						"timestofire": -1
-					}
-				]
-			},
-			"insert": {
-				"io": [
-					{
-						"outputname": "OnStartTouch",
-						"targetname": "[PR#]Final_Genesis_Counter",
-						"inputname": "Subtract",
-						"overrideparam": "30",
-						"delay": 0,
-						"timestofire": -1
-					}
-				]
-			}
-		}
-	]
+  "modify": [
+    // Rework boss health to use counter instead
+    {
+      "match": {
+        "targetname": "[PR#]3Genesis_Laser_Hurt&0000"
+      },
+      "delete": {
+        "io": [
+          {
+            "outputname": "OnStartTouch",
+            "targetname": "[PR#]Csomo_Genesis_Final_Breakable",
+            "inputname": "RemoveHealth",
+            "overrideparam": "80",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnStartTouch",
+            "targetname": "[PR#]Final_Genesis_Counter",
+            "inputname": "Subtract",
+            "overrideparam": "30",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      }
+    }
+  ]
 }

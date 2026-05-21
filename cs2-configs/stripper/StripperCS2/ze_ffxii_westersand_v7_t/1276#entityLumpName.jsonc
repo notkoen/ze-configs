@@ -1,29 +1,29 @@
 {
-	"modify": [
-		// Offset item height after AG2 update
-		{
-			"match": {
-				"targetname": "[PR#]Staff_Water_Button"
-			},
-			"replace": {
-				"origin": "0.000000 0.000000 28.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Staff_Water_Move"
-			},
-			"replace": {
-				"origin": "0.000000 -16.000000 -32.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Staff_Water_Entity_Maker"
-			},
-			"replace": {
-				"origin": "24.000000 0.000000 -20.000000"
-			}
-		}
-	]
+  "modify": [
+    // Offset item height after AG2 update
+    {
+      "match": {
+        "targetname": "[PR#]Staff_Water_Button"
+      },
+      "replace": {
+        "origin": "0.000000 0.000000 28.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Staff_Water_Move"
+      },
+      "replace": {
+        "origin": "0.000000 -16.000000 -32.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Staff_Water_Entity_Maker"
+      },
+      "replace": {
+        "origin": "24.000000 0.000000 -20.000000"
+      }
+    }
+  ]
 }

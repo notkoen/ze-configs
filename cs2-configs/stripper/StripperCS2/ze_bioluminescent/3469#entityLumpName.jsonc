@@ -1,13 +1,13 @@
 {
-	"modify": [
-		// Fix visible angle props
-		{
-			"match": {
-				"targetname": "[PR#]vzw_angle&0000"
-			},
-			"replace": {
-				"rendermode": "2"
-			}
-		}
-	]
+  "modify": [
+    // Fix visible angle props
+    {
+      "match": {
+        "targetname": "[PR#]vzw_angle&0000"
+      },
+      "replace": {
+        "rendermode": "2"
+      }
+    }
+  ]
 }

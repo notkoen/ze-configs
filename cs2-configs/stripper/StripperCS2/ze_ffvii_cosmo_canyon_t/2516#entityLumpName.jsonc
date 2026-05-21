@@ -1,13 +1,13 @@
 {
-	"modify": [
-		// Fix incorrect rendermode
-		{
-			"match": {
-				"targetname": "[PR#]Baha_Model"
-			},
-			"replace": {
-				"rendermode": "0"
-			}
-		}
-	]
+  "modify": [
+    // Fix incorrect rendermode
+    {
+      "match": {
+        "targetname": "[PR#]Baha_Model"
+      },
+      "replace": {
+        "rendermode": "0"
+      }
+    }
+  ]
 }

@@ -1,14 +1,14 @@
 {
-	"modify": [
-		// Fix incorect rendermode
-		{
-			"match": {
-				"classname": "prop_dynamic",
-				"targetname": "[PR#]shiva_model"
-			},
-			"replace": {
-				"rendermode": "0"
-			}
-		}
-	]
+  "modify": [
+    // Fix incorect rendermode
+    {
+      "match": {
+        "classname": "prop_dynamic",
+        "targetname": "[PR#]shiva_model"
+      },
+      "replace": {
+        "rendermode": "0"
+      }
+    }
+  ]
 }

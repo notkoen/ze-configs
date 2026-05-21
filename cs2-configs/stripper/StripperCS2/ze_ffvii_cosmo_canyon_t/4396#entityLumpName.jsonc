@@ -1,37 +1,37 @@
 {
-	"modify": [
-		// Offset item position after AG2 update
-		{
-			"match": {
-				"targetname": "[PR#]Item_Electro_Button"
-			},
-			"replace": {
-				"origin": "24.000000 0.000000 16.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Weapon_Electro_Effect"
-			},
-			"replace": {
-				"origin": "33.000000 0.000000 0.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Item_Electro_Spawner"
-			},
-			"replace": {
-				"origin": "18.000000 0.000000 -16.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Beam_Electro"
-			},
-			"replace": {
-				"origin": "33.000000 0.000000 0.000000"
-			}
-		}
-	]
+  "modify": [
+    // Offset item position after AG2 update
+    {
+      "match": {
+        "targetname": "[PR#]Item_Electro_Button"
+      },
+      "replace": {
+        "origin": "24.000000 0.000000 16.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Weapon_Electro_Effect"
+      },
+      "replace": {
+        "origin": "33.000000 0.000000 0.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Item_Electro_Spawner"
+      },
+      "replace": {
+        "origin": "18.000000 0.000000 -16.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Beam_Electro"
+      },
+      "replace": {
+        "origin": "33.000000 0.000000 0.000000"
+      }
+    }
+  ]
 }

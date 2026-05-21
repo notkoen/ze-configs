@@ -1,21 +1,21 @@
 {
-	"modify": [
-		// Fix boss attack direction
-		{
-			"match": {
-				"targetname": "[PR#]st3_boss_a4_drot1"
-			},
-			"replace": {
-				"spawnflags": "4124"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]st3_boss_a4_drot2"
-			},
-			"replace": {
-				"spawnflags": "4126"
-			}
-		}
-	]
+  "modify": [
+    // Fix boss attack direction
+    {
+      "match": {
+        "targetname": "[PR#]st3_boss_a4_drot1"
+      },
+      "replace": {
+        "spawnflags": "4124"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]st3_boss_a4_drot2"
+      },
+      "replace": {
+        "spawnflags": "4126"
+      }
+    }
+  ]
 }

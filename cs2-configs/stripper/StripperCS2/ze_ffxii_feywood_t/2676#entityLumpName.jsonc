@@ -1,67 +1,67 @@
 {
-	"modify": [
-		// Offset item position after AG2 update
-		{
-			"match": {
-				"targetname": "[PR#]Weapon_Z_Heal_Effect"
-			},
-			"replace": {
-				"origin": "28.000000 0.000000 -20.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Item_Z_Heal_Button"
-			},
-			"replace": {
-				"origin": "19.000000 0.000000 16.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Item_Z_Heal_Effect"
-			},
-			"replace": {
-				"origin": "-5.000000 0.000000 -40.000000"
-			}
-		},
-		// Fix weapon strip
-		{
-			"match": {
-				"targetname": "[PR#]Weapon_Z_Heal_Pickup"
-			},
-			"delete": {
-				"io": [
-					{
-						"outputname": "OnTrigger",
-						"targetname": "[PR#]Strip_Knife",
-						"inputname": "Trigger",
-						"overrideparam": "",
-						"delay": 0,
-						"timestofire": -1
-					}
-				]
-			},
-			"insert": {
-				"io": [
-					{
-						"outputname": "OnTrigger",
-						"targetname": "[PR#]Map_Stripper",
-						"inputname": "Use",
-						"overrideparam": "",
-						"delay": 0.0,
-						"timestofire": -1
-					},
-					{
-						"outputname": "OnTrigger",
-						"targetname": "!self",
-						"inputname": "Kill",
-						"overrideparam": "",
-						"delay": 0.05,
-						"timestofire": -1
-					}
-				]
-			}
-		}
-	]
+  "modify": [
+    // Offset item position after AG2 update
+    {
+      "match": {
+        "targetname": "[PR#]Weapon_Z_Heal_Effect"
+      },
+      "replace": {
+        "origin": "28.000000 0.000000 -20.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Item_Z_Heal_Button"
+      },
+      "replace": {
+        "origin": "19.000000 0.000000 16.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Item_Z_Heal_Effect"
+      },
+      "replace": {
+        "origin": "-5.000000 0.000000 -40.000000"
+      }
+    },
+    // Fix weapon strip
+    {
+      "match": {
+        "targetname": "[PR#]Weapon_Z_Heal_Pickup"
+      },
+      "delete": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]Strip_Knife",
+            "inputname": "Trigger",
+            "overrideparam": "",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]Map_Stripper",
+            "inputname": "Use",
+            "overrideparam": "",
+            "delay": 0.0,
+            "timestofire": -1
+          },
+          {
+            "outputname": "OnTrigger",
+            "targetname": "!self",
+            "inputname": "Kill",
+            "overrideparam": "",
+            "delay": 0.05,
+            "timestofire": -1
+          }
+        ]
+      }
+    }
+  ]
 }
