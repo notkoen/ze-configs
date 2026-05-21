@@ -1,10 +1,10 @@
 [
     {
-        "name":             "Snorlax",
-        "breakable":        "stage1_snorlax health"
+        "name": "Snorlax",
+        "breakable": "stage1_snorlax health"
     },
     {
-        "name":             "Pidgeotto",
-        "breakable":        "gym1_boss_health"
+        "name": "Pidgeotto",
+        "breakable": "gym1_boss_health"
     }
 ]

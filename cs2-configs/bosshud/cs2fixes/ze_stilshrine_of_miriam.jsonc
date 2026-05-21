@@ -1,43 +1,43 @@
 [
     {
-        "name":             "Bergan",
-        "counter":          "Stage4_Boss_Bergan_HP_Main",
-        "iterator":         "Stage4_Boss_Bergan_HP_End"
+        "name": "Bergan",
+        "counter": "Stage4_Boss_Bergan_HP_Main",
+        "iterator": "Stage4_Boss_Bergan_HP_End"
     },
     {
-        "name":             "Mateus",
-        "counter":          "Mateus_Health_HP_Main",
-        "iterator":         "Mateus_Health_End"
+        "name": "Mateus",
+        "counter": "Mateus_Health_HP_Main",
+        "iterator": "Mateus_Health_End"
     },
     {
-        "name":             "Gabranth",
-        "counter":          "Stage-1_Ending_Gabranth_HP"
+        "name": "Gabranth",
+        "counter": "Stage-1_Ending_Gabranth_HP"
     },
     {
-        "name":             "Gabranth",
-        "counter":          "Stage-1_Gabranth_HP_Main",
-        "iterator":         "Stage-1_Gabranth_HP_End"
+        "name": "Gabranth",
+        "counter": "Stage-1_Gabranth_HP_Main",
+        "iterator": "Stage-1_Gabranth_HP_End"
     },
     {
-        "name":             "Bergan",
-        "counter":          "Stage4_Ending_Bergan_HP"
+        "name": "Bergan",
+        "counter": "Stage4_Ending_Bergan_HP"
     },
     {
-        "name":             "Dragon Aevis",
-        "counter":          "Dragon_Aevis_Health_HP_Main",
-        "iterator":         "Dragon_Aevis_Health_End"
+        "name": "Dragon Aevis",
+        "counter": "Dragon_Aevis_Health_HP_Main",
+        "iterator": "Dragon_Aevis_Health_End"
     },
     {
-        "name":             "Myath",
-        "counter":          "Hydro_Health"
+        "name": "Myath",
+        "counter": "Hydro_Health"
     },
     {
-        "name":             "Mateus",
-        "counter":          "Stage3_End_Guard_HP"
+        "name": "Mateus",
+        "counter": "Stage3_End_Guard_HP"
     },
     {
-        "name":             "Cactus",
-        "showbeaten":       false,
-        "breakable":        "Stage4_MiniBoss_Breakable"
+        "name": "Cactus",
+        "showbeaten": false,
+        "breakable": "Stage4_MiniBoss_Breakable"
     }
 ]

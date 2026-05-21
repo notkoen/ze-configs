@@ -1,10 +1,10 @@
 [
     {
-        "name":             "Zangeki",
-        "breakable":        "zangeki_health"
+        "name": "Zangeki",
+        "breakable": "zangeki_health"
     },
     {
-        "name":             "Dragon",
-        "breakable":        "boss_health"
+        "name": "Dragon",
+        "breakable": "boss_health"
     }
 ]

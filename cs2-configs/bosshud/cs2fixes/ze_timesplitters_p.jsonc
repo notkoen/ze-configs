@@ -1,6 +1,6 @@
 [
     {
-        "name":             "Reaper Splitter",
-        "counter":          "BossHPCounter"
+        "name": "Reaper Splitter",
+        "counter": "BossHPCounter"
     }
 ]

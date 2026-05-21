@@ -1,15 +1,15 @@
 [
     {
-        "name":             "Houndeye",
-        "counter":          "s1_boss_health_counter"
+        "name": "Houndeye",
+        "counter": "s1_boss_health_counter"
     },
     {
-        "counter":          "s2_boss_health_counter"
+        "counter": "s2_boss_health_counter"
     },
     {
-        "counter":          "s3_boss_health_counter"
+        "counter": "s3_boss_health_counter"
     },
     {
-        "breakable":        "s3_laser_boss_break"
+        "breakable": "s3_laser_boss_break"
     }
 ]

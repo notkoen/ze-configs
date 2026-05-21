@@ -1,6 +1,6 @@
 [
     {
-        "name":             "boss_hp",
-        "counter":          "Boss"
+        "name": "boss_hp",
+        "counter": "Boss"
     }
 ]

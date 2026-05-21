@@ -1,10 +1,10 @@
 [
     {
-        "name":             "Guardian",
-        "counter":          "Boss_Health"
+        "name": "Guardian",
+        "counter": "Boss_Health"
     },
     {
-        "name":             "Red Guardian",
-        "breakable":        "physbox"
+        "name": "Red Guardian",
+        "breakable": "physbox"
     }
 ]
