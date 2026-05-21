@@ -1,22 +1,22 @@
 {
-	"modify": [
-		// Add stripper credit
-		{
-			"match": {
-				"classname": "logic_auto"
-			},
-			"insert": {
-				"io": [
-					{
-						"outputname": "OnMapSpawn",
-						"targetname": "[PR#]sc",
-						"inputname": "Command",
-						"overrideparam": "say *** Boss 激光方向由 koen 修复 ***",
-						"delay": 5,
-						"timestofire": 1
-					}
-				]
-			}
-		}
-	]
+  "modify": [
+    // Add stripper credit
+    {
+      "match": {
+        "classname": "logic_auto"
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnMapSpawn",
+            "targetname": "[PR#]sc",
+            "inputname": "Command",
+            "overrideparam": "say *** Boss 激光方向由 koen 修复 ***",
+            "delay": 5,
+            "timestofire": 1
+          }
+        ]
+      }
+    }
+  ]
 }

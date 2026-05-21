@@ -1,29 +1,29 @@
 {
-	"modify": [
-		// Offset item position after AG2 update
-		{
-			"match": {
-				"targetname": "[PR#]Item_Earth_Button"
-			},
-			"replace": {
-				"origin": "24.000000 0.000000 16.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Weapon_Earth_Effect"
-			},
-			"replace": {
-				"origin": "33.000000 0.000000 0.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Item_Earth_Spawner"
-			},
-			"replace": {
-				"origin": "250.000000 0.000000 0.000000"
-			}
-		}
-	]
+  "modify": [
+    // Offset item position after AG2 update
+    {
+      "match": {
+        "targetname": "[PR#]Item_Earth_Button"
+      },
+      "replace": {
+        "origin": "24.000000 0.000000 16.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Weapon_Earth_Effect"
+      },
+      "replace": {
+        "origin": "33.000000 0.000000 0.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Item_Earth_Spawner"
+      },
+      "replace": {
+        "origin": "250.000000 0.000000 0.000000"
+      }
+    }
+  ]
 }

@@ -4,72 +4,72 @@
     {
       "match": {
         "targetname": "[PR#]Weapon_Z_Ice_Effect"
-    	},
-			"replace": {
-				"origin": "32.000000 0.000000 -8.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Item_Z_Ice_Button"
-			},
-			"replace": {
-				"origin": "19.000000 0.000000 16.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Item_Z_Ice_Trigger"
-			},
-			"replace": {
-				"origin": "-11.000000 0.000000 0.000000"
-			}
-		},
-		{
-			"match": {
-				"targetname": "[PR#]Item_Z_Ice_Effect"
-			},
-			"replace": {
-				"origin": "0.000000 0.000000 -32.000000"
-			}
-		},
-		// Fix weapon strip
-		{
-			"match": {
-				"targetname": "[PR#]Weapon_Z_Ice_Pickup"
-			},
-			"delete": {
-				"io": [
-					{
-						"outputname": "OnTrigger",
-						"targetname": "[PR#]Strip_Knife",
-						"inputname": "Trigger",
-						"overrideparam": "",
-						"delay": 0,
-						"timestofire": -1
-					}
-				]
-			},
-			"insert": {
-				"io": [
-					{
-						"outputname": "OnTrigger",
-						"targetname": "[PR#]Map_Stripper",
-						"inputname": "Use",
-						"overrideparam": "",
-						"delay": 0.0,
-						"timestofire": 1
-					},
-					{
-						"outputname": "OnTrigger",
-						"targetname": "!self",
-						"inputname": "Kill",
-						"overrideparam": "",
-						"delay": 0.05,
-						"timestofire": 1
-					}
-				]
-			}
-		}
-	]
+      },
+      "replace": {
+        "origin": "32.000000 0.000000 -8.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Item_Z_Ice_Button"
+      },
+      "replace": {
+        "origin": "19.000000 0.000000 16.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Item_Z_Ice_Trigger"
+      },
+      "replace": {
+        "origin": "-11.000000 0.000000 0.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Item_Z_Ice_Effect"
+      },
+      "replace": {
+        "origin": "0.000000 0.000000 -32.000000"
+      }
+    },
+    // Fix weapon strip
+    {
+      "match": {
+        "targetname": "[PR#]Weapon_Z_Ice_Pickup"
+      },
+      "delete": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]Strip_Knife",
+            "inputname": "Trigger",
+            "overrideparam": "",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]Map_Stripper",
+            "inputname": "Use",
+            "overrideparam": "",
+            "delay": 0.0,
+            "timestofire": 1
+          },
+          {
+            "outputname": "OnTrigger",
+            "targetname": "!self",
+            "inputname": "Kill",
+            "overrideparam": "",
+            "delay": 0.05,
+            "timestofire": 1
+          }
+        ]
+      }
+    }
+  ]
 }

@@ -1,62 +1,62 @@
 {
-	"modify": [
-		// Offset item position after AG2 update
-		{
-			"match": {
-				"classname": "prop_dynamic",
-				"targetname": "[PR#]CactusZM_Z"
-			},
-			"insert": {
-				"origin": "0.000000 26.000000 -40.000000"
-			}
-		},
-		{
-			"match": {
-				"classname": "trigger_multiple",
-				"targetname": "[PR#]CactusZM_Z_Speed_Gain"
-			},
-			"insert": {
-				"origin": "0.000000 -4.000000 -8.000000"
-			}
-		},
-		// Fix weapon strip
-		{
-			"match": {
-				"classname": "trigger_multiple",
-				"targetname": "[PR#]CactusZM_Z_Pickup"
-			},
-			"delete": {
-				"connections": [
-					{
-						"output": "OnTrigger",
-						"target": "[PR#]Strip_Knife",
-						"input": "Trigger",
-						"param": "",
-						"delay": 0,
-						"limit": -1
-					}
-				]
-			},
-			"insert": {
-				"connections": [
-					{
-						"output": "OnTrigger",
-						"target": "[PR#]Map_Stripper",
-						"input": "Use",
-						"param": "",
-						"delay": 0.0,
-						"limit": 1
-					},
-					{
-						"output": "OnTrigger",
-						"target": "!self",
-						"input": "Kill",
-						"param": "",
-						"delay": 0.05,
-						"limit": 1
-					}
-				]
-			}
-		}
-	]
+  "modify": [
+    // Offset item position after AG2 update
+    {
+      "match": {
+        "classname": "prop_dynamic",
+        "targetname": "[PR#]CactusZM_Z"
+      },
+      "insert": {
+        "origin": "0.000000 26.000000 -40.000000"
+      }
+    },
+    {
+      "match": {
+        "classname": "trigger_multiple",
+        "targetname": "[PR#]CactusZM_Z_Speed_Gain"
+      },
+      "insert": {
+        "origin": "0.000000 -4.000000 -8.000000"
+      }
+    },
+    // Fix weapon strip
+    {
+      "match": {
+        "classname": "trigger_multiple",
+        "targetname": "[PR#]CactusZM_Z_Pickup"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]Strip_Knife",
+            "input": "Trigger",
+            "param": "",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]Map_Stripper",
+            "input": "Use",
+            "param": "",
+            "delay": 0.0,
+            "limit": 1
+          },
+          {
+            "output": "OnTrigger",
+            "target": "!self",
+            "input": "Kill",
+            "param": "",
+            "delay": 0.05,
+            "limit": 1
+          }
+        ]
+      }
+    }
+  ]
 }

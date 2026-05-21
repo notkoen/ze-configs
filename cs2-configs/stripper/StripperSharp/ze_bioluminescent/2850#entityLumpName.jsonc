@@ -1,13 +1,13 @@
 {
-	"modify": [
-		// Fix visible angle props
-		{
-			"match": {
-				"targetname": "[PR#]brxw_angle&0000"
-			},
-			"insert": {
-				"rendermode": "2"
-			}
-		}
-	]
+  "modify": [
+    // Fix visible angle props
+    {
+      "match": {
+        "targetname": "[PR#]brxw_angle&0000"
+      },
+      "insert": {
+        "rendermode": "2"
+      }
+    }
+  ]
 }

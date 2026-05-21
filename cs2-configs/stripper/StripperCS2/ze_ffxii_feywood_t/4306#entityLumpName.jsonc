@@ -1,13 +1,13 @@
 {
-	"modify": [
-		// Offset item position after AG2 update
-		{
-			"match": {
-				"targetname": "[PR#]Chocobo_Human"
-			},
-			"replace": {
-				"origin": "4.000000 0.000000 -64.000000"
-			}
-		}
-	]
+  "modify": [
+    // Offset item position after AG2 update
+    {
+      "match": {
+        "targetname": "[PR#]Chocobo_Human"
+      },
+      "replace": {
+        "origin": "4.000000 0.000000 -64.000000"
+      }
+    }
+  ]
 }

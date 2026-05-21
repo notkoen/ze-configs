@@ -1,13 +1,13 @@
 {
-	"modify": [
-		// Filter race trigger to humans only because zombies are faster
-		{
-			"match": {
-				"targetname": "[PR#]race_finish"
-			},
-			"insert": {
-				"filtername": "[PR#]ct"
-			}
-		}
-	]
+  "modify": [
+    // Filter race trigger to humans only because zombies are faster
+    {
+      "match": {
+        "targetname": "[PR#]race_finish"
+      },
+      "insert": {
+        "filtername": "[PR#]ct"
+      }
+    }
+  ]
 }

@@ -1,22 +1,22 @@
 {
-	"modify": [
-		// Add stripper credit
-		{
-			"match": {
-				"classname": "logic_auto"
-			},
-			"insert": {
-				"io": [
-					{
-						"outputname": "OnMapSpawn",
-						"targetname": "[PR#]cmd",
-						"inputname": "Command",
-						"overrideparam": "say *** 未隐形弹幕模型及神器高度由 koen 修复 ***",
-						"delay": 5,
-						"timestofire": 1
-					}
-				]
-			}
-		}
-	]
+  "modify": [
+    // Add stripper credit
+    {
+      "match": {
+        "classname": "logic_auto"
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnMapSpawn",
+            "targetname": "[PR#]cmd",
+            "inputname": "Command",
+            "overrideparam": "say *** 未隐形弹幕模型及神器高度由 koen 修复 ***",
+            "delay": 5,
+            "timestofire": 1
+          }
+        ]
+      }
+    }
+  ]
 }
