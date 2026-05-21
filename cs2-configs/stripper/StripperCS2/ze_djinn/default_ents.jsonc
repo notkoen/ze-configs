@@ -2,12 +2,10 @@
   // Remove practice mode from the map
   "modify": [
     {
-      "match":
-      {
+      "match": {
         "classname": "logic_auto"
       },
-      "delete":
-      {
+      "delete": {
         "io": [
           {
             "outputname": "OnMapSpawn",
@@ -17,12 +15,10 @@
       }
     },
     {
-      "match":
-      {
+      "match": {
         "targetname": "[PR#]phase4_Hitbox"
       },
-      "delete":
-      {
+      "delete": {
         "io": [
           {
             "outputname": "OnBreak",
