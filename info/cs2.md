@@ -534,35 +534,35 @@ This version of EntWatch is publicly available [here](https://github.com/darkerz
 Find entity classnames that start with `weapon_` as a starting point for creating EntWatch configs. For each item you're going to want a new block in the root array. The format is available below.
 
 List of available colors:
-- {default}
-- {darkred}
-- {purple}
-- {green}
-- {lightgreen}
-- {lime}
-- {red}
-- {grey}
+- {default} - [255,255,255,1]
+- {darkred} - [255,0,0,1]
+- {purple} - [128,0,128,1]
+- {green} - [0,255,0,1]
+- {lightgreen} - [0,255,0,1]
+- {lime} - [0,255,0,1]
+- {red} - [255,0,0,1]
+- {grey} - [128,128,128,1]
 - {team}
-- {red2}
-- {olive}
+- {red2} - [255,0,0,1]
+- {olive} - [128,128,0,1]
 - {a}
-- {lightblue}
-- {blue}
+- {lightblue} - [0,255,255,1]
+- {blue} - [0,255,255,1]
 - {d}
-- {pink}
-- {darkorange}
-- {orange}
-- {darkblue}
-- {gold}
-- {white}
-- {yellow}
-- {magenta}
-- {silver}
-- {bluegrey}
-- {lightred}
-- {cyan}
-- {gray}
-- {lightyellow}
+- {pink} - [255,105,180,1]
+- {darkorange} - [255,165,0,1]
+- {orange} - [255,165,0,1]
+- {darkblue} - [0,0,255,1]
+- {gold} - [255,255,0,1]
+- {white} - [255,255,255,1]
+- {yellow} - [255,255,0,1]
+- {magenta} - [255,105,180,1]
+- {silver} - [128,128,128,1]
+- {bluegrey} - [0,255,255,1]
+- {lightred} - [255,0,0,1]
+- {cyan} - [0,255,255,1]
+- {gray} - [128,128,128,1]
+- {lightyellow} - [255,255,0,1]
 
 ```jsonc
 [
