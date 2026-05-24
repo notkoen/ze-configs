@@ -236,15 +236,6 @@
                 "maxuses": 0,
                 "message": false,
                 "ui": true
-            },
-            {
-                "hammerid": "9737",
-                "event": "OnTrigger",
-                "mode": 2,
-                "cooldown": 40,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
             }
         ]
     },
