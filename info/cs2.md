@@ -44,39 +44,39 @@ List of available colors:
 
 ```jsonc
 [
-    {
-        "name": "Item Name",            // Name of item that appears in chat
-        "shortname": "Short Name",      // Name of item that appears on the HUD
-        "hammerid": "",                 // Hammerid of the weapon entity
-        "message": true,                // Whether to show pickup/drop messages in chat
-        "ui": true,                     // Whether to show this item on the HUD
-        "transfer": true,               // Whether to allow this item to be transferred (this auto detects false for knife items)
-        "color": "",                    // Color of the item for chat messages (see list of colors)
-        "triggers": [""],               // Array of hammerids of any triggers that this item is associated with
-        "templated": true,              // Whether the entity of this handler is templated with the item weapon, (auto detected if not specified)
-        "handlers": [
-            {
-                "name": "Handler",          // extra name to show in chat when used e.g. XXX has used Item Name (Handler)
-                "type": "button",           // "button",
-                                            // "counterdown" - counter stops OnHitMin
-                                            // "counterup" - counter stops OnHitMax
-                                            // (anything else is ignored)
-                "hammerid": "",             // hammerid of the entity
-                "event": "OnPressed",       // Name of the output, counterup/down types always force "OutValue"
-                "mode": 2,                  // Mode of the handler
-                                            //  0/1 = None
-                                            //  2 = Cooldown,           3 = MaxUses (cooldown between each)
-                                            //  4 = CooldownAfterUses,  5 = CounterValue
-                "offset": [0,0],            // ADDS the specified offset to counter values,
-                                            // First number is counter value, Second is counter max
-                "cooldown": 0,              // Cooldown duration if mode = 2,3,4
-                "maxuses": 0,               // Maxuses if mode = 3,4
-                "message": true,            // Whether to show when this is used in chat
-                "ui": true,                 // Whether to track this handler on the HUD
-                "templated": true           // Whether the entity of this handler is templated with the item weapon,
-            }                               //  (this will attempt to auto detect if not specified)
-        ]
-    }
+  {
+    "name": "Item Name",            // Name of item that appears in chat
+    "shortname": "Short Name",      // Name of item that appears on the HUD
+    "hammerid": "",                 // Hammerid of the weapon entity
+    "message": true,                // Whether to show pickup/drop messages in chat
+    "ui": true,                     // Whether to show this item on the HUD
+    "transfer": true,               // Whether to allow this item to be transferred (this auto detects false for knife items)
+    "color": "",                    // Color of the item for chat messages (see list of colors)
+    "triggers": [""],               // Array of hammerids of any triggers that this item is associated with
+    "templated": true,              // Whether the entity of this handler is templated with the item weapon, (auto detected if not specified)
+    "handlers": [
+      {
+        "name": "Handler",          // extra name to show in chat when used e.g. XXX has used Item Name (Handler)
+        "type": "button",           // "button",
+                                    // "counterdown" - counter stops OnHitMin
+                                    // "counterup" - counter stops OnHitMax
+                                    // (anything else is ignored)
+        "hammerid": "",             // hammerid of the entity
+        "event": "OnPressed",       // Name of the output, counterup/down types always force "OutValue"
+        "mode": 2,                  // Mode of the handler
+                                    //  0/1 = None
+                                    //  2 = Cooldown,           3 = MaxUses (cooldown between each)
+                                    //  4 = CooldownAfterUses,  5 = CounterValue
+        "offset": [0,0],            // ADDS the specified offset to counter values,
+                                    // First number is counter value, Second is counter max
+        "cooldown": 0,              // Cooldown duration if mode = 2,3,4
+        "maxuses": 0,               // Maxuses if mode = 3,4
+        "message": true,            // Whether to show when this is used in chat
+        "ui": true,                 // Whether to track this handler on the HUD
+        "templated": true           // Whether the entity of this handler is templated with the item weapon,
+      }                             //  (this will attempt to auto detect if not specified)
+    ]
+  }
 ]
 ```
 
@@ -85,82 +85,82 @@ List of available colors:
 
 ```jsonc
 [
-    // Full Config
-    {
-        "name": "",
-        "shortname": "",
+  // Full Config
+  {
+    "name": "",
+    "shortname": "",
+    "hammerid": "",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "",
+    "triggers": [""],
+    "templated": true,
+    "handlers": [
+      {
+        "name": "Handler",
+        "type": "button",
         "hammerid": "",
+        "event": "OnPressed",
+        "mode": 0,
+        "cooldown": 0,
+        "maxuses": 0,
+        "offset": [0,0],
         "message": true,
         "ui": true,
-        "transfer": true,
-        "color": "",
-        "triggers": [""],
-        "templated": true,
-        "handlers": [
-            {
-                "name": "Handler",
-                "type": "button",
-                "hammerid": "",
-                "event": "OnPressed",
-                "mode": 0,
-                "cooldown": 0,
-                "maxuses": 0,
-                "offset": [0,0],
-                "message": true,
-                "ui": true,
-                "templated": true
-            }
-        ]
-    },
-    // Regular button
-    {
-        "name": "",
-        "shortname": "",
+        "templated": true
+      }
+    ]
+  },
+  // Regular button
+  {
+    "name": "",
+    "shortname": "",
+    "hammerid": "",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "",
+    "triggers": [""],
+    "handlers": [
+      {
+        "type": "button",
         "hammerid": "",
+        "event": "OnPressed",
+        "mode": 0,
+        "cooldown": 0,
+        "maxuses": 0,
         "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "",
-        "triggers": [""],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "",
-                "event": "OnPressed",
-                "mode": 0,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    // Button and filter separate (most reliable)
-    {
-        "name": "",
-        "shortname": "",
+        "ui": true
+      }
+    ]
+  },
+  // Button and filter separate (most reliable)
+  {
+    "name": "",
+    "shortname": "",
+    "hammerid": "",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "",
+    "triggers": [""],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": ""
+      },
+      {
         "hammerid": "",
+        "event": "OnPass",
+        "mode": 0,
+        "cooldown": 0,
+        "maxuses": 0,
         "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "",
-        "triggers": [""],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": ""
-            },
-            {
-                "hammerid": "",
-                "event": "OnPass",
-                "mode": 0,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
+        "ui": true
+      }
+    ]
+  },
 ]
 ```
 </details>
@@ -174,86 +174,52 @@ Find entity classnames that are either `math_counter`, `func_breakable`, or `fun
 
 ```jsonc
 [
+  {
+    "name": "",                 // OPTIONAL - (string) Name of boss that appears in hud
+    "breakable": "",            // Targetname/Hammerid of breakable
+    "counter": "",              // Targetname/Hammerid of counter
+    "iterator": "",             // OPTIONAL - Targetname/Hammerid of hp iterator (segments)
+    "backup": "",               // OPTIONAL - Targetname/Hammerid of hp backup
+
+    "trigger":                  // OPTIONAL - Specifies the event that triggers the boss
     {
-        "name": "",                 // OPTIONAL - (string) Name of boss that appears in hud
-        "breakable": "",            // Targetname/Hammerid of breakable
-        "counter": "",              // Targetname/Hammerid of counter
-        "iterator": "",             // OPTIONAL - Targetname/Hammerid of hp iterator (segments)
-        "backup": "",               // OPTIONAL - Targetname/Hammerid of hp backup
-
-        "trigger":                  // OPTIONAL - Specifies the event that triggers the boss
-        {
-            "ent": "",              // (string) Targetname/Hammerid of entity
-            "output": "",           // (string) Output of entity
-            "delay": 0.0            // OPTIONAL - (float) Delay after output that starts boss
-        },
-
-        "showtrigger":              // OPTIONAL - Specifies event that starts displaying boss health
-        {
-            "ent": "",              // (string) Targetname/Hammerid of entity
-            "output": "",           // (string) Output of entity
-            "delay": 0.0            // OPTIONAL - (float) Delay after event that shows boss health
-        },
-
-        "killtrigger":              // OPTIONAL - Specifies event that force kills the boss
-        {
-            "ent": "",              // (string) Targetname/Hammerid of entity
-            "output": "",           // (string) Output of entity
-            "delay": 0.0            // OPTIONAL - (float) Delay after event that force kills boss
-        },
-
-        "hurttrigger":              // OPTIONAL - Specifies event that is considered as damaging the boss
-        {
-            "ent": "",              // (string) Targetname/hammerid of entity
-            "output": ""            // (string) Output of entity
-        },
-
-        "reversecounter": false,    // OPTIONAL - (bool) Whether counter should be reversed
-        "reverseiterator": false,   // OPTIONAL - (bool) Whether iterator should be reversed
-        "hitmarkeronly": false,     // OPTIONAL - (bool) Whether only hitmarkers should be shown when hitting boss
-        "minorhud": false,          // OPTIONAL - (bool) Whether boss should should be displayed as no-bar hud variant
-        "multitrigger": false,      // OPTIONAL - (bool) Whether boss can be triggered multiple times (multiple instances)
-        "templated": false,         // OPTIONAL - (bool) Whether boss is templated and has name fixup
-        "showbeaten": true,         // OPTIONAL - (bool) Whether top boss damage should be displayed after boss death
-        "timeout": 0.0,             // OPTIONAL - (float) Specify time before boss health is hidden after taking no damage
-        "offset": 0.0,              // OPTIONAL - (float) Specify amount of health to ADD to displayed health (negative to subtract)
-        "offsetiterator": 0.0,      // OPTIONAL - (float) Specify amount of iterator segments to ADD to displayed health (negative to subtract)
-        "maxhp": 0.0                // OPTIONAL - (float) If the boss has more than this HP, it will not start showing on the HUD (0.0 = no limit)
+      "ent": "",                // (string) Targetname/Hammerid of entity
+      "output": "",             // (string) Output of entity
+      "delay": 0.0              // OPTIONAL - (float) Delay after output that starts boss
     },
 
-    // Breakable type boss
+    "showtrigger":              // OPTIONAL - Specifies event that starts displaying boss health
     {
-        "name": "",
-        "breakable": ""
+      "ent": "",                // (string) Targetname/Hammerid of entity
+      "output": "",             // (string) Output of entity
+      "delay": 0.0              // OPTIONAL - (float) Delay after event that shows boss health
     },
 
-    // Counter type boss
+    "killtrigger":              // OPTIONAL - Specifies event that force kills the boss
     {
-        "name": "",
-        "counter": ""
+      "ent": "",                // (string) Targetname/Hammerid of entity
+      "output": "",             // (string) Output of entity
+      "delay": 0.0              // OPTIONAL - (float) Delay after event that force kills boss
     },
 
-    // Counter, backup, and iterator type boss
+    "hurttrigger":              // OPTIONAL - Specifies event that is considered as damaging the boss
     {
-        "name": "",
-        "counter": "",
-        "backup": "",
-        "iterator": ""
+      "ent": "",                // (string) Targetname/hammerid of entity
+      "output": ""              // (string) Output of entity
     },
 
-    // Counter and iterator type boss
-    {
-        "name": "",
-        "counter": "",
-        "iterator": ""
-    },
-
-    // Breakable and iterator type boss
-    {
-        "name": "",
-        "breakable": "",
-        "iterator": ""
-    }
+    "reversecounter": false,    // OPTIONAL - (bool) Whether counter should be reversed
+    "reverseiterator": false,   // OPTIONAL - (bool) Whether iterator should be reversed
+    "hitmarkeronly": false,     // OPTIONAL - (bool) Whether only hitmarkers should be shown when hitting boss
+    "minorhud": false,          // OPTIONAL - (bool) Whether boss should should be displayed as no-bar hud variant
+    "multitrigger": false,      // OPTIONAL - (bool) Whether boss can be triggered multiple times (multiple instances)
+    "templated": false,         // OPTIONAL - (bool) Whether boss is templated and has name fixup
+    "showbeaten": true,         // OPTIONAL - (bool) Whether top boss damage should be displayed after boss death
+    "timeout": 0.0,             // OPTIONAL - (float) Specify time before boss health is hidden after taking no damage
+    "offset": 0.0,              // OPTIONAL - (float) Specify amount of health to ADD to displayed health (negative to subtract)
+    "offsetiterator": 0.0,      // OPTIONAL - (float) Specify amount of iterator segments to ADD to displayed health (negative to subtract)
+    "maxhp": 0.0                // OPTIONAL - (float) If the boss has more than this HP, it will not start showing on the HUD (0.0 = no limit)
+  }
 ]
 ```
 
@@ -262,63 +228,63 @@ Find entity classnames that are either `math_counter`, `func_breakable`, or `fun
 
 ```jsonc
 [
-    // Full config
-    {
-        "name": "",
-        "breakable": "",
-        "counter": "",
-        "iterator": "",
-        "backup": "",
-        "trigger": { "ent": "", "output": "", "delay": 0.0 },
-        "showtrigger": { "ent": "", "output": "", "delay": 0.0 },
-        "killtrigger": { "ent": "", "output": "", "delay": 0.0 },
-        "hurttrigger": { "ent": "", "output": "" },
-        "reversecounter": false,
-        "reverseiterator": false,
-        "hitmarkeronly": false,
-        "minorhud": false,
-        "multitrigger": false,
-        "templated": false,
-        "showbeaten": true,
-        "timeout": 0.0,
-        "offset": 0.0,
-        "offsetiterator": 0.0,
-        "maxhp": 0.0
-    },
+  // Full config
+  {
+    "name": "",
+    "breakable": "",
+    "counter": "",
+    "iterator": "",
+    "backup": "",
+    "trigger": { "ent": "", "output": "", "delay": 0.0 },
+    "showtrigger": { "ent": "", "output": "", "delay": 0.0 },
+    "killtrigger": { "ent": "", "output": "", "delay": 0.0 },
+    "hurttrigger": { "ent": "", "output": "" },
+    "reversecounter": false,
+    "reverseiterator": false,
+    "hitmarkeronly": false,
+    "minorhud": false,
+    "multitrigger": false,
+    "templated": false,
+    "showbeaten": true,
+    "timeout": 0.0,
+    "offset": 0.0,
+    "offsetiterator": 0.0,
+    "maxhp": 0.0
+  },
 
-    // Breakable type boss
-    {
-        "name": "",
-        "breakable": ""
-    },
+  // Breakable type boss
+  {
+    "name": "",
+    "breakable": ""
+  },
 
-    // Counter type boss
-    {
-        "name": "",
-        "counter": ""
-    },
+  // Counter type boss
+  {
+    "name": "",
+    "counter": ""
+  },
 
-    // Counter, backup, and iterator type boss
-    {
-        "name": "",
-        "counter": "",
-        "backup": "",
-        "iterator": ""
-    },
+  // Counter, backup, and iterator type boss
+  {
+    "name": "",
+    "counter": "",
+    "backup": "",
+    "iterator": ""
+  },
 
-    // Counter and iterator type boss
-    {
-        "name": "",
-        "counter": "",
-        "iterator": ""
-    },
+  // Counter and iterator type boss
+  {
+    "name": "",
+    "counter": "",
+    "iterator": ""
+  },
 
-    // Breakable and iterator type boss
-    {
-        "name": "",
-        "breakable": "",
-        "iterator": ""
-    }
+  // Breakable and iterator type boss
+  {
+    "name": "",
+    "breakable": "",
+    "iterator": ""
+  }
 ]
 ```
 </details>
@@ -333,17 +299,17 @@ The AdminRoom feature is exclusive to GFL's version of CS2Fixes. All admin room 
 
 ```jsonc
 [
-    {
-        "Name": "",                     // Name of item that appears in chat
-        "ShortName": "",                // Name of item that appears in HUD
-        "HammerId": "",                 // Hammerid of the weapon entity
-        "ButtonClass": "",              // Classname of handler: "func_button", "logic_relay"
-        "ButtonHammerId": "",           // Hammerid or targetname of handler
-        "ButtonInput": "",              // Outputname of handler
-        "ShowHud": true,                // Whether to show this item on the HUD
-        "Cooldown": 0,                  // Cooldown duration in seconds
-        "MaxUses": 0                    // Maxuses in one round
-    },
+  {
+    "Name": "",                 // Name of item that appears in chat
+    "ShortName": "",            // Name of item that appears in HUD
+    "HammerId": "",             // Hammerid of the weapon entity
+    "ButtonClass": "",          // Classname of handler: "func_button", "logic_relay"
+    "ButtonHammerId": "",       // Hammerid or targetname of handler
+    "ButtonInput": "",          // Outputname of handler
+    "ShowHud": true,            // Whether to show this item on the HUD
+    "Cooldown": 0,              // Cooldown duration in seconds
+    "MaxUses": 0                // Maxuses in one round
+  },
 ]
 ```
 
@@ -352,17 +318,17 @@ The AdminRoom feature is exclusive to GFL's version of CS2Fixes. All admin room 
 
 ```jsonc
 [
-    {
-        "Name": "",
-        "ShortName": "",
-        "HammerId": "",
-        "ButtonClass": "",
-        "ButtonHammerId": "",
-        "ButtonInput": "",
-        "ShowHud": true,
-        "Cooldown": 0,
-        "MaxUses": 0
-    },
+  {
+    "Name": "",
+    "ShortName": "",
+    "HammerId": "",
+    "ButtonClass": "",
+    "ButtonHammerId": "",
+    "ButtonInput": "",
+    "ShowHud": true,
+    "Cooldown": 0,
+    "MaxUses": 0
+  },
 ]
 ```
 </details>
@@ -371,27 +337,27 @@ The AdminRoom feature is exclusive to GFL's version of CS2Fixes. All admin room 
 
 ```jsonc
 {
-    "MathCounterConfigs": [             // Math counter based bosses
-        {
-            "DisplayName": "",          // Name of boss that appears in hud
-            "HpCounter": ""             // Targetname of counter
-        },
-        {
-            "DisplayName": "",          // Name of boss that appears in hud
-            "HpCounter": "",            // Targetname of main counter
-            "HpBarCounter": "",         // Targetname of iterator counter
-            "HpBarCounterAdd0": true,   // (unknown, leave it at default)
-            "HpBarAdd": true,           // Whether iterator is reverse (OnHitMax output)
-            "HpBarMin": 0,              // Iterator min value (leave empty defaults to min)
-            "HpBarMax": 0               // Iterator max value (leave empty defaults to max)
-        }
-    ],
-    "BreakableConfigs": [               // Breakable bosses
-        {
-            "DisplayName": "",          // Name of boss that appears in hud
-            "EntityName": ""            // Targetname of breakable
-        }
-    ]
+  "MathCounterConfigs": [         // Math counter based bosses
+    {
+      "DisplayName": "",          // Name of boss that appears in hud
+      "HpCounter": ""             // Targetname of counter
+    },
+    {
+      "DisplayName": "",          // Name of boss that appears in hud
+      "HpCounter": "",            // Targetname of main counter
+      "HpBarCounter": "",         // Targetname of iterator counter
+      "HpBarCounterAdd0": true,   // (unknown, leave it at default)
+      "HpBarAdd": false,          // Whether iterator is reverse (OnHitMax output)
+      "HpBarMin": 0,              // Iterator min value (leave empty defaults to min)
+      "HpBarMax": 0               // Iterator max value (leave empty defaults to max)
+    }
+  ],
+  "BreakableConfigs": [           // Breakable bosses
+    {
+      "DisplayName": "",          // Name of boss that appears in hud
+      "EntityName": ""            // Targetname of breakable
+    }
+  ]
 }
 ```
 
@@ -400,27 +366,27 @@ The AdminRoom feature is exclusive to GFL's version of CS2Fixes. All admin room 
 
 ```jsonc
 {
-    "MathCounterConfigs": [
-        {
-            "DisplayName": "",
-            "HpCounter": ""
-        },
-        {
-            "DisplayName": "",
-            "HpCounter": "",
-            "HpBarCounter": "",
-            "HpBarCounterAdd0": true,
-            "HpBarAdd": true,
-            "HpBarMin": 0,
-            "HpBarMax": 0
-        }
-    ],
-    "BreakableConfigs": [
-        {
-            "DisplayName": "",
-            "EntityName": ""
-        }
-    ]
+  "MathCounterConfigs": [
+    {
+      "DisplayName": "",
+      "HpCounter": ""
+    },
+    {
+      "DisplayName": "",
+      "HpCounter": "",
+      "HpBarCounter": "",
+      "HpBarCounterAdd0": true,
+      "HpBarAdd": true,
+      "HpBarMin": 0,
+      "HpBarMax": 0
+    }
+  ],
+  "BreakableConfigs": [
+    {
+      "DisplayName": "",
+      "EntityName": ""
+    }
+  ]
 }
 ```
 </details>
@@ -566,52 +532,52 @@ List of available colors:
 
 ```jsonc
 [
-    {
-        "Name": "",                         // String, Name of item that appears in chat
-        "ShortName": "",                    // String, Name of item that appears on the HUD
-        "Color": "",                        // String, Color of the item for chat messages (see list of colors)
-        "HammerID": "",                     // String, HammerID of the weapon entity
-        "GlowColor": [0,0,0,0],             // Array[4], Color of the item for weapon glow
-        "BlockPickup": false,               // Bool, Whether to allow this item to be picked up
-        "AllowTransfer": false,             // Bool, Whether to allow this item to be transferred
-        "ForceDrop": false,                 // Bool, Whether to drop this item on player death/disconnect
-        "Chat": false,                      // Bool, Whether to show pickup/drop messages in chat
-        "Hud": false,                       // Bool, Whether to show this item on the HUD
-        "TriggerID": "",                    // String, HammerID of trigger associated with the item such as strip trigger
-        "UsePriority": false,               // Bool, enabled by default. Whether to enable auto button press on +use detection
-        "SpawnerID": "",                    // String, HammerID of item template
-        "AbilityList": [                    // Array of abilities
-            {
-                "Name": "",                 // String, Custom ability name, can be omitted
-                "ButtonID": "",             // String, HammerID of button or game_ui entity
-                "ButtonClass": "",          // String, Button class
-                                            // "func_button" - button activation
-                                            // "game_ui::PressedAttack" - game_ui PressedAttack activation
-                                            // "game_ui::PressedAttack2" - game_ui PressedAttack2 activation
-                "Filter": "",               // String, Item activation filter
-                                            // Targetname - filter_activator_name
-                                            // $attribute - filter_activator_attribute_int
-                                            // context:value - filter_activator_context
-                "Chat_Uses": false,         // Bool, Whether to show item use messages if chat is disabled
-                "Mode": 0,                  // Integer, Mode for item.
-                                            //  0 = No button            1 = Spammable items,
-                                            //  2 = Cooldown             3 = MaxUses (no cooldown)
-                                            //  4 = MaxUses (cooldown)   5 = CooldownAfterUses
-                                            //  6 = OnHitMin counter     7 = OnHitMax counter
-                                            //  8 = ButtonHealth
-                "MaxUses": 0,               // Integer, Maxuses if mode = 3,4,5
-                "CoolDown": 0,              // Integer, Cooldown duration if mode = 2,4,5
-                "Ignore": false,            // Bool, Whether to show item cooldown on HUD
-                "LockItem": false,          // Bool, Whether to block item activation
-                "MathID": "",               // String, Counter HammerID if mode = 6,7
-                "MathNameFix": false,       // Bool, Whether to account for name fixup for counter
-                "MathFindSpawned": false,   // Bool, Whether to look for counter after weapon spawn
-                                            //  (For counters not in item template and item spawns later)
-                "MathDontShowMax": false,   // Bool, Whether to show counter max value
-                "MathZero": false           // Bool, Whether to allow button press when counter value is zero
-            }
-        ]
-    }
+  {
+    "Name": "",                     // String, Name of item that appears in chat
+    "ShortName": "",                // String, Name of item that appears on the HUD
+    "Color": "",                    // String, Color of the item for chat messages (see list of colors)
+    "HammerID": "",                 // String, HammerID of the weapon entity
+    "GlowColor": [0,0,0,0],         // Array[4], Color of the item for weapon glow
+    "BlockPickup": false,           // Bool, Whether to allow this item to be picked up
+    "AllowTransfer": false,         // Bool, Whether to allow this item to be transferred
+    "ForceDrop": false,             // Bool, Whether to drop this item on player death/disconnect
+    "Chat": false,                  // Bool, Whether to show pickup/drop messages in chat
+    "Hud": false,                   // Bool, Whether to show this item on the HUD
+    "TriggerID": "",                // String, HammerID of trigger associated with the item such as strip trigger
+    "UsePriority": false,           // Bool, enabled by default. Whether to enable auto button press on +use detection
+    "SpawnerID": "",                // String, HammerID of item template
+    "AbilityList": [                // Array of abilities
+      {
+        "Name": "",                 // String, Custom ability name, can be omitted
+        "ButtonID": "",             // String, HammerID of button or game_ui entity
+        "ButtonClass": "",          // String, Button class
+                                    // "func_button" - button activation
+                                    // "game_ui::PressedAttack" - game_ui PressedAttack activation
+                                    // "game_ui::PressedAttack2" - game_ui PressedAttack2 activation
+        "Filter": "",               // String, Item activation filter
+                                    // Targetname - filter_activator_name
+                                    // $attribute - filter_activator_attribute_int
+                                    // context:value - filter_activator_context
+        "Chat_Uses": false,         // Bool, Whether to show item use messages if chat is disabled
+        "Mode": 0,                  // Integer, Mode for item.
+                                    //  0 = No button            1 = Spammable items,
+                                    //  2 = Cooldown             3 = MaxUses (no cooldown)
+                                    //  4 = MaxUses (cooldown)   5 = CooldownAfterUses
+                                    //  6 = OnHitMin counter     7 = OnHitMax counter
+                                    //  8 = ButtonHealth
+        "MaxUses": 0,               // Integer, Maxuses if mode = 3,4,5
+        "CoolDown": 0,              // Integer, Cooldown duration if mode = 2,4,5
+        "Ignore": false,            // Bool, Whether to show item cooldown on HUD
+        "LockItem": false,          // Bool, Whether to block item activation
+        "MathID": "",               // String, Counter HammerID if mode = 6,7
+        "MathNameFix": false,       // Bool, Whether to account for name fixup for counter
+        "MathFindSpawned": false,   // Bool, Whether to look for counter after weapon spawn
+                                    //  (For counters not in item template and item spawns later)
+        "MathDontShowMax": false,   // Bool, Whether to show counter max value
+        "MathZero": false           // Bool, Whether to allow button press when counter value is zero
+      }
+    ]
+  }
 ]
 ```
 
@@ -620,40 +586,40 @@ List of available colors:
 
 ```jsonc
 [
-    {
+  {
+    "Name": "",
+    "ShortName": "",
+    "Color": "",
+    "HammerID": "",
+    "GlowColor": [0,0,0,0],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": false,
+    "Hud": false,
+    "TriggerID": "",
+    "UsePriority": false,
+    "SpawnerID": "",
+    "AbilityList": [
+      {
         "Name": "",
-        "ShortName": "",
-        "Color": "",
-        "HammerID": "",
-        "GlowColor": [0,0,0,0],
-        "BlockPickup": false,
-        "AllowTransfer": false,
-        "ForceDrop": false,
-        "Chat": false,
-        "Hud": false,
-        "TriggerID": "",
-        "UsePriority": false,
-        "SpawnerID": "",
-        "AbilityList": [
-            {
-                "Name": "",
-                "ButtonID": "",
-                "ButtonClass": "",
-                "Filter": "",
-                "Chat_Uses": false,
-                "Mode": 0,
-                "MaxUses": 0,
-                "CoolDown": 0,
-                "Ignore": false,
-                "LockItem": false,
-                "MathID": "",
-                "MathNameFix": false,
-                "MathFindSpawned": false,
-                "MathDontShowMax": false,
-                "MathZero": false
-            }
-        ]
-    }
+        "ButtonID": "",
+        "ButtonClass": "",
+        "Filter": "",
+        "Chat_Uses": false,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "LockItem": false,
+        "MathID": "",
+        "MathNameFix": false,
+        "MathFindSpawned": false,
+        "MathDontShowMax": false,
+        "MathZero": false
+      }
+    ]
+  }
 ]
 ```
 </details>
