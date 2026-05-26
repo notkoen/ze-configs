@@ -2,21 +2,17 @@
   {
     "Name": "RPG",
     "ShortName": "RPG",
-    "Color": "{default}",
+    "Color": "{red}",
     "HammerID": "357",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,0,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "buttonRocketLauncher",
         "ButtonID": "110",
         "ButtonClass": "func_button",
         "Filter": "RocketUser:1",

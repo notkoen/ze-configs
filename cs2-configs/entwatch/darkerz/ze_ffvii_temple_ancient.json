@@ -1,22 +1,18 @@
 [
   {
-    "Name": "Electro",
-    "ShortName": "Electro",
-    "Color": "{default}",
+    "Name": "Poison Materia",
+    "ShortName": "Poison",
+    "Color": "{green}",
     "HammerID": "1617",
     "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "electro_button",
         "ButtonID": "4349",
         "ButtonClass": "func_button",
         "Filter": "filter_electro",
@@ -28,23 +24,19 @@
     ]
   },
   {
-    "Name": "Heal",
+    "Name": "Heal Materia",
     "ShortName": "Heal",
     "Color": "{default}",
     "HammerID": "1623",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "heal_button",
         "ButtonID": "4351",
         "ButtonClass": "func_button",
         "Filter": "filter_heal",
@@ -56,23 +48,19 @@
     ]
   },
   {
-    "Name": "Wind",
+    "Name": "Wind Materia",
     "ShortName": "Wind",
-    "Color": "{default}",
+    "Color": "{green}",
     "HammerID": "1628",
     "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "wind_button",
         "ButtonID": "4359",
         "ButtonClass": "func_button",
         "Filter": "filter_wind",
@@ -84,23 +72,19 @@
     ]
   },
   {
-    "Name": "Fire",
+    "Name": "Fire Materia",
     "ShortName": "Fire",
-    "Color": "{default}",
+    "Color": "{red}",
     "HammerID": "1633",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,0,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "fire_button",
         "ButtonID": "4357",
         "ButtonClass": "func_button",
         "Filter": "filter_fire",
@@ -112,23 +96,19 @@
     ]
   },
   {
-    "Name": "Gravity",
-    "ShortName": "Gravity",
-    "Color": "{default}",
+    "Name": "Earth Materia",
+    "ShortName": "Earth",
+    "Color": "{orange}",
     "HammerID": "1638",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,165,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "gravity_button",
         "ButtonID": "4353",
         "ButtonClass": "func_button",
         "Filter": "filter_gravity",
@@ -140,23 +120,19 @@
     ]
   },
   {
-    "Name": "Ice",
+    "Name": "Ice Materia",
     "ShortName": "Ice",
-    "Color": "{default}",
+    "Color": "{blue}",
     "HammerID": "1649",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "ice_button",
         "ButtonID": "4355",
         "ButtonClass": "func_button",
         "Filter": "filter_ice",
@@ -172,27 +148,11 @@
     "ShortName": "Crystal",
     "Color": "{default}",
     "HammerID": "632",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": false,
-    "Hud": true,
-    "TriggerID": "0",
-    "UsePriority": true,
-    "AbilityList": [
-      {
-        "Name": "",
-        "ButtonID": "0",
-        "ButtonClass": "",
-        "Filter": "",
-        "Chat_Uses": true,
-        "Mode": 1,
-        "MaxUses": 0,
-        "CoolDown": 0
-      }
-    ]
+    "Hud": true
   }
 ]

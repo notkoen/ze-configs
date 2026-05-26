@@ -4,7 +4,7 @@
     "ShortName": "Heal",
     "Color": "{default}",
     "HammerID": "4304",
-    "GlowColor": [0,255,0,1],
+    "GlowColor": [255,255,255,1],
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
@@ -22,11 +22,11 @@
     ]
   },
   {
-    "Name": "Electro",
+    "Name": "Blue Spark",
     "ShortName": "Electro",
-    "Color": "{default}",
+    "Color": "{blue}",
     "HammerID": "4299",
-    "GlowColor": [0,255,0,1],
+    "GlowColor": [0,255,255,1],
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
@@ -44,11 +44,11 @@
     ]
   },
   {
-    "Name": "Poison",
+    "Name": "Poison Beam Cannon",
     "ShortName": "Poison",
-    "Color": "{default}",
+    "Color": "{green}",
     "HammerID": "4295",
-    "GlowColor": [255,0,0,1],
+    "GlowColor": [0,255,0,1],
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
@@ -66,11 +66,11 @@
     ]
   },
   {
-    "Name": "Fire",
+    "Name": "Fire Beam Cannon",
     "ShortName": "Fire",
-    "Color": "{default}",
+    "Color": "{orange}",
     "HammerID": "4290",
-    "GlowColor": [0,255,0,1],
+    "GlowColor": [255,165,0,1],
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
@@ -88,11 +88,11 @@
     ]
   },
   {
-    "Name": "Beam",
+    "Name": "Electric Beam Cannon",
     "ShortName": "Beam",
-    "Color": "{default}",
+    "Color": "{blue}",
     "HammerID": "4664",
-    "GlowColor": [0,255,0,1],
+    "GlowColor": [0,255,255,1],
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
@@ -110,11 +110,11 @@
     ]
   },
   {
-    "Name": "Ice",
+    "Name": "Icy Vortex",
     "ShortName": "Ice",
-    "Color": "{default}",
+    "Color": "{blue}",
     "HammerID": "4821",
-    "GlowColor": [0,255,0,1],
+    "GlowColor": [0,255,255,1],
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
@@ -132,9 +132,9 @@
     ]
   },
   {
-    "Name": "Push",
-    "ShortName": "Push",
-    "Color": "{default}",
+    "Name": "Wind Blaster",
+    "ShortName": "Wind",
+    "Color": "{green}",
     "HammerID": "4854",
     "GlowColor": [0,255,0,1],
     "AllowTransfer": true,
@@ -156,9 +156,9 @@
   {
     "Name": "Ammo",
     "ShortName": "Ammo",
-    "Color": "{default}",
+    "Color": "{olive}",
     "HammerID": "14967",
-    "GlowColor": [0,255,0,1],
+    "GlowColor": [128,128,0,1],
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,

@@ -2,39 +2,21 @@
   {
     "Name": "Core",
     "ShortName": "Core",
-    "Color": "{default}",
+    "Color": "{yellow}",
     "HammerID": "1032",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
-    "Hud": true,
-    "TriggerID": "0",
-    "UsePriority": true,
-    "AbilityList": [
-      {
-        "Name": "",
-        "ButtonID": "0",
-        "ButtonClass": "",
-        "Filter": "",
-        "Chat_Uses": true,
-        "Mode": 1,
-        "MaxUses": 0,
-        "CoolDown": 0
-      }
-    ]
+    "Hud": true
   },
   {
-    "Name": "ZM Gigante",
-    "ShortName": "ZM Gigante",
-    "Color": "{default}",
+    "Name": "Zombie Christmas Ogre",
+    "ShortName": "ZM Ogre",
+    "Color": "{red}",
     "HammerID": "4460",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,0,0,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -44,7 +26,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "",
         "ButtonID": "0",
         "ButtonClass": "",
         "Filter": "gigante",
@@ -56,23 +37,19 @@
     ]
   },
   {
-    "Name": "Lantern",
+    "Name": "Magical Lantern",
     "ShortName": "Lantern",
-    "Color": "{default}",
+    "Color": "{yellow}",
     "HammerID": "4480",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "LanternButton",
         "ButtonID": "4494",
         "ButtonClass": "func_button",
         "Filter": "lant",
@@ -84,23 +61,19 @@
     ]
   },
   {
-    "Name": "Snow Rocket",
-    "ShortName": "Snow Rocket",
+    "Name": "Snowball Launcher",
+    "ShortName": "Snowball",
     "Color": "{default}",
     "HammerID": "4502",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "SnowButton",
         "ButtonID": "4513",
         "ButtonClass": "func_button",
         "Filter": "snow",
@@ -112,13 +85,11 @@
     ]
   },
   {
-    "Name": "ZM Fog",
+    "Name": "Zombie Fog",
     "ShortName": "ZM Fog",
-    "Color": "{default}",
+    "Color": "{blue}",
     "HammerID": "4521",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -128,7 +99,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "FogButton",
         "ButtonID": "4529",
         "ButtonClass": "func_button",
         "Filter": "fog",
@@ -140,13 +110,11 @@
     ]
   },
   {
-    "Name": "ZM Tornado",
-    "ShortName": "ZM Tornado",
-    "Color": "{default}",
+    "Name": "Zombie Whirlpool Summoner",
+    "ShortName": "ZM Whirlpool",
+    "Color": "{red}",
     "HammerID": "4542",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,0,0,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -156,7 +124,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "TornadoButton",
         "ButtonID": "4556",
         "ButtonClass": "func_button",
         "Filter": "tornado",
@@ -168,23 +135,19 @@
     ]
   },
   {
-    "Name": "Mine",
-    "ShortName": "Mine",
-    "Color": "{default}",
+    "Name": "Present Placer",
+    "ShortName": "Present",
+    "Color": "{red}",
     "HammerID": "4562",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,0,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "MineButton",
         "ButtonID": "4565",
         "ButtonClass": "func_button",
         "Filter": "zpres",
@@ -192,8 +155,6 @@
         "Mode": 6,
         "MaxUses": 0,
         "CoolDown": 0,
-        "Ignore": false,
-        "LockItem": false,
         "MathID": "4564",
         "MathNameFix": false,
         "MathFindSpawned": true,
@@ -202,23 +163,19 @@
     ]
   },
   {
-    "Name": "IceWall",
-    "ShortName": "IceWall",
-    "Color": "{default}",
+    "Name": "Icewall Spawner",
+    "ShortName": "Icewall",
+    "Color": "{blue}",
     "HammerID": "4587",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "IceButton",
         "ButtonID": "4589",
         "ButtonClass": "func_button",
         "Filter": "icewall",
@@ -230,13 +187,11 @@
     ]
   },
   {
-    "Name": "ZM Boomer",
+    "Name": "Zombie Ice Boomer",
     "ShortName": "ZM Boomer",
-    "Color": "{default}",
+    "Color": "{blue}",
     "HammerID": "4592",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -246,7 +201,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "BoomerButton",
         "ButtonID": "4622",
         "ButtonClass": "func_button",
         "Filter": "boomer",
@@ -258,23 +212,19 @@
     ]
   },
   {
-    "Name": "Ammo",
-    "ShortName": "Ammo",
-    "Color": "{default}",
+    "Name": "Tree Placer",
+    "ShortName": "Tree",
+    "Color": "{green}",
     "HammerID": "4631",
     "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "TreeButton",
         "ButtonID": "4629",
         "ButtonClass": "func_button",
         "Filter": "tree",
@@ -286,23 +236,19 @@
     ]
   },
   {
-    "Name": "Flamethrower",
-    "ShortName": "Flamethrower",
-    "Color": "{default}",
+    "Name": "Napalm Candle",
+    "ShortName": "Napalm",
+    "Color": "{red}",
     "HammerID": "4642",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,0,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "control_lanzallamas",
         "ButtonID": "4640",
         "ButtonClass": "func_button",
         "Filter": "we1",
@@ -310,8 +256,6 @@
         "Mode": 6,
         "MaxUses": 0,
         "CoolDown": 0,
-        "Ignore": false,
-        "LockItem": false,
         "MathID": "4652",
         "MathNameFix": false,
         "MathFindSpawned": false,
@@ -320,13 +264,11 @@
     ]
   },
   {
-    "Name": "ZM Heal",
+    "Name": "Zombie Heal",
     "ShortName": "ZM Heal",
     "Color": "{default}",
     "HammerID": "4670",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -336,7 +278,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Heal_Button",
         "ButtonID": "4672",
         "ButtonClass": "func_button",
         "Filter": "healfil",
@@ -348,13 +289,11 @@
     ]
   },
   {
-    "Name": "ZM Trampoline",
+    "Name": "Zombie Trampoline",
     "ShortName": "ZM Trampoline",
-    "Color": "{default}",
+    "Color": "{grey}",
     "HammerID": "4695",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [128,128,128,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -364,7 +303,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "TrampButton",
         "ButtonID": "4697",
         "ButtonClass": "func_button",
         "Filter": "tramp",
@@ -378,77 +316,41 @@
   {
     "Name": "Hat",
     "ShortName": "Hat",
-    "Color": "{default}",
+    "Color": "{grey}",
     "HammerID": "1179",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [128,128,128,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
-    "Hud": true,
-    "TriggerID": "0",
-    "UsePriority": true,
-    "AbilityList": [
-      {
-        "Name": "",
-        "ButtonID": "0",
-        "ButtonClass": "",
-        "Filter": "",
-        "Chat_Uses": true,
-        "Mode": 1,
-        "MaxUses": 0,
-        "CoolDown": 0
-      }
-    ]
+    "Hud": true
   },
   {
-    "Name": "Dik",
-    "ShortName": "Dik",
-    "Color": "{default}",
+    "Name": "Penis",
+    "ShortName": "Penis",
+    "Color": "{pink}",
     "HammerID": "1180",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,105,180,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
-    "Hud": true,
-    "TriggerID": "0",
-    "UsePriority": true,
-    "AbilityList": [
-      {
-        "Name": "",
-        "ButtonID": "0",
-        "ButtonClass": "",
-        "Filter": "",
-        "Chat_Uses": true,
-        "Mode": 1,
-        "MaxUses": 0,
-        "CoolDown": 0
-      }
-    ]
+    "Hud": true
   },
   {
     "Name": "Banana",
     "ShortName": "Banana",
-    "Color": "{default}",
+    "Color": "{yellow}",
     "HammerID": "1205",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "BananaButton",
         "ButtonID": "1368",
         "ButtonClass": "func_button",
         "Filter": "banana",
@@ -460,31 +362,16 @@
     ]
   },
   {
-    "Name": "ZM sombrero",
-    "ShortName": "ZM sombrero",
-    "Color": "{default}",
+    "Name": "Zombie King",
+    "ShortName": "ZM King",
+    "Color": "{yellow}",
     "HammerID": "1271",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,0,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "1269",
-    "UsePriority": true,
-    "AbilityList": [
-      {
-        "Name": "",
-        "ButtonID": "0",
-        "ButtonClass": "",
-        "Filter": "sombrero",
-        "Chat_Uses": true,
-        "Mode": 1,
-        "MaxUses": 0,
-        "CoolDown": 0
-      }
-    ]
+    "TriggerID": "1269"
   }
 ]

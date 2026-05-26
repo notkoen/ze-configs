@@ -1,22 +1,18 @@
 [
   {
-    "Name": "Barrier Material",
+    "Name": "Barrier Materia",
     "ShortName": "Barrier",
     "Color": "{yellow}",
     "HammerID": "1292",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "item_barrier_btn",
         "ButtonID": "1290",
         "ButtonClass": "func_button",
         "Filter": "player_barrier",
@@ -28,23 +24,19 @@
     ]
   },
   {
-    "Name": "Bio Material",
+    "Name": "Bio Materia",
     "ShortName": "Bio",
     "Color": "{blue}",
     "HammerID": "1284",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "item_bio_btn",
         "ButtonID": "1282",
         "ButtonClass": "func_button",
         "Filter": "player_bio",
@@ -56,23 +48,19 @@
     ]
   },
   {
-    "Name": "Earth Material",
+    "Name": "Earth Materia",
     "ShortName": "Earth",
     "Color": "{orange}",
     "HammerID": "1414",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,165,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "item_earth_btn",
         "ButtonID": "1412",
         "ButtonClass": "func_button",
         "Filter": "player_earth",
@@ -84,23 +72,19 @@
     ]
   },
   {
-    "Name": "Electro Material",
+    "Name": "Electro Materia",
     "ShortName": "Electro",
     "Color": "{darkblue}",
     "HammerID": "1405",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,0,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "item_electro_btn",
         "ButtonID": "1403",
         "ButtonClass": "func_button",
         "Filter": "player_electro",
@@ -108,8 +92,6 @@
         "Mode": 6,
         "MaxUses": 0,
         "CoolDown": 0,
-        "Ignore": false,
-        "LockItem": false,
         "MathID": "1411",
         "MathNameFix": false,
         "MathFindSpawned": false,
@@ -118,23 +100,19 @@
     ]
   },
   {
-    "Name": "Fire Material",
+    "Name": "Fire Materia",
     "ShortName": "Fire",
     "Color": "{red}",
     "HammerID": "1395",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,0,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "item_fire_btn",
         "ButtonID": "1393",
         "ButtonClass": "func_button",
         "Filter": "player_fire",
@@ -146,23 +124,19 @@
     ]
   },
   {
-    "Name": "Gravity Material",
+    "Name": "Gravity Materia",
     "ShortName": "Gravity",
     "Color": "{purple}",
     "HammerID": "1422",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [128,0,128,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "item_gravity_btn",
         "ButtonID": "1420",
         "ButtonClass": "func_button",
         "Filter": "player_gravity",
@@ -174,23 +148,19 @@
     ]
   },
   {
-    "Name": "Heal Material",
+    "Name": "Heal Materia",
     "ShortName": "Heal",
     "Color": "{default}",
     "HammerID": "1334",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "item_heal_btn",
         "ButtonID": "1332",
         "ButtonClass": "func_button",
         "Filter": "player_heal",
@@ -202,23 +172,19 @@
     ]
   },
   {
-    "Name": "Ice Material",
+    "Name": "Ice Materia",
     "ShortName": "Ice",
     "Color": "{blue}",
     "HammerID": "1334",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "item_ice_btn",
         "ButtonID": "1345",
         "ButtonClass": "func_button",
         "Filter": "player_ice",
@@ -230,23 +196,19 @@
     ]
   },
   {
-    "Name": "Mimic Material",
+    "Name": "Mimic Materia",
     "ShortName": "Mimic",
     "Color": "{pink}",
     "HammerID": "828",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,105,180,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "item_mimic_btn",
         "ButtonID": "834",
         "ButtonClass": "func_button",
         "Filter": "player_mimic",
@@ -258,23 +220,19 @@
     ]
   },
   {
-    "Name": "Ultima Material",
+    "Name": "Ultima Materia",
     "ShortName": "Ultima",
     "Color": "{green}",
     "HammerID": "1300",
     "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "item_ultima_btn",
         "ButtonID": "1298",
         "ButtonClass": "func_button",
         "Filter": "player_ultima",
@@ -286,23 +244,19 @@
     ]
   },
   {
-    "Name": "Aqua Material",
+    "Name": "Aqua Materia",
     "ShortName": "Aqua",
     "Color": "{darkblue}",
     "HammerID": "1384",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,0,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "item_water_btn",
         "ButtonID": "1382",
         "ButtonClass": "func_button",
         "Filter": "player_water",
@@ -314,23 +268,19 @@
     ]
   },
   {
-    "Name": "Wind Material",
+    "Name": "Wind Materia",
     "ShortName": "Wind",
     "Color": "{lime}",
     "HammerID": "1314",
     "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "item_wind_btn",
         "ButtonID": "1312",
         "ButtonClass": "func_button",
         "Filter": "player_wind",
@@ -342,23 +292,19 @@
     ]
   },
   {
-    "Name": "Ultima Material",
+    "Name": "Ultima Materia",
     "ShortName": "Ultima",
     "Color": "{green}",
     "HammerID": "566",
     "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Item_Ultima_Button",
         "ButtonID": "500",
         "ButtonClass": "func_button",
         "Filter": "player_wind",
@@ -372,35 +318,13 @@
   {
     "Name": "Sephiroth",
     "ShortName": "Sephiroth",
-    "Color": "{default}",
+    "Color": "{grey}",
     "HammerID": "1854",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [128,128,128,1],
     "BlockPickup": false,
-    "AllowTransfer": true,
-    "ForceDrop": true,
+    "AllowTransfer": false,
+    "ForceDrop": false,
     "Chat": true,
-    "Hud": true,
-    "TriggerID": "0",
-    "UsePriority": true,
-    "AbilityList": [
-      {
-        "Name": "",
-        "ButtonID": "0",
-        "ButtonClass": "",
-        "Filter": "",
-        "Chat_Uses": true,
-        "Mode": 0,
-        "MaxUses": 0,
-        "CoolDown": 0,
-        "Ignore": false,
-        "LockItem": false,
-        "MathID": "0",
-        "MathNameFix": false,
-        "MathFindSpawned": true,
-        "MathDontShowMax": true
-      }
-    ]
+    "Hud": true
   }
 ]

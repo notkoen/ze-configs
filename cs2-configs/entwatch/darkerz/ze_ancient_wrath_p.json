@@ -1,22 +1,18 @@
 [
   {
-    "Name": "Ammo",
+    "Name": "Supply Crate",
     "ShortName": "Ammo",
-    "Color": "{default}",
+    "Color": "{olive}",
     "HammerID": "16487",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [128,128,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "weapon_ammorefill_button",
         "ButtonID": "16488",
         "ButtonClass": "func_button",
         "Filter": "Player_Ammo:1",
@@ -28,23 +24,19 @@
     ]
   },
   {
-    "Name": "Earth",
-    "ShortName": "Earth",
-    "Color": "{default}",
+    "Name": "Metal Debris",
+    "ShortName": "Debris",
+    "Color": "{olive}",
     "HammerID": "16469",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [128,128,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "weapon_earth_button",
         "ButtonID": "16472",
         "ButtonClass": "func_button",
         "Filter": "weapon_earth_player:1",
@@ -56,23 +48,19 @@
     ]
   },
   {
-    "Name": "Electro",
-    "ShortName": "Electro",
-    "Color": "{default}",
+    "Name": "Decelerating Star",
+    "ShortName": "Rift",
+    "Color": "{red}",
     "HammerID": "16491",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,0,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "weapon_electro_button",
         "ButtonID": "16503",
         "ButtonClass": "func_button",
         "Filter": "weapon_electro_player:1",
@@ -84,23 +72,19 @@
     ]
   },
   {
-    "Name": "Push",
+    "Name": "Hovertex",
     "ShortName": "Push",
-    "Color": "{default}",
+    "Color": "{purple}",
     "HammerID": "16544",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [128,0,128,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "weapon_push_button",
         "ButtonID": "16551",
         "ButtonClass": "func_button",
         "Filter": "weapon_push_player:1",
@@ -112,30 +96,30 @@
     ]
   },
   {
-    "Name": "Flamethrower",
-    "ShortName": "Flame",
-    "Color": "{default}",
+    "Name": "Acid Launcher",
+    "ShortName": "Flamethrower",
+    "Color": "{orange}",
     "HammerID": "21055",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,165,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "",
-        "ButtonID": "",
-        "ButtonClass": "",
+        "ButtonID": "21066",
+        "ButtonClass": "func_button",
         "Filter": "weapon_flamethrower_player:1",
-        "Chat_Uses": true,
-        "Mode": 1,
+        "Chat_Uses": false,
+        "Mode": 6,
         "MaxUses": 0,
-        "CoolDown": 0
+        "CoolDown": 0,
+        "MathID": "21058",
+        "MathNameFix": false,
+        "MathFindSpawned": true,
+        "MathDontShowMax": true
       }
     ]
   }

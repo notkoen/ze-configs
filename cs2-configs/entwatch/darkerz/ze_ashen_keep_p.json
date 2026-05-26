@@ -1,20 +1,18 @@
 [
   {
-    "Name": "Flame",
-    "ShortName": "Flame",
-    "Color": "{default}",
+    "Name": "Burning Orb",
+    "ShortName": "Fire",
+    "Color": "{orange}",
     "HammerID": "8569",
-    "GlowColor": [0,255,0,1],
+    "GlowColor": [255,165,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "but_flame",
         "ButtonID": "334",
         "ButtonClass": "func_button",
         "Filter": "flameuser:1",
@@ -26,21 +24,19 @@
     ]
   },
   {
-    "Name": "Ice",
+    "Name": "Glacial Orb",
     "ShortName": "Ice",
-    "Color": "{default}",
+    "Color": "{blue}",
     "HammerID": "8570",
-    "GlowColor": [0,255,0,1],
+    "GlowColor": [0,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "but_ice",
         "ButtonID": "349",
         "ButtonClass": "func_button",
         "Filter": "iceuser:1",
@@ -52,21 +48,19 @@
     ]
   },
   {
-    "Name": "Thunder",
-    "ShortName": "Thunder",
-    "Color": "{default}",
+    "Name": "Lightning Orb",
+    "ShortName": "Lightning",
+    "Color": "{white}",
     "HammerID": "8571",
-    "GlowColor": [0,255,0,1],
+    "GlowColor": [255,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "but_thunder",
         "ButtonID": "364",
         "ButtonClass": "func_button",
         "Filter": "thunderuser:1",
@@ -78,21 +72,19 @@
     ]
   },
   {
-    "Name": "Divine",
+    "Name": "Divine Orb",
     "ShortName": "Divine",
     "Color": "{default}",
     "HammerID": "8572",
-    "GlowColor": [0,255,0,1],
+    "GlowColor": [255,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "but_divine",
         "ButtonID": "379",
         "ButtonClass": "func_button",
         "Filter": "divineuser:1",
@@ -104,47 +96,31 @@
     ]
   },
   {
-    "Name": "Heal",
+    "Name": "Celestial Embrace",
     "ShortName": "Heal",
     "Color": "{default}",
     "HammerID": "8580",
-    "GlowColor": [0,255,0,1],
+    "GlowColor": [255,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
-    "Hud": true,
-    "TriggerID": "0",
-    "UsePriority": true,
-    "AbilityList": [
-      {
-        "Name": "",
-        "ButtonID": "0",
-        "ButtonClass": "",
-        "Filter": "",
-        "Chat_Uses": false,
-        "Mode": 0,
-        "MaxUses": 0,
-        "CoolDown": 0
-      }
-    ]
+    "Hud": true
   },
   {
-    "Name": "Abyss",
+    "Name": "Abyssal Orb",
     "ShortName": "Abyss",
-    "Color": "{default}",
+    "Color": "{purple}",
     "HammerID": "8573",
-    "GlowColor": [0,255,0,1],
+    "GlowColor": [128,0,128,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "but_abyss",
         "ButtonID": "518",
         "ButtonClass": "func_button",
         "Filter": "abyssuser:1",
@@ -160,17 +136,15 @@
     "ShortName": "Gust",
     "Color": "{default}",
     "HammerID": "8574",
-    "GlowColor": [0,255,0,1],
+    "GlowColor": [255,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "but_gust",
         "ButtonID": "533",
         "ButtonClass": "func_button",
         "Filter": "gustuser:1",

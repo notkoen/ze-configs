@@ -4,43 +4,24 @@
     "ShortName": "Chocobo",
     "Color": "{pink}",
     "HammerID": "4359",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,105,180,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
-    "Hud": true,
-    "TriggerID": "0",
-    "UsePriority": true,
-    "AbilityList": [
-      {
-        "Name": "",
-        "ButtonID": "0",
-        "ButtonClass": "",
-        "Filter": "Chocobo_Owner:1",
-        "Chat_Uses": true,
-        "Mode": 1,
-        "MaxUses": 0,
-        "CoolDown": 0
-      }
-    ]
+    "Hud": true
   },
   {
-    "Name": "Berserk",
+    "Name": "Berserk Magick",
     "ShortName": "Berserk",
-    "Color": "{pink}",
+    "Color": "{orange}",
     "HammerID": "4342",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,165,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
@@ -66,23 +47,19 @@
     ]
   },
   {
-    "Name": "Fire",
+    "Name": "Fire Magick",
     "ShortName": "Fire",
-    "Color": "{pink}",
+    "Color": "{red}",
     "HammerID": "2526",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,0,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Item_Fire_Button",
         "ButtonID": "2528",
         "ButtonClass": "func_button",
         "Filter": "Fire_Owner:1",
@@ -94,23 +71,19 @@
     ]
   },
   {
-    "Name": "Electro",
+    "Name": "Electro Magick",
     "ShortName": "Electro",
-    "Color": "{pink}",
+    "Color": "{yellow}",
     "HammerID": "2558",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Item_Electro_Button",
         "ButtonID": "2561",
         "ButtonClass": "func_button",
         "Filter": "Electro_Owner:1",
@@ -122,23 +95,19 @@
     ]
   },
   {
-    "Name": "Ice",
+    "Name": "Ice Magick",
     "ShortName": "Ice",
-    "Color": "{pink}",
+    "Color": "{blue}",
     "HammerID": "2567",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Item_Blizzard_Button",
         "ButtonID": "2569",
         "ButtonClass": "func_button",
         "Filter": "Blizzard_Owner:1",
@@ -150,23 +119,19 @@
     ]
   },
   {
-    "Name": "Gravity",
-    "ShortName": "Gravity",
-    "Color": "{pink}",
+    "Name": "Dark Magick",
+    "ShortName": "Dark",
+    "Color": "{purple}",
     "HammerID": "2576",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [128,0,128,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Item_Darkaga_Button",
         "ButtonID": "2577",
         "ButtonClass": "func_button",
         "Filter": "Darkaga_Owner:1",
@@ -178,23 +143,19 @@
     ]
   },
   {
-    "Name": "Wind",
+    "Name": "Wind Magick",
     "ShortName": "Wind",
-    "Color": "{pink}",
+    "Color": "{green}",
     "HammerID": "2584",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,255,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Item_Wind_Button",
         "ButtonID": "2585",
         "ButtonClass": "func_button",
         "Filter": "Wind_Owner:1",
@@ -206,23 +167,19 @@
     ]
   },
   {
-    "Name": "Heal",
+    "Name": "Heal Magick",
     "ShortName": "Heal",
-    "Color": "{pink}",
+    "Color": "{yellow}",
     "HammerID": "2518",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Item_Heal_Button",
         "ButtonID": "2522",
         "ButtonClass": "func_button",
         "Filter": "Heal_Owner:1",
@@ -234,13 +191,11 @@
     ]
   },
   {
-    "Name": "ZM Heal",
+    "Name": "Zombie Heal Magick",
     "ShortName": "ZM Heal",
-    "Color": "{pink}",
+    "Color": "{default}",
     "HammerID": "2614",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -250,7 +205,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Item_Z_Heal_Button",
         "ButtonID": "2611",
         "ButtonClass": "func_button",
         "Filter": "Heal_Z_Owner:1",
@@ -262,13 +216,11 @@
     ]
   },
   {
-    "Name": "ZM Fire",
+    "Name": "Zombie Fire Magick",
     "ShortName": "ZM Fire",
-    "Color": "{pink}",
+    "Color": "{red}",
     "HammerID": "2630",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,0,0,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -278,7 +230,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Item_Z_Fire_Button",
         "ButtonID": "2631",
         "ButtonClass": "func_button",
         "Filter": "Fire_Z_Owner:1",
@@ -290,13 +241,11 @@
     ]
   },
   {
-    "Name": "ZM Gravity",
-    "ShortName": "ZM Gravity",
-    "Color": "{pink}",
+    "Name": "Zombie Dark Magick",
+    "ShortName": "ZM Dark",
+    "Color": "{purple}",
     "HammerID": "2652",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [128,0,128,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -306,7 +255,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Item_Z_Darkaga_Button",
         "ButtonID": "2647",
         "ButtonClass": "func_button",
         "Filter": "Darkaga_Z_Owner:1",
@@ -318,13 +266,11 @@
     ]
   },
   {
-    "Name": "ZM Warp Kill",
+    "Name": "Zombie Warp Magick",
     "ShortName": "ZM Warp",
-    "Color": "{pink}",
+    "Color": "{darkred}",
     "HammerID": "2663",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,0,0,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -334,7 +280,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Item_Z_Warp_Button",
         "ButtonID": "2658",
         "ButtonClass": "func_button",
         "Filter": "Warp_Z_Owner:1",
@@ -346,31 +291,16 @@
     ]
   },
   {
-    "Name": "ZM Chocobo",
+    "Name": "Zombie Chocobo",
     "ShortName": "ZM Chocobo",
-    "Color": "{pink}",
+    "Color": "{yellow}",
     "HammerID": "4358",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,0,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "4356",
-    "UsePriority": true,
-    "AbilityList": [
-      {
-        "Name": "",
-        "ButtonID": "0",
-        "ButtonClass": "",
-        "Filter": "Chocobo_Z_Owner:1",
-        "Chat_Uses": true,
-        "Mode": 1,
-        "MaxUses": 0,
-        "CoolDown": 0
-      }
-    ]
+    "TriggerID": "4356"
   }
 ]

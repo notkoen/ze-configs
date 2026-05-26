@@ -1,0 +1,36 @@
+[
+    {
+        "Name": "",
+        "ShortName": "",
+        "Color": "",
+        "HammerID": "",
+        "GlowColor": [0,0,0,0],
+        "BlockPickup": false,
+        "AllowTransfer": false,
+        "ForceDrop": false,
+        "Chat": false,
+        "Hud": false,
+        "TriggerID": "",
+        "UsePriority": false,
+        "SpawnerID": "",
+        "AbilityList": [
+            {
+                "Name": "",
+                "ButtonID": "",
+                "ButtonClass": "",
+                "Filter": "",
+                "Chat_Uses": false,
+                "Mode": 0,
+                "MaxUses": 0,
+                "CoolDown": 0,
+                "Ignore": false,
+                "LockItem": false,
+                "MathID": "",
+                "MathNameFix": false,
+                "MathFindSpawned": false,
+                "MathDontShowMax": false,
+                "MathZero": false
+            }
+        ]
+    }
+]

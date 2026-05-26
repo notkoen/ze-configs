@@ -1,22 +1,18 @@
 [
   {
-    "Name": "Heal",
+    "Name": "Heal Magick",
     "ShortName": "Heal",
     "Color": "{default}",
     "HammerID": "13019",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Staff_Heal_Button",
         "ButtonID": "15491",
         "ButtonClass": "func_button",
         "Filter": "User_Heal",
@@ -28,23 +24,19 @@
     ]
   },
   {
-    "Name": "Fire",
+    "Name": "Fire Magick",
     "ShortName": "Fire",
-    "Color": "{default}",
+    "Color": "{orange}",
     "HammerID": "13020",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,165,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Staff_Fire_Button",
         "ButtonID": "15493",
         "ButtonClass": "func_button",
         "Filter": "User_Fire",
@@ -56,23 +48,19 @@
     ]
   },
   {
-    "Name": "Ice",
+    "Name": "Ice Magick",
     "ShortName": "Ice",
-    "Color": "{default}",
+    "Color": "{blue}",
     "HammerID": "13021",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Staff_Ice_Button",
         "ButtonID": "15495",
         "ButtonClass": "func_button",
         "Filter": "User_Ice",
@@ -84,23 +72,19 @@
     ]
   },
   {
-    "Name": "Poison",
+    "Name": "Poison Magick",
     "ShortName": "Poison",
-    "Color": "{default}",
+    "Color": "{green}",
     "HammerID": "13022",
     "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Staff_Poison_Button",
         "ButtonID": "15497",
         "ButtonClass": "func_button",
         "Filter": "User_Poison",
@@ -112,23 +96,19 @@
     ]
   },
   {
-    "Name": "Wind",
+    "Name": "Wind Magick",
     "ShortName": "Wind",
-    "Color": "{default}",
+    "Color": "{green}",
     "HammerID": "13023",
     "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Staff_Wind_Button",
         "ButtonID": "15499",
         "ButtonClass": "func_button",
         "Filter": "User_Wind",
@@ -140,23 +120,19 @@
     ]
   },
   {
-    "Name": "Heal1",
-    "ShortName": "Heal1",
-    "Color": "{default}",
+    "Name": "HP Potion",
+    "ShortName": "HP",
+    "Color": "{grey}",
     "HammerID": "13024",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [128,128,128,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Potion_1_Btn",
         "ButtonID": "15505",
         "ButtonClass": "func_button",
         "Filter": "User_Potion_1",
@@ -168,23 +144,19 @@
     ]
   },
   {
-    "Name": "Heal2",
-    "ShortName": "Heal2",
-    "Color": "{default}",
+    "Name": "HI Potion",
+    "ShortName": "HI",
+    "Color": "{grey}",
     "HammerID": "13025",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [128,128,128,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Potion_2_Btn",
         "ButtonID": "15507",
         "ButtonClass": "func_button",
         "Filter": "User_Potion_2",
@@ -196,23 +168,19 @@
     ]
   },
   {
-    "Name": "Ammo",
+    "Name": "Ammo Potion",
     "ShortName": "Ammo",
-    "Color": "{default}",
+    "Color": "{grey}",
     "HammerID": "13026",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [128,128,128,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Potion_3_Btn",
         "ButtonID": "15509",
         "ButtonClass": "func_button",
         "Filter": "User_Potion_3",
@@ -224,23 +192,19 @@
     ]
   },
   {
-    "Name": "Speed",
+    "Name": "Speed Potion",
     "ShortName": "Speed",
-    "Color": "{default}",
+    "Color": "{grey}",
     "HammerID": "13027",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [128,128,128,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Potion_4_Btn",
         "ButtonID": "15511",
         "ButtonClass": "func_button",
         "Filter": "User_Potion_4",
@@ -252,23 +216,19 @@
     ]
   },
   {
-    "Name": "Holy",
+    "Name": "Holy Potion",
     "ShortName": "Holy",
     "Color": "{default}",
     "HammerID": "13028",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Potion_5_Btn",
         "ButtonID": "15513",
         "ButtonClass": "func_button",
         "Filter": "User_Potion_5",
@@ -280,23 +240,19 @@
     ]
   },
   {
-    "Name": "Esper",
-    "ShortName": "Esper",
-    "Color": "{default}",
+    "Name": "Esper Mateus",
+    "ShortName": "Mateus",
+    "Color": "{blue}",
     "HammerID": "13029",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Esper_Btn",
         "ButtonID": "15517",
         "ButtonClass": "func_button",
         "Filter": "User_Esper",
@@ -308,13 +264,11 @@
     ]
   },
   {
-    "Name": "ZM Warp",
+    "Name": "Zombie Warp Magick",
     "ShortName": "ZM Warp",
-    "Color": "{default}",
+    "Color": "{darkred}",
     "HammerID": "13031",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,0,0,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -324,7 +278,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Knife_Warp_Button",
         "ButtonID": "15487",
         "ButtonClass": "func_button",
         "Filter": "Player_Knife_Warp",
@@ -336,13 +289,11 @@
     ]
   },
   {
-    "Name": "ZM Lure",
+    "Name": "Zombie Lure Magick",
     "ShortName": "ZM Lure",
-    "Color": "{default}",
+    "Color": "{purple}",
     "HammerID": "13032",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [128,0,128,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -352,7 +303,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Knife_Lure_Button",
         "ButtonID": "15489",
         "ButtonClass": "func_button",
         "Filter": "Player_Knife_Lure",
@@ -364,13 +314,11 @@
     ]
   },
   {
-    "Name": "ZM Frost",
-    "ShortName": "ZM 冰",
-    "Color": "{default}",
+    "Name": "Zombie Frost Magick",
+    "ShortName": "ZM Frost",
+    "Color": "{blue}",
     "HammerID": "13033",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -380,7 +328,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Knife_Frost_Button",
         "ButtonID": "15501",
         "ButtonClass": "func_button",
         "Filter": "Player_Knife_Frost",
@@ -392,13 +339,11 @@
     ]
   },
   {
-    "Name": "ZM Fire",
-    "ShortName": "ZM 火",
-    "Color": "{default}",
+    "Name": "Zombie Fire Magick",
+    "ShortName": "ZM Fire",
+    "Color": "{orange}",
     "HammerID": "13034",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,165,0,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -408,7 +353,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Knife_Fire_Button",
         "ButtonID": "15503",
         "ButtonClass": "func_button",
         "Filter": "Player_Knife_Fire",

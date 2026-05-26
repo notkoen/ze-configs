@@ -1,22 +1,18 @@
 [
   {
-    "Name": "Damage",
+    "Name": "Damage Materia",
     "ShortName": "Damage",
-    "Color": "{default}",
+    "Color": "{blue}",
     "HammerID": "2021",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Item_Damage_Button",
         "ButtonID": "2022",
         "ButtonClass": "func_button",
         "Filter": "Damage_Owner",
@@ -28,23 +24,19 @@
     ]
   },
   {
-    "Name": "Ice",
+    "Name": "Ice Materia",
     "ShortName": "Ice",
-    "Color": "{default}",
+    "Color": "{blue}",
     "HammerID": "2041",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Item_Ice_Button",
         "ButtonID": "2036",
         "ButtonClass": "func_button",
         "Filter": "Ice_Owner",
@@ -56,13 +48,11 @@
     ]
   },
   {
-    "Name": "ZM Invisible",
+    "Name": "Zombie Invisibility Materia",
     "ShortName": "ZM Invis",
-    "Color": "{default}",
+    "Color": "{yellow}",
     "HammerID": "2095",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,0,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -72,7 +62,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Item_Z_Invis_Button",
         "ButtonID": "2097",
         "ButtonClass": "func_button",
         "Filter": "Invis_Z_Owner",
@@ -84,13 +73,11 @@
     ]
   },
   {
-    "Name": "ZM Gravity",
+    "Name": "Zombie Gravity",
     "ShortName": "ZM Gravity",
-    "Color": "{default}",
+    "Color": "{purple}",
     "HammerID": "2106",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [128,0,128,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -100,7 +87,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Item_Z_Gravity_Button",
         "ButtonID": "2107",
         "ButtonClass": "func_button",
         "Filter": "Gravity_Z_Owner",
@@ -112,23 +98,19 @@
     ]
   },
   {
-    "Name": "Ultima",
+    "Name": "Ultima Materia",
     "ShortName": "Ultima",
-    "Color": "{default}",
+    "Color": "{green}",
     "HammerID": "2715",
     "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Item_Ultima_Button",
         "ButtonID": "2716",
         "ButtonClass": "func_button",
         "Filter": "Ultima_Owner",
@@ -140,23 +122,19 @@
     ]
   },
   {
-    "Name": "Earth",
+    "Name": "Earth Materia",
     "ShortName": "Earth",
-    "Color": "{default}",
+    "Color": "{orange}",
     "HammerID": "2707",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,165,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Item_Earth_Button",
         "ButtonID": "2708",
         "ButtonClass": "func_button",
         "Filter": "Earth_Owner",
@@ -168,23 +146,19 @@
     ]
   },
   {
-    "Name": "Fire",
+    "Name": "Fire Materia",
     "ShortName": "Fire",
-    "Color": "{default}",
+    "Color": "{red}",
     "HammerID": "2650",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,0,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Item_Fire_Button",
         "ButtonID": "2651",
         "ButtonClass": "func_button",
         "Filter": "Fire_Owner",
@@ -196,23 +170,19 @@
     ]
   },
   {
-    "Name": "Electro",
+    "Name": "Electro Materia",
     "ShortName": "Electro",
-    "Color": "{default}",
+    "Color": "{blue}",
     "HammerID": "2669",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Item_Electro_Button",
         "ButtonID": "2672",
         "ButtonClass": "func_button",
         "Filter": "Electro_Owner",
@@ -224,23 +194,19 @@
     ]
   },
   {
-    "Name": "Bio",
+    "Name": "Bio Materia",
     "ShortName": "Bio",
-    "Color": "{default}",
+    "Color": "{darkblue}",
     "HammerID": "2677",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,0,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Item_Bio_Button",
         "ButtonID": "2679",
         "ButtonClass": "func_button",
         "Filter": "Bio_Owner",
@@ -252,23 +218,19 @@
     ]
   },
   {
-    "Name": "Gravity",
+    "Name": "Gravity Materia",
     "ShortName": "Gravity",
-    "Color": "{default}",
+    "Color": "{purple}",
     "HammerID": "2685",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [128,0,128,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Item_Gravity_Button",
         "ButtonID": "2686",
         "ButtonClass": "func_button",
         "Filter": "Gravity_Owner",
@@ -280,23 +242,19 @@
     ]
   },
   {
-    "Name": "Wind",
+    "Name": "Wind Materia",
     "ShortName": "Wind",
-    "Color": "{default}",
+    "Color": "{green}",
     "HammerID": "2692",
     "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Item_Wind_Button",
         "ButtonID": "2693",
         "ButtonClass": "func_button",
         "Filter": "Wind_Owner",
@@ -308,23 +266,19 @@
     ]
   },
   {
-    "Name": "Heal",
+    "Name": "Heal Materia",
     "ShortName": "Heal",
     "Color": "{default}",
     "HammerID": "2644",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Item_Heal_Button",
         "ButtonID": "2647",
         "ButtonClass": "func_button",
         "Filter": "Heal_Owner",
@@ -336,23 +290,19 @@
     ]
   },
   {
-    "Name": "Sleep",
+    "Name": "Sleep Materia",
     "ShortName": "Sleep",
-    "Color": "{default}",
+    "Color": "{pink}",
     "HammerID": "2905",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,105,180,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Item_Sleep_Button",
         "ButtonID": "2907",
         "ButtonClass": "func_button",
         "Filter": "Sleep_Owner",
@@ -364,13 +314,11 @@
     ]
   },
   {
-    "Name": "ZM Cactus",
+    "Name": "Zombie Cactus",
     "ShortName": "ZM Cactus",
-    "Color": "{default}",
+    "Color": "{green}",
     "HammerID": "3571",
     "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -380,7 +328,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "",
         "ButtonID": "0",
         "ButtonClass": "",
         "Filter": "CactusZM_Z_Owner",
@@ -392,13 +339,11 @@
     ]
   },
   {
-    "Name": "ZM Ice",
+    "Name": "Zombie Ice Materia",
     "ShortName": "ZM Ice",
-    "Color": "{default}",
+    "Color": "{blue}",
     "HammerID": "3599",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -408,7 +353,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Item_Z_Ice_Button",
         "ButtonID": "3595",
         "ButtonClass": "func_button",
         "Filter": "Ice_Z_Owner",
@@ -420,13 +364,11 @@
     ]
   },
   {
-    "Name": "ZM Fire",
+    "Name": "Zombie Fire Materia",
     "ShortName": "ZM Fire",
-    "Color": "{default}",
+    "Color": "{red}",
     "HammerID": "3843",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,0,0,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -436,7 +378,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Item_Z_Fire_Button",
         "ButtonID": "3838",
         "ButtonClass": "func_button",
         "Filter": "Fire_Z_Owner",
@@ -448,13 +389,11 @@
     ]
   },
   {
-    "Name": "ZM Poison",
+    "Name": "Zombie Poison Materia",
     "ShortName": "ZM Poison",
-    "Color": "{default}",
+    "Color": "{green}",
     "HammerID": "3844",
     "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -464,7 +403,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Item_Z_Poison_Button",
         "ButtonID": "3848",
         "ButtonClass": "func_button",
         "Filter": "Poison_Z_Owner",
@@ -476,23 +414,19 @@
     ]
   },
   {
-    "Name": "不死鸟之尾/Phoenix Down",
-    "ShortName": "Phoenix Down",
-    "Color": "{default}",
+    "Name": "Phoenix Down",
+    "ShortName": "Phoenix",
+    "Color": "{yellow}",
     "HammerID": "3972",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Potion_Button",
         "ButtonID": "3973",
         "ButtonClass": "func_button",
         "Filter": "Potion_Owner",
@@ -504,13 +438,11 @@
     ]
   },
   {
-    "Name": "ZM Confuse",
+    "Name": "Zombie Confuse Materia",
     "ShortName": "ZM Confuse",
-    "Color": "{default}",
+    "Color": "{purple}",
     "HammerID": "4500",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [128,0,128,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -520,7 +452,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Item_Z_Confuse_button",
         "ButtonID": "4495",
         "ButtonClass": "func_button",
         "Filter": "Confuse_Owner",
