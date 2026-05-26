@@ -23,7 +23,7 @@
             "outputname": "OnMapSpawn",
             "targetname": "[PR#]cmd",
             "inputname": "Command",
-            "overrideparam": "say *** Bergan 血量增加由 koen 做改变 ***",
+            "overrideparam": "say *** Increased Judge Bergan health by koen ***",
             "delay": 7,
             "timestofire": 1
           }

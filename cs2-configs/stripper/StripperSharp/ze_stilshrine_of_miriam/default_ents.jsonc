@@ -1,0 +1,34 @@
+{
+  "modify": [
+    // Add stripper credit
+    {
+      "match": {
+        "classname": "logic_auto"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnMapSpawn",
+            "target": "[PR#]cmd",
+            "input": "Command",
+            "param": "say **Map Status: No Stripper!**",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnMapSpawn",
+            "target": "[PR#]cmd",
+            "input": "Command",
+            "param": "say *** Increased Judge Bergan health by koen ***",
+            "delay": 7,
+            "limit": 1
+          }
+        ]
+      }
+    }
+  ]
+}
