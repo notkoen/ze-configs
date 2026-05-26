@@ -1,0 +1,34 @@
+{
+  // Increase stage 4 end bergan health
+  "modify": [
+    {
+      "match": {
+        "targetname": "[PR#]Stage4_Ending_Bergan_HP_Add"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnStartTouch",
+            "target": "[PR#]Stage4_Ending_Bergan_HP",
+            "input": "Add",
+            "param": "50",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnStartTouch",
+            "target": "[PR#]Stage4_Ending_Bergan_HP",
+            "input": "Add",
+            "param": "80",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      }
+    }
+  ]
+}
