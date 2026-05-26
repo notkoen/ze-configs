@@ -4,62 +4,46 @@
     "ShortName": "Ice",
     "Color": "{blue}",
     "HammerID": "27",
-    "GlowColor": [0, 191, 255, 255],
-    "FilterID": 0,
-    "FilterValue": "ice_player",
+    "GlowColor": [0,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Ice Magic",
-        "ButtonID": "29",
+        "ButtonID": "23",
         "ButtonClass": "func_button",
         "Filter": "ice_player",
         "Chat_Uses": true,
         "Mode": 2,
         "MaxUses": 0,
-        "CoolDown": 75,
-        "Ignore": false,
-        "LockItem": false,
-        "MathID": "0",
-        "MathNameFix": false
+        "CoolDown": 50
       }
     ]
   },
   {
-    "Name": "Fire",
-    "ShortName": "Fire",
-    "Color": "{red}",
-    "HammerID": "173",
-    "GlowColor": [255, 0, 0, 255],
-    "FilterID": 0,
-    "FilterValue": "fire_player",
+    "Name": "Ice Wall",
+    "ShortName": "Wall",
+    "Color": "{blue}",
+    "HammerID": "55",
+    "GlowColor": [0,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Fire Magic",
-        "ButtonID": "171",
+        "ButtonID": "53",
         "ButtonClass": "func_button",
-        "Filter": "fire_player",
+        "Filter": "icewall_player",
         "Chat_Uses": true,
         "Mode": 2,
         "MaxUses": 0,
-        "CoolDown": 75,
-        "Ignore": false,
-        "LockItem": false,
-        "MathID": "0",
-        "MathNameFix": false
+        "CoolDown": 50
       }
     ]
   },
@@ -67,63 +51,171 @@
     "Name": "Wind",
     "ShortName": "Wind",
     "Color": "{green}",
-    "HammerID": "366",
-    "GlowColor": [0, 255, 0, 255],
-    "FilterID": 0,
-    "FilterValue": "wind_player",
+    "HammerID": "540",
+    "GlowColor": [0,255,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Wind Magic",
-        "ButtonID": "368",
+        "ButtonID": "537",
         "ButtonClass": "func_button",
         "Filter": "wind_player",
         "Chat_Uses": true,
         "Mode": 2,
         "MaxUses": 0,
-        "CoolDown": 75,
-        "Ignore": false,
-        "LockItem": false,
-        "MathID": "0",
-        "MathNameFix": false
+        "CoolDown": 50
       }
     ]
   },
   {
     "Name": "Heal",
     "ShortName": "Heal",
-    "Color": "{white}",
+    "Color": "{pink}",
     "HammerID": "761",
-    "GlowColor": [255, 255, 255, 255],
-    "FilterID": 0,
-    "FilterValue": "heal_player",
+    "GlowColor": [255,105,180,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Heal Magic",
         "ButtonID": "763",
         "ButtonClass": "func_button",
         "Filter": "heal_player",
         "Chat_Uses": true,
         "Mode": 2,
         "MaxUses": 0,
-        "CoolDown": 50,
-        "Ignore": false,
-        "LockItem": false,
-        "MathID": "0",
-        "MathNameFix": false
+        "CoolDown": 50
+      }
+    ]
+  },
+  {
+    "Name": "Christmas Tree",
+    "ShortName": "Gravity",
+    "Color": "{yellow}",
+    "HammerID": "45",
+    "GlowColor": [255,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": true,
+    "ForceDrop": true,
+    "Chat": true,
+    "Hud": true,
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "ButtonID": "41",
+        "ButtonClass": "func_button",
+        "Filter": "gravity_player",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Poison Box",
+    "ShortName": "ZM Poison",
+    "Color": "{green}",
+    "HammerID": "186",
+    "GlowColor": [0,255,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "205",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "ButtonID": "208",
+        "ButtonClass": "func_button",
+        "Filter": "poison_zombie",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Disarm",
+    "ShortName": "ZM Disarm",
+    "Color": "{purple}",
+    "HammerID": "741",
+    "GlowColor": [128,0,128,1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "731",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "ButtonID": "729",
+        "ButtonClass": "func_button",
+        "Filter": "disarm_zombie",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Freeze Box",
+    "ShortName": "ZM Freeze",
+    "Color": "{blue}",
+    "HammerID": "636",
+    "GlowColor": [0,255,255,1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "630",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "ButtonID": "634",
+        "ButtonClass": "func_button",
+        "Filter": "freeze_zombie",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Fire Box",
+    "ShortName": "ZM Fire",
+    "Color": "{orange}",
+    "HammerID": "67",
+    "GlowColor": [255,165,0,1],
+    "BlockPickup": false,
+    "AllowTransfer": false,
+    "ForceDrop": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "61",
+    "UsePriority": true,
+    "AbilityList": [
+      {
+        "ButtonID": "65",
+        "ButtonClass": "func_button",
+        "Filter": "fire_zombie",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50
       }
     ]
   }

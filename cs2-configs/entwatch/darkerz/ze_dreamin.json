@@ -4,19 +4,15 @@
     "ShortName": "Snow",
     "Color": "{default}",
     "HammerID": "1775",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "weapon_snow_bt",
         "ButtonID": "1780",
         "ButtonClass": "func_button",
         "Filter": "snow_user",
@@ -30,21 +26,17 @@
   {
     "Name": "Wind",
     "ShortName": "Wind",
-    "Color": "{default}",
+    "Color": "{green}",
     "HammerID": "2041",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,255,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "weapon_wind_bt",
         "ButtonID": "2042",
         "ButtonClass": "func_button",
         "Filter": "wind_user",
@@ -60,19 +52,15 @@
     "ShortName": "Heal",
     "Color": "{default}",
     "HammerID": "2048",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "weapon_heal_bt",
         "ButtonID": "2046",
         "ButtonClass": "func_button",
         "Filter": "recovery_user",
@@ -86,21 +74,17 @@
   {
     "Name": "Freezer",
     "ShortName": "Freezer",
-    "Color": "{default}",
+    "Color": "{darkblue}",
     "HammerID": "1969",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,0,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "weapon_freezer_bt",
         "ButtonID": "1970",
         "ButtonClass": "func_button",
         "Filter": "freezer_user",
@@ -112,13 +96,11 @@
     ]
   },
   {
-    "Name": "ZM Heal",
+    "Name": "Zombie Heal",
     "ShortName": "ZM Heal",
     "Color": "{default}",
     "HammerID": "1317",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -128,7 +110,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "weapon_zheal_bt",
         "ButtonID": "1323",
         "ButtonClass": "func_button",
         "Filter": "zheal_user",
@@ -140,13 +121,11 @@
     ]
   },
   {
-    "Name": "ZM Nuke",
+    "Name": "Zombie Nuke",
     "ShortName": "ZM Nuke",
-    "Color": "{default}",
+    "Color": "{darkred}",
     "HammerID": "1804",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,0,0,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -156,7 +135,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "weapon_nuke_z_bt",
         "ButtonID": "1805",
         "ButtonClass": "func_button",
         "Filter": "nuke_user",
@@ -168,13 +146,11 @@
     ]
   },
   {
-    "Name": "ZM Gravity",
+    "Name": "Zombie Gravity",
     "ShortName": "ZM Gravity",
-    "Color": "{default}",
+    "Color": "{purple}",
     "HammerID": "1801",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [128,0,128,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -184,7 +160,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "weapon_gravity_z_bt",
         "ButtonID": "1799",
         "ButtonClass": "func_button",
         "Filter": "gravity_user",
@@ -196,13 +171,11 @@
     ]
   },
   {
-    "Name": "ZM Ice",
+    "Name": "Zombie Ice",
     "ShortName": "ZM Ice",
-    "Color": "{default}",
+    "Color": "{blue}",
     "HammerID": "1325",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -212,7 +185,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "weapon_zice_bt",
         "ButtonID": "1331",
         "ButtonClass": "func_button",
         "Filter": "zice_user",

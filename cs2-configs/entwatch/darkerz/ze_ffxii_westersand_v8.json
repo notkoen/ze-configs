@@ -1,22 +1,18 @@
 [
   {
-    "Name": "Water",
+    "Name": "Water Magick",
     "ShortName": "Water",
-    "Color": "{default}",
+    "Color": "{darkblue}",
     "HammerID": "2928",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,0,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Staff_Water_Button",
         "ButtonID": "2923",
         "ButtonClass": "func_button",
         "Filter": "Player_Staff_Water",
@@ -28,23 +24,19 @@
     ]
   },
   {
-    "Name": "Electro",
+    "Name": "Electro Magick",
     "ShortName": "Electro",
-    "Color": "{default}",
+    "Color": "{yellow}",
     "HammerID": "2966",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Staff_Electro_Button",
         "ButtonID": "2970",
         "ButtonClass": "func_button",
         "Filter": "Player_Staff_Electro",
@@ -56,23 +48,19 @@
     ]
   },
   {
-    "Name": "Fire",
+    "Name": "Fire Magick",
     "ShortName": "Fire",
-    "Color": "{default}",
+    "Color": "{red}",
     "HammerID": "2936",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,0,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Staff_Fire_Button",
         "ButtonID": "2941",
         "ButtonClass": "func_button",
         "Filter": "Player_Staff_Fire",
@@ -84,23 +72,19 @@
     ]
   },
   {
-    "Name": "Holy",
+    "Name": "Holy Magick",
     "ShortName": "Holy",
     "Color": "{default}",
     "HammerID": "2950",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Staff_Holy_Button",
         "ButtonID": "2943",
         "ButtonClass": "func_button",
         "Filter": "Player_Staff_Holy",
@@ -112,23 +96,19 @@
     ]
   },
   {
-    "Name": "Earth",
+    "Name": "Earth Magick",
     "ShortName": "Earth",
-    "Color": "{default}",
+    "Color": "{yellow}",
     "HammerID": "2961",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Staff_Earth_Button",
         "ButtonID": "2930",
         "ButtonClass": "func_button",
         "Filter": "Player_Staff_Earth",
@@ -140,23 +120,19 @@
     ]
   },
   {
-    "Name": "Heal",
+    "Name": "Heal Magick",
     "ShortName": "Heal",
-    "Color": "{default}",
+    "Color": "{yellow}",
     "HammerID": "2955",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Staff_Heal_Button",
         "ButtonID": "2956",
         "ButtonClass": "func_button",
         "Filter": "Player_Staff_Heal",
@@ -168,23 +144,19 @@
     ]
   },
   {
-    "Name": "Wind",
+    "Name": "Wind Magick",
     "ShortName": "Wind",
-    "Color": "{default}",
+    "Color": "{green}",
     "HammerID": "2976",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,255,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Staff_Wind_Button",
         "ButtonID": "2973",
         "ButtonClass": "func_button",
         "Filter": "Player_Staff_Wind",
@@ -196,13 +168,11 @@
     ]
   },
   {
-    "Name": "ZM Blind",
+    "Name": "Zombie Blind Magick",
     "ShortName": "ZM Blind",
-    "Color": "{default}",
+    "Color": "{grey}",
     "HammerID": "2917",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [128,128,128,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -212,7 +182,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Knife_Blind_Button",
         "ButtonID": "2918",
         "ButtonClass": "func_button",
         "Filter": "Player_Knife_Blind",
@@ -224,13 +193,11 @@
     ]
   },
   {
-    "Name": "ZM Invisible",
-    "ShortName": "ZM Invisible",
-    "Color": "{default}",
+    "Name": "Zombie Invisibility Magick",
+    "ShortName": "ZM Invis",
+    "Color": "{yellow}",
     "HammerID": "3007",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,0,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -240,7 +207,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Knife_Invis_Button",
         "ButtonID": "3004",
         "ButtonClass": "func_button",
         "Filter": "Player_Knife_Invis",
@@ -252,13 +218,11 @@
     ]
   },
   {
-    "Name": "ZM Warp",
+    "Name": "Zombie Warp Magick",
     "ShortName": "ZM Warp",
-    "Color": "{default}",
+    "Color": "{darkred}",
     "HammerID": "2998",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,0,0,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -268,7 +232,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Knife_Warp_Button",
         "ButtonID": "2999",
         "ButtonClass": "func_button",
         "Filter": "Player_Knife_Warp",
@@ -280,13 +243,11 @@
     ]
   },
   {
-    "Name": "ZM Lure",
+    "Name": "Zombie Lure Magick",
     "ShortName": "ZM Lure",
-    "Color": "{default}",
+    "Color": "{purple}",
     "HammerID": "2901",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [128,0,128,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -296,7 +257,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Knife_Lure_Button",
         "ButtonID": "2905",
         "ButtonClass": "func_button",
         "Filter": "Player_Knife_Lure",
@@ -308,13 +268,11 @@
     ]
   },
   {
-    "Name": "ZM Shield",
+    "Name": "Zombie Shield Magick",
     "ShortName": "ZM Shield",
-    "Color": "{default}",
+    "Color": "{darkblue}",
     "HammerID": "3042",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,0,255,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -324,7 +282,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Knife_Shield_Button",
         "ButtonID": "3044",
         "ButtonClass": "func_button",
         "Filter": "Player_Knife_Shield",
@@ -336,13 +293,11 @@
     ]
   },
   {
-    "Name": "ZM Heal",
+    "Name": "Zombie Heal Magick",
     "ShortName": "ZM Heal",
-    "Color": "{default}",
+    "Color": "{yellow}",
     "HammerID": "3090",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,0,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -352,7 +307,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Knife_Heal_Button",
         "ButtonID": "3084",
         "ButtonClass": "func_button",
         "Filter": "Player_Knife_Heal",
@@ -364,13 +318,11 @@
     ]
   },
   {
-    "Name": "ZM Fire",
+    "Name": "Zombie Fire Magick",
     "ShortName": "ZM Fire",
-    "Color": "{default}",
+    "Color": "{red}",
     "HammerID": "3112",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,0,0,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -380,7 +332,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Knife_Fire_Button",
         "ButtonID": "3108",
         "ButtonClass": "func_button",
         "Filter": "Player_Knife_Fire",
@@ -392,13 +343,11 @@
     ]
   },
   {
-    "Name": "ZM Frost",
+    "Name": "Zombie Frost Magick",
     "ShortName": "ZM Frost",
-    "Color": "{default}",
+    "Color": "{blue}",
     "HammerID": "3114",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -408,7 +357,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Knife_Frost_Button",
         "ButtonID": "3117",
         "ButtonClass": "func_button",
         "Filter": "Player_Knife_Frost",
@@ -420,31 +368,15 @@
     ]
   },
   {
-    "Name": "Bonus Knife",
-    "ShortName": "Bonus Knife",
-    "Color": "{default}",
+    "Name": "Solo Winner",
+    "ShortName": "Solo",
+    "Color": "{grey}",
     "HammerID": "7117",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [128,128,128,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
-    "Hud": true,
-    "TriggerID": "0",
-    "UsePriority": true,
-    "AbilityList": [
-      {
-        "Name": "Bonus_Knife_Button",
-        "ButtonID": "7115",
-        "ButtonClass": "",
-        "Filter": "",
-        "Chat_Uses": true,
-        "Mode": 1,
-        "MaxUses": 0,
-        "CoolDown": 0
-      }
-    ]
+    "Hud": true
   }
 ]

@@ -1,8 +1,8 @@
 [
   {
-  "Name": "Shadow Staff",
+  "Name": "Shadow Magick",
   "ShortName": "Shadow",
-  "Color": "{default}",
+  "Color": "{grey}",
   "HammerID": "6376",
   "GlowColor": [100,100,100,255],
   "FilterID": 0,
@@ -17,19 +17,19 @@
   "AbilityList":
     [
       {
-      "Name": "Item_Shadow_Button",
-      "ButtonID": "6377",
-      "ButtonClass": "func_button",
-      "Filter": "Filter_Shadow_User",
-      "Chat_Uses": true,
-      "Mode": 2,
-      "MaxUses": 0,
-      "CoolDown": 60
+        "Name": "Item_Shadow_Button",
+        "ButtonID": "6377",
+        "ButtonClass": "func_button",
+        "Filter": "Filter_Shadow_User",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
       }
     ]
   },
   {
-  "Name": "Light Staff",
+  "Name": "Light Magick",
   "ShortName": "Light",
   "Color": "{default}",
   "HammerID": "6386",
@@ -46,21 +46,21 @@
   "AbilityList":
     [
       {
-      "Name": "Item_Light_Button",
-      "ButtonID": "6387",
-      "ButtonClass": "func_button",
-      "Filter": "Filter_Light_User",
-      "Chat_Uses": true,
-      "Mode": 2,
-      "MaxUses": 0,
-      "CoolDown": 60
+        "Name": "Item_Light_Button",
+        "ButtonID": "6387",
+        "ButtonClass": "func_button",
+        "Filter": "Filter_Light_User",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
       }
     ]
   },
   {
-  "Name": "Thunder Staff",
+  "Name": "Thunder Magick",
   "ShortName": "Thunder",
-  "Color": "{default}",
+  "Color": "{darkblue}",
   "HammerID": "6414",
   "GlowColor": [145,0,160,255],
   "FilterID": 0,
@@ -75,21 +75,21 @@
   "AbilityList":
     [
       {
-      "Name": "Item_Thunder_Button",
-      "ButtonID": "6415",
-      "ButtonClass": "func_button",
-      "Filter": "Filter_Thunder_User",
-      "Chat_Uses": true,
-      "Mode": 2,
-      "MaxUses": 0,
-      "CoolDown": 60
+        "Name": "Item_Thunder_Button",
+        "ButtonID": "6415",
+        "ButtonClass": "func_button",
+        "Filter": "Filter_Thunder_User",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
       }
     ]
   },
   {
-  "Name": "Wind Staff",
+  "Name": "Wind Magick",
   "ShortName": "Wind",
-  "Color": "{default}",
+  "Color": "{green}",
   "HammerID": "6398",
   "GlowColor": [60,179,113,255],
   "FilterID": 0,
@@ -104,21 +104,21 @@
   "AbilityList":
     [
       {
-      "Name": "Item_Wind_Button",
-      "ButtonID": "6401",
-      "ButtonClass": "func_button",
-      "Filter": "Filter_Wind_User",
-      "Chat_Uses": true,
-      "Mode": 2,
-      "MaxUses": 0,
-      "CoolDown": 60
+        "Name": "Item_Wind_Button",
+        "ButtonID": "6401",
+        "ButtonClass": "func_button",
+        "Filter": "Filter_Wind_User",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
       }
     ]
   },
   {
-  "Name": "Ice Staff",
+  "Name": "Ice Magick",
   "ShortName": "Ice",
-  "Color": "{default}",
+  "Color": "{blue}",
   "HammerID": "6406",
   "GlowColor": [0,100,255,255],
   "FilterID": 0,
@@ -133,21 +133,21 @@
   "AbilityList":
     [
       {
-      "Name": "Item_Ice_Button",
-      "ButtonID": "6407",
-      "ButtonClass": "func_button",
-      "Filter": "Filter_Ice_User",
-      "Chat_Uses": true,
-      "Mode": 2,
-      "MaxUses": 0,
-      "CoolDown": 60
+        "Name": "Item_Ice_Button",
+        "ButtonID": "6407",
+        "ButtonClass": "func_button",
+        "Filter": "Filter_Ice_User",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
       }
     ]
   },
   {
-  "Name": "Fire Staff",
+  "Name": "Fire Magick",
   "ShortName": "Fire",
-  "Color": "{default}",
+  "Color": "{orange}",
   "HammerID": "6424",
   "GlowColor": [255,25,0,255],
   "FilterID": 0,
@@ -162,21 +162,21 @@
   "AbilityList":
     [
       {
-      "Name": "Item_Fire_Button",
-      "ButtonID": "6422",
-      "ButtonClass": "func_button",
-      "Filter": "Filter_Fire_User",
-      "Chat_Uses": true,
-      "Mode": 2,
-      "MaxUses": 0,
-      "CoolDown": 60
+        "Name": "Item_Fire_Button",
+        "ButtonID": "6422",
+        "ButtonClass": "func_button",
+        "Filter": "Filter_Fire_User",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60
       }
     ]
   },
   {
-  "Name": "[ZM]Thunder",
-  "ShortName": "[ZM]Thunder",
-  "Color": "{default}",
+  "Name": "Zombie Thunder Magick",
+  "ShortName": "ZM Thunder",
+  "Color": "{darkblue}",
   "HammerID": "5709",
   "GlowColor": [145,0,160,255],
   "FilterID": 0,
@@ -191,21 +191,31 @@
   "AbilityList":
     [
       {
-      "Name": "Item_ZThunder_Button",
-      "ButtonID": "5710",
-      "ButtonClass": "func_button",
-      "Filter": "Filter_ZThunder_User",
-      "Chat_Uses": true,
-      "Mode": 2,
-      "MaxUses": 0,
-      "CoolDown": 75
+        "Name": "Thunderstrike",
+        "ButtonID": "5710",
+        "ButtonClass": "func_button",
+        "Filter": "Filter_ZThunder_User",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75
+      },
+      {
+        "Name": "EMP",
+        "ButtonID": "",
+        "ButtonClass": "game_ui::PressedAttack2",
+        "Filter": "Filter_ZThunder_User",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75
       }
     ]
   },
   {
-  "Name": "[ZM]Wind",
-  "ShortName": "[ZM]Wind",
-  "Color": "{default}",
+  "Name": "Zombie Wind Magick",
+  "ShortName": "ZM Wind",
+  "Color": "{green}",
   "HammerID": "6302",
   "GlowColor": [60,179,113,255],
   "FilterID": 0,
@@ -220,21 +230,31 @@
   "AbilityList":
     [
       {
-      "Name": "Item_ZWind_Button",
-      "ButtonID": "6304",
-      "ButtonClass": "func_button",
-      "Filter": "Filter_ZWind_User",
-      "Chat_Uses": true,
-      "Mode": 2,
-      "MaxUses": 0,
-      "CoolDown": 75
+        "Name": "Speed",
+        "ButtonID": "6304",
+        "ButtonClass": "func_button",
+        "Filter": "Filter_ZWind_User",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75
+      },
+      {
+        "Name": "Windwall",
+        "ButtonID": "",
+        "ButtonClass": "game_ui::PressedAttack2",
+        "Filter": "Filter_ZWind_User",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75
       }
     ]
   },
   {
-  "Name": "[ZM]Ice",
-  "ShortName": "[ZM]Ice",
-  "Color": "{default}",
+  "Name": "Zombie Ice Magick",
+  "ShortName": "ZM Ice",
+  "Color": "{blue}",
   "HammerID": "6359",
   "GlowColor": [0,100,255,255],
   "FilterID": 0,
@@ -249,21 +269,31 @@
   "AbilityList":
     [
       {
-      "Name": "Item_ZIce_Button",
-      "ButtonID": "6360",
-      "ButtonClass": "func_button",
-      "Filter": "Filter_ZIce_User",
-      "Chat_Uses": true,
-      "Mode": 2,
-      "MaxUses": 0,
-      "CoolDown": 75
+        "Name": "Ice Spike",
+        "ButtonID": "6360",
+        "ButtonClass": "func_button",
+        "Filter": "Filter_ZIce_User",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75
+      },
+      {
+        "Name": "Cure",
+        "ButtonID": "",
+        "ButtonClass": "game_ui::PressedAttack2",
+        "Filter": "Filter_ZIce_User",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120
       }
     ]
   },
   {
-  "Name": "[ZM]Fire",
-  "ShortName": "[ZM]Fire",
-  "Color": "{default}",
+  "Name": "Zombie Fire Magick",
+  "ShortName": "ZM Fire",
+  "Color": "{orange}",
   "HammerID": "6342",
   "GlowColor": [0,100,255,255],
   "FilterID": 0,
@@ -278,14 +308,24 @@
   "AbilityList":
     [
       {
-      "Name": "Item_ZFire_Button",
-      "ButtonID": "6344",
-      "ButtonClass": "func_button",
-      "Filter": "Filter_ZFire_User",
-      "Chat_Uses": true,
-      "Mode": 2,
-      "MaxUses": 0,
-      "CoolDown": 75
+        "Name": "Fire",
+        "ButtonID": "6344",
+        "ButtonClass": "func_button",
+        "Filter": "Filter_ZFire_User",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75
+      },
+      {
+        "Name": "Fireball",
+        "ButtonID": "",
+        "ButtonClass": "game_ui::PressedAttack2",
+        "Filter": "Filter_ZFire_User",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 25
       }
     ]
   }

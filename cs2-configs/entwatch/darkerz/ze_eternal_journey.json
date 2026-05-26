@@ -1,22 +1,18 @@
 [
   {
-    "Name": "Fire",
+    "Name": "Fire Staff",
     "ShortName": "Fire",
     "Color": "{red}",
     "HammerID": "2246",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,0,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "fire_button",
         "ButtonID": "2250",
         "ButtonClass": "func_button",
         "Filter": "fire_player",
@@ -28,23 +24,19 @@
     ]
   },
   {
-    "Name": "Freeze",
+    "Name": "Freeze Staff",
     "ShortName": "Freeze",
     "Color": "{lightblue}",
     "HammerID": "3588",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "freeze_button",
         "ButtonID": "3583",
         "ButtonClass": "func_button",
         "Filter": "freeze_player",
@@ -56,23 +48,19 @@
     ]
   },
   {
-    "Name": "Heal",
+    "Name": "Heal Staff",
     "ShortName": "Heal",
     "Color": "{default}",
     "HammerID": "3591",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "heal_button",
         "ButtonID": "3593",
         "ButtonClass": "func_button",
         "Filter": "heal_player",
@@ -84,23 +72,19 @@
     ]
   },
   {
-    "Name": "Tornado",
+    "Name": "Tornado Staff",
     "ShortName": "Tornado",
-    "Color": "{lime}",
+    "Color": "{green}",
     "HammerID": "3608",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,255,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "tornado_button",
         "ButtonID": "3602",
         "ButtonClass": "func_button",
         "Filter": "tornado_player",
@@ -112,23 +96,19 @@
     ]
   },
   {
-    "Name": "Earth",
+    "Name": "Earth Staff",
     "ShortName": "Earth",
     "Color": "{orange}",
     "HammerID": "3617",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,165,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "earth_button",
         "ButtonID": "3613",
         "ButtonClass": "func_button",
         "Filter": "earth_player",
@@ -140,41 +120,35 @@
     ]
   },
   {
-    "Name": "Ultimate",
+    "Name": "Ultimate Staff",
     "ShortName": "Ultimate",
-    "Color": "{darkred}",
+    "Color": "{green}",
     "HammerID": "3984",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,255,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "ultimate_button",
         "ButtonID": "3978",
         "ButtonClass": "func_button",
         "Filter": "ultimate_player",
         "Chat_Uses": true,
-        "Mode": 3,
+        "Mode": 4,
         "MaxUses": 1,
-        "CoolDown": 0
+        "CoolDown": 15
       }
     ]
   },
   {
-    "Name": "ZM Fire",
+    "Name": "Zombie Fire",
     "ShortName": "ZM Fire",
-    "Color": "{darkred}",
+    "Color": "{orange}",
     "HammerID": "3641",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,165,0,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -184,7 +158,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "zmfire_button",
         "ButtonID": "3636",
         "ButtonClass": "func_button",
         "Filter": "zmfire_player",
@@ -196,13 +169,11 @@
     ]
   },
   {
-    "Name": "ZM Gravity",
+    "Name": "Zombie Gravity",
     "ShortName": "ZM Gravity",
-    "Color": "{megenta}",
+    "Color": "{purple}",
     "HammerID": "3660",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [128,0,128,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -212,7 +183,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "zmgravity_button",
         "ButtonID": "3655",
         "ButtonClass": "func_button",
         "Filter": "zmgravity_player",
@@ -224,13 +194,11 @@
     ]
   },
   {
-    "Name": "ZM Freeze",
+    "Name": "Zombie Freeze",
     "ShortName": "ZM Freeze",
-    "Color": "{darkblue}",
+    "Color": "{blue}",
     "HammerID": "3689",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -240,7 +208,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "zmfreeze_button",
         "ButtonID": "3682",
         "ButtonClass": "func_button",
         "Filter": "zmfreeze_player",
@@ -252,13 +219,11 @@
     ]
   },
   {
-    "Name": "ZM Skin 1",
-    "ShortName": "ZM Skin 1",
-    "Color": "{default}",
+    "Name": "Zombie Glasgavelen",
+    "ShortName": "ZM Glasgavelen",
+    "Color": "{red}",
     "HammerID": "3693",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,0,0,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -268,9 +233,19 @@
     "UsePriority": false,
     "AbilityList": [
       {
-        "Name": "zmskin1_button",
-        "ButtonID": "5396",
-        "ButtonClass": "func_physbox",
+        "Name": "Attack",
+        "ButtonID": "",
+        "ButtonClass": "game_ui::PressedAttack",
+        "Filter": "zmskin1_player",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 2
+      },
+      {
+        "Name": "Jump",
+        "ButtonID": "",
+        "ButtonClass": "game_ui::PressedAttack2",
         "Filter": "zmskin1_player",
         "Chat_Uses": true,
         "Mode": 2,
@@ -280,13 +255,11 @@
     ]
   },
   {
-    "Name": "ZM Skin 2",
-    "ShortName": "ZM Skin 2",
-    "Color": "{default}",
+    "Name": "Zombie Cromcruach",
+    "ShortName": "ZM Cromcruach",
+    "Color": "{red}",
     "HammerID": "3723",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,0,0,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -296,9 +269,18 @@
     "UsePriority": false,
     "AbilityList": [
       {
-        "Name": "zmskin2_button",
-        "ButtonID": "5412",
-        "ButtonClass": "func_button",
+        "Name": "Attack",
+        "ButtonID": "",
+        "ButtonClass": "game_ui::PressedAttack",
+        "Filter": "zmskin2_player",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 2
+      },
+      {
+        "ButtonID": "",
+        "ButtonClass": "game_ui::PressedAttack2",
         "Filter": "zmskin2_player",
         "Chat_Uses": true,
         "Mode": 2,

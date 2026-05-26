@@ -1,8 +1,8 @@
 [
   {
-    "Name": "firegun",
-    "ShortName": "firegun",
-    "Color": "{default}",
+    "Name": "Flamethrower",
+    "ShortName": "Flamethrower",
+    "Color": "{orange}",
     "HammerID": "974",
     "GlowColor": [0,255,0,1],
     "FilterID": 0,
@@ -16,9 +16,8 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "flameshot_button",
         "ButtonID": "978",
-        "ButtonClass": "func_physbox",
+        "ButtonClass": "func_button",
         "Filter": "flameshot:1",
         "Chat_Uses": true,
         "Mode": 6,

@@ -1,22 +1,18 @@
 [
   {
-    "Name": "Thunder",
+    "Name": "Thunder Spell",
     "ShortName": "Thunder",
-    "Color": "{purple}",
+    "Color": "{blue}",
     "HammerID": "3351",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "",
         "ButtonID": "3348",
         "ButtonClass": "func_button",
         "Filter": "spell_thunder:1",
@@ -28,27 +24,23 @@
     ]
   },
   {
-    "Name": "Heal",
+    "Name": "Heal Spell",
     "ShortName": "Heal",
     "Color": "{white}",
     "HammerID": "22821",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "",
         "ButtonID": "22822",
-        "ButtonClass": "func_butto",
-        "Chat_Uses": true,
+        "ButtonClass": "func_button",
         "Filter": "spell_heal:1",
+        "Chat_Uses": true,
         "Mode": 3,
         "MaxUses": 1,
         "CoolDown": 0
@@ -56,25 +48,21 @@
     ]
   },
   {
-    "Name": "Quake",
+    "Name": "Quake Spell",
     "ShortName": "Quake",
-    "Color": "{red}",
+    "Color": "{grey}",
     "HammerID": "29565",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [128,128,128,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "",
         "ButtonID": "29566",
-        "ButtonClass": "",
+        "ButtonClass": "func_button",
         "Filter": "spell_quake:1",
         "Chat_Uses": true,
         "Mode": 3,
@@ -88,166 +76,72 @@
     "ShortName": "Torch",
     "Color": "{orange}",
     "HammerID": "29624",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,165,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
-    "Hud": true,
-    "TriggerID": "0",
-    "UsePriority": true,
-    "AbilityList": [
-      {
-        "Name": "",
-        "ButtonID": "0",
-        "ButtonClass": "",
-        "Chat_Uses": true,
-        "Mode": 0,
-        "MaxUses": 0,
-        "CoolDown": 0
-      }
-    ]
+    "Hud": true
   },
   {
-    "Name": "Grimoire Gnashing",
+    "Name": "Gnashing Grimoire",
     "ShortName": "Gnashing",
-    "Color": "{grey}",
+    "Color": "{red}",
     "HammerID": "31432",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,0,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
-    "Hud": true,
-    "TriggerID": "0",
-    "UsePriority": true,
-    "AbilityList": [
-      {
-        "Name": "",
-        "ButtonID": "0",
-        "ButtonClass": "",
-        "Filter": "spell_grimoire-gnashing:1",
-        "Chat_Uses": true,
-        "Mode": 3,
-        "MaxUses": 1,
-        "CoolDown": 0
-      }
-    ]
+    "Hud": true
   },
   {
-    "Name": "Grimoire Gasping",
+    "Name": "Gasping Grimoire",
     "ShortName": "Gasping",
-    "Color": "{grey}",
+    "Color": "{red}",
     "HammerID": "31441",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,0,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
-    "Hud": true,
-    "TriggerID": "0",
-    "UsePriority": true,
-    "AbilityList": [
-      {
-        "Name": "",
-        "ButtonID": "0",
-        "ButtonClass": "",
-        "Filter": "spell_grimoire-gasping:1",
-        "Chat_Uses": true,
-        "Mode": 3,
-        "MaxUses": 1,
-        "CoolDown": 0
-      }
-    ]
+    "Hud": true
   },
   {
-    "Name": "Grimoire Gyration",
+    "Name": "Gyration Grimoire",
     "ShortName": "Gyration",
-    "Color": "{grey}",
+    "Color": "{red}",
     "HammerID": "31452",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,0,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
-    "Hud": true,
-    "TriggerID": "0",
-    "UsePriority": true,
-    "AbilityList": [
-      {
-        "Name": "",
-        "ButtonID": "0",
-        "ButtonClass": "",
-        "Filter": "spell_grimoire-gyration:1",
-        "Chat_Uses": true,
-        "Mode": 3,
-        "MaxUses": 1,
-        "CoolDown": 0
-      }
-    ]
+    "Hud": true
   },
   {
-    "Name": "Grimoire Gluttony",
+    "Name": "Gluttony Grimoire",
     "ShortName": "Gluttony",
-    "Color": "{grey}",
+    "Color": "{red}",
     "HammerID": "31464",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,0,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
-    "Hud": true,
-    "TriggerID": "0",
-    "UsePriority": true,
-    "AbilityList": [
-      {
-        "Name": "",
-        "ButtonID": "0",
-        "ButtonClass": "",
-        "Chat_Uses": true,
-        "Filter": "spell_grimoire-gluttony:1",
-        "Mode": 3,
-        "MaxUses": 1,
-        "CoolDown": 0
-      }
-    ]
+    "Hud": true
   },
   {
-    "Name": "Mimic",
-    "ShortName": "Mimic",
-    "Color": "{black}",
+    "Name": "Zombie Mimic Spell",
+    "ShortName": "ZM Mimic",
+    "Color": "{darkred}",
     "HammerID": "21124",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,0,0,1],
     "BlockPickup": false,
-    "AllowTransfer": true,
-    "ForceDrop": true,
+    "AllowTransfer": false,
+    "ForceDrop": false,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
-    "UsePriority": true,
-    "AbilityList": [
-      {
-        "Name": "",
-        "ButtonID": "0",
-        "ButtonClass": "",
-        "Filter": "spell_mimic:1",
-        "Chat_Uses": true,
-        "Mode": 3,
-        "MaxUses": 1,
-        "CoolDown": 0
-      }
-    ]
+    "TriggerID": "21122"
   }
 ]

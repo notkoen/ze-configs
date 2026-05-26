@@ -2,21 +2,17 @@
   {
     "Name": "Kohh (Teleport)",
     "ShortName": "Teleport",
-    "Color": "{default}",
+    "Color": "{purple}",
     "HammerID": "3155",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [128,0,128,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Kohh_Button",
         "ButtonID": "3151",
         "ButtonClass": "func_button",
         "Filter": "Player_Kohh:1",
@@ -28,23 +24,19 @@
     ]
   },
   {
-    "Name": "Water",
+    "Name": "Water Magick",
     "ShortName": "Water",
-    "Color": "{default}",
+    "Color": "{darkblue}",
     "HammerID": "5069",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,0,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Water_Button",
         "ButtonID": "5064",
         "ButtonClass": "func_button",
         "Filter": "Player_Water:1",
@@ -56,23 +48,19 @@
     ]
   },
   {
-    "Name": "Wind",
+    "Name": "Wind Magick",
     "ShortName": "Wind",
-    "Color": "{default}",
+    "Color": "{green}",
     "HammerID": "5128",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,255,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Wind_Button",
         "ButtonID": "5125",
         "ButtonClass": "func_button",
         "Filter": "Player_Wind:1",
@@ -84,23 +72,19 @@
     ]
   },
   {
-    "Name": "Present(Ammo)",
+    "Name": "Present Magick (Ammo)",
     "ShortName": "Ammo",
-    "Color": "{default}",
+    "Color": "{green}",
     "HammerID": "11360",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,255,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Item_Button",
         "ButtonID": "11371",
         "ButtonClass": "func_button",
         "Filter": "Player_Present:1",
@@ -112,23 +96,19 @@
     ]
   },
   {
-    "Name": "Electric",
+    "Name": "Electric Magick",
     "ShortName": "Electric",
-    "Color": "{default}",
+    "Color": "{blue}",
     "HammerID": "5150",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Electric_Button",
         "ButtonID": "5145",
         "ButtonClass": "func_button",
         "Filter": "Player_Electric",
@@ -140,23 +120,19 @@
     ]
   },
   {
-    "Name": "Ice",
+    "Name": "Ice Magick",
     "ShortName": "Ice",
-    "Color": "{default}",
+    "Color": "{blue}",
     "HammerID": "5161",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Ice_Button",
         "ButtonID": "5156",
         "ButtonClass": "func_button",
         "Filter": "Player_Ice:1",
@@ -168,23 +144,19 @@
     ]
   },
   {
-    "Name": "Fire",
+    "Name": "Fire Magick",
     "ShortName": "Fire",
-    "Color": "{default}",
+    "Color": "{orange}",
     "HammerID": "5169",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,165,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Fire_Button",
         "ButtonID": "5164",
         "ButtonClass": "func_button",
         "Filter": "Player_Fire",
@@ -196,23 +168,19 @@
     ]
   },
   {
-    "Name": "Gold",
+    "Name": "Gold Magick",
     "ShortName": "Gold",
-    "Color": "{default}",
+    "Color": "{yellow}",
     "HammerID": "5181",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Gold_Button",
         "ButtonID": "5174",
         "ButtonClass": "func_button",
         "Filter": "Player_Gold:1",
@@ -224,23 +192,19 @@
     ]
   },
   {
-    "Name": "Heal",
+    "Name": "Heal Magick",
     "ShortName": "Heal",
     "Color": "{default}",
     "HammerID": "5191",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Heal_Button",
         "ButtonID": "5186",
         "ButtonClass": "func_button",
         "Filter": "Player_Heal:1",
@@ -252,13 +216,11 @@
     ]
   },
   {
-    "Name": "ZM Shackle",
+    "Name": "Zombie Shackle Magick",
     "ShortName": "ZM Shackle",
-    "Color": "{default}",
+    "Color": "{purple}",
     "HammerID": "4948",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [128,0,128,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -268,7 +230,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Shackles_Button",
         "ButtonID": "4945",
         "ButtonClass": "func_button",
         "Filter": "Player_ZM_Shackles:1",
@@ -280,13 +241,11 @@
     ]
   },
   {
-    "Name": "ZM Lure",
+    "Name": "Zombie Lure Magick",
     "ShortName": "ZM Lure",
-    "Color": "{default}",
+    "Color": "{purple}",
     "HammerID": "4988",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [128,0,128,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -296,7 +255,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Lure_Button",
         "ButtonID": "4981",
         "ButtonClass": "func_button",
         "Filter": "Player_ZM_Lure:1",
@@ -308,13 +266,11 @@
     ]
   },
   {
-    "Name": "ZM Shield",
+    "Name": "Zombie Shield Magick",
     "ShortName": "ZM Shield",
-    "Color": "{default}",
+    "Color": "{yellow}",
     "HammerID": "5001",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,0,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -324,7 +280,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Shield_Button",
         "ButtonID": "4994",
         "ButtonClass": "func_button",
         "Filter": "Player_ZM_Shield:1",
@@ -336,13 +291,11 @@
     ]
   },
   {
-    "Name": "ZM Rise",
+    "Name": "Zombie Rise Magick",
     "ShortName": "ZM Rise",
-    "Color": "{default}",
+    "Color": "{red}",
     "HammerID": "5011",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,0,0,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -352,7 +305,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "Rise_Button",
         "ButtonID": "5006",
         "ButtonClass": "func_button",
         "Filter": "Player_ZM_Rise:1",
@@ -364,13 +316,11 @@
     ]
   },
   {
-    "Name": "ZM IceFire",
+    "Name": "Zombie IceFire Magick",
     "ShortName": "ZM IceFire",
-    "Color": "{default}",
+    "Color": "{blue}",
     "HammerID": "5023",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -380,7 +330,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "IceFire_Button",
         "ButtonID": "5015",
         "ButtonClass": "func_button",
         "Filter": "Player_ZM_IceFire:1",
@@ -392,13 +341,11 @@
     ]
   },
   {
-    "Name": "ZM End",
+    "Name": "Zombie End Magick",
     "ShortName": "ZM End",
-    "Color": "{default}",
+    "Color": "{darkred}",
     "HammerID": "5036",
-    "GlowColor": [255,255,255,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,0,0,1],
     "BlockPickup": false,
     "AllowTransfer": false,
     "ForceDrop": false,
@@ -408,7 +355,6 @@
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "End_Button",
         "ButtonID": "5028",
         "ButtonClass": "func_button",
         "Filter": "Player_ZM_End:1",

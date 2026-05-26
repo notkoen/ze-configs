@@ -1,22 +1,18 @@
 [
   {
-    "Name": "Turret",
-    "ShortName": "Turret",
-    "Color": "{red}",
+    "Name": "Turret 1",
+    "ShortName": "Turret 1",
+    "Color": "{yellow}",
     "HammerID": "1110",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "torreta_boton",
         "ButtonID": "1111",
         "ButtonClass": "func_button",
         "Filter": "torreta_0:1",
@@ -28,23 +24,19 @@
     ]
   },
   {
-    "Name": "Turret2",
-    "ShortName": "Turret2",
-    "Color": "{red}",
+    "Name": "Turret 2",
+    "ShortName": "Turret 2",
+    "Color": "{yellow}",
     "HammerID": "1132",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "1torreta_boton",
         "ButtonID": "1133",
         "ButtonClass": "func_button",
         "Filter": "torreta_1:1",
@@ -56,88 +48,56 @@
     ]
   },
   {
-    "Name": "Core",
-    "ShortName": "Core",
-    "Color": "{grey}",
+    "Name": "Red Core",
+    "ShortName": "Red Core",
+    "Color": "{red}",
     "HammerID": "635",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,0,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
-    "Hud": true,
-    "TriggerID": "0",
-    "UsePriority": true,
-    "AbilityList": [
-      {
-        "Name": "",
-        "ButtonID": "0",
-        "ButtonClass": "",
-        "Filter": "filtronucleo:1",
-        "Chat_Uses": true,
-        "Mode": 0,
-        "MaxUses": 0,
-        "CoolDown": 0
-      }
-    ]
+    "Hud": true
   },
   {
-    "Name": "Core2",
-    "ShortName": "Core2",
-    "Color": "{grey}",
+    "Name": "Green Core",
+    "ShortName": "Green Core",
+    "Color": "{green}",
     "HammerID": "636",
     "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
-    "Hud": true,
-    "TriggerID": "0",
-    "UsePriority": true,
-    "AbilityList": [
-      {
-        "Name": "",
-        "ButtonID": "0",
-        "ButtonClass": "",
-        "Filter": "filtronucleo2:1",
-        "Chat_Uses": true,
-        "Mode": 0,
-        "MaxUses": 0,
-        "CoolDown": 0
-      }
-    ]
+    "Hud": true
   },
   {
     "Name": "Flamethrower",
     "ShortName": "Flamethrower",
     "Color": "{orange}",
     "HammerID": "1168",
-    "GlowColor": [0,255,0,1],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,165,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": false,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "lanzallamas_boton",
         "ButtonID": "1169",
         "ButtonClass": "func_button",
         "Filter": "lanzallamero:1",
         "Chat_Uses": false,
-        "Mode": 1,
+        "Mode": 7,
         "MaxUses": 0,
         "CoolDown": 0,
         "Ignore": false,
-        "LockItem": false
+        "LockItem": false,
+        "MathID": "1177",
+        "MathNameFix": false,
+        "MathFindSpawned": true,
+        "MathDontShowMax": true
       }
     ]
   }

@@ -2,51 +2,31 @@
   {
     "Name": "Fuel",
     "ShortName": "Fuel",
-    "Color": "{default}",
+    "Color": "{red}",
     "HammerID": "5363",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,0,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
-    "Hud": true,
-    "TriggerID": "0",
-    "UsePriority": true,
-    "AbilityList": [
-      {
-        "Name": "",
-        "ButtonID": "0",
-        "ButtonClass": "",
-        "Filter": "",
-        "Chat_Uses": false,
-        "Mode": 0,
-        "MaxUses": 0,
-        "CoolDown": 0
-      }
-    ]
+    "Hud": true
   },
   {
     "Name": "Push",
     "ShortName": "Push",
-    "Color": "{default}",
+    "Color": "{green}",
     "HammerID": "11782",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [0,255,0,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "i_push_button",
         "ButtonID": "11783",
-        "ButtonClass": "func_physbox",
+        "ButtonClass": "func_button",
         "Filter": "push_user:1",
         "Chat_Uses": false,
         "Mode": 2,
@@ -60,27 +40,11 @@
     "ShortName": "Trail",
     "Color": "{default}",
     "HammerID": "12016",
-    "GlowColor": [250,2,246,255],
-    "FilterID": 0,
-    "FilterValue": "",
+    "GlowColor": [255,255,255,1],
     "BlockPickup": false,
     "AllowTransfer": true,
     "ForceDrop": true,
     "Chat": true,
-    "Hud": true,
-    "TriggerID": "0",
-    "UsePriority": true,
-    "AbilityList": [
-      {
-        "Name": "",
-        "ButtonID": "0",
-        "ButtonClass": "",
-        "Filter": "",
-        "Chat_Uses": false,
-        "Mode": 0,
-        "MaxUses": 0,
-        "CoolDown": 0
-      }
-    ]
+    "Hud": true
   }
 ]

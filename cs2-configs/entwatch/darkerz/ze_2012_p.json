@@ -2,7 +2,7 @@
   {
     "Name": "Push",
     "ShortName": "Push",
-    "Color": "{default}",
+    "Color": "{green}",
     "HammerID": "650",
     "GlowColor": [0,255,0,1],
     "BlockPickup": false,
@@ -10,11 +10,9 @@
     "ForceDrop": true,
     "Chat": true,
     "Hud": true,
-    "TriggerID": "0",
     "UsePriority": true,
     "AbilityList": [
       {
-        "Name": "",
         "ButtonID": "56",
         "ButtonClass": "func_physbox",
         "Filter": "pushguy:1",
