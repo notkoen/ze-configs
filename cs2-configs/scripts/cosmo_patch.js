@@ -1,4 +1,4 @@
-import { Instance, CSGearSlot as CSGearSlot$1, CSInputs } from 'cs_script/point_script';
+import { Instance, CSPlayerPawn, CSGearSlot as CSGearSlot$1, CSInputs } from 'cs_script/point_script';
 
 class MathUtils {
     static clamp(value, min, max) {
@@ -8,6 +8,7 @@ class MathUtils {
 
 const RAD_TO_DEG = 180 / Math.PI;
 const DEG_TO_RAD = Math.PI / 180;
+const TICK_DT = 1 / 64;
 
 class Vector3Utils {
     static equals(a, b) {
@@ -878,6 +879,14 @@ var CSGearSlot;
     CSGearSlot[CSGearSlot["C4"] = 4] = "C4";
 })(CSGearSlot || (CSGearSlot = {}));
 
+Instance.OnScriptInput("Test", (data) => {
+    const caller = data.caller;
+    const parent = caller.GetParent();
+    parent.SetHealth(50);
+});
+Instance.OnScriptInput("Test2", (data) => {
+    data.caller.SetEntityName("test_weapon");
+});
 // MAP MANAGER \\
 const script_cosmo = "script_cosmo";
 let levelcounter = 1;
@@ -914,7 +923,7 @@ Instance.OnRoundStart(() => {
     shinra_tp = false;
     zm_immunity = false;
     minion_origin_temp = [...minion_origin];
-    minion_2_origin_temp = [...minion_2_origin];
+    last_spawn1 = null;
     boss_health = 1;
     genesis = null;
     genesis_stop = false;
@@ -922,6 +931,7 @@ Instance.OnRoundStart(() => {
     trigger_hurt_immunity_players = [];
     grenade_given = [];
     vip_players = [];
+    zm_item_speed_time = 0;
     EntFire("Levels_Case", "InValue", levelcounter, 0.04);
     sleep_wind_origin_temp = [...sleep_wind_origin];
     zm_fire_ice_origin_temp = [...zm_fire_ice_origin];
@@ -970,6 +980,14 @@ Instance.OnScriptInput("SpawnTP", (data) => {
     EntFireTarget(activator, "Alpha", 255);
     activator.SetEntityName("player");
     EntFire("steamid_filter", "TestActivator", "", 1, activator);
+    // take pistols aways from players to not interfere with scripting
+    if (activator instanceof CSPlayerPawn) {
+        const pistol = activator.FindWeaponBySlot(CSGearSlot$1.PISTOL);
+        if (pistol !== undefined && pistol.GetClassName() === "weapon_elite") {
+            activator.DestroyWeapon(pistol);
+            activator.GiveNamedItem("weapon_elite", true);
+        }
+    }
 });
 let vip_players = [];
 // Instance.OnScriptInput("GiveSkin", (data) => {
@@ -1004,6 +1022,7 @@ let gi_nattak_silence = false;
 let shinra_elevator = false;
 let shinra_tp = false;
 let yek_enable = false;
+let zm_item_speed_time = 0;
 Instance.OnScriptInput("GiNattakSilence", () => {
     gi_nattak_silence = true;
     setTimeout(() => {
@@ -1025,60 +1044,125 @@ Instance.OnScriptInput("ShinraTP", () => {
 Instance.OnScriptInput("YekEnable", () => {
     yek_enable = true;
 });
-Instance.OnScriptInput("ItemTick", () => {
-    for (const item of human_items) {
-        if (!item.IsValid() || !item.player.IsValid() || item.player.GetTeamNumber() !== Team.CT || item.player.GetHealth() <= 0 || item.player.FindWeaponBySlot(CSGearSlot$1.PISTOL)?.GetClassName() !== "weapon_elite") {
-            human_items = removeItem(item, human_items);
-            continue;
-        }
-        if (item.player.WasInputJustPressed(CSInputs.USE)) {
-            if (item.GetEntityName() === "Item_Relay_Ultima" && shinra_tp) {
-                continue;
+Instance.OnScriptInput("ItemHeal", (data) => {
+    data.caller.SetEntityName("Weapon_Heal");
+});
+Instance.OnScriptInput("ItemFire", (data) => {
+    data.caller.SetEntityName("Weapon_Fire");
+});
+Instance.OnScriptInput("ItemElectro", (data) => {
+    data.caller.SetEntityName("Weapon_Electro");
+});
+Instance.OnScriptInput("ItemBio", (data) => {
+    data.caller.SetEntityName("Weapon_Bio");
+});
+Instance.OnScriptInput("ItemGravity", (data) => {
+    data.caller.SetEntityName("Weapon_Gravity");
+});
+Instance.OnScriptInput("ItemWind", (data) => {
+    data.caller.SetEntityName("Weapon_Wind");
+});
+Instance.OnScriptInput("ItemEarth", (data) => {
+    data.caller.SetEntityName("Weapon_Earth");
+});
+Instance.OnScriptInput("ItemUltima", (data) => {
+    data.caller.SetEntityName("Weapon_Ultima");
+});
+Instance.OnScriptInput("ItemSleep", (data) => {
+    data.caller.SetEntityName("Weapon_Sleep");
+});
+Instance.OnScriptInput("ItemPotion", (data) => {
+    data.caller.SetEntityName("Weapon_Potion");
+});
+Instance.OnScriptInput("ItemIce", (data) => {
+    data.caller.SetEntityName("Weapon_Z_Ice");
+});
+Instance.OnScriptInput("ItemFireZm", (data) => {
+    data.caller.SetEntityName("Weapon_Z_Fire");
+});
+Instance.OnScriptInput("ItemPoison", (data) => {
+    data.caller.SetEntityName("Weapon_Z_Poison");
+});
+Instance.OnScriptInput("ItemConfuse", (data) => {
+    data.caller.SetEntityName("Item_Z_Confuse");
+});
+// KOEN EDIT:
+// CHANGE RELAYS TO BUTTONS THEN FIRE PRESS INPUT INSTEAD OF TRIGGER
+const relay_names = {
+    "Weapon_Heal": "Item_Heal_Button",
+    "Weapon_Fire": "Item_Fire_Button",
+    "Weapon_Electro": "Item_Electro_Button",
+    "Weapon_Bio": "Item_Bio_Button",
+    "Weapon_Gravity": "Item_Gravity_Button",
+    "Weapon_Wind": "Item_Wind_Button",
+    "Weapon_Earth": "Item_Earth_Button",
+    "Weapon_Ultima": "Item_Ultima_Button",
+    "Weapon_Sleep": "Item_Sleep_Button",
+    "Weapon_Potion": "Item_Relay_Potion",
+    "Weapon_Z_Ice": "Item_Z_Ice_Button",
+    "Weapon_Z_Fire": "Item_Z_Fire_Button",
+    "Weapon_Z_Poison": "Potion_Button",
+    "Item_Z_Confuse": "Item_Z_Confuse_button"
+};
+Instance.OnScriptInput("ItemTick", (data) => {
+    const parent = data.caller.GetParent();
+    if (parent !== undefined && parent instanceof CSPlayerPawn) {
+        const item_name = data.caller.GetEntityName();
+        if (parent.WasInputJustPressed(CSInputs.USE)) {
+            const relay_name = relay_names[item_name];
+            if (parent.GetTeamNumber() === Team.CT) {
+                if (relay_name === "Item_Relay_Ultima" && shinra_tp) {
+                    return;
+                }
+                if (!gi_nattak_silence) {
+                    EntFire(relay_name, "Press");
+                }
             }
-            if (!gi_nattak_silence)
-                EntFireTarget(item, "Trigger");
+            if (parent.GetTeamNumber() === Team.T) {
+                if (relay_name === "Item_Z_Ice_Relay" && shinra_elevator) {
+                    return;
+                }
+                EntFire(relay_name, "Press");
+            }
+        }
+        if (item_name === "Weapon_Z_Ice" || item_name === "Weapon_Z_Fire") {
+            if (zm_item_speed_time > 20) {
+                EntFireTarget(parent, "keyvalue", "speed 1.2");
+                zm_item_speed_time = 0;
+            }
+            zm_item_speed_time += item_tickrate;
         }
     }
-    for (const item of zombie_items) {
-        if (!item.IsValid() || !item.player.IsValid() || item.player.GetTeamNumber() !== Team.T || item.player.GetHealth() <= 0 || item.player.FindWeaponBySlot(CSGearSlot$1.KNIFE) === undefined) {
-            zombie_items = removeItem(item, zombie_items);
-            continue;
-        }
-        if (item.player.WasInputJustPressed(CSInputs.USE)) {
-            if (item.GetEntityName() === "Item_Z_Ice_Relay" && shinra_elevator) {
-                continue;
-            }
-            EntFireTarget(item, "Trigger");
-        }
-        if (item.GetEntityName() === "Item_Z_Ice_Relay" || item.GetEntityName() === "Item_Z_Fire_Relay") {
-            if (item.speed_timeout > 20) {
-                EntFireTarget(item.player, "keyvalue", "runspeed 1.2");
-                item.speed_timeout = 0;
-            }
-            item.speed_timeout += item_tickrate;
-        }
-    }
-});
-Instance.OnScriptInput("SetItemHuman", (data) => {
-    const relay = data.caller;
-    // Remove duplicates
-    human_items = removeItem(relay, human_items);
-    relay.player = data.activator;
-    human_items.push(relay);
-});
-Instance.OnScriptInput("RemoveItemHuman", (data) => {
-    human_items = removeItem(data.caller, human_items);
-});
-Instance.OnScriptInput("SetItemZombie", (data) => {
-    const relay = data.caller;
-    // Remove duplicates
-    zombie_items = removeItem(relay, zombie_items);
-    relay.player = data.activator;
-    relay.speed_timeout = 21;
-    zombie_items.push(relay);
-});
-Instance.OnScriptInput("RemoveItemZombie", (data) => {
-    zombie_items = removeItem(data.caller, zombie_items);
+    // for (const item of human_items) {
+    //     if (!item.IsValid() || !item.player.IsValid() || item.player.GetTeamNumber() !== Team.CT || item.player.GetHealth() <= 0) {
+    //         continue;
+    //     }
+    //     if (item.player.WasInputJustPressed(CSInputs.USE)) {
+    //         if (item.GetEntityName() === "Item_Relay_Ultima" && shinra_tp) {
+    //             continue;
+    //         }
+    //         if (!gi_nattak_silence)
+    //             EntFireTarget(item, "Trigger");
+    //     }
+    // }
+    // for (const item of zombie_items) {
+    //     if (!item.IsValid() || !item.player.IsValid() || item.player.GetTeamNumber() !== Team.T || item.player.GetHealth() <= 0) {
+    //         continue;
+    //     }
+    //     if (item.player.WasInputJustPressed(CSInputs.USE)) {
+    //         if (item.GetEntityName() === "Item_Z_Ice_Relay" && shinra_elevator) {
+    //             continue;
+    //         }
+    //         EntFireTarget(item, "Trigger");
+    //     }
+    //     if (item.GetEntityName() === "Item_Z_Ice_Relay" || item.GetEntityName() === "Item_Z_Fire_Relay") {
+    //         if (item.speed_timeout > 20) {
+    //             EntFireTarget(item.player, "keyvalue", "speed 1.2");
+    //             item.speed_timeout = 0;
+    //         }
+    //         item.speed_timeout += item_tickrate;
+    //     }
+    // }
 });
 Instance.OnScriptInput("SetOwner", (data) => {
     data.activator.SetOwner(data.caller);
@@ -1224,7 +1308,7 @@ Instance.OnScriptInput("SpawnZMConfuse", () => {
 Instance.OnScriptInput("ConfuseOverlay", (data) => {
     const activator = data.activator;
     const t = data.caller;
-    const e = t.ForceSpawn(activator.GetAbsOrigin());
+    const e = t.ForceSpawn(activator.GetEyePosition());
     e[0].SetParent(activator);
 });
 Instance.OnScriptInput("StripKnife", (data) => {
@@ -1271,48 +1355,22 @@ const minion_origin = [
     new Vec3(-1860, 5800, 568),
 ];
 let minion_origin_temp = [...minion_origin];
+let last_spawn1 = null;
 Instance.OnScriptInput("Spawn1Minion", (data) => {
     const t = data.caller;
     if (minion_origin_temp.length === 0) {
         minion_origin_temp = [...minion_origin];
+        if (last_spawn1) {
+            minion_origin_temp = minion_origin_temp.filter(o => !vec3Equal(o, last_spawn1));
+        }
+    }
+    if (minion_origin_temp.length === 0) {
+        return;
     }
     const origin = minion_origin_temp[getRandomInt(0, minion_origin_temp.length - 1)];
-    minion_origin_temp = minion_origin_temp.filter(o => o !== origin);
+    minion_origin_temp = minion_origin_temp.filter(o => !vec3Equal(o, origin));
+    last_spawn1 = origin;
     t.ForceSpawn(origin);
-});
-const minion_2_origin = [
-    new Vec3(-1752, 5800, 568),
-    new Vec3(-1860, 5800, 568),
-    new Vec3(-2040, 5800, 568),
-    new Vec3(-1752, 5800, 568)
-];
-let minion_2_origin_temp = [...minion_2_origin];
-Instance.OnScriptInput("Spawn2Minion", (data) => {
-    const t = data.caller;
-    if (minion_2_origin_temp.length === 0) {
-        minion_2_origin_temp = [...minion_2_origin];
-    }
-    let origin1;
-    let origin2;
-    if (minion_2_origin_temp.length > 2) {
-        if (Math.random() < 0.5) {
-            origin1 = minion_2_origin_temp[0];
-            origin2 = minion_2_origin_temp[1];
-        }
-        else {
-            origin1 = minion_2_origin_temp[2];
-            origin2 = minion_2_origin_temp[3];
-        }
-    }
-    else {
-        origin1 = minion_2_origin_temp[0];
-        origin2 = minion_2_origin_temp[1];
-    }
-    minion_2_origin_temp = minion_2_origin_temp.filter(o => (o !== origin1) && (o !== origin2));
-    t.ForceSpawn(origin1);
-    setTimeout(() => {
-        t.ForceSpawn(origin2);
-    }, 6 * 1000);
 });
 const fireball_origin = [
     new Vec3(8996, 9167, 223),
@@ -1423,11 +1481,11 @@ Instance.OnScriptInput("RenameTrigger", (data) => {
 class Boss {
     PHYSBOX;
     TICKRATE = 0.02;
-    ANGULAR_VEL = 225;
-    FORWARD_VEL_SCALE = 400;
+    ANGULAR_VEL = 240;
+    FORWARD_VEL_SCALE = 440;
     FRONT_ANGLE = 5;
-    FORWARD_TIMEOUT = 0.75;
-    ACCEL_MAX = 1;
+    FORWARD_TIMEOUT = 0.5;
+    ACCEL_MAX = 0.75;
     target = undefined;
     forward_timeout = this.FORWARD_TIMEOUT;
     accel_time = 0;
@@ -1436,6 +1494,8 @@ class Boss {
         this.Tick();
     }
     Tick() {
+        if (genesis_stop)
+            return;
         if (this.target === undefined || !this.target.IsValid() || this.target.GetTeamNumber() !== Team.CT || this.target.GetHealth() <= 0) {
         }
         else {
@@ -1467,8 +1527,6 @@ class Boss {
                 this.PHYSBOX.Teleport({ velocity: new Vec3(forward_vec.x * scale, forward_vec.y * scale, 0) });
             }
         }
-        if (genesis_stop)
-            return;
         setTimeout(() => {
             this.Tick();
         }, this.TICKRATE * 1000);
@@ -1487,7 +1545,6 @@ Instance.OnScriptInput("GenesisAccelReset", () => {
 });
 Instance.OnScriptInput("GenesisTarget", (data) => {
     genesis.target = data.activator;
-    genesis.accel_time = 0.75;
 });
 // HELPER FUNCTIONS \\
 function EntFire(name, input, value, delay, activator, caller) {
@@ -1499,6 +1556,9 @@ function EntFireTarget(target, input, value, delay, activator, caller) {
 /** Removes the item from the list and returns the new list */
 function removeItem(item, item_list) {
     return item_list = item_list.filter(i => i !== item);
+}
+function vec3Equal(a, b) {
+    return a.x === b.x && a.y === b.y && a.z === b.z;
 }
 function getRandomInt(min, max) {
     min = Math.ceil(min);

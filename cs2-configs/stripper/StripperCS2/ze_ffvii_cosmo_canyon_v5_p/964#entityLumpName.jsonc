@@ -1,58 +1,42 @@
 {
-  "modify": [
-    // Change c4 item to knife item and add filter
-    {
-      "match": {
-        "classname": "weapon_c4"
-      },
-      "replace": {
-        "classname": "weapon_knife"
-      },
-      "insert": {
-        "io": [
-          {
-            "outputname": "OnPlayerPickup",
-            "targetname": "!activator",
-            "inputname": "AddContext",
-            "overrideparam": "zitem_pickup:1",
-            "delay": 0,
-            "timestofire": 1
-          }
-        ]
-      }
-    }
-  ],
   "add": [
-    // Add strip trigger to the knife
+    // Add dummy item button for tracking
     {
-      "classname": "trigger_multiple",
-      "targetname": "[PR#]ZombiePoisonStripTrigger",
-      "origin": "-5.000000 0.000000 -3.000000",
+      "classname": "func_button",
+      "targetname": "[PR#]Item_Z_Poison_Button",
+      "hammeruniqueid": "100011",
+      "origin": "19.000000 0.000000 30.004974",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "spawnflags": "4097",
-      "filtername": "[PR#]Filter_Z_Items_Pickup",
-      "model": "maps/ze_ffvii_cosmo_canyon_v5_p/entities/cactuszm_z_stripknife_53121.vmdl",
-      "startdisabled": "False",
-      "wait": "1",
+      "spawnflags": "17409",
+      "model": "maps/ze_ffvii_cosmo_canyon_v5_p/entities/shinra_gate_button_920.vmdl",
+      "speed": "5",
+      "forcenpcexclude": "False",
+      "lip": "0",
+      "movedir": "[0, 0, 0]",
+      "enableuseoutput": "1",
+      "wait": "0.25",
+      "unlocked_sound": "0",
+      "locked_sound": "0",
+      "lightmapstatic": "0",
+      "rendertocubemaps": "False",
+      "object_culling": "0",
+      "fademaxdist": "0",
+      "fademindist": "-1",
+      "disablereceiveshadows": "False",
+      "rendercolor": "[255, 255, 255]",
+      "renderamt": "255",
+      "rendermode": "0",
+      "renderfx": "0",
       "uselocaloffset": "False",
-      "_template_lump_ent_index": "7",
       "io": [
         {
-          "outputname": "OnStartTouch",
-          "targetname": "[PR#]script_cosmo",
-          "inputname": "RunScriptInput",
-          "overrideparam": "StripKnife",
-          "delay": 0,
-          "timestofire": 1
-        },
-        {
-          "outputname": "OnStartTouch",
-          "targetname": "!self",
-          "inputname": "Kill",
+          "outputname": "OnPressed",
+          "targetname": "[PR#]Item_Z_Poison_Relay",
+          "inputname": "Trigger",
           "overrideparam": "",
           "delay": 0,
-          "timestofire": 1
+          "timestofire": -1
         }
       ]
     }

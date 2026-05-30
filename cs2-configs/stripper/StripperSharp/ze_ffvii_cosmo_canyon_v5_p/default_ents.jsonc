@@ -16,27 +16,9 @@
             "output": "OnMapSpawn",
             "target": "[PR#]cmd",
             "input": "Command",
-            "param": "say *** 把僵尸C4神器改回普通刀系统由koen做改变 ***",
-            "delay": 5
-          }
-        ]
-      }
-    },
-    // Reset player context
-    {
-      "match": {
-        "classname": "trigger_multiple",
-        "hammeruniqueid": "53086"
-      },
-      "insert": {
-        "connections": [
-          {
-            "output": "OnStartTouch",
-            "target": "!activator",
-            "input": "ClearContext",
-            "param": "",
-            "delay": 0,
-            "limit": -1
+            "param": "say *** Item system rework by koen ***",
+            "delay": 5,
+            "limit": 1
           }
         ]
       }
@@ -50,65 +32,118 @@
         "cs_script": "scripts/cosmo_patch.vjs"
       }
     },
-    // Update strip trigger filter
+    // Add item buttons to item templates
     {
       "match": {
-        "classname": "filter_multi",
-        "targetname": "[PR#]Filter_Z_Items_Pickup"
+        "targetname": "[PR#]Item_Sleep_Temp1"
       },
       "insert": {
-        "filter02": "[PR#]Pickup_Filter"
+        "template09": "[PR#]Item_Sleep_Button"
       }
     },
-    // Add strip triggers to zombie item templates
     {
       "match": {
-        "classname": "point_template",
+        "targetname": "[PR#]Item_Heal_Temp"
+      },
+      "insert": {
+        "template01": "[PR#]Item_Heal_Button"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Item_Wind_Temp"
+      },
+      "insert": {
+        "template04": "[PR#]Item_Wind_Button"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Item_Gravity_Temp1"
+      },
+      "insert": {
+        "template01": "[PR#]Item_Gravity_Button"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Item_Bio_Temp1"
+      },
+      "insert": {
+        "template03": "[PR#]Item_Bio_Button"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Item_Electro_Temp1"
+      },
+      "insert": {
+        "template04": "[PR#]Item_Electro_Button"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Item_Fire_Temp"
+      },
+      "insert": {
+        "template04": "[PR#]Item_Fire_Button"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Item_Earth_Temp1"
+      },
+      "insert": {
+        "template01": "[PR#]Item_Earth_Button"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Item_Ultima_Temp"
+      },
+      "insert": {
+        "template05": "[PR#]Item_Ultima_Button"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Potion_Temp"
+      },
+      "insert": {
+        "template04": "[PR#]Potion_Button"
+      }
+    },
+    {
+      "match": {
         "targetname": "[PR#]Weapon_Z_Poison_Temp"
       },
       "insert": {
-        "template08": "[PR#]ZombiePoisonStripTrigger"
+        "template08": "[PR#]Item_Z_Poison_Button"
       }
     },
     {
       "match": {
-        "classname": "point_template",
         "targetname": "[PR#]Weapon_Z_Fire_Temp"
       },
       "insert": {
-        "template08": "[PR#]ZombieFireStripTrigger"
+        "template08": "[PR#]Item_Z_Fire_Button"
       }
     },
     {
       "match": {
-        "classname": "point_template",
         "targetname": "[PR#]Weapon_Z_Ice_Temp"
       },
       "insert": {
-        "template08": "[PR#]ZombieIceStripTrigger"
+        "template08": "[PR#]Item_Z_Ice_Button"
       }
     },
     {
       "match": {
-        "classname": "point_template",
         "targetname": "[PR#]Item_Z_Confuse_itemtemp"
       },
       "insert": {
-        "template10": "[PR#]ZombieConfuseStripTrigger"
+        "template10": "[PR#]Item_Z_Confuse_button"
       }
-    }
-  ],
-  "add": [
-    // Add filter for strip trigger
-    {
-      "classname": "filter_activator_context",
-      "targetname": "[PR#]Pickup_Filter",
-      "origin": "-11480.000000 1220.000000 -120.000000",
-      "angles": "0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000",
-      "clientsideentity": "0",
-      "responsecontext": "zitem_pickup",
-      "negated": "1"
     }
   ]
 }
