@@ -14,7 +14,7 @@
           },
           "type": "array"
         },
-        "hammerUniqueId": {
+        "hammeruniqueid": {
           "minLength": 1,
           "pattern": "^[0-9:]+$",
           "type": "string"
@@ -72,7 +72,7 @@
               },
               "type": "array"
             },
-            "hammerUniqueId": {
+            "hammeruniqueid": {
               "minLength": 1,
               "pattern": "^[0-9:]+$",
               "type": "string"
@@ -96,7 +96,7 @@
               },
               "type": "array"
             },
-            "hammerUniqueId": {
+            "hammeruniqueid": {
               "minLength": 1,
               "pattern": "^[0-9:]+$",
               "type": "string"
@@ -117,7 +117,7 @@
               "required": ["targetname"]
             },
             {
-              "required": ["hammerUniqueId"]
+              "required": ["hammeruniqueid"]
             }
           ],
           "properties": {
@@ -131,7 +131,7 @@
               },
               "type": "array"
             },
-            "hammerUniqueId": {
+            "hammeruniqueid": {
               "minLength": 1,
               "pattern": "^[0-9:]+$",
               "type": "string"
@@ -158,7 +158,7 @@
           },
           "type": "array"
         },
-        "hammerUniqueId": {
+        "hammeruniqueid": {
           "minLength": 1,
           "pattern": "^[0-9:]+$",
           "type": "string"
