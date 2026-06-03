@@ -1,0 +1,29 @@
+{
+  "modify": [
+    // Offset item height after AG2 update
+    {
+      "match": {
+        "targetname": "[PR#]human_beam_particle"
+      },
+      "insert": {
+        "origin": "106.299805 -1.000000 8.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]human_beam_eff"
+      },
+      "insert": {
+        "origin": "30.299805 -1.000000 8.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]human_beam_hurt"
+      },
+      "insert": {
+        "origin": "618.299805 0.000000 16.000000"
+      }
+    }
+  ]
+}

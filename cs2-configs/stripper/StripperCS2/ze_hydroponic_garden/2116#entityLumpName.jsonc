@@ -1,0 +1,21 @@
+{
+  "modify": [
+    // Offset item height after AG2 update
+    {
+      "match": {
+        "targetname": "[PR#]human_cube_maker"
+      },
+      "replace": {
+        "origin": "233.400391 -8.900391 -32.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]human_cub_rot2"
+      },
+      "replace": {
+        "origin": "32.900391 -1.000000 4.000000"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "modify": [
+    // Offset item height after AG2 update
+    {
+      "match": {
+        "targetname": "[PR#]human_shield_maker"
+      },
+      "replace": {
+        "origin": "28.299805 -4.299805 -64.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]human_shield_eff"
+      },
+      "replace": {
+        "origin": "30.299805 0.000000 -4.000000"
+      }
+    }
+  ]
+}
