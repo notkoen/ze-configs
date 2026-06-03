@@ -1,0 +1,37 @@
+{
+  "modify": [
+    // Offset item height after AG2 update
+    {
+      "match": {
+        "hammeruniqueid": "4131"
+      },
+      "replace": {
+        "origin": "50.000000 -48.000000 -36.000000"
+      }
+    },
+    {
+      "match": {
+        "hammeruniqueid": "4232"
+      },
+      "replace": {
+        "origin": "50.000000 40.000000 -36.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]laser_wall_maker"
+      },
+      "replace": {
+        "origin": "54.000000 0.000000 112.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]laserwall_beam1"
+      },
+      "replace": {
+        "origin": "50.000000 40.000000 -36.000000"
+      }
+    }
+  ]
+}

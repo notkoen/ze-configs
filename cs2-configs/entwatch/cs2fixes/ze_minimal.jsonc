@@ -225,7 +225,7 @@
         "message": true,
         "ui": true,
         "transfer": false,
-        "color": "blue",
+        "color": "orange",
         "triggers": ["4184"],
         "handlers": [
             {
@@ -250,7 +250,7 @@
         "message": true,
         "ui": true,
         "transfer": false,
-        "color": "white",
+        "color": "purple",
         "triggers": ["3997"],
         "handlers": [
             {

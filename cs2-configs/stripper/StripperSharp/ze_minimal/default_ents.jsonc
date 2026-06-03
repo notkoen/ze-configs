@@ -1,0 +1,22 @@
+{
+  "modify": [
+    // Add stripper credit
+    {
+      "match": {
+        "classname": "logic_auto"
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnMapSpawn",
+            "target": "[PR#]cmd",
+            "input": "Command",
+            "param": "say *** Item height fixed by koen ***",
+            "delay": 5,
+            "limit": -1
+          }
+        ]
+      }
+    }
+  ]
+}
