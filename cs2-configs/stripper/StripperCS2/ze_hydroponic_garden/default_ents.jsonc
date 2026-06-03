@@ -1,0 +1,87 @@
+{
+  "modify": [
+    // Add stripper credit
+    {
+      "match": {
+        "classname": "logic_auto"
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnMapSpawn",
+            "targetname": "[PR#]cmd",
+            "inputname": "Command",
+            "overrideparam": "say *** Item height and stage 2 teleport avoidance spot fixed by koen ***",
+            "delay": 5,
+            "timestofire": -1
+          }
+        ]
+      }
+    },
+    // Patch stage 2 teleport avoidance spot
+    {
+      "match": {
+        "targetname": "[PR#]s2_elevator03_path2"
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnPass",
+            "targetname": "[PR#]s2_tp03",
+            "inputname": "FireUser1",
+            "overrideparam": "",
+            "delay": 6,
+            "timestofire": 1
+          }
+        ]
+      }
+    }
+  ],
+  "add": [
+    // Patch stage 2 teleport avoidance spot
+    {
+      "classname": "trigger_teleport",
+      "targetname": "[PR#]s2_tp03",
+      "hammeruniqueid": "1775",
+      "origin": "6336.000000 -7328.000000 -6912.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "spawnflags": "4097",
+      "model": "maps/ze_hydroponic_garden/entities/s2_tp03_1775.vmdl",
+      "startdisabled": "True",
+      "check_if_dest_clear_for_player": "False",
+      "uselandmarkangles": "1",
+      "checkdestifclearforplayer": "0",
+      "mirror_player": "False",
+      "use_landmark_angles": "False",
+      "target": "[PR#]stage2_dest03",
+      "uselocaloffset": "False",
+      "io": [
+        {
+          "outputname": "OnUser1",
+          "targetname": "!self",
+          "inputname": "Disable",
+          "overrideparam": "",
+          "delay": 0,
+          "timestofire": -1
+        },
+        {
+          "outputname": "OnUser1",
+          "targetname": "!self",
+          "inputname": "Enable",
+          "overrideparam": "",
+          "delay": 0.5,
+          "timestofire": -1
+        },
+        {
+          "outputname": "OnUser1",
+          "targetname": "!self",
+          "inputname": "FireUser1",
+          "overrideparam": "",
+          "delay": 1,
+          "timestofire": -1
+        }
+      ]
+    }
+  ]
+}

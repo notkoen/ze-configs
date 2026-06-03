@@ -1,0 +1,21 @@
+{
+  "modify": [
+    // Offset item height after AG2 update
+    {
+      "match": {
+        "targetname": "[PR#]zombie_heal_particle"
+      },
+      "insert": {
+        "origin": "-4.000000 0.000000 -32.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]zombie_heal_eff"
+      },
+      "insert": {
+        "origin": "26.000000 0.000000 -4.000000"
+      }
+    }
+  ]
+}
