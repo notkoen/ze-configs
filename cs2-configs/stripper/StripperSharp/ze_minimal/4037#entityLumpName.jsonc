@@ -1,0 +1,21 @@
+{
+  "modify": [
+    // Offset item height after AG2 update
+    {
+      "match": {
+        "targetname": "[PR#]freezer_maker"
+      },
+      "insert": {
+        "origin": "18.000000 0.000000 -64.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]freezer_eff"
+      },
+      "insert": {
+        "origin": "21.000000 -2.000000 -24.000000"
+      }
+    }
+  ]
+}
