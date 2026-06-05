@@ -5,7 +5,7 @@
       "match": {
         "targetname": "[PR#]zombie_freezeball_Angle&0000"
       },
-      "replace": {
+      "insert": {
         "rendermode": "2"
       }
     }

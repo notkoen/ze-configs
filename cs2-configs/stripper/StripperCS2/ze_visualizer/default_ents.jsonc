@@ -12,7 +12,8 @@
             "targetname": "[PR#]cmd",
             "inputname": "Command",
             "overrideparam": "say *** Visible angle prop and boss hp scaling bug fix by koen ***",
-            "delay": 5
+            "delay": 5,
+            "timestofire": 1
           }
         ]
       }
