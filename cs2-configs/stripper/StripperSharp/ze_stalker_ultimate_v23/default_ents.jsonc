@@ -1,0 +1,21 @@
+{
+  "modify": [
+    // Fix incorrect rendermode
+    {
+      "match": {
+        "targetname": "[PR#]boss"
+      },
+      "insert": {
+        "rendermode": "0"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]boss2"
+      },
+      "insert": {
+        "rendermode": "0"
+      }
+    }
+  ]
+}
