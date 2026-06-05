@@ -1,0 +1,39 @@
+{
+  "modify": [
+    // Add stripper credit
+    {
+      "match": {
+        "classname": "logic_auto"
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnMapSpawn",
+            "targetname": "[PR#]server",
+            "inputname": "Command",
+            "overrideparam": "say *** Invisible boss models fixed by koen ***",
+            "delay": 5,
+            "timestofire": -1
+          }
+        ]
+      }
+    },
+    // Fix incorrect rendermode
+    {
+      "match": {
+        "targetname": "[PR#]boss"
+      },
+      "replace": {
+        "rendermode": "0"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]boss2"
+      },
+      "replace": {
+        "rendermode": "0"
+      }
+    }
+  ]
+}
