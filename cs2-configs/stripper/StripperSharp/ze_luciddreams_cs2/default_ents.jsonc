@@ -1,0 +1,217 @@
+{
+  "modify": [
+    // Fix chat spam
+    {
+      "match": {
+        "hammeruniqueid": "141"
+      },
+      "delete": {
+        "connections": [
+          {
+           "output": "OnStartTouch",
+            "target": "[PR#]servercommand",
+            "input": "Command",
+            "param": "say *** 20sec ***",
+            "delay": 0,
+            "limit": -1
+          },
+          {
+           "output": "OnStartTouch",
+            "target": "[PR#]servercommand",
+            "input": "Command",
+            "param": "say *** 5sec ***",
+            "delay": 15,
+            "limit": -1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+           "output": "OnStartTouch",
+            "target": "[PR#]servercommand",
+            "input": "Command",
+            "param": "say *** 20sec ***",
+            "delay": 0,
+            "limit": 1
+          },
+          {
+           "output": "OnStartTouch",
+            "target": "[PR#]servercommand",
+            "input": "Command",
+            "param": "say *** 5sec ***",
+            "delay": 15,
+            "limit": 1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "hammeruniqueid": "171"
+      },
+      "delete": {
+        "connections": [
+          {
+           "output": "OnStartTouch",
+            "target": "[PR#]servercommand",
+            "input": "Command",
+            "param": "say *** 30sec ***",
+            "delay": 0,
+            "limit": -1
+          },
+          {
+           "output": "OnStartTouch",
+            "target": "[PR#]servercommand",
+            "input": "Command",
+            "param": "say *** 15sec ***",
+            "delay": 15,
+            "limit": -1
+          },
+          {
+           "output": "OnStartTouch",
+            "target": "[PR#]servercommand",
+            "input": "Command",
+            "param": "say *** 10sec ***",
+            "delay": 30,
+            "limit": -1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+           "output": "OnStartTouch",
+            "target": "[PR#]servercommand",
+            "input": "Command",
+            "param": "say *** 30sec ***",
+            "delay": 0,
+            "limit": 1
+          },
+          {
+           "output": "OnStartTouch",
+            "target": "[PR#]servercommand",
+            "input": "Command",
+            "param": "say *** 15sec ***",
+            "delay": 15,
+            "limit": 1
+          },
+          {
+           "output": "OnStartTouch",
+            "target": "[PR#]servercommand",
+            "input": "Command",
+            "param": "say *** 10sec ***",
+            "delay": 30,
+            "limit": 1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "hammeruniqueid": "506"
+      },
+      "delete": {
+        "connections": [
+          {
+           "output": "OnStartTouch",
+            "target": "[PR#]servercommand",
+            "input": "Command",
+            "param": "say *** 20 sec ***",
+            "delay": 0,
+            "limit": -1
+          },
+          {
+           "output": "OnStartTouch",
+            "target": "[PR#]servercommand",
+            "input": "Command",
+            "param": "say *** 5sec ***",
+            "delay": 15,
+            "limit": -1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+           "output": "OnStartTouch",
+            "target": "[PR#]servercommand",
+            "input": "Command",
+            "param": "say *** 20 sec ***",
+            "delay": 0,
+            "limit": 1
+          },
+          {
+           "output": "OnStartTouch",
+            "target": "[PR#]servercommand",
+            "input": "Command",
+            "param": "say *** 5sec ***",
+            "delay": 15,
+            "limit": 1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "hammeruniqueid": "513"
+      },
+      "delete": {
+        "connections": [
+          {
+           "output": "OnStartTouch",
+            "target": "[PR#]servercommand",
+            "input": "Command",
+            "param": "say *** 45sec ***",
+            "delay": 0,
+            "limit": -1
+          },
+          {
+           "output": "OnStartTouch",
+            "target": "[PR#]servercommand",
+            "input": "Command",
+            "param": "say ***20sec ***",
+            "delay": 25,
+            "limit": -1
+          },
+          {
+           "output": "OnStartTouch",
+            "target": "[PR#]servercommand",
+            "input": "Command",
+            "param": "say ***5sec ***",
+            "delay": 40,
+            "limit": -1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+           "output": "OnStartTouch",
+            "target": "[PR#]servercommand",
+            "input": "Command",
+            "param": "say *** 45sec ***",
+            "delay": 0,
+            "limit": 1
+          },
+          {
+           "output": "OnStartTouch",
+            "target": "[PR#]servercommand",
+            "input": "Command",
+            "param": "say ***20sec ***",
+            "delay": 25,
+            "limit": 1
+          },
+          {
+           "output": "OnStartTouch",
+            "target": "[PR#]servercommand",
+            "input": "Command",
+            "param": "say ***5sec ***",
+            "delay": 40,
+            "limit": 1
+          }
+        ]
+      }
+    }
+  ]
+}

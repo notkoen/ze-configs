@@ -1,0 +1,29 @@
+{
+  "modify": [
+    // Offset item height after AG2 update
+    {
+      "match": {
+        "targetname": "[PR#]item_shield_trigger&0000"
+      },
+      "insert": {
+        "origin": "16.000000 2.000000 20.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]particle_snow_trigger&0000"
+      },
+      "insert": {
+        "origin": "16.000000 1.665039 0.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]particle_snow&0000"
+      },
+      "insert": {
+        "origin": "11.794922 34.665039 -42.000000"
+      }
+    }
+  ]
+}
