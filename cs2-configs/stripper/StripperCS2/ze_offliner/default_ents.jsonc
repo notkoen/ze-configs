@@ -11,8 +11,9 @@
             "outputname": "OnMapSpawn",
             "targetname": "[PR#]cmd",
             "inputname": "Command",
-            "overrideparam": "say >> Visible angle prop and respawn toggle fix by koen <<",
-            "delay": 5
+            "overrideparam": "say *** Visible angle prop, item height, shockwave particle, and respawn toggle fix by koen ***",
+            "delay": 5,
+            "timestofire": 1
           }
         ]
       }
@@ -20,18 +21,31 @@
     // Fix respawn toggle firing multiple times
     {
       "match": {
-        "targetname": "[PR#]once_end_win",
+        "targetname": "[PR#]once_end_win"
+      },
+      "delete": {
         "io": [
           {
+            "outputname": "OnStartTouch",
             "targetname": "[PR#]zr_toggle_respawn",
-            "inputname": "trigger"
+            "inputname": "trigger",
+            "overrideparam": "",
+            "delay": 0,
+            "timestofire": -1
           }
         ]
       },
-      "replace": {
-        "io": {
-          "inputname": "Disable"
-        }
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnStartTouch",
+            "targetname": "[PR#]zr_toggle_respawn",
+            "inputname": "Disable",
+            "overrideparam": "",
+            "delay": 0,
+            "timestofire": 1
+          }
+        ]
       }
     }
   ]
