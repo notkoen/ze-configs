@@ -1,0 +1,34 @@
+{
+  "modify": [
+    // Fix respawn toggle firing multiple times
+    {
+      "match": {
+        "targetname": "[PR#]once_end_win"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnStartTouch",
+            "target": "[PR#]zr_toggle_respawn",
+            "input": "trigger",
+            "param": "",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnStartTouch",
+            "target": "[PR#]zr_toggle_respawn",
+            "input": "Disable",
+            "param": "",
+            "delay": 0,
+            "limit": 1
+          }
+        ]
+      }
+    }
+  ]
+}

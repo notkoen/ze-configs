@@ -1,0 +1,46 @@
+{
+  "modify": [
+    // Offset item height after AG2 update
+    {
+      "match": {
+        "targetname": "[PR#]shockwave_item_button"
+      },
+      "insert": {
+        "origin": "18.000000 0.000000 16.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]shockwave_item_particle_start"
+      },
+      "insert": {
+        "origin": "20.000000 0.000000 -42.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]shockwave_item_particle_explode"
+      },
+      "insert": {
+        "origin": "25.900024 0.000000 -32.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]shockwave_item_eff"
+      },
+      "insert": {
+        "origin": "17.900024 -2.000000 8.000000"
+      }
+    },
+    // Fix shockwave particle not appearing when item spawns
+    {
+      "match": {
+        "targetname": "[PR#]shockwave_item_eff"
+      },
+      "insert": {
+        "start_active": "True"
+      }
+    }
+  ]
+}
