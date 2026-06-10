@@ -1,0 +1,50 @@
+[
+    {
+    "name": "Shield",
+    "shortname": "Shield",
+    "hammerid": "134",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "red",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "131"
+      },
+      {
+        "hammerid": "18970",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 60,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Push",
+    "shortname": "Push",
+    "hammerid": "360",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "white",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "357"
+      },
+      {
+        "hammerid": "18969",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 40,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  }
+]

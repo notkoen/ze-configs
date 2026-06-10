@@ -1,0 +1,21 @@
+{
+  "modify": [
+    // Offset item height after AG2 update
+    {
+      "match": {
+        "targetname": "[PR#]Wind_button&0000"
+      },
+      "replace": {
+        "origin": "0.000000 -30.000000 48.000000"
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]PushParticle&0000"
+      },
+      "replace": {
+        "origin": "0.000000 -64.000000 0.000000"
+      }
+    }
+  ]
+}

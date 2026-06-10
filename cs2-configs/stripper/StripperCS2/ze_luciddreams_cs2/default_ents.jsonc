@@ -11,8 +11,9 @@
             "outputname": "OnMapSpawn",
             "targetname": "[PR#]servercommand",
             "inputname": "Command",
-            "overrideparam": "say ** Chat spam fix, broken cc removal, and boss hp buff by koen **",
-            "delay": 5
+            "overrideparam": "say ** Chat spam fix, item height, and boss hp buff by koen **",
+            "delay": 5,
+            "timestofire": 1
           }
         ]
       }
@@ -20,12 +21,212 @@
     // Fix chat spam
     {
       "match": {
-        "classname": "trigger_once"
+        "hammeruniqueid": "141"
       },
-      "replace": {
+      "delete": {
         "io": [
           {
-            "outputname": "OnTrigger"
+            "outputname": "OnStartTouch",
+            "targetname": "[PR#]servercommand",
+            "inputname": "Command",
+            "overrideparam": "say *** 20sec ***",
+            "delay": 0,
+            "timestofire": -1
+          },
+          {
+            "outputname": "OnStartTouch",
+            "targetname": "[PR#]servercommand",
+            "inputname": "Command",
+            "overrideparam": "say *** 5sec ***",
+            "delay": 15,
+            "timestofire": -1
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnStartTouch",
+            "targetname": "[PR#]servercommand",
+            "inputname": "Command",
+            "overrideparam": "say *** 20sec ***",
+            "delay": 0,
+            "timestofire": 1
+          },
+          {
+            "outputname": "OnStartTouch",
+            "targetname": "[PR#]servercommand",
+            "inputname": "Command",
+            "overrideparam": "say *** 5sec ***",
+            "delay": 15,
+            "timestofire": 1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "hammeruniqueid": "171"
+      },
+      "delete": {
+        "io": [
+          {
+            "outputname": "OnStartTouch",
+            "targetname": "[PR#]servercommand",
+            "inputname": "Command",
+            "overrideparam": "say *** 30sec ***",
+            "delay": 0,
+            "timestofire": -1
+          },
+          {
+            "outputname": "OnStartTouch",
+            "targetname": "[PR#]servercommand",
+            "inputname": "Command",
+            "overrideparam": "say *** 15sec ***",
+            "delay": 15,
+            "timestofire": -1
+          },
+          {
+            "outputname": "OnStartTouch",
+            "targetname": "[PR#]servercommand",
+            "inputname": "Command",
+            "overrideparam": "say *** 10sec ***",
+            "delay": 30,
+            "timestofire": -1
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnStartTouch",
+            "targetname": "[PR#]servercommand",
+            "inputname": "Command",
+            "overrideparam": "say *** 30sec ***",
+            "delay": 0,
+            "timestofire": 1
+          },
+          {
+            "outputname": "OnStartTouch",
+            "targetname": "[PR#]servercommand",
+            "inputname": "Command",
+            "overrideparam": "say *** 15sec ***",
+            "delay": 15,
+            "timestofire": 1
+          },
+          {
+            "outputname": "OnStartTouch",
+            "targetname": "[PR#]servercommand",
+            "inputname": "Command",
+            "overrideparam": "say *** 10sec ***",
+            "delay": 30,
+            "timestofire": 1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "hammeruniqueid": "506"
+      },
+      "delete": {
+        "io": [
+          {
+            "outputname": "OnStartTouch",
+            "targetname": "[PR#]servercommand",
+            "inputname": "Command",
+            "overrideparam": "say *** 20 sec ***",
+            "delay": 0,
+            "timestofire": -1
+          },
+          {
+            "outputname": "OnStartTouch",
+            "targetname": "[PR#]servercommand",
+            "inputname": "Command",
+            "overrideparam": "say *** 5sec ***",
+            "delay": 15,
+            "timestofire": -1
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnStartTouch",
+            "targetname": "[PR#]servercommand",
+            "inputname": "Command",
+            "overrideparam": "say *** 20 sec ***",
+            "delay": 0,
+            "timestofire": 1
+          },
+          {
+            "outputname": "OnStartTouch",
+            "targetname": "[PR#]servercommand",
+            "inputname": "Command",
+            "overrideparam": "say *** 5sec ***",
+            "delay": 15,
+            "timestofire": 1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "hammeruniqueid": "513"
+      },
+      "delete": {
+        "io": [
+          {
+            "outputname": "OnStartTouch",
+            "targetname": "[PR#]servercommand",
+            "inputname": "Command",
+            "overrideparam": "say *** 45sec ***",
+            "delay": 0,
+            "timestofire": -1
+          },
+          {
+            "outputname": "OnStartTouch",
+            "targetname": "[PR#]servercommand",
+            "inputname": "Command",
+            "overrideparam": "say ***20sec ***",
+            "delay": 25,
+            "timestofire": -1
+          },
+          {
+            "outputname": "OnStartTouch",
+            "targetname": "[PR#]servercommand",
+            "inputname": "Command",
+            "overrideparam": "say ***5sec ***",
+            "delay": 40,
+            "timestofire": -1
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnStartTouch",
+            "targetname": "[PR#]servercommand",
+            "inputname": "Command",
+            "overrideparam": "say *** 45sec ***",
+            "delay": 0,
+            "timestofire": 1
+          },
+          {
+            "outputname": "OnStartTouch",
+            "targetname": "[PR#]servercommand",
+            "inputname": "Command",
+            "overrideparam": "say ***20sec ***",
+            "delay": 25,
+            "timestofire": 1
+          },
+          {
+            "outputname": "OnStartTouch",
+            "targetname": "[PR#]servercommand",
+            "inputname": "Command",
+            "overrideparam": "say ***5sec ***",
+            "delay": 40,
+            "timestofire": 1
           }
         ]
       }
@@ -34,13 +235,17 @@
     // EXG has nospread and increased weapon damage so boss needs a buff
     {
       "match": {
-        "classname": "trigger_multiple",
-        "hammeruniqueid": "/(2220|2221)/"
+        "hammeruniqueid": "2220"
       },
       "delete": {
         "io": [
           {
-            "overrideparam": "350"
+            "outputname": "OnStartTouch",
+            "targetname": "[PR#]LV1_END_BOSS",
+            "inputname": "AddHealth",
+            "overrideparam": "350",
+            "delay": 0,
+            "timestofire": -1
           }
         ]
       },
@@ -59,35 +264,40 @@
     },
     {
       "match": {
-        "classname": "func_breakable",
+        "hammeruniqueid": "2221"
+      },
+      "delete": {
+        "io": [
+          {
+            "outputname": "OnStartTouch",
+            "targetname": "[PR#]LV1_END_BOSS",
+            "inputname": "AddHealth",
+            "overrideparam": "350",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnStartTouch",
+            "targetname": "[PR#]LV1_END_BOSS",
+            "inputname": "AddHealth",
+            "overrideparam": "500",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
         "targetname": "[PR#]LV1_END_BOSS"
       },
       "replace": {
         "health": "800"
       }
-    },
-    // Remove broken color correction
-    {
-      "match": {
-        "io": [
-          {
-            "targetname": "/ccgameplay/"
-          }
-        ]
-      },
-      "delete": {
-        "io": [
-          {
-            "targetname": "/ccgameplay/"
-          }
-        ]
-      }
-    }
-  ],
-  "filter": [
-    // Remove broken color correction
-    {
-      "classname": "post_processing_volume"
     }
   ]
 }
