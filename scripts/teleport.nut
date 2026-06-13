@@ -1,40 +1,59 @@
-// Credits to ficool2 for vscript and idea
-//            jaek for debugging
+/*
+ *      Purpose: Allows trigger_teleport to select random destinations with the same name
+ *               This mimics csgo behavior
+ *
+ *      Author: ficool2 (vscript)
+ *              jaek (debugging)
+ */
 
 destinations <- []
 destinations_current <- []
 
-function PickRandomShuffle(arr, orig_arr) {
-    if (arr.len() == 0) {
+function PickRandomShuffle(arr, orig_arr)
+{
+    if (arr.len() == 0)
+    {
         foreach (i in orig_arr)
-        arr.append(i)
+        {
+            arr.append(i)
+        }
     }
+
     return arr.remove(RandomInt(0, arr.len() - 1))
 }
 
-function InputAddOutput() {
+function InputAddOutput()
+{
     EntFireByHandle(self, "CallScriptFunction", "UpdateTarget", 0, null, null)
     return true
 }
 
 Inputaddoutput <- InputAddOutput
 
-function UpdateTarget() {
+function UpdateTarget()
+{
     destinations.clear()
     destinations_current.clear()
     local destination_name = NetProps.GetPropString(self, "m_target")
     for (local destination; destination = Entities.FindByName(destination, destination_name);)
+    {
         destinations.append(destination)
+    }
 }
 
-function OnPostSpawn() {
+function OnPostSpawn()
+{
     local destination_name = NetProps.GetPropString(self, "m_target")
     for (local destination; destination = Entities.FindByName(destination, destination_name);)
+    {
         destinations.append(destination)
+    }
+
     self.ConnectOutput("OnStartTouch", "OnStartTouch")
 }
 
-function OnStartTouch() {
+function OnStartTouch()
+{
     local destination = PickRandomShuffle(destinations_current, destinations)
     activator.Teleport(true, destination.GetOrigin(), true, destination.GetAbsAngles(), true, activator.GetAbsVelocity())
 }
