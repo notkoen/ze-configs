@@ -29,6 +29,41 @@
           }
         ]
       }
+    },
+    // Disable broken blue screen color correction
+    {
+      "match": {
+        "targetname": "[PR#]Stage4_Ending_Bergan_Relay"
+      },
+      "delete": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]blue2_effect",
+            "inputname": "Enable",
+            "overrideparam": "",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Stage4_Ending_Bergan_HP"
+      },
+      "delete": {
+        "io": [
+          {
+            "outputname": "OnHitMin",
+            "targetname": "[PR#]blue2_effect",
+            "inputname": "Disable",
+            "overrideparam": "",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      }
     }
   ]
 }
