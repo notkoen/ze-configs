@@ -5,7 +5,7 @@
       "classname": "func_button",
       "targetname": "[PR#]Item_Heal_Button",
       "hammeruniqueid": "100002",
-      "origin": "24.000000 -0.780029 31.000000",
+      "origin": "24.000000 -0.780029 -1000.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "spawnflags": "17409",
@@ -29,6 +29,7 @@
       "rendermode": "0",
       "renderfx": "0",
       "uselocaloffset": "False",
+      "parentname": "[PR#]Weapon_Heal",
       "connections": [
         {
           "output": "OnPressed",
