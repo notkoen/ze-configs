@@ -5,7 +5,7 @@
       "classname": "func_button",
       "targetname": "[PR#]Item_Z_Poison_Button",
       "hammeruniqueid": "100011",
-      "origin": "19.000000 0.000000 30.004974",
+      "origin": "19.000000 0.000000 -1000.004974",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "spawnflags": "17409",
@@ -29,6 +29,7 @@
       "rendermode": "0",
       "renderfx": "0",
       "uselocaloffset": "False",
+      "parentname": "[PR#]Weapon_Z_Poison",
       "io": [
         {
           "outputname": "OnPressed",

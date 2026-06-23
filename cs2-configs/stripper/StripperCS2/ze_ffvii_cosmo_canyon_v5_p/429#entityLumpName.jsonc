@@ -5,7 +5,7 @@
       "classname": "func_button",
       "targetname": "[PR#]Item_Wind_Button",
       "hammeruniqueid": "100003",
-      "origin": "24.000000 0.000000 31.000000",
+      "origin": "24.000000 0.000000 -1000.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "spawnflags": "17409",
@@ -29,6 +29,7 @@
       "rendermode": "0",
       "renderfx": "0",
       "uselocaloffset": "False",
+      "parentname": "[PR#]Weapon_Wind",
       "io": [
         {
           "outputname": "OnPressed",

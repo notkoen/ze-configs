@@ -8,12 +8,12 @@
     // Add stripper credit
     {
       "match": {
-        "classname": "logic_auto"
+        "targetname": "[PR#]auto"
       },
       "insert": {
         "io": [
           {
-            "outputname": "OnMapSpawn",
+            "outputname": "OnSpawn",
             "targetname": "[PR#]cmd",
             "inputname": "Command",
             "overrideparam": "say *** Item system rework by koen ***",
