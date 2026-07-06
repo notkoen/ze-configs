@@ -284,6 +284,27 @@ Find entity classnames that are either `math_counter`, `func_breakable`, or `fun
     "name": "",
     "breakable": "",
     "iterator": ""
+  },
+
+  // NPC display (show health)
+  {
+    "name": "",
+    "minorhud": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "templated": true,
+    "timeout": 1.0,
+    "breakable": ""
+  },
+  
+  // NPC hitmarkers only
+  {
+    "name": "",
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "templated": true,
+    "breakable": ""
   }
 ]
 ```
