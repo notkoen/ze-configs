@@ -1,0 +1,150 @@
+{
+  "modify": [
+    // Remove color characters from map message
+    {
+      "match": {
+        "targetname": "[PR#]relay_lilith_extreme_dream_weaver"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say *",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say < Extreme -> Dream Weaver >",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_lilith_extreme_sun_strike"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say *",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say < Extreme -> Sun Strike >",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_lilith_golem_summon"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say *",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say < Golem Summon >",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_lilith_extreme_rock_burst"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say *",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say < Extreme -> Rock Burst >",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_lilith_extreme_anima_ingest"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say *",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say < Extreme -> Anima Ingest >",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      }
+    }
+  ]
+}

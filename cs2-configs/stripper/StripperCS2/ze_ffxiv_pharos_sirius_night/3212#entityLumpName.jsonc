@@ -1,0 +1,29 @@
+{
+  "modify": [
+    // Remove color characters from map message
+    {
+      "match": {
+        "targetname": "[PR#]human_gravity_pistol"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< A PLAYER HAS ACQUIRED GRAVITY ELEMENT >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnPlayerPickup",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < A PLAYER HAS ACQUIRED GRAVITY ELEMENT >",
+            "delay": 0,
+            "timestofire": 1
+          }
+        ]
+      }
+    }
+  ]
+}

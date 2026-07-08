@@ -1,0 +1,29 @@
+{
+  "modify": [
+    // Remove color characters from map message
+    {
+      "match": {
+        "targetname": "[PR#]stage_ultimate_yojimbo_model"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Yojimbo >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnUser1",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Yojimbo >",
+            "delay": 0,
+            "timestofire": 1
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "modify": [
+    // Remove color characters from map message
+    {
+      "match": {
+        "targetname": "[PR#]stage_ultimate_yojimbo_model"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnUser1",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say *",
+            "delay": 0,
+            "limit": 1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnUser1",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say < Yojimbo >",
+            "delay": 0,
+            "limit": 1
+          },
+          {
+            "output": "OnUser1",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say < Yojimbo HAS CASTED SHADOW TURBULENCE >",
+            "delay": 0,
+            "limit": 1
+          }
+        ]
+      }
+    }
+  ]
+}

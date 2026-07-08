@@ -1,0 +1,29 @@
+{
+  "modify": [
+    // Remove color characters from map message
+    {
+      "match": {
+        "targetname": "[PR#]relay_lilith_extermination_thunder"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Extermination thunder >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnSpawn",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Extermination thunder >",
+            "delay": 0,
+            "timestofire": 1
+          }
+        ]
+      }
+    }
+  ]
+}

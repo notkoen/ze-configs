@@ -1,0 +1,125 @@
+{
+  "modify": [
+    // Remove color characters from map message
+    {
+      "match": {
+        "targetname": "[PR#]Filter_Human_Item_Upgrade_Gravity&0000"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Gravity Element Has Been Upgraded >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnPass",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Gravity Element Has Been Upgraded >",
+            "delay": 0,
+            "timestofire": 1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Filter_Human_Item_Upgrade_Rock&0000"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Rock Element Has Been Upgraded >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnPass",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Rock Element Has Been Upgraded >",
+            "delay": 0,
+            "timestofire": 1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Filter_Human_Item_Upgrade_Water&0000"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Water Element Has Been Upgraded >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnPass",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Water Element Has Been Upgraded >",
+            "delay": 0,
+            "timestofire": 1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Filter_Human_Item_Upgrade_Fire&0000"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Fire Element Has Been Upgraded >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnPass",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Fire Element Has Been Upgraded >",
+            "delay": 0,
+            "timestofire": 1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Filter_Human_Item_Upgrade_Heal&0000"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Heal Element Has Been Upgraded >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnPass",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Heal Element Has Been Upgraded >",
+            "delay": 0,
+            "timestofire": 1
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "modify": [
+    // Remove color characters from map message
+    {
+      "match": {
+        "targetname": "[PR#]relay_garland_flare_lazer"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Flare Lazer >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Flare Lazer >",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_garland_bravery"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Bravery >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Bravery >",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_garland_searing_implosion"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Searing Implosion >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Searing Implosion >",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_garland_round_edge"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Round Edge >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Round Edge >",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      }
+    }
+  ]
+}

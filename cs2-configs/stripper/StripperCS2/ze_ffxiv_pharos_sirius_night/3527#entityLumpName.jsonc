@@ -1,0 +1,53 @@
+{
+  "modify": [
+    // Remove color characters from map message
+    {
+      "match": {
+        "targetname": "[PR#]garland_model"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Garland >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnAnimationDone",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Garland >",
+            "delay": 0,
+            "timestofire": 1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]tyrant_model"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Tyrant >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnAnimationDone",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Tyrant >",
+            "delay": 0,
+            "timestofire": 1
+          }
+        ]
+      }
+    }
+  ]
+}

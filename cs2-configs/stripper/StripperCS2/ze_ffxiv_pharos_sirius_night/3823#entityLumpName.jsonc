@@ -1,0 +1,125 @@
+{
+  "modify": [
+    // Remove color characters from map message
+    {
+      "match": {
+        "targetname": "[PR#]relay_tyrant_thunder_wing"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Thunder Wing >< Tyrant Breath Switch -> Thunder >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Thunder Wing >< Tyrant Breath Switch -> Thunder >",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_tyrant_blood_shield"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Blood Shield >< Tyrant Breath Switch -> Thunder >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Blood Shield >< Tyrant Breath Switch -> Thunder >",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_tyrant_round_ice"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Round Ice >< Tyrant Breath Switch -> Ice >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Round Ice >< Tyrant Breath Switch -> Ice >",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_tyrant_evil_fire"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Evil Fire >< Tyrant Breath Switch -> Fire >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Evil Fire >< Tyrant Breath Switch -> Fire >",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_tyrant_flame_rope"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Flame Rope >< Tyrant Breath Switch -> Fire >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Flame Rope >< Tyrant Breath Switch -> Fire >",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      }
+    }
+  ]
+}

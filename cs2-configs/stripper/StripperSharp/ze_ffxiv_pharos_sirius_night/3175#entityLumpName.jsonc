@@ -1,0 +1,34 @@
+{
+  "modify": [
+    // Remove color characters from map message
+    {
+      "match": {
+        "targetname": "[PR#]human_fire_pistol"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnPlayerPickup",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say *",
+            "delay": 0,
+            "limit": 1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnPlayerPickup",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say < A PLAYER HAS ACQUIRED FIRE ELEMENT >",
+            "delay": 0,
+            "limit": 1
+          }
+        ]
+      }
+    }
+  ]
+}

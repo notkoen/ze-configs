@@ -1,0 +1,125 @@
+{
+  "modify": [
+    // Remove color characters from map message
+    {
+      "match": {
+        "targetname": "[PR#]relay_lilith_extreme_dream_weaver"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Extreme -> Dream Weaver >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Extreme -> Dream Weaver >",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_lilith_extreme_sun_strike"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Extreme -> Sun Strike >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Extreme -> Sun Strike >",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_lilith_golem_summon"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Golem Summon >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Golem Summon >",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_lilith_extreme_rock_burst"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Extreme -> Rock Burst >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Extreme -> Rock Burst >",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_lilith_extreme_anima_ingest"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Extreme -> Anima Ingest >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Extreme -> Anima Ingest >",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      }
+    }
+  ]
+}
