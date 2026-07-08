@@ -1,0 +1,34 @@
+{
+  "modify": [
+    // Remove color characters from map message
+    {
+      "match": {
+        "targetname": "[PR#]lilith_model"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnUser1",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say *",
+            "delay": 0,
+            "limit": 1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnUser1",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say < Lilith >",
+            "delay": 0,
+            "limit": 1
+          }
+        ]
+      }
+    }
+  ]
+}

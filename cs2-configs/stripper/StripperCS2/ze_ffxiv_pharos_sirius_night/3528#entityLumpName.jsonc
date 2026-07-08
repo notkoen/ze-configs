@@ -1,0 +1,29 @@
+{
+  "modify": [
+    // Remove color characters from map message
+    {
+      "match": {
+        "targetname": "[PR#]lilith_model"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Lilith >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnUser1",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Lilith >",
+            "delay": 0,
+            "timestofire": 1
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "modify": [
+    // Remove color characters from map message
+    {
+      "match": {
+        "targetname": "[PR#]ladylilith_model"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Ladylilith >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnAnimationDone",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Ladylilith >",
+            "delay": 0,
+            "timestofire": 1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_ladylilith_dream_weaver"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Dream Weaver >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Dream Weaver >",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_ladylilith_sun_strike"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Sun Strike >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Sun Strike >",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_ladylilith_rock_burst"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Rock Burst >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Rock Burst >",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_ladylilith_anima_ingest"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Anima Ingest >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Anima Ingest >",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      }
+    }
+  ]
+}

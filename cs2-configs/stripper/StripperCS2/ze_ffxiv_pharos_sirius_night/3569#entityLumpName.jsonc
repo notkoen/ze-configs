@@ -1,0 +1,149 @@
+{
+  "modify": [
+    // Remove color characters from map message
+    {
+      "match": {
+        "targetname": "[PR#]shadowlord_model"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Shadowlord >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnUser2",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Shadowlord >",
+            "delay": 0,
+            "timestofire": 1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_shadowlord_doom_arc"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Doom Arc >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Doom Arc >",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_shadowlord_flame_field"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Flame Field >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Flame Field >",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_shadowlord_dark_shock"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Dark Shock >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Dark Shock >",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_shadowlord_ice_nova"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Ice Nova >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Ice Nova >",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_shadowlord_cross_smash"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Cross Smash >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Cross Smash >",
+            "delay": 0,
+            "timestofire": -1
+          }
+        ]
+      }
+    }
+  ]
+}

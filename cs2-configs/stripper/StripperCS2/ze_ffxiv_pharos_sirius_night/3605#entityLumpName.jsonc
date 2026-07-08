@@ -1,0 +1,29 @@
+{
+  "modify": [
+    // Remove color characters from map message
+    {
+      "match": {
+        "targetname": "[PR#]bahamut_rock_body"
+      },
+      "delete": {
+        "io": [
+          {
+            "overrideparam": "/< Bahamut >/"
+          }
+        ]
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnBreak",
+            "targetname": "[PR#]server_command",
+            "inputname": "Command",
+            "overrideparam": "say < Bahamut >",
+            "delay": 0,
+            "timestofire": 1
+          }
+        ]
+      }
+    }
+  ]
+}

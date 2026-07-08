@@ -1,0 +1,150 @@
+{
+  "modify": [
+    // Remove color characters from map message
+    {
+      "match": {
+        "targetname": "[PR#]relay_tyrant_thunder_wing"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say *",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say < Thunder Wing >< Tyrant Breath Switch -> Thunder >",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_tyrant_blood_shield"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say *",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say < Blood Shield >< Tyrant Breath Switch -> Thunder >",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_tyrant_round_ice"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say *",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say < Round Ice >< Tyrant Breath Switch -> Ice >",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_tyrant_evil_fire"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say *",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say < Evil Fire >< Tyrant Breath Switch -> Fire >",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_tyrant_flame_rope"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say *",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say < Flame Rope >< Tyrant Breath Switch -> Fire >",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "modify": [
+    // Remove color characters from map message
+    {
+      "match": {
+        "targetname": "[PR#]Filter_Human_Item_Upgrade_Gravity&0000"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnPass",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say *",
+            "delay": 0,
+            "limit": 1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnPass",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say < Gravity Element Has Been Upgraded >",
+            "delay": 0,
+            "limit": 1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Filter_Human_Item_Upgrade_Rock&0000"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnPass",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say *",
+            "delay": 0,
+            "limit": 1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnPass",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say < Rock Element Has Been Upgraded >",
+            "delay": 0,
+            "limit": 1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Filter_Human_Item_Upgrade_Water&0000"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnPass",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say *",
+            "delay": 0,
+            "limit": 1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnPass",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say < Water Element Has Been Upgraded >",
+            "delay": 0,
+            "limit": 1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Filter_Human_Item_Upgrade_Fire&0000"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnPass",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say *",
+            "delay": 0,
+            "limit": 1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnPass",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say < Fire Element Has Been Upgraded >",
+            "delay": 0,
+            "limit": 1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]Filter_Human_Item_Upgrade_Heal&0000"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnPass",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say *",
+            "delay": 0,
+            "limit": 1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnPass",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say < Heal Element Has Been Upgraded >",
+            "delay": 0,
+            "limit": 1
+          }
+        ]
+      }
+    }
+  ]
+}

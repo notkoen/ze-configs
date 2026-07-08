@@ -1,0 +1,179 @@
+{
+  "modify": [
+    // Remove color characters from map message
+    {
+      "match": {
+        "targetname": "[PR#]shadowlord_model"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnUser2",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say *",
+            "delay": 0,
+            "limit": 1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnUser2",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say < Shadowlord >",
+            "delay": 0,
+            "limit": 1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_shadowlord_doom_arc"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say *",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say < Doom Arc >",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_shadowlord_flame_field"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say *",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say < Flame Field >",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_shadowlord_dark_shock"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say *",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say < Dark Shock >",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_shadowlord_ice_nova"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say *",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say < Ice Nova >",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      }
+    },
+    {
+      "match": {
+        "targetname": "[PR#]relay_shadowlord_cross_smash"
+      },
+      "delete": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say *",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      },
+      "insert": {
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]server_command",
+            "input": "Command",
+            "param": "say < Cross Smash >",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      }
+    }
+  ]
+}
