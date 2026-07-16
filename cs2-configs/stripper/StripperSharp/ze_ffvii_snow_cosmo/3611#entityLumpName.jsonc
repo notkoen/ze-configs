@@ -1,0 +1,23 @@
+{
+  "modify": [
+    // Fix incorrect rendermode
+    {
+      "match": {
+        "classname": "prop_dynamic",
+        "targetname": "[PR#]Shinra_Ifrit"
+      },
+      "insert": {
+        "rendermode": "0"
+      }
+    },
+    {
+      "match": {
+        "classname": "prop_dynamic",
+        "targetname": "[PR#]Shinra_Shiva"
+      },
+      "insert": {
+        "rendermode": "0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "remove": [
+    // Non-parented env_beam crashes servers after 07-08-2026 update! Thanks Valve!
+    {
+      "targetname": "[PR#]Beam_Bio",
+      "classname": "env_beam"
+    }
+  ]
+}

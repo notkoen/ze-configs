@@ -1,0 +1,30 @@
+{
+  "modify": [
+    // Non-parented env_beam crashes servers after 07-08-2026 update! Thanks Valve!
+    {
+      "match": {
+        "targetname": "[PR#]Item_Relay_Potion",
+        "classname": "logic_relay"
+      },
+      "delete": {
+        "io": [
+          {
+            "outputname": "OnTrigger",
+            "targetname": "[PR#]Beam_Potion",
+            "inputname": "TurnOn",
+            "overrideparam": "",
+            "delay": 0.2,
+            "timestofire": -1
+          }
+        ]
+      }
+    }
+  ],
+  "filter": [
+    // Non-parented env_beam crashes servers after 07-08-2026 update! Thanks Valve!
+    {
+      "targetname": "[PR#]Beam_Potion",
+      "classname": "env_beam"
+    }
+  ]
+}
