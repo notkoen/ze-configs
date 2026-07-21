@@ -299,7 +299,6 @@ Find entity classnames that are either `math_counter`, `func_breakable`, or `fun
   
   // NPC hitmarkers only
   {
-    "name": "",
     "hitmarkeronly": true,
     "multitrigger": true,
     "showbeaten": false,
