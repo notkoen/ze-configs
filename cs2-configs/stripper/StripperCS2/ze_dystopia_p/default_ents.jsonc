@@ -1,0 +1,32 @@
+{
+  "modify": [
+    // Prevent players breaking generator early
+    {
+      "match": {
+        "targetname": "[PR#]door41_generator",
+        "classname": "func_breakable"
+      },
+      "replace": {
+        "health": "999999"
+      }
+    },
+    {
+      "match": {
+        "classname": "trigger_once",
+        "hammeruniqueid": "1048"
+      },
+      "insert": {
+        "io": [
+          {
+            "outputname": "OnStartTouch",
+            "targetname": "[PR#]door41_generator",
+            "inputname": "SetHealth",
+            "overrideparam": "1500",
+            "delay": 0,
+            "timestofire": 1
+          }
+        ]
+      }
+    }
+  ]
+}
