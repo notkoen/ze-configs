@@ -1,0 +1,12 @@
+{
+  "MathCounterConfigs": [
+    {
+      "DisplayName": "Cloud",
+      "HpCounter": "Cloud_Boss_Health_Counter"
+    },
+    {
+      "DisplayName": "Final Cloud",
+      "HpCounter": "Cloud_Terminus_Boss_Health_Counter"
+    }
+  ]
+}
