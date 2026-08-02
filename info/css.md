@@ -1,12 +1,6 @@
 
 # CSS Config Formatting
 
-> [!TIP]
-> More configs are available under Nide's [ZE-Configs](https://github.com/NiDE-gg/ZE-Configs) repository.
-
-> [!WARNING]
-> Entwatch configs differ between NiDE and Unloze.
-
 > [!WARNING]
 > All configs made **MUST BE** lowercase.
 
@@ -19,100 +13,100 @@ Find entity classnames that start with `weapon_` as a starting point for creatin
 ```text
 "entities"
 {
-    "0"
-    {
-        "name"              ""          // Name of item that appears in chat
-        "shortname"         ""          // Name of item that appears on the HUD
-        "color"             ""          // Color of item for chat messages
-        "buttonclass"       ""          // Item activation method: "game_ui", "func_button", or none
-        "filtername"        ""          // Targetname given to player (Leave blank if vscript filter OR context)
-        "blockpickup"       "false"     // Whether to block weapon pickup
-        "allowtransfer"     "true"      // Whther to allow this item to be transferred
-        "forcedrop"         "true"      // Whether to drop item if player dies or disconnects
-        "chat"              "true"      // Whether to print item pickup in chat
-        "chat_uses"         "true"      // Whether to print item uses in chat (bypasses both mode 1 and chat false)
-        "hud"               "true"      // Whether to display item on the HUD
-        "hammerid"          ""          // Hammer ID of the weapon entity
-        "mode"              ""          // Mode of first activation
-                                        // 0 = No button            1 = Spammable items
-                                        // 2 = Cooldown             3 = MaxUses (no cooldown)
-                                        // 4 = MaxUses (cooldown)   5 = CooldownAfterUses
-                                        // 6 = OnHitMin Counter     7 = OnHitMax Counter
-        "maxuses"           ""          // Max uses if mode = 3,4,5
-        "cooldown"          ""          // Cooldown duration if mode = 2,4,5
-        "trigger"           ""          // HammerID of trigger associated with item
-        "buttonid"          ""          // HammerID of button/game_ui
-        "energyid"          ""          // HammerID of counter
-        "buttonclass2"      ""          // Activation method of second button/game_ui
-        "mode2"             ""          // Mode of second activation
-        "maxuses2"          ""          // Max uses of second activation
-        "cooldown2"         ""          // Cooldown duration of second activation
-        "buttonid2"         ""          // HammerID of second button/game_ui
-        "energyid2"         ""          // HammerID of second counter
-        "use_priority"      ""          // Whether to enable use_priority on item
-        "pt_spawner"        ""          // Targetname of item point_template
-    }
+	"0"
+	{
+		"name"              ""          // Name of item that appears in chat
+		"shortname"         ""          // Name of item that appears on the HUD
+		"color"             ""          // Color of item for chat messages
+		"buttonclass"       ""          // Item activation method: "game_ui", "func_button", or none
+		"filtername"        ""          // Targetname given to player (Leave blank if vscript filter OR context)
+		"blockpickup"       "false"     // Whether to block weapon pickup
+		"allowtransfer"     "true"      // Whther to allow this item to be transferred
+		"forcedrop"         "true"      // Whether to drop item if player dies or disconnects
+		"chat"              "true"      // Whether to print item pickup in chat
+		"chat_uses"         "true"      // Whether to print item uses in chat (bypasses both mode 1 and chat false)
+		"hud"               "true"      // Whether to display item on the HUD
+		"hammerid"          ""          // Hammer ID of the weapon entity
+		"mode"              ""          // Mode of first activation
+		                                // 0 = No button            1 = Spammable items
+		                                // 2 = Cooldown             3 = MaxUses (no cooldown)
+		                                // 4 = MaxUses (cooldown)   5 = CooldownAfterUses
+		                                // 6 = OnHitMin Counter     7 = OnHitMax Counter
+		"maxuses"           ""          // Max uses if mode = 3,4,5
+		"cooldown"          ""          // Cooldown duration if mode = 2,4,5
+		"trigger"           ""          // HammerID of trigger associated with item
+		"buttonid"          ""          // HammerID of button/game_ui
+		"energyid"          ""          // HammerID of counter
+		"buttonclass2"      ""          // Activation method of second button/game_ui
+		"mode2"             ""          // Mode of second activation
+		"maxuses2"          ""          // Max uses of second activation
+		"cooldown2"         ""          // Cooldown duration of second activation
+		"buttonid2"         ""          // HammerID of second button/game_ui
+		"energyid2"         ""          // HammerID of second counter
+		"use_priority"      ""          // Whether to enable use_priority on item
+		"pt_spawner"        ""          // Targetname of item point_template
+	}
 }
 ```
 
 <details>
-    <summary>Clean Template</summary>
+	<summary>Clean Template</summary>
 
 ```text
 {
-    // Full config
-    "0"
-    {
-        "name"              ""
-        "shortname"         ""
-        "color"             ""
-        "buttonclass"       ""
-        "buttonclass2"      ""
-        "filtername"        ""
-        "blockpickup"       "false"
-        "allowtransfer"     "true"
-        "forcedrop"         "true"
-        "chat"              "true"
-        "chat_uses"         "true"
-        "hud"               "true"
-        "hammerid"          ""
-        "mode"              ""
-        "maxuses"           ""
-        "cooldown"          ""
-        "buttonid"          ""
-        "energyid"          ""
-        "mode2"             ""
-        "maxuses2"          ""
-        "cooldown2"         ""
-        "buttonid2"         ""
-        "energyid2"         ""
-        "trigger"           ""
-        "use_priority"      ""
-        "pt_spawner"        ""
-    }
-    // No second ability
-    "0"
-    {
-        "name"              ""
-        "shortname"         ""
-        "color"             ""
-        "buttonclass"       ""
-        "filtername"        ""
-        "blockpickup"       "false"
-        "allowtransfer"     "true"
-        "forcedrop"         "true"
-        "chat"              "true"
-        "chat_uses"         "true"
-        "hud"               "true"
-        "hammerid"          ""
-        "mode"              ""
-        "maxuses"           ""
-        "cooldown"          ""
-        "trigger"           ""
-        "buttonid"          ""
-        "energyid"          ""
-        "pt_spawner"        ""
-    }
+	// Full config
+	"0"
+	{
+		"name"              ""
+		"shortname"         ""
+		"color"             ""
+		"buttonclass"       ""
+		"buttonclass2"      ""
+		"filtername"        ""
+		"blockpickup"       "false"
+		"allowtransfer"     "true"
+		"forcedrop"         "true"
+		"chat"              "true"
+		"chat_uses"         "true"
+		"hud"               "true"
+		"hammerid"          ""
+		"mode"              ""
+		"maxuses"           ""
+		"cooldown"          ""
+		"buttonid"          ""
+		"energyid"          ""
+		"mode2"             ""
+		"maxuses2"          ""
+		"cooldown2"         ""
+		"buttonid2"         ""
+		"energyid2"         ""
+		"trigger"           ""
+		"use_priority"      ""
+		"pt_spawner"        ""
+	}
+	// No second ability
+	"0"
+	{
+		"name"              ""
+		"shortname"         ""
+		"color"             ""
+		"buttonclass"       ""
+		"filtername"        ""
+		"blockpickup"       "false"
+		"allowtransfer"     "true"
+		"forcedrop"         "true"
+		"chat"              "true"
+		"chat_uses"         "true"
+		"hud"               "true"
+		"hammerid"          ""
+		"mode"              ""
+		"maxuses"           ""
+		"cooldown"          ""
+		"trigger"           ""
+		"buttonid"          ""
+		"energyid"          ""
+		"pt_spawner"        ""
+	}
 }
 ```
 </details>
@@ -142,60 +136,60 @@ Find entity classnames that start with `weapon_` as a starting point for creatin
 ```text
 "items"
 {
-    "0"
-    {
-        "name"          ""      // The "full" name of the item. (Used in CHAT)
-        "short"         ""      // The "short" name of the item. (Used on the HUD)
-        "color"         ""      // The HEX color code of the item.
-        "filter"        ""      // The targetname maps use for filtering. (Leave empty if none)
-        "weaponid"      "0"     // The HammerID of the weapon.
-        "buttonid"      "0"     // The HammerID of the button.
-        "triggerid"     "0"     // The HammerID of the trigger.
-        "display"       "0"     // The Bitflag for displays.
-                                // 1 = CHAT.
-                                // 2 = USE.
-                                // 3 = CHAT & USE.
-                                // 4 = HUD.
-                                // 5 = CHAT & HUD.
-                                // 6 = USE & HUD.
-                                // 7 = ALL.
-        "slot"          "0"     // The weapon slot.
-                                // 0 = None
-                                // 1 = Primary
-                                // 2 = Secondary
-                                // 3 = Knife
-                                // 4 = Grenades
-        "mode"          "0"     // The mode of the item.
-                                // 1 = Cooldown.
-                                // 2 = Limited uses.
-                                // 3 = Limited uses with cooldown.
-                                // 4 = Cooldown after multiple uses.
-        "maxuses"       "0"     // The maximum amount of uses.
-        "cooldown"      "0"     // The cooldown between uses.
-    }
+	"0"
+	{
+		"name"          ""      // The "full" name of the item. (Used in CHAT)
+		"short"         ""      // The "short" name of the item. (Used on the HUD)
+		"color"         ""      // The HEX color code of the item.
+		"filter"        ""      // The targetname maps use for filtering. (Leave empty if none)
+		"weaponid"      "0"     // The HammerID of the weapon.
+		"buttonid"      "0"     // The HammerID of the button.
+		"triggerid"     "0"     // The HammerID of the trigger.
+		"display"       "0"     // The Bitflag for displays.
+		                        // 1 = CHAT.
+		                        // 2 = USE.
+		                        // 3 = CHAT & USE.
+		                        // 4 = HUD.
+		                        // 5 = CHAT & HUD.
+		                        // 6 = USE & HUD.
+		                        // 7 = ALL.
+		"slot"          "0"     // The weapon slot.
+		                        // 0 = None
+		                        // 1 = Primary
+		                        // 2 = Secondary
+		                        // 3 = Knife
+		                        // 4 = Grenades
+		"mode"          "0"     // The mode of the item.
+		                        // 1 = Cooldown.
+		                        // 2 = Limited uses.
+		                        // 3 = Limited uses with cooldown.
+		                        // 4 = Cooldown after multiple uses.
+		"maxuses"       "0"     // The maximum amount of uses.
+		"cooldown"      "0"     // The cooldown between uses.
+	}
 }
 ```
 
 <details>
-    <summary>Clean Template</summary>
+	<summary>Clean Template</summary>
 
 ```text
 {
-    "0"
-    {
-        "name"          ""
-        "short"         ""
-        "color"         ""
-        "filter"        ""
-        "weaponid"      "0"
-        "buttonid"      "0"
-        "triggerid"     "0"
-        "display"       "0"
-        "slot"          "0"
-        "mode"          "0"
-        "maxuses"       "0"
-        "cooldown"      "0"
-    }
+	"0"
+	{
+		"name"          ""
+		"short"         ""
+		"color"         ""
+		"filter"        ""
+		"weaponid"      "0"
+		"buttonid"      "0"
+		"triggerid"     "0"
+		"display"       "0"
+		"slot"          "0"
+		"mode"          "0"
+		"maxuses"       "0"
+		"cooldown"      "0"
+	}
 }
 ```
 </details>
@@ -209,158 +203,155 @@ Find entity classnames that start with `weapon_` as a starting point for creatin
 ```text
 "items"
 {
-    "configversion"         "1"         // Int: Current version of configuration format. (Used for compatability check)
+	"configversion"         "1"         // Int: Current version of configuration format. (Used for compatability check)
 
-    "0"
-    {
-        "name"              ""          // String: The 'full' name of the item. (Used in the chat messages)
-        "short"             ""          // String: The 'short' name of the item. (Used in the interface)
-        "color"             "FFFFFF"    // String: The HEX color code for the item. (Without #)
-        "hammerid"          ""          // Int: The HammerID of the weapon.
-        "showmessages"      "1"         // Bool: Should messages be displayed for this item?
-        "showinterface"     "1"         // Bool: Should this item show up on the interface?
+	"0"
+	{
+		"name"              ""          // String: The 'full' name of the item. (Used in the chat messages)
+		"short"             ""          // String: The 'short' name of the item. (Used in the interface)
+		"color"             "FFFFFF"    // String: The HEX color code for the item. (Without #)
+		"hammerid"          ""          // Int: The HammerID of the weapon.
+		"showmessages"      "1"         // Bool: Should messages be displayed for this item?
+		"showinterface"     "1"         // Bool: Should this item show up on the interface?
 
-        "buttons"
-        {
-            "0"
-            {
-                "name"              ""          // String: The name of the button/ability to display in chat
-                "output"            ""          // String: The output to hook for activation. (Only used on type 2)
-                "hammerid"          ""          // Int: The HammerID of the button/entity/counter used for activation.
-                "type"              "1"         // Int: The type of button:
-                                                        1 = +use activation
-                                                        2 = output activation
-                                                        3 = counter up
-                                                        4 = counter down
-                "mode"              "0"         // Int: The mode of activation.
-                                                        1 = cooldown
-                                                        2 = limited uses
-                                                        3 = cooldown after multiple uses
-                                                        4 = counter value
-                "maxuses"           "0"         // Int: The maximum amount of uses.
-                "cooldown"          "0"         // Float: The cooldown between uses.
-                "itemcooldown"      "0"         // Float: The duration the item should not be able to get activated after use.
-                "showactivate"      "1"         // Bool: Should messages be displayed for this activation?
-                "showcooldown"      "1"         // Bool: Should the cooldown of this activation show in the interface?
-            }
-        }
+		"buttons"
+		{
+			"0"
+			{
+				"name"              ""          // String: The name of the button/ability to display in chat
+				"output"            ""          // String: The output to hook for activation. (Only used on type 2)
+				"hammerid"          ""          // Int: The HammerID of the button/entity/counter used for activation.
+				"type"              "1"         // Int: The type of button:
+				                                // 1 = +use activation   2 = output activation
+				                                // 3 = counter up        4 = counter down
+				"mode"              "0"         // Int: The mode of activation.
+				                                // 1 = cooldown   2 = limited uses
+				                                // 3 = cooldown after multiple uses
+				                                // 4 = counter value
+				"maxuses"           "0"         // Int: The maximum amount of uses.
+				"cooldown"          "0"         // Float: The cooldown between uses.
+				"itemcooldown"      "0"         // Float: The duration the item should not be able to get activated after use.
+				"showactivate"      "1"         // Bool: Should messages be displayed for this activation?
+				"showcooldown"      "1"         // Bool: Should the cooldown of this activation show in the interface?
+			}
+		}
 
-        "triggers"
-        {
-            "0"
-            {
-                "hammerid"          "0"         // Int: The HammerID of the trigger.
-                "type"              "1"         // Int: The type of trigger. (1 = strip trigger)
-            }
-        }
-    }
+		"triggers"
+		{
+			"0"
+			{
+				"hammerid"          "0"         // Int: The HammerID of the trigger.
+				"type"              "1"         // Int: The type of trigger. (1 = strip trigger)
+			}
+		}
+	}
 }
 ```
 
 <details>
-    <summary>Clean Template</summary>
+	<summary>Clean Template</summary>
 
 ```text
 "items"
 {
-    "configversion"         "1"
+	"configversion"         "1"
 
-    "0"
-    {
-        "name"              ""
-        "short"             ""
-        "color"             "FFFFFF"
-        "hammerid"          ""
-        "showmessages"      "1"
-        "showinterface"     "1"
+	"0"
+	{
+		"name"              ""
+		"short"             ""
+		"color"             "FFFFFF"
+		"hammerid"          ""
+		"showmessages"      "1"
+		"showinterface"     "1"
 
-        "buttons"
-        {
-            "0"
-            {
-                "name"              ""
-                "output"            ""
-                "hammerid"          ""
-                "type"              "1"
-                "mode"              "0"
-                "maxuses"           "0"
-                "cooldown"          "0"
-                "itemcooldown"      "0"
-                "showactivate"      "1"
-                "showcooldown"      "1"
-            }
-        }
+		"buttons"
+		{
+			"0"
+			{
+				"name"              ""
+				"output"            ""
+				"hammerid"          ""
+				"type"              "1"
+				"mode"              "0"
+				"maxuses"           "0"
+				"cooldown"          "0"
+				"itemcooldown"      "0"
+				"showactivate"      "1"
+				"showcooldown"      "1"
+			}
+		}
 
-        "triggers"
-        {
-            "0"
-            {
-                "hammerid"          ""
-                "type"              "1"
-            }
-        }
-    }
+		"triggers"
+		{
+			"0"
+			{
+				"hammerid"          ""
+				"type"              "1"
+			}
+		}
+	}
 
-    // Human item
-    "0"
-    {
-        "name"              ""
-        "short"             ""
-        "color"             "FFFFFF"
-        "hammerid"          ""
-        "showmessages"      "1"
-        "showinterface"     "1"
+	// Human item
+	"0"
+	{
+		"name"              ""
+		"short"             ""
+		"color"             "FFFFFF"
+		"hammerid"          ""
+		"showmessages"      "1"
+		"showinterface"     "1"
 
-        "buttons"
-        {
-            "0"
-            {
-                "hammerid"          ""
-                "type"              "1"
-                "mode"              "0"
-                "maxuses"           "0"
-                "cooldown"          "0"
-                "itemcooldown"      "0"
-                "showactivate"      "1"
-                "showcooldown"      "1"
-            }
-        }
-    }
+		"buttons"
+		{
+			"0"
+			{
+				"hammerid"          ""
+				"type"              "1"
+				"mode"              "0"
+				"maxuses"           "0"
+				"cooldown"          "0"
+				"itemcooldown"      "0"
+				"showactivate"      "1"
+				"showcooldown"      "1"
+			}
+		}
+	}
 
-    // Zombie item
-    "0"
-    {
-        "name"              ""
-        "short"             ""
-        "color"             "FFFFFF"
-        "hammerid"          ""
-        "showmessages"      "1"
-        "showinterface"     "1"
+	// Zombie item
+	"0"
+	{
+		"name"              ""
+		"short"             ""
+		"color"             "FFFFFF"
+		"hammerid"          ""
+		"showmessages"      "1"
+		"showinterface"     "1"
 
-        "buttons"
-        {
-            "0"
-            {
-                "hammerid"          ""
-                "type"              "1"
-                "mode"              "0"
-                "maxuses"           "0"
-                "cooldown"          "0"
-                "itemcooldown"      "0"
-                "showactivate"      "1"
-                "showcooldown"      "1"
-            }
-        }
+		"buttons"
+		{
+			"0"
+			{
+				"hammerid"          ""
+				"type"              "1"
+				"mode"              "0"
+				"maxuses"           "0"
+				"cooldown"          "0"
+				"itemcooldown"      "0"
+				"showactivate"      "1"
+				"showcooldown"      "1"
+			}
+		}
 
-        "triggers"
-        {
-            "0"
-            {
-                "hammerid"          ""
-                "type"              "1"
-            }
-        }
-    }
+		"triggers"
+		{
+			"0"
+			{
+				"hammerid"          ""
+				"type"              "1"
+			}
+		}
+	}
 }
 ```
 </details>
@@ -372,86 +363,86 @@ While BossHP plugins differ between NiDE.gg and Unloze, the config options are t
 ```text
 "bosses"
 {
-    "0"
-    {
-        "name"              ""      // Name of boss that appears in HUD
-        "method"            ""      // Type of boss: "counter", "hpbar", or "breakable"
-        "counter"           ""      // HP counter entity if counter/hpbar method
-        "backup"            ""      // HP backup entity if hpbar method
-        "iterator"          ""      // HP iterator entity if hpbar method
-        "breakable"         ""      // Boss entity if breakable method
-        "timeout"           ""      // Time before boss health is hidden
-        "trigger"           ""      // Output that starts the boss ("entity:output:delay")
-        "killtrigger"       ""      // Output that kills the boss ("entity:output")
-        "hurttrigger"       ""      // Output that counts as damaging boss ("entity:output")
-        "showtrigger"       ""      // Output that starts displaying the boss ("entity:output:delay")
-        "multitrigger"      "0"     // Whether boss can be triggered multiple times from "trigger"
-        "namefixup"         "0"     // Whether boss has namefixup if spawned from a template
-        "showbeaten"        "1"     // Whether top boss damage is displayed upon boss death (Nide only)
-        "showhealth"        "1"     // Whether boss health is displayed when hit (Nide only)
-    }
+	"0"
+	{
+		"name"              ""      // Name of boss that appears in HUD
+		"method"            ""      // Type of boss: "counter", "hpbar", or "breakable"
+		"counter"           ""      // HP counter entity if counter/hpbar method
+		"backup"            ""      // HP backup entity if hpbar method
+		"iterator"          ""      // HP iterator entity if hpbar method
+		"breakable"         ""      // Boss entity if breakable method
+		"timeout"           ""      // Time before boss health is hidden
+		"trigger"           ""      // Output that starts the boss ("entity:output:delay")
+		"killtrigger"       ""      // Output that kills the boss ("entity:output")
+		"hurttrigger"       ""      // Output that counts as damaging boss ("entity:output")
+		"showtrigger"       ""      // Output that starts displaying the boss ("entity:output:delay")
+		"multitrigger"      "0"     // Whether boss can be triggered multiple times from "trigger"
+		"namefixup"         "0"     // Whether boss has namefixup if spawned from a template
+		"showbeaten"        "1"     // Whether top boss damage is displayed upon boss death (Nide only)
+		"showhealth"        "1"     // Whether boss health is displayed when hit (Nide only)
+	}
 }
 ```
 
 <details>
-    <summary>Clean Template</summary>
+	<summary>Clean Template</summary>
 
 ```text
 "bosses"
 {
-    // Counter type boss
-    "0"
-    {
-        "name"              ""
-        "method"            "counter"
-        "trigger"           ""
+	// Counter type boss
+	"0"
+	{
+		"name"              ""
+		"method"            "counter"
+		"trigger"           ""
 
-        "counter"           ""
-    }
-    // HP bar type boss (counter/backup/iterator)
-    "0"
-    {
-        "name"              ""
-        "method"            "hpbar"
-        "trigger"           ""
+		"counter"           ""
+	}
+	// HP bar type boss (counter/backup/iterator)
+	"0"
+	{
+		"name"              ""
+		"method"            "hpbar"
+		"trigger"           ""
 
-        "counter"           ""
-        "backup"            ""
-        "iterator"          ""
-    }
-    // Breakable type boss
-    "0"
-    {
-        "name"              ""
-        "method"            "breakable"
-        "trigger"           ""
+		"counter"           ""
+		"backup"            ""
+		"iterator"          ""
+	}
+	// Breakable type boss
+	"0"
+	{
+		"name"              ""
+		"method"            "breakable"
+		"trigger"           ""
 
-        "breakable"         ""
-    }
-    // NPC type boss
-    "0"
-    {
-        "name"              ""
-        "method"            "breakable"
-        "trigger"           ""
-        "showtrigger"       ""
-        "namefixup"         "1"
-        "multitrigger"      "1"
-        "timeout"           "3"
-        "showbeaten"        "0"
+		"breakable"         ""
+	}
+	// NPC type boss
+	"0"
+	{
+		"name"              ""
+		"method"            "breakable"
+		"trigger"           ""
+		"showtrigger"       ""
+		"namefixup"         "1"
+		"multitrigger"      "1"
+		"timeout"           "3"
+		"showbeaten"        "0"
 
-        "breakable"         ""
-    }
-    // OPTIONAL KEYVALUES
-    ""
-    {
-        "timeout"           "" // Float: Time before hiding the health of the boss
-        "killtrigger"       "" // String: Specify event that kills the boss ("entity:output")
-        "hurttrigger"       "" // String: Specify event that counts as hitting boss ("entity:output")
-        "multitrigger"      "" // Int: Whether boss can be triggered multiple times from "trigger" (1 = True, 0 = False)
-        "namefixup"         "" // Int: Whether boss has namefixup if spawned from a template (1 = True, 0 = False)
-        "showbeaten"        "" // Int: Whether top boss damage is displayed upon boss death (1 = True, 0 = False)
-    }
+		"breakable"         ""
+	}
+	// OPTIONAL KEYVALUES
+	""
+	{
+		"timeout"           "" // Float: Time before hiding the health of the boss
+		"killtrigger"       "" // String: Specify event that kills the boss ("entity:output")
+		"hurttrigger"       "" // String: Specify event that counts as hitting boss ("entity:output")
+		"multitrigger"      "" // Int: Whether boss can be triggered multiple times from "trigger" (1 = True, 0 = False)
+		"namefixup"         "" // Int: Whether boss has namefixup if spawned from a template (1 = True, 0 = False)
+		"showbeaten"        "" // Int: Whether top boss damage is displayed upon boss death (1 = True, 0 = False)
+	}
 }
 ```
 </details>
@@ -463,61 +454,61 @@ For each stage you're going to create a new block under the `"stages"` block. Yo
 ```text
 "AdminRoom"
 {
-    "adminrooms"
-    {
-        "0"
-        {
-            "name"      "Admin Room"    // Name of admin room
-            "origin"    ""              // Coordinates to teleport player to
-        }
-    }
-    "stages"
-    {
-        "0"
-        {
-            "name"      ""              // Name of the stage
-            "triggers"
-            {
-                "0"     ""              // Triggers used to set stage for !stage command
-            }
-            "actions"
-            {
-                "0"     ""              // Entity output when triggering stage ("entity:input")
-            }
-        }
-    }
+	"adminrooms"
+	{
+		"0"
+		{
+			"name"      "Admin Room"    // Name of admin room
+			"origin"    ""              // Coordinates to teleport player to
+		}
+	}
+	"stages"
+	{
+		"0"
+		{
+			"name"      ""              // Name of the stage
+			"triggers"
+			{
+				"0"     ""              // Triggers used to set stage for !stage command
+			}
+			"actions"
+			{
+				"0"     ""              // Entity output when triggering stage ("entity:input")
+			}
+		}
+	}
 }
 ```
 
 <details>
-    <summary>Clean Template</summary>
+	<summary>Clean Template</summary>
 
 ```text
 "AdminRoom"
 {
-    "adminrooms"
-    {
-        "0"
-        {
-            "name"      "Admin Room"
-            "origin"    ""
-        }
-    }
-    "stages"
-    {
-        "0"
-        {
-            "name"      ""
-            "triggers"
-            {
-                "0"     ""
-            }
-            "actions"
-            {
-                "0"     ""
-            }
-        }
-    }
+	"adminrooms"
+	{
+		"0"
+		{
+			"name"      "Admin Room"
+			"origin"    ""
+		}
+	}
+	"stages"
+	{
+		"0"
+		{
+			"name"      ""
+			"triggers"
+			{
+				"0"     ""
+			}
+			"actions"
+			{
+				"0"     ""
+			}
+		}
+	}
 }
 ```
 </details>
