@@ -28,10 +28,10 @@ Find entity classnames that start with `weapon_` as a starting point for creatin
 		"hud"               "true"      // Whether to display item on the HUD
 		"hammerid"          ""          // Hammer ID of the weapon entity
 		"mode"              ""          // Mode of first activation
-		                                // 0 = No button            1 = Spammable items
-		                                // 2 = Cooldown             3 = MaxUses (no cooldown)
-		                                // 4 = MaxUses (cooldown)   5 = CooldownAfterUses
-		                                // 6 = OnHitMin Counter     7 = OnHitMax Counter
+										// 0 = No button            1 = Spammable items
+										// 2 = Cooldown             3 = MaxUses (no cooldown)
+										// 4 = MaxUses (cooldown)   5 = CooldownAfterUses
+										// 6 = OnHitMin Counter     7 = OnHitMax Counter
 		"maxuses"           ""          // Max uses if mode = 3,4,5
 		"cooldown"          ""          // Cooldown duration if mode = 2,4,5
 		"trigger"           ""          // HammerID of trigger associated with item
@@ -146,24 +146,24 @@ Find entity classnames that start with `weapon_` as a starting point for creatin
 		"buttonid"      "0"     // The HammerID of the button.
 		"triggerid"     "0"     // The HammerID of the trigger.
 		"display"       "0"     // The Bitflag for displays.
-		                        // 1 = CHAT.
-		                        // 2 = USE.
-		                        // 3 = CHAT & USE.
-		                        // 4 = HUD.
-		                        // 5 = CHAT & HUD.
-		                        // 6 = USE & HUD.
-		                        // 7 = ALL.
+								// 1 = CHAT.
+								// 2 = USE.
+								// 3 = CHAT & USE.
+								// 4 = HUD.
+								// 5 = CHAT & HUD.
+								// 6 = USE & HUD.
+								// 7 = ALL.
 		"slot"          "0"     // The weapon slot.
-		                        // 0 = None
-		                        // 1 = Primary
-		                        // 2 = Secondary
-		                        // 3 = Knife
-		                        // 4 = Grenades
+								// 0 = None
+								// 1 = Primary
+								// 2 = Secondary
+								// 3 = Knife
+								// 4 = Grenades
 		"mode"          "0"     // The mode of the item.
-		                        // 1 = Cooldown.
-		                        // 2 = Limited uses.
-		                        // 3 = Limited uses with cooldown.
-		                        // 4 = Cooldown after multiple uses.
+								// 1 = Cooldown.
+								// 2 = Limited uses.
+								// 3 = Limited uses with cooldown.
+								// 4 = Cooldown after multiple uses.
 		"maxuses"       "0"     // The maximum amount of uses.
 		"cooldown"      "0"     // The cooldown between uses.
 	}
@@ -203,8 +203,7 @@ Find entity classnames that start with `weapon_` as a starting point for creatin
 ```text
 "items"
 {
-	"configversion"         "1"         // Int: Current version of configuration format. (Used for compatability check)
-
+	"configversion"         "2"         // Int: Current version of configuration format. (Used for compatability check)
 	"0"
 	{
 		"name"              ""          // String: The 'full' name of the item. (Used in the chat messages)
@@ -213,7 +212,8 @@ Find entity classnames that start with `weapon_` as a starting point for creatin
 		"hammerid"          ""          // Int: The HammerID of the weapon.
 		"showmessages"      "1"         // Bool: Should messages be displayed for this item?
 		"showinterface"     "1"         // Bool: Should this item show up on the interface?
-
+		"allowtransfer"     "1"         // Bool: Should this item be transferrable?
+		"template"          ""          // String: point_template targetname for item (Used for spawning items)
 		"buttons"
 		{
 			"0"
@@ -235,7 +235,6 @@ Find entity classnames that start with `weapon_` as a starting point for creatin
 				"showcooldown"      "1"         // Bool: Should the cooldown of this activation show in the interface?
 			}
 		}
-
 		"triggers"
 		{
 			"0"
@@ -254,8 +253,7 @@ Find entity classnames that start with `weapon_` as a starting point for creatin
 ```text
 "items"
 {
-	"configversion"         "1"
-
+	"configversion"         "2"
 	"0"
 	{
 		"name"              ""
@@ -264,7 +262,8 @@ Find entity classnames that start with `weapon_` as a starting point for creatin
 		"hammerid"          ""
 		"showmessages"      "1"
 		"showinterface"     "1"
-
+		"allowtransfer"     "1"
+		"template"          ""
 		"buttons"
 		{
 			"0"
@@ -281,7 +280,6 @@ Find entity classnames that start with `weapon_` as a starting point for creatin
 				"showcooldown"      "1"
 			}
 		}
-
 		"triggers"
 		{
 			"0"
@@ -301,7 +299,8 @@ Find entity classnames that start with `weapon_` as a starting point for creatin
 		"hammerid"          ""
 		"showmessages"      "1"
 		"showinterface"     "1"
-
+		"allowtransfer"     "1"
+		"template"          ""
 		"buttons"
 		{
 			"0"
@@ -327,7 +326,8 @@ Find entity classnames that start with `weapon_` as a starting point for creatin
 		"hammerid"          ""
 		"showmessages"      "1"
 		"showinterface"     "1"
-
+		"allowtransfer"     "0"
+		"template"          ""
 		"buttons"
 		{
 			"0"
@@ -342,7 +342,6 @@ Find entity classnames that start with `weapon_` as a starting point for creatin
 				"showcooldown"      "1"
 			}
 		}
-
 		"triggers"
 		{
 			"0"
