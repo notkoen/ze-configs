@@ -1,9 +1,8 @@
 [
-    {
-        "name": "Rat Ogre",
-        "trigger": { "ent": "race_rat_max-hp", "output": "OnGetValue" },
-        "multitrigger": true,
-        "showbeaten": false,
-        "counter": "race_rat_current-hp"
-    }
+  {
+    "name": "Rat Ogre",
+    "multitrigger": true,
+    "showbeaten": false,
+    "counter": "race_rat_current-hp"
+  }
 ]
