@@ -14,5 +14,14 @@
   {
     "name": "Bear",
     "breakable": "lvl3_boss_health02"
+  },
+  {
+    "name": "Biscuit",
+    "minorhud": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "templated": true,
+    "timeout": 1.0,
+    "breakable": "npc_health_biscuit"
   }
 ]
