@@ -1,9 +1,18 @@
 [
-    {
-        "name": "Mr. Roth",
-        "breakable": "seph_hp"
-    },
-    {
-        "breakable": "bosss_hp"
-    }
+  {
+    "name": "Mr. Roth",
+    "breakable": "seph_hp"
+  },
+  {
+    "breakable": "bosss_hp"
+  },
+  {
+    "name": "Killer Bean",
+    "minorhud": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "templated": true,
+    "timeout": 1.0,
+    "breakable": "npc_phys2gg"
+  }
 ]
