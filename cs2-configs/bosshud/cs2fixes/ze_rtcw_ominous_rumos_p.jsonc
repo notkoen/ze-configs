@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Nazi",
+    "minorhud": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "templated": true,
+    "timeout": 1.0,
+    "breakable": "nazi_hitbox"
+  }
+]
