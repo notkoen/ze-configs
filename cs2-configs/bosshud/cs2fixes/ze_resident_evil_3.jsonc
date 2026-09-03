@@ -7,36 +7,52 @@
     "name": "Nemesis",
     "minorhud": true,
     "timeout": 5.0,
-    "counter": "house_nemesis_counter",
-    "backup": "house_nemesis_hp_backup",
-    "iterator": "house_nemesis_hp_iterations"
+    "counter": "house_nemesis_hp_iterations"
   },
   {
     "name": "Crocodile",
-    "counter": "random_crocodile_counter",
-    "backup": "random_crocodiles_hp_backup",
-    "iterator": "random_crocodile_hp_iterations"
+    "counter": "random_crocodile_hp_iterations"
   },
   {
     "name": "Nemesis",
     "minorhud": true,
     "timeout": 5.0,
-    "counter": "parking_nemesis_counter",
-    "backup": "parking_nemesis_hp_backup",
-    "iterator": "parking_nemesis_hp_iterations"
+    "counter": "parking_nemesis_hp_iterations"
+  },
+  {
+    "counter": "em_counter1"
+  },
+  {
+    "counter": "em_counter2"
+  },
+  {
+    "name": "Ivy",
+    "breakable": "ivy.pbox"
   },
   {
     "hitmarkeronly": true,
     "multitrigger": true,
     "showbeaten": false,
     "templated": true,
-    "breakable": "npc_00_hitbox_a"
+    "breakable": "npc_00_hitbox_a",
+    "maxhp": 10000000
   },
   {
     "hitmarkeronly": true,
     "multitrigger": true,
     "showbeaten": false,
     "templated": true,
-    "breakable": "npc_00_hitbox_b"
+    "breakable": "npc_00_hitbox_b",
+    "maxhp": 10000000
+  },
+  {
+    "hitmarkeronly": true,
+    "showbeaten": false,
+    "breakable": "licker_target_pbox"
+  },
+  {
+    "hitmarkeronly": true,
+    "showbeaten": false,
+    "breakable": "licker_pbox"
   }
 ]
