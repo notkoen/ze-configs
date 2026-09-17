@@ -1,0 +1,46 @@
+[
+  {
+    "Name": "奶",
+    "ShortName": "奶",
+    "HammerId": "734",
+    "ButtonClass": "logic_relay",
+    "ButtonHammerId": "100876",
+    "ButtonInput": "OnTrigger",
+    "ShowHud": true,
+    "Cooldown": 45,
+    "MaxUses": 0
+  },
+  {
+    "Name": "火瓶",
+    "ShortName": "火瓶",
+    "HammerId": "664",
+    "ButtonClass": "logic_relay",
+    "ButtonHammerId": "9980",
+    "ButtonInput": "OnTrigger",
+    "ShowHud": true,
+    "Cooldown": 30,
+    "MaxUses": 3
+  },
+  {
+    "Name": "Dogma Resistance",
+    "ShortName": "Dogma",
+    "HammerId": "1231",
+    "ButtonClass": "logic_relay",
+    "ButtonHammerId": "100878",
+    "ButtonInput": "OnTrigger",
+    "ShowHud": true,
+    "Cooldown": 0,
+    "MaxUses": 1
+  },
+  {
+    "Name": "僵尸冰激光",
+    "ShortName": "僵尸冰",
+    "HammerId": "742",
+    "ButtonClass": "logic_relay",
+    "ButtonHammerId": "100877",
+    "ButtonInput": "OnTrigger",
+    "ShowHud": true,
+    "Cooldown": 60,
+    "MaxUses": 0
+  }
+]

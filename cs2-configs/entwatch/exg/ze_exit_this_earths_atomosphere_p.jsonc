@@ -1,0 +1,24 @@
+[
+  {
+    "Name": "Meteor Apocalypse Destroyer",
+    "ShortName": "MAD",
+    "HammerId": "345",
+    "ButtonClass": "logic_relay",
+    "ButtonHammerId": "56742",
+    "ButtonInput": "OnTrigger",
+    "ShowHud": true,
+    "Cooldown": 0,
+    "MaxUses": 1
+  },
+  {
+    "Name": "Asteroid Destroyer Pulse",
+    "ShortName": "ADP",
+    "HammerId": "893",
+    "ButtonClass": "logic_relay",
+    "ButtonHammerId": "56715",
+    "ButtonInput": "OnTrigger",
+    "ShowHud": true,
+    "Cooldown": 4,
+    "MaxUses": 3
+  }
+]

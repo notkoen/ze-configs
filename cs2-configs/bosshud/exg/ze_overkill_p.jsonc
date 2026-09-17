@@ -1,0 +1,12 @@
+{
+  "MathCounterConfigs": [
+    {
+      "DisplayName": "Dogma Resistance",
+      "HpCounter": "dogma_s_boss_hp"
+    },
+    {
+      "DisplayName": "Overkill",
+      "HpCounter": "overkill_s_boss_hp"
+    }
+  ]
+}
